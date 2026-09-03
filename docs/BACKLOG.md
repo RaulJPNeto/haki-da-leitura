@@ -23,21 +23,21 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [ ] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
 
 ### Épico 2: Revisão & Polimento de Telas e UX Mobile (Em Andamento)
-- [ ] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
-- [ ] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
-- [ ] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
-- [ ] **TASK-08:** Revisão da gaveta de regras ([`KeywordDrawer.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/KeywordDrawer.tsx)) e do glossário global ([`GlossaryModal.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/GlossaryModal.tsx)): consistência dos textos explicativos e navegação por toque.
-- [ ] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada e feedback de resultado vazio.
-- [ ] **TASK-10:** Revisão de navegação e controles globais ([`Navigation.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/Navigation.tsx), [`NavigationDrawer.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/NavigationDrawer.tsx), [`PieMenu.tsx`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/src/components/PieMenu.tsx)).
+- [ ] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
+- [ ] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](../src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
+- [ ] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](../src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
+- [ ] **TASK-08:** Revisão da gaveta de regras ([`KeywordDrawer.tsx`](../src/components/KeywordDrawer.tsx)) e do glossário global ([`GlossaryModal.tsx`](../src/components/GlossaryModal.tsx)): consistência dos textos explicativos e navegação por toque.
+- [ ] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada e feedback de resultado vazio.
+- [ ] **TASK-10:** Revisão de navegação e controles globais ([`Navigation.tsx`](../src/components/Navigation.tsx), [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx), [`PieMenu.tsx`](../src/components/PieMenu.tsx)).
 
 ### Épico 3: Deploy & Infraestrutura de Produção
-- [ ] **TASK-11:** Inicializar repositório Git local (`git init`, `.gitignore` e primeiro commit semântico).
+- [x] **TASK-11:** Inicializar repositório Git local (`git init`, `.gitignore` e primeiro commit semântico).
 - [ ] **TASK-12:** Configurar projeto na Vercel ou Cloudflare Pages com build `npm run build` e diretório de saída `dist`.
-- [ ] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
+- [x] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
 - [ ] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção.
 
 ### Épico 4: Refinamento de OCR & Tradução Contínua
-- [ ] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](file:///c:/Users/raulj/Documents/Git/Nova%20pasta/scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
+- [ ] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
 - [ ] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda (reduzir consumo de memória inicial).
 
 ---
