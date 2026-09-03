@@ -1,0 +1,123 @@
+[
+  {
+    "id": "ST23-001",
+    "code": "ST23-001",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "Se você tiver um Personagem com 10000 Poder ou mais, dê esta carta na sua mão −4 custo. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "If you have a Character with 10000 power or more, give this card in your hand −4 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-23",
+    "setName": "RED Shanks"
+  },
+  {
+    "id": "ST23-002",
+    "code": "ST23-002",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "Se o seu oponente tiver um Personagem com 8000 base Poder ou mais, dê esta carta na sua mão −3 custo. [Ao Jogar] Se o seu Líder tiver o tipo {Piratas do Ruivo} ou for [Uta], seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost. [On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-23",
+    "setName": "RED Shanks"
+  },
+  {
+    "id": "ST23-003",
+    "code": "ST23-003",
+    "namePt": "Benn Beckman",
+    "nameEn": "Benn Beckman",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Se o seu Líder tiver o tipo {Piratas do Ruivo}, Dê K.O. em até 1 Personagem(ns) do seu oponente com 4000 ou menos de Poder base.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-23",
+    "setName": "RED Shanks"
+  },
+  {
+    "id": "ST23-004",
+    "code": "ST23-004",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "keywordIds": [],
+    "setId": "ST-23",
+    "setName": "RED Shanks"
+  },
+  {
+    "id": "ST23-005",
+    "code": "ST23-005",
+    "namePt": "Yasopp",
+    "nameEn": "Yasopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-23",
+    "setName": "RED Shanks"
+  }
+]

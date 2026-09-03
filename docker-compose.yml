@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  app-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: haki-da-leitura-dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
+
+  app-prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: haki-da-leitura-prod
+    ports:
+      - "8080:80"
+    restart: unless-stopped

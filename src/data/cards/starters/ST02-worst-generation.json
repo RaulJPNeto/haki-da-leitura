@@ -1,0 +1,419 @@
+[
+  {
+    "id": "ST02-001",
+    "code": "ST02-001",
+    "namePt": "Eustass\"Captain\"Kid",
+    "nameEn": "Eustass\"Captain\"Kid",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: coloque este Líder como ativo.",
+    "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-002",
+    "code": "ST02-002",
+    "namePt": "Vito",
+    "nameEn": "Vito",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas Firetank"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-003",
+    "code": "ST02-003",
+    "namePt": "Urouge",
+    "nameEn": "Urouge",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effectPt": "[DON!! x1] Se você tiver 3 ou mais Personagens, esta carta ganha +2000 de Poder.",
+    "effectEn": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-004",
+    "code": "ST02-004",
+    "namePt": "Capone\"Gang\"Bege",
+    "nameEn": "Capone\"Gang\"Bege",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas Firetank"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-005",
+    "code": "ST02-005",
+    "namePt": "Killer",
+    "nameEn": "Killer",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-006",
+    "code": "ST02-006",
+    "namePt": "Koby",
+    "nameEn": "Koby",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-007",
+    "code": "ST02-007",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[Ativar: Principal] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-008",
+    "code": "ST02-008",
+    "namePt": "Scratchmen Apoo",
+    "nameEn": "Scratchmen Apoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] descanse Até 1 do seu oponente cartas de DON!!.",
+    "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-009",
+    "code": "ST02-009",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Ao Jogar] coloque Até 1 dos seus {Supernovas} ou {Piratas do Coração} tipo descansado(a) Personagens com custo de 5 ou menos as ativo(a).",
+    "effectEn": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-010",
+    "code": "ST02-010",
+    "namePt": "Basil Hawkins",
+    "nameEn": "Basil Hawkins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "[DON!! x1] [1 Vez por Turno] [Seu Turno] Se este Personagem battles do seu oponente Personagem, coloque esta carta como ativa.",
+    "effectEn": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-011",
+    "code": "ST02-011",
+    "namePt": "Heat",
+    "nameEn": "Heat",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Kid"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-012",
+    "code": "ST02-012",
+    "namePt": "Bepo",
+    "nameEn": "Bepo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks",
+      "Piratas do Coração"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-013",
+    "code": "ST02-013",
+    "namePt": "Eustass\"Captain\"Kid",
+    "nameEn": "Eustass\"Captain\"Kid",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Fim do Seu Turno] coloque este Personagem como ativo.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this Character as active.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-014",
+    "code": "ST02-014",
+    "namePt": "X Drake",
+    "nameEn": "X Drake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha",
+      "Supernovas",
+      "Drake Pirates"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Se este Personagem for descansado(a), seu {Supernovas} ou {Marinha} tipo Leaders e Personagens ganha +1000 de Poder.",
+    "effectEn": "[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-015",
+    "code": "ST02-015",
+    "namePt": "Scalpel",
+    "nameEn": "Scalpel",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+    "triggerPt": "[Gatilho] coloque até 2 das suas cartas de DON!! como ativas.",
+    "triggerEn": "[Trigger] Set up to 2 of your DON!! cards as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-016",
+    "code": "ST02-016",
+    "namePt": "Repel",
+    "nameEn": "Repel",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  },
+  {
+    "id": "ST02-017",
+    "code": "ST02-017",
+    "namePt": "Straw Sword",
+    "nameEn": "Straw Sword",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "[Principal] Descanse até 1 Personagem(ns) do seu oponente.",
+    "effectEn": "[Main] Rest up to 1 of your opponent's Characters.",
+    "triggerPt": "[Gatilho] Jogue Até 1 {Supernovas} carta do tipo com custo de 2 ou menos da sua mão.",
+    "triggerEn": "[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-02",
+    "setName": "Worst Generation"
+  }
+]

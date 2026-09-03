@@ -1,0 +1,2924 @@
+[
+  {
+    "id": "OP08-001",
+    "code": "OP08-001",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "LEADER",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê Até 3 dos seus {Animal} ou {Drum Kingdom} tipo Personagens Até 1 descansado(a) DON!! carta cada.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-002",
+    "code": "OP08-002",
+    "namePt": "Marco",
+    "nameEn": "Marco",
+    "cardType": "LEADER",
+    "colors": [
+      "RED",
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[DON!! x1] [Ativar: Principal] [1 Vez por Turno] Compre 1 carta(s) e coloque 1 carta da sua mão no topo ou fundo do seu Deck. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-003",
+    "code": "OP08-003",
+    "namePt": "Twenty Doctors",
+    "nameEn": "Twenty Doctors",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-004",
+    "code": "OP08-004",
+    "namePt": "Kuromarimo",
+    "nameEn": "Kuromarimo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver [Chess], K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectEn": "[On Play] If you have [Chess], K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-005",
+    "code": "OP08-005",
+    "namePt": "Chess",
+    "nameEn": "Chess",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, se você don't tiver [Kuromarimo], jogue Até 1 [Kuromarimo] da sua mão.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, if you don't have [Kuromarimo], play up to 1 [Kuromarimo] from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-006",
+    "code": "OP08-006",
+    "namePt": "Chessmarimo",
+    "nameEn": "Chessmarimo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Seu Turno] Se você tiver [Kuromarimo] e [Chess] na sua lixeira, este Personagem ganha +2000 de Poder.",
+    "effectEn": "[Your Turn] If you have [Kuromarimo] and [Chess] in your trash, this Character gains +2000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-007",
+    "code": "OP08-007",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar]/[Ao Atacar] Olhe as 5 cartas do topo do seu Deck e jogue Até 1 {Animal} tipo carta(s) de Personagem com 4000 ou menos de Poder descansado(a). Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Your Turn] [On Play]/[When Attacking] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with 4000 power or less rested. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-008",
+    "code": "OP08-008",
+    "namePt": "Dalton",
+    "nameEn": "Dalton",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno. [DON!! x1] [Ativar: Principal] [1 Vez por Turno] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn. [DON!! x1] [Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play",
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-009",
+    "code": "OP08-009",
+    "namePt": "Maria Onion Bear",
+    "nameEn": "Maria Onion Bear",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-010",
+    "code": "OP08-010",
+    "namePt": "Hiking Bear",
+    "nameEn": "Hiking Bear",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effectPt": "[DON!! x1] [Ativar: Principal] [1 Vez por Turno] Até 1 dos seus {Animal} tipo Personagens diferente de este Personagem ganha +1000 de Poder durante este turno.",
+    "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-011",
+    "code": "OP08-011",
+    "namePt": "Musshuru",
+    "nameEn": "Musshuru",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Drum Kingdom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-012",
+    "code": "OP08-012",
+    "namePt": "Lapins",
+    "nameEn": "Lapins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] Se o seu Líder tiver o tipo {Drum Kingdom}, K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectEn": "[DON!! x2] [When Attacking] If your Leader has the {Drum Kingdom} type, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-013",
+    "code": "OP08-013",
+    "namePt": "Robson",
+    "nameEn": "Robson",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom"
+    ],
+    "effectPt": "[DON!! x2] este Personagem ganha [Investida]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-014",
+    "code": "OP08-014",
+    "namePt": "Wapol",
+    "nameEn": "Wapol",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, este Personagem ganha +2000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn. Then, this Character gains +2000 power until the end of your opponent's next turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-015",
+    "code": "OP08-015",
+    "namePt": "Dr Kureha",
+    "nameEn": "Dr Kureha",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 4 cartas do topo do seu Deck; revele até 1 [Tony Tony.Chopper] ou {Drum Kingdom} carta do tipo diferente de [Dr.Kureha] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Tony Tony.Chopper] or {Drum Kingdom} type card other than [Dr.Kureha] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-016",
+    "code": "OP08-016",
+    "namePt": "Dr Hiriluk",
+    "nameEn": "Dr Hiriluk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Se o seu Líder for [Tony Tony.Chopper], todos os dos seus [Tony Tony.Chopper] Personagens ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-017",
+    "code": "OP08-017",
+    "namePt": "I'd Never Shoot You!!!!",
+    "nameEn": "I'd Never Shoot You!!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Dê a até 1 cartas de Líder ou Personagem do seu oponente −1000 de Poder durante este turno.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
+    "triggerPt": "[Gatilho] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-018",
+    "code": "OP08-018",
+    "namePt": "Cloven Rose",
+    "nameEn": "Cloven Rose",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Animal",
+      "Drum Kingdom",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Até 3 dos seus Personagens ganha +1000 de Poder durante este turno. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[Main] Up to 3 of your Characters gain +1000 power during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "triggerPt": "[Gatilho] Dê a até 1 cartas de Líder ou Personagem do seu oponente −3000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-019",
+    "code": "OP08-019",
+    "namePt": "Munch-Munch Mutation",
+    "nameEn": "Munch-Munch Mutation",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Principal]/[Contra-Ataque] Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno. Em seguida, Até 1 dos seus Personagens ganha +3000 de Poder durante este turno.",
+    "effectEn": "[Main]/[Counter] Give up to 1 of your opponent's Characters −3000 power during this turn. Then, up to 1 of your Characters gains +3000 power during this turn.",
+    "triggerPt": "[Gatilho] K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-020",
+    "code": "OP08-020",
+    "namePt": "Drum Kingdom",
+    "nameEn": "Drum Kingdom",
+    "cardType": "STAGE",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Drum Kingdom"
+    ],
+    "effectPt": "[Turno do Oponente] todos os dos seus {Drum Kingdom} tipo Personagens ganha +1000 de Poder.",
+    "effectEn": "[Opponent's Turn] All of your {Drum Kingdom} type Characters gain +1000 power.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-021",
+    "code": "OP08-021",
+    "namePt": "Carrot",
+    "nameEn": "Carrot",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se você tiver a {Minks} tipo Personagem, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-022",
+    "code": "OP08-022",
+    "namePt": "Inuarashi",
+    "nameEn": "Inuarashi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Minks}, Até 2 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[On Play] If your Leader has the {Minks} type, up to 2 of your opponent's rested Characters with a cost of 5 or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-023",
+    "code": "OP08-023",
+    "namePt": "Carrot",
+    "nameEn": "Carrot",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Jogar]/[Ao Atacar] Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 7 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[On Play]/[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-024",
+    "code": "OP08-024",
+    "namePt": "Concelot",
+    "nameEn": "Concelot",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Atacar] Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[When Attacking] Up to 1 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-025",
+    "code": "OP08-025",
+    "namePt": "Shishilian",
+    "nameEn": "Shishilian",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[On Play] Up to 1 of your opponent's rested Characters with a cost of 3 or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-026",
+    "code": "OP08-026",
+    "namePt": "Giovanni",
+    "nameEn": "Giovanni",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 1 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[DON!! x1] [When Attacking] Up to 1 of your opponent's rested Characters with a cost of 1 or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-027",
+    "code": "OP08-027",
+    "namePt": "Tristan",
+    "nameEn": "Tristan",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-028",
+    "code": "OP08-028",
+    "namePt": "Nekomamushi",
+    "nameEn": "Nekomamushi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Jogar] Se seu oponente tiver 7 ou mais descansado(a) cartas, este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] If your opponent has 7 or more rested cards, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-029",
+    "code": "OP08-029",
+    "namePt": "Pekoms",
+    "nameEn": "Pekoms",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "Se este Personagem for ativo(a), seu {Minks} tipo Personagens com custo de 3 ou menos diferente de [Pekoms] não pode ser nocauteado por efeitos.",
+    "effectEn": "If this Character is active, your {Minks} type Characters with a cost of 3 or less other than [Pekoms] cannot be K.O.'d by effects.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-030",
+    "code": "OP08-030",
+    "namePt": "Pedro",
+    "nameEn": "Pedro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Escolha um: • descanse Até 1 do seu oponente cartas de DON!!. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 6 ou menos.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Choose one: • Rest up to 1 of your opponent's DON!! cards. • K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-031",
+    "code": "OP08-031",
+    "namePt": "Miyagi",
+    "nameEn": "Miyagi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Jogar] coloque Até 1 dos seus {Minks} tipo Personagens com custo de 2 ou menos as ativo(a).",
+    "effectEn": "[On Play] Set up to 1 of your {Minks} type Characters with a cost of 2 or less as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-032",
+    "code": "OP08-032",
+    "namePt": "Milky",
+    "nameEn": "Milky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Minks}, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-033",
+    "code": "OP08-033",
+    "namePt": "Roddy",
+    "nameEn": "Roddy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Minks} e seu oponente tiver 7 ou mais descansado(a) cartas, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[On Play] If your Leader has the {Minks} type and your opponent has 7 or more rested cards, K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-034",
+    "code": "OP08-034",
+    "namePt": "Wanda",
+    "nameEn": "Wanda",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Minks} carta do tipo diferente de [Wanda] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Minks} type card other than [Wanda] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-035",
+    "code": "OP08-035",
+    "namePt": "BB",
+    "nameEn": "BB",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-036",
+    "code": "OP08-036",
+    "namePt": "Electrical Luna",
+    "nameEn": "Electrical Luna",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Principal] todos os do seu oponente descansado(a) Personagens com custo de 7 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[Main] All of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-037",
+    "code": "OP08-037",
+    "namePt": "Garchu",
+    "nameEn": "Garchu",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Principal] Você pode descanse 1 dos seus {Minks} tipo Personagens: Descanse até 1 Personagem(ns) do seu oponente.",
+    "effectEn": "[Main] You may rest 1 of your {Minks} type Characters: Rest up to 1 of your opponent's Characters.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-038",
+    "code": "OP08-038",
+    "namePt": "We Would Never Sell a Comrade to an Enemy!!!",
+    "nameEn": "We Would Never Sell a Comrade to an Enemy!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Minks",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Principal] Você pode descanse 2 dos seus Personagens: None dos seus Personagens pode ser K.O.'d por um efeito do seu oponentes até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Main] You may rest 2 of your Characters: None of your Characters can be K.O.'d by your opponent's effects until the end of your opponent's next turn.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-039",
+    "code": "OP08-039",
+    "namePt": "Zou",
+    "nameEn": "Zou",
+    "cardType": "STAGE",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Animal"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Palco: Se o seu Líder tiver o tipo {Minks}, coloque até 1 das suas cartas de DON!! como ativas. [Fim do Seu Turno] coloque Até 1 dos seus {Minks} tipo Personagens as ativo(a).",
+    "effectEn": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active. [End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-040",
+    "code": "OP08-040",
+    "namePt": "Atmos",
+    "nameEn": "Atmos",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Se o tipo do seu Líder incluir \"Whitebeard Pirates\", retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono.",
+    "effectEn": "[On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: If your Leader's type includes \"Whitebeard Pirates\", return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-041",
+    "code": "OP08-041",
+    "namePt": "Aphelandra",
+    "nameEn": "Aphelandra",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode retorne este Personagem para a mão do dono: Se o seu Líder tiver o tipo {Piratas Kuja}, coloque Até 1 dos Personagens do seu oponente com custo de 1 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-042",
+    "code": "OP08-042",
+    "namePt": "Edward Weevil",
+    "nameEn": "Edward Weevil",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] retorne até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "effectEn": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-043",
+    "code": "OP08-043",
+    "namePt": "Edward Newgate",
+    "nameEn": "Edward Newgate",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Se o tipo do seu Líder incluir \"Whitebeard Pirates\" e você tiver 2 ou menos cartas de Vida, selecione todos os dos Personagens do seu oponente no campo dele(a). até o fim do próximo turno do seu oponente, none do Personagem selecionados pode atacar unless seu oponente descarta 2 cartas de a mão dele(a) whenever they attack.",
+    "effectEn": "[On Play] If your Leader's type includes \"Whitebeard Pirates\" and you have 2 or less Life cards, select all of your opponent's Characters on their field. Until the end of your opponent's next turn, none of the selected Characters can attack unless your opponent trashes 2 cards from their hand whenever they attack.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-044",
+    "code": "OP08-044",
+    "namePt": "Kingdew",
+    "nameEn": "Kingdew",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: este Personagem ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-045",
+    "code": "OP08-045",
+    "namePt": "Thatch",
+    "nameEn": "Thatch",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente ou K.O.'d, descartar este Personagem e compre 1 carta em vez disso.",
+    "effectEn": "If this Character would be removed from the field by your opponent's effect or K.O.'d, trash this Character and draw 1 card instead.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-046",
+    "code": "OP08-046",
+    "namePt": "Shakuyaku",
+    "nameEn": "Shakuyaku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "[Seu Turno] [1 Vez por Turno] Quando a Personagem for removido(a) de campo por seu efeito, se seu oponente tiver 5 ou mais cartas na mão dele(a), seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a). Em seguida, descanse este Personagem.",
+    "effectEn": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-047",
+    "code": "OP08-047",
+    "namePt": "Jozu",
+    "nameEn": "Jozu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Você pode retorne 1 dos seus Personagens diferente de este Personagem para a mão do dono: retorne até 1 Personagem com custo de 6 ou menos para a mão do dono.",
+    "effectEn": "[On Play] You may return 1 of your Characters other than this Character to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-048",
+    "code": "OP08-048",
+    "namePt": "Sweetpea",
+    "nameEn": "Sweetpea",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-049",
+    "code": "OP08-049",
+    "namePt": "Speed Jil",
+    "nameEn": "Speed Jil",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Revele 1 carta de o topo do seu Deck e coloque ela no topo ou fundo do seu Deck. Se o revelada tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] Reveal 1 card from the top of your deck and place it at the top or bottom of your deck. If the revealed card's type includes \"Whitebeard Pirates\", this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-050",
+    "code": "OP08-050",
+    "namePt": "Namule",
+    "nameEn": "Namule",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Compre 2 carta(s) e coloque 2 cartas da sua mão no topo ou fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-051",
+    "code": "OP08-051",
+    "namePt": "Buckin",
+    "nameEn": "Buckin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Former Rocks Pirates"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Até 1 dos seus [Edward Weevil] cartas ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Your Turn] [On Play] Up to 1 of your [Edward Weevil] cards gains +2000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-052",
+    "code": "OP08-052",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com um tipo que inclua \"Whitebeard Pirates\" e um(a) custo de 4 ou menos. Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectEn": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 4 or less. Then, place the rest at the top or bottom of your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-053",
+    "code": "OP08-053",
+    "namePt": "Thank You   for Loving Me!!",
+    "nameEn": "Thank You   for Loving Me!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", Olhe as 3 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Whitebeard Pirates\" ou [Monkey.D.Luffy] e adicione-a à sua mão. Em seguida, coloque o restante no topo ou fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] If your Leader's type includes \"Whitebeard Pirates\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" or [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the top or bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-054",
+    "code": "OP08-054",
+    "namePt": "You Can't Take Our King This Early in the Game ",
+    "nameEn": "You Can't Take Our King This Early in the Game ",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha. Em seguida, revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com um tipo que inclua \"Whitebeard Pirates\" e um(a) custo de 3 ou menos. Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, reveal 1 card from the top of your deck and play up to 1 Character card with a type including \"Whitebeard Pirates\" and a cost of 3 or less. Then, place the rest at the top or bottom of your deck.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-055",
+    "code": "OP08-055",
+    "namePt": "Phoenix Brand",
+    "nameEn": "Phoenix Brand",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Former Whitebeard Pirates"
+    ],
+    "effectPt": "[Principal] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: coloque Até 1 Personagem com custo de 6 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Place up to 1 Character with a cost of 6 or less at the bottom of the owner's deck.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-056",
+    "code": "OP08-056",
+    "namePt": "Moby Dick",
+    "nameEn": "Moby Dick",
+    "cardType": "STAGE",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Seu Turno] [1 Vez por Turno] Quando seu Personagem com um tipo que inclua \"Whitebeard Pirates\" for removido(a) de campo por um efeito, Compre 1 carta(s). Em seguida, coloque 1 carta da sua mão no topo ou fundo do seu Deck.",
+    "effectEn": "[Your Turn] [Once Per Turn] When your Character with a type including \"Whitebeard Pirates\" is removed from the field by an effect, draw 1 card. Then, place 1 card from your hand at the top or bottom of your deck.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger",
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-057",
+    "code": "OP08-057",
+    "namePt": "King",
+    "nameEn": "King",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE",
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Escolha um: • Se você tiver 5 ou menos cartas na sua mão, Compre 1 carta(s). • Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-058",
+    "code": "OP08-058",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE",
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Atacar] Você pode vire 2 cartas do topo das suas cartas de Vida viradas para cima: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[When Attacking] You may turn 2 cards from the top of your Life cards face-up: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-059",
+    "code": "OP08-059",
+    "namePt": "Alber",
+    "nameEn": "Alber",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Lunarian",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas das Feras} e você tiver 10 cartas de DON!! no seu campo, jogue Até 1 [King] com custo de 7 ou menos da sua mão.",
+    "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-060",
+    "code": "OP08-060",
+    "namePt": "King",
+    "nameEn": "King",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu oponente tiver 5 ou mais cartas de DON!! no campo dele(a), este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 5 or more DON!! cards on their field, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-061",
+    "code": "OP08-061",
+    "namePt": "Charlotte Oven",
+    "nameEn": "Charlotte Oven",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-062",
+    "code": "OP08-062",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas da Big Mom}, jogue Até 1 [Charlotte Katakuri] da sua mão com custo de 3 ou mais que for igual a ou menos do que o número de cartas de DON!! on do seu oponente campo.",
+    "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-063",
+    "code": "OP08-063",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode vire 1 carta do topo das suas cartas de Vida viradas para baixo: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[On Play] You may turn 1 card from the top of your Life cards face-down: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-064",
+    "code": "OP08-064",
+    "namePt": "Charlotte Cracker",
+    "nameEn": "Charlotte Cracker",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Biscuit Warrior] da sua mão.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Biscuit Warrior] from your hand.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-065",
+    "code": "OP08-065",
+    "namePt": "Charlotte Smoothie",
+    "nameEn": "Charlotte Smoothie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-066",
+    "code": "OP08-066",
+    "namePt": "Charlotte Brulee",
+    "nameEn": "Charlotte Brulee",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-067",
+    "code": "OP08-067",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Seu Turno] [1 Vez por Turno] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-068",
+    "code": "OP08-068",
+    "namePt": "Charlotte Perospero",
+    "nameEn": "Charlotte Perospero",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Ser K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "triggerPt": "[Gatilho] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
+    "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
+    "keywordIds": [
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-069",
+    "code": "OP08-069",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Former Rocks Pirates",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1, Você pode descartar 1 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, adicione Até 1 dos Personagens do seu oponente com custo de 6 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectEn": "[On Play] DON!! −1, You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, add up to 1 of your opponent's Characters with a cost of 6 or less to the top or bottom of your opponent's Life cards face-up.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-070",
+    "code": "OP08-070",
+    "namePt": "Baron Tamago",
+    "nameEn": "Baron Tamago",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Viscount Hiyoko] com custo de 5 ou menos da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-071",
+    "code": "OP08-071",
+    "namePt": "Count Niwatori",
+    "nameEn": "Count Niwatori",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Turno do Oponente] [Ao Ser K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Baron Tamago] com custo de 4 ou menos do seu Deck. Em seguida, embaralhe seu Deck.",
+    "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-072",
+    "code": "OP08-072",
+    "namePt": "Biscuit Warrior",
+    "nameEn": "Biscuit Warrior",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "De acordo com as regras deste jogo, Você pode tiver qualquer número de esta carta no seu Deck. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "Under the rules of this game, you may have any number of this card in your deck. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-073",
+    "code": "OP08-073",
+    "namePt": "Viscount Hiyoko",
+    "nameEn": "Viscount Hiyoko",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Turno do Oponente] [Ao Ser K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Count Niwatori] com custo de 6 ou menos do seu Deck. Em seguida, embaralhe seu Deck.",
+    "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-074",
+    "code": "OP08-074",
+    "namePt": "Black Maria",
+    "nameEn": "Black Maria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se você não tiver outros Personagens [preto(a) Maria], adicione Até 5 cartas de DON!! do seu Deck de DON!! e descanse elas. Em seguida, no final deste turno, retorne cartas de DON!! do seu campo para o seu Deck de DON!! até você tiver o same número de cartas de DON!! no seu campo as seu oponente.",
+    "effectEn": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-075",
+    "code": "OP08-075",
+    "namePt": "Candy Maiden",
+    "nameEn": "Candy Maiden",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. Em seguida, Vire todas as suas cartas de Vida para baixo.",
+    "effectEn": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 2 or less. Then, turn all of your Life cards face-down.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-076",
+    "code": "OP08-076",
+    "namePt": "It's to Die For   ",
+    "nameEn": "It's to Die For   ",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. Em seguida, Se o seu oponente tiver um Personagem com 6000 Poder ou mais, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if your opponent has a Character with 6000 power or more, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-077",
+    "code": "OP08-077",
+    "namePt": "Conquest of the Sea",
+    "nameEn": "Conquest of the Sea",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Piratas das Feras} ou {Piratas da Big Mom}, Dê K.O. em até 2 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectEn": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, K.O. up to 2 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-078",
+    "code": "OP08-078",
+    "namePt": "Ulti",
+    "nameEn": "Ulti",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-079",
+    "code": "OP08-079",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Former Rocks Pirates",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 carta(s) da sua mão: Se este Personagem foi jogado on este turno, descartar Até 1 dos Personagens do seu oponente com custo de 7 ou menos. Em seguida, seu oponente descarta 1 carta(s) da mão dele.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-080",
+    "code": "OP08-080",
+    "namePt": "Queen",
+    "nameEn": "Queen",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas das Feras} carta do tipo diferente de [Queen] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Queen] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-081",
+    "code": "OP08-081",
+    "namePt": "Guernica",
+    "nameEn": "Guernica",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Atacar] Você pode colocar 3 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectEn": "[When Attacking] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-082",
+    "code": "OP08-082",
+    "namePt": "Sasaki",
+    "nameEn": "Sasaki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] descanse 1 das suas cartas de DON!! e Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-083",
+    "code": "OP08-083",
+    "namePt": "Sheepshead",
+    "nameEn": "Sheepshead",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Dê todos os dos Personagens do seu oponente −1 custo.",
+    "effectEn": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-084",
+    "code": "OP08-084",
+    "namePt": "Jack",
+    "nameEn": "Jack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "este Personagem ganha +4 de custo. [Ativar: Principal] Você pode descansar este Personagem: Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "This Character gains +4 cost. [Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-085",
+    "code": "OP08-085",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se você tiver um Personagem com custo de 8 ou mais, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-086",
+    "code": "OP08-086",
+    "namePt": "Ginrummy",
+    "nameEn": "Ginrummy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu oponente tiver um Personagem com custo de 0, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "[On Play] If your opponent has a Character with a cost of 0, draw 2 cards and trash 2 cards from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-087",
+    "code": "OP08-087",
+    "namePt": "Scratchmen Apoo",
+    "nameEn": "Scratchmen Apoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas das Feras",
+      "On-Air Pirates"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ativar: Principal] [1 Vez por Turno] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-088",
+    "code": "OP08-088",
+    "namePt": "Duval",
+    "nameEn": "Duval",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "The Flying Fish Riders"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 dos seus Personagens ganha +1 de custo até o fim do próximo turno do seu oponente.",
+    "effectEn": "[On Play] Up to 1 of your Characters gains +1 cost until the end of your opponent's next turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-089",
+    "code": "OP08-089",
+    "namePt": "Basil Hawkins",
+    "nameEn": "Basil Hawkins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-090",
+    "code": "OP08-090",
+    "namePt": "Hamlet",
+    "nameEn": "Hamlet",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Ao Jogar] Jogue Até 1 {SMILE} tipo carta(s) de Personagem com custo de 2 ou menos da sua lixeira.",
+    "effectEn": "[On Play] Play up to 1 {SMILE} type Character card with a cost of 2 or less from your trash.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-091",
+    "code": "OP08-091",
+    "namePt": "Who's Who",
+    "nameEn": "Who's Who",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "Former CP9"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-092",
+    "code": "OP08-092",
+    "namePt": "Page One",
+    "nameEn": "Page One",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] Jogue Até 1 [Ulti] com custo de 4 ou menos da sua lixeira.",
+    "effectEn": "[On Play] Play up to 1 [Ulti] with a cost of 4 or less from your trash.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-093",
+    "code": "OP08-093",
+    "namePt": "X Drake",
+    "nameEn": "X Drake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha",
+      "Drake Pirates",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +2 de custo.",
+    "effectEn": "[DON!! x1] This Character gains +2 cost.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-094",
+    "code": "OP08-094",
+    "namePt": "Imperial Flame",
+    "nameEn": "Imperial Flame",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Principal]/[Contra-Ataque] Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Main]/[Counter] You may place 3 cards from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-095",
+    "code": "OP08-095",
+    "namePt": "Iron Body Fang Flash",
+    "nameEn": "Iron Body Fang Flash",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras",
+      "Former CP9"
+    ],
+    "effectPt": "[Principal] Se você tiver 10 ou mais cartas na sua lixeira, Até 1 dos seus Personagens ganha +2000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Main] If you have 10 or more cards in your trash, up to 1 of your Characters gains +2000 power until the end of your opponent's next turn.",
+    "triggerPt": "[Gatilho] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-096",
+    "code": "OP08-096",
+    "namePt": "People's Dreams Don't Ever End!!",
+    "nameEn": "People's Dreams Don't Ever End!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Contra-Ataque] descarte 1 carta(s) do topo do seu Deck. Se o descartada carta tiver a custo de 6 ou mais, Até 1 carta(s) de Líder ou Personagem ganha +5000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] Trash 1 card from the top of your deck. If the trashed card has a cost of 6 or more, up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "triggerPt": "[Gatilho] Jogue Até 1 preto(a) carta(s) de Personagem com custo de 3 ou menos da sua lixeira.",
+    "triggerEn": "[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-097",
+    "code": "OP08-097",
+    "namePt": "Heliceratops",
+    "nameEn": "Heliceratops",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Principal] Se o seu Líder tiver o tipo {Piratas das Feras}, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectEn": "[Main] If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-098",
+    "code": "OP08-098",
+    "namePt": "Kalgara",
+    "nameEn": "Kalgara",
+    "cardType": "LEADER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Jaya",
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Jogue Até 1 {Shandian Warrior} tipo carta(s) de Personagem da sua mão com a custo igual a ou menos do que o número de cartas de DON!! no seu campo. Se fizer isso, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectEn": "[DON!! x1] [When Attacking] Play up to 1 {Shandian Warrior} type Character card from your hand with a cost equal to or less than the number of DON!! cards on your field. If you do, add 1 card from the top of your Life cards to your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-099",
+    "code": "OP08-099",
+    "namePt": "Kalgara",
+    "nameEn": "Kalgara",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Jaya",
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-100",
+    "code": "OP08-100",
+    "namePt": "South Bird",
+    "nameEn": "South Bird",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Jaya",
+      "Sky Island"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 7 cartas do topo do seu Deck e jogue Até 1 [Upper Yard]. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 7 cards from the top of your deck and play up to 1 [Upper Yard]. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-101",
+    "code": "OP08-101",
+    "namePt": "Charlotte Angel",
+    "nameEn": "Charlotte Angel",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 carta do topo das suas cartas de Vida: Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida no final deste turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-102",
+    "code": "OP08-102",
+    "namePt": "Charlotte Opera",
+    "nameEn": "Charlotte Opera",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que seu número de cartas de Vida.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than your number of Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-103",
+    "code": "OP08-103",
+    "namePt": "Charlotte Custard",
+    "nameEn": "Charlotte Custard",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Até 1 dos seus Personagens ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-104",
+    "code": "OP08-104",
+    "namePt": "Charlotte Poire",
+    "nameEn": "Charlotte Poire",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta. Em seguida, Compre 1 carta(s).",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card. Then, draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-105",
+    "code": "OP08-105",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] [1 Vez por Turno] Quando a carta for removido(a) da sua oponente's cartas de Vida, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[DON!! x1] [Your Turn] [Once Per Turn] When a card is removed from your opponent's Life cards, draw 2 cards and trash 1 card from your hand.",
+    "triggerPt": "[Gatilho] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "trigger",
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-106",
+    "code": "OP08-106",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) com [Gatilho] da sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, Se você tiver 3 ou menos cartas na sua mão, Compre 1 carta(s).",
+    "effectEn": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less. Then, if you have 3 or less cards in your hand, draw 1 card.",
+    "triggerPt": "[Gatilho] ative esta carta's [Ao Jogar] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [On Play] effect.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-107",
+    "code": "OP08-107",
+    "namePt": "Nitro",
+    "nameEn": "Nitro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Pudding] cartas ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-108",
+    "code": "OP08-108",
+    "namePt": "Mont Blanc Cricket",
+    "nameEn": "Mont Blanc Cricket",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Jaya",
+      "Monkey Mountain Alliance"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-109",
+    "code": "OP08-109",
+    "namePt": "Mont Blanc Noland",
+    "nameEn": "Mont Blanc Noland",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Jaya",
+      "Botanist"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Shandian Warrior} e você tiver a [Kalgara] Personagem, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[On Play] If your Leader has the {Shandian Warrior} type and you have a [Kalgara] Character, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-110",
+    "code": "OP08-110",
+    "namePt": "Wyper",
+    "nameEn": "Wyper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 [Upper Yard] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem e jogue Até 1 [Upper Yard] da sua mão.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 [Upper Yard] and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 [Upper Yard] from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-111",
+    "code": "OP08-111",
+    "namePt": "S-Shark",
+    "nameEn": "S-Shark",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] seu oponente não pode ativar [Bloqueador] durante esta batalha.",
+    "effectEn": "[DON!! x1] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
+    "keywordIds": [
+      "blocker",
+      "when-attacking",
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-112",
+    "code": "OP08-112",
+    "namePt": "S-Snake",
+    "nameEn": "S-Snake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 dos Personagens do seu oponente com custo de 6 ou menos diferente de [Monkey.D.Luffy] não pode atacar até o fim do próximo turno do seu oponente.",
+    "effectEn": "[On Play] Up to 1 of your opponent's Characters with a cost of 6 or less other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn.",
+    "triggerPt": "[Gatilho] ative esta carta's [Ao Jogar] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [On Play] effect.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-113",
+    "code": "OP08-113",
+    "namePt": "S-Bear",
+    "nameEn": "S-Bear",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta e Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-114",
+    "code": "OP08-114",
+    "namePt": "S-Hawk",
+    "nameEn": "S-Hawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Egghead",
+      "Seraphim"
+    ],
+    "effectPt": "[DON!! x1] Se você tiver menos cartas de Vida do que seu oponente, este Personagem não pode ser nocauteado em batalha por <Corte> atributo cartas e ganha +2000 de Poder.",
+    "effectEn": "[DON!! x1] If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle by <Slash> attribute cards and gains +2000 power.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-115",
+    "code": "OP08-115",
+    "namePt": "The Earth Will Not Lose!",
+    "nameEn": "The Earth Will Not Lose!",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "[Contra-Ataque] Se o seu Líder tiver o tipo {Shandian Warrior}, Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha. Em seguida, jogue Até 1 [Upper Yard] da sua mão.",
+    "effectEn": "[Counter] If your Leader has the {Shandian Warrior} type, up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, play up to 1 [Upper Yard] from your hand.",
+    "triggerPt": "[Gatilho] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-116",
+    "code": "OP08-116",
+    "namePt": "Burn Bazooka",
+    "nameEn": "Burn Bazooka",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão. Se fizer isso, adicione Até 1 {Shandian Warrior} carta do tipo da sua mão para o topo das suas cartas de Vida viradas para cima.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, add up to 1 {Shandian Warrior} type card from your hand to the top of your Life cards face-up.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-117",
+    "code": "OP08-117",
+    "namePt": "Burn Blade",
+    "nameEn": "Burn Blade",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sky Island",
+      "Shandian Warrior"
+    ],
+    "effectPt": "[Principal] Você pode descartar 1 carta do topo das suas cartas de Vida: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 7 ou menos.",
+    "effectEn": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 7 or less.",
+    "triggerPt": "[Gatilho] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
+    "triggerEn": "[Trigger] You may add 1 card from the top of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-118",
+    "code": "OP08-118",
+    "namePt": "Silvers Rayleigh",
+    "nameEn": "Silvers Rayleigh",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Former Roger Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Selecione Até 2 dos Personagens do seu oponente, e dê 1 Personagem −3000 Poder e o outro(a) −2000 Poder até o fim do próximo turno do seu oponente. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectEn": "[On Play] Select up to 2 of your opponent's Characters, and give 1 Character −3000 power and the other −2000 power until the end of your opponent's next turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  },
+  {
+    "id": "OP08-119",
+    "code": "OP08-119",
+    "namePt": "Kaido &amp; Linlin",
+    "nameEn": "Kaido &amp; Linlin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −10: K.O. todos os Personagens diferente de este Personagem. Em seguida, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida e descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[When Attacking] DON!! −10: K.O. all Characters other than this Character. Then, add up to 1 card from the top of your deck to the top of your Life cards and trash up to 1 card from the top of your opponent's Life cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-08",
+    "setName": "TWO LEGENDS"
+  }
+]

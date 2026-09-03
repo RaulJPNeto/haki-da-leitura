@@ -1,0 +1,413 @@
+[
+  {
+    "id": "ST21-001",
+    "code": "ST21-001",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "LEADER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ativar: Principal] [1 Vez por Turno] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
+    "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-002",
+    "code": "ST21-002",
+    "namePt": "Usopp",
+    "nameEn": "Usopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] [Turno do Oponente] este Personagem ganha +2000 de Poder.",
+    "effectEn": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-003",
+    "code": "ST21-003",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens com 6000 ou mais de Poder. Se o Personagem selecionado attacks durante este turno, seu oponente não pode ativar [Bloqueador].",
+    "effectEn": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-004",
+    "code": "ST21-004",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[DON!! x2] [Ao Ser K.O.] Compre 1 carta(s).",
+    "effectEn": "[DON!! x2] [On K.O.] Draw 1 card.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-005",
+    "code": "ST21-005",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-006",
+    "code": "ST21-006",
+    "namePt": "Stussy",
+    "nameEn": "Stussy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-007",
+    "code": "ST21-007",
+    "namePt": "Sentomaru",
+    "nameEn": "Sentomaru",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Egghead",
+      "Marinha"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-008",
+    "code": "ST21-008",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-009",
+    "code": "ST21-009",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-010",
+    "code": "ST21-010",
+    "namePt": "Nico Robin",
+    "nameEn": "Nico Robin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectEn": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-011",
+    "code": "ST21-011",
+    "namePt": "Franky",
+    "nameEn": "Franky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] [Turno do Oponente] todos os dos seus {Bando do Chapéu de Palha} tipo Personagens com 4000 base Poder ou menos ganha +1000 de Poder.",
+    "effectEn": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-012",
+    "code": "ST21-012",
+    "namePt": "Brook",
+    "nameEn": "Brook",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Atacar] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-013",
+    "code": "ST21-013",
+    "namePt": "Vegapunk",
+    "nameEn": "Vegapunk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-014",
+    "code": "ST21-014",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.) [Ao Atacar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "rush",
+      "when-attacking"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-015",
+    "code": "ST21-015",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] este Personagem ganha [Investida]. [Ao Ser K.O.] Jogue Até 1 vermelho(a) carta(s) de Personagem com 6000 ou menos de Poder diferente de [Roronoa Zoro] da sua mão.",
+    "effectEn": "[DON!! x2] This Character gains [Rush]. [On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
+    "keywordIds": [
+      "rush",
+      "on-ko"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-016",
+    "code": "ST21-016",
+    "namePt": "Gum-Gum Dawn Whip",
+    "nameEn": "Gum-Gum Dawn Whip",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno. Em seguida, Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder não pode ativar [Bloqueador] durante este turno.",
+    "effectEn": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
+    "triggerPt": "[Gatilho] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  },
+  {
+    "id": "ST21-017",
+    "code": "ST21-017",
+    "namePt": "Gum-Gum Mole Pistol",
+    "nameEn": "Gum-Gum Mole Pistol",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Dê a até 1 Personagem(ns) do seu oponente −5000 de Poder durante este turno. Em seguida, Se você tiver um Personagem com 6000 Poder ou mais, K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
+    "effectEn": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-21",
+    "setName": "GEAR5"
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": "ST07-001",
+    "code": "ST07-001",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "LEADER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Se você tiver 2 ou menos cartas de Vida, adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
+    "effectEn": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-002",
+    "code": "ST07-002",
+    "namePt": "Charlotte Anana",
+    "nameEn": "Charlotte Anana",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-003",
+    "code": "ST07-003",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, se você tiver menos cartas de Vida do que seu oponente, este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-004",
+    "code": "ST07-004",
+    "namePt": "Charlotte Snack",
+    "nameEn": "Charlotte Snack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha [Banimento] e +1000 Poder durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "when-attacking",
+      "banish"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-005",
+    "code": "ST07-005",
+    "namePt": "Charlotte Daifuku",
+    "nameEn": "Charlotte Daifuku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-006",
+    "code": "ST07-006",
+    "namePt": "Charlotte Flampe",
+    "nameEn": "Charlotte Flampe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-007",
+    "code": "ST07-007",
+    "namePt": "Charlotte Brulee",
+    "nameEn": "Charlotte Brulee",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-008",
+    "code": "ST07-008",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
+    "effectEn": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-009",
+    "code": "ST07-009",
+    "namePt": "Charlotte Mont-d'or",
+    "nameEn": "Charlotte Mont-d'or",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descanse este Personagem e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-010",
+    "code": "ST07-010",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectEn": "[On Play] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-011",
+    "code": "ST07-011",
+    "namePt": "Zeus",
+    "nameEn": "Zeus",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Banimento] durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger",
+      "banish"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-012",
+    "code": "ST07-012",
+    "namePt": "Baron Tamago",
+    "nameEn": "Baron Tamago",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-013",
+    "code": "ST07-013",
+    "namePt": "Prometheus",
+    "nameEn": "Prometheus",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn. (This card deals 2 damage.)",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger",
+      "double-attack"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-014",
+    "code": "ST07-014",
+    "namePt": "Pekoms",
+    "nameEn": "Pekoms",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-015",
+    "code": "ST07-015",
+    "namePt": "Soul Pocus",
+    "nameEn": "Soul Pocus",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectEn": "[Main] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-016",
+    "code": "ST07-016",
+    "namePt": "Power Mochi",
+    "nameEn": "Power Mochi",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Contra-Ataque] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "triggerPt": "[Gatilho] Compre 1 carta, olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
+    "triggerEn": "[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  },
+  {
+    "id": "ST07-017",
+    "code": "ST07-017",
+    "namePt": "Queen Mama Chanter",
+    "nameEn": "Queen Mama Chanter",
+    "cardType": "STAGE",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descanse este Palco e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos seus Personagens com custo de 3 para o topo do cartas de Vida do dono virada(s) para cima.",
+    "effectEn": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
+    "keywordIds": [],
+    "setId": "ST-07",
+    "setName": "Big Mom Pirates"
+  }
+]

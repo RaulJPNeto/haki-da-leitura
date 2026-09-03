@@ -1,0 +1,412 @@
+[
+  {
+    "id": "ST04-001",
+    "code": "ST04-001",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −7 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): descartar Até 1 do cartas de Vida do seu oponente.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-002",
+    "code": "ST04-002",
+    "namePt": "Ulti",
+    "nameEn": "Ulti",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Page um] carta com custo de 4 ou menos da sua mão.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-003",
+    "code": "ST04-003",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −5 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 6 ou menos. este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-004",
+    "code": "ST04-004",
+    "namePt": "King",
+    "nameEn": "King",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-005",
+    "code": "ST04-005",
+    "namePt": "Queen",
+    "nameEn": "Queen",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-006",
+    "code": "ST04-006",
+    "namePt": "Sasaki",
+    "nameEn": "Sasaki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 1 carta(s).",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-007",
+    "code": "ST04-007",
+    "namePt": "Sheepshead",
+    "nameEn": "Sheepshead",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "Smile"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-008",
+    "code": "ST04-008",
+    "namePt": "Jack",
+    "nameEn": "Jack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-009",
+    "code": "ST04-009",
+    "namePt": "Ginrummy",
+    "nameEn": "Ginrummy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras",
+      "Smile"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-010",
+    "code": "ST04-010",
+    "namePt": "Who's Who",
+    "nameEn": "Who's Who",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-011",
+    "code": "ST04-011",
+    "namePt": "Black Maria",
+    "nameEn": "Black Maria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-012",
+    "code": "ST04-012",
+    "namePt": "Page One",
+    "nameEn": "Page One",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-013",
+    "code": "ST04-013",
+    "namePt": "X Drake",
+    "nameEn": "X Drake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha",
+      "Drake Pirates",
+      "Piratas das Feras"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-014",
+    "code": "ST04-014",
+    "namePt": "Lead Performer \"Disaster\"",
+    "nameEn": "Lead Performer \"Disaster\"",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Principal] Compre 1 carta, Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-015",
+    "code": "ST04-015",
+    "namePt": "Brachio Bomber",
+    "nameEn": "Brachio Bomber",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Principal] K.O. Até 1 dos Personagens do seu oponente com custo de 6 ou menos, Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-016",
+    "code": "ST04-016",
+    "namePt": "Blast Breath",
+    "nameEn": "Blast Breath",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Contra-Ataque] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  },
+  {
+    "id": "ST04-017",
+    "code": "ST04-017",
+    "namePt": "Onigashima Island",
+    "nameEn": "Onigashima Island",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Palco: Se o seu Líder tiver o tipo {Piratas das Feras}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [],
+    "setId": "ST-04",
+    "setName": "Animal Kingdom Pirates"
+  }
+]

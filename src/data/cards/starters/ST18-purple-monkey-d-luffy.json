@@ -1,0 +1,124 @@
+[
+  {
+    "id": "ST18-001",
+    "code": "ST18-001",
+    "namePt": "Uso-Hachi",
+    "nameEn": "Uso-Hachi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 8 ou mais cartas de DON!! no seu campo, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[On Play] If you have 8 or more DON!! cards on your field, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-18",
+    "setName": "Purple Monkey.D.Luffy"
+  },
+  {
+    "id": "ST18-002",
+    "code": "ST18-002",
+    "namePt": "O-Nami",
+    "nameEn": "O-Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Se você tiver 8 ou mais cartas de DON!! no seu campo, descarte 1 carta(s) da sua mão e Compre 2 carta(s).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 8 or more DON!! cards on your field, trash 1 card from your hand and draw 2 cards.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-18",
+    "setName": "Purple Monkey.D.Luffy"
+  },
+  {
+    "id": "ST18-003",
+    "code": "ST18-003",
+    "namePt": "San-Gorou",
+    "nameEn": "San-Gorou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Atacar] [1 Vez por Turno] Se você tiver 8 ou mais cartas de DON!! no seu campo, Compre 1 carta(s).",
+    "effectEn": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "ST-18",
+    "setName": "Purple Monkey.D.Luffy"
+  },
+  {
+    "id": "ST18-004",
+    "code": "ST18-004",
+    "namePt": "Zoro-Juurou",
+    "nameEn": "Zoro-Juurou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 roxo(a) {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 purple {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-18",
+    "setName": "Purple Monkey.D.Luffy"
+  },
+  {
+    "id": "ST18-005",
+    "code": "ST18-005",
+    "namePt": "Luffy-Tarou",
+    "nameEn": "Luffy-Tarou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 roxo(a) {Bando do Chapéu de Palha} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 purple {Straw Hat Crew} type Character card with a cost of 5 or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-18",
+    "setName": "Purple Monkey.D.Luffy"
+  }
+]

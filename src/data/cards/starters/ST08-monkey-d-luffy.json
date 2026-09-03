@@ -1,0 +1,354 @@
+[
+  {
+    "id": "ST08-001",
+    "code": "ST08-001",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "LEADER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Seu Turno] Quando um Personagem for nocauteado, dê Até 1 descansado(a) DON!! carta para este Líder.",
+    "effectEn": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-002",
+    "code": "ST08-002",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por Leaders. [Ativar: Principal] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-003",
+    "code": "ST08-003",
+    "namePt": "Gaimon",
+    "nameEn": "Gaimon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-004",
+    "code": "ST08-004",
+    "namePt": "Koby",
+    "nameEn": "Koby",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-005",
+    "code": "ST08-005",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-006",
+    "code": "ST08-006",
+    "namePt": "Shirahoshi",
+    "nameEn": "Shirahoshi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-007",
+    "code": "ST08-007",
+    "namePt": "Nefeltari Vivi",
+    "nameEn": "Nefeltari Vivi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-008",
+    "code": "ST08-008",
+    "namePt": "Higuma",
+    "nameEn": "Higuma",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bandidos da Montanha"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-009",
+    "code": "ST08-009",
+    "namePt": "Makino",
+    "nameEn": "Makino",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Vila Moinho de Vento"
+    ],
+    "effectPt": "[Ao Jogar] Se houver um Personagem com a custo de 0, Compre 1 carta(s).",
+    "effectEn": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-010",
+    "code": "ST08-010",
+    "namePt": "Monkey D Garp",
+    "nameEn": "Monkey D Garp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-011",
+    "code": "ST08-011",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-012",
+    "code": "ST08-012",
+    "namePt": "Laboon",
+    "nameEn": "Laboon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-013",
+    "code": "ST08-013",
+    "namePt": "Mr 2 Bon Kurei(Bentham)",
+    "nameEn": "Mr 2 Bon Kurei(Bentham)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Former Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem battles do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você battled com. Se fizer isso, K.O. este Personagem.",
+    "effectEn": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
+    "keywordIds": [],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-014",
+    "code": "ST08-014",
+    "namePt": "Gum-Gum Bell",
+    "nameEn": "Gum-Gum Bell",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Dê a até 1 Personagem(ns) do seu oponente −7 de custo durante este turno.",
+    "effectEn": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
+    "triggerPt": "[Gatilho] adicione Até 1 preto(a) carta(s) de Personagem com custo de 2 ou menos da sua lixeira para a sua mão.",
+    "triggerEn": "[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  },
+  {
+    "id": "ST08-015",
+    "code": "ST08-015",
+    "namePt": "Gum-Gum Pistol",
+    "nameEn": "Gum-Gum Pistol",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-08",
+    "setName": "Monkey D. Luffy"
+  }
+]

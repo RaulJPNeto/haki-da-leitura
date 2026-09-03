@@ -1,0 +1,124 @@
+[
+  {
+    "id": "ST16-001",
+    "code": "ST16-001",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn"
+    ],
+    "setId": "ST-16",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "ST16-002",
+    "code": "ST16-002",
+    "namePt": "Gordon",
+    "nameEn": "Gordon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [No Ataque do Oponente] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha for every carta descartada.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-16",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "ST16-003",
+    "code": "ST16-003",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {FILM} e você tiver 6 ou mais descansado(a) cartas, este Personagem ganha +2000 de Poder.",
+    "effectEn": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
+    "keywordIds": [],
+    "setId": "ST-16",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "ST16-004",
+    "code": "ST16-004",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 9,
+    "power": 11000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente.",
+    "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-16",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "ST16-005",
+    "code": "ST16-005",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "Se você tiver a descansado(a) [Uta], este Personagem ganha +1000 de Poder.",
+    "effectEn": "If you have a rested [Uta], this Character gains +1000 power.",
+    "keywordIds": [],
+    "setId": "ST-16",
+    "setName": "Green Uta"
+  }
+]

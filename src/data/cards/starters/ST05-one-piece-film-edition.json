@@ -1,0 +1,424 @@
+[
+  {
+    "id": "ST05-001",
+    "code": "ST05-001",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): todos os dos seus {FILM} tipo Personagens ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your {FILM} type Characters gain +2000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-002",
+    "code": "ST05-002",
+    "namePt": "Ain",
+    "nameEn": "Ain",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Neo Marinha"
+    ],
+    "effectPt": "[Ao Jogar] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-003",
+    "code": "ST05-003",
+    "namePt": "Ann",
+    "nameEn": "Ann",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-004",
+    "code": "ST05-004",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Bloquear] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-005",
+    "code": "ST05-005",
+    "namePt": "Carina",
+    "nameEn": "Carina",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descanse este Personagem e descartar 1 {FILM} carta do tipo da sua mão: Se seu oponente tiver mais cartas de DON!! no campo dele(a) do que você, adicione 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 {FILM} type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-006",
+    "code": "ST05-006",
+    "namePt": "Gild Tesoro",
+    "nameEn": "Gild Tesoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s).",
+    "effectEn": "[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-007",
+    "code": "ST05-007",
+    "namePt": "Gordon",
+    "nameEn": "Gordon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-008",
+    "code": "ST05-008",
+    "namePt": "Shiki",
+    "nameEn": "Shiki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effectPt": "Se você tiver 8 ou mais cartas de DON!! no seu campo, este Personagem não pode ser nocauteado em batalha.",
+    "effectEn": "If you have 8 or more DON!! cards on your field, this Character cannot be K.O.'d in battle.",
+    "keywordIds": [],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-009",
+    "code": "ST05-009",
+    "namePt": "Scarlet",
+    "nameEn": "Scarlet",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Animal",
+      "Golden Lion Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-010",
+    "code": "ST05-010",
+    "namePt": "Zephyr",
+    "nameEn": "Zephyr",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Neo Marinha"
+    ],
+    "effectPt": "Quando este Personagem battles ＜Strike＞ atributo Personagens, este Personagem ganha +3000 de Poder durante este turno. [Ativar: Principal] [1 Vez por Turno] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +2000 de Poder durante este turno.",
+    "effectEn": "When this Character battles ＜Strike＞ attribute Characters, this Character gains +3000 power during this turn. [Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-011",
+    "code": "ST05-011",
+    "namePt": "Douglas Bullet",
+    "nameEn": "Douglas Bullet",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 2 Personagem(ns) do seu oponente com custo de 6 ou menos. Em seguida, este Personagem ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
+    "keywordIds": [
+      "double-attack",
+      "once-per-turn"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-012",
+    "code": "ST05-012",
+    "namePt": "Baccarat",
+    "nameEn": "Baccarat",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-013",
+    "code": "ST05-013",
+    "namePt": "Bins",
+    "nameEn": "Bins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Neo Marinha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-014",
+    "code": "ST05-014",
+    "namePt": "Buena Festa",
+    "nameEn": "Buena Festa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {FILM} carta do tipo diferente de [Buena Festa] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Buena Festa] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-015",
+    "code": "ST05-015",
+    "namePt": "Dr  Indigo",
+    "nameEn": "Dr  Indigo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM",
+      "Cientista",
+      "Golden Lion Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-016",
+    "code": "ST05-016",
+    "namePt": "Lion's Threat Imperial Earth Bind",
+    "nameEn": "Lion's Threat Imperial Earth Bind",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "FILM",
+      "Golden Lion Pirates"
+    ],
+    "effectPt": "[Principal] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  },
+  {
+    "id": "ST05-017",
+    "code": "ST05-017",
+    "namePt": "Union Armada",
+    "nameEn": "Union Armada",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "FILM",
+      "The Pirates Fest"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 dos seus {FILM} tipo Líder ou carta(s) de Personagem ganha +4000 de Poder durante esta batalha. Se que carta for a Personagem, que Personagem não pode ser nocauteado durante este turno.",
+    "effectEn": "[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "ST-05",
+    "setName": "ONE PIECE FILM edition"
+  }
+]

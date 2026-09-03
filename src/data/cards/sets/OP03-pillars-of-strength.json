@@ -1,0 +1,3035 @@
+[
+  {
+    "id": "OP03-001",
+    "code": "OP03-001",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "LEADER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "Quando este Líder atacar ou for atacado, Você pode descartar qualquer número de cartas de Evento ou Palco da sua mão. este Líder ganha +1000 de Poder durante esta batalha for every carta descartada.",
+    "effectEn": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-002",
+    "code": "OP03-002",
+    "namePt": "Adio",
+    "nameEn": "Adio",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] seu oponente não pode ativar a [Bloqueador] Personagem que tiver 2000 ou menos Poder durante esta batalha.",
+    "effectEn": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+    "keywordIds": [
+      "blocker",
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-003",
+    "code": "OP03-003",
+    "namePt": "Izo",
+    "nameEn": "Izo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "País de Wano",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Whitebeard Pirates\" diferente de [Izo] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-004",
+    "code": "OP03-004",
+    "namePt": "Curiel",
+    "nameEn": "Curiel",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "este Personagem não pode atacar a Líder no turno em que é jogada. [DON!! x1] este Personagem ganha [Investida]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "This Character cannot attack a Leader on the turn in which it is played. [DON!! x1] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-005",
+    "code": "OP03-005",
+    "namePt": "Thatch",
+    "nameEn": "Thatch",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] este Personagem ganha +2000 de Poder durante este turno. Em seguida, descartar este Personagem no final deste turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-006",
+    "code": "OP03-006",
+    "namePt": "Speed Jil",
+    "nameEn": "Speed Jil",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-007",
+    "code": "OP03-007",
+    "namePt": "Namule",
+    "nameEn": "Namule",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-008",
+    "code": "OP03-008",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Buggy"
+    ],
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por <Corte> atributo cartas. [Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 vermelho(a) Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "This Character cannot be K.O.'d in battle by <Slash> attribute cards. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-009",
+    "code": "OP03-009",
+    "namePt": "Haruta",
+    "nameEn": "Haruta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-010",
+    "code": "OP03-010",
+    "namePt": "Fossa",
+    "nameEn": "Fossa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-011",
+    "code": "OP03-011",
+    "namePt": "Blamenco",
+    "nameEn": "Blamenco",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-012",
+    "code": "OP03-012",
+    "namePt": "Marshall D Teach",
+    "nameEn": "Marshall D Teach",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Atacar] Você pode descartar 1 dos seus vermelho(a) Personagens com 4000 ou mais de Poder: Compre 1 carta(s). Em seguida, este Personagem ganha +1000 de Poder durante esta batalha.",
+    "effectEn": "[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-013",
+    "code": "OP03-013",
+    "namePt": "Marco",
+    "nameEn": "Marco",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder. [Ao Ser K.O.] Você pode descartar 1 Evento da sua mão: Você pode jogue este Personagem carta da sua lixeira descansado(a).",
+    "effectEn": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less. [On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
+    "keywordIds": [
+      "on-play",
+      "your-turn",
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-014",
+    "code": "OP03-014",
+    "namePt": "Monkey D Garp",
+    "nameEn": "Monkey D Garp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Ao Atacar] Jogue Até 1 vermelho(a) carta(s) de Personagem com custo de 1 da sua mão.",
+    "effectEn": "[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-015",
+    "code": "OP03-015",
+    "namePt": "Lim",
+    "nameEn": "Lim",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Turno do Oponente] Quando este Personagem for nocauteado, Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] When this Character is K.O.'d, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-016",
+    "code": "OP03-016",
+    "namePt": "Flame Emperor",
+    "nameEn": "Flame Emperor",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 7,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] Se o seu Líder for [Portgas.D.Ace], K.O. Até 1 dos Personagens do seu oponente com 8000 ou menos de Poder, e seu Líder ganha [Ataque Duplo] e +3000 Poder durante este turno. (esta carta causa 2 de dano.)",
+    "effectEn": "[Main] If your Leader is [Portgas.D.Ace], K.O. up to 1 of your opponent's Characters with 8000 power or less, and your Leader gains [Double Attack] and +3000 power during this turn. (This card deals 2 damage.)",
+    "triggerPt": "[Gatilho] K.O. Até 1 dos Personagens do seu oponente com 6000 ou menos de Poder.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
+    "keywordIds": [
+      "trigger",
+      "double-attack"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-017",
+    "code": "OP03-017",
+    "namePt": "Cross Fire",
+    "nameEn": "Cross Fire",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal]/[Contra-Ataque] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", Dê a até 1 Personagem(ns) do seu oponente −4000 de Poder durante este turno.",
+    "effectEn": "[Main]/[Counter] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −4000 power during this turn.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-018",
+    "code": "OP03-018",
+    "namePt": "Fire Fist",
+    "nameEn": "Fire Fist",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] Você pode descartar 1 Evento da sua mão: K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder e Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectEn": "[Main] You may trash 1 Event from your hand: K.O. up to 1 of your opponent's Characters with 5000 power or less and up to 1 of your opponent's Characters with 4000 power or less.",
+    "triggerPt": "[Gatilho] K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 power or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-019",
+    "code": "OP03-019",
+    "namePt": "Fiery Doll",
+    "nameEn": "Fiery Doll",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] seu Líder ganha +4000 de Poder durante este turno.",
+    "effectEn": "[Main] Your Leader gains +4000 power during this turn.",
+    "triggerPt": "[Gatilho] Dê a até 1 cartas de Líder ou Personagem do seu oponente −10000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-020",
+    "code": "OP03-020",
+    "namePt": "Striker",
+    "nameEn": "Striker",
+    "cardType": "STAGE",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ativar: Principal] ② (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Palco: Se o seu Líder for [Portgas.D.Ace], Olhe as 5 cartas do topo do seu Deck; revele até 1 Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-021",
+    "code": "OP03-021",
+    "namePt": "Kuro",
+    "nameEn": "Kuro",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Ativar: Principal] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descanse 2 dos seus {East azul} tipo Personagens: coloque este Líder as ativo(a), e Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-022",
+    "code": "OP03-022",
+    "namePt": "Arlong",
+    "nameEn": "Arlong",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN",
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Jogue Até 1 carta(s) de Personagem com custo de 4 ou menos e um(a) [Gatilho] da sua mão.",
+    "effectEn": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "keywordIds": [
+      "when-attacking",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-023",
+    "code": "OP03-023",
+    "namePt": "Alvida",
+    "nameEn": "Alvida",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "East Blue",
+      "Alvida Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-024",
+    "code": "OP03-024",
+    "namePt": "Gin",
+    "nameEn": "Gin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Krieg"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {East azul}, Descanse até 2 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] If your Leader has the {East Blue} type, rest up to 2 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-025",
+    "code": "OP03-025",
+    "namePt": "Krieg",
+    "nameEn": "Krieg",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "RANGED",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Krieg"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Dê K.O. em até 2 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos. [DON!! x1] este Personagem ganha [Ataque Duplo]. (esta carta causa 2 de dano.)",
+    "effectEn": "[On Play] You may trash 1 card from your hand: K.O. up to 2 of your opponent's rested Characters with a cost of 4 or less. [DON!! x1] This Character gains [Double Attack]. (This card deals 2 damage.)",
+    "keywordIds": [
+      "on-play",
+      "double-attack"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-026",
+    "code": "OP03-026",
+    "namePt": "Kuroobi",
+    "nameEn": "Kuroobi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {East azul}, Descanse até 1 Personagem(ns) do seu oponente.",
+    "effectEn": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-027",
+    "code": "OP03-027",
+    "namePt": "Sham",
+    "nameEn": "Sham",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {East azul}, descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos e, se você don't tiver [Buchi], jogue Até 1 [Buchi] da sua mão.",
+    "effectEn": "[On Play] If your Leader has the {East Blue} type, rest up to 1 of your opponent's Characters with a cost of 2 or less and, if you don't have [Buchi], play up to 1 [Buchi] from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-028",
+    "code": "OP03-028",
+    "namePt": "Jango",
+    "nameEn": "Jango",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Ao Jogar] Escolha um: • coloque Até 1 dos seus {East azul} tipo Líder ou carta(s) de Personagem com custo de 6 ou menos as ativo(a). • descanse este Personagem e Até 1 dos Personagens do seu oponente.",
+    "effectEn": "[On Play] Choose one: • Set up to 1 of your {East Blue} type Leader or Character cards with a cost of 6 or less as active. • Rest this Character and up to 1 of your opponent's Characters.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-029",
+    "code": "OP03-029",
+    "namePt": "Chew",
+    "nameEn": "Chew",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Homem-Peixe",
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-030",
+    "code": "OP03-030",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 verde {East azul} carta do tipo diferente de [Nami] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {East Blue} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-031",
+    "code": "OP03-031",
+    "namePt": "Pearl",
+    "nameEn": "Pearl",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Krieg"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-032",
+    "code": "OP03-032",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Buggy"
+    ],
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por atributo cartas.",
+    "effectEn": "This Character cannot be K.O.'d in battle by attribute cards.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-033",
+    "code": "OP03-033",
+    "namePt": "Hatchan",
+    "nameEn": "Hatchan",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Se o seu Líder tiver o tipo {East azul}, jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader has the {East Blue} type, play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-034",
+    "code": "OP03-034",
+    "namePt": "Buchi",
+    "nameEn": "Buchi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-035",
+    "code": "OP03-035",
+    "namePt": "Momoo",
+    "nameEn": "Momoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "East Blue"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-036",
+    "code": "OP03-036",
+    "namePt": "Out-of-the-Bag",
+    "nameEn": "Out-of-the-Bag",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Principal] Você pode descanse 1 dos seus {East azul} tipo Personagens: coloque Até 1 dos seus [Kuro] cartas as ativo(a).",
+    "effectEn": "[Main] You may rest 1 of your {East Blue} type Characters: Set up to 1 of your [Kuro] cards as active.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-037",
+    "code": "OP03-037",
+    "namePt": "Tooth Attack",
+    "nameEn": "Tooth Attack",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Homem-Peixe",
+      "East Blue",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[Principal] Você pode descanse 1 dos seus {East azul} tipo Personagens: Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[Main] You may rest 1 of your {East Blue} type Characters: K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Jogue Até 1 carta(s) de Personagem com custo de 4 ou menos e um(a) [Gatilho] da sua mão.",
+    "triggerEn": "[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-038",
+    "code": "OP03-038",
+    "namePt": "Deathly Poison Gas Bomb MH5",
+    "nameEn": "Deathly Poison Gas Bomb MH5",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Piratas do Krieg"
+    ],
+    "effectPt": "[Principal] Descanse até 2 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Main] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-039",
+    "code": "OP03-039",
+    "namePt": "One, Two, Jango",
+    "nameEn": "One, Two, Jango",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Piratas do Gato Preto"
+    ],
+    "effectPt": "[Principal] Descanse até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, Até 1 dos seus Personagens ganha +1000 de Poder durante este turno.",
+    "effectEn": "[Main] Rest up to 1 of your opponent's Characters with a cost of 1 or less. Then, up to 1 of your Characters gains +1000 power during this turn.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-040",
+    "code": "OP03-040",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "Quando seu Deck for reduced para 0, você win o game em vez disso de losing, de acordo com as regras. [DON!! x1] Quando este Líder's attack causa dano à Vida do seu oponente, Você pode descarte 1 carta(s) do topo do seu Deck.",
+    "effectEn": "When your deck is reduced to 0, you win the game instead of losing, according to the rules. [DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-041",
+    "code": "OP03-041",
+    "namePt": "Usopp",
+    "nameEn": "Usopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "RANGED",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.) [DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-042",
+    "code": "OP03-042",
+    "namePt": "Usopp's Pirate Crew",
+    "nameEn": "Usopp's Pirate Crew",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] adicione Até 1 azul [Usopp] da sua lixeira para a sua mão.",
+    "effectEn": "[On Play] Add up to 1 blue [Usopp] from your trash to your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-043",
+    "code": "OP03-043",
+    "namePt": "Gaimon",
+    "nameEn": "Gaimon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "Quando você causar dano à Vida do seu oponente, Você pode descarte 3 carta(s) do topo do seu Deck. Se fizer isso, descartar este Personagem.",
+    "effectEn": "When you deal damage to your opponent's Life, you may trash 3 cards from the top of your deck. If you do, trash this Character.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-044",
+    "code": "OP03-044",
+    "namePt": "Kaya",
+    "nameEn": "Kaya",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "[On Play] Draw 2 cards and trash 2 cards from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-045",
+    "code": "OP03-045",
+    "namePt": "Carne",
+    "nameEn": "Carne",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Turno do Oponente] Se você tiver 20 ou menos cartas no seu Deck, este Personagem ganha +3000 de Poder.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] If you have 20 or less cards in your deck, this Character gains +3000 power.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-046",
+    "code": "OP03-046",
+    "namePt": "Genzo",
+    "nameEn": "Genzo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-047",
+    "code": "OP03-047",
+    "namePt": "Zeff",
+    "nameEn": "Zeff",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [Ao Jogar] retorne Até 1 Personagem com custo de 3 ou menos para a mão do dono, e Você pode descarte 2 carta(s) do topo do seu Deck.",
+    "effectEn": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-048",
+    "code": "OP03-048",
+    "namePt": "Nojiko",
+    "nameEn": "Nojiko",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder for [Nami], retorne Até 1 dos Personagens do seu oponente com custo de 5 ou menos para a mão do dono.",
+    "effectEn": "[On Play] If your Leader is [Nami], return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-049",
+    "code": "OP03-049",
+    "namePt": "Patty",
+    "nameEn": "Patty",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 20 ou menos cartas no seu Deck, retorne até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "effectEn": "[On Play] If you have 20 or less cards in your deck, return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-050",
+    "code": "OP03-050",
+    "namePt": "Boodle",
+    "nameEn": "Boodle",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Você pode descarte 1 carta(s) do topo do seu Deck.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card from the top of your deck.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-051",
+    "code": "OP03-051",
+    "namePt": "Bell-mère",
+    "nameEn": "Bell-mère",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "East Blue",
+      "Ex-Marinha"
+    ],
+    "effectPt": "[DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [Ao Ser K.O.] Você pode descarte 3 carta(s) do topo do seu Deck.",
+    "effectEn": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On K.O.] You may trash 3 cards from the top of your deck.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-052",
+    "code": "OP03-052",
+    "namePt": "Merry",
+    "nameEn": "Merry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-053",
+    "code": "OP03-053",
+    "namePt": "Yosaku &amp; Johnny",
+    "nameEn": "Yosaku &amp; Johnny",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[DON!! x1] Se você tiver 20 ou menos cartas no seu Deck, este Personagem ganha +2000 de Poder.",
+    "effectEn": "[DON!! x1] If you have 20 or less cards in your deck, this Character gains +2000 power.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-054",
+    "code": "OP03-054",
+    "namePt": "Usopp's Rubber Band of Doom!!!",
+    "nameEn": "Usopp's Rubber Band of Doom!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Você pode descarte 1 carta(s) do topo do seu Deck.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, you may trash 1 card from the top of your deck.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s) e Você pode descarte 1 carta(s) do topo do seu Deck.",
+    "triggerEn": "[Trigger] Draw 1 card and you may trash 1 card from the top of your deck.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-055",
+    "code": "OP03-055",
+    "namePt": "Gum-Gum Giant Gavel",
+    "nameEn": "Gum-Gum Giant Gavel",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Você pode descartar 1 carta(s) da sua mão: Até 1 do seu Líder ganha +4000 de Poder durante esta batalha. Em seguida, Você pode descarte 2 carta(s) do topo do seu Deck.",
+    "effectEn": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader gains +4000 power during this battle. Then, you may trash 2 cards from the top of your deck.",
+    "triggerPt": "[Gatilho] retorne até 1 Personagem com custo de 4 ou menos para a mão do dono.",
+    "triggerEn": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-056",
+    "code": "OP03-056",
+    "namePt": "Sanji's Pilaf",
+    "nameEn": "Sanji's Pilaf",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Principal] Compre 2 carta(s).",
+    "effectEn": "[Main] Draw 2 cards.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-057",
+    "code": "OP03-057",
+    "namePt": "Three Thousand Worlds",
+    "nameEn": "Three Thousand Worlds",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "East Blue",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] coloque Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Main] Place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "triggerPt": "[Gatilho] coloque Até 1 Personagem com custo de 3 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-058",
+    "code": "OP03-058",
+    "namePt": "Iceburg",
+    "nameEn": "Iceburg",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "este Líder não pode atacar. [Ativar: Principal] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descansar este Líder: Jogue Até 1 {Galley-La Company} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
+    "effectEn": "This Leader cannot attack. [Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-059",
+    "code": "OP03-059",
+    "namePt": "Kaku",
+    "nameEn": "Kaku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Banimento] durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "when-attacking",
+      "banish"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-060",
+    "code": "OP03-060",
+    "namePt": "Kalifa",
+    "nameEn": "Kalifa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-061",
+    "code": "OP03-061",
+    "namePt": "Kiwi &amp; Mozu",
+    "nameEn": "Kiwi &amp; Mozu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-062",
+    "code": "OP03-062",
+    "namePt": "Kokoro",
+    "nameEn": "Kokoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão",
+      "Water Seven"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Water Seven} carta do tipo diferente de [Kokoro] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Water Seven} type card other than [Kokoro] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-063",
+    "code": "OP03-063",
+    "namePt": "Zambai",
+    "nameEn": "Zambai",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Compre 1 carta(s).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, draw 1 card.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-064",
+    "code": "OP03-064",
+    "namePt": "Tilestone",
+    "nameEn": "Tilestone",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ao Ser K.O.] Se o seu Líder tiver o tipo {Galley-La Company}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On K.O.] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-065",
+    "code": "OP03-065",
+    "namePt": "Chimney &amp; Gonbe",
+    "nameEn": "Chimney &amp; Gonbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Water Seven"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-066",
+    "code": "OP03-066",
+    "namePt": "Paulie",
+    "nameEn": "Paulie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ao Jogar] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. Em seguida, Se você tiver 8 ou mais cartas de DON!! no seu campo, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-067",
+    "code": "OP03-067",
+    "namePt": "Peepley Lulu",
+    "nameEn": "Peepley Lulu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se o seu Líder tiver o tipo {Galley-La Company}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[DON!! x1] [When Attacking] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-068",
+    "code": "OP03-068",
+    "namePt": "Minozebra",
+    "nameEn": "Minozebra",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Impel Down",
+      "Besta Carcereira"
+    ],
+    "effectPt": "[Banimento] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.) [Ao Ser K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "banish",
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-069",
+    "code": "OP03-069",
+    "namePt": "Minorhinoceros",
+    "nameEn": "Minorhinoceros",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Impel Down",
+      "Besta Carcereira"
+    ],
+    "effectPt": "[Ao Ser K.O.] Se o seu Líder tiver o tipo {Impel Down}, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[On K.O.] If your Leader has the {Impel Down} type, draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-070",
+    "code": "OP03-070",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar 1 carta(s) de Personagem com custo de 5 da sua mão: este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 1 Character card with a cost of 5 from your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-071",
+    "code": "OP03-071",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-072",
+    "code": "OP03-072",
+    "namePt": "Gum-Gum Jet Gatling",
+    "nameEn": "Gum-Gum Jet Gatling",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": null,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-073",
+    "code": "OP03-073",
+    "namePt": "Hull Dismantler Slash",
+    "nameEn": "Hull Dismantler Slash",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[Principal] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-074",
+    "code": "OP03-074",
+    "namePt": "Top Knot",
+    "nameEn": "Top Knot",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Principal] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): coloque Até 1 dos Personagens do seu oponente com custo de 4 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-075",
+    "code": "OP03-075",
+    "namePt": "Galley-La Company",
+    "nameEn": "Galley-La Company",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Palco: Se o seu Líder for [Iceburg], Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Activate: Main] You may rest this Stage: If your Leader is [Iceburg], add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-076",
+    "code": "OP03-076",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "LEADER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Seu Turno] [1 Vez por Turno] Você pode descartar 2 carta(s) da sua mão: Quando um Personagem do seu oponente for nocauteado, coloque este Líder como ativo.",
+    "effectEn": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-077",
+    "code": "OP03-077",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "LEADER",
+    "colors": [
+      "BLACK",
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] ② (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[DON!! x2] [When Attacking] ② (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-078",
+    "code": "OP03-078",
+    "namePt": "Issho",
+    "nameEn": "Issho",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Dê todos os dos Personagens do seu oponente −3 custo. [Ao Jogar] Se seu oponente tiver 6 ou mais cartas na mão dele(a), descartar 2 cartas da sua mão do seu oponente.",
+    "effectEn": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −3 cost. [On Play] If your opponent has 6 or more cards in their hand, trash 2 cards from your opponent's hand.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-079",
+    "code": "OP03-079",
+    "namePt": "Vergo",
+    "nameEn": "Vergo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha",
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[DON!! x1] este Personagem não pode ser nocauteado em batalha.",
+    "effectEn": "[DON!! x1] This Character cannot be K.O.'d in battle.",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-080",
+    "code": "OP03-080",
+    "namePt": "Kaku",
+    "nameEn": "Kaku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 2 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-081",
+    "code": "OP03-081",
+    "namePt": "Kalifa",
+    "nameEn": "Kalifa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Ao Jogar] Compre 2 carta(s) e descarte 2 carta(s) da sua mão. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-082",
+    "code": "OP03-082",
+    "namePt": "Kumadori",
+    "nameEn": "Kumadori",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-083",
+    "code": "OP03-083",
+    "namePt": "Corgy",
+    "nameEn": "Corgy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Governo Mundial"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck e descartar Até 2 cartas. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck and trash up to 2 cards. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-084",
+    "code": "OP03-084",
+    "namePt": "Jerry",
+    "nameEn": "Jerry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP6"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-085",
+    "code": "OP03-085",
+    "namePt": "Jabra",
+    "nameEn": "Jabra",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-086",
+    "code": "OP03-086",
+    "namePt": "Spandam",
+    "nameEn": "Spandam",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Ao Jogar] Se o tipo do seu Líder incluir \"CP\", Olhe as 3 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"CP\" diferente de [Spandam] e adicione-a à sua mão. Em seguida, descartar o descanse.",
+    "effectEn": "[On Play] If your Leader's type includes \"CP\", look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Spandam] and add it to your hand. Then, trash the rest.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-087",
+    "code": "OP03-087",
+    "namePt": "Nero",
+    "nameEn": "Nero",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-088",
+    "code": "OP03-088",
+    "namePt": "Fukurou",
+    "nameEn": "Fukurou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "This Character cannot be K.O.'d by effects. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-089",
+    "code": "OP03-089",
+    "namePt": "Brannew",
+    "nameEn": "Brannew",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Marinha} carta do tipo diferente de [Brannew] e adicione-a à sua mão. Em seguida, descartar o descanse.",
+    "effectEn": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Brannew] and add it to your hand. Then, trash the rest.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-090",
+    "code": "OP03-090",
+    "namePt": "Blueno",
+    "nameEn": "Blueno",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha [Bloqueador]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 4 ou menos da sua lixeira descansado(a).",
+    "effectEn": "[DON!! x1] This Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less from your trash rested.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-091",
+    "code": "OP03-091",
+    "namePt": "Helmeppo",
+    "nameEn": "Helmeppo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Ao Jogar] coloque o custo de Até 1 dos Personagens do seu oponente com no base efeito para 0 durante este turno.",
+    "effectEn": "[On Play] Set the cost of up to 1 of your opponent's Characters with no base effect to 0 during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-092",
+    "code": "OP03-092",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 2 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-093",
+    "code": "OP03-093",
+    "namePt": "Wanze",
+    "nameEn": "Wanze",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP7"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Se o tipo do seu Líder incluir \"CP\", Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: If your Leader's type includes \"CP\", K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-094",
+    "code": "OP03-094",
+    "namePt": "Air Door",
+    "nameEn": "Air Door",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Principal] Se o tipo do seu Líder incluir \"CP\", Olhe as 5 cartas do topo do seu Deck; jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 5 ou menos. Em seguida, descartar o descanse.",
+    "effectEn": "[Main] If your Leader's type includes \"CP\", look at 5 cards from the top of your deck; play up to 1 Character card with a type including \"CP\" and a cost of 5 or less. Then, trash the rest.",
+    "triggerPt": "[Gatilho] Jogue Até 1 preto(a) carta(s) de Personagem com custo de 3 ou menos da sua lixeira.",
+    "triggerEn": "[Trigger] Play up to 1 black Character card with a cost of 3 or less from your trash.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-095",
+    "code": "OP03-095",
+    "namePt": "Soap Sheep",
+    "nameEn": "Soap Sheep",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Principal] Dê a até 2 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[Main] Give up to 2 of your opponent's Characters −2 cost during this turn.",
+    "triggerPt": "[Gatilho] seu oponente descarta 1 carta de a mão dele(a).",
+    "triggerEn": "[Trigger] Your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-096",
+    "code": "OP03-096",
+    "namePt": "Tempest Kick Sky Slicer",
+    "nameEn": "Tempest Kick Sky Slicer",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Principal] K.O. Até 1 dos Personagens do seu oponente com custo de 0 ou do seu oponente Stages com custo de 3 ou menos.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 0 or your opponent's Stages with a cost of 3 or less.",
+    "triggerPt": "[Gatilho] Compre 2 carta(s).",
+    "triggerEn": "[Trigger] Draw 2 cards.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-097",
+    "code": "OP03-097",
+    "namePt": "Six King Pistol",
+    "nameEn": "Six King Pistol",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": null,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Contra-Ataque] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s). Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "triggerEn": "[Trigger] Draw 1 card. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-098",
+    "code": "OP03-098",
+    "namePt": "Enies Lobby",
+    "nameEn": "Enies Lobby",
+    "cardType": "STAGE",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Governo Mundial"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Palco: Se o tipo do seu Líder incluir \"CP\", Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[Activate: Main] You may rest this Stage: If your Leader's type includes \"CP\", give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-099",
+    "code": "OP03-099",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "LEADER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, este Líder ganha +1000 de Poder durante esta batalha.",
+    "effectEn": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-100",
+    "code": "OP03-100",
+    "namePt": "Kingbaum",
+    "nameEn": "Kingbaum",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta do topo ou fundo das suas cartas de Vida: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-101",
+    "code": "OP03-101",
+    "namePt": "Camie",
+    "nameEn": "Camie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-102",
+    "code": "OP03-102",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "The Vinsmoke Family"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-103",
+    "code": "OP03-103",
+    "namePt": "Bobbin the Disposer",
+    "nameEn": "Bobbin the Disposer",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-104",
+    "code": "OP03-104",
+    "namePt": "Shirley",
+    "nameEn": "Shirley",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-105",
+    "code": "OP03-105",
+    "namePt": "Charlotte Oven",
+    "nameEn": "Charlotte Oven",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode descartar 1 carta(s) com [Gatilho] da sua mão: este Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card with a [Trigger] from your hand: This Character gains +3000 power during this battle.",
+    "keywordIds": [
+      "when-attacking",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-106",
+    "code": "OP03-106",
+    "namePt": "Charlotte Opera",
+    "nameEn": "Charlotte Opera",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-107",
+    "code": "OP03-107",
+    "namePt": "Charlotte Galette",
+    "nameEn": "Charlotte Galette",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-108",
+    "code": "OP03-108",
+    "namePt": "Charlotte Cracker",
+    "nameEn": "Charlotte Cracker",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[DON!! x1] Se você tiver menos cartas de Vida do que seu oponente, este Personagem ganha [Ataque Duplo] e +1000 Poder. (esta carta causa 2 de dano.)",
+    "effectEn": "[DON!! x1] If you have less Life cards than your opponent, this Character gains [Double Attack] and +1000 power. (This card deals 2 damage.)",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "keywordIds": [
+      "trigger",
+      "double-attack"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-109",
+    "code": "OP03-109",
+    "namePt": "Charlotte Chiffon",
+    "nameEn": "Charlotte Chiffon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta do topo ou fundo das suas cartas de Vida: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[On Play] You may trash 1 card from the top or bottom of your Life cards: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-110",
+    "code": "OP03-110",
+    "namePt": "Charlotte Smoothie",
+    "nameEn": "Charlotte Smoothie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "keywordIds": [
+      "when-attacking",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-111",
+    "code": "OP03-111",
+    "namePt": "Charlotte Praline",
+    "nameEn": "Charlotte Praline",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão",
+      "The Sun Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-112",
+    "code": "OP03-112",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 4 cartas do topo do seu Deck; revele até 1 [Sanji] ou {Piratas da Big Mom} carta do tipo diferente de [Charlotte Pudding] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 [Sanji] or {Big Mom Pirates} type card other than [Charlotte Pudding] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-113",
+    "code": "OP03-113",
+    "namePt": "Charlotte Perospero",
+    "nameEn": "Charlotte Perospero",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Ser K.O.] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Piratas da Big Mom} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "keywordIds": [
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-114",
+    "code": "OP03-114",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Piratas da Big Mom}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-115",
+    "code": "OP03-115",
+    "namePt": "Streusen",
+    "nameEn": "Streusen",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) com [Gatilho] da sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "effectEn": "[On Play] You may trash 1 card with a [Trigger] from your hand: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-116",
+    "code": "OP03-116",
+    "namePt": "Shirahoshi",
+    "nameEn": "Shirahoshi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão"
+    ],
+    "effectPt": "[Ao Jogar] Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "[On Play] Draw 3 cards and trash 2 cards from your hand.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-117",
+    "code": "OP03-117",
+    "namePt": "Napoleon",
+    "nameEn": "Napoleon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom",
+      "Homies"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha +1000 de Poder até o início do seu próximo turno.",
+    "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains +1000 power until the start of your next turn.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-118",
+    "code": "OP03-118",
+    "namePt": "Ikoku Sovereignty",
+    "nameEn": "Ikoku Sovereignty",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +5000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +5000 power during this battle.",
+    "triggerPt": "[Gatilho] Você pode descartar 2 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "triggerEn": "[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-119",
+    "code": "OP03-119",
+    "namePt": "Buzz Cut Mochi",
+    "nameEn": "Buzz Cut Mochi",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] Se você tiver menos cartas de Vida do que seu oponente, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[Main] If you have less Life cards than your opponent, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] Jogue Até 1 carta(s) de Personagem com custo de 4 ou menos e um(a) [Gatilho] da sua mão.",
+    "triggerEn": "[Trigger] Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-120",
+    "code": "OP03-120",
+    "namePt": "Tropical Torment",
+    "nameEn": "Tropical Torment",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] Se seu oponente tiver 4 ou mais cartas de Vida, descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-121",
+    "code": "OP03-121",
+    "namePt": "Thunder Bolt",
+    "nameEn": "Thunder Bolt",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Principal] Você pode descartar 1 carta do topo das suas cartas de Vida: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Main] You may trash 1 card from the top of your Life cards: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-122",
+    "code": "OP03-122",
+    "namePt": "Sogeking",
+    "nameEn": "Sogeking",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Sniper Island"
+    ],
+    "effectPt": "o nome desta carta também é considerado [Usopp] de acordo com as regras. [Ao Jogar] retorne até 1 Personagem com custo de 6 ou menos para a mão do dono. Em seguida, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "Also treat this card's name as [Usopp] according to the rules. [On Play] Return up to 1 Character with a cost of 6 or less to the owner's hand. Then, draw 2 cards and trash 2 cards from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  },
+  {
+    "id": "OP03-123",
+    "code": "OP03-123",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] adicione Até 1 Personagem com custo de 8 ou menos para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
+    "effectEn": "[On Play] Add up to 1 Character with a cost of 8 or less to the top or bottom of the owner's Life cards face-up.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-03",
+    "setName": "PILLARS OF STRENGTH"
+  }
+]

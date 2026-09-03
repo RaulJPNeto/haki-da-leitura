@@ -1,0 +1,132 @@
+[
+  {
+    "id": "ST20-001",
+    "code": "ST20-001",
+    "namePt": "Charlotte Katakuri",
+    "nameEn": "Charlotte Katakuri",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ativar: Principal] [1 Vez por Turno] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn"
+    ],
+    "setId": "ST-20",
+    "setName": "Yellow Charlotte Katakuri"
+  },
+  {
+    "id": "ST20-002",
+    "code": "ST20-002",
+    "namePt": "Charlotte Cracker",
+    "nameEn": "Charlotte Cracker",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[1 Vez por Turno] Se este Personagem for ser nocauteado por um efeito, Você pode descartar 1 carta do topo das suas cartas de Vida em vez disso.",
+    "effectEn": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.",
+    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
+    "keywordIds": [
+      "trigger",
+      "once-per-turn"
+    ],
+    "setId": "ST-20",
+    "setName": "Yellow Charlotte Katakuri"
+  },
+  {
+    "id": "ST20-003",
+    "code": "ST20-003",
+    "namePt": "Charlotte Brulee",
+    "nameEn": "Charlotte Brulee",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, adicione esta carta para a sua mão.",
+    "triggerEn": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-20",
+    "setName": "Yellow Charlotte Katakuri"
+  },
+  {
+    "id": "ST20-004",
+    "code": "ST20-004",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: coloque Até 1 dos seus {Piratas da Big Mom} tipo Personagens com custo de 3 ou menos as ativo(a).",
+    "effectEn": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your {Big Mom Pirates} type Characters with a cost of 3 or less as active.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "ST-20",
+    "setName": "Yellow Charlotte Katakuri"
+  },
+  {
+    "id": "ST20-005",
+    "code": "ST20-005",
+    "namePt": "Charlotte Linlin",
+    "nameEn": "Charlotte Linlin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: seu oponente escolhe um: • seu oponente descarta 2 cartas de a mão dele(a). • descartar 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: Your opponent chooses one: • Your opponent trashes 2 cards from their hand. • Trash 1 card from the top of your opponent's Life cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-20",
+    "setName": "Yellow Charlotte Katakuri"
+  }
+]

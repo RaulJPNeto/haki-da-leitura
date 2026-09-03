@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ST27-001",
+    "code": "ST27-001",
+    "namePt": "Avalo Pizarro",
+    "nameEn": "Avalo Pizarro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descanse 1 dos seus [Fullalead] cartas: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha +4000 de Poder durante este turno. [Ao Ser K.O.] Compre 1 carta(s).",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Fullalead] cards: If your Leader has the {Blackbeard Pirates} type, this Character gains +4000 power during this turn. [On K.O.] Draw 1 card.",
+    "keywordIds": [
+      "once-per-turn",
+      "on-ko"
+    ],
+    "setId": "ST-27",
+    "setName": "BLACK Marshall.D.Teach"
+  },
+  {
+    "id": "ST27-002",
+    "code": "ST27-002",
+    "namePt": "Catarina Devon",
+    "nameEn": "Catarina Devon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. [Ao Ser K.O.] Compre 1 carta(s).",
+    "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −1 cost during this turn. [On K.O.] Draw 1 card.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "ST-27",
+    "setName": "BLACK Marshall.D.Teach"
+  },
+  {
+    "id": "ST27-003",
+    "code": "ST27-003",
+    "namePt": "Kuzan",
+    "nameEn": "Kuzan",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Negra",
+      "Ex-Marinha"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Jogue Até 1 {Piratas do Barba Negra} tipo carta(s) de Personagem com custo de 5 ou menos da sua lixeira descansado(a).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less from your trash rested.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "ST-27",
+    "setName": "BLACK Marshall.D.Teach"
+  },
+  {
+    "id": "ST27-004",
+    "code": "ST27-004",
+    "namePt": "Sanjuan Wolf",
+    "nameEn": "Sanjuan Wolf",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha [Bloqueador] e +1 custo para cada 4 cartas na sua lixeira. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] descarte 1 carta(s) da sua mão.",
+    "effectEn": "If your Leader has the {Blackbeard Pirates} type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Trash 1 card from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-27",
+    "setName": "BLACK Marshall.D.Teach"
+  },
+  {
+    "id": "ST27-005",
+    "code": "ST27-005",
+    "namePt": "Marshall D Teach",
+    "nameEn": "Marshall D Teach",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: K.O. Até 1 Personagem com custo de 3 ou menos. [Ao Ser K.O.] adicione Até 1 preto(a) carta da sua lixeira para a sua mão.",
+    "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 Character with a cost of 3 or less. [On K.O.] Add up to 1 black card from your trash to your hand.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "ST-27",
+    "setName": "BLACK Marshall.D.Teach"
+  }
+]

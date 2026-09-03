@@ -1,0 +1,413 @@
+[
+  {
+    "id": "ST12-001",
+    "code": "ST12-001",
+    "namePt": "Roronoa Zoro &amp; Sanji",
+    "nameEn": "Roronoa Zoro &amp; Sanji",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN",
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] [1 Vez por Turno] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
+    "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-002",
+    "code": "ST12-002",
+    "namePt": "Kuina",
+    "nameEn": "Kuina",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Frost Moon Village"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-003",
+    "code": "ST12-003",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários",
+      "Muggy Kingdom"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 2 ou menos Personagens, jogue Até 1 {Muggy Kingdom} tipo ou <Corte> atributo carta(s) de Personagem com custo de 4 ou menos diferente de [Dracule Mihawk] da sua mão descansado(a).",
+    "effectEn": "[On Play] If you have 2 or less Characters, play up to 1 {Muggy Kingdom} type or <Slash> attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-004",
+    "code": "ST12-004",
+    "namePt": "Humandrill",
+    "nameEn": "Humandrill",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Muggy Kingdom"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-005",
+    "code": "ST12-005",
+    "namePt": "Perona",
+    "nameEn": "Perona",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Muggy Kingdom",
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-006",
+    "code": "ST12-006",
+    "namePt": "Yosaku &amp; Johnny",
+    "nameEn": "Yosaku &amp; Johnny",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Escolha um: • Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[DON!! x1] [When Attacking] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 2 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-007",
+    "code": "ST12-007",
+    "namePt": "Rika",
+    "nameEn": "Rika",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se seu oponente tiver 3 ou mais cartas de Vida, coloque Até 1 dos seus <Corte> atributo Personagens com custo de 4 ou menos as ativo(a).",
+    "effectEn": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): If your opponent has 3 or more Life cards, set up to 1 of your <Slash> attribute Characters with a cost of 4 or less as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-008",
+    "code": "ST12-008",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-009",
+    "code": "ST12-009",
+    "namePt": "Elephant True Bluefin",
+    "nameEn": "Elephant True Bluefin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-010",
+    "code": "ST12-010",
+    "namePt": "Emporio Ivankov",
+    "nameEn": "Emporio Ivankov",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Impel Down",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ao Jogar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2. Em seguida, coloque o restante no topo ou fundo do seu Deck. [Ao Atacar] [1 Vez por Turno] Compre 1 carta se você tiver 6 ou menos cartas na sua mão.",
+    "effectEn": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck. [When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-011",
+    "code": "ST12-011",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectEn": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-012",
+    "code": "ST12-012",
+    "namePt": "Charlotte Pudding",
+    "nameEn": "Charlotte Pudding",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Ativar: Principal] retorne este Personagem para a mão do dono.",
+    "effectEn": "[Activate: Main] Return this Character to the owner's hand.",
+    "keywordIds": [],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-013",
+    "code": "ST12-013",
+    "namePt": "Zeff",
+    "nameEn": "Zeff",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [Ao Atacar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-014",
+    "code": "ST12-014",
+    "namePt": "Duval",
+    "nameEn": "Duval",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "The Flying Fish Riders"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-015",
+    "code": "ST12-015",
+    "namePt": "Patty &amp; Carne",
+    "nameEn": "Patty &amp; Carne",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-016",
+    "code": "ST12-016",
+    "namePt": "Lion Strike",
+    "nameEn": "Lion Strike",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal]/[Contra-Ataque] descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem com custo de 4 ou menos.",
+    "effectEn": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  },
+  {
+    "id": "ST12-017",
+    "code": "ST12-017",
+    "namePt": "Plastic Surgery Shot",
+    "nameEn": "Plastic Surgery Shot",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, revele 1 carta de o topo do seu Deck, jogue Até 1 carta(s) de Personagem com custo de 2, e coloque o restante no topo ou fundo do seu Deck.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "ST-12",
+    "setName": "Zoro and Sanji"
+  }
+]

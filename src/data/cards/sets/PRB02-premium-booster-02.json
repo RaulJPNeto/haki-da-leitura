@@ -1,0 +1,52 @@
+[
+  {
+    "id": "PRB02-006",
+    "code": "PRB02-006",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Turno do Oponente] Se este Personagem for ser descansado(a) por do seu oponente Personagem's efeito, Você pode descanse 1 dos seus outro(a) Personagens em vez disso. [Bloqueador]",
+    "effectEn": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead. [Blocker]",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "PRB-02",
+    "setName": "THE AZURE SEA’S SEVEN"
+  },
+  {
+    "id": "PRB02-014",
+    "code": "PRB02-014",
+    "namePt": "Sabo",
+    "nameEn": "Sabo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "Se você tiver 15 ou mais cartas na sua lixeira, dê esta carta na sua mão −3 custo. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "If you have 15 or more cards in your trash, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "PRB-02",
+    "setName": "BOOSTER PACK"
+  }
+]

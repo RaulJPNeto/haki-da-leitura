@@ -1,0 +1,2979 @@
+[
+  {
+    "id": "OP01-001",
+    "code": "OP01-001",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "LEADER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] todos os dos seus Personagens ganha +1000 de Poder.",
+    "effectEn": "[DON!! x1] [Your Turn] All of your Characters gain +1000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-002",
+    "code": "OP01-002",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "LEADER",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se você tiver 5 Personagens, retorne 1 dos seus Personagens para a mão do dono. Em seguida, jogue Até 1 Personagem com custo de 5 ou menos da sua mão que seja de uma cor diferente do Personagem retornado.",
+    "effectEn": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-003",
+    "code": "OP01-003",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "LEADER",
+    "colors": [
+      "RED",
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ➃ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque Até 1 dos seus {Supernovas} ou {Bando do Chapéu de Palha} tipo carta(s) de Personagem com custo de 5 ou menos as ativo(a). ela ganha +1000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-004",
+    "code": "OP01-004",
+    "namePt": "Usopp",
+    "nameEn": "Usopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] [1 Vez por Turno] Compre 1 carta quando seu oponente ativar um(a) Evento.",
+    "effectEn": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-005",
+    "code": "OP01-005",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Ao Jogar] adicione Até 1 vermelho(a) carta(s) de Personagem diferente de [Uta] com custo de 3 ou menos da sua lixeira para a sua mão.",
+    "effectEn": "[On Play] Add up to 1 red Character card other than [Uta] with a cost of 3 or less from your trash to your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-006",
+    "code": "OP01-006",
+    "namePt": "Otama",
+    "nameEn": "Otama",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-007",
+    "code": "OP01-007",
+    "namePt": "Caribou",
+    "nameEn": "Caribou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effectPt": "[Ao Ser K.O.] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectEn": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-008",
+    "code": "OP01-008",
+    "namePt": "Cavendish",
+    "nameEn": "Cavendish",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Você pode adicione 1 carta da sua Vida área para a sua mão: este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] You may add 1 card from your Life area to your hand: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-009",
+    "code": "OP01-009",
+    "namePt": "Carrot",
+    "nameEn": "Carrot",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Gatilho] Jogue esta carta.",
+    "effectEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-010",
+    "code": "OP01-010",
+    "namePt": "Komachiyo",
+    "nameEn": "Komachiyo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "País de Wano"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-011",
+    "code": "OP01-011",
+    "namePt": "Gordon",
+    "nameEn": "Gordon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 1 carta da sua mão no fundo do seu Deck: Compre 1 carta(s).",
+    "effectEn": "[On Play] You may place 1 card from your hand at the bottom of your deck: Draw 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-012",
+    "code": "OP01-012",
+    "namePt": "Sai",
+    "nameEn": "Sai",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Happosui Army"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-013",
+    "code": "OP01-013",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode adicione 1 carta da sua Vida área para a sua mão: este Personagem ganha +2000 de Poder durante este turno. Em seguida, dê este Personagem Até 2 descansado(a) cartas de DON!!.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-014",
+    "code": "OP01-014",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Ao Bloquear] Jogue Até 1 vermelho(a) carta(s) de Personagem com custo de 2 ou menos da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Play up to 1 red Character card with a cost of 2 or less from your hand.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-015",
+    "code": "OP01-015",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode descartar 1 carta(s) da sua mão: adicione Até 1 {Bando do Chapéu de Palha} tipo carta(s) de Personagem diferente de [Tony Tony.Chopper] com custo de 4 ou menos da sua lixeira para a sua mão.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] with a cost of 4 or less from your trash to your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-016",
+    "code": "OP01-016",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} carta do tipo diferente de [Nami] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-017",
+    "code": "OP01-017",
+    "namePt": "Nico Robin",
+    "nameEn": "Nico Robin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-018",
+    "code": "OP01-018",
+    "namePt": "Hajrudin",
+    "nameEn": "Hajrudin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Novos Piratas Gigantes"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-019",
+    "code": "OP01-019",
+    "namePt": "Bartolomeo",
+    "nameEn": "Bartolomeo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x2] [Turno do Oponente] este Personagem ganha +3000 de Poder.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x2] [Opponent's Turn] This Character gains +3000 power.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-020",
+    "code": "OP01-020",
+    "namePt": "Hyogoro",
+    "nameEn": "Hyogoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-021",
+    "code": "OP01-021",
+    "namePt": "Franky",
+    "nameEn": "Franky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] este Personagem também pode atacar do seu oponente ativo(a) Personagens.",
+    "effectEn": "[DON!! x1] This Character can also attack your opponent's active Characters.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-022",
+    "code": "OP01-022",
+    "namePt": "Brook",
+    "nameEn": "Brook",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Dê a até 2 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[DON!! x1] [When Attacking] Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-023",
+    "code": "OP01-023",
+    "namePt": "Marco",
+    "nameEn": "Marco",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Former Whitebeard Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-024",
+    "code": "OP01-024",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] este Personagem não pode ser nocauteado em batalha por ＜Strike＞ atributo Personagens. [Ativar: Principal] [1 Vez por Turno] Dê este Personagem Até 2 descansado(a) cartas de DON!!.",
+    "effectEn": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-025",
+    "code": "OP01-025",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-026",
+    "code": "OP01-026",
+    "namePt": "Gum-Gum Fire-Fist Pistol Red Hawk",
+    "nameEn": "Gum-Gum Fire-Fist Pistol Red Hawk",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's Characters with 4000 power or less.",
+    "triggerPt": "[Gatilho] Dê a até 1 cartas de Líder ou Personagem do seu oponente −10000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −10000 power during this turn.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-027",
+    "code": "OP01-027",
+    "namePt": "Round Table",
+    "nameEn": "Round Table",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effectPt": "[Principal] Dê a até 1 Personagem(ns) do seu oponente −10000 de Poder durante este turno.",
+    "effectEn": "[Main] Give up to 1 of your opponent's Characters −10000 power during this turn.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-028",
+    "code": "OP01-028",
+    "namePt": "Green Star Rafflesia",
+    "nameEn": "Green Star Rafflesia",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
+    "triggerPt": "[Gatilho] ative esta carta's [Contra-Ataque] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-029",
+    "code": "OP01-029",
+    "namePt": "Radical Beam!!",
+    "nameEn": "Radical Beam!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Se você tiver 2 ou menos cartas de Vida, que carta ganha um(a) adicional +2000 Poder.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 2 or less Life cards, that card gains an additional +2000 power.",
+    "triggerPt": "[Gatilho] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-030",
+    "code": "OP01-030",
+    "namePt": "In Two Years!! At the Sabaody Archipelago!!",
+    "nameEn": "In Two Years!! At the Sabaody Archipelago!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} tipo carta(s) de Personagem e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-031",
+    "code": "OP01-031",
+    "namePt": "Kouzuki Oden",
+    "nameEn": "Kouzuki Oden",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] você pode descartar 1 {País de Wano} carta do tipo da sua mão: coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-032",
+    "code": "OP01-032",
+    "namePt": "Ashura Doji",
+    "nameEn": "Ashura Doji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[DON!! x1] Se seu oponente tiver 2 ou mais descansado(a) Personagens, este Personagem ganha +2000 de Poder.",
+    "effectEn": "[DON!! x1] If your opponent has 2 or more rested Characters, this Character gains +2000 power.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-033",
+    "code": "OP01-033",
+    "namePt": "Izo",
+    "nameEn": "Izo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "País de Wano",
+      "Former Whitebeard Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-034",
+    "code": "OP01-034",
+    "namePt": "Inuarashi",
+    "nameEn": "Inuarashi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks",
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectEn": "[DON!! x2] [When Attacking] Set up to 1 of your DON!! cards as active.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-035",
+    "code": "OP01-035",
+    "namePt": "Okiku",
+    "nameEn": "Okiku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] [1 Vez por Turno] Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-036",
+    "code": "OP01-036",
+    "namePt": "Otsuru",
+    "nameEn": "Otsuru",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-037",
+    "code": "OP01-037",
+    "namePt": "Kawamatsu",
+    "nameEn": "Kawamatsu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-038",
+    "code": "OP01-038",
+    "namePt": "Kanjuro",
+    "nameEn": "Kanjuro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos. [Ao Ser K.O.] seu oponente chooses 1 carta da sua mão; descartar que carta.",
+    "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
+    "keywordIds": [
+      "when-attacking",
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-039",
+    "code": "OP01-039",
+    "namePt": "Killer",
+    "nameEn": "Killer",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Ao Bloquear] Se você tiver 3 ou mais Personagens, Compre 1 carta(s).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] If you have 3 or more Characters, draw 1 card.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-040",
+    "code": "OP01-040",
+    "namePt": "Kin'emon",
+    "nameEn": "Kin'emon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder for [Kouzuki Oden], jogue Até 1 {o Akazaya Nine} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão. [DON!! x1] [Ao Atacar] [1 Vez por Turno] coloque Até 1 dos seus {o Akazaya Nine} tipo carta(s) de Personagem com custo de 3 ou menos as ativo(a).",
+    "effectEn": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand. [DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-041",
+    "code": "OP01-041",
+    "namePt": "Kouzuki Momonosuke",
+    "nameEn": "Kouzuki Momonosuke",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Ativar: Principal] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {País de Wano} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-042",
+    "code": "OP01-042",
+    "namePt": "Komurasaki",
+    "nameEn": "Komurasaki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Ao Jogar] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se o seu Líder for [Kouzuki Oden], coloque Até 1 dos seus {País de Wano} tipo carta(s) de Personagem com custo de 3 ou menos as ativo(a).",
+    "effectEn": "[On Play] ③ (You may rest the specified number of DON!! cards in your cost area.): If your Leader is [Kouzuki Oden], set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-043",
+    "code": "OP01-043",
+    "namePt": "Shinobu",
+    "nameEn": "Shinobu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-044",
+    "code": "OP01-044",
+    "namePt": "Shachi",
+    "nameEn": "Shachi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Se você don't tiver [Penguin], jogue Até 1 [Penguin] da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Penguin], play up to 1 [Penguin] from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-045",
+    "code": "OP01-045",
+    "namePt": "Jean Bart",
+    "nameEn": "Jean Bart",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Coração"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-046",
+    "code": "OP01-046",
+    "namePt": "Denjiro",
+    "nameEn": "Denjiro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se o seu Líder for [Kouzuki Oden], coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectEn": "[DON!! x1] [When Attacking] If your Leader is [Kouzuki Oden], set up to 2 of your DON!! cards as active.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-047",
+    "code": "OP01-047",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Você pode retorne 1 Personagem para a sua mão: Jogue até 1 carta(s) de Personagem com custo de 3 ou menos da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may return 1 Character to your hand: Play up to 1 Character card with a cost of 3 or less from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-048",
+    "code": "OP01-048",
+    "namePt": "Nekomamushi",
+    "nameEn": "Nekomamushi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Minks",
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Jogar] Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-049",
+    "code": "OP01-049",
+    "namePt": "Bepo",
+    "nameEn": "Bepo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Minks",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Jogue Até 1 {Piratas do Coração} tipo carta(s) de Personagem diferente de [Bepo] com custo de 4 ou menos da sua mão.",
+    "effectEn": "[DON!! x1] [When Attacking] Play up to 1 {Heart Pirates} type Character card other than [Bepo] with a cost of 4 or less from your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-050",
+    "code": "OP01-050",
+    "namePt": "Penguin",
+    "nameEn": "Penguin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Se você don't tiver [Shachi], jogue Até 1 [Shachi] da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you don't have [Shachi], play up to 1 [Shachi] from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-051",
+    "code": "OP01-051",
+    "namePt": "Eustass\"Captain\"Kid",
+    "nameEn": "Eustass\"Captain\"Kid",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 8,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[DON!! x1] [Turno do Oponente] Se este Personagem for descansado(a), seu oponente não pode atacar qualquer carta diferente de o Personagem [Eustass\"Captain\"Kid]. [Ativar: Principal] [1 Vez por Turno] Você pode descansar este Personagem: Jogue até 1 carta(s) de Personagem com custo de 3 ou menos da sua mão.",
+    "effectEn": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-052",
+    "code": "OP01-052",
+    "namePt": "Raizo",
+    "nameEn": "Raizo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Atacar] [1 Vez por Turno] Se você tiver 2 ou mais descansado(a) Personagens, Compre 1 carta(s).",
+    "effectEn": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-053",
+    "code": "OP01-053",
+    "namePt": "Wire",
+    "nameEn": "Wire",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Kid"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-054",
+    "code": "OP01-054",
+    "namePt": "X Drake",
+    "nameEn": "X Drake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Marinha",
+      "Drake Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-055",
+    "code": "OP01-055",
+    "namePt": "You Can Be My Samurai!!",
+    "nameEn": "You Can Be My Samurai!!",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Principal] Você pode descanse 2 dos seus Personagens: Compre 2 carta(s).",
+    "effectEn": "[Main] You may rest 2 of your Characters: Draw 2 cards.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-056",
+    "code": "OP01-056",
+    "namePt": "Demon Face",
+    "nameEn": "Demon Face",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "[Principal] Dê K.O. em até 2 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Main] K.O. up to 2 of your opponent's rested Characters with a cost of 5 or less.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-057",
+    "code": "OP01-057",
+    "namePt": "Paradise Waterfall",
+    "nameEn": "Paradise Waterfall",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, coloque Até 1 dos seus Personagens as ativo(a).",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your Characters as active.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-058",
+    "code": "OP01-058",
+    "namePt": "Punk Gibson",
+    "nameEn": "Punk Gibson",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-059",
+    "code": "OP01-059",
+    "namePt": "BE-BENG!!",
+    "nameEn": "BE-BENG!!",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Principal] Você pode descartar 1 {País de Wano} carta do tipo da sua mão: coloque Até 1 dos seus {País de Wano} tipo carta(s) de Personagem com custo de 3 ou menos as ativo(a).",
+    "effectEn": "[Main] You may trash 1 {Land of Wano} type card from your hand: Set up to 1 of your {Land of Wano} type Character cards with a cost of 3 or less as active.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-060",
+    "code": "OP01-060",
+    "namePt": "Donquixote Doflamingo",
+    "nameEn": "Donquixote Doflamingo",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[DON!! x2] [Ao Atacar] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Revele 1 carta do topo do seu Deck. Se que carta for a {Sete Corsários} tipo carta(s) de Personagem com custo de 4 ou menos, Você pode jogue que carta descansado(a).",
+    "effectEn": "[DON!! x2] [When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-061",
+    "code": "OP01-061",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE",
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] [1 Vez por Turno] Quando um Personagem do seu oponente for nocauteado, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-062",
+    "code": "OP01-062",
+    "namePt": "Crocodile",
+    "nameEn": "Crocodile",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE",
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] Quando você ative um(a) Evento, Você pode compre 1 carta se você tiver 4 ou menos cartas na sua mão e haven't drawn a carta usando este Líder's efeito durante este turno.",
+    "effectEn": "[DON!! x1] When you activate an Event, you may draw 1 card if you have 4 or less cards in your hand and haven't drawn a card using this Leader's effect during this turn.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-063",
+    "code": "OP01-063",
+    "namePt": "Arlong",
+    "nameEn": "Arlong",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[DON!! x1] [Ativar: Principal] Você pode descansar este Personagem: Escolha 1 carta da sua mão do seu oponente; seu oponente revela que carta. Se o revelada carta for um(a) Evento, coloque Até 1 carta da sua oponente's Vida área no fundo do Deck do dono.",
+    "effectEn": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-064",
+    "code": "OP01-064",
+    "namePt": "Alvida",
+    "nameEn": "Alvida",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Buggy"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode descartar 1 carta(s) da sua mão: retorne Até 1 dos Personagens do seu oponente com custo de 3 ou menos para a mão do dono.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-065",
+    "code": "OP01-065",
+    "namePt": "Vergo",
+    "nameEn": "Vergo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha",
+      "Piratas Donquixote",
+      "Punk Hazard"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-066",
+    "code": "OP01-066",
+    "namePt": "Krieg",
+    "nameEn": "Krieg",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Krieg"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-067",
+    "code": "OP01-067",
+    "namePt": "Crocodile",
+    "nameEn": "Crocodile",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Banimento] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.) [DON!! x1] Dê azul Eventos na sua mão −1 custo.",
+    "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x1] Give blue Events in your hand −1 cost.",
+    "keywordIds": [
+      "banish"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-068",
+    "code": "OP01-068",
+    "namePt": "Gecko Moria",
+    "nameEn": "Gecko Moria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "[Seu Turno] este Personagem ganha [Ataque Duplo] se você tiver 5 ou mais cartas na sua mão. (esta carta causa 2 de dano.)",
+    "effectEn": "[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand. (This card deals 2 damage.)",
+    "keywordIds": [
+      "double-attack",
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-069",
+    "code": "OP01-069",
+    "namePt": "Caesar Clown",
+    "nameEn": "Caesar Clown",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Cientista",
+      "Punk Hazard"
+    ],
+    "effectPt": "[Ao Ser K.O.] Jogue Até 1 [Smiley] do seu Deck, Em seguida, embaralhe seu Deck.",
+    "effectEn": "[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-070",
+    "code": "OP01-070",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários"
+    ],
+    "effectPt": "[Ao Jogar] coloque Até 1 Personagem com custo de 7 ou menos no fundo do Deck do dono.",
+    "effectEn": "[On Play] Place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-071",
+    "code": "OP01-071",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Jogar] coloque Até 1 Personagem com custo de 3 ou menos no fundo do Deck do dono.",
+    "effectEn": "[On Play] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-072",
+    "code": "OP01-072",
+    "namePt": "Smiley",
+    "nameEn": "Smiley",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Biological Weapon",
+      "Punk Hazard"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] este Personagem ganha +1000 de Poder for every carta na sua mão.",
+    "effectEn": "[DON!! x1] [Your Turn] This Character gains +1000 power for every card in your hand.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-073",
+    "code": "OP01-073",
+    "namePt": "Donquixote Doflamingo",
+    "nameEn": "Donquixote Doflamingo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Olhe as 5 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-074",
+    "code": "OP01-074",
+    "namePt": "Bartholomew Kuma",
+    "nameEn": "Bartholomew Kuma",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Sete Corsários",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Jogue Até 1 [Pacifista] com custo de 4 ou menos da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 [Pacifista] with a cost of 4 or less from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-075",
+    "code": "OP01-075",
+    "namePt": "Pacifista",
+    "nameEn": "Pacifista",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Biological Weapon",
+      "Marinha"
+    ],
+    "effectPt": "De acordo com as regras deste jogo, Você pode tiver qualquer número de esta carta no seu Deck. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "Under the rules of this game, you may have any number of this card in your deck. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-076",
+    "code": "OP01-076",
+    "namePt": "Bellamy",
+    "nameEn": "Bellamy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Dressrosa"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-077",
+    "code": "OP01-077",
+    "namePt": "Perona",
+    "nameEn": "Perona",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-078",
+    "code": "OP01-078",
+    "namePt": "Boa Hancock",
+    "nameEn": "Boa Hancock",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Ao Atacar]/[Ao Bloquear] Compre 1 carta se você tiver 5 ou menos cartas na sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [When Attacking]/[On Block] Draw 1 card if you have 5 or less cards in your hand.",
+    "keywordIds": [
+      "blocker",
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-079",
+    "code": "OP01-079",
+    "namePt": "Ms  All Sunday",
+    "nameEn": "Ms  All Sunday",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Se o seu Líder tiver o tipo {Baroque Works}, adicione Até 1 Evento da sua lixeira para a sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Baroque Works} type, add up to 1 Event from your trash to your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-080",
+    "code": "OP01-080",
+    "namePt": "Miss Doublefinger(Zala)",
+    "nameEn": "Miss Doublefinger(Zala)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Ao Ser K.O.] Compre 1 carta(s).",
+    "effectEn": "[On K.O.] Draw 1 card.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-081",
+    "code": "OP01-081",
+    "namePt": "Mocha",
+    "nameEn": "Mocha",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Punk Hazard"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-082",
+    "code": "OP01-082",
+    "namePt": "Monet",
+    "nameEn": "Monet",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas Donquixote",
+      "Punk Hazard"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-083",
+    "code": "OP01-083",
+    "namePt": "Mr 1(Daz Bonez)",
+    "nameEn": "Mr 1(Daz Bonez)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Se o seu Líder tiver o tipo {Baroque Works}, este Personagem ganha +1000 de Poder para cada 2 Eventos na sua lixeira.",
+    "effectEn": "[DON!! x1] [Your Turn] If your Leader has the {Baroque Works} type, this Character gains +1000 power for every 2 Events in your trash.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-084",
+    "code": "OP01-084",
+    "namePt": "Mr 2 Bon Kurei(Bentham)",
+    "nameEn": "Mr 2 Bon Kurei(Bentham)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Baroque Works} tipo carta(s) de Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[DON!! x1] [When Attacking] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type Event card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-085",
+    "code": "OP01-085",
+    "namePt": "Mr 3(Galdino)",
+    "nameEn": "Mr 3(Galdino)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Baroque Works}, selecione Até 1 dos Personagens do seu oponente com custo de 4 ou menos. o Personagem selecionado não pode atacar até o fim do próximo turno do seu oponente.",
+    "effectEn": "[On Play] If your Leader has the {Baroque Works} type, select up to 1 of your opponent's Characters with a cost of 4 or less. The selected Character cannot attack until the end of your opponent's next turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-086",
+    "code": "OP01-086",
+    "namePt": "Overheat",
+    "nameEn": "Overheat",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, retorne Até 1 ativo(a) Personagem com custo de 3 ou menos para a mão do dono.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 active Character with a cost of 3 or less to the owner's hand.",
+    "triggerPt": "[Gatilho] retorne até 1 Personagem com custo de 4 ou menos para a mão do dono.",
+    "triggerEn": "[Trigger] Return up to 1 Character with a cost of 4 or less to the owner's hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-087",
+    "code": "OP01-087",
+    "namePt": "Officer Agents",
+    "nameEn": "Officer Agents",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Contra-Ataque] Jogue Até 1 {Baroque Works} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
+    "effectEn": "[Counter] Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
+    "triggerPt": "[Gatilho] ative esta carta's [Contra-Ataque] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-088",
+    "code": "OP01-088",
+    "namePt": "Desert Spada",
+    "nameEn": "Desert Spada",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "triggerPt": "[Gatilho] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-089",
+    "code": "OP01-089",
+    "namePt": "Crescent Cutlass",
+    "nameEn": "Crescent Cutlass",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Contra-Ataque] Se o seu Líder tiver o tipo {Sete Corsários}, retorne até 1 Personagem com custo de 5 ou menos para a mão do dono.",
+    "effectEn": "[Counter] If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-090",
+    "code": "OP01-090",
+    "namePt": "Baroque Works",
+    "nameEn": "Baroque Works",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Principal] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Baroque Works} carta do tipo diferente de [Baroque Works] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Baroque Works} type card other than [Baroque Works] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-091",
+    "code": "OP01-091",
+    "namePt": "King",
+    "nameEn": "King",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Seu Turno] Se você tiver 10 cartas de DON!! no seu campo, dê todos os dos Personagens do seu oponente −1000 Poder.",
+    "effectEn": "[Your Turn] If you have 10 DON!! cards on your field, give all of your opponent's Characters −1000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-092",
+    "code": "OP01-092",
+    "namePt": "Urashima",
+    "nameEn": "Urashima",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-093",
+    "code": "OP01-093",
+    "namePt": "Ulti",
+    "nameEn": "Ulti",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-094",
+    "code": "OP01-094",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −6 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Piratas das Feras}, K.O. todos os Personagens diferente de este Personagem.",
+    "effectEn": "[On Play] DON!! −6 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Animal Kingdom Pirates} type, K.O. all Characters other than this Character.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-095",
+    "code": "OP01-095",
+    "namePt": "Kyoshirou",
+    "nameEn": "Kyoshirou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Ao Jogar] Compre 1 carta se você tiver 8 ou mais cartas de DON!! no seu campo.",
+    "effectEn": "[On Play] Draw 1 card if you have 8 or more DON!! cards on your field.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-096",
+    "code": "OP01-096",
+    "namePt": "King",
+    "nameEn": "King",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos e Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less and up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-097",
+    "code": "OP01-097",
+    "namePt": "Queen",
+    "nameEn": "Queen",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Investida] durante este turno. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Rush] during this turn. Then, give up to 1 of your opponent's Characters −2000 power during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-098",
+    "code": "OP01-098",
+    "namePt": "Kurozumi Orochi",
+    "nameEn": "Kurozumi Orochi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kurozumi"
+    ],
+    "effectPt": "[Ao Jogar] revele até 1 [Artificial Devil Fruit SMILE] do seu Deck e adicione-a à sua mão. Em seguida, embaralhe seu Deck.",
+    "effectEn": "[On Play] Reveal up to 1 [Artificial Devil Fruit SMILE] from your deck and add it to your hand. Then, shuffle your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-099",
+    "code": "OP01-099",
+    "namePt": "Kurozumi Semimaru",
+    "nameEn": "Kurozumi Semimaru",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kurozumi"
+    ],
+    "effectPt": "{Clã Kurozumi} tipo Personagens diferente de seu [Kurozumi Semimaru] não pode ser nocauteado em batalha.",
+    "effectEn": "{Kurozumi Clan} type Characters other than your [Kurozumi Semimaru] cannot be K.O.'d in battle.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-100",
+    "code": "OP01-100",
+    "namePt": "Kurozumi Higurashi",
+    "nameEn": "Kurozumi Higurashi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kurozumi"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-101",
+    "code": "OP01-101",
+    "namePt": "Sasaki",
+    "nameEn": "Sasaki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Você pode descartar 1 carta(s) da sua mão: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-102",
+    "code": "OP01-102",
+    "namePt": "Jack",
+    "nameEn": "Jack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-103",
+    "code": "OP01-103",
+    "namePt": "Scratchmen Apoo",
+    "nameEn": "Scratchmen Apoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas das Feras",
+      "On-Air Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-104",
+    "code": "OP01-104",
+    "namePt": "Speed",
+    "nameEn": "Speed",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-105",
+    "code": "OP01-105",
+    "namePt": "Bao Huang",
+    "nameEn": "Bao Huang",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Ao Jogar] Escolha 2 cartas da sua mão do seu oponente; seu oponente revela those cartas.",
+    "effectEn": "[On Play] Choose 2 cards from your opponent's hand; your opponent reveals those cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-106",
+    "code": "OP01-106",
+    "namePt": "Basil Hawkins",
+    "nameEn": "Basil Hawkins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-107",
+    "code": "OP01-107",
+    "namePt": "Babanuki",
+    "nameEn": "Babanuki",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-108",
+    "code": "OP01-108",
+    "namePt": "Hitokiri Kamazo",
+    "nameEn": "Hitokiri Kamazo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid",
+      "SMILE"
+    ],
+    "effectPt": "[Ao Ser K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-109",
+    "code": "OP01-109",
+    "namePt": "Who's Who",
+    "nameEn": "Who's Who",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Se você tiver 8 ou mais cartas de DON!! no seu campo, este Personagem ganha +1000 de Poder.",
+    "effectEn": "[DON!! x1] [Your Turn] If you have 8 or more DON!! cards on your field, this Character gains +1000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-110",
+    "code": "OP01-110",
+    "namePt": "Fukurokuju",
+    "nameEn": "Fukurokuju",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano",
+      "Piratas das Feras"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-111",
+    "code": "OP01-111",
+    "namePt": "Black Maria",
+    "nameEn": "Black Maria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Bloquear] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +1000 de Poder durante este turno.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +1000 power during this turn.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-112",
+    "code": "OP01-112",
+    "namePt": "Page One",
+    "nameEn": "Page One",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem também pode atacar do seu oponente ativo(a) Personagens durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-113",
+    "code": "OP01-113",
+    "namePt": "Holedem",
+    "nameEn": "Holedem",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Ao Ser K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-114",
+    "code": "OP01-114",
+    "namePt": "X Drake",
+    "nameEn": "X Drake",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha",
+      "Drake Pirates",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-115",
+    "code": "OP01-115",
+    "namePt": "Elephant's Marchoo",
+    "nameEn": "Elephant's Marchoo",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Principal] K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos, Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-116",
+    "code": "OP01-116",
+    "namePt": "Artificial Devil Fruit SMILE",
+    "nameEn": "Artificial Devil Fruit SMILE",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Principal] Olhe as 5 cartas do topo do seu Deck; jogue Até 1 {SMILE} tipo carta(s) de Personagem com custo de 3 ou menos. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; play up to 1 {SMILE} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-117",
+    "code": "OP01-117",
+    "namePt": "Sheep's Horn",
+    "nameEn": "Sheep's Horn",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras",
+      "SMILE"
+    ],
+    "effectPt": "[Principal] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectEn": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-118",
+    "code": "OP01-118",
+    "namePt": "Ulti-Mortar",
+    "nameEn": "Ulti-Mortar",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Contra-Ataque] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Compre 1 carta(s).",
+    "effectEn": "[Counter] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, draw 1 card.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-119",
+    "code": "OP01-119",
+    "namePt": "Thunder Bagua",
+    "nameEn": "Thunder Bagua",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Se você tiver 2 ou menos cartas de Vida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-120",
+    "code": "OP01-120",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.) [Ao Atacar] seu oponente não pode ativar a [Bloqueador] Personagem que tiver 2000 ou menos Poder durante esta batalha.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
+    "keywordIds": [
+      "blocker",
+      "rush",
+      "when-attacking"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  },
+  {
+    "id": "OP01-121",
+    "code": "OP01-121",
+    "namePt": "Yamato",
+    "nameEn": "Yamato",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "o nome desta carta também é considerado [Kouzuki Oden] de acordo com as regras. [Ataque Duplo] (esta carta causa 2 de dano.) [Banimento] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "Also treat this card's name as [Kouzuki Oden] according to the rules. [Double Attack] (This card deals 2 damage.) [Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "double-attack",
+      "banish"
+    ],
+    "setId": "OP-01",
+    "setName": "ROMANCE DAWN"
+  }
+]

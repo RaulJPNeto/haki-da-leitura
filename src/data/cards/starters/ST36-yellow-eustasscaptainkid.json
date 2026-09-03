@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ST36-001",
+    "code": "ST36-001",
+    "namePt": "Cavendish",
+    "nameEn": "Cavendish",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Dressrosa",
+      "Supernovas",
+      "Beautiful Pirates"
+    ],
+    "effectPt": "[Ao Ser K.O.] Você pode descartar 1 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[On K.O.] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "ST-36",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "ST36-002",
+    "code": "ST36-002",
+    "namePt": "Killer",
+    "nameEn": "Killer",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Se o seu Líder tiver o tipo {Piratas do Kid}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[Your Turn] [On Play] If your Leader has the {Kid Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "triggerPt": "[Gatilho] Se o seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger",
+      "your-turn"
+    ],
+    "setId": "ST-36",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "ST36-003",
+    "code": "ST36-003",
+    "namePt": "Scratchmen Apoo",
+    "nameEn": "Scratchmen Apoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Compre 1 carta(s) e seu {Supernovas} tipo Poder base do seu Líder torna-se 7000 durante este turno.",
+    "triggerEn": "[Trigger] Draw 1 card and your {Supernovas} type Leader's base power becomes 7000 during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-36",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "ST36-004",
+    "code": "ST36-004",
+    "namePt": "Bartolomeo",
+    "nameEn": "Bartolomeo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Dressrosa",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 {Supernovas} carta do tipo da sua mão: Compre 2 carta(s).",
+    "effectEn": "[On Play] You may trash 1 {Supernovas} type card from your hand: Draw 2 cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-36",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "ST36-005",
+    "code": "ST36-005",
+    "namePt": "Eustass\"Captain\"Kid",
+    "nameEn": "Eustass\"Captain\"Kid",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[No Ataque do Oponente] [1 Vez por Turno] Você pode vire 1 carta do topo ou fundo das suas cartas de Vida viradas para baixo: Mude o alvo do ataque para seu [Eustass\"Captain\"Kid] com 5000 base Poder ou mais. [Ativar: Principal] [1 Vez por Turno] Você pode vire 1 carta do topo ou fundo das suas cartas de Vida viradas para cima: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
+    "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-down: Change the target of the attack to your [Eustass\"Captain\"Kid] with 5000 base power or more. [Activate: Main] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-up: Give up to 1 rested DON!! card to your Leader.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-36",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  }
+]

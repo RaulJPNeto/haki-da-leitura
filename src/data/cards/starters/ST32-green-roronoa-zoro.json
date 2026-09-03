@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ST32-001",
+    "code": "ST32-001",
+    "namePt": "Kin'emon",
+    "nameEn": "Kin'emon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descanse seu atributo Líder ou 1 das suas cartas de DON!!: Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[On Play] You may rest your attribute Leader or 1 of your DON!! cards: Draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-32",
+    "setName": "GREEN Roronoa Zoro"
+  },
+  {
+    "id": "ST32-002",
+    "code": "ST32-002",
+    "namePt": "Kouzuki Oden",
+    "nameEn": "Kouzuki Oden",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki"
+    ],
+    "effectPt": "[Ao Jogar] Compre 1 carta(s) e Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos não pode ser descansado até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "[On Play] Draw 1 card and up to 1 of your opponent's Characters with a base cost of 6 or less cannot be rested until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-32",
+    "setName": "GREEN Roronoa Zoro"
+  },
+  {
+    "id": "ST32-003",
+    "code": "ST32-003",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Muggy Kingdom",
+      "Sete Corsários"
+    ],
+    "effectPt": "[Seu Turno] Quando este Personagem torna-se descansado(a), Compre 1 carta(s) e descarte 1 carta(s) da sua mão. [Ao Jogar] Se o seu Líder tiver o atributo, jogue Até 1 carta(s) de Personagem com custo de 5 ou menos que for either [Perona] ou tem o atributo da sua mão.",
+    "effectEn": "[Your Turn] When this Character becomes rested, draw 1 card and trash 1 card from your hand. [On Play] If your Leader has the attribute, play up to 1 Character card with a cost of 5 or less that is either [Perona] or has the attribute from your hand.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "ST-32",
+    "setName": "GREEN Roronoa Zoro"
+  },
+  {
+    "id": "ST32-004",
+    "code": "ST32-004",
+    "namePt": "Silvers Rayleigh",
+    "nameEn": "Silvers Rayleigh",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Former Roger Pirates"
+    ],
+    "effectPt": "Se o seu Líder tiver o atributo, este Personagem ganha [Investida: Personagem]. (Esta carta pode atacar Personagens no turno em que é jogada.) [Ao Jogar] Descanse até 2 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "If your Leader has the attribute, this Character gains [Rush: Character]. (This card can attack Characters on the turn in which it is played.) [On Play] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-32",
+    "setName": "GREEN Roronoa Zoro"
+  },
+  {
+    "id": "ST32-005",
+    "code": "ST32-005",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Investida: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [Ao Jogar] Se o seu Líder tiver o atributo, Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the attribute, rest up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-32",
+    "setName": "GREEN Roronoa Zoro"
+  }
+]

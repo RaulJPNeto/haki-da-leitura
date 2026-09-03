@@ -1,0 +1,2981 @@
+[
+  {
+    "id": "OP07-001",
+    "code": "OP07-001",
+    "namePt": "Monkey D Dragon",
+    "nameEn": "Monkey D Dragon",
+    "cardType": "LEADER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê Até 2 total dos seus cartas de DON!! atualmente anexadas para 1 dos seus Personagens.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 2 total of your currently given DON!! cards to 1 of your Characters.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-002",
+    "code": "OP07-002",
+    "namePt": "Ain",
+    "nameEn": "Ain",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 7,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Neo Marinha"
+    ],
+    "effectPt": "[Ao Jogar] coloque o Poder de Até 1 dos Personagens do seu oponente para 0 durante este turno.",
+    "effectEn": "[On Play] Set the power of up to 1 of your opponent's Characters to 0 during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-003",
+    "code": "OP07-003",
+    "namePt": "Outlook III",
+    "nameEn": "Outlook III",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Reino de Goa"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Dê a até 2 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-004",
+    "code": "OP07-004",
+    "namePt": "Curly Dadan",
+    "nameEn": "Curly Dadan",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bandidos da Montanha"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: Olhe as 5 cartas do topo do seu Deck; revele até 1 carta(s) de Personagem com 2000 ou menos de Poder e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: Look at 5 cards from the top of your deck; reveal up to 1 Character card with 2000 power or less and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-005",
+    "code": "OP07-005",
+    "namePt": "Carina",
+    "nameEn": "Carina",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-006",
+    "code": "OP07-006",
+    "namePt": "Sterry",
+    "nameEn": "Sterry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Reino de Goa"
+    ],
+    "effectPt": "[Ao Jogar] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[On Play] You may give your 1 active Leader −5000 power during this turn: Draw 1 card and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-007",
+    "code": "OP07-007",
+    "namePt": "Dice",
+    "nameEn": "Dice",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-008",
+    "code": "OP07-008",
+    "namePt": "Mr  Tanaka",
+    "nameEn": "Mr  Tanaka",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-009",
+    "code": "OP07-009",
+    "namePt": "Dogura &amp; Magura",
+    "nameEn": "Dogura &amp; Magura",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bandidos da Montanha"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 dos seus vermelho(a) Personagens com custo de 1 ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectEn": "[On Play] Up to 1 of your red Characters with a cost of 1 gains [Double Attack] during this turn. (This card deals 2 damage.)",
+    "keywordIds": [
+      "on-play",
+      "double-attack"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-010",
+    "code": "OP07-010",
+    "namePt": "Baccarat",
+    "nameEn": "Baccarat",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Grantesoro"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [No Ataque do Oponente] [1 Vez por Turno] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-011",
+    "code": "OP07-011",
+    "namePt": "Bluejam",
+    "nameEn": "Bluejam",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Reino de Goa",
+      "Bluejam Pirates"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
+    "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-012",
+    "code": "OP07-012",
+    "namePt": "Porchemy",
+    "nameEn": "Porchemy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Reino de Goa",
+      "Bluejam Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-013",
+    "code": "OP07-013",
+    "namePt": "Masked Deuce",
+    "nameEn": "Masked Deuce",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Spade Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder for [Portgas.D.Ace], Olhe as 5 cartas do topo do seu Deck; revele até 1 [Portgas.D.Ace] ou vermelho(a) Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 [Portgas.D.Ace] or red Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-014",
+    "code": "OP07-014",
+    "namePt": "Moda",
+    "nameEn": "Moda",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Lulucia Kingdom"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Até 1 dos seus [Portgas.D.Ace] cartas ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Your Turn] [On Play] Up to 1 of your [Portgas.D.Ace] cards gains +2000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-015",
+    "code": "OP07-015",
+    "namePt": "Monkey D Dragon",
+    "nameEn": "Monkey D Dragon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.) [Ao Jogar] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-016",
+    "code": "OP07-016",
+    "namePt": "Galaxy Wink",
+    "nameEn": "Galaxy Wink",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Principal] Até 1 dos seus {Exército Revolucionário} tipo Personagens ganha +2000 de Poder durante este turno. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectEn": "[Main] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power during this turn. Then, give up to 1 of your opponent's Characters −1000 power during this turn.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-017",
+    "code": "OP07-017",
+    "namePt": "Dragon Breath",
+    "nameEn": "Dragon Breath",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Principal] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder e Até 1 do seu oponente Stages com custo de 1 ou menos.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with 3000 power or less and up to 1 of your opponent's Stages with a cost of 1 or less.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-018",
+    "code": "OP07-018",
+    "namePt": "KEEP OUT",
+    "nameEn": "KEEP OUT",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Impel Down",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 dos seus {Exército Revolucionário} tipo Personagens ganha +2000 de Poder até o fim dos seus próximo turno.",
+    "effectEn": "[Counter] Up to 1 of your {Revolutionary Army} type Characters gains +2000 power until the end of your next turn.",
+    "triggerPt": "[Gatilho] ative esta carta's [Contra-Ataque] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-019",
+    "code": "OP07-019",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[No Ataque do Oponente] [1 Vez por Turno] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem.",
+    "effectEn": "[On Your Opponent's Attack] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Leader or Character cards.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-020",
+    "code": "OP07-020",
+    "namePt": "Aladine",
+    "nameEn": "Aladine",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Tritão",
+      "The Sun Pirates"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Se o seu Líder tiver o tipo {Homem-Peixe}, jogue Até 1 {Homem-Peixe} ou {Tritão} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Fish-Man} type, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-021",
+    "code": "OP07-021",
+    "namePt": "Urouge",
+    "nameEn": "Urouge",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Fim do Seu Turno] coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] Set up to 1 of your DON!! cards as active.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-022",
+    "code": "OP07-022",
+    "namePt": "Otama",
+    "nameEn": "Otama",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 verde {País de Wano} carta do tipo diferente de [Otama] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 green {Land of Wano} type card other than [Otama] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-023",
+    "code": "OP07-023",
+    "namePt": "Caribou",
+    "nameEn": "Caribou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effectPt": "Se você tiver 6 ou mais descansado(a) cartas de DON!!, este Personagem ganha +1000 de Poder. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "If you have 6 or more rested DON!! cards, this Character gains +1000 power. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-024",
+    "code": "OP07-024",
+    "namePt": "Koala",
+    "nameEn": "Koala",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Foolshout Island"
+    ],
+    "effectPt": "[No Ataque do Oponente] Você pode descansar este Personagem: Até 1 dos seus {Homem-Peixe} tipo Personagens com custo de 5 ou menos ganha [Bloqueador] durante este turno. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[On Your Opponent's Attack] You may rest this Character: Up to 1 of your {Fish-Man} type Characters with a cost of 5 or less gains [Blocker] during this turn. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-025",
+    "code": "OP07-025",
+    "namePt": "Coribou",
+    "nameEn": "Coribou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Caribou Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Jogue Até 1 [Caribou] com custo de 4 ou menos da sua mão descansado(a).",
+    "effectEn": "[On Play] Play up to 1 [Caribou] with a cost of 4 or less from your hand rested.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-026",
+    "code": "OP07-026",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 do seu oponente descansado(a) Personagem ou cartas de DON!! não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[On Play] Up to 1 of your opponent's rested Character or DON!! cards will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-027",
+    "code": "OP07-027",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "The Sun Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-028",
+    "code": "OP07-028",
+    "namePt": "Scratchmen Apoo",
+    "nameEn": "Scratchmen Apoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Supernovas",
+      "On-Air Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-029",
+    "code": "OP07-029",
+    "namePt": "Basil Hawkins",
+    "nameEn": "Basil Hawkins",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Hawkins Pirates"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Supernovas}, este Personagem ganha [Bloqueador]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [1 Vez por Turno] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descanse 1 dos Personagens do seu oponente em vez disso.",
+    "effectEn": "If your Leader has the {Supernovas} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your opponent's Characters instead.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-030",
+    "code": "OP07-030",
+    "namePt": "Pappag",
+    "nameEn": "Pappag",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal"
+    ],
+    "effectPt": "Se você tiver um [Camie] Personagem, este Personagem ganha [Bloqueador]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "If you have a [Camie] Character, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-031",
+    "code": "OP07-031",
+    "namePt": "Bartolomeo",
+    "nameEn": "Bartolomeo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Seu Turno] [1 Vez por Turno] Se a Personagem for descansado(a) por seu efeito, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
+    "keywordIds": [
+      "blocker",
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-032",
+    "code": "OP07-032",
+    "namePt": "Fisher Tiger",
+    "nameEn": "Fisher Tiger",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "The Sun Pirates"
+    ],
+    "effectPt": "este Personagem pode atacar Personagens no turno em que é jogada. [Ao Jogar] Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão}, Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectEn": "This Character can attack Characters on the turn in which it is played. [On Play] If your Leader has the {Fish-Man} or {Merfolk} type, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-033",
+    "code": "OP07-033",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "Se você tiver 3 ou mais Personagens, seus Personagens com custo de 3 ou menos diferente de [Monkey.D.Luffy] não pode ser nocauteado por efeitos do seu oponente.",
+    "effectEn": "If you have 3 or more Characters, your Characters with a cost of 3 or less other than [Monkey.D.Luffy] cannot be K.O.'d by your opponent's effects.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-034",
+    "code": "OP07-034",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Atacar] Se você tiver 3 ou mais Personagens, este Personagem ganha +2000 de Poder durante este turno.",
+    "effectEn": "[When Attacking] If you have 3 or more Characters, this Character gains +2000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-035",
+    "code": "OP07-035",
+    "namePt": "Karmic Punishment",
+    "nameEn": "Karmic Punishment",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Fallen Monk Pirates"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, se você tiver 3 ou mais Personagens, que carta ganha um(a) adicional +1000 Poder durante esta batalha.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 3 or more Characters, that card gains an additional +1000 power during this battle.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-036",
+    "code": "OP07-036",
+    "namePt": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
+    "nameEn": "Demonic Aura Nine-Sword Style Asura Demon Nine Flash",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Principal] Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 de Poder durante este turno. Em seguida, Você pode descanse 1 dos seus Personagens com custo de 3 ou mais. Se fizer isso, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, you may rest 1 of your Characters with a cost of 3 or more. If you do, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-037",
+    "code": "OP07-037",
+    "namePt": "More Pizza!!",
+    "nameEn": "More Pizza!!",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[Principal] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} carta do tipo diferente de [mais Pizza!!] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [More Pizza!!] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-038",
+    "code": "OP07-038",
+    "namePt": "Boa Hancock",
+    "nameEn": "Boa Hancock",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Seu Turno] [1 Vez por Turno] este efeito pode ser ativado(a) quando a Personagem for removido(a) de campo por seu efeito. Se você tiver 5 ou menos cartas na sua mão, Compre 1 carta(s).",
+    "effectEn": "[Your Turn] [Once Per Turn] This effect can be activated when a Character is removed from the field by your effect. If you have 5 or less cards in your hand, draw 1 card.",
+    "keywordIds": [
+      "once-per-turn",
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-039",
+    "code": "OP07-039",
+    "namePt": "Edward Weevil",
+    "nameEn": "Edward Weevil",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectEn": "[DON!! x1] [When Attacking] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-040",
+    "code": "OP07-040",
+    "namePt": "Crocodile",
+    "nameEn": "Crocodile",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Ao Jogar] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): retorne até 1 Personagem com custo de 2 ou menos para a mão do dono.",
+    "effectEn": "[On Play] ① (You may rest the specified number of DON!! cards in your cost area.): Return up to 1 Character with a cost of 2 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-041",
+    "code": "OP07-041",
+    "namePt": "Gloriosa (Grandma Nyon)",
+    "nameEn": "Gloriosa (Grandma Nyon)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Amazon Lily} ou {Piratas Kuja} carta do tipo diferente de [Gloriosa (Grandma Nyon)] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Amazon Lily} or {Kuja Pirates} type card other than [Gloriosa (Grandma Nyon)] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-042",
+    "code": "OP07-042",
+    "namePt": "Gecko Moria",
+    "nameEn": "Gecko Moria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "[1 Vez por Turno] Se o seu Líder tiver o tipo {Sete Corsários} e este Personagem for ser removido de campo por um efeito do seu oponente, Você pode colocar 1 dos seus Personagens diferente de [Gecko Moria] no fundo do Deck do dono em vez disso.",
+    "effectEn": "[Once Per Turn] If your Leader has the {The Seven Warlords of the Sea} type and this Character would be removed from the field by your opponent's effect, you may place 1 of your Characters other than [Gecko Moria] at the bottom of the owner's deck instead.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-043",
+    "code": "OP07-043",
+    "namePt": "Salome",
+    "nameEn": "Salome",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Até 1 dos seus [Boa Hancock] cartas ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Your Turn] [On Play] Up to 1 of your [Boa Hancock] cards gains +2000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-044",
+    "code": "OP07-044",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários"
+    ],
+    "effectPt": "[Ao Jogar] Compre 1 carta(s).",
+    "effectEn": "[On Play] Draw 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-045",
+    "code": "OP07-045",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Sete Corsários",
+      "The Sun Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Jogue Até 1 {Sete Corsários} tipo carta(s) de Personagem com custo de 4 ou menos diferente de [Jinbe] da sua mão.",
+    "effectEn": "[On Play] Play up to 1 {The Seven Warlords of the Sea} type Character card with a cost of 4 or less other than [Jinbe] from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-046",
+    "code": "OP07-046",
+    "namePt": "Sengoku",
+    "nameEn": "Sengoku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Sete Corsários} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {The Seven Warlords of the Sea} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-047",
+    "code": "OP07-047",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode retorne este Personagem para a mão do dono: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a).",
+    "effectEn": "[Activate: Main] You may return this Character to the owner's hand: If your opponent has 6 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-048",
+    "code": "OP07-048",
+    "namePt": "Donquixote Doflamingo",
+    "nameEn": "Donquixote Doflamingo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Revele 1 carta do topo do seu Deck. Se que carta for a {Sete Corsários} tipo carta(s) de Personagem com custo de 4 ou menos, Você pode jogue que carta descansado(a). Em seguida, coloque o restante no fundo do seu Deck.",
+    "effectEn": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested. Then, place the rest at the bottom of your deck.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-049",
+    "code": "OP07-049",
+    "namePt": "Buckin",
+    "nameEn": "Buckin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Weevil's Mother"
+    ],
+    "effectPt": "[Ao Jogar] Jogue Até 1 [Edward Weevil] com custo de 4 ou menos da sua mão descansado(a).",
+    "effectEn": "[On Play] Play up to 1 [Edward Weevil] with a cost of 4 or less from your hand rested.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-050",
+    "code": "OP07-050",
+    "namePt": "Boa Sandersonia",
+    "nameEn": "Boa Sandersonia",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 2 ou mais {Amazon Lily} ou {Piratas Kuja} tipo Personagens no seu campo, retorne Até 1 dos Personagens do seu oponente com custo de 3 ou menos para a mão do dono.",
+    "effectEn": "[On Play] If you have 2 or more {Amazon Lily} or {Kuja Pirates} type Characters on your field, return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-051",
+    "code": "OP07-051",
+    "namePt": "Boa Hancock",
+    "nameEn": "Boa Hancock",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Ao Jogar] Até 1 dos Personagens do seu oponente diferente de [Monkey.D.Luffy] não pode atacar até o fim do próximo turno do seu oponente. Em seguida, coloque Até 1 Personagem com custo de 1 ou menos no fundo do Deck do dono.",
+    "effectEn": "[On Play] Up to 1 of your opponent's Characters other than [Monkey.D.Luffy] cannot attack until the end of your opponent's next turn. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-052",
+    "code": "OP07-052",
+    "namePt": "Boa Marigold",
+    "nameEn": "Boa Marigold",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 2 ou mais {Amazon Lily} ou {Piratas Kuja} tipo Personagens no seu campo, coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono.",
+    "effectEn": "[On Play] If you have 2 or more {Amazon Lily} or {Kuja Pirates} type Characters on your field, place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-053",
+    "code": "OP07-053",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Compre 2 carta(s) e coloque 2 cartas da sua mão no topo ou fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-054",
+    "code": "OP07-054",
+    "namePt": "Marguerite",
+    "nameEn": "Marguerite",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Compre 1 carta(s).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 1 card.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-055",
+    "code": "OP07-055",
+    "namePt": "Snake Dance",
+    "nameEn": "Snake Dance",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, retorne até 1 dos seus Personagens para a mão do dono.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, return up to 1 of your Characters to the owner's hand.",
+    "triggerPt": "[Gatilho] Você pode retorne 1 dos seus Personagens para a mão do dono: retorne Até 1 dos Personagens do seu oponente com custo de 5 ou menos para a mão do dono.",
+    "triggerEn": "[Trigger] You may return 1 of your Characters to the owner's hand: Return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-056",
+    "code": "OP07-056",
+    "namePt": "Slave Arrow",
+    "nameEn": "Slave Arrow",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Contra-Ataque] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "triggerPt": "[Gatilho] Compre 2 carta(s) e coloque 2 cartas da sua mão no fundo do seu Deck em qualquer ordem.",
+    "triggerEn": "[Trigger] Draw 2 cards and place 2 cards from your hand at the bottom of your deck in any order.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-057",
+    "code": "OP07-057",
+    "namePt": "Perfume Femur",
+    "nameEn": "Perfume Femur",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[Principal] Selecione Até 1 dos seus {Sete Corsários} tipo Líder ou carta(s) de Personagem e que carta ganha +2000 de Poder durante este turno. Em seguida, se o selected carta attacks durante este turno, seu oponente não pode ativar [Bloqueador].",
+    "effectEn": "[Main] Select up to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards and that card gains +2000 power during this turn. Then, if the selected card attacks during this turn, your opponent cannot activate [Blocker].",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-058",
+    "code": "OP07-058",
+    "namePt": "Island of Women",
+    "nameEn": "Island of Women",
+    "cardType": "STAGE",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Amazon Lily"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Se o seu Líder tiver o tipo {Piratas Kuja}, retorne Até 1 dos seus {Amazon Lily} ou {Piratas Kuja} tipo Personagens para a mão do dono.",
+    "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: If your Leader has the {Kuja Pirates} type, return up to 1 of your {Amazon Lily} or {Kuja Pirates} type Characters to the owner's hand.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-059",
+    "code": "OP07-059",
+    "namePt": "Foxy",
+    "nameEn": "Foxy",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ao Atacar] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se você tiver 3 ou mais {Piratas Foxy} tipo Personagens, selecione do seu oponente descansado(a) Líder e Até 1 carta(s) de Personagem. o selected cartas não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[When Attacking] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If you have 3 or more {Foxy Pirates} type Characters, select your opponent's rested Leader and up to 1 Character card. The selected cards will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-060",
+    "code": "OP07-060",
+    "namePt": "Itomimizu",
+    "nameEn": "Itomimizu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se o seu Líder tiver o tipo {Piratas Foxy} e você não tiver outros [Itomimizu], Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Activate: Main] [Once Per Turn] If your Leader has the {Foxy Pirates} type and you have no other [Itomimizu], add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-061",
+    "code": "OP07-061",
+    "namePt": "Vinsmoke Sanji",
+    "nameEn": "Vinsmoke Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {o Vinsmoke Family}, Compre 1 carta(s).",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {The Vinsmoke Family} type, draw 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-062",
+    "code": "OP07-062",
+    "namePt": "Vinsmoke Reiju",
+    "nameEn": "Vinsmoke Reiju",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effectPt": "[Ao Jogar] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, retorne Até 1 dos seus {o Vinsmoke Family} tipo Personagens com custo de 1 para a mão do dono.",
+    "effectEn": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, return up to 1 of your {The Vinsmoke Family} type Characters with a cost of 1 to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-063",
+    "code": "OP07-063",
+    "namePt": "Capote",
+    "nameEn": "Capote",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Piratas Foxy}, Até 1 dos Personagens do seu oponente com custo de 6 ou menos não pode atacar até o fim do próximo turno do seu oponente.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Foxy Pirates} type, up to 1 of your opponent's Characters with a cost of 6 or less cannot attack until the end of your opponent's next turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-064",
+    "code": "OP07-064",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "Se o número de cartas de DON!! no seu campo for no least 2 menos do que o número on do seu oponente campo, dê esta carta na sua mão −3 custo. [Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "If the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-065",
+    "code": "OP07-065",
+    "namePt": "Gina",
+    "nameEn": "Gina",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Piratas Foxy} e o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectEn": "[On Play] If your Leader has the {Foxy Pirates} type and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-066",
+    "code": "OP07-066",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-067",
+    "code": "OP07-067",
+    "namePt": "Tonjit",
+    "nameEn": "Tonjit",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Long Ring Long Land"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-068",
+    "code": "OP07-068",
+    "namePt": "Hamburg",
+    "nameEn": "Hamburg",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[DON!! x1] [When Attacking] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-069",
+    "code": "OP07-069",
+    "namePt": "Pickles",
+    "nameEn": "Pickles",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, seu {Piratas Foxy} tipo Personagens diferente de [Pickles] não pode ser nocauteado por efeitos do seu oponente.",
+    "effectEn": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, your {Foxy Pirates} type Characters other than [Pickles] cannot be K.O.'d by your opponent's effects.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-070",
+    "code": "OP07-070",
+    "namePt": "Big Bun",
+    "nameEn": "Big Bun",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Homem-Peixe",
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ao Jogar] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, jogue Até 1 {Piratas Foxy} carta do tipo com custo de 4 ou menos da sua mão.",
+    "effectEn": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, play up to 1 {Foxy Pirates} type card with a cost of 4 or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-071",
+    "code": "OP07-071",
+    "namePt": "Foxy",
+    "nameEn": "Foxy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Turno do Oponente] Se o seu Líder tiver o tipo {Piratas Foxy}, dê todos os dos Personagens do seu oponente −1000 Poder. [Ativar: Principal] [1 Vez por Turno] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power. [Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-072",
+    "code": "OP07-072",
+    "namePt": "Porche",
+    "nameEn": "Porche",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ao Jogar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Foxy} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem e jogue Até 1 roxo(a) carta(s) de Personagem com 4000 ou menos de Poder da sua mão.",
+    "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Look at 5 cards from the top of your deck; reveal up to 1 {Foxy Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order and play up to 1 purple Character card with 4000 power or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-073",
+    "code": "OP07-073",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu oponente tiver 3 ou mais Personagens, coloque este Personagem como ativo.",
+    "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-074",
+    "code": "OP07-074",
+    "namePt": "Monda",
+    "nameEn": "Monda",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas Foxy}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Foxy Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-075",
+    "code": "OP07-075",
+    "namePt": "Slow-Slow Beam",
+    "nameEn": "Slow-Slow Beam",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Contra-Ataque] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê Até 1 cada do Líder do seu oponente e carta(s) de Personagem −2000 Poder durante este turno.",
+    "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 each of your opponent's Leader and Character cards −2000 power during this turn.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-076",
+    "code": "OP07-076",
+    "namePt": "Slow-Slow Beam Sword",
+    "nameEn": "Slow-Slow Beam Sword",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Contra-Ataque] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Descanse até 1 Personagem(ns) do seu oponente.",
+    "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, rest up to 1 of your opponent's Characters.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-077",
+    "code": "OP07-077",
+    "namePt": "We're Going to Claim the One Piece!!!",
+    "nameEn": "We're Going to Claim the One Piece!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "País de Wano"
+    ],
+    "effectPt": "[Principal] Se o seu Líder tiver o tipo {Piratas das Feras} ou {Piratas da Big Mom}, Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas das Feras} ou {Piratas da Big Mom} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] If your Leader has the {Animal Kingdom Pirates} or {Big Mom Pirates} type, look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} or {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-078",
+    "code": "OP07-078",
+    "namePt": "Megaton Nine-Tails Rush",
+    "nameEn": "Megaton Nine-Tails Rush",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas Foxy"
+    ],
+    "effectPt": "[Principal] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, coloque Até 1 dos seus [Foxy] cartas as ativo(a).",
+    "effectEn": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, set up to 1 of your [Foxy] cards as active.",
+    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-079",
+    "code": "OP07-079",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "LEADER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Atacar] Você pode descartar 2 carta(s) do topo do seu Deck: Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno.",
+    "effectEn": "[When Attacking] You may trash 2 cards from the top of your deck: Give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-080",
+    "code": "OP07-080",
+    "namePt": "Kaku",
+    "nameEn": "Kaku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 2 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno.",
+    "effectEn": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-081",
+    "code": "OP07-081",
+    "namePt": "Kalifa",
+    "nameEn": "Kalifa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[DON!! x1] [Seu Turno] Dê todos os dos Personagens do seu oponente −1 custo.",
+    "effectEn": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-082",
+    "code": "OP07-082",
+    "namePt": "Captain John",
+    "nameEn": "Captain John",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas de Thriller Bark",
+      "Former Rocks Pirates"
+    ],
+    "effectPt": "[Ao Jogar] descarte 2 carta(s) do topo do seu Deck e Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno.",
+    "effectEn": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −1 cost during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-083",
+    "code": "OP07-083",
+    "namePt": "Gecko Moria",
+    "nameEn": "Gecko Moria",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode colocar 4 {Piratas de Thriller Bark} tipo cartas da sua lixeira no fundo do seu Deck em qualquer ordem: este Personagem ganha [Banimento] e +1000 Poder durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[Activate: Main] You may place 4 {Thriller Bark Pirates} type cards from your trash at the bottom of your deck in any order: This Character gains [Banish] and +1000 power during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "banish"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-084",
+    "code": "OP07-084",
+    "namePt": "Gismonda",
+    "nameEn": "Gismonda",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-085",
+    "code": "OP07-085",
+    "namePt": "Stussy",
+    "nameEn": "Stussy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 9,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 dos seus Personagens: Dê K.O. em até 1 Personagem(ns) do seu oponente.",
+    "effectEn": "[On Play] You may trash 1 of your Characters: K.O. up to 1 of your opponent's Characters.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-086",
+    "code": "OP07-086",
+    "namePt": "Spandam",
+    "nameEn": "Spandam",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Jogar] descarte 2 carta(s) do topo do seu Deck e Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectEn": "[On Play] Trash 2 cards from the top of your deck and give up to 1 of your opponent's Characters −2 cost during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-087",
+    "code": "OP07-087",
+    "namePt": "Baskerville",
+    "nameEn": "Baskerville",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Governo Mundial"
+    ],
+    "effectPt": "[Seu Turno] Se o seu oponente tiver um Personagem com custo de 0, este Personagem ganha +3000 de Poder.",
+    "effectEn": "[Your Turn] If your opponent has a Character with a cost of 0, this Character gains +3000 power.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-088",
+    "code": "OP07-088",
+    "namePt": "Hattori",
+    "nameEn": "Hattori",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "CP0"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Até 1 dos seus [Rob Lucci] cartas ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Your Turn] [On Play] Up to 1 of your [Rob Lucci] cards gains +2000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-089",
+    "code": "OP07-089",
+    "namePt": "Maha",
+    "nameEn": "Maha",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-090",
+    "code": "OP07-090",
+    "namePt": "Morgans",
+    "nameEn": "Morgans",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Journalist"
+    ],
+    "effectPt": "[Ao Jogar] seu oponente descarta 1 carta de a mão dele(a) e revela a mão dele(a). Em seguida, seu oponente draws 1 carta.",
+    "effectEn": "[On Play] Your opponent trashes 1 card from their hand and reveals their hand. Then, your opponent draws 1 card.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-091",
+    "code": "OP07-091",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ao Atacar] descartar Até 1 dos Personagens do seu oponente com custo de 2 ou menos. Em seguida, coloque qualquer número de carta(s) de Personagem com custo de 4 ou mais da sua lixeira no fundo do seu Deck em qualquer ordem. este Personagem ganha +1000 de Poder durante este turno for every 3 cartas placed no fundo do seu Deck.",
+    "effectEn": "[When Attacking] Trash up to 1 of your opponent's Characters with a cost of 2 or less. Then, place any number of Character cards with a cost of 4 or more from your trash at the bottom of your deck in any order. This Character gains +1000 power during this turn for every 3 cards placed at the bottom of your deck.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-092",
+    "code": "OP07-092",
+    "namePt": "Joseph",
+    "nameEn": "Joseph",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 2 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "effectEn": "[On Play] You may place 2 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-093",
+    "code": "OP07-093",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP0"
+    ],
+    "effectPt": "[Ao Jogar] Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem: seu oponente descarta 1 carta de a mão dele(a). Em seguida, Você pode colocar Até 1 carta da sua oponente's descartar no fundo do Deck dele(a).",
+    "effectEn": "[On Play] You may place 3 cards from your trash at the bottom of your deck in any order: Your opponent trashes 1 card from their hand. Then, you may place up to 1 card from your opponent's trash at the bottom of their deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-094",
+    "code": "OP07-094",
+    "namePt": "Shave",
+    "nameEn": "Shave",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Se você tiver 10 ou mais cartas na sua lixeira, retorne Até 1 dos seus Personagens com um tipo que inclua \"CP\" para a mão do dono.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 10 or more cards in your trash, return up to 1 of your Characters with a type including \"CP\" to the owner's hand.",
+    "triggerPt": "[Gatilho] retorne até 1 dos seus Personagens para a mão do dono.",
+    "triggerEn": "[Trigger] Return up to 1 of your Characters to the owner's hand.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-095",
+    "code": "OP07-095",
+    "namePt": "Iron Body",
+    "nameEn": "Iron Body",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Se você tiver 10 ou mais cartas na sua lixeira, que carta ganha um(a) adicional +2000 Poder durante esta batalha.",
+    "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 10 or more cards in your trash, that card gains an additional +2000 power during this battle.",
+    "triggerPt": "[Gatilho] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-096",
+    "code": "OP07-096",
+    "namePt": "Tempest Kick",
+    "nameEn": "Tempest Kick",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Principal] Compre 1 carta(s). Em seguida, Se você tiver 10 ou mais cartas na sua lixeira, Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno.",
+    "effectEn": "[Main] Draw 1 card. Then, if you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-097",
+    "code": "OP07-097",
+    "namePt": "Vegapunk",
+    "nameEn": "Vegapunk",
+    "cardType": "LEADER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "este Líder não pode atacar. [Ativar: Principal] [1 Vez por Turno] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Selecione Até 1 {Egghead} carta do tipo com custo de 5 ou menos da sua mão e jogue ela ou adicione ela para o topo das suas cartas de Vida viradas para cima.",
+    "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ① (You may rest the specified number of DON!! cards in your cost area.): Select up to 1 {Egghead} type card with a cost of 5 or less from your hand and play it or add it to the top of your Life cards face-up.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-098",
+    "code": "OP07-098",
+    "namePt": "Atlas",
+    "nameEn": "Atlas",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "Se você tiver menos cartas de Vida do que seu oponente, este Personagem não pode ser nocauteado em batalha.",
+    "effectEn": "If you have less Life cards than your opponent, this Character cannot be K.O.'d in battle.",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-099",
+    "code": "OP07-099",
+    "namePt": "Usopp",
+    "nameEn": "Usopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Até 1 dos seus {Egghead} tipo Líder ou carta(s) de Personagem ganha +2000 de Poder até o fim dos seus próximo turno.",
+    "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-100",
+    "code": "OP07-100",
+    "namePt": "Edison",
+    "nameEn": "Edison",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Ao Jogar] Se você tiver 2 ou menos cartas de Vida, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "[On Play] If you have 2 or less Life cards, draw 2 cards and trash 2 card from your hand.",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-101",
+    "code": "OP07-101",
+    "namePt": "Shaka",
+    "nameEn": "Shaka",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-102",
+    "code": "OP07-102",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono e adicione esta carta para a sua mão.",
+    "triggerEn": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-103",
+    "code": "OP07-103",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Até 1 dos seus {Egghead} tipo Personagens ganha [Bloqueador] durante este turno. Em seguida, adicione esta carta para a sua mão.",
+    "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-104",
+    "code": "OP07-104",
+    "namePt": "Nico Robin",
+    "nameEn": "Nico Robin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Se o seu Líder tiver o tipo {Egghead}, Compre 2 carta(s).",
+    "triggerEn": "[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-105",
+    "code": "OP07-105",
+    "namePt": "Pythagoras",
+    "nameEn": "Pythagoras",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Ao Ser K.O.] Se você tiver 2 ou menos cartas de Vida, jogue Até 1 {Egghead} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
+    "effectEn": "[On K.O.] If you have 2 or less Life cards, play up to 1 {Egghead} type Character card with a cost of 4 or less from your trash rested.",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-106",
+    "code": "OP07-106",
+    "namePt": "Fuza",
+    "nameEn": "Fuza",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Animal",
+      "Sky Island"
+    ],
+    "effectPt": "[DON!! x1] [Ao Atacar] Se você tiver 1 ou menos cartas de Vida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[DON!! x1] [When Attacking] If you have 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-107",
+    "code": "OP07-107",
+    "namePt": "Franky",
+    "nameEn": "Franky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Compre 1 carta(s). Em seguida, Se você tiver 1 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] Draw 1 card. Then, if you have 1 or less Life cards, play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-108",
+    "code": "OP07-108",
+    "namePt": "Vega Force 01",
+    "nameEn": "Vega Force 01",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Egghead"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-109",
+    "code": "OP07-109",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se você tiver 2 ou menos cartas de Vida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. Em seguida, Compre 1 carta(s).",
+    "effectEn": "[Activate: Main] You may trash this Character: If you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 4 or less. Then, draw 1 card.",
+    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-110",
+    "code": "OP07-110",
+    "namePt": "York",
+    "nameEn": "York",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Ao Jogar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-111",
+    "code": "OP07-111",
+    "namePt": "Lilith",
+    "nameEn": "Lilith",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Egghead} carta do tipo diferente de [Lilith] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Se o seu Líder for [Vegapunk], jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-112",
+    "code": "OP07-112",
+    "namePt": "Lucy",
+    "nameEn": "Lucy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ao Atacar] [1 Vez por Turno] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Você pode Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. Em seguida, Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectEn": "[When Attacking] [Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: You may rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-113",
+    "code": "OP07-113",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Se o seu Líder tiver o tipo {Egghead}, descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem.",
+    "triggerEn": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-114",
+    "code": "OP07-114",
+    "namePt": "He Possesses the World's Most Brilliant Mind",
+    "nameEn": "He Possesses the World's Most Brilliant Mind",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Principal] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Egghead} carta do tipo diferente de [He Possesses o World's Most Brilliant Mind] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Egghead} type card other than [He Possesses the World's Most Brilliant Mind] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-115",
+    "code": "OP07-115",
+    "namePt": "I Re-Quasar Helllp!!",
+    "nameEn": "I Re-Quasar Helllp!!",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Cientista",
+      "Egghead"
+    ],
+    "effectPt": "[Contra-Ataque] Se você tiver 2 ou menos cartas de Vida, Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] If you have 2 or less Life cards, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
+    "triggerPt": "[Gatilho] Jogue Até 1 dos seus {Egghead} tipo carta(s) de Personagem com custo de 5 ou menos da sua lixeira.",
+    "triggerEn": "[Trigger] Play up to 1 of your {Egghead} type Character cards with a cost of 5 or less from your trash.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-116",
+    "code": "OP07-116",
+    "namePt": "Blaze Slice",
+    "nameEn": "Blaze Slice",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "País de Wano",
+      "The Akazaya Nine"
+    ],
+    "effectPt": "[Principal]/[Contra-Ataque] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno. Em seguida, Se o seu oponente tiver 2 ou menos cartas de Vida, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[Main]/[Counter] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, if your opponent has 2 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "triggerPt": "[Gatilho] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-117",
+    "code": "OP07-117",
+    "namePt": "Egghead",
+    "nameEn": "Egghead",
+    "cardType": "STAGE",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Egghead"
+    ],
+    "effectPt": "[Fim do Seu Turno] Se você tiver 3 ou menos cartas de Vida, coloque Até 1 {Egghead} tipo Personagem com custo de 5 ou menos as ativo(a).",
+    "effectEn": "[End of Your Turn] If you have 3 or less Life cards, set up to 1 {Egghead} type Character with a cost of 5 or less as active.",
+    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-118",
+    "code": "OP07-118",
+    "namePt": "Sabo",
+    "nameEn": "Sabo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos e Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less and up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  },
+  {
+    "id": "OP07-119",
+    "code": "OP07-119",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 10,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, Se você tiver 2 ou menos cartas de Vida, este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[On Play] Add up to 1 card from the top of your deck to the top of your Life cards. Then, if you have 2 or less Life cards, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-07",
+    "setName": "500 YEARS IN THE FUTURE"
+  }
+]

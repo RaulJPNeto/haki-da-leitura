@@ -1,0 +1,410 @@
+[
+  {
+    "id": "ST22-001",
+    "code": "ST22-001",
+    "namePt": "Ace &amp; Newgate",
+    "nameEn": "Ace &amp; Newgate",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode revele 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta(s) e coloque o revelada carta no topo do seu Deck.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-002",
+    "code": "ST22-002",
+    "namePt": "Izo",
+    "nameEn": "Izo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "País de Wano",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Whitebeard Pirates\" diferente de [Izo] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [No Ataque do Oponente] Você pode descartar este Personagem: Compre 1 carta(s) e coloque 1 carta da sua mão no fundo do seu Deck.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [On Your Opponent's Attack] You may trash this Character: Draw 1 card and place 1 card from your hand at the bottom of your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-003",
+    "code": "ST22-003",
+    "namePt": "Edward Newgate",
+    "nameEn": "Edward Newgate",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ataque Duplo] (esta carta causa 2 de dano.) [Ao Jogar] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Compre 2 carta(s).",
+    "effectEn": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
+    "keywordIds": [
+      "on-play",
+      "double-attack"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-004",
+    "code": "ST22-004",
+    "namePt": "Elmy",
+    "nameEn": "Elmy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-005",
+    "code": "ST22-005",
+    "namePt": "Kouzuki Oden",
+    "nameEn": "Kouzuki Oden",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "Clã Kouzuki",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descarte 2 carta(s) da sua mão em vez disso. [Ativar: Principal] [1 Vez por Turno] Você pode descanse 3 das suas cartas de DON!! e retorne 1 dos seus Personagens diferente de este Personagem para a mão do dono: coloque este Personagem como ativo.",
+    "effectEn": "If this Character would be removed from the field by your opponent's effect, you may trash 2 cards from your hand instead. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards and return 1 of your Characters other than this Character to the owner's hand: Set this Character as active.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-006",
+    "code": "ST22-006",
+    "namePt": "Jozu",
+    "nameEn": "Jozu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Ao Jogar] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectEn": "[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-007",
+    "code": "ST22-007",
+    "namePt": "Squard",
+    "nameEn": "Squard",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-008",
+    "code": "ST22-008",
+    "namePt": "Decalvan Brothers",
+    "nameEn": "Decalvan Brothers",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-009",
+    "code": "ST22-009",
+    "namePt": "Vista",
+    "nameEn": "Vista",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-010",
+    "code": "ST22-010",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-011",
+    "code": "ST22-011",
+    "namePt": "Whitey Bay",
+    "nameEn": "Whitey Bay",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Seu Turno] [Ao Jogar] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Até 1 do seu Líder com um tipo que inclua \"Whitebeard Pirates\" ganha +2000 de Poder durante este turno.",
+    "effectEn": "[Your Turn] [On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Up to 1 of your Leader with a type including \"Whitebeard Pirates\" gains +2000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-012",
+    "code": "ST22-012",
+    "namePt": "Marco",
+    "nameEn": "Marco",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[1 Vez por Turno] Se este Personagem for ser nocauteado por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso. [Ao Atacar] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-013",
+    "code": "ST22-013",
+    "namePt": "LittleOars Jr ",
+    "nameEn": "LittleOars Jr ",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Whitebeard Pirates Allies"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-014",
+    "code": "ST22-014",
+    "namePt": "A O ",
+    "nameEn": "A O ",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Whitebeard Pirates Allies"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-015",
+    "code": "ST22-015",
+    "namePt": "I Am Whitebeard!!",
+    "nameEn": "I Am Whitebeard!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 8,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", jogue Até 1 [Edward.Newgate] da sua mão. Em seguida, Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão. Se fizer isso, Até 1 do seu Líder ganha +2000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Main] If your Leader's type includes \"Whitebeard Pirates\", play up to 1 [Edward.Newgate] from your hand. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
+    "keywordIds": [],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-016",
+    "code": "ST22-016",
+    "namePt": "Take That Back!! Take Back What You Said!!",
+    "nameEn": "Take That Back!! Take Back What You Said!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Contra-Ataque] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectEn": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
+    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  },
+  {
+    "id": "ST22-017",
+    "code": "ST22-017",
+    "namePt": "Fire Fist",
+    "nameEn": "Fire Fist",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Principal] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta(s). Em seguida, coloque Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card. Then, place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "triggerPt": "[Gatilho] retorne até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "triggerEn": "[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "ST-22",
+    "setName": "Ace &amp; Newgate"
+  }
+]

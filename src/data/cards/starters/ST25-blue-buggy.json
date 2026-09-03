@@ -1,0 +1,124 @@
+[
+  {
+    "id": "ST25-001",
+    "code": "ST25-001",
+    "namePt": "Alvida",
+    "nameEn": "Alvida",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha +1 de custo. [Ao Jogar] Se o seu Líder for [Buggy], Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost. [On Play] If your Leader is [Buggy], draw 3 cards and trash 2 cards from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-25",
+    "setName": "BLUE Buggy"
+  },
+  {
+    "id": "ST25-002",
+    "code": "ST25-002",
+    "namePt": "Cabaji",
+    "nameEn": "Cabaji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Bloqueador] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Turno do Oponente] este Personagem ganha +5000 de Poder.",
+    "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] This Character gains +5000 power.",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "ST-25",
+    "setName": "BLUE Buggy"
+  },
+  {
+    "id": "ST25-003",
+    "code": "ST25-003",
+    "namePt": "Crocodile &amp; Mihawk",
+    "nameEn": "Crocodile &amp; Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 8,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effectPt": "[Ao Jogar] Compre 2 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão. [1 Vez por Turno] Se seu {Cross Guild} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso.",
+    "effectEn": "[On Play] Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Cross Guild} type Character card with a cost of 4 or less from your hand. [Once Per Turn] If your {Cross Guild} type Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
+    "keywordIds": [
+      "on-play",
+      "once-per-turn"
+    ],
+    "setId": "ST-25",
+    "setName": "BLUE Buggy"
+  },
+  {
+    "id": "ST25-004",
+    "code": "ST25-004",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Cross Guild"
+    ],
+    "effectPt": "[Ativar: Principal] Você pode descartar 1 carta(s) da sua mão e descartar este Personagem: Se o seu Líder for [Buggy], jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
+    "effectEn": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader is [Buggy], play up to 1 {Cross Guild} type Character card with a cost of 6 or less from your hand.",
+    "keywordIds": [],
+    "setId": "ST-25",
+    "setName": "BLUE Buggy"
+  },
+  {
+    "id": "ST25-005",
+    "code": "ST25-005",
+    "namePt": "Mohji",
+    "nameEn": "Mohji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Bloqueador] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] Se o seu Líder for [Buggy] e você tiver 3 ou menos cartas na sua mão, Compre 1 carta(s).",
+    "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader is [Buggy] and you have 3 or less cards in your hand, draw 1 card.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "ST-25",
+    "setName": "BLUE Buggy"
+  }
+]

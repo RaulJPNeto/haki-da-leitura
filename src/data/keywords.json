@@ -1,0 +1,220 @@
+[
+  {
+    "id": "on-play",
+    "rawTag": "[Ao Jogar]",
+    "rawTagPt": "[Ao Jogar]",
+    "rawTagEn": "[On Play]",
+    "namePt": "Ao Jogar",
+    "nameEn": "On Play",
+    "category": "TIMING",
+    "summaryPt": "O efeito dispara imediatamente no momento em que a carta é baixada da mão para o campo.",
+    "fullDescriptionPt": "Habilidades [Ao Jogar] são ativadas assim que a carta entra na área de combate vindo da sua mão e o custo de DON!! é pago. Se a carta for colada ou trazida ao campo por efeito de outra carta, o [Ao Jogar] também é disparado normalmente.",
+    "activationTimingPt": "Janela de Entrada no Campo (Fase Principal do seu turno)",
+    "faqs": [
+      {
+        "question": "Se o efeito de outra carta jogar este Personagem do lixo/mão, o [Ao Jogar] ativa?",
+        "answer": "Sim! Sempre que o personagem entra no campo (Play), o gatilho [Ao Jogar] é ativado, independente de ter sido pago o custo original ou ter sido jogado por efeito."
+      }
+    ]
+  },
+  {
+    "id": "blocker",
+    "rawTag": "[Bloqueador]",
+    "rawTagPt": "[Bloqueador]",
+    "rawTagEn": "[Blocker]",
+    "namePt": "Bloqueador",
+    "nameEn": "Blocker",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "Permite virar este Personagem para redirecionar um ataque inimigo para ele.",
+    "fullDescriptionPt": "Após o oponente declarar um ataque com seu Líder ou Personagem e declarar o alvo, você pode virar (Rest) este Personagem com [Bloqueador] para mudar o alvo do ataque para este Bloqueador.",
+    "activationTimingPt": "Passo de Bloqueio (Block Step) - Antes do Passo de Contra-Ataque (Counter Step)",
+    "faqs": [
+      {
+        "question": "Posso usar [Bloqueador] com um personagem que já está descansado (Rest)?",
+        "answer": "Não. Para ativar o [Bloqueador], o personagem DEVE estar ativo (Active) no momento do ataque para poder ser virado (Rest)."
+      },
+      {
+        "question": "O [Bloqueador] ativa antes ou depois de eu jogar cartas de Contra-Ataque (Counter)?",
+        "answer": "O [Bloqueador] ativa ANTES! O passo de bloqueio vem primeiro. Se você bloquear, o combate passa a ser contra o seu Bloqueador, e então você pode jogar cartas de Counter da mão para defendê-lo se desejar."
+      }
+    ]
+  },
+  {
+    "id": "rush",
+    "rawTag": "[Investida]",
+    "rawTagPt": "[Investida]",
+    "rawTagEn": "[Rush]",
+    "namePt": "Investida",
+    "nameEn": "Rush",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "Permite que este Personagem ataque no mesmo turno em que é jogado.",
+    "fullDescriptionPt": "Normalmente, personagens sofrem restrição de turno e não podem atacar no momento em que entram em campo. [Investida] remove essa restrição, permitindo que a carta ataque o Líder ou Personagens descansados do oponente imediatamente.",
+    "activationTimingPt": "Fase Principal (Main Phase) do seu turno",
+    "faqs": [
+      {
+        "question": "Posso atacar o Líder adversário no primeiro turno com [Investida]?",
+        "answer": "Sim, você pode atacar tanto o Líder quanto qualquer Personagem descansado do oponente."
+      }
+    ]
+  },
+  {
+    "id": "rush-character",
+    "rawTag": "[Investida contra Personagens]",
+    "rawTagPt": "[Investida contra Personagens]",
+    "rawTagEn": "[Rush: Character]",
+    "namePt": "Investida contra Personagens",
+    "nameEn": "Rush: Character",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "Permite atacar no turno em que é jogado, mas APENAS Personagens descansados do oponente.",
+    "fullDescriptionPt": "Esta é uma variação restrita da habilidade Investida. No turno em que entra em campo, este Personagem pode declarar ataque APENAS contra Personagens do oponente que estejam descansados (Rest). Ele NÃO pode atacar o Líder oponente no primeiro turno.",
+    "activationTimingPt": "Fase Principal (Main Phase) do seu turno",
+    "faqs": [
+      {
+        "question": "Posso atacar o Líder do oponente no turno em que baixei um [Investida contra Personagens]?",
+        "answer": "NÃO! Esta é a pegadinha clássica de regras. [Investida contra Personagens] limita a investida inicial estritamente a Personagens alvo que estejam descansados. A partir do seu PRÓXIMO turno, ele poderá atacar o Líder normalmente."
+      }
+    ]
+  },
+  {
+    "id": "when-attacking",
+    "rawTag": "[Ao Atacar]",
+    "rawTagPt": "[Ao Atacar]",
+    "rawTagEn": "[When Attacking]",
+    "namePt": "Ao Atacar",
+    "nameEn": "When Attacking",
+    "category": "TIMING",
+    "summaryPt": "Efeito ativado no exato instante em que a carta declara um ataque.",
+    "fullDescriptionPt": "Dispara assim que você vira a carta (Rest) e declara o alvo do ataque, antes mesmo do oponente escolher declarar [Bloqueador] ou jogar cartas de Contra-Ataque.",
+    "activationTimingPt": "Passo de Declaração de Ataque (Attack Step)",
+    "faqs": [
+      {
+        "question": "Se o oponente bloquear meu ataque com um Bloqueador, meu efeito [Ao Atacar] ainda resolve?",
+        "answer": "Sim! O efeito [Ao Atacar] resolve imediatamente no momento da declaração, ANTES da janela de bloqueio do oponente."
+      }
+    ]
+  },
+  {
+    "id": "activate-main",
+    "rawTag": "[Ativação: Principal]",
+    "rawTagPt": "[Ativação: Principal]",
+    "rawTagEn": "[Activate: Main]",
+    "namePt": "Ativação: Principal",
+    "nameEn": "Activate: Main",
+    "category": "TIMING",
+    "summaryPt": "Habilidade ativa que você pode escolher usar durante a sua Fase Principal.",
+    "fullDescriptionPt": "É uma habilidade ativada manualmente pelo jogador durante o seu turno principal, mediante o pagamento dos custos indicados (ex: virar a carta, pagar DON!!, descartar carta).",
+    "activationTimingPt": "Fase Principal (Main Phase) - Seu turno",
+    "faqs": [
+      {
+        "question": "Quantas vezes posso usar um efeito [Ativação: Principal] no mesmo turno?",
+        "answer": "Se houver a indicação [Uma Vez por Turno], apenas 1 vez. Se não houver essa restrição, você pode ativar quantas vezes quiser, desde que pague o custo de ativação a cada vez."
+      }
+    ]
+  },
+  {
+    "id": "trigger",
+    "rawTag": "[Gatilho]",
+    "rawTagPt": "[Gatilho]",
+    "rawTagEn": "[Trigger]",
+    "namePt": "Gatilho de Vida",
+    "nameEn": "Trigger",
+    "category": "TIMING",
+    "summaryPt": "Efeito especial ativado quando a carta é comprada da sua pilha de Vida após sofrer um dano.",
+    "fullDescriptionPt": "Quando você toma dano e compra a carta do topo das suas Vidas para a mão, se ela possuir a seção [Gatilho], você pode revelá-la ao oponente e resolver o efeito imediatamente sem pagar o custo de DON!!.",
+    "activationTimingPt": "Passo de Dano / Recebimento de Vida",
+    "faqs": [
+      {
+        "question": "Sou obrigado a revelar e ativar o [Gatilho] quando tomo dano?",
+        "answer": "Não. Ativar o [Gatilho] é opcional. Se preferir guardar a carta secretamente na mão sem ativá-la, você pode apenas colocá-la na mão normalmente."
+      }
+    ]
+  },
+  {
+    "id": "counter",
+    "rawTag": "[Contra-Ataque]",
+    "rawTagPt": "[Contra-Ataque]",
+    "rawTagEn": "[Counter]",
+    "namePt": "Contra-Ataque",
+    "nameEn": "Counter",
+    "category": "TIMING",
+    "summaryPt": "Carta de Evento ou poder defensivo jogado durante a defesa para aumentar o poder do alvo atacado.",
+    "fullDescriptionPt": "Jogada durante o Passo de Contra-Ataque (Counter Step). Permite conceder poder defensivo ao seu Líder ou Personagem atacado para evitar que o ataque acerte.",
+    "activationTimingPt": "Passo de Contra-Ataque (Counter Step) no turno do oponente",
+    "faqs": []
+  },
+  {
+    "id": "double-attack",
+    "rawTag": "[Ataque Duplo]",
+    "rawTagPt": "[Ataque Duplo]",
+    "rawTagEn": "[Double Attack]",
+    "namePt": "Ataque Duplo",
+    "nameEn": "Double Attack",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "Se este ataque causar dano ao Líder oponente, ele perde 2 cartas de Vida em vez de 1.",
+    "fullDescriptionPt": "Caso o ataque com [Ataque Duplo] acerte com sucesso o Líder inimigo (sem ser bloqueado ou anulado por Counter), o oponente deve pegar 2 cartas de Vida (uma por uma, resolvendo quaisquer Gatilhos na ordem).",
+    "activationTimingPt": "Passo de Dano do Combate",
+    "faqs": [
+      {
+        "question": "Se o oponente tiver apenas 1 Vida restante e eu acertar com Ataque Duplo, eu venço o jogo imediatamente?",
+        "answer": "Não. Ele perde a última carta de Vida. Para vencer o jogo, você precisa acertar um ataque adicional enquanto o oponente já estiver com 0 Vidas."
+      }
+    ]
+  },
+  {
+    "id": "banish",
+    "rawTag": "[Banir]",
+    "rawTagPt": "[Banir]",
+    "rawTagEn": "[Banish]",
+    "namePt": "Banir",
+    "nameEn": "Banish",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "Cartas de Vida perdidas por este ataque vão direto para o lixo sem ativar Gatilhos.",
+    "fullDescriptionPt": "Quando um ataque de um Personagem com [Banir] causa dano ao Líder oponente, as cartas de Vida removidas são enviadas diretamente para a pilha de descarte (Lixo/Trash). O oponente NÃO pode ativar os efeitos [Gatilho] dessas cartas.",
+    "activationTimingPt": "Passo de Dano do Combate",
+    "faqs": [
+      {
+        "question": "O oponente pode usar Gatilho em uma carta de Vida removida por Banir?",
+        "answer": "NÃO! [Banir] anula a oportunidade de usar Gatilhos e envia as cartas de vida direto ao lixo."
+      }
+    ]
+  },
+  {
+    "id": "end-of-your-turn",
+    "rawTag": "[Fim do Seu Turno]",
+    "rawTagPt": "[Fim do Seu Turno]",
+    "rawTagEn": "[End of Your Turn]",
+    "namePt": "Fim do Seu Turno",
+    "nameEn": "End of Your Turn",
+    "category": "TIMING",
+    "summaryPt": "Gatilho ativado automaticamente na fase de encerramento do seu próprio turno.",
+    "fullDescriptionPt": "Efeito automático que dispara ao finalizar todas as ações da sua Fase Principal, no momento em que você passa a vez para o oponente.",
+    "activationTimingPt": "Fim de Turno (End Phase)",
+    "faqs": []
+  },
+  {
+    "id": "your-turn",
+    "rawTag": "[Seu Turno]",
+    "rawTagPt": "[Seu Turno]",
+    "rawTagEn": "[Your Turn]",
+    "namePt": "Seu Turno",
+    "nameEn": "Your Turn",
+    "category": "TIMING",
+    "summaryPt": "Condição passiva que fica ativa durante todo o seu próprio turno.",
+    "fullDescriptionPt": "Bônus ou efeitos contínuos que funcionam exclusivamente enquanto você estiver jogando o seu próprio turno (desativando-se durante o turno do oponente).",
+    "activationTimingPt": "Duração contínua no seu turno",
+    "faqs": []
+  },
+  {
+    "id": "opponents-turn",
+    "rawTag": "[Turno do Oponente]",
+    "rawTagPt": "[Turno do Oponente]",
+    "rawTagEn": "[Opponent's Turn]",
+    "namePt": "Turno do Oponente",
+    "nameEn": "Opponent's Turn",
+    "category": "TIMING",
+    "summaryPt": "Condição passiva ou efeito que funciona exclusivamente durante o turno do adversário.",
+    "fullDescriptionPt": "Efeitos contínuos ou de reatividade (como bônus de poder defensivo) que ficam ativos apenas enquanto o oponente está jogando a vez dele.",
+    "activationTimingPt": "Duração contínua no turno do oponente",
+    "faqs": []
+  }
+]

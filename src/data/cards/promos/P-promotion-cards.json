@@ -1,0 +1,373 @@
+[
+  {
+    "id": "P-029",
+    "code": "P-029",
+    "namePt": "Bartolomeo",
+    "nameEn": "Bartolomeo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effectPt": "[Fim do Seu Turno] Você pode descansar este Personagem: coloque Até 1 dos seus {FILM} tipo Personagens diferente de [Bartolomeo] as ativo(a).",
+    "effectEn": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-030",
+    "code": "P-030",
+    "namePt": "Jinbe",
+    "nameEn": "Jinbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Sete Corsários",
+      "The Sun Pirates"
+    ],
+    "effectPt": "[Ao Ser K.O.] coloque Até 1 Personagem com custo de 3 ou menos no fundo do Deck do dono.",
+    "effectEn": "[On K.O.] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "P",
+    "setName": "Blue Donquixote Doflamingo"
+  },
+  {
+    "id": "P-041",
+    "code": "P-041",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "Purple Monkey.D.Luffy"
+  },
+  {
+    "id": "P-057",
+    "code": "P-057",
+    "namePt": "Fleeting Lullaby",
+    "nameEn": "Fleeting Lullaby",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Music",
+      "FILM"
+    ],
+    "effectPt": "[Principal] Se o seu Líder for [Uta], Até 2 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[Main] If your Leader is [Uta], up to 2 of your opponent's rested Characters with a cost of 4 or less will not become active in your opponent's next Refresh Phase.",
+    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-058",
+    "code": "P-058",
+    "namePt": "Where the Wind Blows",
+    "nameEn": "Where the Wind Blows",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Music",
+      "FILM"
+    ],
+    "effectPt": "[Principal] Se o seu Líder for [Uta], coloque todos os dos seus {FILM} tipo Personagens as ativo(a) no final deste turno.",
+    "effectEn": "[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.",
+    "triggerPt": "[Gatilho] coloque todos os dos seus {FILM} tipo Personagens as ativo(a).",
+    "triggerEn": "[Trigger] Set all of your {FILM} type Characters as active.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-059",
+    "code": "P-059",
+    "namePt": "The World's Continuation",
+    "nameEn": "The World's Continuation",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Music",
+      "FILM"
+    ],
+    "effectPt": "[Contra-Ataque] Se o seu Líder for [Uta], Você pode retorne qualquer número de Personagens no seu campo para a mão do dono. Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante esta batalha for every retornado(a) Personagem.",
+    "effectEn": "[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-060",
+    "code": "P-060",
+    "namePt": "Tot Musica",
+    "nameEn": "Tot Musica",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Music",
+      "FILM"
+    ],
+    "effectPt": "[Principal] Você pode descanse 1 dos seus [Uta] cartas: descanse Até 2 do seu oponente cartas de DON!!.",
+    "effectEn": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-061",
+    "code": "P-061",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "Green Uta"
+  },
+  {
+    "id": "P-084",
+    "code": "P-084",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Cross Guild"
+    ],
+    "effectPt": "este Personagem não pode atacar. Se o seu Líder for [Buggy], todos os Personagens com custo de 3 ou 4 não pode atacar. [Ao Jogar] Jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
+    "effectEn": "This Character cannot attack. If your Leader is [Buggy], all Characters with a cost of 3 or 4 cannot attack. [On Play] Play up to 1 {Cross Guild} type Character card with a cost of 6 or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "BLUE Buggy"
+  },
+  {
+    "id": "P-085",
+    "code": "P-085",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Bonney Pirates"
+    ],
+    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Supernovas} e o número das suas cartas de Vida for igual a ou menos do que o número do cartas de Vida do seu oponente, adicione Até 1 dos Personagens do seu oponente com custo de 4 ou menos para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
+    "effectEn": "[On Play] If your Leader has the {Supernovas} type and the number of your Life cards is equal to or less than the number of your opponent's Life cards, add up to 1 of your opponent's Characters with a cost of 4 or less to the top or bottom of the owner's Life cards face-up.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "P-088",
+    "code": "P-088",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Gatilho] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] If your Leader has the {Supernovas} type and you and your opponent have a total of 5 or less Life cards, play this card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "YELLOW Eustass\"Captain\"Kid"
+  },
+  {
+    "id": "P-090",
+    "code": "P-090",
+    "namePt": "Charlotte Smoothie",
+    "nameEn": "Charlotte Smoothie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[Turno do Oponente] [Ao Ser K.O.] DON!! −1: Jogue Até 1 {Piratas da Big Mom} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! on do seu oponente campo diferente de [Charlotte Smoothie] da sua mão.",
+    "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1: Play up to 1 {Big Mom Pirates} type Character card with a cost equal to or less than the number of DON!! cards on your opponent's field other than [Charlotte Smoothie] from your hand.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "P",
+    "setName": "PURPLE Charlotte Katakuri"
+  },
+  {
+    "id": "P-101",
+    "code": "P-101",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 rested DON!! card to your Leader.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "RED Monkey.D.Luffy"
+  },
+  {
+    "id": "P-105",
+    "code": "P-105",
+    "namePt": "Sabo",
+    "nameEn": "Sabo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha [Bloqueador] e +4 custo. [Ao Jogar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectEn": "If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost. [On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "RED/BLACK Sabo"
+  },
+  {
+    "id": "P-107",
+    "code": "P-107",
+    "namePt": "Gol D Roger",
+    "nameEn": "Gol D Roger",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "King of the Pirates",
+      "Piratas do Roger"
+    ],
+    "effectPt": "[Ao Jogar] Se você ou o seu oponente tiver 10 cartas de DON!! em campo, seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "[On Play] If either you or your opponent has 10 DON!! cards on the field, your Leader gains +2000 power until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "THE WORLD’S STRONGEST WARRIORS"
+  }
+]

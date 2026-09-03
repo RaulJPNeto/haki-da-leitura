@@ -1,0 +1,128 @@
+[
+  {
+    "id": "ST35-001",
+    "code": "ST35-001",
+    "namePt": "Hack",
+    "nameEn": "Hack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Dê K.O. em até 1 Personagem(ns) do seu oponente com 2000 ou menos de Poder base.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-35",
+    "setName": "RED/BLACK Sabo"
+  },
+  {
+    "id": "ST35-002",
+    "code": "ST35-002",
+    "namePt": "Lindbergh",
+    "nameEn": "Lindbergh",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Minks",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-35",
+    "setName": "RED/BLACK Sabo"
+  },
+  {
+    "id": "ST35-003",
+    "code": "ST35-003",
+    "namePt": "Karasu",
+    "nameEn": "Karasu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Ao Atacar] Você pode descartar 2 carta(s) do topo do seu Deck: Se seu oponente tiver 7 ou mais cartas na mão dele(a), seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "[When Attacking] You may trash 2 cards from the top of your deck: If your opponent has 7 or more cards in their hand, your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "ST-35",
+    "setName": "RED/BLACK Sabo"
+  },
+  {
+    "id": "ST35-004",
+    "code": "ST35-004",
+    "namePt": "Koala",
+    "nameEn": "Koala",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "este Personagem ganha [Bloqueador] e +1 custo. [Ao Jogar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, jogue Até 1 carta(s) de Personagem com 4000 ou menos de Poder e o {Exército Revolucionário} tipo da sua mão ou lixeira.",
+    "effectEn": "This Character gains [Blocker] and +1 cost. [On Play] Give up to 1 rested DON!! card to your Leader. Then, play up to 1 Character card with 4000 power or less and the {Revolutionary Army} type from your hand or trash.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "ST-35",
+    "setName": "RED/BLACK Sabo"
+  },
+  {
+    "id": "ST35-005",
+    "code": "ST35-005",
+    "namePt": "Bartholomew Kuma",
+    "nameEn": "Bartholomew Kuma",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "este Personagem ganha +3 de custo. [Ao Jogar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, jogue Até 1 carta(s) de Personagem com 4000 ou menos de Poder e o {Exército Revolucionário} tipo da sua mão ou lixeira.",
+    "effectEn": "This Character gains +3 cost. [On Play] Give up to 1 rested DON!! card to your Leader. Then, play up to 1 Character card with 4000 power or less and the {Revolutionary Army} type from your hand or trash.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "ST-35",
+    "setName": "RED/BLACK Sabo"
+  }
+]
