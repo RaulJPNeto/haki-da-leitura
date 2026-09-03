@@ -1,0 +1,59 @@
+name: Sync Cards Database
+
+on:
+  schedule:
+    # Executa semanalmente toda segunda-feira às 04:00 UTC
+    - cron: '0 4 * * 1'
+  workflow_dispatch:
+    # Permite execução manual via painel do GitHub Actions
+  repository_dispatch:
+    # Permite execução via webhook/API externa (TASK-03)
+    types: [sync-cards]
+
+permissions:
+  contents: write
+
+jobs:
+  sync-and-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Ingest Boosters, Starters and Extra-Boosters
+        run: node scripts/ingest_cards.js
+
+      - name: Ingest Promotional Cards
+        run: node scripts/ingest_promos.js
+
+      - name: Split Cards into Modular Sets
+        run: node scripts/split_cards.js
+
+      - name: Run Lexical Audit
+        run: node scripts/audit_words.js
+
+      - name: Validate TypeScript & Production Build
+        run: npm run build
+
+      - name: Commit and Push Changes
+        run: |
+          if [ -n "$(git status --porcelain src/data/)" ]; then
+            echo "Novas cartas ou atualizações detectadas! Efetuando commit..."
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add src/data/
+            git commit -m "chore(data): auto-sync cards database from punk-records [skip ci]"
+            git push
+          else
+            echo "A base de cartas já está totalmente sincronizada com o Punk Records."
+          fi

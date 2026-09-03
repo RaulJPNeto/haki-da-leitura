@@ -153,4 +153,15 @@ for (const [groupId, data] of Object.entries(groups)) {
 // Salvar cards.json com os setIds sincronizados
 fs.writeFileSync(cardsPath, JSON.stringify(rawCards, null, 2), 'utf8');
 
+// Atualizar metadados de sincronização para o PWA
+const metaPath = path.join(rootDir, 'src', 'data', 'sync_meta.json');
+const syncMeta = {
+  lastSync: new Date().toISOString(),
+  totalCards: totalWritten,
+  collectionsCount: fileCount,
+  version: '1.0.0',
+  message: `Base atualizada com sucesso: ${totalWritten} cartas distribuídas em ${fileCount} coleções.`
+};
+fs.writeFileSync(metaPath, JSON.stringify(syncMeta, null, 2), 'utf8');
+
 console.log(`\n🎉 Concluído com sucesso! ${totalWritten} cartas distribuídas em ${fileCount} arquivos organizados com base no código oficial da carta.`);

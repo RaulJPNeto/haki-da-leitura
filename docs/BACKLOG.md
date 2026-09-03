@@ -6,7 +6,7 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 
 ## 🚀 Épicos e Status Geral
 
-- [ ] **Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)**
+- [x] **Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)**
 - [ ] **Épico 2: Revisão & Polimento de Telas e UX Mobile**
 - [ ] **Épico 3: Deploy Contínuo (Vercel / Cloudflare Pages) & Produção**
 - [ ] **Épico 4: Melhorias de OCR & Motor de Matching**
@@ -17,10 +17,10 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 ## 📌 Tarefas Detalhadas
 
 ### Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)
-- [ ] **TASK-01:** Criar workflow do GitHub Actions (`.github/workflows/sync-cards.yml`) com cron semanal para buscar novas coleções no *Punk Records*.
-- [ ] **TASK-02:** Adicionar passo de validação léxica (`audit_words.js`) e build no workflow antes de commitar dados automaticamente.
-- [ ] **TASK-03:** Criar tela/modal administrativo simples protegido por PIN/Chave no PWA para acionar a sincronização sob demanda via GitHub Repository Dispatch API.
-- [ ] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
+- [x] **TASK-01:** Criar workflow do GitHub Actions (`.github/workflows/sync-cards.yml`) com cron semanal para buscar novas coleções no *Punk Records*.
+- [x] **TASK-02:** Adicionar passo de validação léxica (`audit_words.js`) e build no workflow antes de commitar dados automaticamente.
+- [x] **TASK-03:** Criar tela/modal administrativo simples protegido por PIN/Chave no PWA para acionar a sincronização sob demanda via GitHub Repository Dispatch API.
+- [x] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
 
 ### Épico 2: Revisão & Polimento de Telas e UX Mobile (Em Andamento)
 - [ ] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.

@@ -88,6 +88,7 @@ async function run() {
   const cardsMap = new Map();
 
   for (const pack of targetPacks) {
+    const packId = pack.id;
     let packLabel = pack.title_parts?.label || pack.id;
     let packTitle = pack.title_parts?.title || pack.raw_title;
     if (packId === '569115' || packLabel === 'OP15-EB04') {

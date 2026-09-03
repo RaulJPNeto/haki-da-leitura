@@ -9,6 +9,8 @@ import { CardDetail } from './components/CardDetail';
 import { KeywordDrawer } from './components/KeywordDrawer';
 import { ManualSearchModal } from './components/ManualSearchModal';
 import { GlossaryModal } from './components/GlossaryModal';
+import { AdminSyncModal } from './components/AdminSyncModal';
+import { SyncNotificationBanner } from './components/SyncNotificationBanner';
 
 export const App: React.FC = () => {
   const cards: Card[] = cardsData as Card[];
@@ -18,6 +20,7 @@ export const App: React.FC = () => {
   const [selectedKeyword, setSelectedKeyword] = useState<KeywordRule | null>(null);
   const [isCardListOpen, setIsCardListOpen] = useState<boolean>(false);
   const [isGlossaryOpen, setIsGlossaryOpen] = useState<boolean>(false);
+  const [isAdminSyncOpen, setIsAdminSyncOpen] = useState<boolean>(false);
   const [isScanning, setIsScanning] = useState<boolean>(true);
   const [hapticEnabled, setHapticEnabled] = useState<boolean>(true);
 
@@ -52,6 +55,7 @@ export const App: React.FC = () => {
         onOpenGlossary={() => setIsGlossaryOpen(true)}
         onOpenCardList={() => setIsCardListOpen(true)}
         onResetScan={handleResetToScan}
+        onOpenAdminSync={() => setIsAdminSyncOpen(true)}
         hapticEnabled={hapticEnabled}
         onToggleHaptic={() => setHapticEnabled(!hapticEnabled)}
       />
@@ -118,6 +122,15 @@ export const App: React.FC = () => {
           onClose={() => setIsGlossaryOpen(false)}
         />
       )}
+
+      {/* 7. Modal Administrativo de Sincronização */}
+      <AdminSyncModal
+        isOpen={isAdminSyncOpen}
+        onClose={() => setIsAdminSyncOpen(false)}
+      />
+
+      {/* 8. Banner de Notificação de Novas Cartas / Atualização */}
+      <SyncNotificationBanner />
     </div>
   );
 };

@@ -6,6 +6,7 @@ interface HeaderProps {
   onOpenGlossary: () => void;
   onOpenCardList: () => void;
   onResetScan: () => void;
+  onOpenAdminSync?: () => void;
   hapticEnabled: boolean;
   onToggleHaptic: () => void;
 }
@@ -14,6 +15,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenGlossary,
   onOpenCardList,
   onResetScan,
+  onOpenAdminSync,
   hapticEnabled,
   onToggleHaptic
 }) => {
@@ -67,6 +69,7 @@ export const Header: React.FC<HeaderProps> = ({
         onOpenGlossary={onOpenGlossary}
         onOpenCardList={onOpenCardList}
         onResetCamera={onResetScan}
+        onOpenAdminSync={onOpenAdminSync}
         hapticEnabled={hapticEnabled}
         onToggleHaptic={onToggleHaptic}
       />
