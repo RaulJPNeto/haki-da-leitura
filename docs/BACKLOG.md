@@ -23,8 +23,8 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
 
 ### Épico 2: Revisão & Polimento de Telas e UX Mobile (Em Andamento)
-- [ ] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
-- [ ] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](../src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
+- [x] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
+- [x] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](../src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
 - [ ] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](../src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
 - [ ] **TASK-08:** Revisão da gaveta de regras ([`KeywordDrawer.tsx`](../src/components/KeywordDrawer.tsx)) e do glossário global ([`GlossaryModal.tsx`](../src/components/GlossaryModal.tsx)): consistência dos textos explicativos e navegação por toque.
 - [ ] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada e feedback de resultado vazio.

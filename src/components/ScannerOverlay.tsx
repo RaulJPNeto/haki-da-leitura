@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, Loader2, Zap, Sparkles, Bug } from 'lucide-react';
+import { Camera, Loader2, Zap, Sparkles, Bug, Focus } from 'lucide-react';
 import { createWorker } from 'tesseract.js';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
@@ -51,9 +51,11 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const [ocrStatus, setOcrStatus] = useState<string>('Iniciando OCR...');
   const [isRecognizing, setIsRecognizing] = useState<boolean>(false);
 
-  // Lanterna / Flash (Torch)
+  // Lanterna / Flash (Torch) e Foco
   const [torchAvailable, setTorchAvailable] = useState<boolean>(false);
   const [torchOn, setTorchOn] = useState<boolean>(false);
+  const [focusRing, setFocusRing] = useState<{ x: number; y: number } | null>(null);
+  const [focusSupported, setFocusSupported] = useState<boolean>(false);
 
   // Modal de Candidatos Intermediário (Pausa a câmera para escolha tranquila)
   const [candidateModalCards, setCandidateModalCards] = useState<Card[] | null>(null);
@@ -130,7 +132,9 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           video: {
             facingMode: { ideal: 'environment' },
             width: { ideal: 1280 },
-            height: { ideal: 720 }
+            height: { ideal: 720 },
+            // @ts-ignore
+            focusMode: { ideal: 'continuous' }
           },
           audio: false
         });
@@ -143,12 +147,15 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
       streamRef.current = stream;
 
-      // Verificar suporte a lanterna (Torch)
+      // Verificar suporte a lanterna (Torch) e Foco
       const track = stream.getVideoTracks()[0];
       if (track && (track.getCapabilities as any)) {
         const caps = (track.getCapabilities as any)();
         if (caps && 'torch' in caps) {
           setTorchAvailable(true);
+        }
+        if (caps && 'focusMode' in caps) {
+          setFocusSupported(true);
         }
       }
 
@@ -208,7 +215,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     };
   }, [startCamera, stopCamera]);
 
-  // Alternar Lanterna
+  // Alternar Lanterna com Feedback Háptico
   const toggleTorch = async () => {
     if (!streamRef.current) return;
     const track = streamRef.current.getVideoTracks()[0];
@@ -220,9 +227,45 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
         advanced: [{ torch: next }]
       });
       setTorchOn(next);
+      if (navigator.vibrate) navigator.vibrate(25);
     } catch (err) {
       console.warn('Erro ao alternar lanterna:', err);
     }
+  };
+
+  // Foco Manual / Tap-to-Focus com Anel Visual e Refoco de Câmera
+  const triggerFocus = useCallback(async (clientX?: number, clientY?: number, containerRect?: DOMRect) => {
+    if (navigator.vibrate) navigator.vibrate(18);
+
+    if (clientX !== undefined && clientY !== undefined && containerRect) {
+      setFocusRing({
+        x: clientX - containerRect.left,
+        y: clientY - containerRect.top
+      });
+      setTimeout(() => setFocusRing(null), 1000);
+    }
+
+    if (streamRef.current) {
+      const track = streamRef.current.getVideoTracks()[0];
+      if (track) {
+        try {
+          const caps = (track.getCapabilities as any)?.();
+          if (caps?.focusMode?.includes('continuous')) {
+            await (track as any).applyConstraints({
+              advanced: [{ focusMode: 'continuous' }]
+            });
+          }
+        } catch (err) {
+          console.warn('Tap to focus não suportado:', err);
+        }
+      }
+    }
+  }, []);
+
+  // Alternar Modo de Carta com Feedback Háptico
+  const handleModeChange = (mode: 'AUTO' | 'CHARACTER' | 'LEADER' | 'EVENT' | 'STAGE') => {
+    if (navigator.vibrate) navigator.vibrate(15);
+    setScannerMode(mode);
   };
 
   // Disparar Seleção de Carta com Feedback
@@ -775,7 +818,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           ].map((mode) => (
             <button
               key={mode.id}
-              onClick={() => setScannerMode(mode.id as any)}
+              onClick={() => handleModeChange(mode.id as any)}
               className={`pill-tab ${
                 scannerMode === mode.id ? 'pill-tab-active' : 'pill-tab-inactive'
               }`}
@@ -786,9 +829,23 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           ))}
         </div>
 
-        {/* Moldura Ampliada com Proporção de Carta Real (90vw / max 370px) */}
-        <div className="relative w-[90vw] max-w-[370px] aspect-[63/88] rounded-2xl border-2 border-sky-500/60 shadow-[0_0_30px_rgba(2,132,199,0.22)] flex flex-col items-center justify-between p-3 bg-transparent transition-all duration-300">
-          
+        {/* Moldura Ampliada com Proporção de Carta Real (90vw / max 370px) + Tap-to-Focus */}
+        <div
+          onClick={(e) => {
+            const rect = e.currentTarget.getBoundingClientRect();
+            triggerFocus(e.clientX, e.clientY, rect);
+          }}
+          className="relative w-[90vw] max-w-[370px] aspect-[63/88] rounded-2xl border-2 border-sky-500/60 shadow-[0_0_30px_rgba(2,132,199,0.25)] flex flex-col items-center justify-between p-3 bg-transparent transition-all duration-300 pointer-events-auto cursor-crosshair overflow-hidden"
+          title="Toque na tela para focar a câmera na carta"
+        >
+          {/* Anel de Foco Tátil Interativo (Tap-to-Focus) */}
+          {focusRing && (
+            <div
+              className="absolute pointer-events-none w-14 h-14 -translate-x-1/2 -translate-y-1/2 border-2 border-amber-400 rounded-full animate-ping shadow-[0_0_15px_rgba(251,191,36,0.9)] z-40"
+              style={{ left: focusRing.x, top: focusRing.y }}
+            />
+          )}
+
           {/* Retículos de Cantoneira no Formato da Carta */}
           <div className="reticle-corner -top-1.5 -left-1.5 border-t-4 border-l-4 rounded-tl-xl w-5 h-5 border-amber-400" />
           <div className="reticle-corner -top-1.5 -right-1.5 border-t-4 border-r-4 rounded-tr-xl w-5 h-5 border-amber-400" />
@@ -796,62 +853,91 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           <div className="reticle-corner -bottom-1.5 -right-1.5 border-b-4 border-r-4 rounded-br-xl w-5 h-5 border-amber-400" />
 
           {/* ================================================================= */}
-          {/* RELEVO ANATÔMICO ADAPTATIVO ("GHOST WIREFRAME") DA CARTA          */}
+          {/* RELEVO ANATÔMICO ADAPTATIVO ("GHOST WIREFRAME") ILUMINADO POR OCR */}
           {/* ================================================================= */}
           {(() => {
             const effectiveType = scannerMode === 'AUTO' 
               ? (detectedSignals?.cardType || 'CHARACTER') 
               : scannerMode;
 
+            const hasCost = detectedSignals?.cost !== null && detectedSignals?.cost !== undefined;
+            const hasPower = detectedSignals?.power !== null && detectedSignals?.power !== undefined;
+            const hasCounter = Boolean(detectedSignals?.counter);
+            const hasCode = Boolean(detectedSignals?.code);
+
             return (
               <>
                 {/* 1. Relevo de Custo (Topo Esquerdo - Não existe em Líderes) */}
                 {effectiveType !== 'LEADER' && (
-                  <div className="absolute top-3 left-3 w-10 h-10 rounded-full border border-dashed border-sky-400/40 bg-sky-950/20 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                    <span className="text-[7px] font-black tracking-widest text-sky-300/80 uppercase">Custo</span>
-                    <span className="text-[9px] font-mono text-sky-400/80">★</span>
+                  <div className={`absolute top-3 left-3 w-10 h-10 rounded-full flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
+                    hasCost
+                      ? 'border-2 border-emerald-400 bg-emerald-950/70 text-emerald-200 shadow-[0_0_14px_rgba(52,211,153,0.7)] scale-105'
+                      : 'border border-dashed border-sky-400/40 bg-sky-950/20 text-sky-300/80'
+                  }`}>
+                    <span className="text-[7px] font-black tracking-widest uppercase">Custo</span>
+                    <span className="text-[10px] font-mono font-bold leading-none">
+                      {hasCost ? detectedSignals?.cost : '★'}
+                    </span>
                   </div>
                 )}
 
                 {/* 2. Relevo de Poder & Atributo (Topo Direito - Personagens e Líderes) */}
                 {(effectiveType === 'CHARACTER' || effectiveType === 'LEADER') && (
-                  <div className="absolute top-3 right-3 px-2 py-1 rounded-xl border border-dashed border-amber-400/40 bg-amber-950/20 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                    <span className="text-[7px] font-black tracking-wider text-amber-300/80 uppercase flex items-center gap-0.5">
+                  <div className={`absolute top-3 right-3 px-2 py-1 rounded-xl flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
+                    hasPower
+                      ? 'border-2 border-amber-400 bg-amber-950/70 text-amber-200 shadow-[0_0_14px_rgba(251,191,36,0.7)] scale-105'
+                      : 'border border-dashed border-amber-400/40 bg-amber-950/20 text-amber-300/80'
+                  }`}>
+                    <span className="text-[7px] font-black tracking-wider uppercase flex items-center gap-0.5">
                       ⚡ Poder
                     </span>
-                    <span className="text-[8px] font-mono font-bold text-amber-400/80">
-                      {effectiveType === 'LEADER' ? '5000' : 'PWR'}
+                    <span className="text-[9px] font-mono font-bold leading-none">
+                      {hasPower ? detectedSignals?.power : (effectiveType === 'LEADER' ? '5000' : 'PWR')}
                     </span>
                   </div>
                 )}
 
                 {/* 3. Relevo de Counter (Lateral Esquerda Central - Exclusivo de Personagens) */}
                 {effectiveType === 'CHARACTER' && (
-                  <div className="absolute top-1/2 -translate-y-1/2 left-2 px-1 py-2 rounded-lg border border-dashed border-cyan-400/40 bg-cyan-950/20 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                    <span className="text-[7px] font-black text-cyan-300/80 [writing-mode:vertical-lr] rotate-180 uppercase tracking-widest">
-                      +Counter 🛡️
+                  <div className={`absolute top-1/2 -translate-y-1/2 left-2 px-1 py-2 rounded-lg flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
+                    hasCounter
+                      ? 'border-2 border-cyan-400 bg-cyan-950/70 text-cyan-200 shadow-[0_0_14px_rgba(6,182,212,0.7)] scale-105'
+                      : 'border border-dashed border-cyan-400/40 bg-cyan-950/20 text-cyan-300/80'
+                  }`}>
+                    <span className="text-[7px] font-black [writing-mode:vertical-lr] rotate-180 uppercase tracking-widest">
+                      {hasCounter ? `+${detectedSignals?.counter}` : '+Counter 🛡️'}
                     </span>
                   </div>
                 )}
 
                 {/* 4. Relevo da Color Wheel (Canto Inferior Esquerdo - Presente em todas as cartas) */}
-                <div className="absolute bottom-3 left-3 w-8 h-8 rounded-xl border border-dashed border-purple-400/40 bg-purple-950/20 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                  <span className="text-[7px] font-black text-purple-300/80 leading-none uppercase tracking-tighter">Cor</span>
-                  <span className="text-[9px] text-purple-400/80 leading-none mt-0.5">⬡</span>
+                <div className={`absolute bottom-3 left-3 w-8 h-8 rounded-xl flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
+                  detectedSignals?.color || (detectedSignals?.colors && detectedSignals.colors.length > 0)
+                    ? 'border-2 border-purple-400 bg-purple-950/70 text-purple-200 shadow-[0_0_14px_rgba(192,132,252,0.7)]'
+                    : 'border border-dashed border-purple-400/40 bg-purple-950/20 text-purple-300/80'
+                }`}>
+                  <span className="text-[7px] font-black leading-none uppercase tracking-tighter">Cor</span>
+                  <span className="text-[9px] leading-none mt-0.5 font-bold">
+                    {detectedSignals?.color ? detectedSignals.color[0] : '⬡'}
+                  </span>
                 </div>
 
                 {/* 5. Relevo do Canto Inferior Direito: Vida em Líderes ou Código em outras */}
                 {effectiveType === 'LEADER' ? (
-                  <div className="absolute bottom-3 right-3 px-2 py-1 rounded-xl border border-dashed border-red-500/50 bg-red-950/30 flex flex-col items-center justify-center pointer-events-none transition-all duration-300 animate-pulse">
+                  <div className="absolute bottom-3 right-3 px-2 py-1 rounded-xl border border-dashed border-red-500/50 bg-red-950/30 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
                     <span className="text-[7px] font-black text-red-300 uppercase tracking-wider flex items-center gap-0.5">
                       ❤️ Vida
                     </span>
                     <span className="text-[9px] font-mono font-black text-white">4 / 5</span>
                   </div>
                 ) : (
-                  <div className="absolute bottom-3 right-3 px-2 py-0.5 rounded-md border border-dashed border-sky-400/40 bg-sky-950/20 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                    <span className="text-[8px] font-mono font-bold text-sky-300/70 tracking-wider">
-                      OP##-###
+                  <div className={`absolute bottom-3 right-3 px-2 py-0.5 rounded-md flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
+                    hasCode
+                      ? 'border-2 border-sky-400 bg-sky-950/80 text-sky-200 shadow-[0_0_14px_rgba(56,189,248,0.7)] font-black scale-105'
+                      : 'border border-dashed border-sky-400/40 bg-sky-950/20 text-sky-300/70'
+                  }`}>
+                    <span className="text-[8px] font-mono font-bold tracking-wider">
+                      {hasCode ? detectedSignals?.code : 'OP##-###'}
                     </span>
                   </div>
                 )}
@@ -859,56 +945,92 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             );
           })()}
 
-          {/* Botão de Lanterna (Topo Direito da Mira) */}
-          {torchAvailable && hasCamera && (
-            <button
-              onClick={toggleTorch}
-              className={`pointer-events-auto absolute -top-4 -right-4 w-11 h-11 rounded-full border flex items-center justify-center shadow-xl transition-all active:scale-90 ${
-                torchOn
-                  ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
-                  : 'bg-slate-900/95 text-slate-200 border-sky-500/40'
-              }`}
-              title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
-            >
-              <Zap className="w-5 h-5 fill-current" />
-            </button>
-          )}
+          {/* Barra de Controles Rápidos Flutuantes (Lanterna e Foco) */}
+          <div className="absolute top-2 right-2 flex items-center gap-1.5 z-30 pointer-events-auto">
+            {/* Botão de Refoco Manual */}
+            {hasCamera && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  triggerFocus();
+                }}
+                className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+                  focusSupported
+                    ? 'bg-slate-900/90 border-amber-500/30 text-amber-400'
+                    : 'bg-slate-900/90 border-white/10 text-slate-300 hover:text-white'
+                }`}
+                title={focusSupported ? 'Ajustar Foco da Câmera (Hardware com Foco Contínuo)' : 'Ajustar Foco da Câmera'}
+              >
+                <Focus className="w-4 h-4" />
+              </button>
+            )}
+
+            {/* Botão de Lanterna (Torch) */}
+            {torchAvailable && hasCamera && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleTorch();
+                }}
+                className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
+                  torchOn
+                    ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
+                    : 'bg-slate-900/90 text-slate-300 border-white/10 hover:text-white'
+                }`}
+                title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
+              >
+                <Zap className="w-4 h-4 fill-current" />
+              </button>
+            )}
+          </div>
 
           {/* Feixe de Laser de Escaneamento Animado */}
           {isScanning && hasCamera && <div className="animate-scan-beam" />}
 
           {/* Badge Instrução Flutuante */}
-          <div className="px-4 py-2 rounded-xl bg-slate-950/95 border border-sky-400/40 text-xs font-bold text-slate-100 tracking-wider shadow-xl flex items-center gap-1.5">
+          <div className="px-4 py-2 rounded-xl bg-slate-950/95 border border-sky-400/40 text-xs font-bold text-slate-100 tracking-wider shadow-xl flex items-center gap-1.5 pointer-events-none mt-auto mb-2">
             {isRecognizing ? (
               <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
             ) : (
               <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
             )}
-            <span>{isRecognizing ? 'Lendo Carta...' : 'Encaixe a carta na moldura'}</span>
+            <span>{isRecognizing ? 'Lendo Carta...' : 'Toque para focar ou alinhe a carta'}</span>
           </div>
 
-          {/* Botões de Controle */}
-          <div className="flex items-center gap-2">
+          {/* Botões de Controle na Base da Moldura */}
+          <div className="flex items-center gap-2 pointer-events-auto z-30">
             {/* Botão de Captura Imediata */}
             {hasCamera && (
               <button
-                onClick={processFrame}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  if (navigator.vibrate) navigator.vibrate(30);
+                  processFrame();
+                }}
                 disabled={isRecognizing}
-                className="pointer-events-auto px-4 py-2 bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-md active:scale-95 transition-all flex items-center gap-1.5"
+                className="px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-amber-950/40 active:scale-95 transition-all flex items-center gap-1.5 disabled:opacity-50"
                 title="Capturar e Ler Agora"
               >
-                <Camera className="w-3.5 h-3.5" /> Ler Agora
+                {isRecognizing ? (
+                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                ) : (
+                  <Camera className="w-3.5 h-3.5" />
+                )}
+                {isRecognizing ? 'Processando...' : 'Ler Agora'}
               </button>
             )}
 
             {/* Botão de Toggle do Painel de Debug */}
             {hasCamera && (
               <button
-                onClick={() => setShowDebugPanel(!showDebugPanel)}
-                className={`pointer-events-auto p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setShowDebugPanel(!showDebugPanel);
+                }}
+                className={`p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all ${
                   showDebugPanel ? 'bg-sky-600 border-sky-400 text-white' : 'bg-slate-900/90 border-slate-700 text-slate-400'
                 }`}
-                title="Abrir Painel de Debug"
+                title="Abrir Painel de Telemetria e Debug"
               >
                 <Bug className="w-3.5 h-3.5" />
               </button>
