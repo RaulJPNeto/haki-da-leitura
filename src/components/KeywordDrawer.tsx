@@ -44,11 +44,21 @@ export const KeywordDrawer: React.FC<KeywordDrawerProps> = ({ keyword, onClose }
             <Sparkles className="w-6 h-6 text-amber-400" />
           </div>
           <div>
-            <span className="px-2.5 py-0.5 rounded bg-sky-950/80 border border-sky-700/50 text-sky-300 text-[11px] font-mono font-bold uppercase tracking-wider">
-              {keyword.rawTagPt || keyword.rawTag}
-            </span>
-            <h3 className="text-2xl sm:text-3xl font-bold text-white mt-1 font-heading leading-tight">
-              {keyword.namePt}
+            <div className="flex items-center gap-2 flex-wrap">
+              <span className="px-2.5 py-0.5 rounded bg-sky-950/80 border border-sky-700/50 text-sky-300 text-[11px] font-mono font-bold uppercase tracking-wider">
+                {keyword.rawTagEn || keyword.rawTag}
+              </span>
+              {keyword.namePt && keyword.namePt !== keyword.nameEn && (
+                <span className="px-2 py-0.5 rounded bg-amber-950/80 border border-amber-700/50 text-amber-300 text-[10px] font-medium">
+                  Tradução: {keyword.namePt}
+                </span>
+              )}
+            </div>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mt-1.5 font-heading leading-tight flex items-baseline gap-2.5 flex-wrap">
+              <span>{keyword.nameEn || keyword.namePt}</span>
+              {keyword.nameEn && keyword.namePt !== keyword.nameEn && (
+                <span className="text-base sm:text-lg font-normal text-slate-400 font-sans">({keyword.namePt})</span>
+              )}
             </h3>
           </div>
         </div>
@@ -57,10 +67,10 @@ export const KeywordDrawer: React.FC<KeywordDrawerProps> = ({ keyword, onClose }
         <div className="p-4 sm:p-5 bg-[#0e1320] rounded-xl border border-white/10 text-sm shadow-md space-y-2">
           <div className="flex items-center justify-between">
             <span className="text-xs font-bold uppercase tracking-wider text-sky-400 font-heading">
-              Comparação com a Carta em Inglês:
+              Termo Oficial vs Tradução Didática:
             </span>
             <span className="px-2 py-0.5 rounded bg-sky-950 border border-sky-700/40 text-sky-300 text-[10px] font-bold">
-              Texto Original
+              Oficial em Torneios
             </span>
           </div>
           <div className="flex flex-wrap items-center gap-2.5 pt-1">
@@ -70,7 +80,7 @@ export const KeywordDrawer: React.FC<KeywordDrawerProps> = ({ keyword, onClose }
             </span>
             <span className="text-slate-400">➜</span>
             <span className="px-2.5 py-1 rounded bg-sky-950/80 border border-sky-500/50 text-sky-300 font-bold text-xs sm:text-sm tracking-wide font-heading">
-              {keyword.rawTagPt || keyword.rawTag}
+              {keyword.namePt} {keyword.rawTagPt ? `(${keyword.rawTagPt})` : ''}
             </span>
           </div>
         </div>

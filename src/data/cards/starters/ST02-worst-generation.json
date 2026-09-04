@@ -16,7 +16,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: coloque este Líder como ativo.",
+    "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: coloque este Líder como ativo.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
     "keywordIds": [
       "once-per-turn"
@@ -86,7 +86,7 @@
       "Supernovas",
       "Piratas Firetank"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -111,9 +111,9 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[On Play] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
@@ -161,7 +161,7 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effectPt": "[Ativar: Principal] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [],
     "setId": "ST-02",
@@ -184,7 +184,7 @@
       "Supernovas",
       "On-Air Pirates"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] descanse Até 1 do seu oponente cartas de DON!!.",
+    "effectPt": "[DON!! x1] [When Attacking] descanse Até 1 do seu oponente cartas de DON!!.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
     "keywordIds": [
       "when-attacking"
@@ -209,7 +209,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Ao Jogar] coloque Até 1 dos seus {Supernovas} ou {Piratas do Coração} tipo descansado(a) Personagens com custo de 5 ou menos as ativo(a).",
+    "effectPt": "[On Play] coloque Até 1 dos seus {Supernovas} ou {Piratas do Coração} tipo descansado(a) Personagens com custo de 5 ou menos as ativo(a).",
     "effectEn": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
     "keywordIds": [
       "on-play"
@@ -234,7 +234,7 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effectPt": "[DON!! x1] [1 Vez por Turno] [Seu Turno] Se este Personagem battles do seu oponente Personagem, coloque esta carta como ativa.",
+    "effectPt": "[DON!! x1] [Once Per Turn] [Your Turn] Se este Personagem battles do seu oponente Personagem, coloque esta carta como ativa.",
     "effectEn": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
     "keywordIds": [
       "once-per-turn",
@@ -305,7 +305,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Fim do Seu Turno] coloque este Personagem como ativo.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this Character as active.",
     "keywordIds": [
       "blocker"
@@ -331,7 +331,7 @@
       "Supernovas",
       "Drake Pirates"
     ],
-    "effectPt": "[DON!! x1] [Seu Turno] Se este Personagem for descansado(a), seu {Supernovas} ou {Marinha} tipo Leaders e Personagens ganha +1000 de Poder.",
+    "effectPt": "[DON!! x1] [Your Turn] Se este Personagem for descansado(a), seu {Supernovas} ou {Marinha} tipo Leaders e Personagens ganha +1000 de Poder.",
     "effectEn": "[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
     "keywordIds": [
       "your-turn"
@@ -355,9 +355,9 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
-    "triggerPt": "[Gatilho] coloque até 2 das suas cartas de DON!! como ativas.",
+    "triggerPt": "[Trigger] coloque até 2 das suas cartas de DON!! como ativas.",
     "triggerEn": "[Trigger] Set up to 2 of your DON!! cards as active.",
     "keywordIds": [
       "trigger",
@@ -382,7 +382,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
       "counter"
@@ -406,9 +406,9 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effectPt": "[Principal] Descanse até 1 Personagem(ns) do seu oponente.",
+    "effectPt": "[Main] Descanse até 1 Personagem(ns) do seu oponente.",
     "effectEn": "[Main] Rest up to 1 of your opponent's Characters.",
-    "triggerPt": "[Gatilho] Jogue Até 1 {Supernovas} carta do tipo com custo de 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Supernovas} carta do tipo com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"

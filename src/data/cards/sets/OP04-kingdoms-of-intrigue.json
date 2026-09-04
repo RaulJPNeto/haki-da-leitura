@@ -16,7 +16,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "este Líder não pode atacar. [Ativar: Principal] [1 Vez por Turno] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Compre 1 carta(s) e Até 1 dos seus Personagens ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "este Líder não pode atacar. [Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Compre 1 carta(s) e Até 1 dos seus Personagens ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Draw 1 card and up to 1 of your Characters gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -41,7 +41,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descanse este Personagem e dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Alabasta} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem e dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Alabasta} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may rest this Character and give your 1 active Leader −5000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -64,7 +64,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Ser K.O.] Dê K.O. em até 1 Personagem(ns) do seu oponente com 5000 ou menos de Poder base.",
+    "effectPt": "[On K.O.] Dê K.O. em até 1 Personagem(ns) do seu oponente com 5000 ou menos de Poder base.",
     "effectEn": "[On K.O.] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
     "keywordIds": [
       "on-ko"
@@ -89,7 +89,7 @@
       "Animal",
       "Alabasta"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Dê Até 1 descansado(a) DON!! carta para cada dos seus {Alabasta} tipo Personagens.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 1 descansado(a) DON!! carta para cada dos seus {Alabasta} tipo Personagens.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 rested DON!! card to each of your {Alabasta} type Characters.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -112,7 +112,7 @@
       "Animal",
       "Alabasta"
     ],
-    "effectPt": "Se você tiver um [Kung Fu Jugon] diferente de este Personagem, este Personagem ganha [Bloqueador]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Se você tiver um [Kung Fu Jugon] diferente de este Personagem, este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "If you have a [Kung Fu Jugon] other than this Character, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -136,7 +136,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Ao Atacar] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[When Attacking] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
     "effectEn": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: This Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "when-attacking"
@@ -183,7 +183,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] Se o seu Líder for [Nefeltari Vivi], Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 0 ou menos de Poder.",
+    "effectPt": "[DON!! x1] [When Attacking] Se o seu Líder for [Nefeltari Vivi], Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 0 ou menos de Poder.",
     "effectEn": "[DON!! x1] [When Attacking] If your Leader is [Nefeltari Vivi], give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "keywordIds": [
       "when-attacking"
@@ -208,7 +208,7 @@
       "Animal",
       "Alabasta"
     ],
-    "effectPt": "[Ao Atacar] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: retorne este Personagem para a mão do dono no final deste turno.",
+    "effectPt": "[When Attacking] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: retorne este Personagem para a mão do dono no final deste turno.",
     "effectEn": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Return this Character to the owner's hand at the end of this turn.",
     "keywordIds": [
       "when-attacking"
@@ -234,7 +234,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Jogar] Jogue Até 1 {Animal} tipo carta(s) de Personagem com 3000 ou menos de Poder da sua mão.",
+    "effectPt": "[On Play] Jogue Até 1 {Animal} tipo carta(s) de Personagem com 3000 ou menos de Poder da sua mão.",
     "effectEn": "[On Play] Play up to 1 {Animal} type Character card with 3000 power or less from your hand.",
     "keywordIds": [
       "on-play"
@@ -259,7 +259,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Atacar] Revele 1 carta do topo do seu Deck. Se o revelada carta for a carta(s) de Personagem com 6000 ou mais de Poder, este Personagem ganha +3000 de Poder durante este turno. Em seguida, coloque a carta revelada no fundo do seu Deck.",
+    "effectPt": "[When Attacking] Revele 1 carta do topo do seu Deck. Se o revelada carta for a carta(s) de Personagem com 6000 ou mais de Poder, este Personagem ganha +3000 de Poder durante este turno. Em seguida, coloque a carta revelada no fundo do seu Deck.",
     "effectEn": "[When Attacking] Reveal 1 card from the top of your deck. If the revealed card is a Character card with 6000 power or more, this Character gains +3000 power during this turn. Then, place the revealed card at the bottom of your deck.",
     "keywordIds": [
       "when-attacking"
@@ -283,7 +283,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Seu Turno] todos os dos seus {Alabasta} tipo Personagens diferente de este Personagem ganha +1000 de Poder.",
+    "effectPt": "[Your Turn] todos os dos seus {Alabasta} tipo Personagens diferente de este Personagem ganha +1000 de Poder.",
     "effectEn": "[Your Turn] All of your {Alabasta} type Characters other than this Character gain +1000 power.",
     "keywordIds": [
       "your-turn"
@@ -307,7 +307,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectPt": "[DON!! x1] [When Attacking] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
     "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "keywordIds": [
       "when-attacking"
@@ -332,7 +332,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Banimento] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
       "banish"
@@ -357,7 +357,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[On Play] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "on-play"
@@ -381,9 +381,9 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Contra-Ataque] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Counter] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "triggerPt": "[Gatilho] Dê a até 1 cartas de Líder ou Personagem do seu oponente −3000 de Poder durante este turno.",
+    "triggerPt": "[Trigger] Dê a até 1 cartas de Líder ou Personagem do seu oponente −3000 de Poder durante este turno.",
     "triggerEn": "[Trigger] Give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
     "keywordIds": [
       "trigger",
@@ -408,7 +408,7 @@
       "Alabasta",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Contra-Ataque] Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno. Em seguida, Se o seu Líder for ativo(a), Dê a até 1 cartas de Líder ou Personagem do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[Counter] Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno. Em seguida, Se o seu Líder for ativo(a), Dê a até 1 cartas de Líder ou Personagem do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[Counter] Give up to 1 of your opponent's Leader or Character cards −2000 power during this turn. Then, if your Leader is active, give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
     "keywordIds": [
       "counter"
@@ -431,9 +431,9 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Principal] Se o seu Líder tiver o tipo {Alabasta}, Dê a até 2 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[Main] Se o seu Líder tiver o tipo {Alabasta}, Dê a até 2 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Main] If your Leader has the {Alabasta} type, give up to 2 of your opponent's Characters −2000 power during this turn.",
-    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -459,7 +459,7 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Fim do Seu Turno] coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectPt": "[fim dos seus turno] coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 2 of your DON!! cards as active.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -482,7 +482,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [Seu Turno] Dê todos os dos Personagens do seu oponente −1 custo. [Fim do Seu Turno] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque Até 1 dos seus Personagens com custo de 5 ou menos as ativo(a).",
+    "effectPt": "[DON!! x1] [Your Turn] Dê todos os dos Personagens do seu oponente −1 custo. [fim dos seus turno] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque Até 1 dos seus Personagens com custo de 5 ou menos as ativo(a).",
     "effectEn": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −1 cost. [End of Your Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your Characters with a cost of 5 or less as active.",
     "keywordIds": [
       "your-turn"
@@ -506,7 +506,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[No Ataque do Oponente] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): descanse Até 1 do seu oponente cartas de DON!!.",
+    "effectPt": "[On Your Opponent's Attack] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): descanse Até 1 do seu oponente cartas de DON!!.",
     "effectEn": "[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's DON!! cards.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -528,7 +528,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -573,7 +573,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Turno do Oponente] [1 Vez por Turno] Quando seu oponente plays a Personagem, Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente. Em seguida, descanse este Personagem. [Ao Jogar] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Opponent's Turn] [Once Per Turn] Quando seu oponente plays a Personagem, Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente. Em seguida, descanse este Personagem. [On Play] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character. [On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "on-play",
@@ -598,7 +598,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[No Ataque do Oponente] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[On Your Opponent's Attack] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -620,7 +620,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Ao Atacar] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
+    "effectPt": "[When Attacking] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
     "effectEn": "[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "keywordIds": [
       "when-attacking"
@@ -645,7 +645,7 @@
       "East Blue",
       "Ex-Marinha"
     ],
-    "effectPt": "[DON!! x1] [Fim do Seu Turno] coloque este Personagem como ativo.",
+    "effectPt": "[DON!! x1] [fim dos seus turno] coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [End of Your Turn] Set this Character as active.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -667,7 +667,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Fim do Seu Turno] Se você tiver 2 ou mais ativo(a) cartas de DON!!, coloque este Personagem como ativo.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] Se você tiver 2 ou mais ativo(a) cartas de DON!!, coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
     "keywordIds": [
       "blocker"
@@ -691,7 +691,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Fim do Seu Turno] coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -713,7 +713,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos. [No Ataque do Oponente] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[On Play] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos. [On Your Opponent's Attack] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. [On Your Opponent's Attack] ➁ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "on-play"
@@ -738,7 +738,7 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Ao Jogar] até um total de 3 do seu oponente descansado(a) Líder e carta(s) de Personagem não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectPt": "[On Play] até um total de 3 do seu oponente descansado(a) Líder e carta(s) de Personagem não ficará ativo na próxima Fase de Restauração do seu oponente.",
     "effectEn": "[On Play] Up to a total of 3 of your opponent's rested Leader and Character cards will not become active in your opponent's next Refresh Phase.",
     "keywordIds": [
       "on-play"
@@ -762,7 +762,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Fim do Seu Turno] Você pode descartar este Personagem: coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectPt": "[fim dos seus turno] Você pode descartar este Personagem: coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -784,7 +784,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
     "effectEn": "[On Play] If your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "keywordIds": [
       "on-play"
@@ -808,7 +808,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Fim do Seu Turno] Se você tiver 3 ou mais ativo(a) cartas de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[fim dos seus turno] Se você tiver 3 ou mais ativo(a) cartas de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[End of Your Turn] If you have 3 or more active DON!! cards, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -830,9 +830,9 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque Até 1 dos seus Personagens as ativo(a).",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque Até 1 dos seus Personagens as ativo(a).",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your Characters as active.",
-    "triggerPt": "[Gatilho] Até 1 do seu Líder ganha +2000 de Poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ganha +2000 de Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader gains +2000 power during this turn.",
     "keywordIds": [
       "trigger",
@@ -856,9 +856,9 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Contra-Ataque] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Counter] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Counter] Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "triggerPt": "[Gatilho] ative esta carta's [Contra-Ataque] efeito.",
+    "triggerPt": "[Trigger] ative esta carta's [Counter] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
     "keywordIds": [
       "trigger",
@@ -883,9 +883,9 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Contra-Ataque] Se o seu Líder tiver o tipo {Piratas Donquixote}, Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Counter] Se o seu Líder tiver o tipo {Piratas Donquixote}, Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Counter] If your Leader has the {Donquixote Pirates} type, up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "triggerPt": "[Gatilho] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger",
@@ -910,9 +910,9 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Principal]/[Contra-Ataque] descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem. Em seguida, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 6 ou menos.",
+    "effectPt": "[Main]/[Counter] descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem. Em seguida, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 6 ou menos.",
     "effectEn": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards. Then, K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
-    "triggerPt": "[Gatilho] coloque até 5 das suas cartas de DON!! como ativas.",
+    "triggerPt": "[Trigger] coloque até 5 das suas cartas de DON!! como ativas.",
     "triggerEn": "[Trigger] Set up to 5 of your DON!! cards as active.",
     "keywordIds": [
       "trigger",
@@ -938,7 +938,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "este Líder não pode atacar. [Ativar: Principal] [1 Vez por Turno] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se você tiver 6 ou menos cartas na sua mão, Olhe as 2 cartas do topo do seu Deck; revele até 1 {Dressrosa} e adicione-a à sua mão. Em seguida, descartar o descanse.",
+    "effectPt": "este Líder não pode atacar. [Activate: Main] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se você tiver 6 ou menos cartas na sua mão, Olhe as 2 cartas do topo do seu Deck; revele até 1 {Dressrosa} e adicione-a à sua mão. Em seguida, descartar o descanse.",
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 {Dressrosa} type card and add it to your hand. Then, trash the rest.",
     "keywordIds": [
       "once-per-turn"
@@ -963,7 +963,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] Se você tiver um total de 4 ou menos cartas na sua Vida área e mão, Compre 1 carta(s). Se você tiver um Personagem com custo de 8 ou mais, Você pode adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida em vez disso de drawing 1 carta.",
+    "effectPt": "[DON!! x1] [When Attacking] Se você tiver um total de 4 ou menos cartas na sua Vida área e mão, Compre 1 carta(s). Se você tiver um Personagem com custo de 8 ou mais, Você pode adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida em vez disso de drawing 1 carta.",
     "effectEn": "[DON!! x1] [When Attacking] If you have a total of 4 or less cards in your Life area and hand, draw 1 card. If you have a Character with a cost of 8 or more, you may add up to 1 card from the top of your deck to the top of your Life cards instead of drawing 1 card.",
     "keywordIds": [
       "when-attacking"
@@ -987,7 +987,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Ao Jogar] Você pode descartar 2 carta(s) da sua mão: Olhe as 5 cartas do topo do seu Deck; revele até 1 {East azul} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Você pode descartar 2 carta(s) da sua mão: Olhe as 5 cartas do topo do seu Deck; revele até 1 {East azul} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] You may trash 2 cards from your hand: Look at 5 cards from the top of your deck; reveal up to 1 {East Blue} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -1011,7 +1011,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Ao Jogar] Até 1 dos seus atributo Personagens ganha +3000 de Poder durante este turno. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
+    "effectPt": "[On Play] Até 1 dos seus atributo Personagens ganha +3000 de Poder durante este turno. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
     "effectEn": "[On Play] Up to 1 of your attribute Characters gains +3000 power during this turn. Then, trash 1 card from the top of your deck.",
     "keywordIds": [
       "on-play"
@@ -1035,7 +1035,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] retorne Até 1 Personagem com custo de 2 ou menos para a mão do dono ou o fundo do Deck dele(a).",
+    "effectPt": "[DON!! x1] [When Attacking] retorne Até 1 Personagem com custo de 2 ou menos para a mão do dono ou o fundo do Deck dele(a).",
     "effectEn": "[DON!! x1] [When Attacking] Return up to 1 Character with a cost of 2 or less to the owner's hand or the bottom of their deck.",
     "keywordIds": [
       "when-attacking"
@@ -1060,7 +1060,7 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Jogar] retorne Até 1 Personagem com custo de 8 ou menos e Até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "effectPt": "[On Play] retorne Até 1 Personagem com custo de 8 ou menos e Até 1 Personagem com custo de 3 ou menos para a mão do dono.",
     "effectEn": "[On Play] Return up to 1 Character with a cost of 8 or less and up to 1 Character with a cost of 3 or less to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -1084,7 +1084,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Jogar] Compre 1 carta(s).",
+    "effectPt": "[On Play] Compre 1 carta(s).",
     "effectEn": "[On Play] Draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -1108,7 +1108,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Jogar] Se o seu Líder tiver o tipo {Piratas das Feras}, Olhe as 7 cartas do topo do seu Deck; revele a total de Até 2 [Plague Rounds] ou [Ice Oni] cartas e adicione elas para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas das Feras}, Olhe as 7 cartas do topo do seu Deck; revele a total de Até 2 [Plague Rounds] ou [Ice Oni] cartas e adicione elas para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] If your Leader has the {Animal Kingdom Pirates} type, look at 7 cards from the top of your deck; reveal a total of up to 2 [Plague Rounds] or [Ice Oni] cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -1133,7 +1133,7 @@
       "Plague",
       "Piratas das Feras"
     ],
-    "effectPt": "[Seu Turno] no fim da batalha no qual este Personagem battles do seu oponente Personagem com custo de 5 ou menos, coloque o oponente's Personagem você battled com no fundo do Deck do dono.",
+    "effectPt": "[Your Turn] no fim da batalha no qual este Personagem battles do seu oponente Personagem com custo de 5 ou menos, coloque o oponente's Personagem você battled com no fundo do Deck do dono.",
     "effectEn": "[Your Turn] At the end of a battle in which this Character battles your opponent's Character with a cost of 5 or less, place the opponent's Character you battled with at the bottom of the owner's deck.",
     "keywordIds": [
       "your-turn"
@@ -1157,7 +1157,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Jogar] retorne todos os cartas na sua mão para o seu Deck e embaralhe seu Deck. Em seguida, compre cartas igual a o número você retornado(a) para o seu Deck.",
+    "effectPt": "[On Play] retorne todos os cartas na sua mão para o seu Deck e embaralhe seu Deck. Em seguida, compre cartas igual a o número você retornado(a) para o seu Deck.",
     "effectEn": "[On Play] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
     "keywordIds": [
       "on-play"
@@ -1181,7 +1181,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Ser K.O.] Compre 1 carta(s).",
+    "effectPt": "[On K.O.] Compre 1 carta(s).",
     "effectEn": "[On K.O.] Draw 1 card.",
     "keywordIds": [
       "on-ko"
@@ -1205,7 +1205,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descartar 1 carta(s) da sua mão e descanse este Personagem: Compre 1 carta(s).",
+    "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Personagem: Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -1227,7 +1227,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas das Feras} carta do tipo diferente de [Who's.Who] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas das Feras} carta do tipo diferente de [Who's.Who] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Animal Kingdom Pirates} type card other than [Who's.Who] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -1251,9 +1251,9 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Ativar: Principal] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Compre 1 carta(s).",
+    "effectPt": "[Activate: Main] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Compre 1 carta(s).",
     "effectEn": "[Activate: Main] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Draw 1 card.",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger"
@@ -1277,7 +1277,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[DON!! x1] [1 Vez por Turno] Quando você ative um(a) Evento, Compre 1 carta(s). Em seguida, coloque 1 carta da sua mão no fundo do seu Deck.",
+    "effectPt": "[DON!! x1] [Once Per Turn] Quando você ative um(a) Evento, Compre 1 carta(s). Em seguida, coloque 1 carta da sua mão no fundo do seu Deck.",
     "effectEn": "[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck.",
     "keywordIds": [
       "once-per-turn"
@@ -1323,9 +1323,9 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Principal] Você pode descartar 1 [Ice Oni] da sua mão e coloque 1 Personagem com custo de 4 ou menos no fundo do Deck do dono: Jogue 1 [Ice Oni] da sua lixeira.",
+    "effectPt": "[Main] Você pode descartar 1 [Ice Oni] da sua mão e coloque 1 Personagem com custo de 4 ou menos no fundo do Deck do dono: Jogue 1 [Ice Oni] da sua lixeira.",
     "effectEn": "[Main] You may trash 1 [Ice Oni] from your hand and place 1 Character with a cost of 4 or less at the bottom of the owner's deck: Play 1 [Ice Oni] from your trash.",
-    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -1348,9 +1348,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] coloque Até 1 Personagem no fundo do Deck do dono.",
+    "effectPt": "[Main] coloque Até 1 Personagem no fundo do Deck do dono.",
     "effectEn": "[Main] Place up to 1 Character at the bottom of the owner's deck.",
-    "triggerPt": "[Gatilho] coloque Até 1 Personagem com custo de 4 ou menos no fundo do Deck do dono.",
+    "triggerPt": "[Trigger] coloque Até 1 Personagem com custo de 4 ou menos no fundo do Deck do dono.",
     "triggerEn": "[Trigger] Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
     "keywordIds": [
       "trigger"
@@ -1374,9 +1374,9 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque Até 1 Personagem com custo de 1 ou menos no fundo do Deck do dono.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, coloque Até 1 Personagem com custo de 1 ou menos no fundo do Deck do dono.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, place up to 1 Character with a cost of 1 or less at the bottom of the owner's deck.",
-    "triggerPt": "[Gatilho] retorne até 1 Personagem com custo de 6 ou menos para a mão do dono.",
+    "triggerPt": "[Trigger] retorne até 1 Personagem com custo de 6 ou menos para a mão do dono.",
     "triggerEn": "[Trigger] Return up to 1 Character with a cost of 6 or less to the owner's hand.",
     "keywordIds": [
       "trigger",
@@ -1403,7 +1403,7 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Turno do Oponente] [1 Vez por Turno] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!! por seu efeito, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[Opponent's Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!! por seu efeito, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "once-per-turn"
@@ -1428,7 +1428,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[No Ataque do Oponente] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, este Personagem ganha [Bloqueador] durante este turno. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[On Your Opponent's Attack] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, este Personagem ganha [Blocker] durante este turno. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, this Character gains [Blocker] during this turn. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1453,7 +1453,7 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Ao Jogar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [No Ataque do Oponente] [1 Vez por Turno] DON!! −1: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [On Your Opponent's Attack] [Once Per Turn] DON!! −1: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards. [On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "on-play",
@@ -1479,7 +1479,7 @@
       "Homem-Peixe",
       "Water Seven"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Water Seven}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Water Seven}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Water Seven} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -1524,7 +1524,7 @@
       "Water Seven",
       "The Franky Family"
     ],
-    "effectPt": "[No Ataque do Oponente] [1 Vez por Turno] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle.",
     "keywordIds": [
       "once-per-turn"
@@ -1548,9 +1548,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Ao Jogar] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, Se você tiver 6 ou mais cartas de DON!! no seu campo, Compre 1 carta(s).",
+    "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, Se você tiver 6 ou mais cartas de DON!! no seu campo, Compre 1 carta(s).",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it. Then, if you have 6 or more DON!! cards on your field, draw 1 card.",
-    "triggerPt": "[Gatilho] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "on-play",
@@ -1575,9 +1575,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Ao Jogar] Se o tipo do seu Líder incluir \"Baroque Works\", Até 1 dos Personagens do seu oponente com custo de 5 ou menos não pode atacar até o início do seu próximo turno.",
+    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Baroque Works\", Até 1 dos Personagens do seu oponente com custo de 5 ou menos não pode atacar até o início do seu próximo turno.",
     "effectEn": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 5 or less cannot attack until the start of your next turn.",
-    "triggerPt": "[Gatilho] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "on-play",
@@ -1602,9 +1602,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Ao Jogar] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Baroque Works\" e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Baroque Works\" e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "triggerPt": "[Gatilho] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "on-play",
@@ -1629,9 +1629,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "triggerPt": "[Gatilho] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "blocker",
@@ -1657,7 +1657,7 @@
       "Animal",
       "Water Seven"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [No Ataque do Oponente] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): retorne Até 1 dos Personagens do seu oponente com custo de 2 ou menos para a mão do dono.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): retorne Até 1 dos Personagens do seu oponente com custo de 2 ou menos para a mão do dono.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
     "keywordIds": [
       "blocker"
@@ -1681,9 +1681,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[No Ataque do Oponente] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem's base Poder torna-se o same as o Poder do seu oponente attacking Líder ou Personagem durante este turno.",
+    "effectPt": "[On Your Opponent's Attack] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem's base Poder torna-se o same as o Poder do seu oponente attacking Líder ou Personagem durante este turno.",
     "effectEn": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character's base power becomes the same as the power of your opponent's attacking Leader or Character during this turn.",
-    "triggerPt": "[Gatilho] DON!! −1: Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1: Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1: Play this card.",
     "keywordIds": [
       "trigger"
@@ -1707,7 +1707,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[No Ataque do Oponente] [1 Vez por Turno] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "once-per-turn"
@@ -1731,7 +1731,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[No Ataque do Oponente] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Bloqueador] e +1000 Poder durante esta batalha. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[On Your Opponent's Attack] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Blocker] e +1000 Poder durante esta batalha. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[On Your Opponent's Attack] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Blocker] and +1000 power during this battle. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1755,7 +1755,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[No Ataque do Oponente] [1 Vez por Turno] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "once-per-turn"
@@ -1780,9 +1780,9 @@
       "Animal",
       "Baroque Works"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem e 1 dos seus Personagens com um tipo que inclua \"Baroque Works\": Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem e 1 dos seus Personagens com um tipo que inclua \"Baroque Works\": Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] You may trash this Character and 1 of your Characters with a type including \"Baroque Works\": Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger"
@@ -1805,9 +1805,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Contra-Ataque] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha. Em seguida, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha. Em seguida, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "trigger",
@@ -1831,9 +1831,9 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, Se você tiver 2 ou menos cartas de Vida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, Se você tiver 2 ou menos cartas de Vida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "trigger",
@@ -1858,9 +1858,9 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Contra-Ataque] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "triggerPt": "[Gatilho] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "trigger",
@@ -1885,7 +1885,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1933,7 +1933,7 @@
       "Dressrosa",
       "Yonta Maria Fleet"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno e descarte 2 carta(s) do topo do seu Deck. Em seguida, K.O. 1 dos seus {Dressrosa} tipo Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno e descarte 2 carta(s) do topo do seu Deck. Em seguida, K.O. 1 dos seus {Dressrosa} tipo Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters.",
     "keywordIds": [
       "once-per-turn"
@@ -1957,7 +1957,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Ao Jogar] Até 1 dos seus {Dressrosa} tipo Personagens também pode atacar ativo(a) Personagens durante este turno.",
+    "effectPt": "[On Play] Até 1 dos seus {Dressrosa} tipo Personagens também pode atacar ativo(a) Personagens durante este turno.",
     "effectEn": "[On Play] Up to 1 of your {Dressrosa} type Characters can also attack active Characters during this turn.",
     "keywordIds": [
       "on-play"
@@ -1982,7 +1982,7 @@
       "Dressrosa",
       "Beautiful Pirates"
     ],
-    "effectPt": "[DON!! x1] este Personagem também pode atacar ativo(a) Personagens. [Ao Atacar] Você pode descanse seu Líder: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
+    "effectPt": "[DON!! x1] este Personagem também pode atacar ativo(a) Personagens. [When Attacking] Você pode descanse seu Líder: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[DON!! x1] This Character can also attack active Characters. [When Attacking] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck.",
     "keywordIds": [
       "when-attacking"
@@ -2006,7 +2006,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "Se este Personagem for ser nocauteado, Você pode descanse seu Líder ou 1 [Corrida Coliseum] em vez disso. [Ao Jogar] Se o seu Líder for [Rebecca], Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
+    "effectPt": "Se este Personagem for ser nocauteado, Você pode descanse seu Líder ou 1 [Corrida Coliseum] em vez disso. [On Play] Se o seu Líder for [Rebecca], Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
     "effectEn": "If this Character would be K.O.'d, you may rest your Leader or 1 [Corrida Coliseum] instead. [On Play] If your Leader is [Rebecca], K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 1 card from the top of your deck.",
     "keywordIds": [
       "on-play"
@@ -2031,7 +2031,7 @@
       "Dressrosa",
       "Exército Revolucionário"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] None dos seus Personagens pode ser K.O.'d por efeitos até o início do seu próximo turno. Em seguida, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] None dos seus Personagens pode ser K.O.'d por efeitos até o início do seu próximo turno. Em seguida, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] None of your Characters can be K.O.'d by effects until the start of your next turn. Then, draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "blocker",
@@ -2056,7 +2056,7 @@
     "subtypes": [
       "CP0"
     ],
-    "effectPt": "[Ao Jogar] Olhe as 3 cartas do topo do seu Deck e jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" diferente de [Stussy] e um(a) custo de 2 ou menos. Em seguida, descartar o descanse.",
+    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" diferente de [Stussy] e um(a) custo de 2 ou menos. Em seguida, descartar o descanse.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and play up to 1 Character card with a type including \"CP\" other than [Stussy] and a cost of 2 or less. Then, trash the rest.",
     "keywordIds": [
       "on-play"
@@ -2080,7 +2080,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Ao Jogar]/[Ao Atacar] Se o seu Líder tiver o tipo {Dressrosa}, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
+    "effectPt": "[On Play]/[When Attacking] Se o seu Líder tiver o tipo {Dressrosa}, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno. Em seguida, descarte 1 carta(s) do topo do seu Deck.",
     "effectEn": "[On Play]/[When Attacking] If your Leader has the {Dressrosa} type, give up to 1 of your opponent's Characters −2 cost during this turn. Then, trash 1 card from the top of your deck.",
     "keywordIds": [
       "on-play",
@@ -2153,7 +2153,7 @@
       "Dressrosa",
       "Novos Piratas Gigantes"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descanse seu 1 Líder: Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse seu 1 Líder: Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may rest your 1 Leader: Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -2176,7 +2176,7 @@
       "Dressrosa",
       "Barto Club"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -2201,7 +2201,7 @@
       "Dressrosa",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "este Personagem também pode atacar ativo(a) Personagens. [Ativar: Principal] [1 Vez por Turno] Você pode retorne 7 cartas da sua lixeira para o fundo do seu Deck em qualquer ordem: coloque este Personagem como ativo. Em seguida, este Personagem não ficará ativo no seu próxima Fase de Restauração.",
+    "effectPt": "este Personagem também pode atacar ativo(a) Personagens. [Activate: Main] [Once Per Turn] Você pode retorne 7 cartas da sua lixeira para o fundo do seu Deck em qualquer ordem: coloque este Personagem como ativo. Em seguida, este Personagem não ficará ativo no seu próxima Fase de Restauração.",
     "effectEn": "This Character can also attack active Characters. [Activate: Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
     "keywordIds": [
       "once-per-turn"
@@ -2226,7 +2226,7 @@
       "The Tontattas",
       "Dressrosa"
     ],
-    "effectPt": "[Ao Jogar] Você pode descanse seu 1 Líder: Se o seu Líder tiver o tipo {Dressrosa}, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
+    "effectPt": "[On Play] Você pode descanse seu 1 Líder: Se o seu Líder tiver o tipo {Dressrosa}, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[On Play] You may rest your 1 Leader: If your Leader has the {Dressrosa} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less. Then, trash 2 cards from the top of your deck.",
     "keywordIds": [
       "on-play"
@@ -2250,7 +2250,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Ao Jogar] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Dressrosa} carta do tipo diferente de [Rebecca] e adicione-a à sua mão. Em seguida, descartar o descanse.",
+    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Dressrosa} carta do tipo diferente de [Rebecca] e adicione-a à sua mão. Em seguida, descartar o descanse.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Dressrosa} type card other than [Rebecca] and add it to your hand. Then, trash the rest.",
     "keywordIds": [
       "on-play"
@@ -2274,9 +2274,9 @@
       "Dressrosa",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] Até 1 dos seus {Dressrosa} tipo Personagens ganha +6000 de Poder durante este turno. Em seguida, Se você tiver 15 ou mais cartas na sua lixeira, que carta ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectPt": "[Main] Até 1 dos seus {Dressrosa} tipo Personagens ganha +6000 de Poder durante este turno. Em seguida, Se você tiver 15 ou mais cartas na sua lixeira, que carta ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[Main] Up to 1 of your {Dressrosa} type Characters gains +6000 power during this turn. Then, if you have 15 or more cards in your trash, that card gains [Double Attack] during this turn. (This card deals 2 damage.)",
-    "triggerPt": "[Gatilho] Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
+    "triggerPt": "[Trigger] Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
     "triggerEn": "[Trigger] Draw 3 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "trigger",
@@ -2300,9 +2300,9 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Principal] Escolha Até 1 dos Personagens do seu oponente com custo de 4 ou menos e K.O. ela. Se você tiver 15 ou mais cartas na sua lixeira, escolha Até 1 dos Personagens do seu oponente com custo de 6 ou menos em vez disso da Personagem com custo de 4 ou menos.",
+    "effectPt": "[Main] Escolha Até 1 dos Personagens do seu oponente com custo de 4 ou menos e K.O. ela. Se você tiver 15 ou mais cartas na sua lixeira, escolha Até 1 dos Personagens do seu oponente com custo de 6 ou menos em vez disso da Personagem com custo de 4 ou menos.",
     "effectEn": "[Main] Choose up to 1 of your opponent's Characters with a cost of 4 or less and K.O. it. If you have 15 or more cards in your trash, choose up to 1 of your opponent's Characters with a cost of 6 or less instead of a Character with a cost of 4 or less.",
-    "triggerPt": "[Gatilho] Você pode descanse seu Líder: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "triggerPt": "[Trigger] Você pode descanse seu Líder: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "triggerEn": "[Trigger] You may rest your Leader: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
       "trigger"
@@ -2326,9 +2326,9 @@
       "Dressrosa",
       "Barto Club"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Se você tiver 15 ou mais cartas na sua lixeira, que carta ganha um(a) adicional +2000 Poder durante esta batalha.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, Se você tiver 15 ou mais cartas na sua lixeira, que carta ganha um(a) adicional +2000 Poder durante esta batalha.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 15 or more cards in your trash, that card gains an additional +2000 power during this battle.",
-    "triggerPt": "[Gatilho] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerPt": "[Trigger] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "trigger",
@@ -2374,7 +2374,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Ao Jogar] adicione Até 1 do seu oponente {Animal} ou {SMILE} tipo Personagens com custo de 3 ou menos para o topo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectPt": "[On Play] adicione Até 1 do seu oponente {Animal} ou {SMILE} tipo Personagens com custo de 3 ou menos para o topo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[On Play] Add up to 1 of your opponent's {Animal} or {SMILE} type Characters with a cost of 3 or less to the top of your opponent's Life cards face-up.",
     "keywordIds": [
       "on-play"
@@ -2398,7 +2398,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Ao Jogar] Você pode descartar 2 {País de Wano} tipo cartas da sua mão: Se você tiver 1 ou menos cartas de Vida, adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectPt": "[On Play] Você pode descartar 2 {País de Wano} tipo cartas da sua mão: Se você tiver 1 ou menos cartas de Vida, adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[On Play] You may trash 2 {Land of Wano} type cards from your hand: If you have 1 or less Life cards, add 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "on-play"
@@ -2426,7 +2426,7 @@
     ],
     "effectPt": "o nome desta carta também é considerado [Charlotte Linlin] de acordo com as regras.",
     "effectEn": "Also treat this card's name as [Charlotte Linlin] according to the rules.",
-    "triggerPt": "[Gatilho] Se você tiver 1 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If you have 1 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -2452,7 +2452,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Gatilho] Até 1 do Líder do seu oponente ou carta(s) de Personagem não pode atacar durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do Líder do seu oponente ou carta(s) de Personagem não pode atacar durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
     "keywordIds": [
       "trigger"
@@ -2476,9 +2476,9 @@
     "subtypes": [
       "The House of Lambs"
     ],
-    "effectPt": "[Seu Turno] [Ao Jogar] Compre 1 carta(s).",
+    "effectPt": "[Your Turn] [On Play] Compre 1 carta(s).",
     "effectEn": "[Your Turn] [On Play] Draw 1 card.",
-    "triggerPt": "[Gatilho] Jogue esta carta. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "triggerPt": "[Trigger] Jogue esta carta. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "triggerEn": "[Trigger] Play this card. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "on-play",
@@ -2504,7 +2504,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: coloque este Personagem como ativo.",
+    "effectPt": "[Activate: Main] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: coloque este Personagem como ativo.",
     "effectEn": "[Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may add 1 card from the top or bottom of your Life cards to your hand: Set this Character as active.",
     "keywordIds": [
       "once-per-turn"
@@ -2529,9 +2529,9 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Ao Jogar] Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "[On Play] Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[On Play] Up to 1 of your {Land of Wano} type Leader or Character cards gains +1000 power during this turn.",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
@@ -2556,9 +2556,9 @@
     "subtypes": [
       "The Vinsmoke Family"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "blocker",
@@ -2583,7 +2583,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 carta(s) com [Gatilho] da sua mão: Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) com [Trigger] da sua mão: Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "trigger",
@@ -2610,7 +2610,7 @@
     ],
     "effectPt": "[DON!! x1] Se você tiver menos cartas de Vida do que seu oponente, este Personagem ganha +1000 de Poder.",
     "effectEn": "[DON!! x1] If you have less Life cards than your opponent, this Character gains +1000 power.",
-    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "trigger"
@@ -2656,9 +2656,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x1] este Personagem ganha [Banimento]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "[DON!! x1] este Personagem ganha [Banish]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[DON!! x1] This Character gains [Banish]. (When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "trigger",
@@ -2683,7 +2683,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descartar este Personagem: Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +3000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Up to 1 of your {Land of Wano} type Leader or Character cards gains +3000 power during this turn.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -2705,7 +2705,7 @@
     "subtypes": [
       "Whole Cake Island"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Ser K.O.] adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
     "keywordIds": [
       "blocker",
@@ -2731,9 +2731,9 @@
       "Piratas da Big Mom",
       "Homies"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descartar 1 dos seus {Homies} tipo Personagens diferente de este Personagem e descanse este Personagem: coloque Até 1 dos seus [Charlotte Linlin] Personagens as ativo(a).",
+    "effectPt": "[Activate: Main] Você pode descartar 1 dos seus {Homies} tipo Personagens diferente de este Personagem e descanse este Personagem: coloque Até 1 dos seus [Charlotte Linlin] Personagens as ativo(a).",
     "effectEn": "[Activate: Main] You may trash 1 of your {Homies} type Characters other than this Character and rest this Character: Set up to 1 of your [Charlotte Linlin] Characters as active.",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger"
@@ -2757,7 +2757,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Ao Jogar] K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o total dos seus e do cartas de Vida do seu oponente. Em seguida, Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[On Play] K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o total dos seus e do cartas de Vida do seu oponente. Em seguida, Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "on-play"
@@ -2784,7 +2784,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger"
@@ -2831,9 +2831,9 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Principal] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Até 1 dos seus {País de Wano} tipo Personagens ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectPt": "[Main] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Até 1 dos seus {País de Wano} tipo Personagens ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[Main] You may add 1 card from the top or bottom of your Life cards to your hand: Up to 1 of your {Land of Wano} type Characters gains [Double Attack] during this turn. (This card deals 2 damage.)",
-    "triggerPt": "[Gatilho] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "keywordIds": [
       "trigger",
@@ -2857,9 +2857,9 @@
     "subtypes": [
       "The Vinsmoke Family"
     ],
-    "effectPt": "[Contra-Ataque] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, se você e seu oponente tiver um total de 4 ou menos cartas de Vida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, se você e seu oponente tiver um total de 4 ou menos cartas de Vida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, if you and your opponent have a total of 4 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta(s).",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger",
@@ -2884,9 +2884,9 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Principal] adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectPt": "[Main] adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[Main] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
-    "triggerPt": "[Gatilho] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
+    "triggerPt": "[Trigger] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
     "triggerEn": "[Trigger] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
     "keywordIds": [
       "trigger"
@@ -2910,7 +2910,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "todos os dos seus vermelho(a) Personagens com custo de 3 ou mais diferente de este Personagem ganha [Investida]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "todos os dos seus vermelho(a) Personagens com custo de 3 ou mais diferente de este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "All of your red Characters with a cost of 3 or more other than this Character gain [Rush]. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush"
@@ -2935,7 +2935,7 @@
       "Marinha",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Turno do Oponente] Se este Personagem for descansado(a), seu ativo(a) Personagens com a base custo de 5 não pode ser nocauteado por efeitos. [Ao Jogar] Você pode descansar este Personagem: Jogue Até 1 verde carta(s) de Personagem com custo de 5 da sua mão.",
+    "effectPt": "[Opponent's Turn] Se este Personagem for descansado(a), seu ativo(a) Personagens com a base custo de 5 não pode ser nocauteado por efeitos. [On Play] Você pode descansar este Personagem: Jogue Até 1 verde carta(s) de Personagem com custo de 5 da sua mão.",
     "effectEn": "[Opponent's Turn] If this Character is rested, your active Characters with a base cost of 5 cannot be K.O.'d by effects. [On Play] You may rest this Character: Play up to 1 green Character card with a cost of 5 from your hand.",
     "keywordIds": [
       "on-play"

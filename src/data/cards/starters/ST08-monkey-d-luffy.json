@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Seu Turno] Quando um Personagem for nocauteado, dê Até 1 descansado(a) DON!! carta para este Líder.",
+    "effectPt": "[Your Turn] Quando um Personagem for nocauteado, dê Até 1 descansado(a) DON!! carta para este Líder.",
     "effectEn": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
     "keywordIds": [
       "your-turn"
@@ -39,7 +39,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado em batalha por Leaders. [Ativar: Principal] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por Leaders. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [],
     "setId": "ST-08",
@@ -83,7 +83,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [],
     "setId": "ST-08",
@@ -105,7 +105,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Ao Jogar] Você pode descartar 1 carta(s) da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
+    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
     "effectEn": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
     "keywordIds": [
       "on-play"
@@ -129,7 +129,7 @@
     "subtypes": [
       "Tritão"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "blocker",
@@ -154,9 +154,9 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "blocker",
@@ -181,7 +181,7 @@
     "subtypes": [
       "Bandidos da Montanha"
     ],
-    "effectPt": "[Ao Jogar] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "[On Play] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "on-play"
@@ -205,7 +205,7 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[Ao Jogar] Se houver um Personagem com a custo de 0, Compre 1 carta(s).",
+    "effectPt": "[On Play] Se houver um Personagem com a custo de 0, Compre 1 carta(s).",
     "effectEn": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -316,9 +316,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Dê a até 1 Personagem(ns) do seu oponente −7 de custo durante este turno.",
+    "effectPt": "[Main] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Dê a até 1 Personagem(ns) do seu oponente −7 de custo durante este turno.",
     "effectEn": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
-    "triggerPt": "[Gatilho] adicione Até 1 preto(a) carta(s) de Personagem com custo de 2 ou menos da sua lixeira para a sua mão.",
+    "triggerPt": "[Trigger] adicione Até 1 preto(a) carta(s) de Personagem com custo de 2 ou menos da sua lixeira para a sua mão.",
     "triggerEn": "[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
     "keywordIds": [
       "trigger"
@@ -341,9 +341,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Main] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "triggerPt": "[Gatilho] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta(s).",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger"

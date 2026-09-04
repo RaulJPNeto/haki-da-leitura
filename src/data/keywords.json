@@ -216,5 +216,27 @@
     "fullDescriptionPt": "Efeitos contínuos ou de reatividade (como bônus de poder defensivo) que ficam ativos apenas enquanto o oponente está jogando a vez dele.",
     "activationTimingPt": "Duração contínua no turno do oponente",
     "faqs": []
+  },
+  {
+    "id": "unblockable",
+    "rawTag": "[Unblockable]",
+    "rawTagPt": "[Inbloqueável]",
+    "rawTagEn": "[Unblockable]",
+    "namePt": "Inbloqueável",
+    "nameEn": "Unblockable",
+    "category": "KEYWORD_EFFECT",
+    "summaryPt": "O ataque desta carta não pode ser redirecionado por cartas com [Blocker].",
+    "fullDescriptionPt": "Quando uma carta com [Unblockable] declara um ataque, o oponente fica impossibilitado de ativar a habilidade [Blocker] para redirecionar o ataque para outro Personagem. O ataque prossegue diretamente contra o alvo originalmente declarado.",
+    "activationTimingPt": "Passo de Declaração de Ataque / Passo de Bloqueio",
+    "faqs": [
+      {
+        "question": "O oponente pode usar cartas de Counter contra uma carta com [Unblockable]?",
+        "answer": "Sim! [Unblockable] anula exclusivamente a ativação de [Blocker]. O oponente ainda tem o direito de jogar cartas de Counter ou usar o Counter de personagens da mão normalmente durante o Passo de Contra-Ataque."
+      },
+      {
+        "question": "Se o meu Personagem com [Unblockable] atacar o Líder com 0 cartas de Vida, eu ganho o jogo se o oponente não tiver Counter suficiente?",
+        "answer": "Sim! Como o oponente não pode virar um [Blocker] para salvar o Líder, caso ele não alcance o poder necessário com Counters, o ataque é bem-sucedido e você vence a partida."
+      }
+    ]
   }
 ]

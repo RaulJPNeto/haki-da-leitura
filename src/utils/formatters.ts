@@ -5,10 +5,10 @@
  */
 
 const CARD_TYPE_LABELS: Record<string, string> = {
-  LEADER: 'Líder',
-  CHARACTER: 'Personagem',
-  EVENT: 'Evento',
-  STAGE: 'Palco'
+  LEADER: 'Leader',
+  CHARACTER: 'Character',
+  EVENT: 'Event',
+  STAGE: 'Stage'
 };
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -19,11 +19,11 @@ const CATEGORY_LABELS: Record<string, string> = {
 };
 
 const ATTRIBUTE_LABELS: Record<string, string> = {
-  SLASH: 'Corte',
-  STRIKE: 'Impacto',
-  SPECIAL: 'Especial',
-  WISDOM: 'Sabedoria',
-  RANGED: 'Distância'
+  SLASH: 'Slash',
+  STRIKE: 'Strike',
+  SPECIAL: 'Special',
+  WISDOM: 'Wisdom',
+  RANGED: 'Ranged'
 };
 
 const COLOR_LABELS: Record<string, string> = {

@@ -15,7 +15,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Ao Atacar] Se o seu Líder for [Edward.Newgate], você não pode adicione cartas de Vida para a sua mão usando seu own efeitos durante este turno.",
+    "effectPt": "[When Attacking] Se o seu Líder for [Edward.Newgate], você não pode adicione cartas de Vida para a sua mão usando seu own efeitos durante este turno.",
     "effectEn": "[When Attacking] If your Leader is [Edward.Newgate], you cannot add Life cards to your hand using your own effects during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -40,7 +40,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Ao Jogar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens. [Ativar: Principal] Você pode descansar este Personagem: K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder.",
+    "effectPt": "[On Play] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens. [Activate: Main] Você pode descansar este Personagem: K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder.",
     "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. [Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "keywordIds": [
       "on-play"
@@ -64,7 +64,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Turno do Oponente] Quando este Personagem for nocauteado por um efeito, Até 1 do seu Líder ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Opponent's Turn] Quando este Personagem for nocauteado por um efeito, Até 1 do seu Líder ganha +2000 de Poder durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] When this Character is K.O.'d by an effect, up to 1 of your Leader gains +2000 power during this turn.",
     "keywordIds": [
       "blocker"
@@ -88,7 +88,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Ao Jogar] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
       "on-play"
@@ -112,7 +112,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "Se o tipo do seu Líder incluir \"Whitebeard Pirates\", este Personagem ganha [Investida]. (Esta carta pode atacar no turno em que é jogada.) [1 Vez por Turno] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode dê este Personagem −2000 Poder durante este turno em vez disso.",
+    "effectPt": "Se o tipo do seu Líder incluir \"Whitebeard Pirates\", este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [Once Per Turn] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode dê este Personagem −2000 Poder durante este turno em vez disso.",
     "effectEn": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. (This card can attack on the turn in which it is played.) [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
     "keywordIds": [
       "rush",

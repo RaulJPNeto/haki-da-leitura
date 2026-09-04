@@ -15,7 +15,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Activate: Main] [Once Per Turn] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",
@@ -40,7 +40,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [No Ataque do Oponente] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha for every carta descartada.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha for every carta descartada.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
     "keywordIds": [
       "blocker"
@@ -89,7 +89,7 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Ao Jogar] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente.",
+    "effectPt": "[On Play] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
     "keywordIds": [
       "on-play"

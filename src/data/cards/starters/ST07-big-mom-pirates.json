@@ -16,7 +16,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x2] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Se você tiver 2 ou menos cartas de Vida, adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
+    "effectPt": "[DON!! x2] [When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Se você tiver 2 ou menos cartas de Vida, adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
     "effectEn": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: If you have 2 or less Life cards, add up to 1 card from your hand to the top of your Life cards.",
     "keywordIds": [
       "when-attacking"
@@ -62,7 +62,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Ao Jogar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, se você tiver menos cartas de Vida do que seu oponente, este Personagem ganha [Investida] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[On Play] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, se você tiver menos cartas de Vida do que seu oponente, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, if you have less Life cards than your opponent, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -87,7 +87,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha [Banimento] e +1000 Poder durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "[DON!! x1] [When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha [Banish] e +1000 Poder durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
       "when-attacking",
@@ -112,7 +112,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x1] [Ao Atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[DON!! x1] [When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "when-attacking"
@@ -158,9 +158,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "blocker",
@@ -185,7 +185,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Ao Jogar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
+    "effectPt": "[On Play] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
     "effectEn": "[On Play] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "keywordIds": [
       "on-play"
@@ -209,9 +209,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descanse este Personagem e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character and add 1 card from the top or bottom of your Life cards to your hand: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "triggerPt": "[Gatilho] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "trigger"
@@ -236,7 +236,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Ao Jogar] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectPt": "[On Play] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[On Play] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "on-play"
@@ -261,9 +261,9 @@
       "Piratas da Big Mom",
       "Homies"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Banimento] durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Banish] durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger",
@@ -311,9 +311,9 @@
       "Piratas da Big Mom",
       "Homies"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Ataque Duplo] durante este turno. (esta carta causa 2 de dano.)",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Linlin] cartas ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Linlin] cards gains [Double Attack] during this turn. (This card deals 2 damage.)",
-    "triggerPt": "[Gatilho] Jogue esta carta.",
+    "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "trigger",
@@ -361,9 +361,9 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Principal] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectPt": "[Main] seu oponente escolhe um: - descartar 1 carta de o topo do cartas de Vida do seu oponente. - adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[Main] Your opponent chooses one: - Trash 1 card from the top of your opponent's Life cards. - Add 1 card from the top of your deck to the top of your Life cards.",
-    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -386,9 +386,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Contra-Ataque] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectPt": "[Counter] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Counter] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "triggerPt": "[Gatilho] Compre 1 carta, olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
+    "triggerPt": "[Trigger] Compre 1 carta, olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida.",
     "triggerEn": "[Trigger] Draw 1 card, look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards.",
     "keywordIds": [
       "trigger",
@@ -413,7 +413,7 @@
       "Piratas da Big Mom",
       "Homies"
     ],
-    "effectPt": "[Ativar: Principal] Você pode descanse este Palco e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos seus Personagens com custo de 3 para o topo do cartas de Vida do dono virada(s) para cima.",
+    "effectPt": "[Activate: Main] Você pode descanse este Palco e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos seus Personagens com custo de 3 para o topo do cartas de Vida do dono virada(s) para cima.",
     "effectEn": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
     "keywordIds": [],
     "setId": "ST-07",

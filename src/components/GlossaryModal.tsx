@@ -30,7 +30,9 @@ export const GlossaryModal: React.FC<GlossaryModalProps> = ({
     const matchesQuery =
       !q ||
       k.namePt.toLowerCase().includes(q) ||
+      (k.nameEn && k.nameEn.toLowerCase().includes(q)) ||
       k.rawTag.toLowerCase().includes(q) ||
+      (k.rawTagEn && k.rawTagEn.toLowerCase().includes(q)) ||
       k.summaryPt.toLowerCase().includes(q);
 
     const matchesCategory =
@@ -72,7 +74,7 @@ export const GlossaryModal: React.FC<GlossaryModalProps> = ({
             type="text"
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
-            placeholder="Filtrar palavra-chave (ex: Bloqueador, Investida, Gatilho...)"
+            placeholder="Filtrar por nome ou tag (ex: Blocker, Rush, Unblockable, Gatilho...)"
             className="flex-1 min-w-0 bg-transparent border-none outline-none text-xs font-semibold text-white placeholder-slate-500 focus:outline-none focus:ring-0 p-0"
           />
         </div>
@@ -107,16 +109,26 @@ export const GlossaryModal: React.FC<GlossaryModalProps> = ({
               onClick={() => onSelectKeyword(kw)}
               className="w-full p-4 rounded-xl bg-white/[0.02] hover:bg-sky-950/20 border border-white/5 hover:border-sky-500/40 flex flex-col gap-2 text-left transition-all group shadow-sm active:scale-98"
             >
-              <div className="flex items-center justify-between">
-                <span className="px-2.5 py-0.5 rounded bg-sky-950/80 border border-sky-700/50 text-sky-300 text-[10px] font-mono font-bold uppercase tracking-wider">
-                  {kw.rawTagPt || kw.rawTag}
-                </span>
+              <div className="flex items-center justify-between gap-2 flex-wrap">
+                <div className="flex items-center gap-2">
+                  <span className="px-2.5 py-0.5 rounded bg-sky-950/80 border border-sky-700/50 text-sky-300 text-[11px] font-mono font-bold tracking-wide">
+                    {kw.rawTagEn || kw.rawTag}
+                  </span>
+                  {kw.namePt && kw.namePt !== kw.nameEn && (
+                    <span className="px-2 py-0.5 rounded bg-white/5 border border-white/10 text-slate-300 text-[10px] font-medium">
+                      {kw.namePt}
+                    </span>
+                  )}
+                </div>
                 <span className="text-[10px] font-bold text-sky-400 uppercase tracking-wider bg-sky-950/60 border border-sky-800/40 px-2 py-0.5 rounded">
                   {formatCategory(kw.category)}
                 </span>
               </div>
-              <h4 className="text-base font-bold text-white group-hover:text-amber-300 transition-colors font-heading mt-0.5">
-                {kw.namePt}
+              <h4 className="text-base font-bold text-white group-hover:text-amber-300 transition-colors font-heading mt-0.5 flex items-baseline gap-2 flex-wrap">
+                <span>{kw.nameEn || kw.namePt}</span>
+                {kw.nameEn && kw.namePt !== kw.nameEn && (
+                  <span className="text-xs font-normal text-slate-400 font-sans">({kw.namePt})</span>
+                )}
               </h4>
               <p className="text-sm text-slate-300 leading-relaxed font-normal">
                 {kw.summaryPt}
