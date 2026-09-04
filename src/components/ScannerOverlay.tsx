@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, Loader2, Zap, Sparkles, Bug, Focus } from 'lucide-react';
+import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
 
@@ -47,7 +47,6 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const [cameraError, setCameraError] = useState<string | null>(null);
   const [scannedFeedback, setScannedFeedback] = useState<string | null>(null);
   const [ocrReady, setOcrReady] = useState<boolean>(false);
-  const [ocrStatus, setOcrStatus] = useState<string>('Iniciando OCR...');
   const [isRecognizing, setIsRecognizing] = useState<boolean>(false);
 
   // Lanterna / Flash (Torch) e Foco
@@ -65,24 +64,16 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   // Modo de Validação por Tipo de Carta (Auto, Personagem, Líder, Evento, Palco)
   const [scannerMode, setScannerMode] = useState<'AUTO' | 'CHARACTER' | 'LEADER' | 'EVENT' | 'STAGE'>('AUTO');
 
-  // Debug & Telemetria
-  const [lastRawDetected, setLastRawDetected] = useState<string>('');
-  const [showDebugPanel, setShowDebugPanel] = useState<boolean>(false);
-  const [debugCanvasUrl, setDebugCanvasUrl] = useState<string | null>(null);
-
-  // Sincronização da tela de desempate e debug com o histórico do navegador (botão Voltar do celular)
+  // Sincronização da tela de desempate com o histórico do navegador (botão Voltar do celular)
   useEffect(() => {
     const handlePopState = () => {
       if (window.location.hash !== '#candidates' && candidateModalCards) {
         setCandidateModalCards(null);
       }
-      if (window.location.hash !== '#debug' && showDebugPanel) {
-        setShowDebugPanel(false);
-      }
     };
     window.addEventListener('popstate', handlePopState);
     return () => window.removeEventListener('popstate', handlePopState);
-  }, [candidateModalCards, showDebugPanel]);
+  }, [candidateModalCards]);
 
   // Inicializar Tesseract Worker para OCR em background com modo SPARSE_TEXT (Ideal para cartas)
   useEffect(() => {
@@ -91,7 +82,6 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
     async function initOcr() {
       try {
-        setOcrStatus('Carregando OCR...');
         const { createWorker } = await import('tesseract.js');
         worker = await createWorker('eng');
         // Configurar Tesseract para modo SPARSE_TEXT (Modo 11: textos dispersos em cartas/itens)
@@ -101,13 +91,9 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
         if (isMounted) {
           workerRef.current = worker;
           setOcrReady(true);
-          setOcrStatus('Visão Haki Ativa');
         }
       } catch (err: any) {
         console.warn('Aviso OCR:', err);
-        if (isMounted) {
-          setOcrStatus('OCR Offline');
-        }
       }
     }
 
@@ -121,13 +107,20 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     };
   }, []);
 
-  // Iniciar Câmera Traseira com Fallback
+  const resumeTimeoutRef = useRef<any>(null);
+
+  // Iniciar Câmera Traseira com Fallback e Resiliência Mobile
   const startCamera = useCallback(async () => {
     setCameraLoading(true);
     setCameraError(null);
 
+    // Limpar qualquer stream prévio de forma segura
     if (streamRef.current) {
-      streamRef.current.getTracks().forEach((t) => t.stop());
+      streamRef.current.getTracks().forEach((t) => {
+        try {
+          t.stop();
+        } catch (e) {}
+      });
       streamRef.current = null;
     }
 
@@ -161,23 +154,56 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
       streamRef.current = stream;
 
-      // Verificar suporte a lanterna (Torch) e Foco
+      // Monitorar perda de sinal ou interrupção de hardware pelo SO
       const track = stream.getVideoTracks()[0];
-      if (track && (track.getCapabilities as any)) {
-        const caps = (track.getCapabilities as any)();
-        if (caps && 'torch' in caps) {
-          setTorchAvailable(true);
-        }
-        if (caps && 'focusMode' in caps) {
-          setFocusSupported(true);
+      if (track) {
+        // Escutar se o SO encerrar a track em background
+        track.onended = () => {
+          console.warn('[Haki Vision] Track da câmera encerrada pelo sistema. Tentando restabelecer...');
+          if (document.visibilityState === 'visible') {
+            clearTimeout(resumeTimeoutRef.current);
+            resumeTimeoutRef.current = setTimeout(() => {
+              startCamera();
+            }, 400);
+          }
+        };
+
+        // Escutar desmute de track (quando app volta de chamada ou lock)
+        track.onunmute = () => {
+          if (videoRef.current && videoRef.current.paused) {
+            videoRef.current.play().catch(() => {});
+          }
+        };
+
+        // Verificar suporte a lanterna (Torch) e Foco Contínuo
+        if ((track.getCapabilities as any)) {
+          const caps = (track.getCapabilities as any)();
+          if (caps && 'torch' in caps) {
+            setTorchAvailable(true);
+          }
+          if (caps && 'focusMode' in caps) {
+            setFocusSupported(true);
+          }
         }
       }
 
       if (videoRef.current) {
         videoRef.current.srcObject = stream;
+        videoRef.current.setAttribute('playsinline', 'true');
+        videoRef.current.setAttribute('webkit-playsinline', 'true');
+        videoRef.current.muted = true;
+
+        // Disparar play imediato
+        const playPromise = videoRef.current.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            // Em alguns navegadores móveis, o play inicial aguarda o evento loadedmetadata
+          });
+        }
+
         videoRef.current.onloadedmetadata = () => {
           videoRef.current?.play().catch((playErr) => {
-            console.warn('Erro ao dar play no vídeo:', playErr);
+            console.warn('[Haki Vision] Erro ao reproduzir feed de vídeo:', playErr);
           });
         };
       }
@@ -185,12 +211,12 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
       setHasCamera(true);
       setCameraError(null);
     } catch (err: any) {
-      console.warn('Erro de câmera:', err);
+      console.warn('[Haki Vision] Erro ao obter permissão ou conectar à câmera:', err);
       setHasCamera(false);
       if (err.name === 'NotAllowedError' || err.name === 'PermissionDeniedError') {
         setCameraError('Permissão da câmera bloqueada. Toque no botão abaixo para permitir o acesso.');
       } else {
-        setCameraError('Não foi possível conectar à câmera do dispositivo.');
+        setCameraError('Câmera temporariamente indisponível. Toque em "Tentar Novamente".');
       }
     } finally {
       setCameraLoading(false);
@@ -199,8 +225,13 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
   // Encerrar Câmera e Liberar Hardware/Bateria
   const stopCamera = useCallback(() => {
+    clearTimeout(resumeTimeoutRef.current);
     if (streamRef.current) {
-      streamRef.current.getTracks().forEach((track) => track.stop());
+      streamRef.current.getTracks().forEach((track) => {
+        try {
+          track.stop();
+        } catch (e) {}
+      });
       streamRef.current = null;
     }
     if (videoRef.current) {
@@ -214,17 +245,49 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
     // Pausar câmera quando usuário mudar de guia ou minimizar navegador no celular
     const handleVisibilityChange = () => {
+      clearTimeout(resumeTimeoutRef.current);
       if (document.hidden || document.visibilityState === 'hidden') {
         stopCamera();
       } else if (document.visibilityState === 'visible') {
-        startCamera();
+        // Atraso seguro (350ms) para dar tempo do subsistema de câmera do Android/iOS ser liberado pelo SO
+        resumeTimeoutRef.current = setTimeout(() => {
+          startCamera();
+        }, 350);
+      }
+    };
+
+    // Cobrir retorno de lock screen e alternância de apps no PWA standalone (iOS/Android)
+    const handleWindowFocus = () => {
+      if (document.visibilityState === 'visible') {
+        const isDead = !streamRef.current || streamRef.current.getVideoTracks().some((t) => t.readyState === 'ended');
+        if (isDead) {
+          clearTimeout(resumeTimeoutRef.current);
+          resumeTimeoutRef.current = setTimeout(() => {
+            startCamera();
+          }, 300);
+        }
       }
     };
 
     document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('pageshow', handleWindowFocus);
+    window.addEventListener('focus', handleWindowFocus);
+
+    // Watchdog de 3s: se a tela estiver aberta mas o vídeo congelado ou pausado, acorda o play
+    const watchdog = setInterval(() => {
+      if (document.visibilityState === 'visible' && videoRef.current) {
+        if (videoRef.current.paused && streamRef.current?.active) {
+          videoRef.current.play().catch(() => {});
+        }
+      }
+    }, 3000);
 
     return () => {
+      clearTimeout(resumeTimeoutRef.current);
+      clearInterval(watchdog);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('pageshow', handleWindowFocus);
+      window.removeEventListener('focus', handleWindowFocus);
       stopCamera();
     };
   }, [startCamera, stopCamera]);
@@ -722,33 +785,10 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
       const ret = await workerRef.current.recognize(canvas);
       const detectedText = ret?.data?.text || '';
 
-      const cleanSnippet = detectedText.replace(/\s+/g, ' ').trim();
-      if (cleanSnippet) {
-        setLastRawDetected(cleanSnippet.slice(0, 70));
-      }
-
-      try {
-        const thumb = canvas.toDataURL('image/jpeg', 0.5);
-        setDebugCanvasUrl(thumb);
-      } catch (e) {}
-
       const { exactCard, candidates: matchedCandidates, signals } = matchCardMultiSignal(detectedText);
       if (signals) {
         setDetectedSignals(signals);
       }
-
-      // Telemetria em background para /api/debug-log
-      fetch('/api/debug-log', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          rawText: detectedText,
-          signals,
-          cardFound: exactCard ? `${exactCard.code} - ${exactCard.namePt}` : null,
-          candidates: matchedCandidates?.map((c) => `${c.code} (${c.namePt})`),
-          timestamp: new Date().toISOString()
-        })
-      }).catch(() => {});
 
       if (exactCard) {
         handleCardSelected(exactCard);
@@ -1035,133 +1075,72 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
               </button>
             )}
 
-            {/* Botão de Toggle do Painel de Debug */}
+            {/* Botão de Reconectar / Reiniciar Câmera */}
             {hasCamera && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
-                  if (!showDebugPanel) {
-                    window.history.pushState({ view: 'debug' }, '', '#debug');
-                    setShowDebugPanel(true);
-                  } else {
-                    if (window.location.hash === '#debug') {
-                      window.history.back();
-                    } else {
-                      setShowDebugPanel(false);
-                    }
-                  }
+                  if (navigator.vibrate) navigator.vibrate(20);
+                  startCamera();
                 }}
-                className={`p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all ${
-                  showDebugPanel ? 'bg-sky-600 border-sky-400 text-white' : 'bg-slate-900/90 border-slate-700 text-slate-400'
-                }`}
-                title="Abrir Painel de Telemetria e Debug"
+                disabled={cameraLoading}
+                className="p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white"
+                title="Reiniciar Câmera (caso a imagem congele ou fique escura)"
               >
-                <Bug className="w-3.5 h-3.5" />
+                <RefreshCw className={`w-3.5 h-3.5 ${cameraLoading ? 'animate-spin text-amber-400' : ''}`} />
               </button>
             )}
           </div>
         </div>
 
-        {/* Banner de Feedback em Tempo Real do que a Câmera está lendo */}
-        {lastRawDetected && !scannedFeedback && (
-          <div className="mt-3 flex flex-col items-center gap-2 max-w-xs">
-            <div className="px-4 py-2 bg-slate-900/95 border border-sky-500/30 rounded-xl text-[11px] font-mono text-amber-300 w-full text-center truncate shadow-lg">
-              <span className="text-slate-400 font-sans text-[10px] uppercase font-bold mr-1">Lido:</span> "{lastRawDetected}"
-            </div>
-
-            {/* Badges de Sinais Detectados no Frame */}
-            {detectedSignals && (
-              <div className="flex flex-wrap items-center justify-center gap-2">
-                {detectedSignals.set && (
-                  <span className="pill-badge pill-badge-sky font-mono">
-                    {detectedSignals.set}
-                  </span>
-                )}
-                {detectedSignals.cardType && (
-                  <span className="pill-badge pill-badge-blue">
-                    {detectedSignals.cardType}
-                  </span>
-                )}
-                {detectedSignals.attribute && (
-                  <span className="pill-badge pill-badge-emerald">
-                    {detectedSignals.attribute}
-                  </span>
-                )}
-                {detectedSignals.cost !== null && detectedSignals.cost !== undefined && (
-                  <span className="pill-badge pill-badge-amber">
-                    {detectedSignals.cardType === 'LEADER' ? `Vida: ${detectedSignals.cost}` : `Custo: ${detectedSignals.cost}`}
-                  </span>
-                )}
-                {detectedSignals.power !== null && detectedSignals.power !== undefined && (
-                  <span className="pill-badge pill-badge-red">
-                    Poder: {detectedSignals.power}
-                  </span>
-                )}
-                {detectedSignals.counter !== null && detectedSignals.counter !== undefined && (
-                  <span className="pill-badge pill-badge-blue">
-                    +{detectedSignals.counter}
-                  </span>
-                )}
-                {detectedSignals.hasTrigger && (
-                  <span className="pill-badge pill-badge-amber">
-                    Trigger
-                  </span>
-                )}
-                {detectedSignals.color && (
-                  <span className="pill-badge pill-badge-slate">
-                    {detectedSignals.color}
-                  </span>
-                )}
-                {detectedSignals.keywords && detectedSignals.keywords.map((kw) => (
-                  <span key={kw} className="pill-badge pill-badge-slate">
-                    [{kw.toUpperCase()}]
-                  </span>
-                ))}
-              </div>
+        {/* Badges de Sinais Detectados no Frame em Tempo Real (Limpos e Polidos) */}
+        {detectedSignals && !scannedFeedback && (
+          <div className="mt-3 flex flex-wrap items-center justify-center gap-1.5 max-w-xs">
+            {detectedSignals.set && (
+              <span className="pill-badge pill-badge-sky font-mono text-[10px]">
+                {detectedSignals.set}
+              </span>
             )}
-          </div>
-        )}
-
-        {/* Painel Flutuante de Inspeção de Debug */}
-        {showDebugPanel && (
-          <div className="mt-2 w-[90vw] max-w-sm p-3 bg-slate-950/95 border border-sky-500/40 rounded-xl text-left pointer-events-auto shadow-2xl backdrop-blur-md flex flex-col gap-2 z-40 max-h-56 overflow-y-auto">
-            <div className="flex items-center justify-between text-[11px] font-bold text-amber-400 uppercase">
-              <span>Painel de Visão do OCR</span>
-              <span className="text-slate-400 font-normal">{ocrStatus}</span>
-            </div>
-            
-            {debugCanvasUrl && (
-              <div className="flex items-center gap-2">
-                <img src={debugCanvasUrl} alt="Frame OCR" className="w-16 h-20 object-cover rounded border border-slate-700" />
-                <div className="flex-1 text-[10px] text-slate-300 overflow-hidden">
-                  <div className="font-bold text-slate-400">Texto bruto decodificado:</div>
-                  <div className="font-mono bg-slate-900 p-1 rounded border border-slate-800 line-clamp-3 text-amber-200">
-                    {lastRawDetected || '(aguardando próximo frame...)'}
-                  </div>
-                </div>
-              </div>
+            {detectedSignals.cardType && (
+              <span className="pill-badge pill-badge-blue text-[10px]">
+                {detectedSignals.cardType}
+              </span>
             )}
-
-            {detectedSignals && (
-              <div className="mt-1 pt-1 border-t border-slate-800 text-[10px]">
-                <div className="font-bold text-slate-400 mb-1">Sinais detectados:</div>
-                <div className="grid grid-cols-2 gap-1 text-[9px] font-mono text-slate-300">
-                  <div>Set: <span className="text-sky-300">{detectedSignals.set || '-'}</span></div>
-                  <div>Tipo: <span className="text-blue-300">{detectedSignals.cardType || '-'}</span></div>
-                  <div>Atributo: <span className="text-emerald-300">{detectedSignals.attribute || '-'}</span></div>
-                  <div>Poder: <span className="text-red-300">{detectedSignals.power || '-'}</span></div>
-                  <div>{detectedSignals.cardType === 'LEADER' ? 'Vida' : 'Custo'}: <span className="text-amber-300">{detectedSignals.cost || '-'}</span></div>
-                  <div>Counter: <span className="text-cyan-300">{detectedSignals.counter ? `+${detectedSignals.counter}` : '-'}</span></div>
-                  <div>Trigger: <span className="text-yellow-300">{detectedSignals.hasTrigger ? 'Sim' : 'Não'}</span></div>
-                  <div>Cor: <span className="text-slate-300">{detectedSignals.colors && detectedSignals.colors.length > 0 ? detectedSignals.colors.join('/') : (detectedSignals.color || '-')}</span></div>
-                </div>
-                {detectedSignals.subtypes && detectedSignals.subtypes.length > 0 && (
-                  <div className="mt-1 text-[9px] text-indigo-300">
-                    Subtipos: {detectedSignals.subtypes.join(', ')}
-                  </div>
-                )}
-              </div>
+            {detectedSignals.attribute && (
+              <span className="pill-badge pill-badge-emerald text-[10px]">
+                {detectedSignals.attribute}
+              </span>
             )}
+            {detectedSignals.cost !== null && detectedSignals.cost !== undefined && (
+              <span className="pill-badge pill-badge-amber text-[10px]">
+                {detectedSignals.cardType === 'LEADER' ? `Vida: ${detectedSignals.cost}` : `Custo: ${detectedSignals.cost}`}
+              </span>
+            )}
+            {detectedSignals.power !== null && detectedSignals.power !== undefined && (
+              <span className="pill-badge pill-badge-red text-[10px]">
+                Poder: {detectedSignals.power}
+              </span>
+            )}
+            {detectedSignals.counter !== null && detectedSignals.counter !== undefined && (
+              <span className="pill-badge pill-badge-blue text-[10px]">
+                +{detectedSignals.counter}
+              </span>
+            )}
+            {detectedSignals.hasTrigger && (
+              <span className="pill-badge pill-badge-amber text-[10px]">
+                Trigger
+              </span>
+            )}
+            {detectedSignals.color && (
+              <span className="pill-badge pill-badge-slate text-[10px]">
+                {detectedSignals.color}
+              </span>
+            )}
+            {detectedSignals.keywords && detectedSignals.keywords.map((kw) => (
+              <span key={kw} className="pill-badge pill-badge-slate text-[10px]">
+                [{kw.toUpperCase()}]
+              </span>
+            ))}
           </div>
         )}
 

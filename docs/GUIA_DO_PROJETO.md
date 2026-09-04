@@ -265,3 +265,67 @@ O **Haki da Leitura** é um aplicativo **não oficial** desenvolvido por e para 
 * O projeto **NÃO possui qualquer vínculo, afiliação, patrocínio ou endosso** da **Bandai Co., Ltd.**, **Eiichiro Oda**, **Shueisha** ou **Toei Animation**.
 * *One Piece Card Game* e todos os materiais associados são marcas registradas e propriedade intelectual de seus respectivos detentores.
 * Esta ferramenta destina-se unicamente ao auxílio e acessibilidade linguística de jogadores da comunidade lusófona.
+
+---
+
+## 10. Fluxo de Desenvolvimento em Produção (Git & CI/CD)
+
+Com o **Haki da Leitura** publicado na Cloudflare, qualquer alteração enviada para a branch `main` dispara o deploy contínuo imediatamente.
+
+### 🛡️ Regra de Governança de Branches:
+* **Branch `main`:** É o código que está rodando em produção para os usuários. Nunca faça testes instáveis diretamente nela.
+* **Branches de Trabalho (`feature/...` e `fix/...`):** Toda melhoria ou correção deve ser feita em uma branch isolada.
+
+### Ciclo de Desenvolvimento Recomendado:
+1. **Criar uma nova branch a partir da `main` atualizada:**
+   ```bash
+   git checkout main
+   git pull origin main
+   git checkout -b fix/camera-resilience
+   # ou
+   git checkout -b feat/hybrid-lexicon
+   ```
+2. **Desenvolver e validar localmente:**
+   ```bash
+   npm run dev      # Servidor local de desenvolvimento
+   npm run build    # Quality Gate obrigatório (TypeScript + Vite)
+   ```
+3. **Enviar a branch para revisão/homologação:**
+   ```bash
+   git add .
+   git commit -m "fix(camera): adiciona watchdog e recuperacao de stream mobile"
+   git push origin fix/camera-resilience
+   ```
+4. **Mesclar com a `main` para Produção:**
+   ```bash
+   git checkout main
+   git merge fix/camera-resilience
+   git push origin main
+   ```
+   *(A Cloudflare compilará e atualizará o site em produção em ~40 segundos).*
+
+---
+
+## 11. Backlog de Evolução do Produto (Priorizado)
+
+### 📌 Épico A: Estabilidade do Scanner & Câmera (Alta Prioridade)
+- [x] **Watchdog & Recuperação de Câmera:** Detecção de stream congelado/preto após segundo plano ou lock screen no mobile, com reinicialização automática e botão de reconexão manual (`RefreshCw`).
+- [x] **Limpeza de UI de Produção:** Remoção do botão de debug, do painel flutuante de OCR e do banner de texto bruto (`Lido: "..."`).
+- [ ] **Filtro Anti-Reflexo no Canvas:** Pré-processamento com algoritmo de supressão de highlights especulares e equalização adaptativa (CLAHE simplificado) para contornar reflexos de lâmpadas em shields/sleeves plásticos brilhantes.
+
+### 📌 Épico B: Normalização Léxica Híbrida Oficial (Paridade com Torneio)
+- [ ] **Termos de Regra em Inglês no Corpo da Carta:** Manter palavras-chave técnicas em inglês no texto principal da carta (`[Blocker]`, `[Rush]`, `[On Play]`, `[When Attacking]`, `[Trigger]`, `[Double Attack]`, `[Banish]`, `[Activate: Main]`) para paridade 100% com a carta física do jogador.
+- [ ] **Explicação Didática em Português na Ficha Técnica (`CardDetail`):** Transformar cada palavra-chave em um badge clicável que abre a gaveta explicativa oficial em português com exemplos de timing e regras.
+
+### 📌 Épico C: Anatomia Dinâmica dos Tipos de Carta
+- [ ] **Molduras Anatômicas Adaptativas:** Refinar os wireframes da moldura de mira no scanner para cada tipo de carta:
+  - **Personagem:** Topo esquerdo (Custo), topo direito (Poder/Atributo), lateral (Counter).
+  - **Líder:** Topo direito (Poder), base direita (Vidas).
+  - **Evento:** Topo esquerdo (Custo), área central (Texto do efeito e faixa de Trigger).
+  - **Palco:** Topo esquerdo (Custo), área inferior (Efeito contínuo).
+- [ ] **Seletor de Tipo Ergonômico:** Visual aprimorado com micro-interações táteis e cores oficiais de cada categoria de carta.
+
+### 📌 Épico D: Motor de Busca Avançada
+- [ ] **Filtros Combinados:** Adicionar filtros visuais na busca manual por Cor, Custo (1 a 10), Poder (1000 a 12000), Tipo e Coleção/Set.
+- [ ] **Ordenação Flexível:** Ordenar resultados por número de coleção, menor/maior custo ou ordem alfabética.
+
