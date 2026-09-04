@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hakidaleitura.com.br/sitemap.xml
+Sitemap: https://hakidaleitura.pages.dev/sitemap.xml
