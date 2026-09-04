@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, CameraOff, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
+import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
 
@@ -42,8 +42,6 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const workerRef = useRef<any>(null);
   const streamRef = useRef<MediaStream | null>(null);
 
-  // Controle de Ativação / Pausa da Câmera (ON/OFF)
-  const [isCameraEnabled, setIsCameraEnabled] = useState<boolean>(true);
   const [hasCamera, setHasCamera] = useState<boolean>(false);
   const [cameraLoading, setCameraLoading] = useState<boolean>(true);
   const [cameraError, setCameraError] = useState<string | null>(null);
@@ -109,18 +107,32 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     };
   }, []);
 
-  const resumeTimeoutRef = useRef<any>(null);
+  // Encerrar Câmera e Liberar Hardware/Bateria
+  const stopCamera = useCallback(() => {
+    if (streamRef.current) {
+      streamRef.current.getTracks().forEach((track) => {
+        try {
+          track.stop();
+        } catch (e) {}
+      });
+      streamRef.current = null;
+    }
+    if (videoRef.current) {
+      videoRef.current.srcObject = null;
+    }
+    setTorchOn(false);
+  }, []);
 
-  // Iniciar Câmera Traseira com Fallback e Resiliência Mobile
-  const startCamera = useCallback(async () => {
+  // Recarregar Câmera do Zero (Destrói stream velho e conecta feed limpo com feedback visual)
+  const reloadCamera = useCallback(async () => {
     setCameraLoading(true);
     setCameraError(null);
 
-    // Limpar qualquer stream prévio de forma segura
+    // 1. Destruir qualquer stream anterior com segurança
     if (streamRef.current) {
-      streamRef.current.getTracks().forEach((t) => {
+      streamRef.current.getTracks().forEach((track) => {
         try {
-          t.stop();
+          track.stop();
         } catch (e) {}
       });
       streamRef.current = null;
@@ -134,7 +146,6 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     }
 
     let stream: MediaStream | null = null;
-
     try {
       try {
         stream = await navigator.mediaDevices.getUserMedia({
@@ -156,37 +167,11 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
       streamRef.current = stream;
 
-      // Monitorar perda de sinal ou interrupção de hardware pelo SO
       const track = stream.getVideoTracks()[0];
-      if (track) {
-        // Escutar se o SO encerrar a track em background
-        track.onended = () => {
-          console.warn('[Haki Vision] Track da câmera encerrada pelo sistema. Tentando restabelecer...');
-          if (document.visibilityState === 'visible') {
-            clearTimeout(resumeTimeoutRef.current);
-            resumeTimeoutRef.current = setTimeout(() => {
-              startCamera();
-            }, 400);
-          }
-        };
-
-        // Escutar desmute de track (quando app volta de chamada ou lock)
-        track.onunmute = () => {
-          if (videoRef.current && videoRef.current.paused) {
-            videoRef.current.play().catch(() => {});
-          }
-        };
-
-        // Verificar suporte a lanterna (Torch) e Foco Contínuo
-        if ((track.getCapabilities as any)) {
-          const caps = (track.getCapabilities as any)();
-          if (caps && 'torch' in caps) {
-            setTorchAvailable(true);
-          }
-          if (caps && 'focusMode' in caps) {
-            setFocusSupported(true);
-          }
-        }
+      if (track && (track.getCapabilities as any)) {
+        const caps = (track.getCapabilities as any)();
+        if (caps && 'torch' in caps) setTorchAvailable(true);
+        if (caps && 'focusMode' in caps) setFocusSupported(true);
       }
 
       if (videoRef.current) {
@@ -195,121 +180,52 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
         videoRef.current.setAttribute('webkit-playsinline', 'true');
         videoRef.current.muted = true;
 
-        // Disparar play imediato
         const playPromise = videoRef.current.play();
         if (playPromise !== undefined) {
-          playPromise.catch(() => {
-            // Em alguns navegadores móveis, o play inicial aguarda o evento loadedmetadata
-          });
+          playPromise.catch(() => {});
         }
 
         videoRef.current.onloadedmetadata = () => {
-          videoRef.current?.play().catch((playErr) => {
-            console.warn('[Haki Vision] Erro ao reproduzir feed de vídeo:', playErr);
-          });
+          videoRef.current?.play().catch(() => {});
+          setCameraLoading(false);
         };
       }
 
       setHasCamera(true);
       setCameraError(null);
     } catch (err: any) {
-      console.warn('[Haki Vision] Erro ao obter permissão ou conectar à câmera:', err);
+      console.warn('[Haki Vision] Erro ao carregar câmera:', err);
       setHasCamera(false);
       if (err.name === 'NotAllowedError' || err.name === 'PermissionDeniedError') {
-        setCameraError('Permissão da câmera bloqueada. Toque no botão abaixo para permitir o acesso.');
+        setCameraError('Permissão da câmera bloqueada. Toque no botão para permitir o acesso.');
       } else {
-        setCameraError('Câmera temporariamente indisponível. Toque em "Tentar Novamente".');
+        setCameraError('Câmera temporariamente indisponível. Toque no botão para recarregar.');
       }
     } finally {
-      setCameraLoading(false);
+      // Garante que o loading conclua após o tempo de inicialização do sensor
+      setTimeout(() => setCameraLoading(false), 500);
     }
   }, []);
 
-  // Encerrar Câmera e Liberar Hardware/Bateria
-  const stopCamera = useCallback(() => {
-    clearTimeout(resumeTimeoutRef.current);
-    if (streamRef.current) {
-      streamRef.current.getTracks().forEach((track) => {
-        try {
-          track.stop();
-        } catch (e) {}
-      });
-      streamRef.current = null;
-    }
-    if (videoRef.current) {
-      videoRef.current.srcObject = null;
-    }
-    setTorchOn(false);
-  }, []);
-
-  // Ligar/Desligar Câmera com Feedback Háptico
-  const toggleCamera = useCallback(() => {
-    if (navigator.vibrate) navigator.vibrate(25);
-    setIsCameraEnabled((prev) => {
-      const next = !prev;
-      if (!next) {
-        stopCamera();
-      }
-      return next;
-    });
-  }, [stopCamera]);
-
+  // Ciclo de Vida: Inicia a recarga limpa ao entrar e ao retornar à visibilidade
   useEffect(() => {
-    if (!isCameraEnabled) {
-      stopCamera();
-      return;
-    }
+    reloadCamera();
 
-    startCamera();
-
-    // Pausar câmera quando usuário mudar de guia ou minimizar navegador no celular
     const handleVisibilityChange = () => {
-      clearTimeout(resumeTimeoutRef.current);
       if (document.hidden || document.visibilityState === 'hidden') {
         stopCamera();
-      } else if (document.visibilityState === 'visible' && isCameraEnabled) {
-        // Atraso seguro (350ms) para dar tempo do subsistema de câmera do Android/iOS ser liberado pelo SO
-        resumeTimeoutRef.current = setTimeout(() => {
-          startCamera();
-        }, 350);
-      }
-    };
-
-    // Cobrir retorno de lock screen e alternância de apps no PWA standalone (iOS/Android)
-    const handleWindowFocus = () => {
-      if (document.visibilityState === 'visible' && isCameraEnabled) {
-        const isDead = !streamRef.current || streamRef.current.getVideoTracks().some((t) => t.readyState === 'ended');
-        if (isDead) {
-          clearTimeout(resumeTimeoutRef.current);
-          resumeTimeoutRef.current = setTimeout(() => {
-            startCamera();
-          }, 300);
-        }
+      } else if (document.visibilityState === 'visible') {
+        reloadCamera();
       }
     };
 
     document.addEventListener('visibilitychange', handleVisibilityChange);
-    window.addEventListener('pageshow', handleWindowFocus);
-    window.addEventListener('focus', handleWindowFocus);
-
-    // Watchdog de 3s: se a tela estiver aberta mas o vídeo congelado ou pausado, acorda o play
-    const watchdog = setInterval(() => {
-      if (document.visibilityState === 'visible' && videoRef.current && isCameraEnabled) {
-        if (videoRef.current.paused && streamRef.current?.active) {
-          videoRef.current.play().catch(() => {});
-        }
-      }
-    }, 3000);
 
     return () => {
-      clearTimeout(resumeTimeoutRef.current);
-      clearInterval(watchdog);
       document.removeEventListener('visibilitychange', handleVisibilityChange);
-      window.removeEventListener('pageshow', handleWindowFocus);
-      window.removeEventListener('focus', handleWindowFocus);
       stopCamera();
     };
-  }, [isCameraEnabled, startCamera, stopCamera]);
+  }, [reloadCamera, stopCamera]);
 
   // Alternar Lanterna com Feedback Háptico
   const toggleTorch = async () => {
@@ -840,30 +756,8 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
   return (
     <div className="relative w-full flex-1 h-full min-h-0 bg-slate-950 overflow-hidden flex flex-col justify-between items-center select-none">
-      {/* Feed da Câmera ou Tela de Standby / Permissão */}
-      {!isCameraEnabled ? (
-        /* Tela de Câmera em Pausa (Economia de Recursos) */
-        <div className="absolute inset-0 z-0 flex flex-col items-center justify-center p-6 bg-slate-950 text-center">
-          <div className="w-16 h-16 rounded-2xl bg-[#0e1320] border border-red-500/30 flex items-center justify-center mb-3 shadow-xl">
-            <CameraOff className="w-8 h-8 text-red-400" />
-          </div>
-
-          <h3 className="text-base font-bold text-white font-heading">
-            Câmera Desativada
-          </h3>
-
-          <p className="text-xs text-slate-400 max-w-xs mt-1 leading-relaxed">
-            A câmera está pausada para economizar bateria e memória do seu dispositivo.
-          </p>
-
-          <button
-            onClick={toggleCamera}
-            className="mt-5 px-6 py-3.5 bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-500 hover:to-teal-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-emerald-950/50 active:scale-95 transition-all flex items-center gap-2 font-heading"
-          >
-            <Camera className="w-4 h-4" /> Ligar Câmera Agora
-          </button>
-        </div>
-      ) : hasCamera ? (
+      {/* Feed da Câmera ou Tela de Fallback */}
+      {hasCamera ? (
         <video
           ref={videoRef}
           autoPlay
@@ -876,25 +770,27 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
         <div className="absolute inset-0 z-0 flex flex-col items-center justify-center p-6 bg-slate-950 text-center">
           <div className="w-16 h-16 rounded-2xl bg-[#0e1320] border border-sky-500/30 flex items-center justify-center mb-3 shadow-xl">
             {cameraLoading ? (
-              <Loader2 className="w-8 h-8 text-amber-400 animate-spin" />
+              <RefreshCw className="w-8 h-8 text-amber-400 animate-spin" />
             ) : (
               <Camera className="w-8 h-8 text-sky-400 animate-pulse" />
             )}
           </div>
 
           <h3 className="text-base font-bold text-white font-heading">
-            {cameraLoading ? 'Iniciando Câmera...' : 'Câmera Pronta para Ativação'}
+            {cameraLoading ? 'Conectando Câmera...' : 'Câmera Indisponível'}
           </h3>
 
           <p className="text-xs text-slate-400 max-w-xs mt-1 leading-relaxed">
-            {cameraError || 'Aponte a câmera para a carta (mesmo no shield fosco) e o sistema lerá o nome, custo e poder instantaneamente.'}
+            {cameraError || 'Aponte a câmera para a carta (mesmo no shield fosco) e o sistema lerá o efeito em português automaticamente.'}
           </p>
 
           <button
-            onClick={startCamera}
+            onClick={() => reloadCamera()}
+            disabled={cameraLoading}
             className="mt-5 px-6 py-3.5 bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-sky-950/50 active:scale-95 transition-all flex items-center gap-2 font-heading"
           >
-            <Camera className="w-4 h-4" /> Ativar Câmera Traseira
+            <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
+            {cameraLoading ? 'Conectando...' : 'Recarregar Câmera'}
           </button>
         </div>
       )}
@@ -1041,26 +937,10 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             );
           })()}
 
-          {/* Barra de Controles Rápidos Flutuantes (Ligar/Desligar, Foco, Lanterna, Reset) */}
+          {/* Barra de Controles Rápidos Flutuantes (Foco, Lanterna, Recarregar Câmera) */}
           <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 z-30 pointer-events-auto">
-            {/* Botão Ligar / Desligar Câmera (ON/OFF) */}
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                toggleCamera();
-              }}
-              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
-                isCameraEnabled
-                  ? 'bg-slate-900/90 border-emerald-500/40 text-emerald-400 hover:text-white'
-                  : 'bg-red-950/90 border-red-500/50 text-red-300 shadow-[0_0_15px_rgba(239,68,68,0.4)]'
-              }`}
-              title={isCameraEnabled ? 'Desligar Câmera (Pausar e Economizar Bateria)' : 'Ligar Câmera'}
-            >
-              {isCameraEnabled ? <Camera className="w-4 h-4" /> : <CameraOff className="w-4 h-4" />}
-            </button>
-
             {/* Botão de Refoco Manual */}
-            {hasCamera && isCameraEnabled && (
+            {hasCamera && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -1078,7 +958,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             )}
 
             {/* Botão de Lanterna (Torch) */}
-            {torchAvailable && hasCamera && isCameraEnabled && (
+            {torchAvailable && hasCamera && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -1095,40 +975,46 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
               </button>
             )}
 
-            {/* Botão de Reiniciar Câmera */}
-            {hasCamera && isCameraEnabled && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  if (navigator.vibrate) navigator.vibrate(20);
-                  startCamera();
-                }}
-                disabled={cameraLoading}
-                className="w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white"
-                title="Reiniciar Câmera (caso a imagem congele ou fique escura)"
-              >
-                <RefreshCw className={`w-3.5 h-3.5 ${cameraLoading ? 'animate-spin text-amber-400' : ''}`} />
-              </button>
-            )}
+            {/* Botão Único de Recarregar Câmera (gira enquanto carrega ao entrar ou ao clicar) */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                if (navigator.vibrate) navigator.vibrate(20);
+                reloadCamera();
+              }}
+              disabled={cameraLoading}
+              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+                cameraLoading
+                  ? 'bg-slate-900/95 border-amber-500/50 text-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)]'
+                  : 'bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white hover:border-slate-500'
+              }`}
+              title={cameraLoading ? 'Iniciando sensor da câmera...' : 'Recarregar Câmera'}
+            >
+              <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
+            </button>
           </div>
 
           {/* Feixe de Laser de Escaneamento Animado */}
-          {isScanning && hasCamera && isCameraEnabled && <div className="animate-scan-beam" />}
+          {isScanning && hasCamera && <div className="animate-scan-beam" />}
 
           {/* Badge Instrução Flutuante no Rodapé da Moldura */}
           <div className="px-4 py-2 rounded-xl bg-slate-950/95 border border-sky-400/40 text-xs font-bold text-slate-100 tracking-wider shadow-xl flex items-center gap-1.5 pointer-events-none mt-auto mb-2">
-            {isRecognizing ? (
-              <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
+            {cameraLoading ? (
+              <>
+                <RefreshCw className="w-3.5 h-3.5 text-amber-400 animate-spin" />
+                <span>Conectando Câmera...</span>
+              </>
+            ) : isRecognizing ? (
+              <>
+                <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
+                <span>Lendo Carta...</span>
+              </>
             ) : (
-              <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
+              <>
+                <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
+                <span>Toque para focar ou alinhe a carta</span>
+              </>
             )}
-            <span>
-              {!isCameraEnabled
-                ? 'Câmera em Pausa'
-                : isRecognizing
-                ? 'Lendo Carta...'
-                : 'Toque para focar ou alinhe a carta'}
-            </span>
           </div>
         </div>
 
