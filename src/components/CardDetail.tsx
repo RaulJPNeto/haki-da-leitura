@@ -44,7 +44,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
               onClick={() => onSelectKeyword(matchedKeyword.id)}
               className="keyword-tag inline-flex items-center font-heading"
             >
-              <span>{matchedKeyword.rawTagPt || matchedKeyword.rawTag}</span>
+              <span>{part}</span>
               <Sparkles className="w-3.5 h-3.5 text-amber-300 ml-1.5" />
             </button>
           );

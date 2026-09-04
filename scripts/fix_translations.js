@@ -18,25 +18,27 @@ export function translateText(en) {
   if (!en) return '';
   let t = en;
 
-  // 1. Tags de Efeito e Gatilhos
-  t = t.replace(/\[On Play\]/gi, '[Ao Jogar]');
-  t = t.replace(/\[When Attacking\]/gi, '[Ao Atacar]');
-  t = t.replace(/\[Your Turn\]/gi, '[Seu Turno]');
-  t = t.replace(/\[Opponent's Turn\]/gi, '[Turno do Oponente]');
-  t = t.replace(/\[End of Your Turn\]/gi, '[Fim do Seu Turno]');
-  t = t.replace(/\[End of Opponent's Turn\]/gi, '[Fim do Turno do Oponente]');
-  t = t.replace(/\[On Your Opponent's Attack\]/gi, '[No Ataque do Oponente]');
-  t = t.replace(/\[Activate: Main\]/gi, '[Ativar: Principal]');
-  t = t.replace(/\[Counter\]/gi, '[Contra-Ataque]');
-  t = t.replace(/\[Trigger\]/gi, '[Gatilho]');
-  t = t.replace(/\[Blocker\]/gi, '[Bloqueador]');
-  t = t.replace(/\[Rush\]/gi, '[Investida]');
-  t = t.replace(/\[Double Attack\]/gi, '[Ataque Duplo]');
-  t = t.replace(/\[Banish\]/gi, '[Banimento]');
-  t = t.replace(/\[Once Per Turn\]/gi, '[1 Vez por Turno]');
-  t = t.replace(/\[Main\]/gi, '[Principal]');
-  t = t.replace(/\[On K\.O\.\]/gi, '[Ao Ser K.O.]');
-  t = t.replace(/\[On Block\]/gi, '[Ao Bloquear]');
+  // 1. Tags de Efeito e Gatilhos (Padronização Oficial em Inglês)
+  t = t.replace(/\[Ao Jogar\]/gi, '[On Play]');
+  t = t.replace(/\[Ao Atacar\]/gi, '[When Attacking]');
+  t = t.replace(/\[Seu Turno\]/gi, '[Your Turn]');
+  t = t.replace(/\[Turno do Oponente\]/gi, '[Opponent\'s Turn]');
+  t = t.replace(/\[Fim do Seu Turno\]/gi, '[End of Your Turn]');
+  t = t.replace(/\[Fim do Turno do Oponente\]/gi, '[End of Opponent\'s Turn]');
+  t = t.replace(/\[No Ataque do Oponente\]/gi, '[On Your Opponent\'s Attack]');
+  t = t.replace(/\[Ativar: Principal\]/gi, '[Activate: Main]');
+  t = t.replace(/\[Contra-Ataque\]/gi, '[Counter]');
+  t = t.replace(/\[Gatilho\]/gi, '[Trigger]');
+  t = t.replace(/\[Bloqueador\]/gi, '[Blocker]');
+  t = t.replace(/\[Investida\]/gi, '[Rush]');
+  t = t.replace(/\[Investida: Personagem\]/gi, '[Rush: Character]');
+  t = t.replace(/\[Ataque Duplo\]/gi, '[Double Attack]');
+  t = t.replace(/\[Banimento\]/gi, '[Banish]');
+  t = t.replace(/\[1 Vez por Turno\]/gi, '[Once Per Turn]');
+  t = t.replace(/\[Principal\]/gi, '[Main]');
+  t = t.replace(/\[Ao Ser K\.O\.\]/gi, '[On K.O.]');
+  t = t.replace(/\[Ao Bloquear\]/gi, '[On Block]');
+  t = t.replace(/\[Inbloqueável\]/gi, '[Unblockable]');
 
   // 2. Parênteses explicativos e regras de DON!! -X
   t = t.replace(/\(You may return the specified number of DON!! cards from your field to your DON!! deck\.\)/gi, '(Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.)');
@@ -59,7 +61,6 @@ export function translateText(en) {
   t = t.replace(/also treats this card's name as/gi, "o nome desta carta também é considerado");
 
   // 2.2 Rush de Personagem e Ataque
-  t = t.replace(/\[Rush: Character\]/gi, '[Investida: Personagem]');
   t = t.replace(/\(This card can attack Characters on the turn in which it is played\.\)/gi, '(Esta carta pode atacar Personagens no turno em que é jogada.)');
   t = t.replace(/\(this card can attack Characters on the turn in which it is played\.\)/gi, '(Esta carta pode atacar Personagens no turno em que é jogada.)');
   t = t.replace(/can attack Characters on the turn in which it is played/gi, 'pode atacar Personagens no turno em que é jogada');
@@ -747,12 +748,12 @@ export function translateText(en) {
   t = t.replace(/\bblack\b/gi, 'preto(a)');
   t = t.replace(/\byellow\b/gi, 'amarelo(a)');
 
-  // Atributos
-  t = t.replace(/<Slash>/gi, '<Corte>');
-  t = t.replace(/<Strike>/gi, '<Impacto>');
-  t = t.replace(/<Ranged>/gi, '<Distância>');
-  t = t.replace(/<Special>/gi, '<Especial>');
-  t = t.replace(/<Wisdom>/gi, '<Sabedoria>');
+  // Atributos (Mantidos oficialmente em inglês)
+  t = t.replace(/<Corte>/gi, '<Slash>');
+  t = t.replace(/<Impacto>/gi, '<Strike>');
+  t = t.replace(/<Distância>/gi, '<Ranged>');
+  t = t.replace(/<Especial>/gi, '<Special>');
+  t = t.replace(/<Sabedoria>/gi, '<Wisdom>');
   t = t.replace(/\battribute\b/gi, 'atributo');
 
   // Dano, Embaralhar e Vitória
@@ -911,6 +912,28 @@ export function translateText(en) {
   t = t.replace(/\bcan't be blocked\b/gi, 'não pode ser bloqueado');
   t = t.replace(/\bstages\b/gi, 'Palcos');
 
+  // 25. Padronização Canônica Final das Tags Oficiais em Inglês (Anti-Resíduo)
+  t = t.replace(/\[(?:On Play|On Jogue|Ao Jogar)\]/gi, '[On Play]');
+  t = t.replace(/\[(?:When Attacking|Quando Attacking|Ao Atacar)\]/gi, '[When Attacking]');
+  t = t.replace(/\[(?:Your Turn|Seu Turno)\]/gi, '[Your Turn]');
+  t = t.replace(/\[(?:Opponent's Turn|Oponente's Turno|Oponente's turno|Turno do Oponente)\]/gi, "[Opponent's Turn]");
+  t = t.replace(/\[(?:End of Your Turn|Fim do Seu Turno)\]/gi, '[End of Your Turn]');
+  t = t.replace(/\[(?:End of Opponent's Turn|Fim do Turno do Oponente)\]/gi, "[End of Opponent's Turn]");
+  t = t.replace(/\[(?:On Your Opponent's Attack|On do seu oponente Attack|No Ataque do Oponente)\]/gi, "[On Your Opponent's Attack]");
+  t = t.replace(/\[(?:Activate:\s*Main|Ative:\s*Main|Ativar:\s*Principal)\]/gi, '[Activate: Main]');
+  t = t.replace(/\[(?:Counter|Contra-Ataque)\]/gi, '[Counter]');
+  t = t.replace(/\[(?:Trigger|Gatilho)\]/gi, '[Trigger]');
+  t = t.replace(/\[(?:Blocker|Bloqueador)\]/gi, '[Blocker]');
+  t = t.replace(/\[(?:Rush|Investida)\]/gi, '[Rush]');
+  t = t.replace(/\[(?:Rush:\s*Character|Investida:\s*Personagem)\]/gi, '[Rush: Character]');
+  t = t.replace(/\[(?:Double Attack|Ataque Duplo)\]/gi, '[Double Attack]');
+  t = t.replace(/\[(?:Banish|Banimento)\]/gi, '[Banish]');
+  t = t.replace(/\[(?:Once Per Turn|Once Per Turno|Once Per turno|1 Vez por Turno)\]/gi, '[Once Per Turn]');
+  t = t.replace(/\[(?:Main|Principal)\]/gi, '[Main]');
+  t = t.replace(/\[(?:On K\.O\.|Ao Ser K\.O\.)\]/gi, '[On K.O.]');
+  t = t.replace(/\[(?:On Block|Ao Bloquear)\]/gi, '[On Block]');
+  t = t.replace(/\[(?:Unblockable|Inbloqueável)\]/gi, '[Unblockable]');
+
   return t;
 }
 
@@ -929,6 +952,7 @@ function detectKeywordIds(effectText) {
   if (lower.includes('[once per turn]') || lower.includes('[1 vez por turno]')) ids.push('once-per-turn');
   if (lower.includes('[your turn]') || lower.includes('[seu turno]')) ids.push('your-turn');
   if (lower.includes('[on k.o.]') || lower.includes('[ao ser k.o.]')) ids.push('on-ko');
+  if (lower.includes('[unblockable]') || lower.includes('[inbloqueável]')) ids.push('unblockable');
   return ids;
 }
 

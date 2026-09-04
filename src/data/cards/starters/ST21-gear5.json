@@ -16,7 +16,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Ativar: Principal] [1 Vez por Turno] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
+    "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
     "keywordIds": [
       "once-per-turn"
@@ -40,7 +40,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Turno do Oponente] este Personagem ganha +2000 de Poder.",
+    "effectPt": "[DON!! x2] [Opponent's Turn] este Personagem ganha +2000 de Poder.",
     "effectEn": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power.",
     "keywordIds": [],
     "setId": "ST-21",
@@ -62,7 +62,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Jogar] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens com 6000 ou mais de Poder. Se o Personagem selecionado attacks durante este turno, seu oponente não pode ativar [Bloqueador].",
+    "effectPt": "[On Play] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens com 6000 ou mais de Poder. Se o Personagem selecionado attacks durante este turno, seu oponente não pode ativar [Blocker].",
     "effectEn": "[On Play] Select up to 1 of your {Straw Hat Crew} type Characters with 6000 power or more. If the selected Character attacks during this turn, your opponent cannot activate [Blocker].",
     "keywordIds": [
       "blocker",
@@ -88,7 +88,7 @@
       "Egghead",
       "Bonney Pirates"
     ],
-    "effectPt": "[DON!! x2] [Ao Ser K.O.] Compre 1 carta(s).",
+    "effectPt": "[DON!! x2] [On K.O.] Compre 1 carta(s).",
     "effectEn": "[DON!! x2] [On K.O.] Draw 1 card.",
     "keywordIds": [
       "on-ko"
@@ -158,7 +158,7 @@
       "Egghead",
       "Marinha"
     ],
-    "effectPt": "[Bloqueador] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -205,7 +205,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
     "keywordIds": [
       "once-per-turn"
@@ -229,7 +229,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Ao Atacar] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "effectPt": "[DON!! x2] [When Attacking] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
     "effectEn": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "keywordIds": [
       "when-attacking"
@@ -253,7 +253,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Turno do Oponente] todos os dos seus {Bando do Chapéu de Palha} tipo Personagens com 4000 base Poder ou menos ganha +1000 de Poder.",
+    "effectPt": "[DON!! x2] [Opponent's Turn] todos os dos seus {Bando do Chapéu de Palha} tipo Personagens com 4000 base Poder ou menos ganha +1000 de Poder.",
     "effectEn": "[DON!! x2] [Opponent's Turn] All of your {Straw Hat Crew} type Characters with 4000 base power or less gain +1000 power.",
     "keywordIds": [],
     "setId": "ST-21",
@@ -275,7 +275,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Ao Atacar] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[When Attacking] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[When Attacking] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
       "when-attacking"
@@ -323,7 +323,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Investida] (Esta carta pode atacar no turno em que é jogada.) [Ao Atacar] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [When Attacking] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "rush",
@@ -348,7 +348,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] este Personagem ganha [Investida]. [Ao Ser K.O.] Jogue Até 1 vermelho(a) carta(s) de Personagem com 6000 ou menos de Poder diferente de [Roronoa Zoro] da sua mão.",
+    "effectPt": "[DON!! x2] este Personagem ganha [Rush]. [On K.O.] Jogue Até 1 vermelho(a) carta(s) de Personagem com 6000 ou menos de Poder diferente de [Roronoa Zoro] da sua mão.",
     "effectEn": "[DON!! x2] This Character gains [Rush]. [On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
     "keywordIds": [
       "rush",
@@ -373,9 +373,9 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno. Em seguida, Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder não pode ativar [Bloqueador] durante este turno.",
+    "effectPt": "[Main] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno. Em seguida, Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder não pode ativar [Blocker] durante este turno.",
     "effectEn": "[Main] Up to 1 of your Leader or Character cards gains +1000 power during this turn. Then, up to 1 of your opponent's Characters with 4000 power or less cannot activate [Blocker] during this turn.",
-    "triggerPt": "[Gatilho] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
     "keywordIds": [
       "blocker",
@@ -400,9 +400,9 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Principal] Dê a até 1 Personagem(ns) do seu oponente −5000 de Poder durante este turno. Em seguida, Se você tiver um Personagem com 6000 Poder ou mais, K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
+    "effectPt": "[Main] Dê a até 1 Personagem(ns) do seu oponente −5000 de Poder durante este turno. Em seguida, Se você tiver um Personagem com 6000 Poder ou mais, K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
     "effectEn": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn. Then, if you have a Character with 6000 power or more, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
-    "triggerPt": "[Gatilho] ative esta carta's [Principal] efeito.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"

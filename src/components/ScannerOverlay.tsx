@@ -28,10 +28,10 @@ const KNOWN_SUBTYPES = [
 
 const SCANNER_MODES: Array<{ id: 'AUTO' | 'CHARACTER' | 'LEADER' | 'EVENT' | 'STAGE'; label: string; icon: string; desc: string }> = [
   { id: 'AUTO', label: 'Auto', icon: '🪄', desc: 'Detecção Automática' },
-  { id: 'CHARACTER', label: 'Personagem', icon: '⚔️', desc: 'Com Poder/Counter' },
-  { id: 'LEADER', label: 'Líder', icon: '👑', desc: 'Líder com Vida' },
-  { id: 'EVENT', label: 'Evento', icon: '⚡', desc: 'Sem Poder/Counter' },
-  { id: 'STAGE', label: 'Palco', icon: '🏛️', desc: 'Palco Permanente' }
+  { id: 'CHARACTER', label: 'Character', icon: '⚔️', desc: 'Com Poder/Counter' },
+  { id: 'LEADER', label: 'Leader', icon: '👑', desc: 'Líder com Vida' },
+  { id: 'EVENT', label: 'Event', icon: '⚡', desc: 'Sem Poder/Counter' },
+  { id: 'STAGE', label: 'Stage', icon: '🏛️', desc: 'Palco Permanente' }
 ];
 
 interface ScannerOverlayProps {
