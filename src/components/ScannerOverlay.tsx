@@ -821,7 +821,64 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           ))}
         </div>
 
-        {/* Moldura Ampliada com Proporção de Carta Real (90vw / max 370px) + Tap-to-Focus */}
+        {/* Controles Rápidos Flutuantes (Foco, Lanterna, Recarregar Câmera) posicionados no topo do visor */}
+        <div className="absolute top-3 right-3 flex items-center gap-1.5 z-40 pointer-events-auto">
+          {/* Botão de Refoco Manual */}
+          {hasCamera && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                triggerFocus();
+              }}
+              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+                focusSupported
+                  ? 'bg-slate-900/90 border-amber-500/30 text-amber-400'
+                  : 'bg-slate-900/90 border-white/10 text-slate-300 hover:text-white'
+              }`}
+              title={focusSupported ? 'Ajustar Foco da Câmera (Hardware com Foco Contínuo)' : 'Ajustar Foco da Câmera'}
+            >
+              <Focus className="w-4 h-4" />
+            </button>
+          )}
+
+          {/* Botão de Lanterna (Torch) */}
+          {torchAvailable && hasCamera && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleTorch();
+              }}
+              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
+                torchOn
+                  ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
+                  : 'bg-slate-900/90 text-slate-300 border-white/10 hover:text-white'
+              }`}
+              title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
+            >
+              <Zap className="w-4 h-4 fill-current" />
+            </button>
+          )}
+
+          {/* Botão Único de Recarregar Câmera */}
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              if (navigator.vibrate) navigator.vibrate(20);
+              reloadCamera();
+            }}
+            disabled={cameraLoading}
+            className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+              cameraLoading
+                ? 'bg-slate-900/95 border-amber-500/50 text-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)]'
+                : 'bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white hover:border-slate-500'
+            }`}
+            title={cameraLoading ? 'Iniciando sensor da câmera...' : 'Recarregar Câmera'}
+          >
+            <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
+          </button>
+        </div>
+
+        {/* Moldura com Proporção Oficial de Carta de One Piece (aspect ratio 63/88) + Tap-to-Focus */}
         <div
           onClick={(e) => {
             const rect = e.currentTarget.getBoundingClientRect();
@@ -844,155 +901,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           <div className="reticle-corner -bottom-1.5 -left-1.5 border-b-4 border-l-4 rounded-bl-xl w-5 h-5 border-amber-400" />
           <div className="reticle-corner -bottom-1.5 -right-1.5 border-b-4 border-r-4 rounded-br-xl w-5 h-5 border-amber-400" />
 
-          {/* ================================================================= */}
-          {/* RELEVO ANATÔMICO ADAPTATIVO ("GHOST WIREFRAME") ILUMINADO POR OCR */}
-          {/* ================================================================= */}
-          {(() => {
-            const effectiveType = scannerMode === 'AUTO' 
-              ? (detectedSignals?.cardType || 'CHARACTER') 
-              : scannerMode;
 
-            const hasCost = detectedSignals?.cost !== null && detectedSignals?.cost !== undefined;
-            const hasPower = detectedSignals?.power !== null && detectedSignals?.power !== undefined;
-            const hasCounter = Boolean(detectedSignals?.counter);
-            const hasCode = Boolean(detectedSignals?.code);
-
-            return (
-              <>
-                {/* 1. Relevo de Custo (Topo Esquerdo - Não existe em Líderes) */}
-                {effectiveType !== 'LEADER' && (
-                  <div className={`absolute top-3 left-3 w-10 h-10 rounded-full flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
-                    hasCost
-                      ? 'border-2 border-emerald-400 bg-emerald-950/70 text-emerald-200 shadow-[0_0_14px_rgba(52,211,153,0.7)] scale-105'
-                      : 'border border-dashed border-sky-400/40 bg-sky-950/20 text-sky-300/80'
-                  }`}>
-                    <span className="text-[7px] font-black tracking-widest uppercase">Custo</span>
-                    <span className="text-[10px] font-mono font-bold leading-none">
-                      {hasCost ? detectedSignals?.cost : '★'}
-                    </span>
-                  </div>
-                )}
-
-                {/* 2. Relevo de Poder & Atributo (Topo Direito - Personagens e Líderes) */}
-                {(effectiveType === 'CHARACTER' || effectiveType === 'LEADER') && (
-                  <div className={`absolute top-3 right-3 px-2 py-1 rounded-xl flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
-                    hasPower
-                      ? 'border-2 border-amber-400 bg-amber-950/70 text-amber-200 shadow-[0_0_14px_rgba(251,191,36,0.7)] scale-105'
-                      : 'border border-dashed border-amber-400/40 bg-amber-950/20 text-amber-300/80'
-                  }`}>
-                    <span className="text-[7px] font-black tracking-wider uppercase flex items-center gap-0.5">
-                      ⚡ Poder
-                    </span>
-                    <span className="text-[9px] font-mono font-bold leading-none">
-                      {hasPower ? detectedSignals?.power : (effectiveType === 'LEADER' ? '5000' : 'PWR')}
-                    </span>
-                  </div>
-                )}
-
-                {/* 3. Relevo de Counter (Lateral Esquerda Central - Exclusivo de Personagens) */}
-                {effectiveType === 'CHARACTER' && (
-                  <div className={`absolute top-1/2 -translate-y-1/2 left-2 px-1 py-2 rounded-lg flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
-                    hasCounter
-                      ? 'border-2 border-cyan-400 bg-cyan-950/70 text-cyan-200 shadow-[0_0_14px_rgba(6,182,212,0.7)] scale-105'
-                      : 'border border-dashed border-cyan-400/40 bg-cyan-950/20 text-cyan-300/80'
-                  }`}>
-                    <span className="text-[7px] font-black [writing-mode:vertical-lr] rotate-180 uppercase tracking-widest">
-                      {hasCounter ? `+${detectedSignals?.counter}` : '+Counter 🛡️'}
-                    </span>
-                  </div>
-                )}
-
-                {/* 4. Relevo da Color Wheel (Canto Inferior Esquerdo - Presente em todas as cartas) */}
-                <div className={`absolute bottom-3 left-3 w-8 h-8 rounded-xl flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
-                  detectedSignals?.color || (detectedSignals?.colors && detectedSignals.colors.length > 0)
-                    ? 'border-2 border-purple-400 bg-purple-950/70 text-purple-200 shadow-[0_0_14px_rgba(192,132,252,0.7)]'
-                    : 'border border-dashed border-purple-400/40 bg-purple-950/20 text-purple-300/80'
-                }`}>
-                  <span className="text-[7px] font-black leading-none uppercase tracking-tighter">Cor</span>
-                  <span className="text-[9px] leading-none mt-0.5 font-bold">
-                    {detectedSignals?.color ? detectedSignals.color[0] : '⬡'}
-                  </span>
-                </div>
-
-                {/* 5. Relevo do Canto Inferior Direito: Vida em Líderes ou Código em outras */}
-                {effectiveType === 'LEADER' ? (
-                  <div className="absolute bottom-3 right-3 px-2 py-1 rounded-xl border border-dashed border-red-500/50 bg-red-950/30 flex flex-col items-center justify-center pointer-events-none transition-all duration-300">
-                    <span className="text-[7px] font-black text-red-300 uppercase tracking-wider flex items-center gap-0.5">
-                      ❤️ Vida
-                    </span>
-                    <span className="text-[9px] font-mono font-black text-white">4 / 5</span>
-                  </div>
-                ) : (
-                  <div className={`absolute bottom-3 right-3 px-2 py-0.5 rounded-md flex flex-col items-center justify-center pointer-events-none transition-all duration-300 ${
-                    hasCode
-                      ? 'border-2 border-sky-400 bg-sky-950/80 text-sky-200 shadow-[0_0_14px_rgba(56,189,248,0.7)] font-black scale-105'
-                      : 'border border-dashed border-sky-400/40 bg-sky-950/20 text-sky-300/70'
-                  }`}>
-                    <span className="text-[8px] font-mono font-bold tracking-wider">
-                      {hasCode ? detectedSignals?.code : 'OP##-###'}
-                    </span>
-                  </div>
-                )}
-              </>
-            );
-          })()}
-
-          {/* Barra de Controles Rápidos Flutuantes (Foco, Lanterna, Recarregar Câmera) */}
-          <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 z-30 pointer-events-auto">
-            {/* Botão de Refoco Manual */}
-            {hasCamera && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  triggerFocus();
-                }}
-                className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
-                  focusSupported
-                    ? 'bg-slate-900/90 border-amber-500/30 text-amber-400'
-                    : 'bg-slate-900/90 border-white/10 text-slate-300 hover:text-white'
-                }`}
-                title={focusSupported ? 'Ajustar Foco da Câmera (Hardware com Foco Contínuo)' : 'Ajustar Foco da Câmera'}
-              >
-                <Focus className="w-4 h-4" />
-              </button>
-            )}
-
-            {/* Botão de Lanterna (Torch) */}
-            {torchAvailable && hasCamera && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  toggleTorch();
-                }}
-                className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
-                  torchOn
-                    ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
-                    : 'bg-slate-900/90 text-slate-300 border-white/10 hover:text-white'
-                }`}
-                title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
-              >
-                <Zap className="w-4 h-4 fill-current" />
-              </button>
-            )}
-
-            {/* Botão Único de Recarregar Câmera (gira enquanto carrega ao entrar ou ao clicar) */}
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                if (navigator.vibrate) navigator.vibrate(20);
-                reloadCamera();
-              }}
-              disabled={cameraLoading}
-              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
-                cameraLoading
-                  ? 'bg-slate-900/95 border-amber-500/50 text-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)]'
-                  : 'bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white hover:border-slate-500'
-              }`}
-              title={cameraLoading ? 'Iniciando sensor da câmera...' : 'Recarregar Câmera'}
-            >
-              <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
-            </button>
-          </div>
 
           {/* Feixe de Laser de Escaneamento Animado */}
           {isScanning && hasCamera && <div className="animate-scan-beam" />}
