@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
+import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus, ChevronDown } from 'lucide-react';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
 
@@ -24,6 +24,14 @@ const KNOWN_SUBTYPES = [
   'SEVEN WARLORDS', 'FISHMAN', 'HEART PIRATES', 'KID PIRATES',
   'GERMA 66', 'CP9', 'CP0', 'BAROQUE WORKS', 'DONQUIXOTE PIRATES',
   'REVOLUTIONARY ARMY', 'ALABASTA', 'DRESSROSA', 'EGGHEAD', 'SWORD', 'FILM'
+];
+
+const SCANNER_MODES: Array<{ id: 'AUTO' | 'CHARACTER' | 'LEADER' | 'EVENT' | 'STAGE'; label: string; icon: string; desc: string }> = [
+  { id: 'AUTO', label: 'Auto', icon: '🪄', desc: 'Detecção Automática' },
+  { id: 'CHARACTER', label: 'Personagem', icon: '⚔️', desc: 'Com Poder/Counter' },
+  { id: 'LEADER', label: 'Líder', icon: '👑', desc: 'Líder com Vida' },
+  { id: 'EVENT', label: 'Evento', icon: '⚡', desc: 'Sem Poder/Counter' },
+  { id: 'STAGE', label: 'Palco', icon: '🏛️', desc: 'Palco Permanente' }
 ];
 
 interface ScannerOverlayProps {
@@ -63,6 +71,29 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
   // Modo de Validação por Tipo de Carta (Auto, Personagem, Líder, Evento, Palco)
   const [scannerMode, setScannerMode] = useState<'AUTO' | 'CHARACTER' | 'LEADER' | 'EVENT' | 'STAGE'>('AUTO');
+  const [isTypeMenuOpen, setIsTypeMenuOpen] = useState<boolean>(false);
+  const typeMenuRef = useRef<HTMLDivElement | null>(null);
+
+  // Fechar menu dropdown ao clicar fora ou teclar Escape
+  useEffect(() => {
+    if (!isTypeMenuOpen) return;
+    const handleClickOutside = (e: MouseEvent | TouchEvent) => {
+      if (typeMenuRef.current && !typeMenuRef.current.contains(e.target as Node)) {
+        setIsTypeMenuOpen(false);
+      }
+    };
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setIsTypeMenuOpen(false);
+    };
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside);
+    document.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
+  }, [isTypeMenuOpen]);
 
   // Sincronização da tela de desempate com o histórico do navegador (botão Voltar do celular)
   useEffect(() => {
@@ -799,83 +830,112 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
       {/* Visor HUD Limpo e Cristalino (Sem Blur dentro da Carta) */}
       <div className="absolute inset-0 z-10 pointer-events-none flex flex-col items-center justify-center p-2">
-        {/* Seletor Rápido de Tipo de Carta (Pílulas Ergonômicas do Design System) */}
-        <div className="flex items-center gap-1.5 p-1 bg-[#090d16]/90 backdrop-blur-2xl rounded-2xl border border-white/10 shadow-2xl pointer-events-auto mb-2.5 z-30 overflow-x-auto no-scrollbar max-w-[95vw]">
-          {[
-            { id: 'AUTO', label: '🪄 Auto', desc: 'Detecção Automática' },
-            { id: 'CHARACTER', label: '⚔️ Personagem', desc: 'Com Poder/Counter' },
-            { id: 'LEADER', label: '👑 Líder', desc: 'Líder com Vida' },
-            { id: 'EVENT', label: '⚡ Evento', desc: 'Sem Poder/Counter' },
-            { id: 'STAGE', label: '🏛️ Palco', desc: 'Palco' }
-          ].map((mode) => (
-            <button
-              key={mode.id}
-              onClick={() => handleModeChange(mode.id as any)}
-              className={`pill-tab ${
-                scannerMode === mode.id ? 'pill-tab-active' : 'pill-tab-inactive'
-              }`}
-              title={mode.desc}
-            >
-              {mode.label}
-            </button>
-          ))}
-        </div>
+        {/* Barra Superior Integrada: Dropdown de Categoria à Esquerda e Controles de Hardware à Direita */}
+        <div className="absolute top-3.5 inset-x-3.5 flex items-center justify-between z-40 pointer-events-auto">
+          {/* Pílula Dropdown de Seleção de Tipo de Carta */}
+          <div ref={typeMenuRef} className="relative">
+            {(() => {
+              const currentModeInfo = SCANNER_MODES.find((m) => m.id === scannerMode) || SCANNER_MODES[0];
+              return (
+                <>
+                  <button
+                    onClick={() => setIsTypeMenuOpen((prev) => !prev)}
+                    className="h-10 min-w-[140px] px-4 justify-between bg-slate-900/90 hover:bg-slate-800/90 text-slate-100 border border-sky-500/40 rounded-xl shadow-lg backdrop-blur-xl active:scale-95 transition-all text-xs sm:text-sm font-bold font-heading flex items-center gap-2.5"
+                    title="Escolher Categoria de Carta para Filtragem"
+                  >
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm sm:text-base">{currentModeInfo.icon}</span>
+                      <span>{currentModeInfo.label}</span>
+                    </div>
+                    <ChevronDown className={`w-4 h-4 text-slate-400 transition-transform duration-200 ${isTypeMenuOpen ? 'rotate-180 text-sky-400' : ''}`} />
+                  </button>
 
-        {/* Controles Rápidos Flutuantes (Foco, Lanterna, Recarregar Câmera) posicionados no topo do visor */}
-        <div className="absolute top-3 right-3 flex items-center gap-1.5 z-40 pointer-events-auto">
-          {/* Botão de Refoco Manual */}
-          {hasCamera && (
+                  {/* Menu Popover Suspenso Colado Embaixo da Pílula */}
+                  {isTypeMenuOpen && (
+                    <div className="absolute top-full mt-1 left-0 w-52 bg-slate-900/95 border border-sky-500/40 rounded-2xl shadow-2xl p-1.5 flex flex-col gap-1 backdrop-blur-2xl z-50 animate-in fade-in zoom-in-95 duration-150">
+                      {SCANNER_MODES.map((mode) => (
+                        <button
+                          key={mode.id}
+                          onClick={() => {
+                            handleModeChange(mode.id);
+                            setIsTypeMenuOpen(false);
+                          }}
+                          className={`flex items-center justify-between px-3 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition-all text-left ${
+                            scannerMode === mode.id
+                              ? 'bg-sky-600 text-white shadow-md'
+                              : 'text-slate-300 hover:bg-slate-800/80 hover:text-white'
+                          }`}
+                        >
+                          <div className="flex items-center gap-2.5">
+                            <span className="text-sm sm:text-base">{mode.icon}</span>
+                            <span>{mode.label}</span>
+                          </div>
+                          {scannerMode === mode.id && <span className="text-xs text-sky-200 font-mono font-bold">✓</span>}
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </>
+              );
+            })()}
+          </div>
+
+          {/* Botões de Hardware (Refoco, Lanterna, Recarregar Câmera) perfeitamente alinhados na mesma linha */}
+          <div className="flex items-center gap-2">
+            {/* Botão de Refoco Manual */}
+            {hasCamera && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  triggerFocus();
+                }}
+                className={`w-10 h-10 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+                  focusSupported
+                    ? 'bg-slate-900/90 border-amber-500/30 text-amber-400'
+                    : 'bg-slate-900/90 border-white/10 text-slate-300 hover:text-white'
+                }`}
+                title={focusSupported ? 'Ajustar Foco da Câmera (Hardware com Foco Contínuo)' : 'Ajustar Foco da Câmera'}
+              >
+                <Focus className="w-4 h-4" />
+              </button>
+            )}
+
+            {/* Botão de Lanterna (Torch) */}
+            {torchAvailable && hasCamera && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  toggleTorch();
+                }}
+                className={`w-10 h-10 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
+                  torchOn
+                    ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
+                    : 'bg-slate-900/90 text-slate-300 border-white/10 hover:text-white'
+                }`}
+                title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
+              >
+                <Zap className="w-4 h-4 fill-current" />
+              </button>
+            )}
+
+            {/* Botão Único de Recarregar Câmera */}
             <button
               onClick={(e) => {
                 e.stopPropagation();
-                triggerFocus();
+                if (navigator.vibrate) navigator.vibrate(20);
+                reloadCamera();
               }}
-              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
-                focusSupported
-                  ? 'bg-slate-900/90 border-amber-500/30 text-amber-400'
-                  : 'bg-slate-900/90 border-white/10 text-slate-300 hover:text-white'
+              disabled={cameraLoading}
+              className={`w-10 h-10 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
+                cameraLoading
+                  ? 'bg-slate-900/95 border-amber-500/50 text-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)]'
+                  : 'bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white hover:border-slate-500'
               }`}
-              title={focusSupported ? 'Ajustar Foco da Câmera (Hardware com Foco Contínuo)' : 'Ajustar Foco da Câmera'}
+              title={cameraLoading ? 'Iniciando sensor da câmera...' : 'Recarregar Câmera'}
             >
-              <Focus className="w-4 h-4" />
+              <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
             </button>
-          )}
-
-          {/* Botão de Lanterna (Torch) */}
-          {torchAvailable && hasCamera && (
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                toggleTorch();
-              }}
-              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
-                torchOn
-                  ? 'bg-amber-400 text-slate-950 border-amber-300 shadow-[0_0_20px_rgba(251,191,36,0.9)]'
-                  : 'bg-slate-900/90 text-slate-300 border-white/10 hover:text-white'
-              }`}
-              title={torchOn ? 'Desligar Lanterna' : 'Ligar Lanterna (Anti-Sombra)'}
-            >
-              <Zap className="w-4 h-4 fill-current" />
-            </button>
-          )}
-
-          {/* Botão Único de Recarregar Câmera */}
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              if (navigator.vibrate) navigator.vibrate(20);
-              reloadCamera();
-            }}
-            disabled={cameraLoading}
-            className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all ${
-              cameraLoading
-                ? 'bg-slate-900/95 border-amber-500/50 text-amber-400 shadow-[0_0_15px_rgba(251,191,36,0.4)]'
-                : 'bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white hover:border-slate-500'
-            }`}
-            title={cameraLoading ? 'Iniciando sensor da câmera...' : 'Recarregar Câmera'}
-          >
-            <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
-          </button>
+          </div>
         </div>
 
         {/* Moldura com Proporção Oficial de Carta de One Piece (aspect ratio 63/88) + Tap-to-Focus */}
