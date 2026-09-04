@@ -188,7 +188,60 @@ Para manter a consistência com a comunidade de jogadores e juízes:
 
 ---
 
-## 7. Quality Gate & Comandos de Validação
+## 7. Padrão de Navegação Mobile & History API (Botão Voltar em Telas e Modais)
+
+Como o **Haki da Leitura** é uma Progressive Web App (PWA) de página única (SPA), o usuário mobile utiliza intensamente gestos laterais de deslize ou o botão de "Voltar" nativo do aparelho (Android/iOS) para fechar telas e modais.
+
+### ⚠️ Regra de Ouro da Arquitetura:
+> **Nenhuma tela, modal, gaveta (drawer) ou painel de sobreposição pode abrir sem registrar entrada na History API.**  
+> Se o usuário abrir um elemento sobreposto e acionar o "Voltar" do celular, o elemento **DEVE** fechar e retornar à visualização anterior, sem jamais fechar a aba ou sair do site.
+
+### Mapeamento das Rotas e Hashes do Sistema:
+| Visualização / Tela / Modal | Hash da URL | Componente Responsável |
+| :--- | :--- | :--- |
+| **Scanner / Viewfinder Inicial** | `/` (raiz sem hash) | [`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx) |
+| **Ficha Detalhada da Carta** | `/#card=OP01-025` | [`CardDetail.tsx`](../src/components/CardDetail.tsx) |
+| **Tela de Desempate (Candidatos)** | `/#candidates` | [`CandidateModal.tsx`](../src/components/CandidateModal.tsx) |
+| **Gaveta de Regra Contextual** | `/#rule=blocker` | [`KeywordDrawer.tsx`](../src/components/KeywordDrawer.tsx) |
+| **Menu Lateral (Hambúrguer)** | `/#menu` | [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx) |
+| **Dicionário Global de Regras** | `/#glossary` | [`GlossaryModal.tsx`](../src/components/GlossaryModal.tsx) |
+| **Busca Manual de Cartas** | `/#search` | [`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx) |
+| **Painel de Debug e Telemetria** | `/#debug` | [`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx) |
+| **Painel de Administração (Sincronização)** | `/#admin` ou `/admin` | [`AdminSyncModal.tsx`](../src/components/AdminSyncModal.tsx) |
+
+### Padrão para Desenvolvimento de Novas Telas/Modais:
+Ao criar uma nova página, modal ou gaveta:
+1. **Ao Abrir:** Adicione entrada na pilha do histórico:
+   ```typescript
+   window.history.pushState({ view: 'minha-tela' }, '', '#minha-tela');
+   ```
+2. **Escuta de `popstate`:** No componente ou no orquestrador ([`App.tsx`](../src/App.tsx)), capture o evento para fechar a visualização quando o usuário voltar:
+   ```typescript
+   useEffect(() => {
+     const handlePopState = () => {
+       if (window.location.hash !== '#minha-tela' && isOpen) {
+         setIsOpen(false);
+       }
+     };
+     window.addEventListener('popstate', handlePopState);
+     return () => window.removeEventListener('popstate', handlePopState);
+   }, [isOpen]);
+   ```
+3. **Ao Fechar pelo "X" ou Botão da UI:**
+   ```typescript
+   const handleClose = () => {
+     if (window.location.hash === '#minha-tela') {
+       window.history.back();
+     } else {
+       setIsOpen(false);
+     }
+   };
+   ```
+4. **Acessibilidade:** Capture a tecla `Escape` (`keydown`) para garantir paridade em teclados desktop/físicos.
+
+---
+
+## 8. Quality Gate & Comandos de Validação
 
 Antes de enviar qualquer alteração para produção, execute os comandos:
 
@@ -205,7 +258,7 @@ npm run preview
 
 ---
 
-## 8. Aviso Legal & Isenção de Responsabilidade (Disclaimer)
+## 9. Aviso Legal & Isenção de Responsabilidade (Disclaimer)
 
 O **Haki da Leitura** é um aplicativo **não oficial** desenvolvido por e para fãs da comunidade de jogadores de cartas no Brasil.
 

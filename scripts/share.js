@@ -1,24 +1,48 @@
-import localtunnel from 'localtunnel';
+import { spawn } from 'child_process';
 
-const port = 5174;
+const targetUrl = 'https://localhost:5173';
 
-console.log('Iniciando túnel seguro HTTPS para o celular...');
+console.log('\n======================================================');
+console.log('🏴‍☠️ HAKI DA LEITURA — TÚNEL TRYCLOUDFLARE HTTPS');
+console.log(`📡 Conectando ao servidor local em ${targetUrl}...`);
+console.log('======================================================\n');
 
-try {
-  const tunnel = await localtunnel({ port });
+const isWin = process.platform === 'win32';
+const npxCmd = isWin ? 'npx.cmd' : 'npx';
 
-  console.log('\n======================================================');
-  console.log('🚀 SEU LINK HTTPS PARA TESTAR NO CELULAR:');
-  console.log(`👉 ${tunnel.url}`);
-  console.log('======================================================');
-  console.log('💡 DICA: Ao abrir pela 1ª vez, se o site pedir uma senha');
-  console.log('   (Tunnel Password), acesse https://loca.lt/mytunnelpassword');
-  console.log('   no seu computador e cole o IP que aparecer lá.');
-  console.log('======================================================\n');
+const cloudflared = spawn(npxCmd, ['--yes', 'cloudflared', 'tunnel', '--url', targetUrl, '--no-tls-verify'], {
+  stdio: ['ignore', 'pipe', 'pipe']
+});
 
-  tunnel.on('close', () => {
-    console.log('Túnel encerrado.');
-  });
-} catch (err) {
-  console.error('Erro ao abrir túnel:', err);
+let tunnelFound = false;
+
+function handleOutput(data) {
+  const text = data.toString();
+  const match = text.match(/https:\/\/[a-z0-9-]+\.trycloudflare\.com/i);
+
+  if (match && !tunnelFound) {
+    tunnelFound = true;
+    const url = match[0];
+    console.log('\n======================================================');
+    console.log('🚀 SEU LINK HTTPS TRYCLOUDFLARE PARA O CELULAR:');
+    console.log(`👉 ${url}`);
+    console.log('======================================================');
+    console.log('💡 Abra o link no Chrome/Safari do seu celular.');
+    console.log('   Permita o acesso à câmera para testar o scanner.');
+    console.log('   Pressione CTRL+C neste terminal para encerrar o túnel.');
+    console.log('======================================================\n');
+  }
 }
+
+cloudflared.stdout.on('data', handleOutput);
+cloudflared.stderr.on('data', handleOutput);
+
+cloudflared.on('close', (code) => {
+  console.log(`\nTúnel Cloudflare finalizado (código ${code}).`);
+});
+
+process.on('SIGINT', () => {
+  console.log('\nEncerrando túnel Cloudflare...');
+  cloudflared.kill();
+  process.exit();
+});

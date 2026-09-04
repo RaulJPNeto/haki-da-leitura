@@ -2106,7 +2106,7 @@
       "Dressrosa",
       "Happosui Army"
     ],
-    "effectPt": "[DON!! x1] Quando este Personagem battles e K.O.'s do seu oponente Personagem, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectPt": "[DON!! x1] Quando este Personagem batalha e nocauteia do seu oponente Personagem, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
     "effectEn": "[DON!! x1] When this Character battles and K.O.'s your opponent's Character, draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [],
     "setId": "OP-04",
@@ -2352,7 +2352,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Dressrosa}, seu {Dressrosa} tipo Personagens pode atacar Personagens on o turno no qual they forem played.",
+    "effectPt": "Se o seu Líder tiver o tipo {Dressrosa}, seu {Dressrosa} tipo Personagens pode atacar Personagens no turno no qual eles forem jogados.",
     "effectEn": "If your Leader has the {Dressrosa} type, your {Dressrosa} type Characters can attack Characters on the turn in which they are played.",
     "keywordIds": [],
     "setId": "OP-04",

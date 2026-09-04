@@ -968,7 +968,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "Se o seu Líder for [Donquixote Doflamingo], todos os Personagens com custo de 5 ou menos do not become ativo(a) no seu e do seu oponente Fase de Restauraçãos. [Fim do Seu Turno] Se você tiver 10 cartas de DON!! no seu campo, K.O. todos os descansado(a) Personagens com custo de 5 ou menos. Em seguida, descartar este Palco.",
+    "effectPt": "Se o seu Líder for [Donquixote Doflamingo], todos os Personagens com custo de 5 ou menos não ficam ativo(a) no seu e do seu oponente Fase de Restauraçãos. [Fim do Seu Turno] Se você tiver 10 cartas de DON!! no seu campo, K.O. todos os descansado(a) Personagens com custo de 5 ou menos. Em seguida, descartar este Palco.",
     "effectEn": "If your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases. [End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this Stage.",
     "keywordIds": [],
     "setId": "OP-05",
@@ -2522,7 +2522,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Ao Jogar] Você pode colocar 1 dos seus Stages no fundo do seu Deck: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Ao Jogar] Você pode colocar 1 dos seus Palcos no fundo do seu Deck: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[On Play] You may place 1 of your Stages at the bottom of your deck: Draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "on-play"

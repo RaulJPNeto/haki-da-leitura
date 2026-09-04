@@ -2284,7 +2284,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [1 Vez por Turno] Quando este Personagem battles e K.O.'s do seu oponente Personagem, coloque este Personagem como ativo.",
+    "effectPt": "[DON!! x1] [1 Vez por Turno] Quando este Personagem batalha e nocauteia do seu oponente Personagem, coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
     "keywordIds": [
       "once-per-turn"
@@ -2859,7 +2859,7 @@
     ],
     "effectPt": "[Contra-Ataque] Você pode descartar 1 carta(s) da sua mão: Selecione até 1 dos seus Personagens. o Personagem selecionado não pode ser nocauteado durante esta batalha.",
     "effectEn": "[Counter] You may trash 1 card from your hand: Select up to 1 of your Characters. The selected Character cannot be K.O.'d during this battle.",
-    "triggerPt": "[Gatilho] K.O. Até 1 do seu oponente Stages com custo de 3 ou menos.",
+    "triggerPt": "[Gatilho] K.O. Até 1 do seu oponente Palcos com custo de 3 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Stages with a cost of 3 or less.",
     "keywordIds": [
       "trigger",

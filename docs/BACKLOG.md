@@ -7,9 +7,9 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 ## 🚀 Épicos e Status Geral
 
 - [x] **Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)**
-- [ ] **Épico 2: Revisão & Polimento de Telas e UX Mobile**
+- [x] **Épico 2: Revisão & Polimento de Telas e UX Mobile**
 - [ ] **Épico 3: Deploy Contínuo (Vercel / Cloudflare Pages) & Produção**
-- [ ] **Épico 4: Melhorias de OCR & Motor de Matching**
+- [x] **Épico 4: Melhorias de OCR & Motor de Matching**
 - [ ] **Épico 5: Recursos de Comunidade & Ferramentas de Jogador**
 
 ---
@@ -22,13 +22,13 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-03:** Criar tela/modal administrativo simples protegido por PIN/Chave no PWA para acionar a sincronização sob demanda via GitHub Repository Dispatch API.
 - [x] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
 
-### Épico 2: Revisão & Polimento de Telas e UX Mobile (Em Andamento)
+### Épico 2: Revisão & Polimento de Telas e UX Mobile (Concluído)
 - [x] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
 - [x] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](../src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
-- [ ] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](../src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
-- [ ] **TASK-08:** Revisão da gaveta de regras ([`KeywordDrawer.tsx`](../src/components/KeywordDrawer.tsx)) e do glossário global ([`GlossaryModal.tsx`](../src/components/GlossaryModal.tsx)): consistência dos textos explicativos e navegação por toque.
-- [ ] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada e feedback de resultado vazio.
-- [ ] **TASK-10:** Revisão de navegação e controles globais ([`Navigation.tsx`](../src/components/Navigation.tsx), [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx), [`PieMenu.tsx`](../src/components/PieMenu.tsx)).
+- [x] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](../src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
+- [x] **TASK-08:** Revisão da gaveta de regras ([`KeywordDrawer.tsx`](../src/components/KeywordDrawer.tsx)) e do glossário global ([`GlossaryModal.tsx`](../src/components/GlossaryModal.tsx)): consistência dos textos explicativos, suporte a tecla Escape e navegação por toque.
+- [x] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada, fechamento suave e feedback de resultado vazio.
+- [x] **TASK-10:** Revisão de navegação e controles globais: remoção de arquivos legados não utilizados (`Navigation.tsx`, `PieMenu.tsx`) e consolidação em [`Header.tsx`](../src/components/Header.tsx) + [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx).
 
 ### Épico 3: Deploy & Infraestrutura de Produção
 - [x] **TASK-11:** Inicializar repositório Git local (`git init`, `.gitignore` e primeiro commit semântico).
@@ -36,9 +36,9 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
 - [ ] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção.
 
-### Épico 4: Refinamento de OCR & Tradução Contínua
-- [ ] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
-- [ ] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda (reduzir consumo de memória inicial).
+### Épico 4: Refinamento de OCR & Tradução Contínua (Concluído)
+- [x] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
+- [x] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda via dynamic import (reduzindo consumo de memória e tempo inicial de carga).
 
 ---
 

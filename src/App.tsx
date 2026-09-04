@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Card, KeywordRule } from './types';
 import cardsData from './data/cards';
 import keywordsData from './data/keywords.json';
@@ -24,11 +24,69 @@ export const App: React.FC = () => {
   const [isScanning, setIsScanning] = useState<boolean>(true);
   const [hapticEnabled, setHapticEnabled] = useState<boolean>(true);
 
-  // Manipulador de Seleção Direta de Carta
+  // Sincronização com o histórico do navegador (Botão Voltar do celular / Gesto de voltar Android e iOS)
+  useEffect(() => {
+    const handlePopState = () => {
+      const hash = window.location.hash;
+      const pathname = window.location.pathname;
+
+      // 1. Rota de administração
+      const isAdmin = pathname === '/admin' || window.location.search.includes('admin') || hash === '#admin';
+      setIsAdminSyncOpen(isAdmin);
+
+      // 2. Modais globais
+      setIsGlossaryOpen(hash === '#glossary');
+      setIsCardListOpen(hash === '#search');
+
+      // 3. Gaveta de Regras
+      if (hash.startsWith('#rule=')) {
+        const ruleId = hash.replace('#rule=', '');
+        const kw = keywords.find((k) => k.id === ruleId);
+        setSelectedKeyword(kw || null);
+      } else {
+        setSelectedKeyword(null);
+      }
+
+      // 4. Ficha da Carta vs Scanner Inicial
+      if (hash.startsWith('#card=')) {
+        const cardCode = hash.replace('#card=', '');
+        const found = cards.find((c) => c.code.toLowerCase() === cardCode.toLowerCase());
+        if (found) {
+          setSelectedCard(found);
+          setIsScanning(false);
+        }
+      } else if (!hash.startsWith('#rule=')) {
+        // Se voltou para a raiz sem #card, restaura a tela inicial com a câmera
+        setSelectedCard(null);
+        setIsScanning(true);
+      }
+    };
+
+    // Avalia o estado inicial da URL
+    handlePopState();
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [cards, keywords]);
+
+  const handleCloseAdminSync = () => {
+    setIsAdminSyncOpen(false);
+    if (
+      window.location.pathname === '/admin' ||
+      window.location.search.includes('admin') ||
+      window.location.hash === '#admin'
+    ) {
+      window.history.replaceState({}, '', '/');
+    }
+  };
+
+  // Manipulador de Seleção Direta de Carta (Scanner ou Busca rápida)
   const handleSelectCard = (card: Card) => {
     if (hapticEnabled && navigator.vibrate) {
       navigator.vibrate([40, 60, 40]);
     }
+    // Adiciona entrada na pilha de histórico do navegador
+    window.history.pushState({ view: 'card', code: card.code }, '', `#card=${card.code}`);
     setSelectedCard(card);
     setIsScanning(false);
   };
@@ -37,25 +95,78 @@ export const App: React.FC = () => {
   const handleSelectKeywordById = (keywordId: string) => {
     const kw = keywords.find((k) => k.id === keywordId);
     if (kw) {
+      window.history.pushState({ view: 'rule', id: kw.id }, '', `#rule=${kw.id}`);
       setSelectedKeyword(kw);
     }
   };
 
+  // Fechar gaveta de regras
+  const handleCloseKeyword = () => {
+    if (window.location.hash.startsWith('#rule=')) {
+      window.history.back();
+    } else {
+      setSelectedKeyword(null);
+    }
+  };
+
+  // Abrir e fechar glossário
+  const handleOpenGlossary = () => {
+    window.history.pushState({ view: 'glossary' }, '', '#glossary');
+    setIsGlossaryOpen(true);
+  };
+
+  const handleCloseGlossary = () => {
+    if (window.location.hash === '#glossary') {
+      window.history.back();
+    } else {
+      setIsGlossaryOpen(false);
+    }
+  };
+
+  // Abrir e fechar banco de cartas (busca manual)
+  const handleOpenCardList = () => {
+    window.history.pushState({ view: 'search' }, '', '#search');
+    setIsCardListOpen(true);
+  };
+
+  const handleCloseCardList = () => {
+    if (window.location.hash === '#search') {
+      window.history.back();
+    } else {
+      setIsCardListOpen(false);
+    }
+  };
+
+  // Seleção de carta a partir do modal de busca manual
+  const handleSelectCardFromModal = (card: Card) => {
+    if (hapticEnabled && navigator.vibrate) {
+      navigator.vibrate([40, 60, 40]);
+    }
+    window.history.replaceState({ view: 'card', code: card.code }, '', `#card=${card.code}`);
+    setSelectedCard(card);
+    setIsScanning(false);
+    setIsCardListOpen(false);
+  };
+
+  // Voltar para a câmera / scanner via botão da UI ("Escanear Outra")
   const handleResetToScan = () => {
-    setSelectedCard(null);
-    setSelectedKeyword(null);
-    setIsScanning(true);
+    if (window.location.hash) {
+      window.history.back();
+    } else {
+      setSelectedCard(null);
+      setSelectedKeyword(null);
+      setIsScanning(true);
+    }
   };
 
   return (
     <div className="h-[100dvh] w-full max-w-full bg-slate-950 text-slate-100 flex flex-col font-sans select-none overflow-hidden">
       
-      {/* 1. Header Fixo com Menu em Pizza Embutido */}
+      {/* 1. Header Fixo com Menu Embutido */}
       <Header
-        onOpenGlossary={() => setIsGlossaryOpen(true)}
-        onOpenCardList={() => setIsCardListOpen(true)}
+        onOpenGlossary={handleOpenGlossary}
+        onOpenCardList={handleOpenCardList}
         onResetScan={handleResetToScan}
-        onOpenAdminSync={() => setIsAdminSyncOpen(true)}
         hapticEnabled={hapticEnabled}
         onToggleHaptic={() => setHapticEnabled(!hapticEnabled)}
       />
@@ -71,7 +182,7 @@ export const App: React.FC = () => {
             keywords={keywords}
             onSelectKeyword={handleSelectKeywordById}
             onBackToScan={handleResetToScan}
-            onOpenGlossary={() => setIsGlossaryOpen(true)}
+            onOpenGlossary={handleOpenGlossary}
           />
         </div>
       ) : (
@@ -95,38 +206,34 @@ export const App: React.FC = () => {
       {/* 4. Gaveta de Regras Contextual (Bottom Sheet) */}
       <KeywordDrawer
         keyword={selectedKeyword}
-        onClose={() => setSelectedKeyword(null)}
+        onClose={handleCloseKeyword}
       />
 
-      {/* 5. Modal de Coleção/Banco de Cartas (Acessível via Menu em Pizza) */}
+      {/* 5. Modal de Coleção/Banco de Cartas */}
       {isCardListOpen && (
         <ManualSearchModal
           cards={cards}
-          onSelectCard={(card) => {
-            setSelectedCard(card);
-            setIsScanning(false);
-            setIsCardListOpen(false);
-          }}
-          onClose={() => setIsCardListOpen(false)}
+          onSelectCard={handleSelectCardFromModal}
+          onClose={handleCloseCardList}
         />
       )}
 
-      {/* 6. Modal do Dicionário de Regras (Acessível via Menu em Pizza) */}
+      {/* 6. Modal do Dicionário de Regras */}
       {isGlossaryOpen && (
         <GlossaryModal
           keywords={keywords}
           onSelectKeyword={(kw) => {
-            setSelectedKeyword(kw);
-            setIsGlossaryOpen(false);
+            handleSelectKeywordById(kw.id);
+            handleCloseGlossary();
           }}
-          onClose={() => setIsGlossaryOpen(false)}
+          onClose={handleCloseGlossary}
         />
       )}
 
-      {/* 7. Modal Administrativo de Sincronização */}
+      {/* 7. Modal Administrativo de Sincronização (Acesso restrito via link /admin) */}
       <AdminSyncModal
         isOpen={isAdminSyncOpen}
-        onClose={() => setIsAdminSyncOpen(false)}
+        onClose={handleCloseAdminSync}
       />
 
       {/* 8. Banner de Notificação de Novas Cartas / Atualização */}

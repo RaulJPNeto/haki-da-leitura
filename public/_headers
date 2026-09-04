@@ -1,0 +1,19 @@
+# Cache agressivo e imutável para assets compilados com hash
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Service Worker sem cache para garantir atualizações automáticas do PWA
+/sw.js
+  Cache-Control: public, max-age=0, must-revalidate
+  Service-Worker-Allowed: /
+
+# Manifesto do PWA
+/manifest.webmanifest
+  Content-Type: application/manifest+json
+  Cache-Control: public, max-age=86400
+
+# Boas práticas de segurança de cabeçalhos HTTP
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin

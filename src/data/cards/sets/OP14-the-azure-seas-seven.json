@@ -521,7 +521,7 @@
       "Dressrosa",
       "Marinha"
     ],
-    "effectPt": "[Seu Turno] Quando este Personagem torna-se descansado(a), Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão. Se fizer isso, Até 1 Personagem(ns) descansado(s) do seu oponente ou Stages não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectPt": "[Seu Turno] Quando este Personagem torna-se descansado(a), Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão. Se fizer isso, Até 1 Personagem(ns) descansado(s) do seu oponente ou Palcos não ficará ativo na próxima Fase de Restauração do seu oponente.",
     "effectEn": "[Your Turn] When this Character becomes rested, you may add 1 card from the top of your Life cards to your hand. If you do, up to 1 of your opponent's rested Characters or Stages will not become active in your opponent's next Refresh Phase.",
     "keywordIds": [
       "your-turn"
@@ -2167,7 +2167,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Ao Ser K.O.] Se o tipo do seu Líder incluir \"Baroque Works\", Compre 1 carta(s) e K.O. Até 1 do seu oponente Stages com custo de 1.",
+    "effectPt": "[Ao Ser K.O.] Se o tipo do seu Líder incluir \"Baroque Works\", Compre 1 carta(s) e K.O. Até 1 do seu oponente Palcos com custo de 1.",
     "effectEn": "[On K.O.] If your Leader's type includes \"Baroque Works\", draw 1 card and K.O. up to 1 of your opponent's Stages with a cost of 1.",
     "keywordIds": [
       "on-ko"

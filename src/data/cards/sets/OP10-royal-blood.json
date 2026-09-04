@@ -2113,7 +2113,7 @@
     "subtypes": [
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Turno do Oponente] este Personagem ganha +2000 de Poder. [Ativar: Principal] [1 Vez por Turno] Se o seu Líder tiver o tipo {Piratas do Barba Negra}, e este Personagem foi jogado on este turno, K.O. Até 1 dos Personagens do seu oponente com a base custo de 3 ou menos.",
+    "effectPt": "[Turno do Oponente] este Personagem ganha +2000 de Poder. [Ativar: Principal] [1 Vez por Turno] Se o seu Líder tiver o tipo {Piratas do Barba Negra}, e este Personagem foi jogado neste turno, K.O. Até 1 dos Personagens do seu oponente com a base custo de 3 ou menos.",
     "effectEn": "[Opponent's Turn] This Character gains +2000 power. [Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, and this Character was played on this turn, K.O. up to 1 of your opponent's Characters with a base cost of 3 or less.",
     "keywordIds": [
       "once-per-turn"

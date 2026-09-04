@@ -898,6 +898,19 @@ export function translateText(en) {
   t = t.replace(/DON!!\s+cartas\s+as\s+ativo\(a\)/gi, 'cartas de DON!! como ativas');
   t = t.replace(/DON!!\s+cartas/gi, 'cartas de DON!!');
 
+  // Limpeza de resíduos específicos apontados no audit_words
+  t = t.replace(/\bon este turno\b/gi, 'neste turno');
+  t = t.replace(/\bon o turno\b/gi, 'no turno');
+  t = t.replace(/\bon your field\b/gi, 'no seu campo');
+  t = t.replace(/\bdo not become\b/gi, 'não ficam');
+  t = t.replace(/\bwill not become\b/gi, 'não ficará');
+  t = t.replace(/\bbattles e K\.O\.'s\b/gi, 'batalha e nocauteia');
+  t = t.replace(/\bthey forem played\b/gi, 'eles forem jogados');
+  t = t.replace(/\bthey are played\b/gi, 'eles são jogados');
+  t = t.replace(/\bcannot be blocked\b/gi, 'não pode ser bloqueado');
+  t = t.replace(/\bcan't be blocked\b/gi, 'não pode ser bloqueado');
+  t = t.replace(/\bstages\b/gi, 'Palcos');
+
   return t;
 }
 

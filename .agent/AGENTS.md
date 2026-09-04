@@ -29,8 +29,12 @@ O projeto é uma aplicação web progressiva (**PWA**) **100% Client-Side** (Off
 * **Mobile-First & Eficiência:** O app roda em navegadores mobile sob recursos limitados de CPU e bateria. Evite re-renders desnecessários no loop de câmera/OCR.
 * **KISS (Keep It Simple, Stupid):** Prefira a solução mais simples e direta.
 * **YAGNI (You Aren't Gonna Need It):** Não crie abstrações ou complexidades para cenários hipotéticos futuros.
-* **DRY (Don't Repeat Yourself):** Reutilize os utilitários, componentes e dados existentes em `src/`.
 * **Tipagem Estrita:** Mantenha contratos de tipos TypeScript rigorosos em `src/types/` (ex: `Card`, `Keyword`). Nunca use `any`.
+* **Padrão Obrigatório de Navegação Mobile & History API (Botão Voltar):**
+  - **Zero Fechamentos Acidentais:** Toda tela, modal, gaveta (drawer) ou painel de sobreposição DEVE integrar-se à HTML5 History API (`pushState` com hash semântico, ex: `#card=...`, `#candidates`, `#rule=...`, `#menu`, `#glossary`, `#search`, `#admin`).
+  - **Captura de `popstate`:** O componente deve escutar `popstate` para que o gesto ou botão "Voltar" do celular (Android/iOS) feche a sobreposição e retorne ao scanner sem fechar a aba do navegador.
+  - **Fechamento via UI:** Ao fechar pelo "X" ou botão da interface, invoque `window.history.back()` se o hash correspondente estiver ativo, mantendo a pilha sincronizada.
+  - **Acessibilidade Teclado:** Todo modal/drawer deve escutar a tecla `Escape` para fechar.
 
 ---
 

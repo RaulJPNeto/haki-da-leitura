@@ -63,7 +63,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Ao Jogar] Se o seu Líder for [Smoker], Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno. [Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado on este turno, descartar Até 1 dos Personagens do seu oponente com custo de 0.",
+    "effectPt": "[Ao Jogar] Se o seu Líder for [Smoker], Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno. [Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado neste turno, descartar Até 1 dos Personagens do seu oponente com custo de 0.",
     "effectEn": "[On Play] If your Leader is [Smoker], give up to 1 of your opponent's Characters −4 cost during this turn. [Activate: Main] [Once Per Turn] If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "on-play",

@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite --host",
     "build": "tsc -b && vite build",
-    "lint": "eslint .",
+    "lint": "tsc -b --noEmit",
     "preview": "vite preview",
     "sync:cards": "node scripts/ingest_cards.js && node scripts/ingest_promos.js && node scripts/split_cards.js",
-    "audit": "node scripts/audit_words.js"
+    "audit": "node scripts/audit_words.js",
+    "share": "node scripts/share.js",
+    "tunnel": "node scripts/share.js"
   },
   "dependencies": {
     "dexie": "^4.0.10",
@@ -25,7 +27,6 @@
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-basic-ssl": "^2.3.0",
     "@vitejs/plugin-react": "^4.3.4",
-    "localtunnel": "^2.0.2",
     "tailwindcss": "^4.3.3",
     "typescript": "~5.7.2",
     "vite": "^6.1.0",

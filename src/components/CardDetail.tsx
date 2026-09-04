@@ -65,42 +65,58 @@ export const CardDetail: React.FC<CardDetailProps> = ({
 
   // Mapeamento de Estilos de Cor das Cartas OPTCG
   const getColorStyle = (colors: string[]) => {
+    if (colors.length > 1) {
+      return {
+        border: 'border-amber-400/80',
+        glow: 'shadow-[0_0_35px_rgba(245,158,11,0.3)]',
+        bg: 'from-amber-950/60 via-slate-900 to-slate-950',
+        accent: 'text-amber-400'
+      };
+    }
     if (colors.includes('RED')) {
       return {
-        border: 'border-red-500/60',
-        glow: 'shadow-[0_0_35px_rgba(239,68,68,0.25)]',
+        border: 'border-red-500/70',
+        glow: 'shadow-[0_0_35px_rgba(239,68,68,0.3)]',
         bg: 'from-red-950/60 via-slate-900 to-slate-950',
         accent: 'text-red-400'
       };
     }
     if (colors.includes('GREEN')) {
       return {
-        border: 'border-emerald-500/60',
-        glow: 'shadow-[0_0_35px_rgba(16,185,129,0.25)]',
+        border: 'border-emerald-500/70',
+        glow: 'shadow-[0_0_35px_rgba(16,185,129,0.3)]',
         bg: 'from-emerald-950/60 via-slate-900 to-slate-950',
         accent: 'text-emerald-400'
       };
     }
     if (colors.includes('BLUE')) {
       return {
-        border: 'border-blue-500/60',
-        glow: 'shadow-[0_0_35px_rgba(59,130,246,0.25)]',
+        border: 'border-blue-500/70',
+        glow: 'shadow-[0_0_35px_rgba(59,130,246,0.3)]',
         bg: 'from-blue-950/60 via-slate-900 to-slate-950',
         accent: 'text-blue-400'
       };
     }
     if (colors.includes('PURPLE')) {
       return {
-        border: 'border-purple-500/60',
-        glow: 'shadow-[0_0_35px_rgba(168,85,247,0.25)]',
+        border: 'border-purple-500/70',
+        glow: 'shadow-[0_0_35px_rgba(168,85,247,0.3)]',
         bg: 'from-purple-950/60 via-slate-900 to-slate-950',
         accent: 'text-purple-400'
       };
     }
+    if (colors.includes('BLACK')) {
+      return {
+        border: 'border-zinc-500/70',
+        glow: 'shadow-[0_0_35px_rgba(113,113,122,0.3)]',
+        bg: 'from-zinc-950 via-slate-950 to-slate-950',
+        accent: 'text-zinc-300'
+      };
+    }
     if (colors.includes('YELLOW')) {
       return {
-        border: 'border-yellow-500/60',
-        glow: 'shadow-[0_0_35px_rgba(234,179,8,0.25)]',
+        border: 'border-yellow-500/70',
+        glow: 'shadow-[0_0_35px_rgba(234,179,8,0.3)]',
         bg: 'from-yellow-950/60 via-slate-900 to-slate-950',
         accent: 'text-yellow-400'
       };
@@ -246,21 +262,23 @@ export const CardDetail: React.FC<CardDetailProps> = ({
             </div>
 
             {/* Centro da Barra: 1. Categoria (LEADER), 2. Nome, 3. Traço/Família (Pílula sem a palavra trait) */}
-            <div className="w-full max-w-[68%] sm:max-w-[72%] flex flex-col items-center text-center">
+            <div className="w-full px-12 sm:px-16 flex flex-col items-center text-center">
               {/* Rótulo de Categoria (LEADER) com kerning bem aberto */}
               <span className="text-[11px] sm:text-xs font-black text-slate-400 tracking-[0.3em] uppercase font-heading">
                 {formatCardType(card.cardType)}
               </span>
 
               {/* Nome do Líder / Carta (Title Case, destaque branco) */}
-              <h2 className="text-2xl sm:text-3xl font-black text-white font-heading tracking-tight leading-tight mt-0.5">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white font-heading tracking-tight leading-tight mt-0.5 break-words">
                 {card.namePt}
               </h2>
 
               {/* Traço / Família / Arquétipo: Acomodado em pílula horizontal escura SEM a palavra trait */}
-              <div className="mt-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700/80 text-slate-200 text-xs font-medium max-w-full truncate shadow-inner">
-                {card.subtypes.join(' / ')}
-              </div>
+              {card.subtypes && card.subtypes.length > 0 && (
+                <div className="mt-2 px-3 py-1 rounded-full bg-slate-900 border border-slate-700/80 text-slate-200 text-[11px] sm:text-xs font-medium max-w-full truncate shadow-inner">
+                  {card.subtypes.join(' / ')}
+                </div>
+              )}
             </div>
           </div>
 
@@ -276,15 +294,15 @@ export const CardDetail: React.FC<CardDetailProps> = ({
               <BookOpen className="w-4 h-4" /> Dicionário de Regras
             </button>
 
-            {/* Metadados: Código + Raridade (Caixa Branca com letra preta) */}
+            {/* Metadados: Código + Categoria/Raridade */}
             <div className="flex items-center gap-2">
               <span className="text-xs font-mono font-bold text-slate-300">
                 {card.code}
               </span>
 
-              {/* Caixinha de Raridade L / SR */}
-              <span className="w-5 h-5 rounded bg-white text-slate-950 font-black text-xs flex items-center justify-center font-heading shadow-sm">
-                {card.cardType === 'LEADER' ? 'L' : card.power && card.power >= 10000 ? 'SR' : 'R'}
+              {/* Caixinha de Tipo / Raridade */}
+              <span className="min-w-5 h-5 px-1.5 rounded bg-white text-slate-950 font-black text-xs flex items-center justify-center font-heading shadow-sm">
+                {card.code.startsWith('P-') ? 'P' : card.cardType === 'LEADER' ? 'L' : formatCardType(card.cardType).slice(0, 1)}
               </span>
             </div>
           </div>

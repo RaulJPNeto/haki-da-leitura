@@ -22,15 +22,24 @@ export const SearchBar: React.FC<SearchBarProps> = ({ cards, onSelectCard }) => 
     return searchCards(cards, { query: trimmedQuery, limit: 30 });
   }, [cards, trimmedQuery]);
 
-  // Fechar dropdown ao clicar fora
+  // Fechar dropdown ao clicar fora ou pressionar Escape
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
       if (containerRef.current && !containerRef.current.contains(event.target as Node)) {
         setIsOpen(false);
       }
     }
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === 'Escape') {
+        setIsOpen(false);
+      }
+    }
     document.addEventListener('mousedown', handleClickOutside);
-    return () => document.removeEventListener('mousedown', handleClickOutside);
+    window.addEventListener('keydown', handleKeyDown);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      window.removeEventListener('keydown', handleKeyDown);
+    };
   }, []);
 
   const getBadgeClass = (type: string) => {

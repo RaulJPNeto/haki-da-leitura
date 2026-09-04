@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Card, CardColor } from '../types';
 import { Camera, Shield, Sparkles, Layers, Award, ArrowRight, X, Check } from 'lucide-react';
 import { ColorWheelHexagon } from './ColorWheelHexagon';
@@ -36,8 +36,6 @@ export const CandidateModal: React.FC<CandidateModalProps> = ({
   onSelectCard,
   onClose
 }) => {
-  if (!candidates || candidates.length === 0) return null;
-
   const handleSelect = (card: Card) => {
     if (navigator.vibrate) navigator.vibrate(30);
     onSelectCard(card);
@@ -47,6 +45,16 @@ export const CandidateModal: React.FC<CandidateModalProps> = ({
     if (navigator.vibrate) navigator.vibrate(15);
     onClose();
   };
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') handleClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, []);
+
+  if (!candidates || candidates.length === 0) return null;
 
   return (
     <div className="fixed inset-0 z-50 flex flex-col justify-end sm:justify-center items-center bg-black/85 backdrop-blur-md p-0 sm:p-4 overflow-hidden animate-fadeIn">

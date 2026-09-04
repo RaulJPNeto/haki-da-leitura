@@ -33,6 +33,15 @@ export const AdminSyncModal: React.FC<AdminSyncModalProps> = ({ isOpen, onClose 
   const [lastRun, setLastRun] = useState<WorkflowRun | null>(null);
   const [isLoadingRuns, setIsLoadingRuns] = useState(false);
 
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   // Validar PIN de acesso (PIN padrão de segurança: 1337 ou configurável)
   const handleVerifyPin = (e: React.FormEvent) => {
     e.preventDefault();

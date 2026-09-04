@@ -37,17 +37,35 @@ npm run build
 
 ---
 
-## 📱 Como Testar no Celular Android Real
+## 📱 Como Testar no Celular com TryCloudflare (Câmera Mobile)
 
-O Google Chrome no Android exige **HTTPS** para liberar a câmera física (`getUserMedia`).
+Os navegadores em dispositivos móveis (Chrome no Android e Safari no iOS) exigem **HTTPS** para liberar a câmera física (`getUserMedia`).
 
-### Opção A — Tunnel HTTPS em Tempo Real (Desenvolvimento)
-1. Inicie o servidor dev local: `npm run dev`
-2. Em outro terminal, rode o túnel seguro:
+### Opção A — Túnel TryCloudflare Automático (Recomendado)
+
+1. Com o servidor local ativo (`npm run dev` ou container Docker na porta `5173`), abra outro terminal e execute:
    ```bash
-   npx cloudflared tunnel --url http://localhost:5173
+   npm run tunnel
    ```
-3. Abra a URL `https://...trycloudflare.com` gerada pelo terminal no seu celular Android.
+   *(Ou alternativamente: `npm run share`)*
+
+2. O script detecta automaticamente o servidor HTTPS local e gera a URL pública segura:
+   ```text
+   ======================================================
+   🚀 SEU LINK HTTPS TRYCLOUDFLARE PARA O CELULAR:
+   👉 https://xxxx.trycloudflare.com
+   ======================================================
+   ```
+
+3. Abra o link gerado no navegador do seu smartphone e autorize a permissão de câmera.
+
+### Opção B — Execução Direta via CLI
+
+Você também pode disparar diretamente o binário oficial do Cloudflare via `npx` sem instalar nada:
+```bash
+npx cloudflared tunnel --url https://localhost:5173 --no-tls-verify
+```
+> **Nota:** A flag `--no-tls-verify` é necessária porque o Vite utiliza o plugin `@vitejs/plugin-basic-ssl` com certificado local autoassinado. O arquivo `vite.config.ts` já possui `allowedHosts: true` para aceitar qualquer subdomínio do TryCloudflare.
 
 ---
 
@@ -64,6 +82,20 @@ Toda a documentação aprofundada do projeto está organizada na pasta [`docs/`]
 - `scripts/` — Scripts de ingestão, compilação de tradução padronizada da comunidade (`fix_translations.js`) e auditoria léxica (`audit_words.js`).
 - `src/components/` — Componentes React (ScannerOverlay, CardDetail, KeywordDrawer, ManualSearchModal, GlossaryModal).
 - `Dockerfile` / `docker-compose.yml` — Containerização para desenvolvimento e produção.
+
+---
+
+## 🔐 Painel Administrativo e Sincronização (Acesso Restrito)
+
+A área de manutenção de coleções e sincronização com o GitHub Actions é **oculta da interface pública** (sem botões em menus) para segurança e discrição:
+
+* **Como Acessar:** Abra diretamente a URL `https://seu-dominio/admin` (ou com parâmetro `/?admin` / hash `/#admin`).
+* **Autenticação:** Protegido por PIN de segurança (padrão inicial: `1337`).
+* **Recursos:**
+  - Disparo sob demanda do workflow de ingestão no GitHub Actions via GitHub API (`repository_dispatch`);
+  - Acompanhamento do status da última execução e link direto para logs do GitHub;
+  - Guia rápido com atalhos de terminal para execução local (`npm run sync:cards` e `npm run audit`).
+  - Ao fechar a janela, a rota é limpa automaticamente da barra de endereços do navegador sem deixar rastros.
 
 ---
 

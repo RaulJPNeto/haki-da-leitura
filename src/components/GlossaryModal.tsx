@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { KeywordRule } from '../types';
 import { X, BookOpen, Search, Filter } from 'lucide-react';
 import { formatCategory } from '../utils/formatters';
@@ -16,6 +16,14 @@ export const GlossaryModal: React.FC<GlossaryModalProps> = ({
 }) => {
   const [filter, setFilter] = useState<string>('');
   const [selectedCategory, setSelectedCategory] = useState<string>('ALL');
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
 
   const filteredKeywords = keywords.filter((k) => {
     const q = filter.toLowerCase().trim();

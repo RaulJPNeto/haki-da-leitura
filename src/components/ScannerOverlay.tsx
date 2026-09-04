@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
 import { Camera, Loader2, Zap, Sparkles, Bug, Focus } from 'lucide-react';
-import { createWorker } from 'tesseract.js';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
 
@@ -71,6 +70,20 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const [showDebugPanel, setShowDebugPanel] = useState<boolean>(false);
   const [debugCanvasUrl, setDebugCanvasUrl] = useState<string | null>(null);
 
+  // Sincronização da tela de desempate e debug com o histórico do navegador (botão Voltar do celular)
+  useEffect(() => {
+    const handlePopState = () => {
+      if (window.location.hash !== '#candidates' && candidateModalCards) {
+        setCandidateModalCards(null);
+      }
+      if (window.location.hash !== '#debug' && showDebugPanel) {
+        setShowDebugPanel(false);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [candidateModalCards, showDebugPanel]);
+
   // Inicializar Tesseract Worker para OCR em background com modo SPARSE_TEXT (Ideal para cartas)
   useEffect(() => {
     let worker: any = null;
@@ -79,6 +92,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     async function initOcr() {
       try {
         setOcrStatus('Carregando OCR...');
+        const { createWorker } = await import('tesseract.js');
         worker = await createWorker('eng');
         // Configurar Tesseract para modo SPARSE_TEXT (Modo 11: textos dispersos em cartas/itens)
         await worker.setParameters({
@@ -741,6 +755,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
       } else if (matchedCandidates && matchedCandidates.length > 0) {
         if (matchedCandidates.length >= 2) {
           // Pausa o scanner e abre a tela intermediária para escolha tranquila!
+          window.history.pushState({ view: 'candidates' }, '', '#candidates');
           setCandidateModalCards(matchedCandidates);
         } else if (matchedCandidates.length === 1) {
           handleCardSelected(matchedCandidates[0]);
@@ -1025,7 +1040,16 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
               <button
                 onClick={(e) => {
                   e.stopPropagation();
-                  setShowDebugPanel(!showDebugPanel);
+                  if (!showDebugPanel) {
+                    window.history.pushState({ view: 'debug' }, '', '#debug');
+                    setShowDebugPanel(true);
+                  } else {
+                    if (window.location.hash === '#debug') {
+                      window.history.back();
+                    } else {
+                      setShowDebugPanel(false);
+                    }
+                  }
                 }}
                 className={`p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all ${
                   showDebugPanel ? 'bg-sky-600 border-sky-400 text-white' : 'bg-slate-900/90 border-slate-700 text-slate-400'
@@ -1155,11 +1179,18 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
           candidates={candidateModalCards}
           signals={detectedSignals || undefined}
           onSelectCard={(card) => {
+            if (window.location.hash === '#candidates') {
+              window.history.replaceState({ view: 'card', code: card.code }, '', `#card=${card.code}`);
+            }
             setCandidateModalCards(null);
             handleCardSelected(card);
           }}
           onClose={() => {
-            setCandidateModalCards(null);
+            if (window.location.hash === '#candidates') {
+              window.history.back();
+            } else {
+              setCandidateModalCards(null);
+            }
           }}
         />
       )}

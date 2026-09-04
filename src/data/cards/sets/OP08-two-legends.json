@@ -1904,7 +1904,7 @@
       "Former Rocks Pirates",
       "Piratas das Feras"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 carta(s) da sua mão: Se este Personagem foi jogado on este turno, descartar Até 1 dos Personagens do seu oponente com custo de 7 ou menos. Em seguida, seu oponente descarta 1 carta(s) da mão dele.",
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Você pode descartar 1 carta(s) da sua mão: Se este Personagem foi jogado neste turno, descartar Até 1 dos Personagens do seu oponente com custo de 7 ou menos. Em seguida, seu oponente descarta 1 carta(s) da mão dele.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
     "keywordIds": [
       "once-per-turn"

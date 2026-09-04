@@ -47,7 +47,17 @@ const ptWhitelisted = new Set([
   'selecionada', 'selecionar', 'selecione', 'mude', 'mudar', 'causa', 'causam', 'dano', 'ativar',
   'ativação', 'inclua', 'incluir', 'incluindo', 'restante', 'dono', 'donos', 'após', 'declarar',
   'novo', 'nova', 'novos', 'novas', 'trate', 'tratar', 'possa', 'possam', 'deixar', 'deixe', 'não',
-  'isso', 'isto', 'aquilo', 'terceiro', 'primeiro', 'segundo', 'quarto', 'quinto', 'igual', 'iguais'
+  'isso', 'isto', 'aquilo', 'terceiro', 'primeiro', 'segundo', 'quarto', 'quinto', 'igual', 'iguais',
+  'ns', 'la', 'torná', 'ative', 'disso', 'removido', 'removida', 'palco', 'palcos', 'evento', 'eventos',
+  'total', 'torna', 'ficará', 'ficarão', 'restauração', 'atributo', 'atributos', 'deste', 'desta', 'destes', 'destas',
+  'descarta', 'descartam', 'vermelho', 'vermelha', 'vermelhos', 'vermelhas',
+  'preto', 'preta', 'pretos', 'pretas', 'verde', 'verdes', 'azul', 'azuis',
+  'amarelo', 'amarela', 'amarelos', 'amarelas', 'roxo', 'roxa', 'roxos', 'roxas',
+  'também', 'fizer', 'fizerem', 'multicolorido', 'multicolorida', 'adicional', 'adicionais',
+  'corte', 'impacto', 'distância', 'especial', 'sabedoria', 'anule', 'anular',
+  'ativado', 'ativada', 'ativados', 'ativadas', 'coloca', 'colocam', 'retorna', 'retornam',
+  'nome', 'nomes', 'usando', 'marinha',
+  'pirates', 'whitebeard', 'baroque', 'works', 'rocks', 'roger', 'cp'
 ]);
 
 const unknownWords = {};

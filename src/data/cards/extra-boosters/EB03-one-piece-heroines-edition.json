@@ -313,7 +313,7 @@
     "subtypes": [
       "Minks"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado on este turno, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos. Em seguida, jogue Até 1 [Zou] da sua mão.",
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado neste turno, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos. Em seguida, jogue Até 1 [Zou] da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. Then, play up to 1 [Zou] from your hand.",
     "keywordIds": [
       "once-per-turn"

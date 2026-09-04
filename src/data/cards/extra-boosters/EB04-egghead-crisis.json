@@ -284,7 +284,7 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado on este turno, coloque seu {País de Wano} tipo Líder as ativo(a).",
+    "effectPt": "[Ativar: Principal] [1 Vez por Turno] Se este Personagem foi jogado neste turno, coloque seu {País de Wano} tipo Líder as ativo(a).",
     "effectEn": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, set your {Land of Wano} type Leader as active.",
     "keywordIds": [
       "once-per-turn"

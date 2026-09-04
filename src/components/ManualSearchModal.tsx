@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import { Card } from '../types';
 import { X, Search, ChevronRight, Filter } from 'lucide-react';
 import { formatCardType } from '../utils/formatters';
@@ -17,6 +17,14 @@ export const ManualSearchModal: React.FC<ManualSearchModalProps> = ({
 }) => {
   const [query, setQuery] = useState<string>('');
   const [selectedTypeFilter, setSelectedTypeFilter] = useState<string>('ALL');
+
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [onClose]);
 
   const trimmedQuery = query.trim();
 

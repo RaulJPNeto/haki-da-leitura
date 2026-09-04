@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { KeywordRule } from '../types';
 import { X, Clock, HelpCircle, Sparkles, BookOpen, CheckCircle2 } from 'lucide-react';
 
@@ -8,6 +8,15 @@ interface KeywordDrawerProps {
 }
 
 export const KeywordDrawer: React.FC<KeywordDrawerProps> = ({ keyword, onClose }) => {
+  useEffect(() => {
+    if (!keyword) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [keyword, onClose]);
+
   if (!keyword) return null;
 
   return (

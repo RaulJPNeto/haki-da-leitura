@@ -17,7 +17,7 @@
       "Marinha",
       "SWORD"
     ],
-    "effectPt": "seu {SWORD} tipo Personagens pode atacar Personagens on o turno no qual they forem played. [1 Vez por Turno] Se seu {Marinha} tipo Personagem com 7000 base Poder ou menos for ser removido de campo por um efeito do seu oponente, Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem em vez disso.",
+    "effectPt": "seu {SWORD} tipo Personagens pode atacar Personagens no turno no qual eles forem jogados. [1 Vez por Turno] Se seu {Marinha} tipo Personagem com 7000 base Poder ou menos for ser removido de campo por um efeito do seu oponente, Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem em vez disso.",
     "effectEn": "Your {SWORD} type Characters can attack Characters on the turn in which they are played. [Once Per Turn] If your {Navy} type Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
     "keywordIds": [
       "once-per-turn"

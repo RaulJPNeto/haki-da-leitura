@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Menu } from 'lucide-react';
 import { NavigationDrawer } from './NavigationDrawer';
 
@@ -6,7 +6,6 @@ interface HeaderProps {
   onOpenGlossary: () => void;
   onOpenCardList: () => void;
   onResetScan: () => void;
-  onOpenAdminSync?: () => void;
   hapticEnabled: boolean;
   onToggleHaptic: () => void;
 }
@@ -15,11 +14,36 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenGlossary,
   onOpenCardList,
   onResetScan,
-  onOpenAdminSync,
   hapticEnabled,
   onToggleHaptic
 }) => {
   const [isDrawerOpen, setIsDrawerOpen] = useState<boolean>(false);
+
+  // Sincronização do Menu Lateral com o histórico do navegador (botão Voltar do celular)
+  useEffect(() => {
+    const handlePopState = () => {
+      if (window.location.hash !== '#menu') {
+        setIsDrawerOpen(false);
+      } else {
+        setIsDrawerOpen(true);
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, []);
+
+  const handleOpenDrawer = () => {
+    window.history.pushState({ view: 'menu' }, '', '#menu');
+    setIsDrawerOpen(true);
+  };
+
+  const handleCloseDrawer = () => {
+    if (window.location.hash === '#menu') {
+      window.history.back();
+    } else {
+      setIsDrawerOpen(false);
+    }
+  };
 
   return (
     <>
@@ -27,7 +51,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Lado Esquerdo: Botão Menu Principal (Ícone Tradicional Hamburger) & Nome */}
         <div className="flex items-center gap-3">
           <button
-            onClick={() => setIsDrawerOpen(true)}
+            onClick={handleOpenDrawer}
             className="w-11 h-11 rounded-xl bg-white/5 hover:bg-sky-950/40 border border-white/10 hover:border-sky-500/40 text-amber-400 flex items-center justify-center active:scale-95 transition-all focus:outline-none shadow-md"
             title="Abrir Menu de Navegação"
             aria-label="Menu Principal"
@@ -65,11 +89,10 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Menu Lateral Deslizante (Drawer) */}
       <NavigationDrawer
         isOpen={isDrawerOpen}
-        onClose={() => setIsDrawerOpen(false)}
+        onClose={handleCloseDrawer}
         onOpenGlossary={onOpenGlossary}
         onOpenCardList={onOpenCardList}
         onResetCamera={onResetScan}
-        onOpenAdminSync={onOpenAdminSync}
         hapticEnabled={hapticEnabled}
         onToggleHaptic={onToggleHaptic}
       />

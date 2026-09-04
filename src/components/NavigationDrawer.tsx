@@ -1,5 +1,5 @@
-import React from 'react';
-import { BookOpen, Layers, RefreshCw, Volume2, VolumeX, X, ChevronRight, ShieldCheck, Database } from 'lucide-react';
+import React, { useEffect } from 'react';
+import { BookOpen, Layers, RefreshCw, Volume2, VolumeX, X, ChevronRight, ShieldCheck } from 'lucide-react';
 
 interface NavigationDrawerProps {
   isOpen: boolean;
@@ -7,7 +7,6 @@ interface NavigationDrawerProps {
   onOpenGlossary: () => void;
   onOpenCardList: () => void;
   onResetCamera: () => void;
-  onOpenAdminSync?: () => void;
   hapticEnabled: boolean;
   onToggleHaptic: () => void;
 }
@@ -18,10 +17,18 @@ export const NavigationDrawer: React.FC<NavigationDrawerProps> = ({
   onOpenGlossary,
   onOpenCardList,
   onResetCamera,
-  onOpenAdminSync,
   hapticEnabled,
   onToggleHaptic
 }) => {
+  useEffect(() => {
+    if (!isOpen) return;
+    const handleKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   const handleAction = (action: () => void) => {
@@ -129,29 +136,6 @@ export const NavigationDrawer: React.FC<NavigationDrawerProps> = ({
             </div>
             <ChevronRight className="w-4 h-4 text-slate-500 group-hover:text-amber-400 group-hover:translate-x-0.5 transition-all" />
           </button>
-
-          {/* Opção 4: Sincronização e ADM */}
-          {onOpenAdminSync && (
-            <button
-              onClick={() => handleAction(onOpenAdminSync)}
-              className="w-full p-3.5 rounded-xl bg-white/[0.02] hover:bg-amber-950/20 border border-white/5 hover:border-amber-500/40 flex items-center justify-between text-left transition-all active:scale-98 group"
-            >
-              <div className="flex items-center gap-3.5">
-                <div className="w-10 h-10 rounded-lg bg-slate-850 border border-amber-500/20 text-amber-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
-                  <Database className="w-5 h-5" />
-                </div>
-                <div>
-                  <h3 className="text-sm font-bold text-white group-hover:text-amber-300 transition-colors">
-                    Sincronização & ADM
-                  </h3>
-                  <p className="text-[11px] text-slate-400">
-                    Ingestão de cartas e automação
-                  </p>
-                </div>
-              </div>
-              <ChevronRight className="w-4 h-4 text-slate-500 group-hover:text-amber-400 group-hover:translate-x-0.5 transition-all" />
-            </button>
-          )}
 
           {/* Divisor */}
           <div className="my-3 border-t border-white/5" />

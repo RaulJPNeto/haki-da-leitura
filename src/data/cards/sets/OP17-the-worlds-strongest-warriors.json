@@ -429,7 +429,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Principal] Você pode descansar 2 das suas cartas de DON!!: K.O. Até 1 do seu oponente Stages. [Contra-Ataque] Se você tiver 2 ou mais Personagens com 8000 base Poder ou mais, Até 1 do seu Líder ou Personagens ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Principal] Você pode descansar 2 das suas cartas de DON!!: K.O. Até 1 do seu oponente Palcos. [Contra-Ataque] Se você tiver 2 ou mais Personagens com 8000 base Poder ou mais, Até 1 do seu Líder ou Personagens ganha +4000 de Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 2 of your DON!! cards: K.O. up to 1 of your opponent's Stages. [Counter] If you have 2 or more Characters with 8000 base power or more, up to 1 of your Leader or Characters gains +4000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -1529,7 +1529,7 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "todos os carta(s) de Personagem na sua mão sem Contra-Ataque têm Contra-Ataque +1000. [Ativar: Principal] [1 Vez por Turno] DON!! −1: Se este Personagem foi jogado on este turno, anule o efeito de Até 1 dos Personagens do seu oponente com custo de 6 ou menos durante este turno, e K.O. ela.",
+    "effectPt": "todos os carta(s) de Personagem na sua mão sem Contra-Ataque têm Contra-Ataque +1000. [Ativar: Principal] [1 Vez por Turno] DON!! −1: Se este Personagem foi jogado neste turno, anule o efeito de Até 1 dos Personagens do seu oponente com custo de 6 ou menos durante este turno, e K.O. ela.",
     "effectEn": "All Character cards in your hand without a Counter have a +1000 Counter. [Activate: Main] [Once Per Turn] DON!! −1: If this Character was played on this turn, negate the effect of up to 1 of your opponent's Characters with a cost of 6 or less during this turn, and K.O. it.",
     "keywordIds": [
       "once-per-turn"
@@ -2889,7 +2889,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Principal] Você pode descansar 2 das suas cartas de DON!!: K.O. Até 1 do seu oponente Stages. [Contra-Ataque] Se você tiver 2 ou mais Personagens com a [Gatilho], Até 1 do seu Líder ou Personagens ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Principal] Você pode descansar 2 das suas cartas de DON!!: K.O. Até 1 do seu oponente Palcos. [Contra-Ataque] Se você tiver 2 ou mais Personagens com a [Gatilho], Até 1 do seu Líder ou Personagens ganha +4000 de Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 2 of your DON!! cards: K.O. up to 1 of your opponent's Stages. [Counter] If you have 2 or more Characters with a [Trigger], up to 1 of your Leader or Characters gains +4000 power during this battle.",
     "keywordIds": [
       "trigger",
