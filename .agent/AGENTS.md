@@ -106,22 +106,58 @@ Antes de considerar qualquer entrega finalizada, forneça ao desenvolvedor os co
 
 ---
 
-## 9. Git e Versionamento
+## 9. Git, Versionamento e Proteção de Produção
 
-O agente **NÃO deve executar**:
+### ⚠️ Verificação Obrigatória de Branch:
+Antes de iniciar qualquer modificação ou implementação de código:
+1. **Checagem de Branch:** O agente DEVE verificar a branch atual (ex: `git branch --show-current`).
+2. **Alerta de Branch Incorreta:** Se o desenvolvedor estiver na branch `main` (que está diretamente conectada à produção/deploy contínuo da Cloudflare), o agente **DEVE AVISAR IMEDIATAMENTE** que a branch `main` é de produção e **NÃO deve realizar alterações de código nela**.
+3. **Recomendação Semântica de Branch:** O agente deve recomendar o comando exato para criar uma branch temática para a tarefa:
+   * Para correção de bugs: `git checkout -b fix/<nome-do-bug>` (ex: `git checkout -b fix/camera-freeze`)
+   * Para novas funcionalidades: `git checkout -b feat/<nome-da-feature>` (ex: `git checkout -b feat/anti-glare-filter`)
+   * Para melhorias de dados/léxico: `git checkout -b chore/<nome-da-tarefa>` (ex: `git checkout -b chore/hybrid-lexicon`)
+
+### 🚫 Comandos Proibidos:
+O agente **NUNCA deve executar**:
 * `git commit`
 * `git push`
 * `git reset --hard`
 * `git clean`
 * Qualquer comando destrutivo no histórico.
 
-Antes de propor mensagens de commit, consulte o status com `git status` e/ou `git diff` e formate a sugestão de commit semântico para que o desenvolvedor execute manualmente.
+---
+
+## 10. Fluxo Obrigatório de Desenvolvimento (Revisão pelo Dev & Arquiteto)
+
+Todo trabalho deve seguir rigorosamente as 4 fases abaixo:
+
+### Fase 1: Plano de Implementação Antecipado (Validação Prévia)
+* **NENHUM CÓDIGO DEVE SER ALTERADO OU CRIADO** antes que um Plano de Implementação seja apresentado ao desenvolvedor (que atua como desenvolvedor e arquiteto do projeto).
+* O plano deve conter:
+  1. *Objetivo & Diagnóstico:* O que será feito e por quê.
+  2. *Impacto Arquitetural & Componentes:* Quais arquivos e fluxos serão tocados.
+  3. *Divisão em Tarefas Incrementais:* A decomposição das etapas da implementação.
+* O agente deve aguardar o **OK explícito** do desenvolvedor antes de escrever o código.
+
+### Fase 2: Execução Fatiada em Tarefas
+* O desenvolvimento deve ocorrer de forma modular, fatiado nas tarefas previamente aprovadas.
+* O código gerado deve respeitar KISS, YAGNI, Clean Code e tipagem estrita (zero `any`).
+
+### Fase 3: Roteiro de Teste e Validação Passo a Passo
+* Ao concluir a implementação técnica de uma tarefa, o agente DEVE fornecer um **passo a passo detalhado de teste manual**:
+  1. Como inicializar ou pré-visualizar localmente (`npm run dev` ou `npm run preview`).
+  2. Quais ações específicas executar no navegador/celular (ex: abrir tela X, girar aparelho, minimizar aba, clicar em botão Y).
+  3. O comportamento esperado versus o que não deve acontecer.
+
+### Fase 4: Mensagem de Commit Apenas Após o "OK"
+* **É PROIBIDO** sugerir ou entregar comandos de commit (`git add` / `git commit`) antecipadamente.
+* A sugestão de commit semântico **SÓ DEVE SER APRESENTADA** após o desenvolvedor testar a solução, aprovar o resultado e enviar uma mensagem de "OK" / aprovação explícita no chat.
 
 ---
 
-## 10. Formato da Entrega
+## 11. Formato da Entrega
 
-Ao finalizar uma tarefa, estruture a resposta com:
+Ao finalizar uma tarefa para revisão do desenvolvedor/arquiteto, estruture a resposta com:
 
 ### Implementação
 Resumo conciso do que foi alterado ou criado.
@@ -132,8 +168,8 @@ Lista com links markdown clicáveis dos arquivos modificados/criados.
 ### Decisões Técnicas
 Explicação da abordagem adotada (KISS, YAGNI, Clean Code).
 
-### Validação
-Comandos manuais que o desenvolvedor deve executar.
+### Passo a Passo de Teste Manual
+Roteiro claro e enumerado para que o desenvolvedor execute e valide a solução na sua máquina ou dispositivo.
 
-### Pendências / Próximos Passos
-Eventuais dependências de decisão do desenvolvedor.
+### Status de Aprovação
+Pergunta orientada para que o desenvolvedor valide o teste e forneça o OK para prosseguir com a sugestão de commit.

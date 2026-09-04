@@ -1,5 +1,5 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
+import { Camera, CameraOff, Loader2, Zap, Sparkles, RefreshCw, Focus } from 'lucide-react';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
 
@@ -42,6 +42,8 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const workerRef = useRef<any>(null);
   const streamRef = useRef<MediaStream | null>(null);
 
+  // Controle de Ativação / Pausa da Câmera (ON/OFF)
+  const [isCameraEnabled, setIsCameraEnabled] = useState<boolean>(true);
   const [hasCamera, setHasCamera] = useState<boolean>(false);
   const [cameraLoading, setCameraLoading] = useState<boolean>(true);
   const [cameraError, setCameraError] = useState<string | null>(null);
@@ -240,7 +242,24 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     setTorchOn(false);
   }, []);
 
+  // Ligar/Desligar Câmera com Feedback Háptico
+  const toggleCamera = useCallback(() => {
+    if (navigator.vibrate) navigator.vibrate(25);
+    setIsCameraEnabled((prev) => {
+      const next = !prev;
+      if (!next) {
+        stopCamera();
+      }
+      return next;
+    });
+  }, [stopCamera]);
+
   useEffect(() => {
+    if (!isCameraEnabled) {
+      stopCamera();
+      return;
+    }
+
     startCamera();
 
     // Pausar câmera quando usuário mudar de guia ou minimizar navegador no celular
@@ -248,7 +267,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
       clearTimeout(resumeTimeoutRef.current);
       if (document.hidden || document.visibilityState === 'hidden') {
         stopCamera();
-      } else if (document.visibilityState === 'visible') {
+      } else if (document.visibilityState === 'visible' && isCameraEnabled) {
         // Atraso seguro (350ms) para dar tempo do subsistema de câmera do Android/iOS ser liberado pelo SO
         resumeTimeoutRef.current = setTimeout(() => {
           startCamera();
@@ -258,7 +277,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
     // Cobrir retorno de lock screen e alternância de apps no PWA standalone (iOS/Android)
     const handleWindowFocus = () => {
-      if (document.visibilityState === 'visible') {
+      if (document.visibilityState === 'visible' && isCameraEnabled) {
         const isDead = !streamRef.current || streamRef.current.getVideoTracks().some((t) => t.readyState === 'ended');
         if (isDead) {
           clearTimeout(resumeTimeoutRef.current);
@@ -275,7 +294,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
     // Watchdog de 3s: se a tela estiver aberta mas o vídeo congelado ou pausado, acorda o play
     const watchdog = setInterval(() => {
-      if (document.visibilityState === 'visible' && videoRef.current) {
+      if (document.visibilityState === 'visible' && videoRef.current && isCameraEnabled) {
         if (videoRef.current.paused && streamRef.current?.active) {
           videoRef.current.play().catch(() => {});
         }
@@ -290,7 +309,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
       window.removeEventListener('focus', handleWindowFocus);
       stopCamera();
     };
-  }, [startCamera, stopCamera]);
+  }, [isCameraEnabled, startCamera, stopCamera]);
 
   // Alternar Lanterna com Feedback Háptico
   const toggleTorch = async () => {
@@ -821,8 +840,30 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
   return (
     <div className="relative w-full flex-1 h-full min-h-0 bg-slate-950 overflow-hidden flex flex-col justify-between items-center select-none">
-      {/* Feed da Câmera Totalmente Nítido e Direto */}
-      {hasCamera ? (
+      {/* Feed da Câmera ou Tela de Standby / Permissão */}
+      {!isCameraEnabled ? (
+        /* Tela de Câmera em Pausa (Economia de Recursos) */
+        <div className="absolute inset-0 z-0 flex flex-col items-center justify-center p-6 bg-slate-950 text-center">
+          <div className="w-16 h-16 rounded-2xl bg-[#0e1320] border border-red-500/30 flex items-center justify-center mb-3 shadow-xl">
+            <CameraOff className="w-8 h-8 text-red-400" />
+          </div>
+
+          <h3 className="text-base font-bold text-white font-heading">
+            Câmera Desativada
+          </h3>
+
+          <p className="text-xs text-slate-400 max-w-xs mt-1 leading-relaxed">
+            A câmera está pausada para economizar bateria e memória do seu dispositivo.
+          </p>
+
+          <button
+            onClick={toggleCamera}
+            className="mt-5 px-6 py-3.5 bg-gradient-to-r from-emerald-600 to-teal-700 hover:from-emerald-500 hover:to-teal-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-emerald-950/50 active:scale-95 transition-all flex items-center gap-2 font-heading"
+          >
+            <Camera className="w-4 h-4" /> Ligar Câmera Agora
+          </button>
+        </div>
+      ) : hasCamera ? (
         <video
           ref={videoRef}
           autoPlay
@@ -1000,10 +1041,26 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             );
           })()}
 
-          {/* Barra de Controles Rápidos Flutuantes (Lanterna e Foco) */}
-          <div className="absolute top-2 right-2 flex items-center gap-1.5 z-30 pointer-events-auto">
+          {/* Barra de Controles Rápidos Flutuantes (Ligar/Desligar, Foco, Lanterna, Reset) */}
+          <div className="absolute top-2.5 right-2.5 flex items-center gap-1.5 z-30 pointer-events-auto">
+            {/* Botão Ligar / Desligar Câmera (ON/OFF) */}
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                toggleCamera();
+              }}
+              className={`w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg transition-all active:scale-90 ${
+                isCameraEnabled
+                  ? 'bg-slate-900/90 border-emerald-500/40 text-emerald-400 hover:text-white'
+                  : 'bg-red-950/90 border-red-500/50 text-red-300 shadow-[0_0_15px_rgba(239,68,68,0.4)]'
+              }`}
+              title={isCameraEnabled ? 'Desligar Câmera (Pausar e Economizar Bateria)' : 'Ligar Câmera'}
+            >
+              {isCameraEnabled ? <Camera className="w-4 h-4" /> : <CameraOff className="w-4 h-4" />}
+            </button>
+
             {/* Botão de Refoco Manual */}
-            {hasCamera && (
+            {hasCamera && isCameraEnabled && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -1021,7 +1078,7 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             )}
 
             {/* Botão de Lanterna (Torch) */}
-            {torchAvailable && hasCamera && (
+            {torchAvailable && hasCamera && isCameraEnabled && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -1037,46 +1094,9 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
                 <Zap className="w-4 h-4 fill-current" />
               </button>
             )}
-          </div>
 
-          {/* Feixe de Laser de Escaneamento Animado */}
-          {isScanning && hasCamera && <div className="animate-scan-beam" />}
-
-          {/* Badge Instrução Flutuante */}
-          <div className="px-4 py-2 rounded-xl bg-slate-950/95 border border-sky-400/40 text-xs font-bold text-slate-100 tracking-wider shadow-xl flex items-center gap-1.5 pointer-events-none mt-auto mb-2">
-            {isRecognizing ? (
-              <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
-            ) : (
-              <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
-            )}
-            <span>{isRecognizing ? 'Lendo Carta...' : 'Toque para focar ou alinhe a carta'}</span>
-          </div>
-
-          {/* Botões de Controle na Base da Moldura */}
-          <div className="flex items-center gap-2 pointer-events-auto z-30">
-            {/* Botão de Captura Imediata */}
-            {hasCamera && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  if (navigator.vibrate) navigator.vibrate(30);
-                  processFrame();
-                }}
-                disabled={isRecognizing}
-                className="px-4 py-2 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-amber-950/40 active:scale-95 transition-all flex items-center gap-1.5 disabled:opacity-50"
-                title="Capturar e Ler Agora"
-              >
-                {isRecognizing ? (
-                  <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                ) : (
-                  <Camera className="w-3.5 h-3.5" />
-                )}
-                {isRecognizing ? 'Processando...' : 'Ler Agora'}
-              </button>
-            )}
-
-            {/* Botão de Reconectar / Reiniciar Câmera */}
-            {hasCamera && (
+            {/* Botão de Reiniciar Câmera */}
+            {hasCamera && isCameraEnabled && (
               <button
                 onClick={(e) => {
                   e.stopPropagation();
@@ -1084,12 +1104,31 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
                   startCamera();
                 }}
                 disabled={cameraLoading}
-                className="p-2 rounded-xl border text-xs shadow-md active:scale-95 transition-all bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white"
+                className="w-9 h-9 rounded-xl border flex items-center justify-center shadow-lg active:scale-90 transition-all bg-slate-900/90 border-slate-700 text-slate-300 hover:text-white"
                 title="Reiniciar Câmera (caso a imagem congele ou fique escura)"
               >
                 <RefreshCw className={`w-3.5 h-3.5 ${cameraLoading ? 'animate-spin text-amber-400' : ''}`} />
               </button>
             )}
+          </div>
+
+          {/* Feixe de Laser de Escaneamento Animado */}
+          {isScanning && hasCamera && isCameraEnabled && <div className="animate-scan-beam" />}
+
+          {/* Badge Instrução Flutuante no Rodapé da Moldura */}
+          <div className="px-4 py-2 rounded-xl bg-slate-950/95 border border-sky-400/40 text-xs font-bold text-slate-100 tracking-wider shadow-xl flex items-center gap-1.5 pointer-events-none mt-auto mb-2">
+            {isRecognizing ? (
+              <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
+            ) : (
+              <Sparkles className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
+            )}
+            <span>
+              {!isCameraEnabled
+                ? 'Câmera em Pausa'
+                : isRecognizing
+                ? 'Lendo Carta...'
+                : 'Toque para focar ou alinhe a carta'}
+            </span>
           </div>
         </div>
 
