@@ -120,7 +120,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua mão no topo do seu Deck: Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-17",
     "setName": "Blue Donquixote Doflamingo"

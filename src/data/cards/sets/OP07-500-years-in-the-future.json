@@ -18,7 +18,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 2 total dos seus cartas de DON!! atualmente anexadas para 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 2 total of your currently given DON!! cards to 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -66,7 +66,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Dê a até 2 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Give up to 2 of your opponent's Characters −2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -240,8 +242,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -466,9 +467,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Leader or Character cards.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -492,8 +491,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder tiver o tipo {Homem-Peixe}, jogue Até 1 {Homem-Peixe} ou {Tritão} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Fish-Man} type, play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -518,7 +516,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] Set up to 1 of your DON!! cards as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -712,8 +711,7 @@
     "effectPt": "Se o seu Líder tiver o tipo {Supernovas}, este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descanse 1 dos Personagens do seu oponente em vez disso.",
     "effectEn": "If your Leader has the {Supernovas} type, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your opponent's Characters instead.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -763,7 +761,6 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Your Turn] [Once Per Turn] If a Character is rested by your effect, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-07",
@@ -941,7 +938,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] este efeito pode ser ativado(a) quando a Personagem for removido(a) de campo por seu efeito. Se você tiver 5 ou menos cartas na sua mão, Compre 1 carta(s).",
     "effectEn": "[Your Turn] [Once Per Turn] This effect can be activated when a Character is removed from the field by your effect. If you have 5 or less cards in your hand, draw 1 card.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-07",
@@ -1039,9 +1035,7 @@
     ],
     "effectPt": "[Once Per Turn] Se o seu Líder tiver o tipo {Sete Corsários} e este Personagem for ser removido de campo por um efeito do seu oponente, Você pode colocar 1 dos seus Personagens diferente de [Gecko Moria] no fundo do Deck do dono em vez disso.",
     "effectEn": "[Once Per Turn] If your Leader has the {The Seven Warlords of the Sea} type and this Character would be removed from the field by your opponent's effect, you may place 1 of your Characters other than [Gecko Moria] at the bottom of the owner's deck instead.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -1164,7 +1158,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode retorne este Personagem para a mão do dono: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a).",
     "effectEn": "[Activate: Main] You may return this Character to the owner's hand: If your opponent has 6 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -1188,7 +1184,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Revele 1 carta do topo do seu Deck. Se que carta for a {Sete Corsários} tipo carta(s) de Personagem com custo de 4 ou menos, Você pode jogue que carta descansado(a). Em seguida, coloque o restante no fundo do seu Deck.",
     "effectEn": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type Character card with a cost of 4 or less, you may play that card rested. Then, place the rest at the bottom of your deck.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -1437,7 +1433,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Se o seu Líder tiver o tipo {Piratas Kuja}, retorne Até 1 dos seus {Amazon Lily} ou {Piratas Kuja} tipo Personagens para a mão do dono.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: If your Leader has the {Kuja Pirates} type, return up to 1 of your {Amazon Lily} or {Kuja Pirates} type Characters to the owner's hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -1484,7 +1482,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se o seu Líder tiver o tipo {Piratas Foxy} e você não tiver outros [Itomimizu], Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] [Once Per Turn] If your Leader has the {Foxy Pirates} type and you have no other [Itomimizu], add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -1751,7 +1749,7 @@
     "effectPt": "[Opponent's Turn] Se o seu Líder tiver o tipo {Piratas Foxy}, dê todos os dos Personagens do seu oponente −1000 Poder. [Activate: Main] [Once Per Turn] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Opponent's Turn] If your Leader has the {Foxy Pirates} type, give all of your opponent's Characters −1000 power. [Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -1799,7 +1797,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu oponente tiver 3 ou mais Personagens, coloque este Personagem como ativo.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 3 or more Characters, set this Character as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -1823,7 +1821,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas Foxy}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Foxy Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
   },
@@ -2044,6 +2044,8 @@
     "effectPt": "[Activate: Main] Você pode colocar 4 {Piratas de Thriller Bark} tipo cartas da sua lixeira no fundo do seu Deck em qualquer ordem: este Personagem ganha [Banish] e +1000 Poder durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[Activate: Main] You may place 4 {Thriller Bark Pirates} type cards from your trash at the bottom of your deck in any order: This Character gains [Banish] and +1000 power during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
+      "activate-main",
+      "trigger",
       "banish"
     ],
     "setId": "OP-07",
@@ -2386,7 +2388,7 @@
     "effectPt": "este Líder não pode atacar. [Activate: Main] [Once Per Turn] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Selecione Até 1 {Egghead} carta do tipo com custo de 5 ou menos da sua mão e jogue ela ou adicione ela para o topo das suas cartas de Vida viradas para cima.",
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ① (You may rest the specified number of DON!! cards in your cost area.): Select up to 1 {Egghead} type card with a cost of 5 or less from your hand and play it or add it to the top of your Life cards face-up.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -2607,8 +2609,7 @@
     "triggerPt": "[Trigger] Se o seu Líder for [Vegapunk], jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -2710,6 +2711,7 @@
     "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "OP-07",
@@ -2791,8 +2793,7 @@
     "effectPt": "[When Attacking] [Once Per Turn] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Você pode Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. Em seguida, Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[When Attacking] [Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: You may rest up to 1 of your opponent's Characters with a cost of 4 or less. Then, if you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-07",
     "setName": "500 YEARS IN THE FUTURE"
@@ -2924,6 +2925,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "your-turn",
       "trigger"
     ],
     "setId": "OP-07",

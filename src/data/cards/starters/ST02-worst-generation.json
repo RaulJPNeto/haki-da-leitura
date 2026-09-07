@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: coloque este Líder como ativo.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-02",
     "setName": "Worst Generation"
@@ -163,7 +163,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-02",
     "setName": "Worst Generation"
   },
@@ -237,7 +239,6 @@
     "effectPt": "[DON!! x1] [Once Per Turn] [Your Turn] Se este Personagem battles do seu oponente Personagem, coloque esta carta como ativa.",
     "effectEn": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "ST-02",
@@ -308,7 +309,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this Character as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "ST-02",
     "setName": "Worst Generation"

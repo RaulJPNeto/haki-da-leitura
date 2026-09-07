@@ -20,10 +20,10 @@
     "effectPt": "[DON!! x1] [Opponent's Turn] Se os únicos Personagens no seu campo forem {East azul} tipo Personagens, dê todos os dos Personagens do seu oponente −2000 Poder. [Activate: Main] [Once Per Turn] descanse até 1 Personagem(ns) do seu oponente que tiver 2 ou mais cartas de DON!! given.",
     "effectEn": "[DON!! x1] [Opponent's Turn] If the only Characters on your field are {East Blue} type Characters, give all of your opponent's Characters −2000 power. [Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters that has 2 or more DON!! cards given.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-002",
@@ -47,10 +47,10 @@
     "effectEn": "[When Attacking]/[On Your Opponent's Attack] You may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed. [Activate: Main] [Once Per Turn] If you have activated an Event with a base cost of 3 or more during this turn, draw 1 card.",
     "keywordIds": [
       "when-attacking",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-003",
@@ -72,10 +72,10 @@
     "effectPt": "Se este Personagem for ser nocauteado, Você pode descartar 1 carta(s) de Personagem com a Poder de 6000 ou menos da sua mão em vez disso. [Activate: Main] [Once Per Turn] Você pode dê 1 do seu oponente descansado(a) cartas de DON!! para 1 dos Personagens do seu oponente: Dê Até 1 descansado(a) DON!! carta para its dono's Líder ou 1 de dele(a) Personagens.",
     "effectEn": "If this Character would be K.O.'d, you may trash 1 Character card with a power of 6000 or less from your hand instead. [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-004",
@@ -100,7 +100,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-005",
@@ -125,7 +125,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-006",
@@ -148,7 +148,7 @@
     "effectEn": "If you have 4 or more Events in your trash, this Character gains +2000 power.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-007",
@@ -173,7 +173,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-008",
@@ -197,10 +197,10 @@
     "keywordIds": [
       "rush",
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-009",
@@ -223,7 +223,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may give your Leader −2000 power during this turn instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-010",
@@ -245,10 +245,10 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) DON!! carta para its dono's Líder ou 1 de dele(a) Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-011",
@@ -270,11 +270,10 @@
     "effectPt": "[Opponent's Turn] Se o seu Líder tiver o tipo {East azul}, este Personagem ganha [Blocker] e +2000 Poder. [On K.O.] Se o seu Líder tiver o tipo {East azul}, Dê K.O. em até 1 Personagem(ns) do seu oponente com 6000 ou menos de Poder base.",
     "effectEn": "[Opponent's Turn] If your Leader has the {East Blue} type, this Character gains [Blocker] and +2000 power. [On K.O.] If your Leader has the {East Blue} type, K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-012",
@@ -296,11 +295,10 @@
     "effectPt": "[When Attacking] Dê Até 1 descansado(a) DON!! carta para its dono's Líder ou 1 de dele(a) Personagens. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[When Attacking] Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "when-attacking",
-      "on-ko"
+      "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-013",
@@ -325,7 +323,7 @@
       "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-014",
@@ -350,7 +348,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-015",
@@ -375,7 +373,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-016",
@@ -397,7 +395,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-017",
@@ -420,10 +418,10 @@
     "effectEn": "[Blocker] [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 rested DON!! card to its owner's Leader or 1 of their Characters.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-018",
@@ -448,7 +446,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-019",
@@ -474,7 +472,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-020",
@@ -496,7 +494,7 @@
     "effectEn": "[Main] Your Leader gains +3000 power during this turn and give up to 1 of your opponent's Characters −8000 power until the end of your opponent's next End Phase. Then, you may trash 2 cards from your hand. If you do, K.O. up to 1 of your opponent's Characters with 0 power or less.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-021",
@@ -520,7 +518,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-022",
@@ -542,10 +540,10 @@
     "effectPt": "De acordo com as regras deste jogo, você do not lose quando seu Deck tiver 0 cartas. você lose no fim do turno no qual seu Deck torna-se 0 cartas. [Activate: Main] [Once Per Turn] descarte 4 carta(s) do topo do seu Deck. Em seguida, se seu Deck tiver 0 cartas, coloque Até 1 dos seus Personagens as ativo(a).",
     "effectEn": "Under the rules of this game, you do not lose when your deck has 0 cards. You lose at the end of the turn in which your deck becomes 0 cards. [Activate: Main] [Once Per Turn] Trash 4 cards from the top of your deck. Then, if your deck has 0 cards, set up to 1 of your Characters as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-023",
@@ -568,11 +566,10 @@
     "effectPt": "[On K.O.] Até 2 do seu oponente descansado(a) cartas não ficará ativo na próxima Fase de Restauração do seu oponente. [Activate: Main] [Once Per Turn] Você pode dê 1 do seu oponente descansado(a) cartas de DON!! para 1 dos Personagens do seu oponente: Dê Até 1 DON!! carta de its dono's custo área para its dono's Líder ou 1 de dele(a) Personagens.",
     "effectEn": "[On K.O.] Up to 2 of your opponent's rested cards will not become active in your opponent's next Refresh Phase. [Activate: Main] [Once Per Turn] You may give 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters: Give up to 1 DON!! card from its owner's cost area to its owner's Leader or 1 of their Characters.",
     "keywordIds": [
-      "once-per-turn",
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-024",
@@ -593,11 +590,10 @@
     "effectPt": "[Opponent's Turn] este Personagem não pode ser descansado por do seu oponente Líder e Personagem efeitos e ganha [Blocker]. [On K.O.] descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem com custo de 7 ou menos.",
     "effectEn": "[Opponent's Turn] This Character cannot be rested by your opponent's Leader and Character effects and gains [Blocker]. [On K.O.] Rest up to 1 of your opponent's Leader or Character cards with a cost of 7 or less.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-025",
@@ -623,7 +619,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-026",
@@ -645,10 +641,11 @@
     "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck; revele até 1 {East azul} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descartar este Personagem: Dê Até 1 do seu oponente descansado(a) cartas de DON!! para 1 dos Personagens do seu oponente.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {East Blue} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] You may trash this Character: Give up to 1 of your opponent's rested DON!! cards to 1 of your opponent's Characters.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-027",
@@ -673,7 +670,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-028",
@@ -698,7 +695,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-029",
@@ -723,7 +720,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-030",
@@ -746,7 +743,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-031",
@@ -771,7 +768,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-032",
@@ -792,10 +789,11 @@
     "effectPt": "[On Play] descanse Até 1 do seu oponente cartas. [Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, coloque Até 1 dos seus Personagens com a base custo de 8 ou menos as ativo(a).",
     "effectEn": "[On Play] Rest up to 1 of your opponent's cards. [Activate: Main] You may trash this Character: If your Leader has the {Straw Hat Crew} type, set up to 1 of your Characters with a base cost of 8 or less as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-033",
@@ -821,7 +819,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-034",
@@ -846,7 +844,7 @@
       "your-turn"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-035",
@@ -868,7 +866,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may rest 2 of your cards instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-036",
@@ -894,7 +892,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-037",
@@ -920,7 +918,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-038",
@@ -944,7 +942,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-039",
@@ -964,9 +962,11 @@
     ],
     "effectPt": "este Líder não pode atacar. [Activate: Main] Você pode descanse este Líder e retorne 1 dos seus Personagens do tipo {Dressrosa} para a mão do dono: Jogue Até 1 {Dressrosa} tipo carta(s) de Personagem com custo de 3 da sua mão.",
     "effectEn": "This Leader cannot attack. [Activate: Main] You may rest this Leader and return 1 of your {Dressrosa} type Characters to the owner's hand: Play up to 1 {Dressrosa} type Character card with a cost of 3 from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-040",
@@ -991,7 +991,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-041",
@@ -1014,11 +1014,10 @@
     "effectEn": "[On K.O.] Draw 1 card. [Activate: Main] [Once Per Turn] You may place 1 of your Characters at the bottom of the owner's deck: This Character gains [Rush] during this turn.",
     "keywordIds": [
       "rush",
-      "once-per-turn",
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-042",
@@ -1040,11 +1039,10 @@
     "effectEn": "[On Play] You may trash 1 card from your hand: If your Leader is [Rebecca], this Character gains [Rush] during this turn. [On K.O.] Add this Character card from your trash to your hand.",
     "keywordIds": [
       "rush",
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-043",
@@ -1069,7 +1067,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-044",
@@ -1091,11 +1089,10 @@
     "effectPt": "[Blocker] [On K.O.] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Dressrosa} tipo Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Blocker] [On K.O.] Look at 3 cards from the top of your deck; reveal up to 1 {Dressrosa} type Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-045",
@@ -1121,7 +1118,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-046",
@@ -1147,7 +1144,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-047",
@@ -1170,11 +1167,10 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Up to 1 of your Characters gains [Unblockable] during this turn. (This card cannot be blocked.)",
     "keywordIds": [
       "blocker",
-      "on-play",
-      "unblockable"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-048",
@@ -1196,11 +1192,10 @@
     "effectPt": "[On Play] Você pode descartar 1 Evento da sua mão: Compre 2 carta(s). [Opponent's Turn] [On K.O.] seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a).",
     "effectEn": "[On Play] You may trash 1 Event from your hand: Draw 2 cards. [Opponent's Turn] [On K.O.] Your opponent places 1 card from their hand at the bottom of their deck.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-049",
@@ -1224,7 +1219,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-050",
@@ -1247,7 +1242,7 @@
     "effectEn": "If you have [Kelly Funk], this Character gains +3000 power.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-051",
@@ -1270,7 +1265,7 @@
     "effectEn": "[Opponent's Turn] If your Leader has the {Dressrosa} type, this Character gains +3000 power.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-052",
@@ -1293,7 +1288,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 1 of your Characters at the bottom of the owner's deck instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-053",
@@ -1318,7 +1313,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-054",
@@ -1340,7 +1335,7 @@
     "effectEn": "[Main] If your Leader is [Lucy], choose one: • Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Dressrosa} type Character card with a cost of 4 or less from your hand. • Return up to 1 Stage to the owner's hand.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-055",
@@ -1364,7 +1359,7 @@
       "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-056",
@@ -1391,7 +1386,7 @@
       "double-attack"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-057",
@@ -1414,7 +1409,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-058",
@@ -1435,10 +1430,10 @@
     "effectPt": "De acordo com as regras deste jogo, seu Deck de DON!! consists de 6 cartas. [Activate: Main] [Once Per Turn] Se ela for seu second turno ou later, adicione Até 1 DON!! carta do seu Deck de DON!! e coloque-a como ativa, e adicione Até 4 adicional cartas de DON!! e descanse elas. Em seguida, dê Até 4 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
     "effectEn": "Under the rules of this game, your DON!! deck consists of 6 cards. [Activate: Main] [Once Per Turn] If it is your second turn or later, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 4 additional DON!! cards and rest them. Then, give up to 4 rested DON!! cards to 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-059",
@@ -1460,7 +1455,7 @@
     "effectEn": "[On Your Opponent's Attack] You may rest this Character: Your opponent may return 1 of their active DON!! cards to their DON!! deck. If they do not, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-060",
@@ -1481,10 +1476,11 @@
     "effectPt": "Se você tiver 6 ou menos cartas de DON!! no seu campo, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes e ganha +2000 de Poder. [Activate: Main] DON!! −1: este Personagem ganha [Blocker] até o fim da próxima Fase Final do seu oponente. Em seguida, descarte 1 carta(s) da sua mão.",
     "effectEn": "If you have 6 or less DON!! cards on your field, this Character cannot be removed from the field by your opponent's effects and gains +2000 power. [Activate: Main] DON!! −1: This Character gains [Blocker] until the end of your opponent's next End Phase. Then, trash 1 card from your hand.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-061",
@@ -1510,7 +1506,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-062",
@@ -1533,7 +1529,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-063",
@@ -1555,11 +1551,10 @@
     "effectPt": "[On Play] DON!! −1: Compre 1 carta(s). [On K.O.] Se você tiver 6 ou menos cartas de DON!! no seu campo, K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
     "effectEn": "[On Play] DON!! −1: Draw 1 card. [On K.O.] If you have 6 or less DON!! cards on your field, K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-064",
@@ -1579,9 +1574,11 @@
     ],
     "effectPt": "[Activate: Main] DON!! −2, Você pode descansar este Personagem: Se você tiver [Satori] e [Hotori], descanse até 1 Personagem(ns) do seu oponente com 5000 ou menos de Poder.",
     "effectEn": "[Activate: Main] DON!! −2, You may rest this Character: If you have [Satori] and [Hotori], rest up to 1 of your opponent's Characters with 5000 power or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-065",
@@ -1606,7 +1603,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-066",
@@ -1632,7 +1629,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-067",
@@ -1658,7 +1655,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-068",
@@ -1682,7 +1679,7 @@
       "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-069",
@@ -1705,7 +1702,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-070",
@@ -1726,11 +1723,9 @@
     ],
     "effectPt": "todos os dos seus [Shura] cartas e este Personagem ganha [Unblockable]. (esta carta não pode ser blocked.) [Opponent's Turn] todos os dos seus [Shura] cartas' base Poder e este Personagem's base Poder become 6000.",
     "effectEn": "All of your [Shura] cards and this Character gain [Unblockable]. (This card cannot be blocked.) [Opponent's Turn] All of your [Shura] cards' base power and this Character's base power become 6000.",
-    "keywordIds": [
-      "unblockable"
-    ],
+    "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-071",
@@ -1755,7 +1750,7 @@
       "double-attack"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-072",
@@ -1775,9 +1770,11 @@
     ],
     "effectPt": "[Activate: Main] DON!! −2, Você pode descansar este Personagem: Se você tiver [Kotori] e [Satori], Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] DON!! −2, You may rest this Character: If you have [Kotori] and [Satori], give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-073",
@@ -1802,7 +1799,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-074",
@@ -1825,7 +1822,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-075",
@@ -1848,7 +1845,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-076",
@@ -1871,7 +1868,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-077",
@@ -1892,7 +1889,7 @@
     "effectEn": "[Main] DON!! −1: Draw 1 card. Then, up to 1 of your opponent's rested Characters with 6000 power or less will not become active in your opponent's next Refresh Phase.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-078",
@@ -1915,7 +1912,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-079",
@@ -1938,11 +1935,10 @@
     "triggerPt": "[Trigger] ative esta carta's [On K.O.] efeito.",
     "triggerEn": "[Trigger] Activate this card's [On K.O.] effect.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-080",
@@ -1963,11 +1959,9 @@
     ],
     "effectPt": "Se você tiver [Gecko Moria] com 10000 ou mais de Poder no seu campo e there forem no outro(a) [Oars] cartas, este Personagem ganha +7000 de Poder. [On K.O.] Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem: Jogue este Personagem carta da sua lixeira.",
     "effectEn": "If you have [Gecko Moria] with 10000 power or more on your field and there are no other [Oars] cards, this Character gains +7000 power. [On K.O.] You may place 3 cards from your trash at the bottom of your deck in any order: Play this Character card from your trash.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-081",
@@ -1991,7 +1985,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-082",
@@ -2012,11 +2006,10 @@
     "effectPt": "[On Play] descarte 3 carta(s) do topo do seu Deck. [On K.O.] adicione Até 1 do seu Personagem cartas com custo de 8 ou menos da sua lixeira para a sua mão.",
     "effectEn": "[On Play] Trash 3 cards from the top of your deck. [On K.O.] Add up to 1 of your Character cards with a cost of 8 or less from your trash to your hand.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-083",
@@ -2037,10 +2030,11 @@
     "effectPt": "[On Play] descarte 3 carta(s) do topo do seu Deck. [Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, dê Até 1 descansado(a) DON!! carta para 1 do seu Líder ou carta(s) de Personagem.",
     "effectEn": "[On Play] Trash 3 cards from the top of your deck. [Activate: Main] You may trash this Character: If you have 15 or more cards in your trash, give up to 1 rested DON!! card to 1 of your Leader or Character cards.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-084",
@@ -2061,11 +2055,10 @@
     "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas de Thriller Bark}, descarte 5 carta(s) do topo do seu Deck. [On K.O.] Se você tiver 6 ou menos cartas na sua mão, Compre 1 carta(s).",
     "effectEn": "[On Play] If your Leader has the {Thriller Bark Pirates} type, trash 5 cards from the top of your deck. [On K.O.] If you have 6 or less cards in your hand, draw 1 card.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-085",
@@ -2087,10 +2080,11 @@
     "effectPt": "[On Play] descarte 3 carta(s) do topo do seu Deck. [Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, adicione Até 1 {Bando do Chapéu de Palha} tipo carta(s) de Personagem diferente de [Tony Tony.Chopper] da sua lixeira para a sua mão.",
     "effectEn": "[On Play] Trash 3 cards from the top of your deck. [Activate: Main] You may trash this Character: If your Leader has the {Straw Hat Crew} type, add up to 1 {Straw Hat Crew} type Character card other than [Tony Tony.Chopper] from your trash to your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-086",
@@ -2115,7 +2109,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-087",
@@ -2140,7 +2134,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-088",
@@ -2164,7 +2158,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-089",
@@ -2186,7 +2180,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-090",
@@ -2208,7 +2202,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-091",
@@ -2232,7 +2226,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-092",
@@ -2254,7 +2248,7 @@
     "effectEn": "Apply each of the following effects based on the number of cards in your trash: • If there are 10 or more cards, this Character's base power becomes 9000 and it gains +10 cost. • If you have 20 or more cards, during your opponent's turn, your Leader's base power becomes 7000. • If you have 30 or more cards, this Character gains +1000 power.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-093",
@@ -2274,9 +2268,12 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, Até 1 dos seus [Monkey.D.Luffy] Personagens ganha [Rush: Personagem] e o <Slash> atributo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: If you have 15 or more cards in your trash, up to 1 of your [Monkey.D.Luffy] Characters gains [Rush: Character] and the <Slash> attribute during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "rush",
+      "activate-main"
+    ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-094",
@@ -2300,7 +2297,7 @@
       "blocker"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-095",
@@ -2323,7 +2320,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-096",
@@ -2346,7 +2343,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-097",
@@ -2371,7 +2368,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-098",
@@ -2394,7 +2391,7 @@
     "effectEn": "If your {Sky Island} type Character with 6000 base power or more would be removed from the field by your opponent, you may add 1 card from the top of your Life cards to your hand instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-099",
@@ -2418,10 +2415,11 @@
     "effectEn": "[On Play] You may trash 1 {Supernovas} type card from your hand: This Character gains [Rush] during this turn. [Activate: Main] You may turn 1 card from the top of your Life cards face-down: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "rush",
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-100",
@@ -2446,7 +2444,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-101",
@@ -2472,7 +2470,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-102",
@@ -2496,7 +2494,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-103",
@@ -2523,7 +2521,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-104",
@@ -2550,7 +2548,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-105",
@@ -2573,7 +2571,7 @@
     "effectEn": "If your Character with 7000 base power or less would be removed from the field by your opponent's effect, you may add 1 card from the top of your Life cards to your hand instead.",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-106",
@@ -2600,7 +2598,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-107",
@@ -2624,7 +2622,7 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-108",
@@ -2649,7 +2647,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-109",
@@ -2674,7 +2672,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-110",
@@ -2695,11 +2693,9 @@
     ],
     "effectPt": "[On K.O.] Se o seu Líder tiver o tipo {Shandian Warrior}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[On K.O.] If your Leader has the {Shandian Warrior} type, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-111",
@@ -2725,7 +2721,7 @@
       "when-attacking"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-112",
@@ -2751,7 +2747,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-113",
@@ -2776,7 +2772,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-114",
@@ -2799,10 +2795,10 @@
     "effectEn": "[On Play] You may turn 1 card from the top of your Life cards face-up: Give all of your opponent's Characters −2000 power during this turn. Then, K.O. all of your opponent's Characters with 0 power or less. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Sky Island} type Leader or Character cards.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-115",
@@ -2828,7 +2824,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-116",
@@ -2852,7 +2848,7 @@
       "counter"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-117",
@@ -2877,7 +2873,7 @@
       "trigger"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-118",
@@ -2901,7 +2897,7 @@
       "on-play"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "OP15-119",
@@ -2927,6 +2923,6 @@
       "rush"
     ],
     "setId": "OP-15",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   }
 ]

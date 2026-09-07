@@ -19,7 +19,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-21",
     "setName": "GEAR5"
@@ -90,9 +90,7 @@
     ],
     "effectPt": "[DON!! x2] [On K.O.] Compre 1 carta(s).",
     "effectEn": "[DON!! x2] [On K.O.] Draw 1 card.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "ST-21",
     "setName": "GEAR5"
   },
@@ -208,7 +206,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to 1 of your {Straw Hat Crew} type Leader or Character cards.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-21",
     "setName": "GEAR5"
@@ -351,8 +349,7 @@
     "effectPt": "[DON!! x2] este Personagem ganha [Rush]. [On K.O.] Jogue Até 1 vermelho(a) carta(s) de Personagem com 6000 ou menos de Poder diferente de [Roronoa Zoro] da sua mão.",
     "effectEn": "[DON!! x2] This Character gains [Rush]. [On K.O.] Play up to 1 red Character card with 6000 power or less other than [Roronoa Zoro] from your hand.",
     "keywordIds": [
-      "rush",
-      "on-ko"
+      "rush"
     ],
     "setId": "ST-21",
     "setName": "GEAR5"

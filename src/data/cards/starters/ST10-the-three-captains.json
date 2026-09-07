@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): coloque Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder no fundo do Deck do dono, e Jogue até 1 carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -44,7 +44,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 0 cartas de DON!! no seu campo ou 8 ou mais cartas de DON!! no seu campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -145,8 +145,7 @@
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
     "keywordIds": [
       "blocker",
-      "rush",
-      "once-per-turn"
+      "rush"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -170,7 +169,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "ST-10",
@@ -268,7 +266,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "ST-10",
@@ -344,8 +341,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"

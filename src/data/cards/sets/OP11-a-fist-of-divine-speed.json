@@ -19,9 +19,7 @@
     ],
     "effectPt": "seu {SWORD} tipo Personagens pode atacar Personagens no turno no qual eles forem jogados. [Once Per Turn] Se seu {Marinha} tipo Personagem com 7000 base Poder ou menos for ser removido de campo por um efeito do seu oponente, Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem em vez disso.",
     "effectEn": "Your {SWORD} type Characters can attack Characters on the turn in which they are played. [Once Per Turn] If your {Navy} type Character with 7000 base power or less would be removed from the field by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -92,7 +90,8 @@
     "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Marinha} carta do tipo diferente de [Kujyaku] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descartar este Personagem: Até 1 dos seus Personagens ganha +1000 de Poder durante este turno.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Navy} type card other than [Kujyaku] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] You may trash this Character: Up to 1 of your Characters gains +1000 power during this turn.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -164,7 +163,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Marinha}, Até 1 dos seus {Marinha} tipo Personagens ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Navy} type, up to 1 of your {Navy} type Characters gains +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -285,7 +286,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando seu oponente ativar um(a) Evento, todos os dos seus Personagens ganha +2000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When your opponent activates an Event, all of your Characters gain +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-11",
@@ -337,7 +337,8 @@
     "effectPt": "[Blocker] [Activate: Main] Você pode descansar este Personagem: Até 1 dos seus {Marinha} tipo Líder ou carta(s) de Personagem também pode atacar ativo(a) Personagens durante este turno.",
     "effectEn": "[Blocker] [Activate: Main] You may rest this Character: Up to 1 of your {Navy} type Leader or Character cards can also attack active Characters during this turn.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -383,7 +384,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -512,7 +513,9 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 6 ou menos cartas na sua mão, coloque Até 1 dos seus {Homem-Peixe} ou {Tritão} tipo Personagens e Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[End of Your Turn] If you have 6 or less cards in your hand, set up to 1 of your {Fish-Man} or {Merfolk} type Characters and up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -537,7 +540,7 @@
     "effectPt": "este Líder não pode atacar. [Activate: Main] [Once Per Turn] Você pode descanse 1 das suas cartas de DON!! e vire 1 carta do topo das suas cartas de Vida viradas para cima: Jogue Até 1 {Neptunian} tipo carta(s) de Personagem ou [Megalo] com a custo igual a ou menos do que o número de cartas de DON!! no seu campo da sua mão.",
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards and turn 1 card from the top of your Life cards face-up: Play up to 1 {Neptunian} type Character card or [Megalo] with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -613,9 +616,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards and this Character: Up to 1 of your Leader or Character cards gains +1000 power during this battle.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -737,7 +738,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Neptunian} ou {Ilha dos Homens-Peixe} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Neptunian} or {Fish-Man Island} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -763,7 +766,7 @@
     "effectEn": "[On Play] If your Leader has the {Fish-Man} or {Merfolk} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. [Activate: Main] [Once Per Turn] Up to 1 of your {Fish-Man} or {Merfolk} type Characters can attack Characters on the turn in which it is played.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -833,7 +836,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão}, Até 1 dos Personagens do seu oponente com custo de 3 ou menos não pode ser descansado até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Fish-Man} or {Merfolk} type, up to 1 of your opponent's Characters with a cost of 3 or less cannot be rested until the end of your opponent's next turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -984,7 +989,9 @@
     ],
     "effectPt": "este efeito pode ser ativado(a) no início do seu turno. Se você tiver 8 ou mais cartas de DON!! no seu campo, Olhe as 5 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o restante no topo ou fundo do Deck em qualquer ordem.",
     "effectEn": "This effect can be activated at the start of your turn. If you have 8 or more DON!! cards on your field, look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the top or bottom of the deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -1008,7 +1015,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] este efeito pode ser ativado(a) quando a carta for removido(a) da sua ou do cartas de Vida do seu oponente. Se você tiver 7 ou menos cartas na sua mão, Compre 1 carta(s). [DON!! x1] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: este Líder ganha +2000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] This effect can be activated when a card is removed from your or your opponent's Life cards. If you have 7 or less cards in your hand, draw 1 card. [DON!! x1] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: This Leader gains +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-11",
@@ -1059,8 +1065,7 @@
     "effectPt": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] este efeito pode ser ativado(a) quando você only tiver Personagens com um tipo que inclua \"GERMA\". Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] This effect can be activated when you only have Characters with a type including \"GERMA\". Up to 1 of your Leader or Character cards gains +1000 power during this battle. Then, trash 2 cards from the top of your deck.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1085,7 +1090,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: todos os dos seus {Germa 66} tipo Personagens ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: All of your {GERMA 66} type Characters gain +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1523,8 +1528,7 @@
     "effectPt": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Olhe no 1 carta de o topo do seu oponente Deck. Em seguida, este Líder ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Look at 1 card from the top of your opponent's deck. Then, this Leader gains +1000 power during this battle.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1617,7 +1621,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Escolha a custo e revele 1 carta de o topo do seu oponente Deck. Se o revelada carta tem o chosen custo, K.O. Até 1 dos Personagens do seu oponente com a base custo de 3 ou menos. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, K.O. up to 1 of your opponent's Characters with a base cost of 3 or less. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -1640,7 +1646,8 @@
     "effectPt": "[Blocker] [fim dos seus turno] coloque Até 2 dos seus {Piratas da Big Mom} tipo Personagens com custo de 3 ou mais as ativo(a). Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Blocker] [End of Your Turn] Set up to 2 of your {Big Mom Pirates} type Characters with a cost of 3 or more as active. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1710,7 +1717,8 @@
     "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas da Big Mom} carta do tipo com custo de 2 ou mais e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] DON!! −1, Você pode descansar este Personagem: Olhe no 1 carta de o topo do seu oponente Deck.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] DON!! −1, You may rest this Character: Look at 1 card from the top of your opponent's deck.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1734,7 +1742,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Escolha a custo e revele 1 carta de o topo do seu oponente Deck. Se o revelada carta tem o chosen custo, Compre 1 carta(s) e Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, draw 1 card and add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1758,7 +1766,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −1, Você pode descansar este Personagem: seu oponente coloca 2 cartas de dele(a) descartar no fundo do Deck dele(a) em qualquer ordem. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Your opponent places 2 cards from their trash at the bottom of their deck in any order. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1783,8 +1791,7 @@
     "effectPt": "Se o seu Líder tiver o tipo {Piratas da Big Mom}, este Personagem ganha [Rush]. [On Your Opponent's Attack] [Once Per Turn] DON!! −5: Escolha a custo e revele 1 carta de o topo do seu oponente Deck. Se o revelada carta tem o chosen custo, Até 1 do seu Líder ganha +2000 de Poder durante este turno.",
     "effectEn": "If your Leader has the {Big Mom Pirates} type, this Character gains [Rush]. [On Your Opponent's Attack] [Once Per Turn] DON!! −5: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, up to 1 of your Leader gains +2000 power during this turn.",
     "keywordIds": [
-      "rush",
-      "once-per-turn"
+      "rush"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1808,7 +1815,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −1, Você pode descansar este Personagem: Escolha a custo e revele 1 carta de o topo do seu oponente Deck. Se o revelada carta tem o chosen custo, Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1, You may rest this Character: Choose a cost and reveal 1 card from the top of your opponent's deck. If the revealed card has the chosen cost, rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -1887,7 +1894,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Até 1 dos seus {Piratas da Big Mom} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your {Big Mom Pirates} type Characters gains +2 cost until the end of your opponent's next turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-11",
@@ -2008,7 +2014,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Marinha}, Até 1 dos seus {Marinha} tipo Personagens também pode atacar ativo(a) Personagens durante este turno. Em seguida, descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Navy} type, up to 1 of your {Navy} type Characters can also attack active Characters during this turn. Then, trash 2 cards from the top of your deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -2106,7 +2114,8 @@
     "effectPt": "[On Play] descarte 1 carta(s) da sua mão. [Activate: Main] Você pode descartar este Personagem: Jogue Até 1 [Caribou] com custo de 4 ou menos da sua lixeira.",
     "effectEn": "[On Play] Trash 1 card from your hand. [Activate: Main] You may trash this Character: Play up to 1 [Caribou] with a cost of 4 or less from your trash.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -2153,8 +2162,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] este efeito pode ser ativado(a) quando do seu oponente Personagem attacks. Se que Personagem tem o ＜Slash＞ atributo, este Personagem ganha +5000 de Poder durante esta batalha.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] This effect can be activated when your opponent's Character attacks. If that Character has the ＜Slash＞ attribute, this Character gains +5000 power during this battle.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -2467,8 +2475,7 @@
     "effectPt": "[Blocker] [Once Per Turn] Se seu {Supernovas} tipo Personagem diferente de [Capone\"Gang\"Bege] for ser removido de campo por um efeito do seu oponente, Você pode adicione ela para o topo das suas cartas de Vida viradas para baixo em vez disso.",
     "effectEn": "[Blocker] [Once Per Turn] If your {Supernovas} type Character other than [Capone\"Gang\"Bege] would be removed from the field by your opponent's effect, you may add it to the top of your Life cards face-down instead.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -2493,9 +2500,8 @@
     "effectPt": "[Your Turn] [Once Per Turn] este efeito pode ser ativado(a) quando seu oponente ativar um(a) Evento ou [Trigger]. Se seu oponente tiver 2 ou mais cartas de Vida, descartar 1 carta de o topo de cada dos seus e do cartas de Vida do seu oponente.",
     "effectEn": "[Your Turn] [Once Per Turn] This effect can be activated when your opponent activates an Event or [Trigger]. If your opponent has 2 or more Life cards, trash 1 card from the top of each of your and your opponent's Life cards.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -2518,7 +2524,9 @@
     ],
     "effectPt": "[Activate: Main] Se o seu Líder for [Shirahoshi], Você pode descanse este Personagem e vire 1 carta do topo das suas cartas de Vida viradas para baixo: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] If your Leader is [Shirahoshi], you may rest this Character and turn 1 card from the top of your Life cards face-down: K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
   },
@@ -2616,7 +2624,7 @@
     "effectEn": "[Blocker] [Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-down: Set this Character as active at the end of this turn.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"
@@ -2861,7 +2869,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se o seu Líder for [Shirahoshi], Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Até 1 dos seus {Neptunian}, {Homem-Peixe}, ou {Tritão} tipo Personagens ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] If your Leader is [Shirahoshi], you may turn 1 card from the top of your Life cards face-up: Up to 1 of your {Neptunian}, {Fish-Man}, or {Merfolk} type Characters gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-11",
     "setName": "A FIST OF DIVINE SPEED"

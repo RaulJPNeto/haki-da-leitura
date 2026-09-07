@@ -19,9 +19,7 @@
     ],
     "effectPt": "[On K.O.] Você pode descartar 1 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[On K.O.] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "ST-36",
     "setName": "YELLOW Eustass\"Captain\"Kid"
   },
@@ -48,8 +46,8 @@
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "ST-36",
     "setName": "YELLOW Eustass\"Captain\"Kid"
@@ -127,7 +125,7 @@
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode vire 1 carta do topo ou fundo das suas cartas de Vida viradas para baixo: Mude o alvo do ataque para seu [Eustass\"Captain\"Kid] com 5000 base Poder ou mais. [Activate: Main] [Once Per Turn] Você pode vire 1 carta do topo ou fundo das suas cartas de Vida viradas para cima: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-down: Change the target of the attack to your [Eustass\"Captain\"Kid] with 5000 base power or more. [Activate: Main] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-up: Give up to 1 rested DON!! card to your Leader.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-36",
     "setName": "YELLOW Eustass\"Captain\"Kid"

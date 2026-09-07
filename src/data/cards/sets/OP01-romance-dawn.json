@@ -45,7 +45,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se você tiver 5 Personagens, retorne 1 dos seus Personagens para a mão do dono. Em seguida, jogue Até 1 Personagem com custo de 5 ou menos da sua mão que seja de uma cor diferente do Personagem retornado.",
     "effectEn": "[Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): If you have 5 Characters, return 1 of your Characters to the owner's hand. Then, play up to 1 Character with a cost of 5 or less from your hand that is a different color than the returned Character.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -71,7 +71,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ➃ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque Até 1 dos seus {Supernovas} ou {Bando do Chapéu de Palha} tipo carta(s) de Personagem com custo de 5 ou menos as ativo(a). ela ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] ➃ (You may rest the specified number of DON!! cards in your cost area.): Set up to 1 of your {Supernovas} or {Straw Hat Crew} type Character cards with a cost of 5 or less as active. It gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -95,7 +95,6 @@
     "effectPt": "[DON!! x1] [Your Turn] [Once Per Turn] Compre 1 carta quando seu oponente ativar um(a) Evento.",
     "effectEn": "[DON!! x1] [Your Turn] [Once Per Turn] Draw 1 card when your opponent activates an Event.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-01",
@@ -168,9 +167,7 @@
     ],
     "effectPt": "[On K.O.] K.O. Até 1 dos Personagens do seu oponente com 4000 ou menos de Poder.",
     "effectEn": "[On K.O.] K.O. up to 1 of your opponent's Characters with 4000 power or less.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -312,7 +309,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode adicione 1 carta da sua Vida área para a sua mão: este Personagem ganha +2000 de Poder durante este turno. Em seguida, dê este Personagem Até 2 descansado(a) cartas de DON!!.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from your Life area to your hand: This Character gains +2000 power during this turn. Then, give this Character up to 2 rested DON!! cards.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -481,7 +478,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your Leader or Character cards gains +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -573,7 +572,7 @@
     "effectPt": "[DON!! x2] este Personagem não pode ser nocauteado em batalha por ＜Strike＞ atributo Personagens. [Activate: Main] [Once Per Turn] Dê este Personagem Até 2 descansado(a) cartas de DON!!.",
     "effectEn": "[DON!! x2] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Characters. [Activate: Main] [Once Per Turn] Give this Character up to 2 rested DON!! cards.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -749,7 +748,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] você pode descartar 1 {País de Wano} carta do tipo da sua mão: coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[Activate: Main] [Once Per Turn] You can trash 1 {Land of Wano} type card from your hand: Set up to 2 of your DON!! cards as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -848,8 +847,7 @@
     "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -924,8 +922,7 @@
     "effectPt": "[DON!! x1] [When Attacking] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos. [On K.O.] seu oponente chooses 1 carta da sua mão; descartar que carta.",
     "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less. [On K.O.] Your opponent chooses 1 card from your hand; trash that card.",
     "keywordIds": [
-      "when-attacking",
-      "on-ko"
+      "when-attacking"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -976,8 +973,7 @@
     "effectEn": "[On Play] If your Leader is [Kouzuki Oden], play up to 1 {The Akazaya Nine} type Character card with a cost of 3 or less from your hand. [DON!! x1] [When Attacking] [Once Per Turn] Set up to 1 of your {The Akazaya Nine} type Character cards with a cost of 3 or less as active.",
     "keywordIds": [
       "on-play",
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1001,7 +997,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {País de Wano} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -1246,7 +1244,7 @@
     "effectPt": "[DON!! x1] [Opponent's Turn] Se este Personagem for descansado(a), seu oponente não pode atacar qualquer carta diferente de o Personagem [Eustass\"Captain\"Kid]. [Activate: Main] [Once Per Turn] Você pode descansar este Personagem: Jogue até 1 carta(s) de Personagem com custo de 3 ou menos da sua mão.",
     "effectEn": "[DON!! x1] [Opponent's Turn] If this Character is rested, your opponent cannot attack any card other than the Character [Eustass\"Captain\"Kid]. [Activate: Main] [Once Per Turn] You may rest this Character: Play up to 1 Character card with a cost of 3 or less from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1271,8 +1269,7 @@
     "effectPt": "[When Attacking] [Once Per Turn] Se você tiver 2 ou mais descansado(a) Personagens, Compre 1 carta(s).",
     "effectEn": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, draw 1 card.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1490,7 +1487,6 @@
     "effectPt": "[DON!! x1] [Your Turn] [Once Per Turn] Quando um Personagem do seu oponente for nocauteado, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[DON!! x1] [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-01",
@@ -1539,7 +1535,9 @@
     ],
     "effectPt": "[DON!! x1] [Activate: Main] Você pode descansar este Personagem: Escolha 1 carta da sua mão do seu oponente; seu oponente revela que carta. Se o revelada carta for um(a) Evento, coloque Até 1 carta da sua oponente's Vida área no fundo do Deck do dono.",
     "effectEn": "[DON!! x1] [Activate: Main] You may rest this Character: Choose 1 card from your opponent's hand; your opponent reveals that card. If the revealed card is an Event, place up to 1 card from your opponent's Life area at the bottom of the owner's deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -1633,6 +1631,7 @@
     "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.) [DON!! x1] Dê azul Eventos na sua mão −1 custo.",
     "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x1] Give blue Events in your hand −1 cost.",
     "keywordIds": [
+      "trigger",
       "banish"
     ],
     "setId": "OP-01",
@@ -1658,8 +1657,8 @@
     "effectPt": "[Your Turn] este Personagem ganha [Double Attack] se você tiver 5 ou mais cartas na sua mão. (esta carta causa 2 de dano.)",
     "effectEn": "[Your Turn] This Character gains [Double Attack] if you have 5 or more cards in your hand. (This card deals 2 damage.)",
     "keywordIds": [
-      "double-attack",
-      "your-turn"
+      "your-turn",
+      "double-attack"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1683,9 +1682,7 @@
     ],
     "effectPt": "[On K.O.] Jogue Até 1 [Smiley] do seu Deck, Em seguida, embaralhe seu Deck.",
     "effectEn": "[On K.O.] Play up to 1 [Smiley] from your deck, then shuffle your deck.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -1812,8 +1809,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue Até 1 [Pacifista] com custo de 4 ou menos da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 [Pacifista] with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1934,8 +1930,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder tiver o tipo {Baroque Works}, adicione Até 1 Evento da sua lixeira para a sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Baroque Works} type, add up to 1 Event from your trash to your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -1958,9 +1953,7 @@
     ],
     "effectPt": "[On K.O.] Compre 1 carta(s).",
     "effectEn": "[On K.O.] Draw 1 card.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -2645,9 +2638,7 @@
     ],
     "effectPt": "[On K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -2741,7 +2732,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem também pode atacar do seu oponente ativo(a) Personagens durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character can also attack your opponent's active Characters during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
@@ -2765,9 +2756,7 @@
     ],
     "effectPt": "[On K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-01",
     "setName": "ROMANCE DAWN"
   },
@@ -2970,6 +2959,7 @@
     "effectPt": "o nome desta carta também é considerado [Kouzuki Oden] de acordo com as regras. [Double Attack] (esta carta causa 2 de dano.) [Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "Also treat this card's name as [Kouzuki Oden] according to the rules. [Double Attack] (This card deals 2 damage.) [Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
+      "trigger",
       "double-attack",
       "banish"
     ],

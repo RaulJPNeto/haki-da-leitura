@@ -20,7 +20,7 @@
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Draw 1 card and up to 1 of your Characters gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -43,7 +43,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse este Personagem e dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Alabasta} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may rest this Character and give your 1 active Leader −5000 power during this turn: Look at 5 cards from the top of your deck; reveal up to 1 {Alabasta} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -66,9 +68,7 @@
     ],
     "effectPt": "[On K.O.] Dê K.O. em até 1 Personagem(ns) do seu oponente com 5000 ou menos de Poder base.",
     "effectEn": "[On K.O.] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -91,7 +91,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 1 descansado(a) DON!! carta para cada dos seus {Alabasta} tipo Personagens.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 rested DON!! card to each of your {Alabasta} type Characters.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -335,6 +337,7 @@
     "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
+      "trigger",
       "banish"
     ],
     "setId": "OP-04",
@@ -461,7 +464,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 2 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -530,7 +535,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 1 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -576,8 +583,7 @@
     "effectPt": "[Opponent's Turn] [Once Per Turn] Quando seu oponente plays a Personagem, Se o seu Líder tiver o tipo {Piratas Donquixote}, Descanse até 1 Personagem(ns) do seu oponente. Em seguida, descanse este Personagem. [On Play] Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When your opponent plays a Character, if your Leader has the {Donquixote Pirates} type, rest up to 1 of your opponent's Characters. Then, rest this Character. [On Play] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -647,7 +653,9 @@
     ],
     "effectPt": "[DON!! x1] [fim dos seus turno] coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [End of Your Turn] Set this Character as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -670,7 +678,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] Se você tiver 2 ou mais ativo(a) cartas de DON!!, coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] If you have 2 or more active DON!! cards, set this Character as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -693,7 +702,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -764,7 +775,9 @@
     ],
     "effectPt": "[fim dos seus turno] Você pode descartar este Personagem: coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] You may trash this Character: Set up to 2 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -810,7 +823,9 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 3 ou mais ativo(a) cartas de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[End of Your Turn] If you have 3 or more active DON!! cards, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -941,7 +956,7 @@
     "effectPt": "este Líder não pode atacar. [Activate: Main] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se você tiver 6 ou menos cartas na sua mão, Olhe as 2 cartas do topo do seu Deck; revele até 1 {Dressrosa} e adicione-a à sua mão. Em seguida, descartar o descanse.",
     "effectEn": "This Leader cannot attack. [Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): If you have 6 or less cards in your hand, look at 2 cards from the top of your deck; reveal up to 1 {Dressrosa} type card and add it to your hand. Then, trash the rest.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -1183,9 +1198,7 @@
     ],
     "effectPt": "[On K.O.] Compre 1 carta(s).",
     "effectEn": "[On K.O.] Draw 1 card.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1207,7 +1220,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Personagem: Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1256,6 +1271,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "OP-04",
@@ -1279,9 +1295,7 @@
     ],
     "effectPt": "[DON!! x1] [Once Per Turn] Quando você ative um(a) Evento, Compre 1 carta(s). Em seguida, coloque 1 carta da sua mão no fundo do seu Deck.",
     "effectEn": "[DON!! x1] [Once Per Turn] When you activate an Event, draw 1 card. Then, place 1 card from your hand at the bottom of your deck.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1405,9 +1419,7 @@
     ],
     "effectPt": "[Opponent's Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!! por seu efeito, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1456,8 +1468,7 @@
     "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [On Your Opponent's Attack] [Once Per Turn] DON!! −1: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 card from the top of your deck to the top of your Life cards. [On Your Opponent's Attack] [Once Per Turn] DON!! −1: Draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -1481,7 +1492,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Water Seven}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Water Seven} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1526,9 +1539,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Até 1 carta(s) de Líder ou Personagem ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, up to 1 of your Leader or Character cards gains +1000 power during this battle.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1709,9 +1720,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1757,9 +1766,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -1785,6 +1792,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "OP-04",
@@ -1936,7 +1944,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno e descarte 2 carta(s) do topo do seu Deck. Em seguida, K.O. 1 dos seus {Dressrosa} tipo Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −4 cost during this turn and trash 2 cards from the top of your deck. Then, K.O. 1 of your {Dressrosa} type Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2155,7 +2163,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse seu 1 Líder: Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may rest your 1 Leader: Give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -2204,7 +2214,7 @@
     "effectPt": "este Personagem também pode atacar ativo(a) Personagens. [Activate: Main] [Once Per Turn] Você pode retorne 7 cartas da sua lixeira para o fundo do seu Deck em qualquer ordem: coloque este Personagem como ativo. Em seguida, este Personagem não ficará ativo no seu próxima Fase de Restauração.",
     "effectEn": "This Character can also attack active Characters. [Activate: Main] [Once Per Turn] You may return 7 cards from your trash to the bottom of your deck in any order: Set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2482,8 +2492,8 @@
     "triggerEn": "[Trigger] Play this card. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2507,7 +2517,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: coloque este Personagem como ativo.",
     "effectEn": "[Activate: Main] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may add 1 card from the top or bottom of your Life cards to your hand: Set this Character as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2586,8 +2596,8 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) com [Trigger] da sua mão: Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "activate-main",
+      "trigger"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2685,7 +2695,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Up to 1 of your {Land of Wano} type Leader or Character cards gains +3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
   },
@@ -2708,8 +2720,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-04",
     "setName": "KINGDOMS OF INTRIGUE"
@@ -2736,6 +2747,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "OP-04",

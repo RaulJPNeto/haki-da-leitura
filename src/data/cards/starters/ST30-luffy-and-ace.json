@@ -192,8 +192,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Você pode descartar 1 carta(s) de Personagem com 6000 Poder da sua mão: Jogue este Personagem carta da sua lixeira descansado(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 Character card with 6000 power from your hand: Play this Character card from your trash rested.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
@@ -342,7 +341,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 2 dos seus Personagens com 6000 base Poder Até 2 descansado(a) cartas de DON!! cada.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 2 of your Characters with 6000 base power up to 2 rested DON!! cards each.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
   },

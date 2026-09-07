@@ -179,8 +179,7 @@
     "triggerPt": "[Trigger] Até 1 dos seus [Monkey.D.Luffy] cartas ganha +2000 de Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "ST-29",
     "setName": "Egghead"
@@ -311,8 +310,8 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "activate-main",
+      "trigger"
     ],
     "setId": "ST-29",
     "setName": "Egghead"
@@ -364,8 +363,9 @@
     "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) com [Trigger] da sua mão: Compre 1 carta(s) e Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Draw 1 card and give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "rush",
+      "activate-main",
+      "trigger"
     ],
     "setId": "ST-29",
     "setName": "Egghead"
@@ -417,8 +417,7 @@
     "effectPt": "[Main] seu [Monkey.D.Luffy] Líder ganha [Unblockable] durante este turno. (esta carta não pode ser blocked.) [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[Main] Your [Monkey.D.Luffy] Leader gains [Unblockable] during this turn. (This card cannot be blocked.) [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
-      "counter",
-      "unblockable"
+      "counter"
     ],
     "setId": "ST-29",
     "setName": "Egghead"

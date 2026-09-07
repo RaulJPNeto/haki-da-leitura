@@ -89,7 +89,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-14",
     "setName": "3D2Y"
@@ -185,7 +185,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente. Em seguida, Se você tiver um Personagem com custo de 8 ou mais, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-14",
     "setName": "3D2Y"
   },
@@ -251,7 +253,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-14",
     "setName": "3D2Y"
   },

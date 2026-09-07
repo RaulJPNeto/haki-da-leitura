@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): retorne até 1 Personagem com custo de 5 ou menos para a mão do dono.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-03",
     "setName": "The Seven Warlords of the Sea"
@@ -163,7 +163,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Jogue Até 1 [Pacifista] com custo de 4 ou menos do seu Deck, Em seguida, embaralhe seu Deck.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-03",
     "setName": "The Seven Warlords of the Sea"

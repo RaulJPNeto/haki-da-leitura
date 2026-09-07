@@ -19,8 +19,7 @@
     "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -46,6 +45,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "ST-12",
@@ -237,8 +237,7 @@
     "effectEn": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck. [When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.",
     "keywordIds": [
       "on-play",
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -285,7 +284,9 @@
     ],
     "effectPt": "[Activate: Main] retorne este Personagem para a mão do dono.",
     "effectEn": "[Activate: Main] Return this Character to the owner's hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
   },

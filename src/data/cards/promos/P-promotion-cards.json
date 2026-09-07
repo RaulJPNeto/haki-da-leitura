@@ -19,7 +19,9 @@
     ],
     "effectPt": "[fim dos seus turno] Você pode descansar este Personagem: coloque Até 1 dos seus {FILM} tipo Personagens diferente de [Bartolomeo] as ativo(a).",
     "effectEn": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "P",
     "setName": "Green Uta"
   },
@@ -43,9 +45,7 @@
     ],
     "effectPt": "[On K.O.] coloque Até 1 Personagem com custo de 3 ou menos no fundo do Deck do dono.",
     "effectEn": "[On K.O.] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "P",
     "setName": "Blue Donquixote Doflamingo"
   },
@@ -288,9 +288,7 @@
     ],
     "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1: Jogue Até 1 {Piratas da Big Mom} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! on do seu oponente campo diferente de [Charlotte Smoothie] da sua mão.",
     "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1: Play up to 1 {Big Mom Pirates} type Character card with a cost equal to or less than the number of DON!! cards on your opponent's field other than [Charlotte Smoothie] from your hand.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "P",
     "setName": "PURPLE Charlotte Katakuri"
   },

@@ -94,6 +94,7 @@
     "effectPt": "Se o seu Líder tiver o atributo, este Personagem ganha [Rush: Personagem]. (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Descanse até 2 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "If your Leader has the attribute, this Character gains [Rush: Character]. (This card can attack Characters on the turn in which it is played.) [On Play] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "ST-32",
@@ -119,6 +120,7 @@
     "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o atributo, Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the attribute, rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "ST-32",

@@ -18,7 +18,9 @@
     ],
     "effectPt": "[fim dos seus turno] adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -229,7 +231,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Jogue Até 1 vermelho(a) Personagem diferente de [Dogura] com custo de 1 da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -346,7 +350,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus vermelho(a) Personagens com custo de 1 ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -417,8 +423,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Você pode descartar 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue este Personagem carta da sua lixeira descansado(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -567,8 +572,8 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -593,7 +598,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 1 ou menos Personagens, o próximo(a) time você jogue a {País de Wano} tipo carta(s) de Personagem com custo de 3 ou mais da sua mão durante este turno, o custo will ser reduced por 1.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -617,9 +622,7 @@
     ],
     "effectPt": "[Once Per Turn] Quando você jogue a Personagem com no base efeito da sua mão, se você tiver 3 ou menos Personagens, coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -688,7 +691,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -712,8 +717,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo. [On K.O.] Jogue Até 1 verde {País de Wano} tipo carta(s) de Personagem com custo de 3 do seu Deck. Em seguida, embaralhe seu Deck.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active. [On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
     "keywordIds": [
-      "once-per-turn",
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -837,7 +841,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode retorne este Personagem para a mão do dono: Jogue Até 1 Personagem com custo de 3 da sua mão.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1162,7 +1168,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 {País de Wano} carta do tipo da sua mão e descanse este Palco: coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1185,7 +1193,9 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 0 cartas na sua mão, Compre 2 carta(s).",
     "effectEn": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1578,7 +1588,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar 1 carta(s) da sua mão: coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -1705,7 +1716,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Se o seu Líder for [Emporio.Ivankov], Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, descartar Até 3 cartas da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1728,7 +1741,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta em campo for retornado(a) para o seu Deck de DON!!, este Líder ganha +1000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-02",
@@ -1997,7 +2009,9 @@
     ],
     "effectPt": "[Activate: Main] DON!! −8 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +792000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] DON!! −8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2092,8 +2106,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2118,8 +2131,7 @@
     "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Double Attack] (This card deals 2 damage.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "double-attack",
-      "on-ko"
+      "double-attack"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2240,7 +2252,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Olhe as 3 cartas do topo do seu Deck; revele até 1 {Impel Down} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2263,7 +2277,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, Se houver um Personagem com a custo de 0, este Líder ganha +1000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2286,9 +2300,7 @@
     ],
     "effectPt": "[DON!! x1] [Once Per Turn] Quando este Personagem batalha e nocauteia do seu oponente Personagem, coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2311,6 +2323,7 @@
     "effectPt": "Se houver um Personagem com a custo de 0, este Personagem ganha [Banish]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "If there is a Character with a cost of 0, this Character gains [Banish]. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
+      "trigger",
       "banish"
     ],
     "setId": "OP-02",
@@ -2716,7 +2729,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },

@@ -21,7 +21,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 3 dos seus {Animal} ou {Drum Kingdom} tipo Personagens Até 1 descansado(a) DON!! carta cada.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 3 of your {Animal} or {Drum Kingdom} type Characters up to 1 rested DON!! card each.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -46,7 +46,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Compre 1 carta(s) e coloque 1 carta da sua mão no topo ou fundo do seu Deck. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Draw 1 card and place 1 card from your hand at the top or bottom of your deck. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -196,7 +196,7 @@
     "keywordIds": [
       "rush",
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -243,7 +243,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Até 1 dos seus {Animal} tipo Personagens diferente de este Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Up to 1 of your {Animal} type Characters other than this Character gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -387,7 +387,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder for [Tony Tony.Chopper], todos os dos seus [Tony Tony.Chopper] Personagens ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader is [Tony Tony.Chopper], all of your [Tony Tony.Chopper] Characters gain +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -510,7 +512,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver a {Minks} tipo Personagem, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have a {Minks} type Character, rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -727,8 +729,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Escolha um: • descanse Até 1 do seu oponente cartas de DON!!. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 6 ou menos.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Choose one: • Rest up to 1 of your opponent's DON!! cards. • K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -775,7 +776,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Minks}, coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -942,7 +945,10 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Se o seu Líder tiver o tipo {Minks}, coloque até 1 das suas cartas de DON!! como ativas. [fim dos seus turno] coloque Até 1 dos seus {Minks} tipo Personagens as ativo(a).",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader has the {Minks} type, set up to 1 of your DON!! cards as active. [End of Your Turn] Set up to 1 of your {Minks} type Characters as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main",
+      "your-turn"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -988,7 +994,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode retorne este Personagem para a mão do dono: Se o seu Líder tiver o tipo {Piratas Kuja}, coloque Até 1 dos Personagens do seu oponente com custo de 1 ou menos no fundo do Deck do dono.",
     "effectEn": "[Activate: Main] You may return this Character to the owner's hand: If your Leader has the {Kuja Pirates} type, place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -1060,7 +1068,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: este Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: This Character gains +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1106,7 +1114,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a Personagem for removido(a) de campo por seu efeito, se seu oponente tiver 5 ou mais cartas na mão dele(a), seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a). Em seguida, descanse este Personagem.",
     "effectEn": "[Your Turn] [Once Per Turn] When a Character is removed from the field by your effect, if your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. Then, rest this Character.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-08",
@@ -1347,9 +1354,8 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1374,7 +1380,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Escolha um: • Se você tiver 5 ou menos cartas na sua mão, Compre 1 carta(s). • Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Choose one: • If you have 5 or less cards in your hand, draw 1 card. • Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1423,7 +1429,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas das Feras} e você tiver 10 cartas de DON!! no seu campo, jogue Até 1 [King] com custo de 7 ou menos da sua mão.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Animal Kingdom Pirates} type and you have 10 DON!! cards on your field, play up to 1 [King] with a cost of 7 or less from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -1494,7 +1502,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas da Big Mom}, jogue Até 1 [Charlotte Katakuri] da sua mão com custo de 3 ou mais que for igual a ou menos do que o número de cartas de DON!! on do seu oponente campo.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Big Mom Pirates} type, play up to 1 [Charlotte Katakuri] from your hand with a cost of 3 or more that is equal to or less than the number of DON!! cards on your opponent's field.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -1541,7 +1551,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Biscuit Warrior] da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Biscuit Warrior] from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1587,8 +1597,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1612,7 +1621,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-08",
@@ -1639,8 +1647,7 @@
     "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1689,8 +1696,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Viscount Hiyoko] com custo de 5 ou menos da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Viscount Hiyoko] with a cost of 5 or less from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1713,9 +1719,7 @@
     ],
     "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Baron Tamago] com custo de 4 ou menos do seu Deck. Em seguida, embaralhe seu Deck.",
     "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Baron Tamago] with a cost of 4 or less from your deck. Then, shuffle your deck.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -1761,9 +1765,7 @@
     ],
     "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Count Niwatori] com custo de 6 ou menos do seu Deck. Em seguida, embaralhe seu Deck.",
     "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Count Niwatori] with a cost of 6 or less from your deck. Then, shuffle your deck.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -1786,7 +1788,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se você não tiver outros Personagens [preto(a) Maria], adicione Até 5 cartas de DON!! do seu Deck de DON!! e descanse elas. Em seguida, no final deste turno, retorne cartas de DON!! do seu campo para o seu Deck de DON!! até você tiver o same número de cartas de DON!! no seu campo as seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have no other [Black Maria] Characters, add up to 5 DON!! cards from your DON!! deck and rest them. Then, at the end of this turn, return DON!! cards from your field to your DON!! deck until you have the same number of DON!! cards on your field as your opponent.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1907,7 +1909,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Se este Personagem foi jogado neste turno, descartar Até 1 dos Personagens do seu oponente com custo de 7 ou menos. Em seguida, seu oponente descarta 1 carta(s) da mão dele.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If this Character was played on this turn, trash up to 1 of your opponent's Characters with a cost of 7 or less. Then, your opponent trashes 1 card from their hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -1978,7 +1980,9 @@
     ],
     "effectPt": "[Activate: Main] descanse 1 das suas cartas de DON!! e Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Activate: Main] Rest 1 of your DON!! cards and you may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -2025,7 +2029,9 @@
     ],
     "effectPt": "este Personagem ganha +4 de custo. [Activate: Main] Você pode descansar este Personagem: Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "This Character gains +4 cost. [Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand. Then, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },
@@ -2100,7 +2106,7 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -2451,7 +2457,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta do topo das suas cartas de Vida: Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida no final deste turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from the top of your Life cards: If your Leader has the {Big Mom Pirates} type, add 1 card from the top of your deck to the top of your Life cards at the end of this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -2499,7 +2505,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Até 1 dos seus Personagens ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: Up to 1 of your Characters gains +1000 power until the end of your opponent's next turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -2552,9 +2558,8 @@
     "triggerPt": "[Trigger] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
@@ -2606,7 +2611,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus [Charlotte Pudding] cartas ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Charlotte Pudding] cards gains +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-08",
     "setName": "TWO LEGENDS"
   },

@@ -20,10 +20,10 @@
     "effectPt": "[Opponent's Turn] Se você tiver 1 ou menos cartas de Vida, este Líder ganha +2000 de Poder. [Activate: Main] [Once Per Turn] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno. Em seguida, se você tiver 2 ou mais cartas de Vida, Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[Opponent's Turn] If you have 1 or less Life cards, this Leader gains +2000 power. [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1000 power during this turn. Then, if you have 2 or more Life cards, you may add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-002",
@@ -48,7 +48,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-003",
@@ -73,7 +73,7 @@
       "rush"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-004",
@@ -97,7 +97,7 @@
       "when-attacking"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-005",
@@ -121,7 +121,7 @@
     "effectEn": "This Character cannot attack unless your opponent has 2 or more Characters with a base power of 5000 or more.",
     "keywordIds": [],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-006",
@@ -145,7 +145,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-007",
@@ -167,11 +167,12 @@
     "effectPt": "[On Play] seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente. [Activate: Main] [Once Per Turn] Se o seu oponente tiver um Personagem com 8000 Poder ou mais, este Personagem ganha [Rush: Personagem] durante este turno.",
     "effectEn": "[On Play] Your Leader gains +2000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] If your opponent has a Character with 8000 power or more, this Character gains [Rush: Character] during this turn.",
     "keywordIds": [
+      "rush",
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-008",
@@ -195,7 +196,7 @@
       "counter"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-009",
@@ -218,7 +219,7 @@
       "counter"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-010",
@@ -241,7 +242,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-011",
@@ -262,6 +263,7 @@
     "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre a carta para cada dos seus {Neptunian} tipo Personagens. Em seguida, descartar o same número de cartas da sua mão.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw a card for each of your {Neptunian} type Characters. Then, trash the same number of cards from your hand.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "EB-04",
@@ -287,7 +289,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se este Personagem foi jogado neste turno, coloque seu {País de Wano} tipo Líder as ativo(a).",
     "effectEn": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, set your {Land of Wano} type Leader as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -337,7 +339,7 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your {Land of Wano} type Leader.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -363,8 +365,7 @@
     "effectPt": "[Blocker] [On K.O.] Você pode descanse 1 dos seus cartas: Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão}, jogue Até 1 verde carta(s) de Personagem com custo de 6 ou menos da sua mão.",
     "effectEn": "[Blocker] [On K.O.] You may rest 1 of your cards: If your Leader has the {Fish-Man} or {Merfolk} type, play up to 1 green Character card with a cost of 6 or less from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -388,7 +389,8 @@
     "effectPt": "[Activate: Main] coloque até 1 das suas cartas de DON!! como ativas. Em seguida, você não pode coloque cartas de DON!! como ativas usando Personagem efeitos durante este turno. [When Attacking] Se você tiver 3 ou mais {Neptunian} tipo Personagens, Descanse até 1 Personagem(ns) do seu oponente com custo de 8 ou menos.",
     "effectEn": "[Activate: Main] Set up to 1 of your DON!! cards as active. Then, you cannot set DON!! cards as active using Character effects during this turn. [When Attacking] If you have 3 or more {Neptunian} type Characters, rest up to 1 of your opponent's Characters with a cost of 8 or less.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -515,7 +517,7 @@
     "effectEn": "[On Play] If your Leader is [Nefeltari Vivi], draw 2 cards and trash 1 card from your hand. [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -590,7 +592,7 @@
     "effectPt": "[Activate: Main] Você pode descanse este Personagem e descarte 1 carta(s) da sua mão: Até 1 dos seus {Alabasta} tipo Personagens ganha [Unblockable] durante este turno. (esta carta não pode ser blocked.)",
     "effectEn": "[Activate: Main] You may rest this Character and trash 1 card from your hand: Up to 1 of your {Alabasta} type Characters gains [Unblockable] during this turn. (This card cannot be blocked.)",
     "keywordIds": [
-      "unblockable"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -768,7 +770,7 @@
     "effectPt": "Se este Personagem for ser nocauteado, Você pode retorne 1 DON!! carta do seu campo para o seu Deck de DON!! em vez disso. [Activate: Main] [Once Per Turn] Se o seu Líder tiver o tipo {Piratas das Feras} e você não tiver outros Personagens [King], adicione Até 1 DON!! carta do seu Deck de DON!! e coloque-a como ativa, e adicione Até 1 adicional DON!! carta e descanse ela.",
     "effectEn": "If this Character would be K.O.'d, you may return 1 DON!! card from your field to your DON!! deck instead. [Activate: Main] [Once Per Turn] If your Leader has the {Animal Kingdom Pirates} type and you have no other [King] Characters, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -793,7 +795,7 @@
     "effectEn": "[On Play] You may trash 1 {Animal Kingdom Pirates} type card from your hand: Draw 2 cards. [Activate: Main] [Once Per Turn] You may rest 2 of your DON!! cards: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -843,8 +845,7 @@
     "effectPt": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Se você tiver 4 ou mais Eventos na sua lixeira, Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If you have 4 or more Events in your trash, up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -871,7 +872,6 @@
     "effectEn": "[Blocker] [Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, if your Leader has the {Kid Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "blocker",
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "EB-04",
@@ -897,7 +897,7 @@
     "effectEn": "[On Play] DON!! −1: If your Leader has the {Foxy Pirates} type, draw 2 cards and trash 1 card from your hand. Then, rest up to 1 of your opponent's Characters with a cost of 9 or less. [Activate: Main] [Once Per Turn] Add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -972,7 +972,8 @@
     "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {Piratas do Kid} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [Activate: Main] You may trash this Character: Play up to 1 {Kid Pirates} type Character card with a cost of 5 or less from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "EB-04",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1048,7 +1049,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-043",
@@ -1070,11 +1071,10 @@
     "effectPt": "[Once Per Turn] Se seu preto(a) Personagem com a base custo de 5 ou menos for ser nocauteado por um efeito do seu oponente, Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem em vez disso. [On Play] descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[Once Per Turn] If your black Character with a base cost of 5 or less would be K.O.'d by your opponent's effect, you may place 3 cards from your trash at the bottom of your deck in any order instead. [On Play] Trash 2 cards from the top of your deck.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-044",
@@ -1096,11 +1096,10 @@
     "effectPt": "[Once Per Turn] Se o tipo do seu Líder incluir \"Navy\" e este Personagem for ser removido de campo, Você pode descartar 1 carta(s) da sua mão em vez disso. [Your Turn] [Once Per Turn] Quando um Personagem do seu oponente for nocauteado, Compre 1 carta(s).",
     "effectEn": "[Once Per Turn] If your Leader's type includes \"Navy\" and this Character would be removed from the field, you may trash 1 card from your hand instead. [Your Turn] [Once Per Turn] When your opponent's Character is K.O.'d, draw 1 card.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-045",
@@ -1120,9 +1119,11 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se there forem 2 ou mais Personagens com custo de 8 ou mais, Até 1 dos seus {Exército Revolucionário} tipo Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: If there are 2 or more Characters with a cost of 8 or more, up to 1 of your {Revolutionary Army} type Leader or Character cards gains +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-046",
@@ -1147,7 +1148,7 @@
       "blocker"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-047",
@@ -1168,9 +1169,11 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {SWORD} tipo carta(s) de Personagem com custo de 3 ou menos diferente de [Helmeppo] da sua mão ou lixeira.",
     "effectEn": "[Activate: Main] You may trash this Character: Play up to 1 {SWORD} type Character card with a cost of 3 or less other than [Helmeppo] from your hand or trash.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-048",
@@ -1195,7 +1198,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-049",
@@ -1220,7 +1223,7 @@
       "trigger"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-050",
@@ -1244,7 +1247,7 @@
       "counter"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-051",
@@ -1270,7 +1273,7 @@
       "trigger"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-052",
@@ -1292,11 +1295,10 @@
     "effectPt": "[When Attacking] este Personagem's base Poder torna-se o same as do seu oponente Líder durante este turno. [On K.O.] Se você tiver 2 ou menos cartas de Vida, jogue Até 1 amarelo(a) carta(s) de Personagem com 6000 ou menos de Poder da sua mão.",
     "effectEn": "[When Attacking] This Character's base power becomes the same as your opponent's Leader during this turn. [On K.O.] If you have 2 or less Life cards, play up to 1 yellow Character card with 6000 power or less from your hand.",
     "keywordIds": [
-      "when-attacking",
-      "on-ko"
+      "when-attacking"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-053",
@@ -1321,7 +1323,7 @@
       "blocker"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-054",
@@ -1343,11 +1345,10 @@
     "effectPt": "[On Play] Se você tiver 2 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [On K.O.] adicione Até 1 carta de o topo do cartas de Vida do seu oponente para a mão do dono.",
     "effectEn": "[On Play] If you have 2 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards. [On K.O.] Add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-055",
@@ -1371,11 +1372,10 @@
     "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Exército Revolucionário} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-056",
@@ -1401,7 +1401,7 @@
       "blocker"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-057",
@@ -1426,7 +1426,7 @@
       "blocker"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-058",
@@ -1452,7 +1452,7 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-059",
@@ -1479,7 +1479,7 @@
       "trigger"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-060",
@@ -1506,7 +1506,7 @@
       "trigger"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   },
   {
     "id": "EB04-061",
@@ -1533,6 +1533,6 @@
       "on-play"
     ],
     "setId": "EB-04",
-    "setName": "BOOSTER PACK"
+    "setName": "ADVENTURE ON KAMI'S ISLAND"
   }
 ]

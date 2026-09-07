@@ -41,7 +41,9 @@
     ],
     "effectPt": "este Personagem não pode ser nocauteado em batalha por Leaders. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -85,7 +87,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },

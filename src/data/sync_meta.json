@@ -1,6 +1,7 @@
 {
-  "lastSync": "2026-09-03T18:00:00.000Z",
-  "totalCards": 2601,
+  "lastSync": "2026-09-07T08:40:20.515Z",
+  "totalCards": 2677,
+  "collectionsCount": 59,
   "version": "1.0.0",
-  "message": "Base de cartas inicial totalmente ingerida e traduzida (OP-01 até OP-17, ST-01 até ST-21, Extra-Boosters e Promos)."
+  "message": "Base atualizada com sucesso: 2677 cartas distribuídas em 59 coleções."
 }

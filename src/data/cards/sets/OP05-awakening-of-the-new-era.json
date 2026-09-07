@@ -18,9 +18,7 @@
     ],
     "effectPt": "[DON!! x1] [Opponent's Turn] [Once Per Turn] Se seu Personagem com 5000 ou mais de Poder for ser nocauteado, Você pode dê que Personagem −1000 Poder durante este turno em vez disso de que Personagem being K.O.'d.",
     "effectEn": "[DON!! x1] [Opponent's Turn] [Once Per Turn] If your Character with 5000 power or more would be K.O.'d, you may give that Character −1000 power during this turn instead of that Character being K.O.'d.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -44,8 +42,8 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 {Exército Revolucionário} carta do tipo da sua mão: Até 3 dos seus {Exército Revolucionário} tipo Personagens ou Personagens com a [Trigger] ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 {Revolutionary Army} type card from your hand: Up to 3 of your {Revolutionary Army} type Characters or Characters with a [Trigger] gain +3000 power during this turn.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "activate-main",
+      "trigger"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -93,7 +91,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se este Personagem tiver 7000 Poder ou mais, jogue Até 1 {Exército Revolucionário} tipo carta(s) de Personagem com 5000 ou menos de Poder diferente de [Emporio.Ivankov] da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] If this Character has 7000 power or more, play up to 1 {Revolutionary Army} type Character card with 5000 power or less other than [Emporio.Ivankov] from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -190,7 +188,7 @@
     "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -517,7 +515,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Olhe as 3 cartas do topo do seu Deck; revele até 1 {Exército Revolucionário} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Revolutionary Army} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -542,7 +542,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Se você tiver 6 ou menos cartas na sua mão, coloque este Líder como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] If you have 6 or less cards in your hand, set this Leader as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -614,7 +615,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -637,8 +640,7 @@
     "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Você pode descanse 1 dos seus Personagens com custo de 3 ou mais: coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may rest 1 of your Characters with a cost of 3 or more: Set this Character as active.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -661,7 +663,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] You may trash this Character: Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -683,7 +687,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may trash this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -705,9 +711,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -755,8 +759,7 @@
     "effectPt": "[When Attacking] [Once Per Turn] Se você tiver 2 ou mais descansado(a) Personagens, coloque Até 1 dos seus descansado(a) Personagens com custo de 1 as ativo(a).",
     "effectEn": "[When Attacking] [Once Per Turn] If you have 2 or more rested Characters, set up to 1 of your rested Characters with a cost of 1 as active.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -780,7 +783,7 @@
     "effectPt": "[fim dos seus turno] ①: coloque este Personagem como ativo. [Once Per Turn] Se este Personagem for ser nocauteado, Você pode descanse Até 1 dos seus Personagens com custo de 3 ou mais diferente de [Pica] em vez disso.",
     "effectEn": "[End of Your Turn] ①: Set this Character as active. [Once Per Turn] If this Character would be K.O.'d, you may rest up to 1 of your Characters with a cost of 3 or more other than [Pica] instead.",
     "keywordIds": [
-      "once-per-turn"
+      "your-turn"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -803,7 +806,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Jogue Até 1 {Piratas Donquixote} tipo carta(s) de Personagem com custo de 2 ou menos da sua mão.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Play up to 1 {Donquixote Pirates} type Character card with a cost of 2 or less from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -825,7 +830,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -970,7 +977,9 @@
     ],
     "effectPt": "Se o seu Líder for [Donquixote Doflamingo], todos os Personagens com custo de 5 ou menos não ficam ativo(a) no seu e do seu oponente Fase de Restauraçãos. [fim dos seus turno] Se você tiver 10 cartas de DON!! no seu campo, K.O. todos os descansado(a) Personagens com custo de 5 ou menos. Em seguida, descartar este Palco.",
     "effectEn": "If your Leader is [Donquixote Doflamingo], all Characters with a cost of 5 or less do not become active in your and your opponent's Refresh Phases. [End of Your Turn] If you have 10 DON!! cards on your field, K.O. all rested Characters with a cost of 5 or less. Then, trash this Stage.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -995,7 +1004,7 @@
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand: Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "keywordIds": [
       "when-attacking",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -1089,7 +1098,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Personagem: coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Character: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -1111,9 +1122,7 @@
     ],
     "effectPt": "[On K.O.] Compre 1 carta(s) e coloque 1 carta da sua mão no fundo do seu Deck.",
     "effectEn": "[On K.O.] Draw 1 card and place 1 card from your hand at the bottom of your deck.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -1282,7 +1291,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando você compre a carta outside dos seus Compre Phase, este Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When you draw a card outside of your Draw Phase, this Character gains +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-05",
@@ -1458,7 +1466,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Se você tiver 0 ou 3 ou mais cartas de DON!! no seu campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from the top of your Life cards to your hand: If you have 0 or 3 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -1799,7 +1807,6 @@
     "effectEn": "[Blocker] [Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "blocker",
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-05",
@@ -1823,9 +1830,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 {Baroque Works} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 {Baroque Works} type Character card with a cost of 3 or less from your hand.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -1949,8 +1954,7 @@
     "effectEn": "[When Attacking] [Once Per Turn] You may return 20 cards from your trash to your deck and shuffle it: This Character gains [Double Attack] and +10000 power during this battle. (This card deals 2 damage.)",
     "keywordIds": [
       "when-attacking",
-      "double-attack",
-      "once-per-turn"
+      "double-attack"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -1973,7 +1977,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's Characters −3 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -1995,7 +2001,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse este Personagem e coloque 2 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 1 carta de a mão dele(a).",
     "effectEn": "[Activate: Main] You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -2138,7 +2146,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descanse este Personagem e coloque 2 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem: adicione Até 1 preto(a) carta(s) de Personagem com custo de 3 para 5 da sua lixeira para a sua mão.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and place 2 cards from your trash at the bottom of your deck in any order: Add up to 1 black Character card with a cost of 3 to 5 from your trash to your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -2160,7 +2170,9 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descanse este Personagem e 1 dos seus Personagens: adicione Até 1 preto(a) carta(s) de Personagem com custo de 1 da sua lixeira para a sua mão.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character and 1 of your Characters: Add up to 1 black Character card with a cost of 1 from your trash to your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -2184,8 +2196,7 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play]/[On K.O.] Up to 1 of your {Dressrosa} type Characters gains +2000 power during this turn.",
     "keywordIds": [
       "blocker",
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -2379,9 +2390,7 @@
     ],
     "effectPt": "[Opponent's Turn] [Once Per Turn] Quando seu número de cartas de Vida torna-se 0, adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, descarte 1 carta(s) da sua mão.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When your number of Life cards becomes 0, add 1 card from the top of your deck to the top of your Life cards. Then, trash 1 card from your hand.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
   },
@@ -2426,8 +2435,7 @@
     "effectPt": "[Rush] [Once Per Turn] Se este Personagem for leave o campo, Você pode descartar 1 carta do topo das suas cartas de Vida em vez disso. Se there for a [Monkey.D.Luffy] Personagem, este efeito for negated.",
     "effectEn": "[Rush] [Once Per Turn] If this Character would leave the field, you may trash 1 card from the top of your Life cards instead. If there is a [Monkey.D.Luffy] Character, this effect is negated.",
     "keywordIds": [
-      "rush",
-      "once-per-turn"
+      "rush"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -2604,7 +2612,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a carta for added para a sua mão da sua Vida, este Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a card is added to your hand from your Life, this Character gains +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-05",
@@ -2652,8 +2659,7 @@
     "effectPt": "[Once Per Turn] Quando a [Trigger] ativar, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
     "effectEn": "[Once Per Turn] When a [Trigger] activates, draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "trigger"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -2724,8 +2730,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue Até 1 {Sky Island} tipo carta(s) de Personagem com custo de 1 da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 {Sky Island} type Character card with a cost of 1 from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"
@@ -2899,7 +2904,7 @@
     "effectEn": "[On Play] DON!! −10: Place all of your Characters except this Character at the bottom of your deck in any order. Then, take an extra turn after this one. [Activate: Main] [Once Per Turn] ➀: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-05",
     "setName": "AWAKENING OF THE NEW ERA"

@@ -21,7 +21,7 @@
     "keywordIds": [
       "rush",
       "when-attacking",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -143,7 +143,7 @@
     "effectEn": "[On Play] You may give your active Leader −5000 power during this turn: Draw 1 card. [Activate: Main] [Once Per Turn] If your Leader has the {Alabasta} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -168,8 +168,7 @@
     "effectPt": "[Blocker] [On K.O.] Jogue Até 1 carta(s) de Personagem com 6000 ou menos de Poder e no base efeito da sua mão.",
     "effectEn": "[Blocker] [On K.O.] Play up to 1 Character card with 6000 power or less and no base effect from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -196,7 +195,7 @@
     "keywordIds": [
       "on-play",
       "when-attacking",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -219,7 +218,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus Personagens com no base efeito ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your Characters with no base effect gains +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -293,7 +294,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: descanse Até 1 do seu oponente cartas de DON!! ou {Animal} ou {SMILE} tipo Personagens com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's DON!! cards or {Animal} or {SMILE} type Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -316,7 +319,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se este Personagem foi jogado neste turno, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos. Em seguida, jogue Até 1 [Zou] da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] If this Character was played on this turn, K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less. Then, play up to 1 [Zou] from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -340,7 +343,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 2 descansado(a) cartas de DON!! para seu <Slash> atributo Líder.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 2 rested DON!! cards to your <Slash> attribute Leader.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -363,7 +368,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 1 descansado(a) DON!! carta para 1 dos seus {Homem-Peixe} ou {Tritão} tipo Líder ou carta(s) de Personagem. Em seguida, Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 rested DON!! card to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards. Then, rest up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -387,7 +394,8 @@
     "effectPt": "[On Play] Se o seu Líder for [Kouzuki Oden], Compre 1 carta(s). [Activate: Main] Você pode descartar este Personagem: Dê Até 1 descansado(a) DON!! carta para seu {País de Wano} tipo Líder.",
     "effectEn": "[On Play] If your Leader is [Kouzuki Oden], draw 1 card. [Activate: Main] You may trash this Character: Give up to 1 rested DON!! card to your {Land of Wano} type Leader.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -436,7 +444,8 @@
     "effectPt": "[Opponent's Turn] este Personagem não pode ser nocauteado por efeitos do seu oponente e ganha [Blocker]. [fim dos seus turno] Você pode descanse 1 das suas cartas de DON!! e descarte 1 carta(s) da sua mão: coloque este Personagem como ativo.",
     "effectEn": "[Opponent's Turn] This Character cannot be K.O.'d by your opponent's effects and gains [Blocker]. [End of Your Turn] You may rest 1 of your DON!! cards and trash 1 card from your hand: Set this Character as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -634,7 +643,7 @@
     "effectEn": "[On Play] If your opponent has 5 or more cards in their hand, your opponent places 1 card from their hand at the bottom of their deck. [Activate: Main] [Once Per Turn] You may place 1 of your Characters at the bottom of the owner's deck: Give your Leader and 1 Character up to 1 rested DON!! card each.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -682,7 +691,8 @@
     "effectPt": "[On Play] descarte 1 carta(s) da sua mão. [Activate: Main] Você pode descartar este Personagem: Se você tiver 4 ou menos cartas na sua mão, Compre 2 carta(s).",
     "effectEn": "[On Play] Trash 1 card from your hand. [Activate: Main] You may trash this Character: If you have 4 or less cards in your hand, draw 2 cards.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -802,9 +812,7 @@
     ],
     "effectPt": "[Opponent's Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!! por seu efeito, Se o seu Líder tiver o tipo {Piratas da Big Mom}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck by your effect, if your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -827,8 +835,7 @@
     "effectPt": "[On Play] Compre 1 carta(s) e coloque 1 carta da sua mão no topo do seu Deck. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On K.O.] DON!! −1: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[On Play] Draw 1 card and place 1 card from your hand at the top of your deck. Then, add up to 1 DON!! card from your DON!! deck and set it as active. [On K.O.] DON!! −1: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1020,9 +1027,7 @@
     ],
     "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha +4 de custo. [Opponent's Turn] [On K.O.] Jogue Até 1 {Exército Revolucionário} tipo carta(s) de Personagem com custo de 6 ou menos diferente de [Koala] ou Até 1 [Nico Robin] com custo de 6 ou menos da sua mão ou lixeira.",
     "effectEn": "If your Leader has the {Revolutionary Army} type, this Character gains +4 cost. [Opponent's Turn] [On K.O.] Play up to 1 {Revolutionary Army} type Character card with a cost of 6 or less other than [Koala] or up to 1 [Nico Robin] with a cost of 6 or less from your hand or trash.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -1121,8 +1126,7 @@
     "effectPt": "[On Play] Se houver um Personagem com a custo de 0 ou com custo de 8 ou mais, Compre 1 carta(s). [On K.O.] descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[On Play] If there is a Character with a cost of 0 or with a cost of 8 or more, draw 1 card. [On K.O.] Trash 2 cards from the top of your deck.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1146,8 +1150,7 @@
     "effectPt": "[On Play] descarte 3 carta(s) do topo do seu Deck. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[On Play] Trash 3 cards from the top of your deck. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1268,7 +1271,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder for [Shirahoshi], adicione 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, todos os dos seus {Neptunian} tipo Personagens ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader is [Shirahoshi], add 1 card from the top of your deck to the top of your Life cards. Then, all of your {Neptunian} type Characters gain +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
   },
@@ -1291,8 +1296,7 @@
     "effectPt": "[On Play] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, se seu oponente tiver 3 ou mais cartas de Vida, adicione Até 1 carta de o topo do cartas de Vida do seu oponente para a mão do dono. [On K.O.] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Jogue até 1 carta(s) de Personagem com 6000 ou menos de Poder da sua mão.",
     "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader. Then, if your opponent has 3 or more Life cards, add up to 1 card from the top of your opponent's Life cards to the owner's hand. [On K.O.] You may turn 1 card from the top of your Life cards face-up: Play up to 1 Character card with 6000 power or less from your hand.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1343,8 +1347,7 @@
     "effectPt": "[On Play] Você pode descartar 1 carta do topo das suas cartas de Vida: Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, Adicione até 2 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [Opponent's Turn] [On K.O.] Você pode causa 1 de dano para seu oponente.",
     "effectEn": "[On Play] You may trash 1 card from the top of your Life cards: If your Leader has the {Straw Hat Crew} type, add up to 2 cards from the top of your deck to the top of your Life cards. [Opponent's Turn] [On K.O.] You may deal 1 damage to your opponent.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1392,8 +1395,7 @@
     "effectPt": "[On Play] Dê Até 3 descansado(a) cartas de DON!! para seu {País de Wano} tipo Líder. [On K.O.] descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
     "effectEn": "[On Play] Give up to 3 rested DON!! cards to your {Land of Wano} type Leader. [On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
     "keywordIds": [
-      "on-play",
-      "on-ko"
+      "on-play"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1421,8 +1423,8 @@
     "triggerEn": "[Trigger] If your Leader is [Vegapunk], play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1499,7 +1501,8 @@
     "effectPt": "[Activate: Main] [Once Per Turn] coloque até 1 das suas cartas de DON!! como ativas. Em seguida, descanse Até 1 do seu oponente cartas de DON!! ou Personagens com custo de 4 ou menos. [fim dos seus turno] Você pode descansar 1 das suas cartas de DON!!: coloque Até 1 dos seus {FILM} tipo Personagens as ativo(a).",
     "effectEn": "[Activate: Main] [Once Per Turn] Set up to 1 of your DON!! cards as active. Then, rest up to 1 of your opponent's DON!! cards or Characters with a cost of 4 or less. [End of Your Turn] You may rest 1 of your DON!! cards: Set up to 1 of your {FILM} type Characters as active.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main",
+      "your-turn"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"
@@ -1523,7 +1526,8 @@
     "effectPt": "[Rush] [Activate: Main] Você pode descartar 1 carta(s) da sua mão e descartar este Personagem: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, jogue Até 1 [Trafalgar Law] com custo de 7 ou menos da sua mão.",
     "effectEn": "[Rush] [Activate: Main] You may trash 1 card from your hand and trash this Character: Add up to 1 card from the top of your deck to the top of your Life cards. Then, play up to 1 [Trafalgar Law] with a cost of 7 or less from your hand.",
     "keywordIds": [
-      "rush"
+      "rush",
+      "activate-main"
     ],
     "setId": "EB-03",
     "setName": "ONE PIECE HEROINES EDITION"

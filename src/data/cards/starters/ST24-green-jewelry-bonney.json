@@ -69,7 +69,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "ST-24",
     "setName": "GREEN Jewelry Bonney"
   },

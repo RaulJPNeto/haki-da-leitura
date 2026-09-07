@@ -18,9 +18,7 @@
     ],
     "effectPt": "[Once Per Turn] este efeito pode ser ativado(a) quando seu oponente attacks. Dê a até 1 cartas de Líder ou Personagem do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[Once Per Turn] This effect can be activated when your opponent attacks. Give up to 1 of your opponent's Leader or Character cards −1000 power during this turn.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -187,7 +185,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode colocar este Personagem no fundo do Deck do dono: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -258,7 +258,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Piratas do Ruivo}, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -354,8 +356,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder tiver o tipo {Piratas do Ruivo}, K.O. Até 1 dos Personagens do seu oponente com a base Poder de 6000 ou menos.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with a base power of 6000 or less.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -495,7 +496,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Se o seu Líder tiver o tipo {Piratas do Ruivo}, Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader has the {Red-Haired Pirates} type, give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -519,7 +522,7 @@
     "effectPt": "seu Personagem cartas forem played descansado(a). [Activate: Main] [Once Per Turn] Você pode descansar 3 das suas cartas de DON!!: adicione Até 1 DON!! carta do seu Deck de DON!! e descanse ela, e jogue Até 1 {ODYSSEY} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
     "effectEn": "Your Character cards are played rested. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards: Add up to 1 DON!! card from your DON!! deck and rest it, and play up to 1 {ODYSSEY} type Character card with a cost of 5 or less from your hand.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -543,8 +546,7 @@
     "effectPt": "[On Play] Se o seu Líder tiver o tipo {ODYSSEY}, coloque até 3 das suas cartas de DON!! como ativas. [On Your Opponent's Attack] [Once Per Turn] Você pode descansar 1 das suas cartas de DON!!: Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[On Play] If your Leader has the {ODYSSEY} type, set up to 3 of your DON!! cards as active. [On Your Opponent's Attack] [Once Per Turn] You may rest 1 of your DON!! cards: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -643,8 +645,7 @@
     "effectPt": "[When Attacking] [Once Per Turn] Se você tiver 3 ou mais descansado(a) Personagens, Compre 1 carta(s).",
     "effectEn": "[When Attacking] [Once Per Turn] If you have 3 or more rested Characters, draw 1 card.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -668,9 +669,7 @@
     ],
     "effectPt": "[On K.O.] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Jogue Até 1 {ODYSSEY} ou {Bando do Chapéu de Palha} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "effectEn": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 {ODYSSEY} or {Straw Hat Crew} type Character card with a cost of 4 or less from your trash rested.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -694,7 +693,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque Até 1 dos seus {ODYSSEY} tipo Personagens com custo de 4 ou menos as ativo(a).",
     "effectEn": "[End of Your Turn] Set up to 1 of your {ODYSSEY} type Characters with a cost of 4 or less as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -745,7 +746,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Se você tiver 2 ou mais descansado(a) Personagens, coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] If you have 2 or more rested Characters, set this Character as active.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -771,8 +773,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] [Once Per Turn] coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] Set this Character as active.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -897,7 +898,8 @@
     "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {ODYSSEY} carta do tipo diferente de [Lim] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [fim dos seus turno] Se você tiver 3 ou mais descansado(a) Personagens, coloque este Personagem como ativo.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {ODYSSEY} type card other than [Lim] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [End of Your Turn] If you have 3 or more rested Characters, set this Character as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "your-turn"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -1026,7 +1028,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse 5 das suas cartas de DON!! e descarte 1 carta(s) da sua mão: Jogue Até 1 {Cross Guild} tipo carta(s) de Personagem da sua mão.",
     "effectEn": "[Activate: Main] You may rest 5 of your DON!! cards and trash 1 card from your hand: Play up to 1 {Cross Guild} type Character card from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -1048,9 +1052,7 @@
     ],
     "effectPt": "[On K.O.] Se o seu Líder tiver o tipo {Cross Guild}, Jogue até 1 carta(s) de Personagem com custo de 5 ou menos diferente de [Alvida] da sua mão.",
     "effectEn": "[On K.O.] If your Leader has the {Cross Guild} type, play up to 1 Character card with a cost of 5 or less other than [Alvida] from your hand.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -1146,8 +1148,7 @@
     "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [On K.O.] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Double Attack] (This card deals 2 damage.) [On K.O.] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
-      "double-attack",
-      "on-ko"
+      "double-attack"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -1460,7 +1461,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode colocar 2 cartas da sua mão no fundo do seu Deck em qualquer ordem e descanse este Palco: Se o seu Líder tiver o tipo {Cross Guild}, Compre 2 carta(s).",
     "effectEn": "[Activate: Main] You may place 2 cards from your hand at the bottom of your deck in any order and rest this Stage: If your Leader has the {Cross Guild} type, draw 2 cards.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -1485,7 +1488,6 @@
     "effectPt": "[DON!! x1] todos os dos seus Personagens ganha +1 de custo. [Your Turn] [Once Per Turn] Quando 2 ou mais cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!, adicione Até 1 DON!! carta do seu Deck de DON!! e coloque-a como ativa, e adicione Até 1 adicional DON!! carta e descanse ela.",
     "effectEn": "[DON!! x1] All of your Characters gain +1 cost. [Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active, and add up to 1 additional DON!! card and rest it.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-09",
@@ -1656,7 +1658,8 @@
     "effectPt": "[fim dos seus turno] Você pode retorne 1 ou mais cartas de DON!! do seu campo para o seu Deck de DON!!: coloque este Personagem como ativo. Em seguida, este Personagem ganha [Blocker] até o fim do próximo turno do seu oponente.",
     "effectEn": "[End of Your Turn] You may return 1 or more DON!! cards from your field to your DON!! deck: Set this Character as active. Then, this Character gains [Blocker] until the end of your opponent's next turn.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "your-turn"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -1802,7 +1805,6 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-09",
@@ -1973,7 +1975,8 @@
     "effectPt": "seu [On Play] efeitos forem negated. [Activate: Main] Você pode descartar 1 carta(s) da sua mão: do seu oponente [On Play] efeitos forem negated até o fim do próximo turno do seu oponente.",
     "effectEn": "Your [On Play] effects are negated. [Activate: Main] You may trash 1 card from your hand: Your opponent's [On Play] effects are negated until the end of your opponent's next turn.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -2019,7 +2022,7 @@
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −3 cost during this turn. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -2044,9 +2047,9 @@
     "effectEn": "[Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type, this Character gains [Double Attack], [Banish] or [Blocker] until the end of your opponent's next turn.",
     "keywordIds": [
       "blocker",
+      "activate-main",
       "double-attack",
-      "banish",
-      "once-per-turn"
+      "banish"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -2164,7 +2167,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descartar este Personagem: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, Compre 1 carta(s). Em seguida, dê Até 1 dos Personagens do seu oponente –2 custo durante este turno.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader has the {Blackbeard Pirates} type, draw 1 card. Then, give up to 1 of your opponent's Characters –2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -2187,7 +2192,7 @@
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may rest this Character: If your Leader has the {Blackbeard Pirates} type, K.O. up to 1 of your opponent's Characters with a cost of 1 or less. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -2234,7 +2239,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Se o número de cartas na sua mão for no least 3 menos do que o número em do seu oponente mão, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: If the number of cards in your hand is at least 3 less than the number in your opponent's hand, draw 2 cards and trash 1 card from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -2259,7 +2266,7 @@
     "effectEn": "[Blocker] [Activate: Main] [Once Per Turn] If your Leader has the {Blackbeard Pirates} type and this Character was played on this turn, negate the effect of up to 1 of your opponent's Leader during this turn. Then, negate the effect of up to 1 of your opponent's Characters and that Character cannot attack until the end of your opponent's next turn.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
@@ -2305,7 +2312,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas do Barba Negra} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },
@@ -2402,7 +2411,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Olhe as 3 cartas do topo do seu Deck; revele até 1 {Piratas do Barba Negra} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Blackbeard Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-09",
     "setName": "EMPERORS IN THE NEW WORLD"
   },

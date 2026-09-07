@@ -91,6 +91,7 @@
     "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains [Banish] and +1000 power during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
       "when-attacking",
+      "trigger",
       "banish"
     ],
     "setId": "ST-07",
@@ -214,6 +215,7 @@
     "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "ST-07",
@@ -266,6 +268,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger",
       "banish"
     ],
@@ -316,6 +319,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger",
       "double-attack"
     ],
@@ -415,7 +419,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse este Palco e adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos seus Personagens com custo de 3 para o topo do cartas de Vida do dono virada(s) para cima.",
     "effectEn": "[Activate: Main] You may rest this Stage and add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your Characters with a cost of 3 to the top of the owner's Life cards face-up.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-07",
     "setName": "Big Mom Pirates"
   }

@@ -18,9 +18,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 do seu Líder ou Personagens ganha +4000 de Poder durante esta batalha.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +4000 power during this battle.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
   },
@@ -66,6 +64,7 @@
     "effectPt": "[Rush: Personagem] [On Play] Se o seu Líder for [Edward.Newgate] ou tem o {País de Wano} tipo, dê Até 1 Personagem(ns) descansado(s) do seu oponente −6000 Poder durante este turno.",
     "effectEn": "[Rush: Character] [On Play] If your Leader is [Edward.Newgate] or has the {Land of Wano} type, give up to 1 of your opponent's rested Characters −6000 power during this turn.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "OP-17",
@@ -239,7 +238,7 @@
     "effectEn": "[Activate: Main] [Once Per Turn] If your opponent has a Character with 10000 power or more and you have no other [Fossa], this Character gains [Blocker] and +2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -287,8 +286,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue Até 1 carta com custo de 1 e um(a) tipo including \"Whitebeard Pirates\" da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 card with a cost of 1 and a type including \"Whitebeard Pirates\" from your hand.",
     "keywordIds": [
-      "blocker",
-      "on-ko"
+      "blocker"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -359,9 +357,7 @@
     ],
     "effectPt": "Se um de seus Personagens for ser removido de campo por um efeito do seu oponente, você pode K.O. este Personagem em vez disso. [On K.O.] Você pode descartar 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Jogue este Personagem carta da sua lixeira.",
     "effectEn": "If one of your Characters would be removed from the field by your opponent's effect, you may K.O. this Character instead. [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: Play this Character card from your trash.",
-    "keywordIds": [
-      "on-ko"
-    ],
+    "keywordIds": [],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
   },
@@ -483,7 +479,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão ou descanse 1 das suas cartas de DON!!: Até 1 Personagem(ns) descansado(s) do seu oponente não ficará ativo na próxima Fase de Restauração do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 card from your hand or rest 1 of your DON!! cards: Up to 1 of your opponent's rested Characters will not become active in your opponent's next Refresh Phase.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -579,6 +575,7 @@
     "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [On Play] Rest up to 1 of your opponent's Characters.",
     "keywordIds": [
       "on-play",
+      "trigger",
       "banish"
     ],
     "setId": "OP-17",
@@ -603,8 +600,7 @@
     "effectPt": "[On K.O.] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 6 ou menos. [Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) DON!! carta para seu [Shanks] Líder.",
     "effectEn": "[On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 6 or less. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your [Shanks] Leader.",
     "keywordIds": [
-      "once-per-turn",
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -628,8 +624,7 @@
     "effectPt": "[When Attacking] Se o seu Líder tiver o tipo {Piratas do Ruivo}, Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[When Attacking] If your Leader has the {Red-Haired Pirates} type, rest up to 1 of your opponent's Characters with a cost of 2 or less. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "when-attacking",
-      "on-ko"
+      "when-attacking"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -653,6 +648,7 @@
     "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo}, Compre 1 carta(s) e Descanse até 2 Personagem(ns) do seu oponente.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the {Red-Haired Pirates} type, draw 1 card and rest up to 2 of your opponent's Characters.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "OP-17",
@@ -731,7 +727,7 @@
     "keywordIds": [
       "rush",
       "on-play",
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -755,7 +751,8 @@
     "effectPt": "[On Play] Compre 1 carta(s) e Descanse até 1 Personagem(ns) do seu oponente com custo de 8 ou menos. [fim dos seus turno] coloque Até 1 dos seus Personagens com um tipo que inclua \"vermelho(a)-Haired Pirates\" as ativo(a).",
     "effectEn": "[On Play] Draw 1 card and rest up to 1 of your opponent's Characters with a cost of 8 or less. [End of Your Turn] Set up to 1 of your Characters with a type including \"Red-Haired Pirates\" as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "your-turn"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -827,7 +824,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se do seu oponente Líder tiver 6000 Poder ou mais, coloque até 1 das suas cartas de DON!! como ativas. Em seguida, seu {Piratas do Ruivo} tipo Poder base do seu Líder torna-se 6000 até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] If your opponent's Leader has 6000 power or more, set up to 1 of your DON!! cards as active. Then, your {Red-Haired Pirates} type Leader's base power becomes 6000 until the end of your opponent's next End Phase.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -969,8 +966,7 @@
     "effectPt": "[On Play] Compre 1 carta(s). [Once Per Turn] Quando seu Líder com um tipo que inclua \"Rocks Pirates\" attacks ou for attacked, Você pode descartar 1 carta(s) da sua mão para ative este efeito. seu Líder ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[On Play] Draw 1 card. [Once Per Turn] When your Leader with a type including \"Rocks Pirates\" attacks or is attacked, you may trash 1 card from your hand to activate this effect. Your Leader gains +3000 power during this battle.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1067,7 +1063,9 @@
     ],
     "effectPt": "Se o tipo do seu Líder incluir \"Rocks Pirates\" e este Personagem for descansado(a), seu oponente não pode atacar qualquer carta diferente de o Personagem [Captain John]. [Activate: Main] Você pode descansar este Personagem: Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "If your Leader's type includes \"Rocks Pirates\" and this Character is rested, your opponent cannot attack any card other than the Character [Captain John]. [Activate: Main] You may rest this Character: Draw 1 card and trash 1 card from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
   },
@@ -1141,7 +1139,9 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 2 ou menos cartas na sua mão, seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a).",
     "effectEn": "[End of Your Turn] If you have 2 or less cards in your hand, your opponent places 1 card from their hand at the bottom of their deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
   },
@@ -1164,8 +1164,8 @@
     "effectPt": "[Rush: Personagem] [When Attacking]/[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta com um tipo que inclua \"Rocks Pirates\" da sua mão: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
     "effectEn": "[Rush: Character] [When Attacking]/[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card with a type including \"Rocks Pirates\" from your hand: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "rush",
+      "when-attacking"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1189,8 +1189,7 @@
     "effectPt": "[On Play] seu oponente escolhe um: • Compre 2 carta(s). • seu oponente descarta 2 cartas de a mão dele(a). [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 do seu Líder ou Personagens ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[On Play] Your opponent chooses one: • Draw 2 cards. • Your opponent trashes 2 cards from their hand. [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +1000 power during this battle.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1287,8 +1286,7 @@
     "effectPt": "[On K.O.] seu oponente coloca 2 cartas de a mão dele(a) no fundo do Deck dele(a) em qualquer ordem. [Activate: Main] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: este Personagem ganha +3000 de Poder durante este turno.",
     "effectEn": "[On K.O.] Your opponent places 2 cards from their hand at the bottom of their deck in any order. [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: This Character gains +3000 power during this turn.",
     "keywordIds": [
-      "once-per-turn",
-      "on-ko"
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1312,7 +1310,8 @@
     "effectPt": "[On Play] Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos não pode atacar até o fim da próxima Fase Final do seu oponente. [Activate: Main] Você pode descanse 3 das suas cartas de DON!! e este Personagem: Até 1 dos Personagens do seu oponente não pode atacar até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[On Play] Up to 1 of your opponent's Characters with a base cost of 6 or less cannot attack until the end of your opponent's next End Phase. [Activate: Main] You may rest 3 of your DON!! cards and this Character: Up to 1 of your opponent's Characters cannot attack until the end of your opponent's next End Phase.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1335,8 +1334,7 @@
     "effectPt": "[Main] Você pode descansar 1 das suas cartas de DON!!: Até 1 dos seus [Rocks.D.Xebec] ganha [Unblockable] durante este turno. [Counter] Até 1 do seu Líder com um tipo que inclua \"Rocks Pirates\" ou Até 1 do seu Personagem com um tipo que inclua \"Rocks Pirates\" ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 1 of your DON!! cards: Up to 1 of your [Rocks.D.Xebec] gains [Unblockable] during this turn. [Counter] Up to 1 of your Leader with a type including \"Rocks Pirates\" or up to 1 of your Character with a type including \"Rocks Pirates\" gains +2000 power during this battle.",
     "keywordIds": [
-      "counter",
-      "unblockable"
+      "counter"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1405,8 +1403,7 @@
     "effectPt": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[When Attacking]/[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
-      "when-attacking",
-      "once-per-turn"
+      "when-attacking"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1481,7 +1478,8 @@
     "effectPt": "[On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [Activate: Main] Você pode descartar este Personagem: Jogue Até 1 [King], [Queen], ou [Jack] da sua mão.",
     "effectEn": "[On Play] DON!! −1: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. [Activate: Main] You may trash this Character: Play up to 1 [King], [Queen], or [Jack] from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "activate-main"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1507,7 +1505,6 @@
     "effectEn": "[Blocker] [Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, add up to 1 DON!! card as active from your DON!! deck. Then, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
       "blocker",
-      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-17",
@@ -1533,7 +1530,8 @@
     "effectPt": "todos os carta(s) de Personagem na sua mão sem Contra-Ataque têm Contra-Ataque +1000. [Activate: Main] [Once Per Turn] DON!! −1: Se este Personagem foi jogado neste turno, anule o efeito de Até 1 dos Personagens do seu oponente com custo de 6 ou menos durante este turno, e K.O. ela.",
     "effectEn": "All Character cards in your hand without a Counter have a +1000 Counter. [Activate: Main] [Once Per Turn] DON!! −1: If this Character was played on this turn, negate the effect of up to 1 of your opponent's Characters with a cost of 6 or less during this turn, and K.O. it.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main",
+      "counter"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1558,8 +1556,7 @@
     "effectPt": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 do seu Líder ou Personagens ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +2000 power during this battle.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -1683,6 +1680,7 @@
     "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] DON!! −1: If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
+      "rush",
       "on-play"
     ],
     "setId": "OP-17",
@@ -1758,8 +1756,7 @@
     "effectPt": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 do seu Líder ou Personagens ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[Blocker] [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +1000 power during this battle.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2064,8 +2061,7 @@
     "effectPt": "[On Play] Se houver um Personagem com custo de 12 ou mais, Até 1 dos seus Personagens ganha [Unblockable] durante este turno. (esta carta não pode ser blocked.)",
     "effectEn": "[On Play] If there is a Character with a cost of 12 or more, up to 1 of your Characters gains [Unblockable] during this turn. (This card cannot be blocked.)",
     "keywordIds": [
-      "on-play",
-      "unblockable"
+      "on-play"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2493,8 +2489,8 @@
     "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
-      "trigger",
-      "once-per-turn"
+      "activate-main",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2520,8 +2516,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "trigger",
-      "on-ko"
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2548,8 +2543,8 @@
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2576,8 +2571,8 @@
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2630,8 +2625,8 @@
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2739,8 +2734,8 @@
     "keywordIds": [
       "rush",
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2793,8 +2788,8 @@
     "effectEn": "[Your Turn] The base power of all of your Characters with a [Trigger] and 4000 base power becomes 8000. [On Play] Draw 1 card, then choose one: • Add up to 1 card from the top of your deck to the top of your Life cards. • Add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2845,8 +2840,8 @@
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "on-play",
-      "trigger",
-      "your-turn"
+      "your-turn",
+      "trigger"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2870,8 +2865,7 @@
     "effectPt": "[Main] seu [Charlotte Linlin] Líder ganha [Unblockable] durante este turno. [Counter] Até 1 dos seus [Charlotte Linlin] ganha +4000 de Poder durante esta batalha.",
     "effectEn": "[Main] Your [Charlotte Linlin] Leader gains [Unblockable] during this turn. [Counter] Up to 1 of your [Charlotte Linlin] gains +4000 power during this battle.",
     "keywordIds": [
-      "counter",
-      "unblockable"
+      "counter"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"
@@ -2947,7 +2941,8 @@
     "effectPt": "Se você only tiver Personagens sem Contra-Ataque, esta carta na sua mão tiver a +2000 Counter. [On Play] Compre 1 carta(s) e jogue Até 2 {Rocks Pirates} tipo cartas com different carta names e um(a) total custo de 9 ou menos da sua mão.",
     "effectEn": "If you only have Characters without a Counter, this card in your hand has a +2000 Counter. [On Play] Draw 1 card and play up to 2 {Rocks Pirates} type cards with different card names and a total cost of 9 or less from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "counter"
     ],
     "setId": "OP-17",
     "setName": "THE WORLD’S STRONGEST WARRIORS"

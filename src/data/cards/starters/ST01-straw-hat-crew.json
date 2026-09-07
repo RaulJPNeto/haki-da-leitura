@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a até 1 dos seus Personagens até 1 carta(s) de DON!! descansada(s).",
     "effectEn": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
@@ -168,7 +168,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
@@ -409,7 +409,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Até 1 {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem no seu campo ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
   }

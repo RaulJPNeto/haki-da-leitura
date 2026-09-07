@@ -20,7 +20,8 @@
     "effectPt": "Todas as suas cartas de Personagem do tipo {País de Wano} sem Contra-Ataque têm Contra-Ataque +1000, de acordo com as regras. [DON!! x1] [When Attacking] Se você tiver um Personagem do tipo {País de Wano} com custo de 5 ou mais, este Líder ganha +1000 de Poder até o início do seu próximo turno.",
     "effectEn": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules. [DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "counter"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -45,8 +46,7 @@
     "effectPt": "[On Play] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Se o seu Líder tiver o tipo {País de Wano} ou {Piratas do Barba Branca}, Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If your Leader has the {Land of Wano} or {Whitebeard Pirates} type, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "keywordIds": [
-      "on-play",
-      "once-per-turn"
+      "on-play"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -168,7 +168,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -192,9 +192,7 @@
     ],
     "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito, Você pode descartar 1 carta de Evento ou Palco da sua mão em vez disso.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 Event or Stage card from your hand instead.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -266,7 +264,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar esta carta e colocar 1 dos seus Personagens com 1000 de Poder base no fundo do seu Deck: Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -315,7 +315,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {País de Wano} tipo carta(s) de Personagem com custo de 5 ou menos diferente de [Kouzuki Hiyori] da sua mão. Em seguida, Compre 1 carta(s).",
     "effectEn": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -387,7 +389,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 1 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 1 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -508,7 +512,9 @@
     ],
     "effectPt": "[fim dos seus turno] Você pode retorne 1 dos seus {Impel Down} tipo Personagens com custo de 2 ou mais para a mão do dono: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -531,7 +537,9 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 2 ou menos cartas na sua mão, Compre 2 carta(s).",
     "effectEn": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -727,6 +735,7 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "EB-01",
@@ -823,8 +832,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "blocker",
-      "once-per-turn"
+      "blocker"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -876,8 +884,7 @@
     "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "rush",
-      "on-ko"
+      "rush"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -900,9 +907,7 @@
     ],
     "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -978,7 +983,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -1023,7 +1028,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {Dressrosa} tipo carta(s) de Personagem com custo de 3 ou menos diferente de [Scarlet] da sua mão descansado(a). Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1069,7 +1076,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus Personagens [Spandam] ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1141,9 +1150,7 @@
     ],
     "effectPt": "[Once Per Turn] Quando um Personagem for nocauteado, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
-    "keywordIds": [
-      "once-per-turn"
-    ],
+    "keywordIds": [],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1165,7 +1172,9 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
