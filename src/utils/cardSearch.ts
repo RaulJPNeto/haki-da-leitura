@@ -37,7 +37,7 @@ export function searchCards(cards: Card[], options: SearchOptions): Card[] {
   }
 
   const hasQuery = q.length >= 2;
-  const tokens = q.split(/\s+/).filter(Boolean);
+  const tokens = q.split(/[\s\.\-]+/).filter(Boolean);
 
   const scoredResults: { card: Card; score: number }[] = [];
 

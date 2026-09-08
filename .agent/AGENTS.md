@@ -110,9 +110,10 @@ Antes de considerar qualquer entrega finalizada, forneça ao desenvolvedor os co
 
 ### ⚠️ Verificação Obrigatória de Branch:
 Antes de iniciar qualquer modificação ou implementação de código:
-1. **Checagem de Branch:** O agente DEVE verificar a branch atual (ex: `git branch --show-current`).
-2. **Alerta de Branch Incorreta:** Se o desenvolvedor estiver na branch `main` (que está diretamente conectada à produção/deploy contínuo da Cloudflare), o agente **DEVE AVISAR IMEDIATAMENTE** que a branch `main` é de produção e **NÃO deve realizar alterações de código nela**.
-3. **Recomendação Semântica de Branch:** O agente deve recomendar o comando exato para criar uma branch temática para a tarefa:
+1. **Checagem de Branch:** O agente DEVE apenas verificar a branch atual (ex: `git branch --show-current`).
+2. **Proibição de Criação de Branches:** O agente **NUNCA DEVE CRIAR OU ALTERAR BRANCHES** (é proibido executar comandos como `git checkout -b`, `git switch -c` ou `git branch`). Apenas o desenvolvedor cria e troca de branches.
+3. **Alerta de Branch Incorreta:** Se o desenvolvedor estiver na branch `main` (que está diretamente conectada à produção/deploy contínuo da Cloudflare), o agente **DEVE AVISAR IMEDIATAMENTE** que a branch `main` é de produção, **PARAR a execução e NÃO realizar alterações de código nela**.
+4. **Recomendação Semântica para o Dev:** O agente deve apenas sugerir ao desenvolvedor o comando para ele próprio criar a branch temática no terminal:
    * Para correção de bugs: `git checkout -b fix/<nome-do-bug>` (ex: `git checkout -b fix/camera-freeze`)
    * Para novas funcionalidades: `git checkout -b feat/<nome-da-feature>` (ex: `git checkout -b feat/anti-glare-filter`)
    * Para melhorias de dados/léxico: `git checkout -b chore/<nome-da-tarefa>` (ex: `git checkout -b chore/hybrid-lexicon`)
@@ -121,6 +122,7 @@ Antes de iniciar qualquer modificação ou implementação de código:
 O agente **NUNCA deve executar**:
 * `git commit`
 * `git push`
+* `git checkout -b` / `git switch -c` / `git branch` (criação ou troca de branches)
 * `git reset --hard`
 * `git clean`
 * Qualquer comando destrutivo no histórico.
