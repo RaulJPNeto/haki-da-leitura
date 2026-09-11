@@ -2881,7 +2881,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o {Homem-Peixe} ou {Tritão} tipo e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Homem-Peixe} ou {Tritão} e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -59901,7 +59901,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a até 1 dos seus Personagens até 1 carta(s) de DON!! descansada(s).",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a 1 dos seus Personagens até 1 carta de DON!! descansada.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
     "keywordIds": [
       "activate-main",
@@ -59926,7 +59926,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Quando atacar] seu oponente não pode ativar a [Blocker] Personagem que tiver 5000 ou mais Poder durante esta batalha.",
+    "effectPt": "[DON!! x2] [Quando atacar] Seu oponente não pode ativar um Personagem com [Blocker] que tenha 5000 ou mais de poder durante esta batalha.",
     "effectEn": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -59978,7 +59978,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[DON!! x2] Este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -60004,7 +60004,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Até 1 do seu Líder ou carta(s) de Personagem diferente de esta carta ganha +1000 Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Até 1 das suas cartas de Líder ou Personagem diferente desta carta ganha +1000 de poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -60030,7 +60030,7 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"

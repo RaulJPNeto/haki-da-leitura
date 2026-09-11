@@ -5,7 +5,12 @@ on:
     # Executa semanalmente toda segunda-feira às 04:00 UTC
     - cron: '0 4 * * 1'
   workflow_dispatch:
-    # Permite execução manual via painel do GitHub Actions
+    inputs:
+      force_all:
+        description: 'Forçar re-tradução COMPLETA de todas as cartas (--all)'
+        required: false
+        type: boolean
+        default: false
   repository_dispatch:
     # Permite execução via webhook/API externa (TASK-03)
     types: [sync-cards]
@@ -32,6 +37,18 @@ jobs:
 
       - name: Ingest Cards Database
         run: node scripts/ingest_cards.js
+
+      - name: Auto-translate Cards with Gemini Flash
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          if [ "${{ inputs.force_all }}" = "true" ]; then
+            echo "🔄 Executando tradução COMPLETA (--all) via GitHub Actions na nuvem..."
+            node scripts/translate_new_cards.js --all
+          else
+            echo "⚡ Executando tradução incremental..."
+            node scripts/translate_new_cards.js
+          fi
 
       - name: Split Cards into Modular Sets
         run: node scripts/split_cards.js

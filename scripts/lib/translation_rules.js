@@ -11,6 +11,8 @@ export function translateText(en) {
   // 1. Tags de Efeito e Gatilhos (Padronização Oficial em Inglês)
   t = t.replace(/\[Ao Jogar\]/gi, '[On Play]');
   t = t.replace(/\[Ao Atacar\]/gi, '[When Attacking]');
+  t = t.replace(/\[Quando Atacar\]/gi, '[When Attacking]');
+  t = t.replace(/\[Quando esta carta atacar\]/gi, '[When Attacking]');
   t = t.replace(/\[Seu Turno\]/gi, '[Your Turn]');
   t = t.replace(/\[Turno do Oponente\]/gi, '[Opponent\'s Turn]');
   t = t.replace(/\[Fim do Seu Turno\]/gi, '[End of Your Turn]');
