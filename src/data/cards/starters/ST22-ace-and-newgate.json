@@ -16,9 +16,10 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta(s) e coloque o revelada carta no topo do seu Deck.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta e coloque o revelada carta no topo do seu Deck.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-22",
@@ -41,10 +42,11 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Whitebeard Pirates\" diferente de [Izo] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [On Your Opponent's Attack] Você pode descartar este Personagem: Compre 1 carta(s) e coloque 1 carta da sua mão no fundo do seu Deck.",
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 carta com um tipo que inclua \"Whitebeard Pirates\" diferente de [Izo] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [On Your Opponent's Attack] Você pode descartar este Personagem: Compre 1 carta e coloque 1 carta da sua mão no fundo do seu Deck.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Whitebeard Pirates\" other than [Izo] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [On Your Opponent's Attack] You may trash this Character: Draw 1 card and place 1 card from your hand at the bottom of your deck.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-opponents-attack"
     ],
     "setId": "ST-22",
     "setName": "Ace &amp; Newgate"
@@ -66,7 +68,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [On Play] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Compre 2 carta(s).",
+    "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [On Play] Revele 1 carta de o topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", compre 2 cartas.",
     "effectEn": "[Double Attack] (This card deals 2 damage.) [On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards.",
     "keywordIds": [
       "on-play",
@@ -115,9 +117,10 @@
       "Clã Kouzuki",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descarte 2 carta(s) da sua mão em vez disso. [Activate: Main] [Once Per Turn] Você pode descanse 3 das suas cartas de DON!! e retorne 1 dos seus Personagens diferente de este Personagem para a mão do dono: coloque este Personagem como ativo.",
+    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descartar 2 cartas da sua mão em vez disso. [Activate: Main] [Once Per Turn] Você pode descanse 3 das suas cartas de DON!! e retorne 1 dos seus Personagens diferente de este Personagem para o dono's mão: coloque este Personagem as ativo(a).",
     "effectEn": "If this Character would be removed from the field by your opponent's effect, you may trash 2 cards from your hand instead. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards and return 1 of your Characters other than this Character to the owner's hand: Set this Character as active.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-22",
@@ -139,7 +142,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[On Play] Revele 1 carta de o topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", compre 2 cartas e descartar 1 carta da sua mão.",
     "effectEn": "[On Play] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "on-play"
@@ -163,9 +166,10 @@
     "subtypes": [
       "Whitebeard Pirates Allies"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Revele 1 carta de o topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-22",
@@ -255,7 +259,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Your Turn] [On Play] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Até 1 do seu Líder com um tipo que inclua \"Whitebeard Pirates\" ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Your Turn] [On Play] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Até 1 do seu Líder com um tipo que inclua \"Whitebeard Pirates\" ganha +2000 Poder durante este turno.",
     "effectEn": "[Your Turn] [On Play] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Up to 1 of your Leader with a type including \"Whitebeard Pirates\" gains +2000 power during this turn.",
     "keywordIds": [
       "on-play",
@@ -280,7 +284,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso. [Quando atacar] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito do seu oponente, Você pode descartar 1 carta da sua mão em vez disso. [Quando atacar] Revele 1 carta de o topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha +1000 Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
     "keywordIds": [
       "when-attacking",
@@ -350,7 +354,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", jogue Até 1 [Edward.Newgate] da sua mão. Em seguida, Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão. Se fizer isso, Até 1 do seu Líder ganha +2000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Main] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", jogue Até 1 [Edward.Newgate] da sua mão. Em seguida, Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão. Se fizer isso, Até 1 do seu Líder ganha +2000 Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Main] If your Leader's type includes \"Whitebeard Pirates\", play up to 1 [Edward.Newgate] from your hand. Then, you may add 1 card from the top or bottom of your Life cards to your hand. If you do, up to 1 of your Leader gains +2000 power until the end of your opponent's next turn.",
     "keywordIds": [],
     "setId": "ST-22",
@@ -371,9 +375,9 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Counter] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Counter] Revele 1 carta de o topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha.",
     "effectEn": "[Counter] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", up to 1 of your Leader or Character cards gains +4000 power during this battle.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger",
@@ -397,9 +401,9 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta(s). Em seguida, coloque Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono.",
+    "effectPt": "[Main] Você pode revele 2 cartas com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta. Em seguida, coloque Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono.",
     "effectEn": "[Main] You may reveal 2 cards with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card. Then, place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
-    "triggerPt": "[Trigger] retorne até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "triggerPt": "[Trigger] retorne Até 1 Personagem com custo de 3 ou menos para o dono's mão.",
     "triggerEn": "[Trigger] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "keywordIds": [
       "trigger"

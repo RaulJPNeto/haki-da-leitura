@@ -15,9 +15,12 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[DON!! x1] [Opponent's Turn] Se você tiver 2 ou menos cartas de Vida, este Líder ganha +1000 de Poder.",
+    "effectPt": "[DON!! x1] [Opponent's Turn] Se você tiver 2 ou menos cartas de Vida, este Líder ganha +1000 Poder.",
     "effectEn": "[DON!! x1] [Opponent's Turn] If you have 2 or less Life cards, this Leader gains +1000 power.",
-    "keywordIds": [],
+    "keywordIds": [
+      "opponents-turn",
+      "don-x"
+    ],
     "setId": "ST-09",
     "setName": "Yamato"
   },
@@ -39,7 +42,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos e adicione esta carta para a sua mão.",
+    "triggerPt": "[Trigger] descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -88,7 +91,9 @@
     ],
     "effectPt": "[DON!! x1] Se você tiver 2 ou menos cartas de Vida, este Personagem não pode ser nocauteado em batalha.",
     "effectEn": "[DON!! x1] If you have 2 or less Life cards, this Character cannot be K.O.'d in battle.",
-    "keywordIds": [],
+    "keywordIds": [
+      "don-x"
+    ],
     "setId": "ST-09",
     "setName": "Yamato"
   },
@@ -109,11 +114,12 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[DON!! x1] este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.) [On K.O.] Você pode descartar 2 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[DON!! x1] este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.) [On K.O.] Você pode descartar 2 cartas da sua mão: adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[DON!! x1] This Character gains [Double Attack]. (This card deals 2 damage.) [On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "double-attack",
-      "on-ko"
+      "on-ko",
+      "don-x"
     ],
     "setId": "ST-09",
     "setName": "Yamato"
@@ -157,10 +163,11 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Block] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Block] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +4000 Poder durante esta batalha.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +4000 power during this battle.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-block"
     ],
     "setId": "ST-09",
     "setName": "Yamato"
@@ -181,10 +188,11 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Jogue Até 1 amarelo(a) {País de Wano} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: Jogue Até 1 amarelo(a) {País de Wano} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "ST-09",
     "setName": "Yamato"
@@ -232,7 +240,7 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado, Você pode descartar 1 carta do topo ou fundo das suas cartas de Vida em vez disso.",
+    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado, Você pode descartar 1 carta de o topo ou fundo das suas cartas de Vida em vez disso.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
     "keywordIds": [
       "once-per-turn"
@@ -279,7 +287,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[Quando atacar] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 Poder até o início do seu próximo turno.",
     "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "when-attacking"
@@ -324,9 +332,9 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Counter] Se você tiver 2 ou menos cartas de Vida, Dê a até 1 cartas de Líder ou Personagem do seu oponente −3000 de Poder durante este turno.",
+    "effectPt": "[Counter] Se você tiver 2 ou menos cartas de Vida, dê Até 1 do Líder do seu oponente ou carta(s) de Personagem −3000 Poder durante este turno.",
     "effectEn": "[Counter] If you have 2 or less Life cards, give up to 1 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "triggerPt": "[Trigger] Você pode descartar 2 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "triggerPt": "[Trigger] Você pode descartar 2 cartas da sua mão: adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "triggerEn": "[Trigger] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "trigger",
@@ -350,9 +358,9 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Se você tiver 2 ou menos cartas de Vida, adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, se você tiver 2 ou menos cartas de Vida, adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of the owner's Life cards face-up.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger",

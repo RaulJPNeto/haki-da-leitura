@@ -1,5 +1,704 @@
 [
   {
+    "id": "P-001",
+    "code": "P-001",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-002",
+    "code": "P-002",
+    "namePt": "I Smell Adventure!!!",
+    "nameEn": "I Smell Adventure!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Main] retorne todos os cartas na sua mão para o seu Deck e embaralhe seu Deck. Em seguida, compre cartas igual a o número você retornado(a) para o seu Deck.",
+    "effectEn": "[Main] Return all cards in your hand to your deck and shuffle your deck. Then, draw cards equal to the number you returned to your deck.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-003",
+    "code": "P-003",
+    "namePt": "Eustass\"Captain\"Kid",
+    "nameEn": "Eustass\"Captain\"Kid",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Kid"
+    ],
+    "effectPt": "[DON!! x2] este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.)",
+    "effectEn": "[DON!! x2] This Character gains [Double Attack]. (This card deals 2 damage.)",
+    "keywordIds": [
+      "double-attack",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-004",
+    "code": "P-004",
+    "namePt": "Crocodile",
+    "nameEn": "Crocodile",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[DON!! x1] This Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-005",
+    "code": "P-005",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 7,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Activate: Main] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Banish] durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[Activate: Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "activate-main",
+      "trigger",
+      "banish",
+      "don-minus"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-006",
+    "code": "P-006",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x2] [Your Turn] este Personagem ganha +2000 Poder.",
+    "effectEn": "[DON!! x2] [Your Turn] This Character gains +2000 power.",
+    "keywordIds": [
+      "your-turn",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-007",
+    "code": "P-007",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] este Personagem não pode ser nocauteado em batalha por <Strike> atributo Leaders ou Personagens.",
+    "effectEn": "[DON!! x1] This Character cannot be K.O.'d in battle by ＜Strike＞ attribute Leaders or Characters.",
+    "keywordIds": [
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-008",
+    "code": "P-008",
+    "namePt": "Yamato",
+    "nameEn": "Yamato",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: descanse 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "effectEn": "[Activate: Main] You may rest this Character: Rest 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-009",
+    "code": "P-009",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[On Play] Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente adiciona 1 carta de a Vida dele(a) área para a mão dele(a).",
+    "effectEn": "[On Play] If your opponent has 6 or more cards in their hand, your opponent adds 1 card from their Life area to their hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-010",
+    "code": "P-010",
+    "namePt": "Kaido",
+    "nameEn": "Kaido",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas das Feras"
+    ],
+    "effectPt": "[fim dos seus turno] adicione 1 carta de DON!! do seu Deck de DON!! e coloque ela as ativo(a).",
+    "effectEn": "[End of Your Turn] Add 1 DON!! card from your DON!! deck and set it as active.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-011",
+    "code": "P-011",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "LEADER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Activate: Main] [Once Per Turn] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Até 1 dos seus Personagens com no base efeito ganha +2000 Poder durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] ① (You may rest the specified number of DON!! cards in your cost area.): Up to 1 of your Characters with no base effect gains +2000 power during this turn.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-012",
+    "code": "P-012",
+    "namePt": "Jellyfish Pirates",
+    "nameEn": "Jellyfish Pirates",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM",
+      "Jellyfish Pirates"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-013",
+    "code": "P-013",
+    "namePt": "Gordon",
+    "nameEn": "Gordon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[Activate: Main] Você pode colocar este Personagem no fundo do Deck do dono: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
+    "effectEn": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-014",
+    "code": "P-014",
+    "namePt": "Koby",
+    "nameEn": "Koby",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 3000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Marinha"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "triggerPt": "[Trigger] Jogue esta carta.",
+    "triggerEn": "[Trigger] Play this card.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-015",
+    "code": "P-015",
+    "namePt": "Sunny-Kun",
+    "nameEn": "Sunny-Kun",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "FILM",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-016",
+    "code": "P-016",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-017",
+    "code": "P-017",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
+    "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-018",
+    "code": "P-018",
+    "namePt": "Bartolomeo",
+    "nameEn": "Bartolomeo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Barto Club"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-019",
+    "code": "P-019",
+    "namePt": "Bepo",
+    "nameEn": "Bepo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Minks",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[DON!! x1] [Quando atacar] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectEn": "[DON!! x1] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "keywordIds": [
+      "when-attacking",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-020",
+    "code": "P-020",
+    "namePt": "Helmeppo",
+    "nameEn": "Helmeppo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "FILM",
+      "Marinha"
+    ],
+    "effectPt": "[On Play] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
+    "effectEn": "[On Play] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-021",
+    "code": "P-021",
+    "namePt": "Benn Beckman",
+    "nameEn": "Benn Beckman",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "FILM",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-022",
+    "code": "P-022",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "FILM",
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-023",
+    "code": "P-023",
+    "namePt": "Yasopp",
+    "nameEn": "Yasopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "FILM",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-024",
+    "code": "P-024",
+    "namePt": "I'm Gonna Be King of the Pirates!!",
+    "nameEn": "I'm Gonna Be King of the Pirates!!",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Main] seu Líder ganha +1000 Poder para cada dos seus Personagens durante este turno.",
+    "effectEn": "[Main] Your Leader gains +1000 power for each of your Characters during this turn.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-025",
+    "code": "P-025",
+    "namePt": "Smoker",
+    "nameEn": "Smoker",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[DON!! x1] este Personagem não pode ser nocauteado em batalha por Personagens sem o <Special> atributo.",
+    "effectEn": "[DON!! x1] This Character cannot be K.O.'d in battle by Characters without the <Special> attribute.",
+    "keywordIds": [
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-026",
+    "code": "P-026",
+    "namePt": "Morgan",
+    "nameEn": "Morgan",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Quando atacar] Dê Até 1 dos Personagens do seu oponente −3 custo durante este turno.",
+    "effectEn": "[When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-027",
+    "code": "P-027",
+    "namePt": "General Franky",
+    "nameEn": "General Franky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": null,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "o nome desta carta também é considerado [Franky] de acordo com as regras. [Opponent's Turn] todos os seus Personagens com 3000 base Poder ou menos ganha +1000 Poder.",
+    "effectEn": "Also treat this card's name as [Franky] according to the rules. [Opponent's Turn] All of your Characters with 3000 base power or less gain +1000 power.",
+    "keywordIds": [
+      "opponents-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-028",
+    "code": "P-028",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Double Attack] (esta carta causa 2 de dano.)",
+    "effectEn": "[Double Attack] (This card deals 2 damage.)",
+    "keywordIds": [
+      "double-attack"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
     "id": "P-029",
     "code": "P-029",
     "namePt": "Bartolomeo",
@@ -17,11 +716,13 @@
       "Supernovas",
       "Barto Club"
     ],
-    "effectPt": "[fim dos seus turno] Você pode descansar este Personagem: coloque Até 1 dos seus {FILM} tipo Personagens diferente de [Bartolomeo] as ativo(a).",
+    "effectPt": "[fim dos seus turno] Você pode descanse este Personagem: coloque Até 1 dos seus {FILM} tipo Personagens diferente de [Bartolomeo] as ativo(a).",
     "effectEn": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-030",
@@ -47,7 +748,205 @@
       "on-ko"
     ],
     "setId": "P",
-    "setName": "Blue Donquixote Doflamingo"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-031",
+    "code": "P-031",
+    "namePt": "Uta",
+    "nameEn": "Uta",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "FILM"
+    ],
+    "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-032",
+    "code": "P-032",
+    "namePt": "Sengoku",
+    "nameEn": "Sengoku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[DON!! x1] [Your Turn] Dê todos os dos Personagens do seu oponente −2 custo.",
+    "effectEn": "[DON!! x1] [Your Turn] Give all of your opponent's Characters −2 cost.",
+    "keywordIds": [
+      "your-turn",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-033",
+    "code": "P-033",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Activate: Main] Você pode colocar este Personagem no fundo do Deck do dono: Compre 1 carta.",
+    "effectEn": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Draw 1 card.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-034",
+    "code": "P-034",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "The Vinsmoke Family"
+    ],
+    "effectPt": "[DON!! x1] [Your Turn] Se você tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 Poder.",
+    "effectEn": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
+    "keywordIds": [
+      "your-turn",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-035",
+    "code": "P-035",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode descartar 1 carta da sua mão: K.O. Até 1 dos Personagens do seu oponente com custo de 0.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
+    "keywordIds": [
+      "when-attacking",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-036",
+    "code": "P-036",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Quando atacar] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: este Personagem e Até 1 do seu Líder ganha +1000 Poder durante este turno.",
+    "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character and up to 1 of your Leader gain +1000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-037",
+    "code": "P-037",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 4000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Quando atacar] Se você tiver 2 ou mais descansado(a) Personagens, este Personagem ganha +1000 Poder durante este turno.",
+    "effectEn": "[When Attacking] If you have 2 or more rested Characters, this Character gains +1000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-039",
+    "code": "P-039",
+    "namePt": "Bellamy",
+    "nameEn": "Bellamy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bellamy Pirates"
+    ],
+    "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.) [DON!! x2] Se você tiver 0 cartas de Vida, este Personagem ganha +2000 Poder.",
+    "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [DON!! x2] If you have 0 Life cards, this Character gains +2000 power.",
+    "keywordIds": [
+      "trigger",
+      "banish",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-041",
@@ -70,7 +969,352 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "P",
-    "setName": "Purple Monkey.D.Luffy"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-042",
+    "code": "P-042",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "País de Wano",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-043",
+    "code": "P-043",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] retorne Até 1 Personagem com custo de 3 ou menos para o dono's mão.",
+    "effectEn": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-045",
+    "code": "P-045",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "trigger",
+      "banish"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-046",
+    "code": "P-046",
+    "namePt": "Yamato",
+    "nameEn": "Yamato",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "País de Wano"
+    ],
+    "effectPt": "[On Play] Você pode colocar todos os cartas na sua mão no fundo do seu Deck em qualquer ordem. Se fizer isso, compre cartas igual a o número você colocado(a) no fundo do seu Deck.",
+    "effectEn": "[On Play] You may place all cards in your hand at the bottom of your deck in any order. If you do, draw cards equal to the number you placed at the bottom of your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-047",
+    "code": "P-047",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x1] [Quando atacar] Compre 1 carta se você tiver 3 ou menos cartas na sua mão.",
+    "effectEn": "[DON!! x1] [When Attacking] Draw 1 card if you have 3 or less cards in your hand.",
+    "keywordIds": [
+      "when-attacking",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-048",
+    "code": "P-048",
+    "namePt": "Arlong",
+    "nameEn": "Arlong",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "Piratas do Arlong"
+    ],
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 4 ou mais cartas de Vida, seu oponente coloca 1 carta de a mão dele(a) no fundo do Deck dele(a).",
+    "effectEn": "[DON!! x1] [When Attacking] If you have 4 or more Life cards, your opponent places 1 card from their hand at the bottom of their deck.",
+    "keywordIds": [
+      "when-attacking",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-049",
+    "code": "P-049",
+    "namePt": "Usopp",
+    "nameEn": "Usopp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-050",
+    "code": "P-050",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [Your Turn] Se você tiver 3 ou menos cartas na sua mão, este Personagem ganha +4000 Poder.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [Your Turn] If you have 3 or less cards in your hand, this Character gains +4000 power.",
+    "keywordIds": [
+      "blocker",
+      "your-turn",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-051",
+    "code": "P-051",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[Quando atacar] Você pode descartar qualquer número de cartas da sua mão. este Personagem ganha +1000 Poder durante esta batalha para cada carta descartada.",
+    "effectEn": "[When Attacking] You may trash any number of cards from your hand. This Character gains +1000 power during this battle for every card trashed.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-052",
+    "code": "P-052",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sete Corsários"
+    ],
+    "effectPt": "[DON!! x1] este Personagem não pode ser nocauteado em batalha por <Slash> atributo cartas.",
+    "effectEn": "[DON!! x1] This Character cannot be K.O.'d in battle by <Slash> attribute cards.",
+    "keywordIds": [
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-053",
+    "code": "P-053",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Se você tiver 3 ou menos cartas na sua mão, retorne Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o dono's mão.",
+    "effectEn": "[On Play] If you have 3 or less cards in your hand, return up to 1 of your opponent's Characters with a cost of 3 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-054",
+    "code": "P-054",
+    "namePt": "Monkey D Garp",
+    "nameEn": "Monkey D Garp",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[DON!! x1] este Personagem não pode ser nocauteado em batalha por <Strike> atributo cartas.",
+    "effectEn": "[DON!! x1] This Character cannot be K.O.'d in battle by <Strike> attribute cards.",
+    "keywordIds": [
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-055",
+    "code": "P-055",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Você pode descartar 2 cartas da sua mão: seu oponente coloca 1 de dele(a) Personagens no fundo do Deck do dono.",
+    "effectEn": "[On Play] You may trash 2 cards from your hand: Your opponent places 1 of their Characters at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-056",
+    "code": "P-056",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): retorne Até 1 Personagem com custo de 5 ou menos para o dono's mão.",
+    "effectEn": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-057",
@@ -96,7 +1340,7 @@
       "trigger"
     ],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-058",
@@ -122,7 +1366,7 @@
       "trigger"
     ],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-059",
@@ -140,13 +1384,13 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Counter] Se o seu Líder for [Uta], Você pode retorne qualquer número de Personagens no seu campo para a mão do dono. Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante esta batalha para cada retornado(a) Personagem.",
+    "effectPt": "[Counter] Se o seu Líder for [Uta], Você pode retorne qualquer número de Personagens no seu campo para o dono's mão. Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha para cada retornado(a) Personagem.",
     "effectEn": "[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character.",
     "keywordIds": [
       "counter"
     ],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-060",
@@ -168,7 +1412,7 @@
     "effectEn": "[Main] You may rest 1 of your [Uta] cards: Rest up to 2 of your opponent's DON!! cards.",
     "keywordIds": [],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-061",
@@ -191,7 +1435,431 @@
     "effectEn": "-",
     "keywordIds": [],
     "setId": "P",
-    "setName": "Green Uta"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-062",
+    "code": "P-062",
+    "namePt": "Hody &amp; Hyouzou",
+    "nameEn": "Hody &amp; Hyouzou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Homem-Peixe",
+      "Tritão",
+      "New Fish-Man Pirates"
+    ],
+    "effectPt": "[Activate: Main] [Once Per Turn] descanse Até 1 dos Personagens do seu oponente com custo de 4 ou menos e este Personagem ganha +1000 Poder durante este turno. Em seguida, adicione 1 carta de o topo das suas cartas de Vida para a sua mão.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-065",
+    "code": "P-065",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Quando atacar] Se seu oponente tiver a Personagem com custo de 0, este Personagem ganha +2000 Poder até o início do seu próximo turno.",
+    "effectEn": "[When Attacking] If your opponent has a Character with a cost of 0, this Character gains +2000 power until the start of your next turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-068",
+    "code": "P-068",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Kingdom of GERMA",
+      "The Vinsmoke Family"
+    ],
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Olhe no 5 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem.",
+    "effectEn": "[Activate: Main] You may trash this Character: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-069",
+    "code": "P-069",
+    "namePt": "Koala",
+    "nameEn": "Koala",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-070",
+    "code": "P-070",
+    "namePt": "Carrot",
+    "nameEn": "Carrot",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Minks"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-071",
+    "code": "P-071",
+    "namePt": "Marco",
+    "nameEn": "Marco",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[On K.O.] Você pode adicione este Personagem carta para a sua mão.",
+    "effectEn": "[On K.O.] You may add this Character card to your hand.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-072",
+    "code": "P-072",
+    "namePt": "Ryuma",
+    "nameEn": "Ryuma",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "MONSTERS"
+    ],
+    "effectPt": "[On Play]/[On K.O.] descanse Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectEn": "[On Play]/[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-play",
+      "on-ko"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-073",
+    "code": "P-073",
+    "namePt": "Sabo",
+    "nameEn": "Sabo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +1000 Poder durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +1000 power during this turn.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-074",
+    "code": "P-074",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Activate: Main] Você pode retorne este Personagem para o dono's mão: Olhe no 5 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem.",
+    "effectEn": "[Activate: Main] You may return this Character to the owner's hand: Look at 5 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-075",
+    "code": "P-075",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Supernovas",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens. [Quando atacar] Se você tiver a Personagem com custo de 8 ou mais no seu campo, compre 1 carta e descartar 1 carta da sua mão.",
+    "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. [When Attacking] If you have a Character with a cost of 8 or more on your field, draw 1 card and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-play",
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-076",
+    "code": "P-076",
+    "namePt": "Sakazuki",
+    "nameEn": "Sakazuki",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE",
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Marinha"
+    ],
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 {Marinha} carta do tipo da sua mão: Dê Até 1 dos Personagens do seu oponente －1 custo durante este turno.",
+    "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 {Navy} type card from your hand: Give up to 1 of your opponent's Characters －1 cost during this turn.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-077",
+    "code": "P-077",
+    "namePt": "Ulti",
+    "nameEn": "Ulti",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Piratas das Feras"
+    ],
+    "effectPt": "[Once Per Turn] Quando 2 ou mais cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, coloque Até 1 dos seus roxo(a) Palcos as ativo(a).",
+    "effectEn": "[Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and rest it. Then, set up to 1 of your purple Stages as active.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-078",
+    "code": "P-078",
+    "namePt": "Adio",
+    "nameEn": "Adio",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effectPt": "Se você tiver 2 ou mais descansado(a) {ODYSSEY} tipo Personagens, este Personagem ganha +1000 Poder.",
+    "effectEn": "If you have 2 or more rested {ODYSSEY} type Characters, this Character gains +1000 power.",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-079",
+    "code": "P-079",
+    "namePt": "Lim",
+    "nameEn": "Lim",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "ODYSSEY"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Se você tiver 2 ou mais descansado(a) {ODYSSEY} tipo Personagens, coloque este Personagem as ativo(a).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] If you have 2 or more rested {ODYSSEY} type Characters, set this Character as active.",
+    "keywordIds": [
+      "blocker",
+      "your-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-081",
+    "code": "P-081",
+    "namePt": "Dracule Mihawk",
+    "nameEn": "Dracule Mihawk",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Cross Guild"
+    ],
+    "effectPt": "[Activate: Main] Você pode retorne este Personagem para o dono's mão: Se você tiver 3 ou mais azul {Cross Guild} tipo Personagens, jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 5 da sua mão.",
+    "effectEn": "[Activate: Main] You may return this Character to the owner's hand: If you have 3 or more blue {Cross Guild} type Characters, play up to 1 {Cross Guild} type Character card with a cost of 5 from your hand.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-082",
+    "code": "P-082",
+    "namePt": "Crocodile",
+    "nameEn": "Crocodile",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effectPt": "[Your Turn] [On Play] Se o seu Líder tiver o tipo {Cross Guild} ou a tipo incluindo \"Baroque Works\", coloque Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder no fundo do Deck do dono.",
+    "effectEn": "[Your Turn] [On Play] If your Leader has the {Cross Guild} type or a type including \"Baroque Works\", place up to 1 of your opponent's Characters with 2000 power or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-083",
+    "code": "P-083",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode descartar 1 carta(s) de Personagem da sua mão: Dê Até 1 dos Personagens do seu oponente −1000 Poder durante este turno. Em seguida, compre 1 carta.",
+    "effectEn": "[DON!! x1] [When Attacking] You may trash 1 Character card from your hand: Give up to 1 of your opponent's Characters −1000 power during this turn. Then, draw 1 card.",
+    "keywordIds": [
+      "when-attacking",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-084",
@@ -241,7 +1909,7 @@
       "on-play"
     ],
     "setId": "P",
-    "setName": "YELLOW Eustass\"Captain\"Kid"
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-088",
@@ -268,7 +1936,30 @@
       "trigger"
     ],
     "setId": "P",
-    "setName": "YELLOW Eustass\"Captain\"Kid"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-089",
+    "code": "P-089",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-090",
@@ -289,10 +1980,219 @@
     "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1: Jogue Até 1 {Piratas da Big Mom} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! no campo do seu oponente diferente de [Charlotte Smoothie] da sua mão.",
     "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1: Play up to 1 {Big Mom Pirates} type Character card with a cost equal to or less than the number of DON!! cards on your opponent's field other than [Charlotte Smoothie] from your hand.",
     "keywordIds": [
-      "on-ko"
+      "opponents-turn",
+      "on-ko",
+      "don-minus"
     ],
     "setId": "P",
-    "setName": "PURPLE Charlotte Katakuri"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-091",
+    "code": "P-091",
+    "namePt": "Shirahoshi",
+    "nameEn": "Shirahoshi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão",
+      "Ilha dos Homens-Peixe"
+    ],
+    "effectPt": "[On Play] Jogue Até 1 {Neptunian} ou {Ilha dos Homens-Peixe} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão. [Activate: Main] Você pode descanse este Personagem: Até 1 dos seus {Neptunian} tipo Personagens pode atacar Personagens no turno em que é jogada.",
+    "effectEn": "[On Play] Play up to 1 {Neptunian} or {Fish-Man Island} type Character card with a cost of 5 or less from your hand. [Activate: Main] You may rest this Character: Up to 1 of your {Neptunian} type Characters can attack Characters on the turn in which it is played.",
+    "keywordIds": [
+      "on-play",
+      "activate-main"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-092",
+    "code": "P-092",
+    "namePt": "Koby",
+    "nameEn": "Koby",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Marinha",
+      "SWORD"
+    ],
+    "effectPt": "[Opponent's Turn] Dê este Personagem −3000 Poder. [Quando atacar] Se o seu Líder tiver o tipo {Marinha}, seu Poder base do seu Líder torna-se 7000 até o fim do próximo turno do seu oponente.",
+    "effectEn": "[Opponent's Turn] Give this Character −3000 power. [When Attacking] If your Leader has the {Navy} type, your Leader's base power becomes 7000 until the end of your opponent's next turn.",
+    "keywordIds": [
+      "when-attacking",
+      "opponents-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-093",
+    "code": "P-093",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Blocker] [On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectEn": "[Blocker] [On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-096",
+    "code": "P-096",
+    "namePt": "Girl",
+    "nameEn": "Girl",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Sabaody Archipelago"
+    ],
+    "effectPt": "[On Play] Compre 1 carta e descartar 1 carta da sua mão. [Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Nami] cartas.",
+    "effectEn": "[On Play] Draw 1 card and trash 1 card from your hand. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your [Nami] cards.",
+    "keywordIds": [
+      "on-play",
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-097",
+    "code": "P-097",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Ruivo"
+    ],
+    "effectPt": "[On Play]/[Quando atacar] seu oponente não pode ativar [Blocker] durante este turno.",
+    "effectEn": "[On Play]/[When Attacking] Your opponent cannot activate [Blocker] during this turn.",
+    "keywordIds": [
+      "blocker",
+      "on-play",
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-098",
+    "code": "P-098",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Cross Guild"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se você não tiverem 5 Personagens com custo de 5 ou mais, coloque este Personagem no fundo do Deck do dono.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you do not have 5 Characters with a cost of 5 or more, place this Character at the bottom of the owner's deck.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-099",
+    "code": "P-099",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Quando atacar] DON!! −10 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): coloque este Personagem as ativo(a).",
+    "effectEn": "[When Attacking] DON!! −10 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Set this Character as active.",
+    "keywordIds": [
+      "when-attacking",
+      "don-minus"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-100",
+    "code": "P-100",
+    "namePt": "Marshall D Teach",
+    "nameEn": "Marshall D Teach",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Quando atacar] Anule o efeitos do Líder do seu oponente e todos os de dele(a) Personagens durante este turno.",
+    "effectEn": "[When Attacking] Negate the effects of your opponent's Leader and all of their Characters during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-101",
@@ -318,7 +2218,80 @@
       "on-play"
     ],
     "setId": "P",
-    "setName": "RED Monkey.D.Luffy"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-102",
+    "code": "P-102",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, coloque Até 2 das suas cartas de DON!! as ativo(a).",
+    "effectEn": "[On Play] If your Leader has the {Straw Hat Crew} type, set up to 2 of your DON!! cards as active.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-103",
+    "code": "P-103",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[On Play] Compre 2 cartas e coloque 2 cartas da sua mão no topo ou fundo do seu Deck em qualquer ordem. Em seguida, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
+    "effectEn": "[On Play] Draw 2 cards and place 2 cards from your hand at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to your Leader.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-104",
+    "code": "P-104",
+    "namePt": "Shanks",
+    "nameEn": "Shanks",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Ruivo",
+      "Former Roger Pirates"
+    ],
+    "effectPt": "Se qualquer um de você ou seu oponente tiver 10 cartas de DON!! em campo, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes.",
+    "effectEn": "If either you or your opponent has 10 DON!! cards on the field, this Character cannot be removed from the field by your opponent's effects.",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-105",
@@ -336,14 +2309,43 @@
     "subtypes": [
       "Exército Revolucionário"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha [Blocker] e +4 custo. [On Play] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha [Blocker] e +4 custo. [On Play] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost. [On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",
       "on-play"
     ],
     "setId": "P",
-    "setName": "RED/BLACK Sabo"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-106",
+    "code": "P-106",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Egghead",
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[fim dos seus turno] Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima: coloque Até 1 dos seus {Egghead} tipo Personagens as ativo(a).",
+    "effectEn": "[End of Your Turn] You may turn 1 card from the top of your Life cards face-up: Set up to 1 of your {Egghead} type Characters as active.",
+    "triggerPt": "[Trigger] Compre 1 carta e K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "triggerEn": "[Trigger] Draw 1 card and K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "your-turn",
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   },
   {
     "id": "P-107",
@@ -362,12 +2364,240 @@
       "King of the Pirates",
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Se você ou o seu oponente tiver 10 cartas de DON!! em campo, seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "[On Play] Se qualquer um de você ou seu oponente tiver 10 cartas de DON!! em campo, seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[On Play] If either you or your opponent has 10 DON!! cards on the field, your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
       "on-play"
     ],
     "setId": "P",
-    "setName": "THE WORLD’S STRONGEST WARRIORS"
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-110",
+    "code": "P-110",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Elbaf",
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-111",
+    "code": "P-111",
+    "namePt": "Nico Robin",
+    "nameEn": "Nico Robin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Once Per Turn] Se seu {Bando do Chapéu de Palha} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode descanse 1 das suas cartas de DON!! em vez disso.",
+    "effectEn": "[Once Per Turn] If your {Straw Hat Crew} type Character would be removed from the field by your opponent's effect, you may rest 1 of your DON!! cards instead.",
+    "keywordIds": [
+      "once-per-turn"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-112",
+    "code": "P-112",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Se o seu Líder for [Nami], Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, jogue Até 1 carta(s) de Personagem com custo de 2 ou menos da sua mão.",
+    "effectEn": "[On Play] If your Leader is [Nami], give up to 1 rested DON!! card to your Leader. Then, play up to 1 Character card with a cost of 2 or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-113",
+    "code": "P-113",
+    "namePt": "Jewelry Bonney",
+    "nameEn": "Jewelry Bonney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Bonney Pirates"
+    ],
+    "effectPt": "[DON!! x2] [Opponent's Turn] este Personagem ganha [Blocker] e +2000 Poder.",
+    "effectEn": "[DON!! x2] [Opponent's Turn] This Character gains [Blocker] and +2000 power.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
+    "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
+    "keywordIds": [
+      "blocker",
+      "opponents-turn",
+      "trigger",
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-115",
+    "code": "P-115",
+    "namePt": "Boa Hancock",
+    "nameEn": "Boa Hancock",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Piratas Kuja"
+    ],
+    "effectPt": "[On Play] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "triggerPt": "[Trigger] Jogue Até 1 amarelo(a) carta(s) de Personagem com 5000 ou menos de Poder e um(a) [Trigger] da sua mão.",
+    "triggerEn": "[Trigger] Play up to 1 yellow Character card with 5000 power or less and a [Trigger] from your hand.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-117",
+    "code": "P-117",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "De acordo com as regras deste jogo, você pode apenas incluir {East azul} tipo cartas no seu Deck e Quando seu Deck for reduzido a 0, você vence o jogo em vez de perder. [DON!! x1] Quando o ataque deste Líder causa dano à Vida do seu oponente, Você pode descartar 1 carta de o topo do seu Deck.",
+    "effectEn": "Under the rules of this game, you can only include {East Blue} type cards in your deck and when your deck is reduced to 0, you win the game instead of losing. [DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
+    "keywordIds": [
+      "don-x"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-119",
+    "code": "P-119",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-135",
+    "code": "P-135",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-155",
+    "code": "P-155",
+    "namePt": "Trafalgar Law",
+    "nameEn": "Trafalgar Law",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Supernovas",
+      "Piratas do Coração"
+    ],
+    "effectPt": "[Quando atacar] Você pode descartar 1 carta com a [Trigger] da sua mão: Dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
+    "effectEn": "[When Attacking] You may trash 1 card with a [Trigger] from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn.",
+    "triggerPt": "[Trigger] Se seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
+    "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
+    "keywordIds": [
+      "when-attacking",
+      "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
   }
 ]

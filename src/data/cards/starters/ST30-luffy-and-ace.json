@@ -18,9 +18,11 @@
       "Piratas do Barba Branca",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver um Personagem com 7000 base Poder ou mais, dê este Líder −2000 Poder. [Opponent's Turn] todos os seus [Portgas.D.Ace] e [Monkey.D.Luffy] cartas ganha +3000 de Poder.",
+    "effectPt": "Se você tiver a Personagem com 7000 base Poder ou mais, dê este Líder −2000 Poder. [Opponent's Turn] todos os seus [Portgas.D.Ace] e [Monkey.D.Luffy] cartas ganha +3000 Poder.",
     "effectEn": "If you have a Character with 7000 base power or more, give this Leader −2000 power. [Opponent's Turn] All of your [Portgas.D.Ace] and [Monkey.D.Luffy] cards gain +3000 power.",
-    "keywordIds": [],
+    "keywordIds": [
+      "opponents-turn"
+    ],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
   },
@@ -41,7 +43,7 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta(s) de Personagem com 6000 Poder e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 carta(s) de Personagem com 6000 Poder e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 Character card with 6000 power and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -66,7 +68,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Your Turn] todos os seus Personagens com 6000 base Poder ganha +1000 de Poder.",
+    "effectPt": "[Your Turn] todos os seus Personagens com 6000 base Poder ganha +1000 Poder.",
     "effectEn": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
     "keywordIds": [
       "your-turn"
@@ -91,7 +93,7 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Você pode revele 2 carta(s) de Personagem com 6000 Poder da sua mão: Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectPt": "[On Play] Você pode revele 2 carta(s) de Personagem com 6000 Poder da sua mão: Compre 3 cartas e descartar 2 cartas da sua mão.",
     "effectEn": "[On Play] You may reveal 2 Character cards with 6000 power from your hand: Draw 3 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "on-play"
@@ -139,7 +141,7 @@
       "Impel Down",
       "The Sun Pirates"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta(s) de Personagem com 6000 Poder da sua mão: Compre 2 carta(s).",
+    "effectPt": "[On Play] Você pode descartar 1 carta(s) de Personagem com 6000 Poder da sua mão: Compre 2 cartas.",
     "effectEn": "[On Play] You may trash 1 Character card with 6000 power from your hand: Draw 2 cards.",
     "keywordIds": [
       "on-play"
@@ -163,7 +165,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[On Play] Você pode descanse 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] Dê Até 1 dos Personagens do seu oponente −1000 Poder durante este turno.",
     "effectEn": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -289,7 +291,7 @@
       "Impel Down",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] descanse Até 1 do seu oponente [Blocker] Personagens.",
+    "effectPt": "[On Play] Você pode descanse 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] descanse Até 1 do seu oponente [Blocker] Personagens.",
     "effectEn": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [When Attacking] Rest up to 1 of your opponent's [Blocker] Characters.",
     "keywordIds": [
       "blocker",
@@ -340,9 +342,11 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 2 dos seus Personagens com 6000 base Poder Até 2 descansado(a) cartas de DON!! cada.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Dê Até 2 dos seus Personagens com 6000 base Poder Até 2 descansado(a) cartas de DON!! cada.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 2 of your Characters with 6000 base power up to 2 rested DON!! cards each.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
   },
@@ -361,7 +365,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Counter] Se você tiver 2 ou mais Personagens com 6000 base Poder, Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Counter] Se você tiver 2 ou mais Personagens com 6000 base Poder, Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha.",
     "effectEn": "[Counter] If you have 2 or more Characters with 6000 base power, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com 6000 ou menos de Poder.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
@@ -388,7 +392,7 @@
       "Piratas do Barba Branca",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha. Em seguida, se você tiver [Portgas.D.Ace] e [Monkey.D.Luffy] Personagens com 6000 base Poder, Compre 1 carta(s).",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante esta batalha. Em seguida, se você tiver [Portgas.D.Ace] e [Monkey.D.Luffy] Personagens com 6000 base Poder, compre 1 carta.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, if you have [Portgas.D.Ace] and [Monkey.D.Luffy] Characters with 6000 base power, draw 1 card.",
     "keywordIds": [
       "counter"
@@ -411,7 +415,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta(s) de Personagem com 6000 Poder e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Main] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 carta(s) de Personagem com 6000 Poder e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 Character card with 6000 power and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",

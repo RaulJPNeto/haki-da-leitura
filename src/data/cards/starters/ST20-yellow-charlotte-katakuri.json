@@ -15,10 +15,11 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Activate: Main] [Once Per Turn] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Activate: Main] [Once Per Turn] Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-20",
@@ -40,9 +41,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito, Você pode descartar 1 carta do topo das suas cartas de Vida em vez disso.",
+    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito, Você pode descartar 1 carta de o topo das suas cartas de Vida em vez disso.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d by an effect, you may trash 1 card from the top of your Life cards instead.",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "trigger",
@@ -93,9 +94,9 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: coloque Até 1 dos seus {Piratas da Big Mom} tipo Personagens com custo de 3 ou menos as ativo(a).",
+    "effectPt": "[On Play] Você pode adicione 1 carta de o topo das suas cartas de Vida para a sua mão: coloque Até 1 dos seus {Piratas da Big Mom} tipo Personagens com custo de 3 ou menos as ativo(a).",
     "effectEn": "[On Play] You may add 1 card from the top of your Life cards to your hand: Set up to 1 of your {Big Mom Pirates} type Characters with a cost of 3 or less as active.",
-    "triggerPt": "[Trigger] Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerPt": "[Trigger] descanse Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "on-play",
@@ -121,7 +122,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: seu oponente escolhe um: • seu oponente descarta 2 cartas de a mão dele(a). • descartar 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: seu oponente escolhe um: • seu oponente descarta 2 cartas de a mão dele(a). • descartar 1 carta de o topo do cartas de Vida do seu oponente.",
     "effectEn": "[On Play] You may trash 1 card from your hand: Your opponent chooses one: • Your opponent trashes 2 cards from their hand. • Trash 1 card from the top of your opponent's Life cards.",
     "keywordIds": [
       "on-play"

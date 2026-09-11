@@ -16,11 +16,12 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para o dono's mão: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
     "keywordIds": [
       "when-attacking",
-      "once-per-turn"
+      "once-per-turn",
+      "don-x"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -41,11 +42,12 @@
     "subtypes": [
       "Frost Moon Village"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: descanse Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "ST-12",
@@ -138,10 +140,11 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Escolha um: • Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Escolha um: • descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos. • K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 2 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -186,10 +189,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] descanse Até 1 dos Personagens do seu oponente com custo de 6 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -259,10 +263,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 Poder até o início do seu próximo turno.",
     "effectEn": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -283,9 +288,11 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Activate: Main] retorne este Personagem para a mão do dono.",
+    "effectPt": "[Activate: Main] retorne este Personagem para o dono's mão.",
     "effectEn": "[Activate: Main] Return this Character to the owner's hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
   },
@@ -305,7 +312,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [Quando atacar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem. [Quando atacar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
     "keywordIds": [
       "on-play",
@@ -330,7 +337,7 @@
     "subtypes": [
       "The Flying Fish Riders"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "keywordIds": [
       "blocker",
@@ -402,7 +409,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, revele 1 carta de o topo do seu Deck, jogue Até 1 carta(s) de Personagem com custo de 2, e coloque o restante no topo ou fundo do seu Deck.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha. Em seguida, revele 1 carta de o topo do seu Deck, jogue Até 1 carta(s) de Personagem com custo de 2, e coloque o restante no topo ou fundo do seu Deck.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
     "keywordIds": [
       "counter"

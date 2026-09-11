@@ -46,7 +46,8 @@
     "keywordIds": [
       "blocker",
       "on-play",
-      "banish"
+      "banish",
+      "don-x"
     ],
     "setId": "ST-28",
     "setName": "GREEN/YELLOW Yamato"
@@ -95,12 +96,13 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Your Turn] Se você tiver 2 ou menos cartas de Vida, seu Líder ganha +1000 de Poder. [Activate: Main] [Once Per Turn] Você pode retorne 2 total dos seus cartas de DON!! atualmente anexadas para seu custo área descansado(a): este Personagem ganha [Rush] e +1000 Poder durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[Your Turn] Se você tiver 2 ou menos cartas de Vida, seu Líder ganha +1000 Poder. [Activate: Main] [Once Per Turn] Você pode retorne 2 total dos seus cartas de DON!! atualmente anexadas para seu custo área descansado(a): este Personagem ganha [Rush] e +1000 Poder durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power. [Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
-      "once-per-turn",
-      "your-turn"
+      "activate-main",
+      "your-turn",
+      "once-per-turn"
     ],
     "setId": "ST-28",
     "setName": "GREEN/YELLOW Yamato"
@@ -121,11 +123,12 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[DON!! x2] [Your Turn] este Personagem ganha +3000 de Poder. [On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {País de Wano} carta do tipo com custo de 2 ou mais e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[DON!! x2] [Your Turn] este Personagem ganha +3000 Poder. [On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {País de Wano} carta do tipo com custo de 2 ou mais e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[DON!! x2] [Your Turn] This Character gains +3000 power. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play",
-      "your-turn"
+      "your-turn",
+      "don-x"
     ],
     "setId": "ST-28",
     "setName": "GREEN/YELLOW Yamato"

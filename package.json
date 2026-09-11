@@ -8,7 +8,7 @@
     "build": "tsc -b && vite build",
     "lint": "tsc -b --noEmit",
     "preview": "vite preview",
-    "sync:cards": "node scripts/ingest_cards.js && node scripts/ingest_promos.js && node scripts/split_cards.js",
+    "sync:cards": "node scripts/ingest_cards.js && node scripts/split_cards.js",
     "audit": "node scripts/audit_words.js",
     "share": "node scripts/share.js",
     "tunnel": "node scripts/share.js"
