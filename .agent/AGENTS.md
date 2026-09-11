@@ -87,22 +87,30 @@ Qualquer texto ou tradução gerada para cartas ou regras deve seguir estritamen
 
 ---
 
-## 8. Quality Gate & Validação Obrigatória
+## 8. Quality Gate & Validação Obrigatória (Padrão Docker Compose)
 
-Antes de considerar qualquer entrega finalizada, forneça ao desenvolvedor os comandos de validação correspondentes:
+**Aviso Importante de Ambiente:** O desenvolvedor utiliza SEMPRE o **Docker Compose** (`app-dev`). Todos os comandos de teste, validação, audit e build fornecidos nas entregas e roteiros DEVEM ser formatados utilizando o Docker Compose:
 
 1. **Auditoria Léxica de Efeitos e Cartas:**
    ```bash
-   node scripts/audit_words.js
+   docker compose exec app-dev node scripts/audit_words.js
    ```
 2. **Checagem de Tipos TypeScript & Build de Produção:**
    ```bash
-   npm run build
+   docker compose exec app-dev npm run build
    ```
-3. **Pré-visualização Local do PWA:**
+3. **Execução de Scripts da Pipeline (Ingestão / Partição / Traduções):**
    ```bash
-   npm run preview
+   docker compose exec app-dev node scripts/ingest_cards.js
+   docker compose exec app-dev node scripts/split_cards.js
+   docker compose exec app-dev node scripts/fix_translations.js
    ```
+4. **Pré-visualização Local do PWA:**
+   ```bash
+   docker compose exec app-dev npm run preview
+   ```
+
+> *Nota:* Se os containers estiverem parados, oriente o uso de `docker compose run --rm app-dev <comando>`.
 
 ---
 
@@ -147,7 +155,7 @@ Todo trabalho deve seguir rigorosamente as 4 fases abaixo:
 
 ### Fase 3: Roteiro de Teste e Validação Passo a Passo
 * Ao concluir a implementação técnica de uma tarefa, o agente DEVE fornecer um **passo a passo detalhado de teste manual**:
-  1. Como inicializar ou pré-visualizar localmente (`npm run dev` ou `npm run preview`).
+  1. Como inicializar ou pré-visualizar localmente via Docker (`docker compose exec app-dev npm run dev` ou `docker compose exec app-dev npm run preview`).
   2. Quais ações específicas executar no navegador/celular (ex: abrir tela X, girar aparelho, minimizar aba, clicar em botão Y).
   3. O comportamento esperado versus o que não deve acontecer.
 
