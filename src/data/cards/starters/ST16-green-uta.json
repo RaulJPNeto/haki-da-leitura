@@ -19,6 +19,7 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-16",
@@ -40,10 +41,11 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha para cada carta descartada.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 Poder durante esta batalha para cada carta descartada.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-opponents-attack"
     ],
     "setId": "ST-16",
     "setName": "Green Uta"
@@ -65,7 +67,7 @@
       "FILM",
       "Piratas da Big Mom"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {FILM} e você tiver 6 ou mais descansado(a) cartas, este Personagem ganha +2000 de Poder.",
+    "effectPt": "Se o seu Líder tiver o tipo {FILM} e você tiver 6 ou mais descansado(a) cartas, este Personagem ganha +2000 Poder.",
     "effectEn": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
     "keywordIds": [],
     "setId": "ST-16",
@@ -89,7 +91,7 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "[On Play] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente.",
+    "effectPt": "[On Play] K.O. Até 1 Personagem(ns) descansado(s) do seu oponente.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
     "keywordIds": [
       "on-play"
@@ -115,7 +117,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver a descansado(a) [Uta], este Personagem ganha +1000 de Poder.",
+    "effectPt": "Se você tiver a descansado(a) [Uta], este Personagem ganha +1000 Poder.",
     "effectEn": "If you have a rested [Uta], this Character gains +1000 power.",
     "keywordIds": [],
     "setId": "ST-16",

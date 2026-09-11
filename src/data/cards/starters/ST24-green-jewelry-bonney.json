@@ -16,7 +16,7 @@
       "Supernovas",
       "Piratas Firetank"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se você tiver 6 ou mais descansado(a) cartas, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se você tiver 6 ou mais descansado(a) cartas, compre 1 carta e descartar 1 carta da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 6 or more rested cards, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
@@ -42,10 +42,11 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [On Your Opponent's Attack] Você pode descartar este Personagem: coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Supernovas} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [On Your Opponent's Attack] Você pode descartar este Personagem: coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [On Your Opponent's Attack] You may trash this Character: Set up to 1 of your DON!! cards as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-opponents-attack"
     ],
     "setId": "ST-24",
     "setName": "GREEN Jewelry Bonney"
@@ -67,9 +68,11 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[fim dos seus turno] coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "ST-24",
     "setName": "GREEN Jewelry Bonney"
   },
@@ -91,7 +94,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play] descanse até 1 Personagem(ns) do seu oponente e que Personagem não ficará ativo na próxima Fase de Restauração do seu oponente. Em seguida, se seu oponente tiver 2 ou mais descansado(a) Personagens, seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "[On Play] descanse Até 1 dos Personagens do seu oponente e que Personagem não ficará ativo na próxima Fase de Restauração do seu oponente. Em seguida, se seu oponente tiver 2 ou mais descansado(a) Personagens, seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[On Play] Rest up to 1 of your opponent's Characters and that Character will not become active in your opponent's next Refresh Phase. Then, if your opponent has 2 or more rested Characters, your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
       "on-play"
@@ -117,7 +120,7 @@
       "Marinha",
       "Drake Pirates"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Supernovas}, Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Supernovas}, descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a) no final deste turno.",
     "effectEn": "[On Play] If your Leader has the {Supernovas} type, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 1 of your DON!! cards as active at the end of this turn.",
     "keywordIds": [
       "on-play"

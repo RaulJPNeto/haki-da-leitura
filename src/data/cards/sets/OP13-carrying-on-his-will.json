@@ -17,9 +17,12 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [On Your Opponent's Attack] Se você tiver 5 ou menos ativo(a) cartas de DON!!, Você pode descanse qualquer número das suas cartas de DON!!. para caduma carta de DON!! descansado(a) este way, este Líder ou Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha +2000 de Poder durante esta batalha.",
+    "effectPt": "[DON!! x1] [On Your Opponent's Attack] Se você tiver 5 ou menos ativo(a) cartas de DON!!, Você pode descanse qualquer número das suas cartas de DON!!. para caduma carta de DON!! descansado(a) este way, este Líder ou Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha +2000 Poder durante esta batalha.",
     "effectEn": "[DON!! x1] [On Your Opponent's Attack] If you have 5 or less active DON!! cards, you may rest any number of your DON!! cards. For every DON!! card rested this way, this Leader or up to 1 of your {Straw Hat Crew} type Characters gains +2000 power during this battle.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-opponents-attack",
+      "don-x"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -40,10 +43,12 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Dê Até 1 do Líder do seu oponente ou carta(s) de Personagem −2000 Poder durante esta batalha. [DON!! x1] [Once Per Turn] Quando você pegue dano ou seu Personagem com 6000 base Poder ou mais for nocauteado, Compre 1 carta(s).",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta da sua mão: Dê Até 1 do Líder do seu oponente ou carta(s) de Personagem −2000 Poder durante esta batalha. [DON!! x1] [Once Per Turn] Quando você pegue dano ou seu Personagem com 6000 base Poder ou mais for nocauteado, compre 1 carta.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Give up to 1 of your opponent's Leader or Character cards −2000 power during this battle. [DON!! x1] [Once Per Turn] When you take damage or your Character with 6000 base power or more is K.O.'d, draw 1 card.",
     "keywordIds": [
-      "once-per-turn"
+      "once-per-turn",
+      "on-opponents-attack",
+      "don-x"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -90,9 +95,11 @@
       "Dressrosa",
       "Exército Revolucionário"
     ],
-    "effectPt": "Se você tiver 4 ou mais cartas de Vida, dê este Líder −1000 Poder. [DON!! x1] Se você tiver um Personagem com custo de 8 ou mais, seu Líder e todos os seus Personagens ganha +1000 de Poder.",
+    "effectPt": "Se você tiver 4 ou mais cartas de Vida, dê este Líder −1000 Poder. [DON!! x1] Se você tiver a Personagem com custo de 8 ou mais, seu Líder e todos os seus Personagens ganha +1000 Poder.",
     "effectEn": "If you have 4 or more Life cards, give this Leader −1000 power. [DON!! x1] If you have a Character with a cost of 8 or more, your Leader and all of your Characters gain +1000 power.",
-    "keywordIds": [],
+    "keywordIds": [
+      "don-x"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -160,9 +167,11 @@
     "subtypes": [
       "Reino de Goa"
     ],
-    "effectPt": "[Activate: Main] Você pode dê 1 dos seus ativo(a) cartas de DON!! para 1 do seu Líder ou carta(s) de Personagem e descartar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode dê 1 dos seus ativo(a) cartas de DON!! para 1 do seu Líder ou carta(s) de Personagem e descartar este Personagem: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may give 1 of your active DON!! cards to 1 of your Leader or Character cards and trash this Character: Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -273,7 +282,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[On Play] Olhe as 4 cartas do topo do seu Deck; revele até 1 {Alabasta} ou {Bando do Chapéu de Palha} carta do tipo com custo de 2 ou mais e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 4 cartas de o topo do seu Deck; revele Até 1 {Alabasta} ou {Bando do Chapéu de Palha} carta do tipo com custo de 2 ou mais e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Alabasta} or {Straw Hat Crew} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -323,7 +332,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 dos seus [Portgas.D.Ace] cartas ganha +3000 de Poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus [Portgas.D.Ace] cartas ganha +3000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
     "keywordIds": [
       "trigger"
@@ -347,9 +356,11 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus [Monkey.D.Luffy] cartas ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Até 1 dos seus [Monkey.D.Luffy] cartas ganha +2000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -369,7 +380,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Se o seu Líder for [Sabo], [Portgas.D.Ace] ou [Monkey.D.Luffy], Olhe as 4 cartas do topo do seu Deck; revele até 1 carta com custo de 3 ou mais e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Se o seu Líder for [Sabo], [Portgas.D.Ace] ou [Monkey.D.Luffy], olhe no 4 cartas de o topo do seu Deck; revele Até 1 carta com custo de 3 ou mais e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] If your Leader is [Sabo], [Portgas.D.Ace] or [Monkey.D.Luffy], look at 4 cards from the top of your deck; reveal up to 1 card with a cost of 3 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -439,7 +450,7 @@
       "Dressrosa",
       "Exército Revolucionário"
     ],
-    "effectPt": "[Main] Você pode descansar 4 das suas cartas de DON!!: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 4 das suas cartas de DON!!: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 4 of your DON!! cards: Give up to 1 of your opponent's Characters −3000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -462,7 +473,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Main] Dê a até 1 Personagem(ns) do seu oponente −5000 de Poder durante este turno.",
+    "effectPt": "[Main] Dê Até 1 dos Personagens do seu oponente −5000 Poder durante este turno.",
     "effectEn": "[Main] Give up to 1 of your opponent's Characters −5000 power during this turn.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
@@ -487,9 +498,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Monkey.D.Luffy] cartas. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[Main] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Monkey.D.Luffy] cartas. Em seguida, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "[Main] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "triggerPt": "[Trigger] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "triggerPt": "[Trigger] Dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "triggerEn": "[Trigger] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "trigger"
@@ -512,9 +523,11 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Palco: Até 1 dos seus Personagens com 2000 base Poder ou menos ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse este Palco: Até 1 dos seus Personagens com 2000 base Poder ou menos ganha +1000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Stage: Up to 1 of your Characters with 2000 base power or less gains +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -534,7 +547,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[On Play] coloque até 2 das suas cartas de DON!! como ativas. Em seguida, você não pode jogar cartas de Personagem com a base custo de 5 ou mais durante este turno. [On K.O.] Jogue Até 1 carta(s) de Personagem com custo de 5 ou menos da sua mão descansado(a).",
+    "effectPt": "[On Play] coloque Até 2 das suas cartas de DON!! as ativo(a). Em seguida, você não pode jogar cartas de Personagem com a base custo de 5 ou mais durante este turno. [On K.O.] Jogue Até 1 carta(s) de Personagem com custo de 5 ou menos da sua mão descansado(a).",
     "effectEn": "[On Play] Set up to 2 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn. [On K.O.] Play up to 1 Character card with a cost of 5 or less from your hand rested.",
     "keywordIds": [
       "on-play",
@@ -584,7 +597,7 @@
       "FILM",
       "Marinha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se o seu Líder tiver o tipo {FILM} ou o <Strike> atributo, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se o seu Líder tiver o tipo {FILM} ou o <Strike> atributo, coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your Leader has the {FILM} type or the <Strike> attribute, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
       "blocker",
@@ -610,9 +623,10 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha +2000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse 1 das suas cartas de DON!!: este Personagem ganha +2000 Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest 1 of your DON!! cards: This Character gains +2000 power until the end of your opponent's next turn.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "OP-13",
@@ -635,10 +649,11 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] coloque até 2 das suas cartas de DON!! como ativas. [fim dos seus turno] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[On Play] coloque Até 2 das suas cartas de DON!! as ativo(a). [fim dos seus turno] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[On Play] Set up to 2 of your DON!! cards as active. [End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "your-turn"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -711,7 +726,7 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectPt": "[On Play] coloque Até 2 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[On Play] Set up to 2 of your DON!! cards as active.",
     "keywordIds": [
       "on-play"
@@ -737,7 +752,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "Se você tiver 1 ou menos cartas de Vida, este Personagem ganha [Blocker]. [On Play] Você pode retorne 1 dos seus Personagens para a mão do dono: Jogue Até 1 carta(s) de Personagem com custo de 5 ou menos da sua mão descansado(a).",
+    "effectPt": "Se você tiver 1 ou menos cartas de Vida, este Personagem ganha [Blocker]. [On Play] Você pode retorne 1 dos seus Personagens para o dono's mão: Jogue Até 1 carta(s) de Personagem com custo de 5 ou menos da sua mão descansado(a).",
     "effectEn": "If you have 1 or less Life cards, this Character gains [Blocker]. [On Play] You may return 1 of your Characters to the owner's hand: Play up to 1 Character card with a cost of 5 or less from your hand rested.",
     "keywordIds": [
       "blocker",
@@ -813,7 +828,7 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque até 1 das suas cartas de DON!! como ativas.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
       "on-play"
@@ -841,7 +856,9 @@
     ],
     "effectPt": "[fim dos seus turno] coloque este Personagem ou Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[End of Your Turn] Set this Character or up to 1 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -886,10 +903,11 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque até 2 das suas cartas de DON!! como ativas. [fim dos seus turno] coloque este Personagem como ativo.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque Até 2 das suas cartas de DON!! as ativo(a). [fim dos seus turno] coloque este Personagem as ativo(a).",
     "effectEn": "[On Play] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active. [End of Your Turn] Set this Character as active.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "your-turn"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -910,9 +928,9 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 2 das suas cartas de DON!! as ativo(a) no final deste turno.",
+    "effectPt": "[Main] descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos. Em seguida, coloque Até 2 das suas cartas de DON!! as ativo(a) no final deste turno.",
     "effectEn": "[Main] Rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, set up to 2 of your DON!! cards as active at the end of this turn.",
-    "triggerPt": "[Trigger] Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "triggerPt": "[Trigger] descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
       "trigger"
@@ -937,7 +955,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Counter] K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Counter] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "triggerPt": "[Trigger] ative esta carta's [Counter] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
@@ -964,7 +982,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Você pode descansar 2 das suas cartas de DON!!: Até 2 Personagem(ns) descansado(s) do seu oponente com custo de 7 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 2 das suas cartas de DON!!: Até 2 Personagem(ns) descansado(s) do seu oponente com custo de 7 ou menos não ficará ativo na próxima Fase de Restauração do seu oponente. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 2 of your DON!! cards: Up to 2 of your opponent's rested Characters with a cost of 7 or less will not become active in your opponent's next Refresh Phase. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -989,7 +1007,7 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Compre 2 carta(s).",
+    "effectPt": "[On Play] Compre 2 cartas.",
     "effectEn": "[On Play] Draw 2 cards.",
     "keywordIds": [
       "on-play"
@@ -1014,7 +1032,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Blocker] [On Play] Compre 2 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, dê seu Líder e 1 Personagem Até 2 descansado(a) cartas de DON!! cada.",
+    "effectPt": "[Blocker] [On Play] Compre 2 cartas e descartar 1 carta da sua mão. Em seguida, dê seu Líder e 1 Personagem Até 2 descansado(a) cartas de DON!! cada.",
     "effectEn": "[Blocker] [On Play] Draw 2 cards and trash 1 card from your hand. Then, give your Leader and 1 Character up to 2 rested DON!! cards each.",
     "keywordIds": [
       "blocker",
@@ -1039,7 +1057,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de Vida, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de Vida, compre 2 cartas e descartar 1 carta da sua mão.",
     "effectEn": "[On Play] If you have 3 or less Life cards, draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "on-play"
@@ -1063,7 +1081,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Quando atacar] Dê Até 1 descansado(a) carta de DON!! ao seu Líder com um tipo que inclua \"Whitebeard Pirates\" ou 1 Personagem com um tipo que inclua \"Whitebeard Pirates\". [On K.O.] Compre 1 carta(s).",
+    "effectPt": "[Quando atacar] Dê Até 1 descansado(a) carta de DON!! ao seu Líder com um tipo que inclua \"Whitebeard Pirates\" ou 1 Personagem com um tipo que inclua \"Whitebeard Pirates\". [On K.O.] Compre 1 carta.",
     "effectEn": "[When Attacking] Give up to 1 rested DON!! card to your Leader with a type including \"Whitebeard Pirates\" or 1 Character with a type including \"Whitebeard Pirates\". [On K.O.] Draw 1 card.",
     "keywordIds": [
       "when-attacking",
@@ -1088,7 +1106,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Quando atacar] Se você tiver 4 ou menos cartas na sua mão, Compre 1 carta(s).",
+    "effectPt": "[Quando atacar] Se você tiver 4 ou menos cartas na sua mão, compre 1 carta.",
     "effectEn": "[When Attacking] If you have 4 or less cards in your hand, draw 1 card.",
     "keywordIds": [
       "when-attacking"
@@ -1228,7 +1246,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[On K.O.] Se o seu Líder for [Boa Hancock] ou multicolorido, Compre 2 carta(s).",
+    "effectPt": "[On K.O.] Se o seu Líder for [Boa Hancock] ou multicolorido, compre 2 cartas.",
     "effectEn": "[On K.O.] If your Leader is [Boa Hancock] or multicolored, draw 2 cards.",
     "keywordIds": [
       "on-ko"
@@ -1277,7 +1295,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Quando atacar] Você pode descartar 1 dos seus Personagens com um tipo que inclua \"Whitebeard Pirates\": Compre 1 carta(s) e este Personagem ganha [Banish] durante este turno.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 dos seus Personagens com um tipo que inclua \"Whitebeard Pirates\": Compre 1 carta e este Personagem ganha [Banish] durante este turno.",
     "effectEn": "[When Attacking] You may trash 1 of your Characters with a type including \"Whitebeard Pirates\": Draw 1 card and this Character gains [Banish] during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -1302,7 +1320,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de Vida, Compre 2 carta(s). Em seguida, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
+    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de Vida, compre 2 cartas. Em seguida, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
     "effectEn": "[On Play] If you have 3 or less Life cards, draw 2 cards. Then, give up to 1 rested DON!! card to your Leader.",
     "keywordIds": [
       "on-play"
@@ -1326,7 +1344,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Quando atacar] Se você tiver 4 ou menos cartas na sua mão, todos os seus Personagens com um tipo que inclua \"Whitebeard Pirates\" ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Quando atacar] Se você tiver 4 ou menos cartas na sua mão, todos os seus Personagens com um tipo que inclua \"Whitebeard Pirates\" ganha +1000 Poder durante este turno.",
     "effectEn": "[When Attacking] If you have 4 or less cards in your hand, all of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -1351,7 +1369,7 @@
       "Gigante",
       "Whitebeard Pirates Allies"
     ],
-    "effectPt": "[Quando atacar] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", Compre 1 carta(s).",
+    "effectPt": "[Quando atacar] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", compre 1 carta.",
     "effectEn": "[When Attacking] If your Leader's type includes \"Whitebeard Pirates\", draw 1 card.",
     "keywordIds": [
       "when-attacking"
@@ -1374,7 +1392,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Você pode descansar 1 das suas cartas de DON!!: Se você tiver 1 ou menos cartas de Vida, seu oponente não pode ativar [Blocker] sempre que seu Líder atacar durante este turno. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 1 das suas cartas de DON!!: Se você tiver 1 ou menos cartas de Vida, seu oponente não pode ativar [Blocker] sempre que seu Líder atacar durante este turno. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 1 of your DON!! cards: If you have 1 or less Life cards, your opponent cannot activate [Blocker] whenever your Leader attacks during this turn. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "blocker",
@@ -1398,7 +1416,7 @@
     "subtypes": [
       "Former Whitebeard Pirates"
     ],
-    "effectPt": "[Main] Você pode descansar 1 das suas cartas de DON!!: coloque Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder no fundo do Deck do dono. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 1 das suas cartas de DON!!: coloque Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder no fundo do Deck do dono. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 1 of your DON!! cards: Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -1421,9 +1439,9 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Você pode retorne 1 dos seus Personagens para a mão do dono: retorne até 1 Personagem com custo de 6 ou menos para a mão do dono.",
+    "effectPt": "[Main] Você pode retorne 1 dos seus Personagens para o dono's mão: retorne Até 1 Personagem com custo de 6 ou menos para o dono's mão.",
     "effectEn": "[Main] You may return 1 of your Characters to the owner's hand: Return up to 1 Character with a cost of 6 or less to the owner's hand.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger"
@@ -1471,7 +1489,7 @@
       "Minks",
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Se você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
+    "effectPt": "[On Play] Se você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, K.O. Até 1 dos Personagens do seu oponente com custo de 1 ou menos.",
     "effectEn": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "keywordIds": [
       "on-play"
@@ -1495,7 +1513,7 @@
     "subtypes": [
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Se você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] retorne Até 1 dos Personagens do seu oponente com a base Poder de 3000 ou menos para a mão do dono.",
+    "effectPt": "[On Play] Se você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] retorne Até 1 dos Personagens do seu oponente com a base Poder de 3000 ou menos para o dono's mão.",
     "effectEn": "[On Play] If you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] Return up to 1 of your opponent's Characters with a base power of 3000 or less to the owner's hand.",
     "keywordIds": [
       "on-play",
@@ -1548,10 +1566,11 @@
       "King of the Pirates",
       "Piratas do Roger"
     ],
-    "effectPt": "seu Líder e todos os seus Personagens que não tiverem um tipo que inclua \"Roger Pirates\" tiver dele(a) efeitos anulados. [On Play] DON!! −3: seu Líder ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente. Em seguida, dê todos os dos Personagens do seu oponente −2000 Poder até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "seu Líder e todos os seus Personagens que não tiverem um tipo que inclua \"Roger Pirates\" tiver dele(a) efeitos anulados. [On Play] DON!! −3: seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente. Em seguida, dê todos os dos Personagens do seu oponente −2000 Poder até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "Your Leader and all of your Characters that do not have a type including \"Roger Pirates\" have their effects negated. [On Play] DON!! −3: Your Leader gains +2000 power until the end of your opponent's next End Phase. Then, give all of your opponent's Characters −2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "don-minus"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -1572,7 +1591,7 @@
     "subtypes": [
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"Roger Pirates\" diferente de [Shanks] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 carta com um tipo que inclua \"Roger Pirates\" diferente de [Shanks] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Roger Pirates\" other than [Shanks] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -1596,7 +1615,7 @@
     "subtypes": [
       "Piratas do Roger"
     ],
-    "effectPt": "[Rush] [On Play] Se você tiver qualquer carta de DON!! anexada(s), Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos. Em seguida, adicione Até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa no final deste turno.",
+    "effectPt": "[Rush] [On Play] Se você tiver qualquer carta de DON!! anexada(s), descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos. Em seguida, adicione Até 1 carta de DON!! do seu Deck de DON!! e coloque ela as ativo(a) no final deste turno.",
     "effectEn": "[Rush] [On Play] If you have any DON!! cards given, rest up to 1 of your opponent's Characters with a cost of 5 or less. Then, add up to 1 DON!! card from your DON!! deck and set it as active at the end of this turn.",
     "keywordIds": [
       "rush",
@@ -1621,7 +1640,7 @@
     "subtypes": [
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Roger Pirates\", Compre 2 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Roger Pirates\", compre 2 cartas e descartar 1 carta da sua mão. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On Play] If your Leader's type includes \"Roger Pirates\", draw 2 cards and trash 1 card from your hand. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play"
@@ -1646,7 +1665,7 @@
       "FILM",
       "Former Roger Pirates"
     ],
-    "effectPt": "Se você tiver 8 ou mais cartas de DON!! no seu campo, este Personagem ganha +2000 de Poder. [On Play] Se o tipo do seu Líder incluir \"Roger Pirates\", Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "Se você tiver 8 ou mais cartas de DON!! no seu campo, este Personagem ganha +2000 Poder. [On Play] Se o tipo do seu Líder incluir \"Roger Pirates\", Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "If you have 8 or more DON!! cards on your field, this Character gains +2000 power. [On Play] If your Leader's type includes \"Roger Pirates\", add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play"
@@ -1674,7 +1693,8 @@
     "effectPt": "[On Play] DON!! −1: adicione Até 1 carta(s) de Palco com custo de 3 ou menos da sua lixeira para a sua mão.",
     "effectEn": "[On Play] DON!! −1: Add up to 1 Stage card with a cost of 3 or less from your trash to your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "don-minus"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -1719,7 +1739,7 @@
       "Minks",
       "Piratas do Roger"
     ],
-    "effectPt": "[On Play] Se você tiver 8 ou mais cartas de DON!! no seu campo, Dê K.O. em até 1 Personagem(ns) do seu oponente com 3000 ou menos de Poder base.",
+    "effectPt": "[On Play] Se você tiver 8 ou mais cartas de DON!! no seu campo, K.O. Até 1 dos Personagens do seu oponente com 3000 base Poder ou menos.",
     "effectEn": "[On Play] If you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
     "keywordIds": [
       "on-play"
@@ -1815,7 +1835,7 @@
       "King of the Pirates",
       "Piratas do Roger"
     ],
-    "effectPt": "[Main] Você pode descansar 1 das suas cartas de DON!!: Se o seu Líder for [Gol.D.Roger] e você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 1 das suas cartas de DON!!: Se o seu Líder for [Gol.D.Roger] e você tiver qualquer carta de DON!! anexada(s), Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Gol.D.Roger] and you have any DON!! cards given, add up to 1 DON!! card from your DON!! deck and rest it. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -1839,7 +1859,7 @@
       "King of the Pirates",
       "Piratas do Roger"
     ],
-    "effectPt": "[Main] Você pode descansar 5 das suas cartas de DON!!: Se você tiver qualquer carta de DON!! anexada(s), Dê a até 1 Personagem(ns) do seu oponente −8000 de Poder durante este turno. [Counter] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 5 das suas cartas de DON!!: Se você tiver qualquer carta de DON!! anexada(s), dê Até 1 dos Personagens do seu oponente −8000 Poder durante este turno. [Counter] Você pode descartar 1 carta da sua mão: Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 5 of your DON!! cards: If you have any DON!! cards given, give up to 1 of your opponent's Characters −8000 power during this turn. [Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -1862,7 +1882,7 @@
     "subtypes": [
       "Former Roger Pirates"
     ],
-    "effectPt": "[Main] Você pode descansar 3 das suas cartas de DON!!: Se você tiver qualquer carta de DON!! anexada(s), K.O. Até 1 dos Personagens do seu oponente com 4000 base Poder ou menos e Até 1 dos Personagens do seu oponente com 3000 base Poder ou menos. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 3 das suas cartas de DON!!: Se você tiver qualquer carta de DON!! anexada(s), K.O. Até 1 dos Personagens do seu oponente com 4000 base Poder ou menos e Até 1 dos Personagens do seu oponente com 3000 base Poder ou menos. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 3 of your DON!! cards: If you have any DON!! cards given, K.O. up to 1 of your opponent's Characters with 4000 base power or less and up to 1 of your opponent's Characters with 3000 base power or less. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -1885,7 +1905,7 @@
     "subtypes": [
       "Piratas do Roger"
     ],
-    "effectPt": "[Once Per Turn] Quando seu Personagem com um tipo que inclua \"Roger Pirates\" for removido(a) de campo por um efeito do seu oponente, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Once Per Turn] Quando seu Personagem com um tipo que inclua \"Roger Pirates\" for removido(a) de o campo por um efeito do seu oponente, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Once Per Turn] When your Character with a type including \"Roger Pirates\" is removed from the field by your opponent's effect, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "once-per-turn"
@@ -1908,9 +1928,10 @@
     "subtypes": [
       "?"
     ],
-    "effectPt": "De acordo com as regras deste jogo, você não pode incluir Eventos com custo de 2 ou mais no seu Deck e no início do jogo, jogue Até 1 {Mary Geoise} tipo carta(s) de Palco do seu Deck. [Activate: Main] [Once Per Turn] Você pode descartar 1 dos seus {Celestial Dragons} tipo Personagens ou 1 carta da sua mão: Compre 1 carta(s).",
+    "effectPt": "De acordo com as regras deste jogo, você não pode incluir Eventos com custo de 2 ou mais no seu Deck e no início do jogo, jogue Até 1 {Mary Geoise} tipo carta(s) de Palco do seu Deck. [Activate: Main] [Once Per Turn] Você pode descartar 1 dos seus {Celestial Dragons} tipo Personagens ou 1 carta da sua mão: Compre 1 carta.",
     "effectEn": "Under the rules of this game, you cannot include Events with a cost of 2 or more in your deck and at the start of the game, play up to 1 {Mary Geoise} type Stage card from your deck. [Activate: Main] [Once Per Turn] You may trash 1 of your {Celestial Dragons} type Characters or 1 card from your hand: Draw 1 card.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "OP-13",
@@ -1933,7 +1954,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes e ganha [Rush]. [Quando atacar] Se você tiver 10 ou mais cartas na sua lixeira, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes e ganha [Rush]. [Quando atacar] Se você tiver 10 ou mais cartas na sua lixeira, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Rush]. [When Attacking] If you have 10 or more cards in your trash, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -1959,9 +1980,10 @@
       "Dressrosa",
       "Exército Revolucionário"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha +3 de custo. [Activate: Main] [Once Per Turn] Você pode colocar 1 carta(s) da sua lixeira no fundo do seu Deck: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha +3 custo. [Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua lixeira no fundo do seu Deck: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "If your Leader has the {Revolutionary Army} type, this Character gains +3 cost. [Activate: Main] [Once Per Turn] You may place 1 card from your trash at the bottom of your deck: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "OP-13",
@@ -1984,9 +2006,11 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "[Activate: Main] Se o seu Líder for [Imu], Você pode descanse 1 das suas cartas de DON!! e descarte 1 carta(s) da sua mão: descartar todos os seus Personagens e jogue Até 5 {Five Elders} tipo carta(s) de Personagem com 5000 Poder e nome de carta diferentes da sua lixeira.",
+    "effectPt": "[Activate: Main] Se o seu Líder for [Imu], Você pode descanse 1 das suas cartas de DON!! e descartar 1 carta da sua mão: descartar todos os seus Personagens e jogue Até 5 {Five Elders} tipo carta(s) de Personagem com 5000 Poder e nome de carta diferentes da sua lixeira.",
     "effectEn": "[Activate: Main] If your Leader is [Imu], you may rest 1 of your DON!! cards and trash 1 card from your hand: Trash all of your Characters and play up to 5 {Five Elders} type Character cards with 5000 power and different card names from your trash.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
   },
@@ -2007,7 +2031,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes. [On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Five Elders} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes. [On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Five Elders} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Five Elders} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -2032,7 +2056,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes. [Your Turn] Se você tiver 10 ou mais cartas na sua lixeira, coloque o base Poder de todos os seus {Five Elders} tipo Personagens para 7000.",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes. [Your Turn] Se você tiver 10 ou mais cartas na sua lixeira, coloque o base Poder de todos os seus {Five Elders} tipo Personagens para 7000.",
     "effectEn": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects. [Your Turn] If you have 10 or more cards in your trash, set the base power of all of your {Five Elders} type Characters to 7000.",
     "keywordIds": [
       "your-turn"
@@ -2078,7 +2102,7 @@
     "subtypes": [
       "Celestial Dragons"
     ],
-    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Celestial Dragons} carta do tipo diferente de [Saint Shalria] e adicione-a à sua mão. Em seguida, descartar o descanse e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck; revele Até 1 {Celestial Dragons} carta do tipo diferente de [Saint Shalria] e adicione ela para a sua mão. Em seguida, descartar o descanse e descartar 1 carta da sua mão.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [Saint Shalria] and add it to your hand. Then, trash the rest and trash 1 card from your hand.",
     "keywordIds": [
       "on-play"
@@ -2102,7 +2126,7 @@
     "subtypes": [
       "Celestial Dragons"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] descarte 1 carta(s) do topo do seu Deck.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] descartar 1 carta de o topo do seu Deck.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Trash 1 card from the top of your deck.",
     "keywordIds": [
       "blocker",
@@ -2150,7 +2174,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes e ganha [Blocker]. [On K.O.] Compre 1 carta(s).",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes e ganha [Blocker]. [On K.O.] Compre 1 carta.",
     "effectEn": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker]. [On K.O.] Draw 1 card.",
     "keywordIds": [
       "blocker",
@@ -2200,7 +2224,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de campo por um efeito do seu oponentes e ganha [Blocker]. [On Play] Você pode descartar 1 carta(s) da sua mão: K.O. Até 1 dos Personagens do seu oponente com a base custo de 5 ou menos.",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem não pode ser removido(a) de o campo por um efeito do seu oponentes e ganha [Blocker]. [On Play] Você pode descartar 1 carta da sua mão: K.O. Até 1 dos Personagens do seu oponente com a base custo de 5 ou menos.",
     "effectEn": "If you have 7 or more cards in your trash, this Character cannot be removed from the field by your opponent's effects and gains [Blocker]. [On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
     "keywordIds": [
       "blocker",
@@ -2249,7 +2273,7 @@
     "subtypes": [
       "Journalist"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Compre 2 cartas e descartar 2 cartas da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "blocker",
@@ -2275,7 +2299,7 @@
       "Egghead",
       "Cientista"
     ],
-    "effectPt": "[On Play] Até 1 dos seus {Celestial Dragons} tipo Personagens ganha +2000 de Poder durante este turno.",
+    "effectPt": "[On Play] Até 1 dos seus {Celestial Dragons} tipo Personagens ganha +2000 Poder durante este turno.",
     "effectEn": "[On Play] Up to 1 of your {Celestial Dragons} type Characters gains +2000 power during this turn.",
     "keywordIds": [
       "on-play"
@@ -2299,7 +2323,7 @@
     "subtypes": [
       "Celestial Dragons"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: Se você apenas tiver {Celestial Dragons} tipo Personagens, K.O. Até 2 dos Personagens do seu oponente com a base custo de 3 ou menos.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Se você apenas tiver {Celestial Dragons} tipo Personagens, K.O. Até 2 dos Personagens do seu oponente com a base custo de 3 ou menos.",
     "effectEn": "[On Play] You may trash 1 card from your hand: If you only have {Celestial Dragons} type Characters, K.O. up to 2 of your opponent's Characters with a base cost of 3 or less.",
     "keywordIds": [
       "on-play"
@@ -2323,7 +2347,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "[Main] Olhe as 3 cartas do topo do seu Deck; revele até 1 {Celestial Dragons} carta do tipo diferente de [o Five Elders forem no seu Service!!!] e adicione-a à sua mão. Em seguida, descartar o descanse.",
+    "effectPt": "[Main] Olhe no 3 cartas de o topo do seu Deck; revele Até 1 {Celestial Dragons} carta do tipo diferente de [o Five Elders forem no seu Service!!!] e adicione ela para a sua mão. Em seguida, descartar o descanse.",
     "effectEn": "[Main] Look at 3 cards from the top of your deck; reveal up to 1 {Celestial Dragons} type card other than [The Five Elders Are at Your Service!!!] and add it to your hand. Then, trash the rest.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
@@ -2349,7 +2373,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "[Main] Você pode descansar 5 das suas cartas de DON!!: Se os únicos Personagens no seu campo forem {Celestial Dragons} tipo Personagens, K.O. Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 5 das suas cartas de DON!!: Se os únicos Personagens no seu campo forem {Celestial Dragons} tipo Personagens, K.O. Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 5 of your DON!! cards: If the only Characters on your field are {Celestial Dragons} type Characters, K.O. up to 1 of your opponent's Characters with a base cost of 6 or less. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -2373,7 +2397,7 @@
       "Celestial Dragons",
       "Five Elders"
     ],
-    "effectPt": "[Main] Você pode descansar 1 das suas cartas de DON!!: Se o seu Líder for [Imu], K.O. Até 1 do seu oponente Palcos com custo de 7. [Counter] Se o seu Líder for [Imu], Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Main] Você pode descanse 1 das suas cartas de DON!!: Se o seu Líder for [Imu], K.O. Até 1 do seu oponente Palcos com custo de 7. [Counter] Se o seu Líder for [Imu], Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha.",
     "effectEn": "[Main] You may rest 1 of your DON!! cards: If your Leader is [Imu], K.O. up to 1 of your opponent's Stages with a cost of 7. [Counter] If your Leader is [Imu], up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -2396,9 +2420,10 @@
     "subtypes": [
       "Mary Geoise"
     ],
-    "effectPt": "[Your Turn] Se você tiver 19 ou mais cartas na sua lixeira, seu Líder ganha +1000 de Poder. [Activate: Main] Você pode descansar esta carta e 3 das suas cartas de DON!!: Jogue Até 1 preto(a) {Five Elders} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! no seu campo da sua mão.",
+    "effectPt": "[Your Turn] Se você tiver 19 ou mais cartas na sua lixeira, seu Líder ganha +1000 Poder. [Activate: Main] Você pode descanse esta carta e 3 das suas cartas de DON!!: Jogue Até 1 preto(a) {Five Elders} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! no seu campo da sua mão.",
     "effectEn": "[Your Turn] If you have 19 or more cards in your trash, your Leader gains +1000 power. [Activate: Main] You may rest this card and 3 of your DON!! cards: Play up to 1 black {Five Elders} type Character card with a cost equal to or less than the number of DON!! cards on your field from your hand.",
     "keywordIds": [
+      "activate-main",
       "your-turn"
     ],
     "setId": "OP-13",
@@ -2424,9 +2449,9 @@
     "effectPt": "[Your Turn] [Once Per Turn] este efeito pode ser ativado(a) quando você jogue a Personagem com a [Trigger]. Dê Até 2 descansado(a) cartas de DON!! para 1 do seu Líder ou carta(s) de Personagem.",
     "effectEn": "[Your Turn] [Once Per Turn] This effect can be activated when you play a Character with a [Trigger]. Give up to 2 rested DON!! cards to 1 of your Leader or Character cards.",
     "keywordIds": [
+      "your-turn",
       "trigger",
-      "once-per-turn",
-      "your-turn"
+      "once-per-turn"
     ],
     "setId": "OP-13",
     "setName": "CARRYING ON HIS WILL"
@@ -2471,11 +2496,12 @@
       "Egghead",
       "Cientista"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o número das suas cartas de Vida for igual a ou menos do que o número do cartas de Vida do seu oponente, Compre 1 carta(s). Em seguida, Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o número das suas cartas de Vida for igual a ou menos do que o número do cartas de Vida do seu oponente, compre 1 carta. Em seguida, descanse Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Activate: Main] You may trash this Character: If the number of your Life cards is equal to or less than the number of your opponent's Life cards, draw 1 card. Then, rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "triggerPt": "[Trigger] Compre 1 carta(s) e Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "triggerPt": "[Trigger] Compre 1 carta e descanse Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] Draw 1 card and rest up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "OP-13",
@@ -2520,7 +2546,7 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Blocker] [On K.O.] Você pode descartar 1 carta(s) da sua mão: Se o seu Líder for multicolorido, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[Blocker] [On K.O.] Você pode descartar 1 carta da sua mão: Se o seu Líder for multicolorido, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[Blocker] [On K.O.] You may trash 1 card from your hand: If your Leader is multicolored, add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "blocker",
@@ -2576,6 +2602,7 @@
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
       "blocker",
+      "opponents-turn",
       "trigger"
     ],
     "setId": "OP-13",
@@ -2623,7 +2650,7 @@
     ],
     "effectPt": "[On Play] Se o seu Líder tiver o tipo {Egghead}, este Personagem ganha [Rush] durante este turno. Em seguida, seu oponente adiciona 1 carta de o topo da Vida dele(a) cartas para a mão dele(a).",
     "effectEn": "[On Play] If your Leader has the {Egghead} type, this Character gains [Rush] during this turn. Then, your opponent adds 1 card from the top of their Life cards to their hand.",
-    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, Descanse até 1 Personagem(ns) do seu oponente com custo de 7 ou menos.",
+    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, descanse Até 1 dos Personagens do seu oponente com custo de 7 ou menos.",
     "triggerEn": "[Trigger] If you have 1 or less Life cards, rest up to 1 of your opponent's Characters with a cost of 7 or less.",
     "keywordIds": [
       "rush",
@@ -2650,9 +2677,9 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode vire 1 carta do topo das suas cartas de Vida viradas para cima em vez disso.",
+    "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima em vez disso.",
     "effectEn": "If this Character would be removed from the field by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
-    "triggerPt": "[Trigger] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerPt": "[Trigger] Compre 2 cartas e descartar 1 carta da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "trigger"
@@ -2752,7 +2779,7 @@
       "Egghead",
       "Cientista"
     ],
-    "effectPt": "[On Play] Olhe as 4 cartas do topo do seu Deck; revele até 1 carta com a [Trigger] diferente de [Lilith] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 4 cartas de o topo do seu Deck; revele Até 1 carta com a [Trigger] diferente de [Lilith] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a [Trigger] other than [Lilith] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "triggerPt": "[Trigger] ative esta carta's [On Play] efeito.",
     "triggerEn": "[Trigger] Activate this card's [On Play] effect.",
@@ -2780,9 +2807,9 @@
       "Seraphim",
       "Egghead"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[On Play]/[Quando atacar] Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima: Dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "[On Play]/[When Attacking] You may turn 1 card from the top of your Life cards face-up: Give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
       "on-play",
@@ -2808,9 +2835,9 @@
       "Egghead",
       "CP0"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +3000 de Poder durante esta batalha. Em seguida, Se o seu oponente tiver 2 ou menos cartas de Vida, Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante esta batalha. Em seguida, se seu oponente tiver 2 ou menos cartas de Vida, Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle. Then, if your opponent has 2 or less Life cards, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger",
@@ -2835,7 +2862,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} tipo carta(s) de Personagem e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Main] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Supernovas} tipo carta(s) de Personagem e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
@@ -2862,9 +2889,9 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: K.O. Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos.",
+    "effectPt": "[Main] Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima: K.O. Até 1 dos Personagens do seu oponente com a base custo de 6 ou menos.",
     "effectEn": "[Main] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a base cost of 6 or less.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger"
@@ -2890,7 +2917,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Double Attack] [On Play] Se o seu Líder for multicolorido, coloque até 4 das suas cartas de DON!! como ativas. Em seguida, você não pode jogar cartas de Personagem com a base custo de 5 ou mais durante este turno.",
+    "effectPt": "[Double Attack] [On Play] Se o seu Líder for multicolorido, coloque Até 4 das suas cartas de DON!! as ativo(a). Em seguida, você não pode jogar cartas de Personagem com a base custo de 5 ou mais durante este turno.",
     "effectEn": "[Double Attack] [On Play] If your Leader is multicolored, set up to 4 of your DON!! cards as active. Then, you cannot play Character cards with a base cost of 5 or more during this turn.",
     "keywordIds": [
       "on-play",
@@ -2915,7 +2942,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "Se você tiver 3 ou menos cartas de Vida, este Personagem ganha [Rush]. [On Play] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, Você pode retorne Até 1 dos Personagens do seu oponente com custo de 5 ou menos para a mão do dono. Se fizer isso, seu oponente joga um(a)té 1 carta(s) de Personagem com custo de 4 ou menos de a mão dele(a).",
+    "effectPt": "Se você tiver 3 ou menos cartas de Vida, este Personagem ganha [Rush]. [On Play] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder. Em seguida, Você pode retorne Até 1 dos Personagens do seu oponente com custo de 5 ou menos para o dono's mão. Se fizer isso, seu oponente plays Até 1 carta(s) de Personagem com custo de 4 ou menos de a mão dele(a).",
     "effectEn": "If you have 3 or less Life cards, this Character gains [Rush]. [On Play] Give up to 1 rested DON!! card to your Leader. Then, you may return up to 1 of your opponent's Characters with a cost of 5 or less to the owner's hand. If you do, your opponent plays up to 1 Character card with a cost of 4 or less from their hand.",
     "keywordIds": [
       "rush",
@@ -2941,10 +2968,11 @@
       "Dressrosa",
       "Exército Revolucionário"
     ],
-    "effectPt": "[Blocker] [Activate: Main] [Once Per Turn] Até 1 dos seus Personagens ganha +2 de custo até o fim do próximo turno do seu oponente. Em seguida, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
+    "effectPt": "[Blocker] [Activate: Main] [Once Per Turn] Até 1 dos seus Personagens ganha +2 custo até o fim do próximo turno do seu oponente. Em seguida, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
     "effectEn": "[Blocker] [Activate: Main] [Once Per Turn] Up to 1 of your Characters gains +2 cost until the end of your opponent's next turn. Then, give up to 1 rested DON!! card to your Leader.",
     "keywordIds": [
       "blocker",
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "OP-13",

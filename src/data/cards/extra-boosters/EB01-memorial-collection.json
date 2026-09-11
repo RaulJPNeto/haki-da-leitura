@@ -17,10 +17,12 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "Todas as suas cartas de Personagem do tipo {País de Wano} sem Contra-Ataque têm Contra-Ataque +1000, de acordo com as regras. [DON!! x1] [Quando atacar] Se você tiver um Personagem do tipo {País de Wano} com custo de 5 ou mais, este Líder ganha +1000 de Poder até o início do seu próximo turno.",
+    "effectPt": "Todas as suas cartas de Personagem do tipo {País de Wano} sem Contra-Ataque têm Contra-Ataque +1000, de acordo com as regras. [DON!! x1] [Quando atacar] Se você tiver a {País de Wano} tipo Personagem com custo de 5 ou mais, este Líder ganha +1000 Poder até o início do seu próximo turno.",
     "effectEn": "All of your {Land of Wano} type Character cards without a Counter have a +1000 Counter, according to the rules. [DON!! x1] [When Attacking] If you have a {Land of Wano} type Character with a cost of 5 or more, this Leader gains +1000 power until the start of your next turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "counter",
+      "don-x"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -42,11 +44,12 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Se o seu Líder tiver o tipo {País de Wano} ou {Piratas do Barba Branca}, Dê a até 1 cartas de Líder ou Personagem do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[On Play] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta da sua mão: Se o seu Líder tiver o tipo {País de Wano} ou {Piratas do Barba Branca}, dê Até 1 do Líder do seu oponente ou carta(s) de Personagem −2000 Poder durante este turno.",
     "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: If your Leader has the {Land of Wano} or {Whitebeard Pirates} type, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "keywordIds": [
       "on-play",
-      "once-per-turn"
+      "once-per-turn",
+      "on-opponents-attack"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -68,7 +71,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.)[Quando atacar] Se o seu oponente tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.)[Quando atacar] Se seu oponente tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 Poder durante este turno.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.)[When Attacking] If your opponent has 2 or less Life cards, this Character gains +2000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -93,7 +96,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Quando atacar] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
+    "effectPt": "[Quando atacar] Você pode dê ao seu 1 Líder ativo −5000 de Poder durante este turno: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
     "effectEn": "[When Attacking] You may give your 1 active Leader −5000 power during this turn: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -140,11 +143,12 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)[DON!! x2] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)[DON!! x2] [Quando atacar] Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)[DON!! x2] [When Attacking] Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "keywordIds": [
       "blocker",
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -168,6 +172,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "EB-01",
@@ -214,7 +219,7 @@
       "Drum Kingdom",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Olhe as 5 cartas do topo do seu Deck e jogue Até 1 {Animal} tipo carta(s) de Personagem com custo de 3 ou menos. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Counter] Olhe no 5 cartas de o topo do seu Deck e jogue Até 1 {Animal} tipo carta(s) de Personagem com custo de 3 ou menos. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Counter] Look at 5 cards from the top of your deck and play up to 1 {Animal} type Character card with a cost of 3 or less. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "counter"
@@ -238,9 +243,9 @@
       "Water Seven",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Dê K.O. em até 1 Personagem(ns) do seu oponente com 6000 ou menos de Poder base.",
+    "effectPt": "[Counter] K.O. Até 1 dos Personagens do seu oponente com 6000 base Poder ou menos.",
     "effectEn": "[Counter] K.O. up to 1 of your opponent's Characters with 6000 base power or less.",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem(ns) do seu oponente com 5000 ou menos de Poder base.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com 5000 base Poder ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with 5000 base power or less.",
     "keywordIds": [
       "trigger",
@@ -264,9 +269,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar esta carta e colocar 1 dos seus Personagens com 1000 de Poder base no fundo do seu Deck: Compre 1 carta(s).",
+    "effectPt": "[Activate: Main] Você pode descanse esta carta e coloque 1 dos seus Personagens com 1000 base Poder no fundo do seu Deck: Compre 1 carta.",
     "effectEn": "[Activate: Main] You may rest this card and place 1 of your Characters with 1000 base power at the bottom of your deck: Draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -287,7 +294,7 @@
       "Supernovas",
       "Beautiful Pirates"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Se o seu Líder tiver o tipo {Supernovas} e você não tiver outros Personagens [Cavendish], coloque até 2 das suas cartas de DON!! como ativas.",
+    "effectPt": "[On Play]/[Quando atacar] Se o seu Líder tiver o tipo {Supernovas} e você não tiver outros [Cavendish] Personagens, coloque Até 2 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[On Play]/[When Attacking] If your Leader has the {Supernovas} type and you have no other [Cavendish] Characters, set up to 2 of your DON!! cards as active.",
     "keywordIds": [
       "on-play",
@@ -313,9 +320,11 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {País de Wano} tipo carta(s) de Personagem com custo de 5 ou menos diferente de [Kouzuki Hiyori] da sua mão. Em seguida, Compre 1 carta(s).",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {País de Wano} tipo carta(s) de Personagem com custo de 5 ou menos diferente de [Kouzuki Hiyori] da sua mão. Em seguida, compre 1 carta.",
     "effectEn": "[Activate: Main] You may trash this Character: Play up to 1 {Land of Wano} type Character card with a cost of 5 or less other than [Kouzuki Hiyori] from your hand. Then, draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -336,10 +345,11 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Your Turn] este Personagem ganha +1000 de Poder para cada 3 dos seus descansado(a) cartas de DON!!.",
+    "effectPt": "[DON!! x1] [Your Turn] este Personagem ganha +1000 Poder para cada 3 dos seus descansado(a) cartas de DON!!.",
     "effectEn": "[DON!! x1] [Your Turn] This Character gains +1000 power for every 3 of your rested DON!! cards.",
     "keywordIds": [
-      "your-turn"
+      "your-turn",
+      "don-x"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -361,7 +371,7 @@
       "Supernovas",
       "On-Air Pirates"
     ],
-    "effectPt": "[On Play] Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[On Play] descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[On Play] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "on-play"
@@ -385,9 +395,11 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 1 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 1 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's rested Characters with a cost of 1 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -455,7 +467,7 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha. Em seguida, Olhe as 3 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} tipo carta(s) de Personagem e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, olhe no 3 cartas de o topo do seu Deck; revele Até 1 {Piratas Donquixote} tipo carta(s) de Personagem e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, look at 3 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type Character card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "counter"
@@ -479,7 +491,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Main] Se o seu Líder tiver o tipo {Supernovas}, retorne 1 dos seus Personagens para a mão do dono, e jogue Até 1 carta(s) de Personagem com custo de 2 ou menos da sua mão que seja de uma cor diferente do Personagem retornado.",
+    "effectPt": "[Main] Se o seu Líder tiver o tipo {Supernovas}, retorne 1 dos seus Personagens para o dono's mão, e jogue Até 1 carta(s) de Personagem com custo de 2 ou menos da sua mão que for a different color do que o retornado(a) Personagem.",
     "effectEn": "[Main] If your Leader has the {Supernovas} type, return 1 of your Characters to the owner's hand, and play up to 1 Character card with a cost of 2 or less from your hand that is a different color than the returned Character.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
@@ -506,9 +518,11 @@
     "subtypes": [
       "Impel Down"
     ],
-    "effectPt": "[fim dos seus turno] Você pode retorne 1 dos seus {Impel Down} tipo Personagens com custo de 2 ou mais para a mão do dono: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[fim dos seus turno] Você pode retorne 1 dos seus {Impel Down} tipo Personagens com custo de 2 ou mais para o dono's mão: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[End of Your Turn] You may return 1 of your {Impel Down} type Characters with a cost of 2 or more to the owner's hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -529,9 +543,11 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[fim dos seus turno] Se você tiver 2 ou menos cartas na sua mão, Compre 2 carta(s).",
+    "effectPt": "[fim dos seus turno] Se você tiver 2 ou menos cartas na sua mão, compre 2 cartas.",
     "effectEn": "[End of Your Turn] If you have 2 or less cards in your hand, draw 2 cards.",
-    "keywordIds": [],
+    "keywordIds": [
+      "your-turn"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -551,7 +567,7 @@
     "subtypes": [
       "Sete Corsários"
     ],
-    "effectPt": "[On Play] Compre 1 carta(s).",
+    "effectPt": "[On Play] Compre 1 carta.",
     "effectEn": "[On Play] Draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -576,7 +592,7 @@
       "Piratas das Feras",
       "SMILE"
     ],
-    "effectPt": "Se você tiver 4 ou menos cartas na sua mão, todos os seus {SMILE} tipo Personagens ganha +1000 de Poder.",
+    "effectPt": "Se você tiver 4 ou menos cartas na sua mão, todos os seus {SMILE} tipo Personagens ganha +1000 Poder.",
     "effectEn": "If you have 4 or less cards in your hand, all of your {SMILE} type Characters gain +1000 power.",
     "keywordIds": [],
     "setId": "EB-01",
@@ -621,10 +637,11 @@
     "subtypes": [
       "Impel Down"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 1 ou menos cartas na sua mão, retorne até 1 Personagem com custo de 3 ou menos para a mão do dono.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 1 ou menos cartas na sua mão, retorne Até 1 Personagem com custo de 3 ou menos para o dono's mão.",
     "effectEn": "[DON!! x1] [When Attacking] If you have 1 or less cards in your hand, return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-x"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -645,7 +662,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "Se o tipo do seu Líder incluir \"Baroque Works\", este Personagem ganha +1000 de Poder para cada 2 Eventos na sua lixeira. [On Play] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "Se o tipo do seu Líder incluir \"Baroque Works\", este Personagem ganha +1000 Poder para cada 2 Eventos na sua lixeira. [On Play] Compre 2 cartas e descartar 1 carta da sua mão.",
     "effectEn": "If your Leader's type includes \"Baroque Works\", this Character gains +1000 power for every 2 Events in your trash. [On Play] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "on-play"
@@ -669,7 +686,7 @@
       "Impel Down",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Se o seu Líder tiver o tipo {Impel Down}, Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha. Em seguida, seu oponente retorna 1 dos seus Personagens ativos para a mão do dono.",
+    "effectPt": "[Counter] Se o seu Líder tiver o tipo {Impel Down}, Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha. Em seguida, seu oponente retorna 1 de dele(a) ativo(a) Personagens para o dono's mão.",
     "effectEn": "[Counter] If your Leader has the {Impel Down} type, up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, your opponent returns 1 of their active Characters to the owner's hand.",
     "triggerPt": "[Trigger] retorne Até 1 Personagem com custo de 3 ou menos para o fundo do Deck do dono.",
     "triggerEn": "[Trigger] Return up to 1 Character with a cost of 3 or less to the bottom of the owner's deck.",
@@ -696,9 +713,9 @@
       "East Blue",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Revele 1 carta do topo do seu Deck. Se a carta revelada tiver custo de 4 ou mais, retorne até 1 dos seus Personagens para a mão do dono. Em seguida, coloque a carta revelada no fundo do seu Deck.",
+    "effectPt": "[Counter] Revele 1 carta de o topo do seu Deck. Se o revelada carta tiver a custo de 4 ou mais, retorne Até 1 dos seus Personagens para o dono's mão. Em seguida, coloque o revelada carta no fundo do seu Deck.",
     "effectEn": "[Counter] Reveal 1 card from the top of your deck. If the revealed card has a cost of 4 or more, return up to 1 of your Characters to the owner's hand. Then, place the revealed card at the bottom of your deck.",
-    "triggerPt": "[Trigger] retorne até 1 Personagem com custo de 8 ou menos para a mão do dono.",
+    "triggerPt": "[Trigger] retorne Até 1 Personagem com custo de 8 ou menos para o dono's mão.",
     "triggerEn": "[Trigger] Return up to 1 Character with a cost of 8 or less to the owner's hand.",
     "keywordIds": [
       "trigger",
@@ -722,11 +739,12 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Activate: Main] Você pode colocar esta carta e 1 carta da sua mão no fundo do seu Deck em qualquer ordem: Compre 2 carta(s).",
+    "effectPt": "[Activate: Main] Você pode colocar esta carta e 1 carta da sua mão no fundo do seu Deck em qualquer ordem: Compre 2 cartas.",
     "effectEn": "[Activate: Main] You may place this card and 1 card from your hand at the bottom of your deck in any order: Draw 2 cards.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
+      "activate-main",
       "trigger"
     ],
     "setId": "EB-01",
@@ -749,10 +767,11 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, Adicione até 2 carta(s) de Personagem com custo de 4 ou menos da sua lixeira para a sua mão.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, adicione Até 2 carta(s) de Personagem com custo de 4 ou menos da sua lixeira para a sua mão.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, add up to 2 Character cards with a cost of 4 or less from your trash to your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -799,7 +818,8 @@
     "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder tiver o tipo {Water Seven}, jogue Até 1 {Water Seven} tipo carta(s) de Personagem com custo de 5 diferente de [Blueno] da sua mão ou lixeira.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader has the {Water Seven} type, play up to 1 {Water Seven} type Character card with a cost of 5 other than [Blueno] from your hand or trash.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -824,7 +844,9 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "blocker",
-      "once-per-turn"
+      "once-per-turn",
+      "on-opponents-attack",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -845,13 +867,14 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Baroque Works\", Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Baroque Works\", Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
     "effectEn": "[On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "on-play",
-      "trigger"
+      "trigger",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -898,10 +921,12 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
-      "once-per-turn"
+      "once-per-turn",
+      "on-opponents-attack",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -921,13 +946,14 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", Selecione 1 dos seus Personagens. Mude o alvo do ataque para o Personagem selecionado.",
+    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o tipo do seu Líder incluir \"Baroque Works\", selecione 1 dos seus Personagens. Change o attack target para o selected Personagem.",
     "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader's type includes \"Baroque Works\", select 1 of your Characters. Change the attack target to the selected Character.",
-    "triggerPt": "[Trigger] DON!! −1: Compre 2 carta(s).",
+    "triggerPt": "[Trigger] DON!! −1: Compre 2 cartas.",
     "triggerEn": "[Trigger] DON!! −1: Draw 2 cards.",
     "keywordIds": [
       "trigger",
-      "counter"
+      "counter",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -948,12 +974,13 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 8 ou menos.",
+    "effectPt": "[Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 8 ou menos.",
     "effectEn": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 8 or less.",
     "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "don-minus"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -975,9 +1002,10 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode vire 1 carta do topo das suas cartas de Vida viradas para cima: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima: K.O. Até 1 dos Personagens do seu oponente com custo de 0.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may turn 1 card from the top of your Life cards face-up: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "EB-01",
@@ -1021,9 +1049,11 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {Dressrosa} tipo carta(s) de Personagem com custo de 3 ou menos diferente de [Scarlet] da sua mão descansado(a). Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Jogue Até 1 {Dressrosa} tipo carta(s) de Personagem com custo de 3 ou menos diferente de [Scarlet] da sua mão descansado(a). Em seguida, dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Play up to 1 {Dressrosa} type Character card with a cost of 3 or less other than [Scarlet] from your hand rested. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1043,7 +1073,7 @@
     "subtypes": [
       "CP9"
     ],
-    "effectPt": "[On Play] Você pode colocar 3 carta(s) com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 4 ou menos diferente de [Spandine] da sua lixeira descansado(a).",
+    "effectPt": "[On Play] Você pode colocar 3 cartas com um tipo que inclua \"CP\" da sua lixeira no fundo do seu Deck em qualquer ordem: Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 4 ou menos diferente de [Spandine] da sua lixeira descansado(a).",
     "effectEn": "[On Play] You may place 3 cards with a type including \"CP\" from your trash at the bottom of your deck in any order: Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less other than [Spandine] from your trash rested.",
     "keywordIds": [
       "on-play"
@@ -1067,9 +1097,11 @@
     "subtypes": [
       "CP9"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus Personagens [Spandam] ganha +3000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Até 1 dos seus [Spandam] Personagens ganha +3000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your [Spandam] Characters gains +3000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1089,7 +1121,7 @@
     "subtypes": [
       "Rumbar Pirates"
     ],
-    "effectPt": "[On Play] Se o seu oponente tiver um Personagem com custo de 0, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[On Play] Se seu oponente tiver a Personagem com custo de 0, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[On Play] If your opponent has a Character with a cost of 0, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -1114,7 +1146,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectPt": "[On Play]/[Quando atacar] Dê Até 1 dos Personagens do seu oponente −1 custo durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com custo de 0.",
     "effectEn": "[On Play]/[When Attacking] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "on-play",
@@ -1139,7 +1171,7 @@
     "subtypes": [
       "Animal"
     ],
-    "effectPt": "[Once Per Turn] Quando um Personagem for nocauteado, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Once Per Turn] Quando um Personagem for nocauteado, compre 1 carta e descartar 1 carta da sua mão.",
     "effectEn": "[Once Per Turn] When a Character is K.O.'d, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "once-per-turn"
@@ -1163,9 +1195,11 @@
     "subtypes": [
       "Animal"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −4 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
   },
@@ -1186,7 +1220,7 @@
       "Water Seven",
       "Marinha"
     ],
-    "effectPt": "[On Play] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[On Play] K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "on-play"
@@ -1209,7 +1243,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Se você tiver 30 ou mais cartas na sua lixeira, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[Counter] Se você tiver 30 ou mais cartas na sua lixeira, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[Counter] If you have 30 or more cards in your trash, add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "counter"
@@ -1232,7 +1266,7 @@
     "subtypes": [
       "CP9"
     ],
-    "effectPt": "[Main] Você pode descartar 2 carta(s) do topo do seu Deck: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[Main] Você pode descartar 2 cartas de o topo do seu Deck: K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
@@ -1258,7 +1292,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Escolha um: • Olhe em todos os do cartas de Vida do seu oponente e coloque elas de volta na Vida dele(a) área em qualquer ordem. • Vire todas as suas cartas de Vida para baixo.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Escolha um: • Olhe em todos os do cartas de Vida do seu oponente e coloque elas de volta na Vida dele(a) área em qualquer ordem. • turno todos os das suas cartas de Vida viradas para baixo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "keywordIds": [
       "blocker",
@@ -1283,7 +1317,7 @@
     "subtypes": [
       "Cientista"
     ],
-    "effectPt": "[On Play] Coloque até 1 Personagem(ns) do seu oponente com custo de 3 ou menos no topo ou fundo das cartas de Vida do seu oponente viradas para cima.",
+    "effectPt": "[On Play] coloque Até 1 dos Personagens do seu oponente com custo de 3 ou menos no topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
     "triggerPt": "[Trigger] Dê até um total de 2 do Líder do seu oponente ou carta(s) de Personagem −3000 Poder durante este turno.",
     "triggerEn": "[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
@@ -1310,7 +1344,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se o seu oponente tiver 1 ou menos cartas de Vida, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se seu oponente tiver 1 ou menos cartas de Vida, K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your opponent has 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "blocker",
@@ -1357,7 +1391,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Compre 1 carta(s).",
+    "effectPt": "[On Play] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: Compre 1 carta.",
     "effectEn": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -1381,7 +1415,7 @@
     "subtypes": [
       "Tritão"
     ],
-    "effectPt": "Quando este Personagem for nocauteado por um efeito do seu oponente, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Quando este Personagem for nocauteado por um efeito do seu oponente, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1405,10 +1439,11 @@
     "subtypes": [
       "Monkey Mountain Alliance"
     ],
-    "effectPt": "[DON!! x1] [Your Turn] Se você tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 de Poder.",
+    "effectPt": "[DON!! x1] [Your Turn] Se você tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 Poder.",
     "effectEn": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
     "keywordIds": [
-      "your-turn"
+      "your-turn",
+      "don-x"
     ],
     "setId": "EB-01",
     "setName": "MEMORIAL COLLECTION"
@@ -1428,7 +1463,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Main] Dê K.O. em até 1 Personagem(ns) do seu oponente. Em seguida, descarte cartas do topo das suas cartas de Vida até você ter 1 carta(s) de Vida.",
+    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente. Em seguida, descartar cartas de o topo das suas cartas de Vida até você tiver 1 carta de Vida.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
     "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o total dos seus e do cartas de Vida do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
@@ -1453,9 +1488,9 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Main] Jogue Até 1 [Enel] com custo de 7 ou menos da sua mão ou lixeira. Em seguida, descarte cartas do topo das suas cartas de Vida até você ter 1 carta(s) de Vida.",
+    "effectPt": "[Main] Jogue Até 1 [Enel] com custo de 7 ou menos da sua mão ou lixeira. Em seguida, descartar cartas de o topo das suas cartas de Vida até você tiver 1 carta de Vida.",
     "effectEn": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
-    "triggerPt": "[Trigger] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "triggerPt": "[Trigger] Compre 2 cartas e descartar 1 carta da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "trigger"
@@ -1479,7 +1514,7 @@
     "subtypes": [
       "Former Baroque Works"
     ],
-    "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] Selecione Até 1 dos Personagens do seu oponente. este Poder base deste Personagem torna-se o mesmo as o Personagem selecionado's Poder durante este turno.",
+    "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] Selecione Até 1 dos Personagens do seu oponente. este Poder base deste Personagem torna-se o mesmo as o selected Personagem's Poder durante este turno.",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
     "keywordIds": [
       "on-play",

@@ -19,7 +19,8 @@
     "effectPt": "[Opponent's Turn] Se este Personagem for ser descansado(a) por do seu oponente Personagem's efeito, Você pode descanse 1 dos seus outro(a) Personagens em vez disso. [Blocker]",
     "effectEn": "[Opponent's Turn] If this Character would be rested by your opponent's Character's effect, you may rest 1 of your other Characters instead. [Blocker]",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "opponents-turn"
     ],
     "setId": "PRB-02",
     "setName": "THE AZURE SEA’S SEVEN"

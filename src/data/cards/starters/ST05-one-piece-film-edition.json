@@ -17,10 +17,12 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): todos os seus {FILM} tipo Personagens ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): todos os seus {FILM} tipo Personagens ganha +2000 Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your {FILM} type Characters gain +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main",
+      "once-per-turn",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -91,10 +93,12 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Block] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Block] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Block] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-block",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -116,9 +120,10 @@
       "FILM",
       "Grantesoro"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse este Personagem e descartar 1 {FILM} carta do tipo da sua mão: Se seu oponente tiver mais cartas de DON!! no campo dele(a) do que você, adicione 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse este Personagem e descartar 1 {FILM} carta do tipo da sua mão: Se seu oponente tiver mais cartas de DON!! on o campo dele(a) do que você, adicione 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 {FILM} type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
     "keywordIds": [
+      "activate-main",
       "once-per-turn"
     ],
     "setId": "ST-05",
@@ -141,10 +146,11 @@
       "FILM",
       "Grantesoro"
     ],
-    "effectPt": "[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s).",
+    "effectPt": "[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 cartas.",
     "effectEn": "[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -239,10 +245,12 @@
       "FILM",
       "Neo Marinha"
     ],
-    "effectPt": "quando este Personagem batalhar <Strike> atributo Personagens, este Personagem ganha +3000 de Poder durante este turno. [Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +2000 de Poder durante este turno.",
+    "effectPt": "quando este Personagem batalhar <Strike> atributo Personagens, este Personagem ganha +3000 Poder durante este turno. [Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +2000 Poder durante este turno.",
     "effectEn": "When this Character battles ＜Strike＞ attribute Characters, this Character gains +3000 power during this turn. [Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",
     "keywordIds": [
-      "once-per-turn"
+      "activate-main",
+      "once-per-turn",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -264,11 +272,13 @@
       "FILM",
       "The Pirates Fest"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 2 Personagem(ns) do seu oponente com custo de 6 ou menos. Em seguida, este Personagem ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): descanse Até 2 dos Personagens do seu oponente com custo de 6 ou menos. Em seguida, este Personagem ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
     "keywordIds": [
+      "activate-main",
       "double-attack",
-      "once-per-turn"
+      "once-per-turn",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -336,7 +346,7 @@
       "FILM",
       "The Pirates Fest"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {FILM} carta do tipo diferente de [Buena Festa] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {FILM} carta do tipo diferente de [Buena Festa] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Buena Festa] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -384,12 +394,13 @@
       "FILM",
       "Golden Lion Pirates"
     ],
-    "effectPt": "[Main] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[Main] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Main] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "don-minus"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -410,7 +421,7 @@
       "FILM",
       "The Pirates Fest"
     ],
-    "effectPt": "[Counter] Até 1 dos seus {FILM} tipo Líder ou carta(s) de Personagem ganha +4000 de Poder durante esta batalha. Se que carta for a Personagem, que Personagem não pode ser nocauteado durante este turno.",
+    "effectPt": "[Counter] Até 1 dos seus {FILM} tipo Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Se que carta for a Personagem, que Personagem não pode ser nocauteado durante este turno.",
     "effectEn": "[Counter] Up to 1 of your {FILM} type Leader or Character cards gains +4000 power during this battle. If that card is a Character, that Character cannot be K.O.'d during this turn.",
     "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",

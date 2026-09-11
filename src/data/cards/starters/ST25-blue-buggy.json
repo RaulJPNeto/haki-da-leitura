@@ -15,7 +15,7 @@
     "subtypes": [
       "Cross Guild"
     ],
-    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha +1 de custo. [On Play] Se o seu Líder for [Buggy], Compre 3 carta(s) e descarte 2 carta(s) da sua mão.",
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha +1 custo. [On Play] Se o seu Líder for [Buggy], compre 3 cartas e descartar 2 cartas da sua mão.",
     "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains +1 cost. [On Play] If your Leader is [Buggy], draw 3 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "on-play"
@@ -39,10 +39,11 @@
     "subtypes": [
       "Cross Guild"
     ],
-    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Blocker] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Opponent's Turn] este Personagem ganha +5000 de Poder.",
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Blocker] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Opponent's Turn] este Personagem ganha +5000 Poder.",
     "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] This Character gains +5000 power.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "opponents-turn"
     ],
     "setId": "ST-25",
     "setName": "BLUE Buggy"
@@ -64,7 +65,7 @@
       "Cross Guild",
       "Former Baroque Works"
     ],
-    "effectPt": "[On Play] Compre 2 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão. [Once Per Turn] Se seu {Cross Guild} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso.",
+    "effectPt": "[On Play] Compre 2 cartas e descartar 1 carta da sua mão. Em seguida, jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão. [Once Per Turn] Se seu {Cross Guild} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode descartar 1 carta da sua mão em vez disso.",
     "effectEn": "[On Play] Draw 2 cards and trash 1 card from your hand. Then, play up to 1 {Cross Guild} type Character card with a cost of 4 or less from your hand. [Once Per Turn] If your {Cross Guild} type Character would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
     "keywordIds": [
       "on-play",
@@ -90,9 +91,11 @@
       "Quatro Imperadores",
       "Cross Guild"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descartar este Personagem: Se o seu Líder for [Buggy], jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
+    "effectPt": "[Activate: Main] Você pode descartar 1 carta da sua mão e descartar este Personagem: Se o seu Líder for [Buggy], jogue Até 1 {Cross Guild} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and trash this Character: If your Leader is [Buggy], play up to 1 {Cross Guild} type Character card with a cost of 6 or less from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-25",
     "setName": "BLUE Buggy"
   },
@@ -112,7 +115,7 @@
     "subtypes": [
       "Cross Guild"
     ],
-    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Blocker] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder for [Buggy] e você tiver 3 ou menos cartas na sua mão, Compre 1 carta(s).",
+    "effectPt": "Se você tiver 2 ou mais Personagens com a base custo de 5 ou mais, este Personagem ganha [Blocker] e +1 custo. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder for [Buggy] e você tiver 3 ou menos cartas na sua mão, compre 1 carta.",
     "effectEn": "If you have 2 or more Characters with a base cost of 5 or more, this Character gains [Blocker] and +1 cost. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader is [Buggy] and you have 3 or less cards in your hand, draw 1 card.",
     "keywordIds": [
       "blocker",

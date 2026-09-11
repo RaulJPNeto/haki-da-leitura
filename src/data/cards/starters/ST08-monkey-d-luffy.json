@@ -39,9 +39,11 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado em batalha por Líderes. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por Líderes. [Activate: Main] Você pode descanse este Personagem: Dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
     "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -83,9 +85,11 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "activate-main"
+    ],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -105,7 +109,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
     "effectEn": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
     "keywordIds": [
       "on-play"
@@ -129,7 +133,7 @@
     "subtypes": [
       "Tritão"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "blocker",
@@ -181,7 +185,7 @@
     "subtypes": [
       "Bandidos da Montanha"
     ],
-    "effectPt": "[On Play] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "on-play"
@@ -205,7 +209,7 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[On Play] se houver a Personagem com custo de 0, Compre 1 carta(s).",
+    "effectPt": "[On Play] se houver a Personagem com custo de 0, compre 1 carta.",
     "effectEn": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -295,9 +299,11 @@
     "subtypes": [
       "Former Baroque Works"
     ],
-    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem batalhar com o do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você batalhou com. Se fizer isso, K.O. este Personagem.",
+    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem batalhar com o do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você battled com. Se fizer isso, K.O. este Personagem.",
     "effectEn": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
-    "keywordIds": [],
+    "keywordIds": [
+      "don-x"
+    ],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -316,7 +322,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Você pode adicione 1 carta do topo das suas cartas de Vida para a sua mão: Dê a até 1 Personagem(ns) do seu oponente −7 de custo durante este turno.",
+    "effectPt": "[Main] Você pode adicione 1 carta de o topo das suas cartas de Vida para a sua mão: Dê Até 1 dos Personagens do seu oponente −7 custo durante este turno.",
     "effectEn": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
     "triggerPt": "[Trigger] adicione Até 1 preto(a) carta(s) de Personagem com custo de 2 ou menos da sua lixeira para a sua mão.",
     "triggerEn": "[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
@@ -341,9 +347,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "triggerPt": "[Trigger] Compre 1 carta(s).",
+    "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
     "keywordIds": [
       "trigger"
