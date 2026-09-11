@@ -1,7 +1,8 @@
 import React, { useRef, useEffect, useState, useCallback } from 'react';
-import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus, ChevronDown } from 'lucide-react';
+import { Camera, Loader2, Zap, Sparkles, RefreshCw, Focus, ChevronDown, ExternalLink, Copy, Check, Search } from 'lucide-react';
 import { Card, CardType, CardAttribute, CardColor } from '../types';
 import { CandidateModal } from './CandidateModal';
+import { isInAppBrowser, copyCurrentUrl } from '../utils/browser';
 
 export interface DetectedSignals {
   code?: string | null;
@@ -38,12 +39,14 @@ interface ScannerOverlayProps {
   cards: Card[];
   onSelectCard: (card: Card) => void;
   isScanning: boolean;
+  onOpenManualSearch?: () => void;
 }
 
 export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   cards,
   onSelectCard,
-  isScanning
+  isScanning,
+  onOpenManualSearch
 }) => {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -56,6 +59,8 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
   const [scannedFeedback, setScannedFeedback] = useState<string | null>(null);
   const [ocrReady, setOcrReady] = useState<boolean>(false);
   const [isRecognizing, setIsRecognizing] = useState<boolean>(false);
+  const [copiedUrl, setCopiedUrl] = useState<boolean>(false);
+  const [isInApp] = useState<boolean>(() => isInAppBrowser());
 
   // Lanterna / Flash (Torch) e Foco
   const [torchAvailable, setTorchAvailable] = useState<boolean>(false);
@@ -213,11 +218,17 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
         const playPromise = videoRef.current.play();
         if (playPromise !== undefined) {
-          playPromise.catch(() => {});
+          playPromise
+            .then(() => {
+              setHasCamera(true);
+              setCameraLoading(false);
+            })
+            .catch(() => {});
         }
 
         videoRef.current.onloadedmetadata = () => {
           videoRef.current?.play().catch(() => {});
+          setHasCamera(true);
           setCameraLoading(false);
         };
       }
@@ -233,10 +244,29 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
         setCameraError('Câmera temporariamente indisponível. Toque no botão para recarregar.');
       }
     } finally {
-      // Garante que o loading conclua após o tempo de inicialização do sensor
-      setTimeout(() => setCameraLoading(false), 500);
+      if (streamRef.current) {
+        setCameraLoading(false);
+      }
     }
   }, []);
+
+  // Sincronização resiliente: garante que o elemento de vídeo receba o stream assim que estiver pronto
+  useEffect(() => {
+    if (streamRef.current && videoRef.current && videoRef.current.srcObject !== streamRef.current) {
+      videoRef.current.srcObject = streamRef.current;
+      videoRef.current.play().catch(() => {});
+    }
+  }, [hasCamera]);
+
+  // Ação de copiar URL amigável para abrir fora do WhatsApp/Instagram
+  const handleCopyLink = async () => {
+    const ok = await copyCurrentUrl();
+    if (ok) {
+      setCopiedUrl(true);
+      setTimeout(() => setCopiedUrl(false), 2500);
+      if (navigator.vibrate) navigator.vibrate(20);
+    }
+  };
 
   // Ciclo de Vida: Inicia a recarga limpa ao entrar e ao retornar à visibilidade
   useEffect(() => {
@@ -787,18 +817,28 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
 
   return (
     <div className="relative w-full flex-1 h-full min-h-0 bg-slate-950 overflow-hidden flex flex-col justify-between items-center select-none">
-      {/* Feed da Câmera ou Tela de Fallback */}
-      {hasCamera ? (
-        <video
-          ref={videoRef}
-          autoPlay
-          playsInline
-          muted
-          className="absolute inset-0 w-full h-full object-cover z-0"
-        />
-      ) : (
-        /* Tela de Permissão / Solicitação de Câmera */
-        <div className="absolute inset-0 z-0 flex flex-col items-center justify-center p-6 bg-slate-950 text-center">
+      {/* Feed da Câmera contínuo no DOM (sempre montado para evitar race conditions de vídeo) */}
+      <video
+        ref={videoRef}
+        autoPlay
+        playsInline
+        muted
+        onLoadedMetadata={() => {
+          setCameraLoading(false);
+          setHasCamera(true);
+        }}
+        onPlaying={() => {
+          setCameraLoading(false);
+          setHasCamera(true);
+        }}
+        className={`absolute inset-0 w-full h-full object-cover z-0 transition-opacity duration-300 ${
+          hasCamera && !cameraLoading ? 'opacity-100' : 'opacity-0'
+        }`}
+      />
+
+      {/* Tela de Carregamento / Permissão / Fallback (exibida apenas enquanto não há vídeo ativo) */}
+      {(!hasCamera || cameraLoading) && (
+        <div className="absolute inset-0 z-10 flex flex-col items-center justify-center p-6 bg-slate-950/95 text-center backdrop-blur-sm">
           <div className="w-16 h-16 rounded-2xl bg-[#0e1320] border border-sky-500/30 flex items-center justify-center mb-3 shadow-xl">
             {cameraLoading ? (
               <RefreshCw className="w-8 h-8 text-amber-400 animate-spin" />
@@ -815,14 +855,56 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
             {cameraError || 'Aponte a câmera para a carta (mesmo no shield fosco) e o sistema lerá o efeito em português automaticamente.'}
           </p>
 
-          <button
-            onClick={() => reloadCamera()}
-            disabled={cameraLoading}
-            className="mt-5 px-6 py-3.5 bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-sky-950/50 active:scale-95 transition-all flex items-center gap-2 font-heading"
-          >
-            <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
-            {cameraLoading ? 'Conectando...' : 'Recarregar Câmera'}
-          </button>
+          {/* Aviso especial para In-App Browser (WhatsApp, Instagram, Telegram) */}
+          {isInApp && (
+            <div className="mt-4 p-3.5 rounded-xl bg-amber-500/10 border border-amber-500/30 text-amber-200 text-xs text-left flex items-start gap-2.5 max-w-xs shadow-lg">
+              <ExternalLink className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
+              <div className="leading-relaxed">
+                <span className="font-bold text-amber-300 block mb-0.5">Navegador do WhatsApp / Instagram:</span>
+                Para liberar a câmera física, toque em <strong>⋮</strong> ou <strong>⋯</strong> e escolha <strong>"Abrir no Chrome / Safari"</strong>.
+              </div>
+            </div>
+          )}
+
+          <div className="mt-5 flex flex-col gap-2.5 w-full max-w-xs">
+            <button
+              onClick={() => reloadCamera()}
+              disabled={cameraLoading}
+              className="w-full px-5 py-3 bg-gradient-to-r from-sky-600 to-sky-700 hover:from-sky-500 hover:to-sky-600 text-white font-bold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-sky-950/50 active:scale-95 transition-all flex items-center justify-center gap-2 font-heading disabled:opacity-50"
+            >
+              <RefreshCw className={`w-4 h-4 ${cameraLoading ? 'animate-spin' : ''}`} />
+              {cameraLoading ? 'Conectando...' : 'Tentar Novamente'}
+            </button>
+
+            {isInApp && (
+              <button
+                onClick={handleCopyLink}
+                className="w-full px-4 py-2.5 bg-slate-900 hover:bg-slate-800 text-slate-300 hover:text-white border border-slate-700 rounded-xl text-xs font-semibold active:scale-95 transition-all flex items-center justify-center gap-2"
+              >
+                {copiedUrl ? (
+                  <>
+                    <Check className="w-4 h-4 text-emerald-400" />
+                    <span className="text-emerald-400 font-bold">Link Copiado! Cole no Chrome/Safari</span>
+                  </>
+                ) : (
+                  <>
+                    <Copy className="w-4 h-4 text-slate-400" />
+                    <span>Copiar Link para o Navegador</span>
+                  </>
+                )}
+              </button>
+            )}
+
+            {onOpenManualSearch && (
+              <button
+                onClick={() => onOpenManualSearch()}
+                className="w-full px-4 py-2.5 bg-sky-950/50 hover:bg-sky-900/60 text-sky-300 border border-sky-500/30 rounded-xl text-xs font-bold active:scale-95 transition-all flex items-center justify-center gap-2"
+              >
+                <Search className="w-4 h-4 text-sky-400" />
+                <span>Buscar Carta por Nome ou Código</span>
+              </button>
+            )}
+          </div>
         </div>
       )}
 
@@ -977,6 +1059,11 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
               <>
                 <Loader2 className="w-3.5 h-3.5 text-sky-400 animate-spin" />
                 <span>Lendo Carta...</span>
+              </>
+            ) : !ocrReady ? (
+              <>
+                <Loader2 className="w-3.5 h-3.5 text-amber-400 animate-spin" />
+                <span>Preparando Leitor Visual...</span>
               </>
             ) : (
               <>

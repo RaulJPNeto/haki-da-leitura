@@ -199,6 +199,7 @@ export const App: React.FC = () => {
             cards={cards}
             onSelectCard={handleSelectCard}
             isScanning={isScanning}
+            onOpenManualSearch={handleOpenCardList}
           />
         </main>
       )}
