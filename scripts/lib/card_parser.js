@@ -2,7 +2,7 @@
  * Módulo de Parsing e Normalização de Cartas de One Piece TCG.
  * Isolado segundo o Princípio da Responsabilidade Única (SRP).
  */
-import { TRAIT_TRANSLATIONS, translateTrait } from '../traits.js';
+import { TRAIT_TRANSLATIONS, translateTrait } from './traits.js';
 
 export function mapCardType(cat) {
   if (!cat) return 'CHARACTER';

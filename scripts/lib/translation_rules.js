@@ -2,7 +2,7 @@
  * Módulo de Regras de Tradução e Higienização de Texto de Cartas.
  * Isolado segundo o Princípio Aberto/Fechado (OCP) e Responsabilidade Única (SRP).
  */
-import { TRAIT_TRANSLATIONS } from '../traits.js';
+import { TRAIT_TRANSLATIONS } from './traits.js';
 
 export function translateText(en) {
   if (!en) return '';
