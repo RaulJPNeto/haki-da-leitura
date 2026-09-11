@@ -4,10 +4,13 @@
  */
 
 const CANDIDATE_MODELS = [
+  'gemini-2.5-flash',
+  'gemini-2.0-flash',
+  'gemini-1.5-flash',
+  'gemini-1.5-flash-8b',
   'gemini-3.6-flash',
   'gemini-3.5-flash',
-  'gemini-flash-latest',
-  'gemini-2.5-flash'
+  'gemini-flash-latest'
 ];
 
 const SYSTEM_INSTRUCTION = `
@@ -46,8 +49,32 @@ Retorne APENAS um array JSON válido contendo objetos no seguinte formato, sem f
 ]
 `;
 
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+function extractRetryDelay(errorText, defaultDelayMs = 15000) {
+  try {
+    const json = JSON.parse(errorText);
+    const details = json?.error?.details || [];
+    for (const d of details) {
+      if (d?.retryDelay) {
+        const sec = parseFloat(String(d.retryDelay).replace('s', ''));
+        if (!isNaN(sec) && sec > 0) return Math.ceil(sec * 1000) + 2000;
+      }
+    }
+    const msg = json?.error?.message || errorText;
+    const match = msg.match(/retry in (\d+(?:\.\d+)?)s/i);
+    if (match && match[1]) {
+      const sec = parseFloat(match[1]);
+      if (!isNaN(sec) && sec > 0) return Math.ceil(sec * 1000) + 2000;
+    }
+  } catch (e) {}
+  return defaultDelayMs;
+}
+
 /**
- * Traduz um lote de cartas utilizando a API do Google Gemini Flash com fallback automático de modelo.
+ * Traduz um lote de cartas utilizando a API do Google Gemini Flash com fallback automático e retentativas em 503/429.
  * @param {Array<{code: string, nameEn: string, effectEn: string, triggerEn?: string}>} batch
  * @param {string} apiKey
  * @returns {Promise<Array<{code: string, namePt: string, effectPt: string, triggerPt?: string}>>}
@@ -84,45 +111,62 @@ export async function translateBatchWithGemini(batch, apiKey) {
   for (const modelName of CANDIDATE_MODELS) {
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${encodeURIComponent(apiKey)}`;
 
-    try {
-      const response = await fetch(endpoint, {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(payload)
-      });
+    const maxRetries = 6;
+    const defaultDelays = [4000, 8000, 12000, 16000, 20000, 30000];
 
-      if (!response.ok) {
-        const errorText = await response.text();
-        // Se for 404 (modelo não encontrado nesta versão/região), tenta o próximo candidato
-        if (response.status === 404) {
-          lastError = new Error(`HTTP 404: Modelo ${modelName} não encontrado.`);
+    for (let attempt = 1; attempt <= maxRetries; attempt++) {
+      try {
+        const response = await fetch(endpoint, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          if (response.status === 404) {
+            lastError = new Error(`HTTP 404: Modelo ${modelName} não encontrado.`);
+            break;
+          }
+
+          if ((response.status === 503 || response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+            const calculatedDelay = extractRetryDelay(errorText, defaultDelays[attempt - 1] || 25000);
+            console.warn(`  ⚠️ Gemini API HTTP ${response.status} (${modelName}). Tentativa ${attempt}/${maxRetries} falhou. Aguardando ${calculatedDelay / 1000}s conforme indicado pela API...`);
+            await sleep(calculatedDelay);
+            continue;
+          }
+
+          throw new Error(`HTTP ${response.status}: ${errorText}`);
+        }
+
+        const data = await response.json();
+        const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
+
+        if (!rawText) {
+          throw new Error('Resposta vazia recebida do Gemini.');
+        }
+
+        try {
+          const parsed = JSON.parse(rawText);
+          return Array.isArray(parsed) ? parsed : [parsed];
+        } catch (err) {
+          const cleanJson = rawText.replace(/```json\s*/gi, '').replace(/```\s*$/gi, '').trim();
+          return JSON.parse(cleanJson);
+        }
+      } catch (err) {
+        lastError = err;
+        if (err.message.includes('HTTP 404')) {
+          break;
+        }
+        if (attempt < maxRetries && (err.message.includes('503') || err.message.includes('429'))) {
+          const calculatedDelay = extractRetryDelay(err.message, defaultDelays[attempt - 1] || 25000);
+          console.warn(`  ⚠️ Tentativa ${attempt}/${maxRetries} falhou com erro temporário (${err.message.slice(0, 50)}). Aguardando ${calculatedDelay / 1000}s...`);
+          await sleep(calculatedDelay);
           continue;
         }
-        throw new Error(`HTTP ${response.status}: ${errorText}`);
       }
-
-      const data = await response.json();
-      const rawText = data?.candidates?.[0]?.content?.parts?.[0]?.text;
-
-      if (!rawText) {
-        throw new Error('Resposta vazia recebida do Gemini.');
-      }
-
-      try {
-        const parsed = JSON.parse(rawText);
-        return Array.isArray(parsed) ? parsed : [parsed];
-      } catch (err) {
-        const cleanJson = rawText.replace(/```json\s*/gi, '').replace(/```\s*$/gi, '').trim();
-        return JSON.parse(cleanJson);
-      }
-    } catch (err) {
-      lastError = err;
-      if (err.message.includes('HTTP 404')) {
-        continue;
-      }
-      throw err;
     }
   }
 

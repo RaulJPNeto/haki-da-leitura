@@ -10,8 +10,8 @@ import { loadMasterCards, partitionCards, rootDir } from './lib/card_loader.js';
 import { translateBatchWithGemini } from './lib/gemini_translator.js';
 import { translateText } from './lib/translation_rules.js';
 
-const BATCH_SIZE = 15;
-const PAUSE_BETWEEN_BATCHES_MS = 4000;
+const BATCH_SIZE = 10;
+const PAUSE_BETWEEN_BATCHES_MS = 5000;
 
 function loadEnvFile() {
   if (process.env.GEMINI_API_KEY) return process.env.GEMINI_API_KEY;
@@ -238,22 +238,8 @@ export async function runTranslationPipeline() {
         await sleep(PAUSE_BETWEEN_BATCHES_MS);
       }
     } catch (err) {
-      console.error(`  ❌ Falha no lote ${i + 1}: ${err.message}`);
-      console.log('  🔄 Aplicando fallback determinístico para as cartas deste lote...');
-
-      for (const card of currentBatch) {
-        const rawEffect = card.effectEn || card.effect || '';
-        const rawTrigger = card.triggerEn || card.trigger || '';
-        card.effectPt = translateText(rawEffect);
-        if (rawTrigger && rawTrigger !== '-') card.triggerPt = translateText(rawTrigger);
-
-        if (isVerbose) {
-          console.log(`\n🎴 [${card.code}] ${card.namePt || card.nameEn}`);
-          console.log(`   EN: ${rawEffect}`);
-          console.log(`   PT: ${card.effectPt}`);
-        }
-        totalProcessed++;
-      }
+      console.error(`  ❌ Lote ${i + 1}/${batches.length} falhou criticamente: ${err.message}`);
+      throw new Error(`💥 O Lote ${i + 1}/${batches.length} não pôde ser traduzido pela IA do Gemini. A execução foi interrompida para garantir a integridade dos dados e evitar salvamentos parciais.`);
     }
   }
 
