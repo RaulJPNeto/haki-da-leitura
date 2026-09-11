@@ -132,6 +132,13 @@ export async function translateBatchWithGemini(batch, apiKey) {
           }
 
           if ((response.status === 503 || response.status === 429 || response.status >= 500) && attempt < maxRetries) {
+            // Se for estouro de cota diária do modelo (ex: limit 20 RPD do 3.6-flash), alterna para o próximo modelo sem esperar 6x60s
+            if (errorText.includes('PerDay') || errorText.includes('Quota exceeded for metric')) {
+              console.warn(`  ⚠️ Cota diária do modelo ${modelName} esgotada no Free Tier. Alternando imediatamente para o próximo modelo candidato...`);
+              lastError = new Error(`Cota diária do modelo ${modelName} esgotada.`);
+              break; // passa para o próximo modelo da lista CANDIDATE_MODELS
+            }
+
             const calculatedDelay = extractRetryDelay(errorText, defaultDelays[attempt - 1] || 25000);
             console.warn(`  ⚠️ Gemini API HTTP ${response.status} (${modelName}). Tentativa ${attempt}/${maxRetries} falhou. Aguardando ${calculatedDelay / 1000}s conforme indicado pela API...`);
             await sleep(calculatedDelay);
