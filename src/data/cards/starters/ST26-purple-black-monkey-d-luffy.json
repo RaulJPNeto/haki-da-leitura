@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver um [San-Gorou] ou [Sanji] Personagem com 7000 base Poder ou mais, dê esta carta na sua mão −5 custo. [On Play] retorne todos os dos seus [San-Gorou] e [Sanji] Personagens para a mão do dono.",
+    "effectPt": "Se você tiver um [San-Gorou] ou [Sanji] Personagem com 7000 base Poder ou mais, dê esta carta na sua mão −5 custo. [On Play] retorne todos os seus [San-Gorou] e [Sanji] Personagens para a mão do dono.",
     "effectEn": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost. [On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -113,7 +113,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[When Attacking] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! no campo dele(a), seu {Bando do Chapéu de Palha} tipo Poder base do seu Líder torna-se 7000 até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "[On Play]/[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! no campo dele(a), seu {Bando do Chapéu de Palha} tipo Poder base do seu Líder torna-se 7000 até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
     "keywordIds": [
       "on-play",

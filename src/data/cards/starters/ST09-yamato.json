@@ -112,7 +112,8 @@
     "effectPt": "[DON!! x1] este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.) [On K.O.] Você pode descartar 2 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[DON!! x1] This Character gains [Double Attack]. (This card deals 2 damage.) [On K.O.] You may trash 2 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
-      "double-attack"
+      "double-attack",
+      "on-ko"
     ],
     "setId": "ST-09",
     "setName": "Yamato"
@@ -180,7 +181,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Jogue Até 1 amarelo(a) {País de Wano} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Jogue Até 1 amarelo(a) {País de Wano} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[DON!! x1] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Play up to 1 yellow {Land of Wano} type Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
       "when-attacking"
@@ -233,7 +234,9 @@
     ],
     "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado, Você pode descartar 1 carta do topo ou fundo das suas cartas de Vida em vez disso.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d, you may trash 1 card from the top or bottom of your Life cards instead.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "ST-09",
     "setName": "Yamato"
   },
@@ -276,7 +279,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
     "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "when-attacking"

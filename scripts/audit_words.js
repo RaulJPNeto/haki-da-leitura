@@ -56,8 +56,16 @@ const ptWhitelisted = new Set([
   'também', 'fizer', 'fizerem', 'multicolorido', 'multicolorida', 'adicional', 'adicionais',
   'corte', 'impacto', 'distância', 'especial', 'sabedoria', 'anule', 'anular',
   'ativado', 'ativada', 'ativados', 'ativadas', 'coloca', 'colocam', 'retorna', 'retornam',
-  'nome', 'nomes', 'usando', 'marinha',
-  'pirates', 'whitebeard', 'baroque', 'works', 'rocks', 'roger', 'cp'
+  'nome', 'nomes', 'usando', 'marinha', 'piratas', 'ruivo',
+  'anexadas', 'anexada', 'foi', 'jogado', 'jogados', 'neste', 'jogo', 'embaralhe', 'considerado', 'únicos',
+  'qual', 'contra', 'escolhe', 'escolhendo', 'revela', 'atualmente', 'selecionados', 'nocauteia',
+  'receber', 'causar', 'ficam', 'exceto', 'extra', 'batalhar', 'batalhou', 'escolhido', 'joga', 'pelo',
+  'nenhum', 'houverem', 'troque', 'compra', 'líderes', 'comprado', 'reduzido', 'vence', 'perder',
+  'volta', 'anulados', 'próprio', 'irá', 'pegue', 'modo', 'mãos', 'adicionado', 'sempre', 'adiciona',
+  'ficar', 'sendo', 'restauraçãos', 'fora', 'sair', 'deve', 'embaralha', 'fazê', 'lo', 'incluírem', 'concedida', 'té', 'perde',
+  'consiste', 'posterior', 'aplique', 'seguintes', 'reorganize', 'monocolorido', 'caduma',
+  'pirates', 'whitebeard', 'baroque', 'works', 'rocks', 'roger', 'cp', 'germa', 'navy', 'ace',
+  'slash', 'strike', 'special', 'ranged', 'wisdom'
 ]);
 
 const unknownWords = {};

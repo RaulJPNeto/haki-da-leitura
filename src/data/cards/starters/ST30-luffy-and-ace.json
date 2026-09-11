@@ -18,7 +18,7 @@
       "Piratas do Barba Branca",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver um Personagem com 7000 base Poder ou mais, dê este Líder −2000 Poder. [Opponent's Turn] todos os dos seus [Portgas.D.Ace] e [Monkey.D.Luffy] cartas ganha +3000 de Poder.",
+    "effectPt": "Se você tiver um Personagem com 7000 base Poder ou mais, dê este Líder −2000 Poder. [Opponent's Turn] todos os seus [Portgas.D.Ace] e [Monkey.D.Luffy] cartas ganha +3000 de Poder.",
     "effectEn": "If you have a Character with 7000 base power or more, give this Leader −2000 power. [Opponent's Turn] All of your [Portgas.D.Ace] and [Monkey.D.Luffy] cards gain +3000 power.",
     "keywordIds": [],
     "setId": "ST-30",
@@ -66,7 +66,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Your Turn] todos os dos seus Personagens com 6000 base Poder ganha +1000 de Poder.",
+    "effectPt": "[Your Turn] todos os seus Personagens com 6000 base Poder ganha +1000 de Poder.",
     "effectEn": "[Your Turn] All of your Characters with 6000 base power gain +1000 power.",
     "keywordIds": [
       "your-turn"
@@ -163,7 +163,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -192,7 +192,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Você pode descartar 1 carta(s) de Personagem com 6000 Poder da sua mão: Jogue este Personagem carta da sua lixeira descansado(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 Character card with 6000 power from your hand: Play this Character card from your trash rested.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
@@ -288,7 +289,7 @@
       "Impel Down",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [When Attacking] descanse Até 1 do seu oponente [Blocker] Personagens.",
+    "effectPt": "[On Play] Você pode descansar 1 das suas cartas de DON!!: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] descanse Até 1 do seu oponente [Blocker] Personagens.",
     "effectEn": "[On Play] You may rest 1 of your DON!! cards: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [When Attacking] Rest up to 1 of your opponent's [Blocker] Characters.",
     "keywordIds": [
       "blocker",
@@ -341,9 +342,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê Até 2 dos seus Personagens com 6000 base Poder Até 2 descansado(a) cartas de DON!! cada.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 2 of your Characters with 6000 base power up to 2 rested DON!! cards each.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-30",
     "setName": "Luffy &amp; Ace"
   },

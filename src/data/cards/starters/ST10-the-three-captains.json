@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): coloque Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder no fundo do Deck do dono, e Jogue até 1 carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -44,7 +44,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 0 cartas de DON!! no seu campo ou 8 ou mais cartas de DON!! no seu campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -66,7 +66,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] Se você tiver 4 ou mais cartas de Vida, dê este Líder −1000 Poder. [When Attacking] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Líder ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Your Turn] Se você tiver 4 ou mais cartas de Vida, dê este Líder −1000 Poder. [Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Líder ganha +2000 de Poder durante este turno.",
     "effectEn": "[Your Turn] If you have 4 or more Life cards, give this Leader −1000 power. [When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -117,7 +117,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -145,7 +145,8 @@
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
     "keywordIds": [
       "blocker",
-      "rush"
+      "rush",
+      "once-per-turn"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"
@@ -166,9 +167,10 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "ST-10",
@@ -263,9 +265,10 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "ST-10",
@@ -288,7 +291,7 @@
       "Minks",
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play]/[When Attacking] Se seu oponente tiver mais cartas de DON!! no campo dele(a) do que você, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[On Play]/[Quando atacar] Se seu oponente tiver mais cartas de DON!! no campo dele(a) do que você, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play",
@@ -313,7 +316,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[On Play]/[When Attacking] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ganha +1000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[On Play]/[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ganha +1000 de Poder até o início do seu próximo turno.",
     "effectEn": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
     "keywordIds": [
       "on-play",
@@ -338,10 +341,11 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Compre 1 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "once-per-turn"
     ],
     "setId": "ST-10",
     "setName": "The Three Captains"

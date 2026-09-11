@@ -18,9 +18,7 @@
     ],
     "effectPt": "[fim dos seus turno] adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[End of Your Turn] Add 1 card from the top of your Life cards to your hand.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -88,7 +86,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Até 1 do seu Líder ganha +2000 de Poder até o início do seu próximo turno. Em seguida, você não pode adicione cartas de Vida para a sua mão usando seu own efeitos durante este turno. [DON!! x2] [When Attacking] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectPt": "[On Play] Até 1 do seu Líder ganha +2000 de Poder até o início do seu próximo turno. Em seguida, você não pode adicione cartas de Vida para a sua mão usando seu próprio(a) efeitos durante este turno. [DON!! x2] [Quando atacar] K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
     "effectEn": "[On Play] Up to 1 of your Leader gains +2000 power until the start of your next turn. Then, you cannot add Life cards to your hand using your own effects during this turn. [DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 3000 power or less.",
     "keywordIds": [
       "on-play",
@@ -231,9 +229,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Jogue Até 1 vermelho(a) Personagem diferente de [Dogura] com custo de 1 da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: Play up to 1 red Character other than [Dogura] with a cost of 1 from your hand.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -350,9 +346,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus vermelho(a) Personagens com custo de 1 ganha +3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your red Characters with a cost of 1 gains +3000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -396,7 +390,7 @@
     "subtypes": [
       "Spade Pirates"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
+    "effectPt": "[DON!! x2] [Quando atacar] K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
     "effectEn": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "keywordIds": [
       "when-attacking"
@@ -423,7 +417,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Você pode descartar 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue este Personagem carta da sua lixeira descansado(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card with a type including \"Whitebeard Pirates\" from your hand: If you have 2 or less Life cards, play this Character card from your trash rested.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -444,7 +439,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[DON!! x1] [Your Turn] todos os dos seus Personagens com um tipo que inclua \"Whitebeard Pirates\" ganha +1000 de Poder.",
+    "effectPt": "[DON!! x1] [Your Turn] todos os seus Personagens com um tipo que inclua \"Whitebeard Pirates\" ganha +1000 de Poder.",
     "effectEn": "[DON!! x1] [Your Turn] All of your Characters with a type including \"Whitebeard Pirates\" gain +1000 power.",
     "keywordIds": [
       "your-turn"
@@ -542,7 +537,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Main] Se você tiver 3 ou menos cartas de Vida, você não pode adicione cartas de Vida para a sua mão usando seu own efeitos durante este turno.",
+    "effectPt": "[Main] Se você tiver 3 ou menos cartas de Vida, você não pode adicione cartas de Vida para a sua mão usando seu próprio(a) efeitos durante este turno.",
     "effectEn": "[Main] If you have 3 or less Life cards, you cannot add Life cards to your hand using your own effects during this turn.",
     "triggerPt": "[Trigger] Até 1 do seu Líder ganha +1000 de Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader gains +1000 power during this turn.",
@@ -572,8 +567,8 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "your-turn",
-      "trigger"
+      "trigger",
+      "your-turn"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -595,10 +590,10 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 1 ou menos Personagens, o próximo(a) time você jogue a {País de Wano} tipo carta(s) de Personagem com custo de 3 ou mais da sua mão durante este turno, o custo will ser reduced por 1.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 1 ou menos Personagens, o próximo(a) vez você jogue a {País de Wano} tipo carta(s) de Personagem com custo de 3 ou mais da sua mão durante este turno, o custo irá ser reduzido(a) por 1.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have 1 or less Characters, the next time you play a {Land of Wano} type Character card with a cost of 3 or more from your hand during this turn, the cost will be reduced by 1.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -622,7 +617,9 @@
     ],
     "effectPt": "[Once Per Turn] Quando você jogue a Personagem com no base efeito da sua mão, se você tiver 3 ou menos Personagens, coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[Once Per Turn] When you play a Character with no base effect from your hand, if you have 3 or less Characters, set up to 2 of your DON!! cards as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -691,9 +688,7 @@
     ],
     "effectPt": "[fim dos seus turno] coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -717,7 +712,8 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo. [On K.O.] Jogue Até 1 verde {País de Wano} tipo carta(s) de Personagem com custo de 3 do seu Deck. Em seguida, embaralhe seu Deck.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active. [On K.O.] Play up to 1 green {Land of Wano} type Character card with a cost of 3 from your deck. Then, shuffle your deck.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn",
+      "on-ko"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -813,7 +809,7 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "when-attacking"
@@ -841,9 +837,7 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode retorne este Personagem para a mão do dono: Jogue Até 1 Personagem com custo de 3 da sua mão.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may return this Character to the owner's hand: Play up to 1 Character with a cost of 3 from your hand.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -864,7 +858,7 @@
       "FILM",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[When Attacking] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Olhe as 3 cartas do topo do seu Deck; revele até 1 {FILM} carta do tipo diferente de [Nami] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play]/[Quando atacar] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Olhe as 3 cartas do topo do seu Deck; revele até 1 {FILM} carta do tipo diferente de [Nami] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play]/[When Attacking] ➀ (You may rest the specified number of DON!! cards in your cost area.): Look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [Nami] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play",
@@ -1168,9 +1162,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 {País de Wano} carta do tipo da sua mão e descanse este Palco: coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[Activate: Main] You may trash 1 {Land of Wano} type card from your hand and rest this Stage: Set up to 1 of your DON!! cards as active.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1193,9 +1185,7 @@
     ],
     "effectPt": "[fim dos seus turno] Se você tiver 0 cartas na sua mão, Compre 2 carta(s).",
     "effectEn": "[End of Your Turn] If you have 0 cards in your hand, draw 2 cards.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1241,7 +1231,7 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Compre carta(s) so que você tiver 3 cartas na sua mão e Em seguida, jogue Até 1 azul {Impel Down} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
+    "effectPt": "[On Play] Compre carta(s) de modo que você tiver 3 cartas na sua mão e Em seguida, jogue Até 1 azul {Impel Down} tipo carta(s) de Personagem com custo de 6 ou menos da sua mão.",
     "effectEn": "[On Play] Draw card(s) so that you have 3 cards in your hand and then play up to 1 blue {Impel Down} type Character card with a cost of 6 or less from your hand.",
     "keywordIds": [
       "on-play"
@@ -1358,7 +1348,7 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [DON!! x1] [When Attacking] Você pode descartar 1 carta(s) da sua mão: coloque Até 1 dos Personagens do seu oponente com custo de 1 ou menos no fundo do Deck do dono.",
+    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [DON!! x1] [Quando atacar] Você pode descartar 1 carta(s) da sua mão: coloque Até 1 dos Personagens do seu oponente com custo de 1 ou menos no fundo do Deck do dono.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 of your opponent's Characters with a cost of 1 or less at the bottom of the owner's deck.",
     "keywordIds": [
       "on-play",
@@ -1435,7 +1425,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[When Attacking] Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, descartar Até 3 cartas da sua mão.",
+    "effectPt": "[Quando atacar] Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, descartar Até 3 cartas da sua mão.",
     "effectEn": "[When Attacking] Draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
     "keywordIds": [
       "when-attacking"
@@ -1482,7 +1472,7 @@
       "Gigante",
       "Exército Revolucionário"
     ],
-    "effectPt": "[When Attacking] Se você tiver 1 ou menos cartas na sua mão, seu oponente não pode ativar o [Blocker] de qualquer Personagem com custo de 5 ou menos durante esta batalha.",
+    "effectPt": "[Quando atacar] Se você tiver 1 ou menos cartas na sua mão, seu oponente não pode ativar o [Blocker] de qualquer Personagem com custo de 5 ou menos durante esta batalha.",
     "effectEn": "[When Attacking] If you have 1 or less cards in your hand, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
     "keywordIds": [
       "blocker",
@@ -1508,7 +1498,7 @@
       "Impel Down",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[When Attacking] Você pode descartar 2 carta(s) da sua mão: retorne até 1 Personagem com custo de 4 ou menos para a mão do dono. Em seguida, este Personagem ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
+    "effectPt": "[On Play]/[Quando atacar] Você pode descartar 2 carta(s) da sua mão: retorne até 1 Personagem com custo de 4 ou menos para a mão do dono. Em seguida, este Personagem ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[On Play]/[When Attacking] You may trash 2 cards from your hand: Return up to 1 Character with a cost of 4 or less to the owner's hand. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
     "keywordIds": [
       "on-play",
@@ -1560,7 +1550,7 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Você pode descartar 1 carta(s) da sua mão: coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono. Em seguida, no fim de esta batalha, coloque este Personagem no fundo do Deck do dono.",
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode descartar 1 carta(s) da sua mão: coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono. Em seguida, no fim de esta batalha, coloque este Personagem no fundo do Deck do dono.",
     "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card from your hand: Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck. Then, at the end of this battle, place this Character at the bottom of the owner's deck.",
     "keywordIds": [
       "when-attacking"
@@ -1588,8 +1578,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar 1 carta(s) da sua mão: coloque este Personagem como ativo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash 1 card from your hand: Set this Character as active.",
     "keywordIds": [
-      "blocker",
-      "your-turn"
+      "blocker"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -1688,7 +1677,7 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, compre cartas so que você tiver 2 cartas na sua mão.",
+    "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +6000 de Poder durante esta batalha. Em seguida, compre cartas de modo que você tiver 2 cartas na sua mão.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +6000 power during this battle. Then, draw cards so that you have 2 cards in your hand.",
     "triggerPt": "[Trigger] retorne até 1 Personagem com custo de 7 ou menos para a mão do dono.",
     "triggerEn": "[Trigger] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
@@ -1716,9 +1705,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Se o seu Líder for [Emporio.Ivankov], Compre 1 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, descartar Até 3 cartas da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader is [Emporio.Ivankov], draw 1 card and trash 1 card from your hand. Then, trash up to 3 cards from your hand.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -1738,9 +1725,10 @@
     "subtypes": [
       "Impel Down"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta em campo for retornado(a) para o seu Deck de DON!!, este Líder ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! em campo for retornada para o seu Deck de DON!!, este Líder ganha +1000 de Poder durante este turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on the field is returned to your DON!! deck, this Leader gains +1000 power during this turn.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-02",
@@ -1764,7 +1752,7 @@
       "FILM",
       "Neo Marinha"
     ],
-    "effectPt": "[When Attacking] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos. Em seguida, este Líder ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Quando atacar] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 3 ou menos. Em seguida, este Líder ganha +1000 de Poder durante este turno.",
     "effectEn": "[When Attacking] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less. Then, this Leader gains +1000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -2009,9 +1997,7 @@
     ],
     "effectPt": "[Activate: Main] DON!! −8 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +792000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] DON!! −8 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +792000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2078,7 +2064,7 @@
     "subtypes": [
       "Impel Down"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu oponente retorna 1 DON!! carta de o campo dele(a) para dele(a) Deck de DON!!. [Opponent's Turn] Quando este Personagem for nocauteado, seu oponente retorna 2 cartas de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu oponente retorna 1 carta de DON!! de o campo dele(a) para dele(a) Deck de DON!!. [Opponent's Turn] Quando este Personagem for nocauteado, seu oponente retorna 2 cartas de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your opponent returns 1 DON!! card from their field to their DON!! deck. [Opponent's Turn] When this Character is K.O.'d, your opponent returns 2 DON!! cards from their field to their DON!! deck.",
     "keywordIds": [
       "on-play"
@@ -2106,7 +2092,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2131,7 +2118,8 @@
     "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Double Attack] (This card deals 2 damage.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "double-attack"
+      "double-attack",
+      "on-ko"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2176,7 +2164,7 @@
     ],
     "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê até um total de 2 do Líder do seu oponente ou carta(s) de Personagem −3000 Poder durante este turno.",
     "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
-    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 DON!! carta de o campo dele(a) para dele(a) Deck de DON!!.",
+    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 carta de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
     "triggerEn": "[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "keywordIds": [
       "trigger",
@@ -2202,7 +2190,7 @@
     ],
     "effectPt": "[Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
     "effectEn": "[Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 DON!! carta de o campo dele(a) para dele(a) Deck de DON!!.",
+    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 carta de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
     "triggerEn": "[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "keywordIds": [
       "trigger"
@@ -2227,7 +2215,7 @@
     ],
     "effectPt": "[Main] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Main] Add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 DON!! carta de o campo dele(a) para dele(a) Deck de DON!!.",
+    "triggerPt": "[Trigger] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), seu oponente retorna 1 carta de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
     "triggerEn": "[Trigger] If your opponent has 6 or more DON!! cards on their field, your opponent returns 1 DON!! card from their field to their DON!! deck.",
     "keywordIds": [
       "trigger"
@@ -2252,9 +2240,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Olhe as 3 cartas do topo do seu Deck; revele até 1 {Impel Down} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 {Impel Down} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2274,10 +2260,10 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, Se houver um Personagem com a custo de 0, este Líder ganha +1000 de Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, se houver a Personagem com custo de 0, este Líder ganha +1000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] Give up to 1 of your opponent's Characters −1 cost during this turn. Then, if there is a Character with a cost of 0, this Leader gains +1000 power during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
@@ -2298,9 +2284,11 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [Once Per Turn] Quando este Personagem batalha e nocauteia do seu oponente Personagem, coloque este Personagem como ativo.",
+    "effectPt": "[DON!! x1] [Once Per Turn] quando este Personagem batalhar e K.O.'s do seu oponente Personagem, coloque este Personagem como ativo.",
     "effectEn": "[DON!! x1] [Once Per Turn] When this Character battles and K.O.'s your opponent's Character, set this Character as active.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2320,10 +2308,9 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "Se houver um Personagem com a custo de 0, este Personagem ganha [Banish]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "se houver a Personagem com custo de 0, este Personagem ganha [Banish]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "If there is a Character with a cost of 0, this Character gains [Banish]. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
-      "trigger",
       "banish"
     ],
     "setId": "OP-02",
@@ -2345,7 +2332,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Compre 1 carta(s). [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[On Play] Compre 1 carta(s). [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[On Play] Draw 1 card. [When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "on-play",
@@ -2462,7 +2449,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Se houver um Personagem com a custo de 0, seu oponente não pode ativar o [Blocker] de qualquer Personagem com custo de 5 ou menos durante esta batalha.",
+    "effectPt": "[Quando atacar] se houver a Personagem com custo de 0, seu oponente não pode ativar o [Blocker] de qualquer Personagem com custo de 5 ou menos durante esta batalha.",
     "effectEn": "[When Attacking] If there is a Character with a cost of 0, your opponent cannot activate the [Blocker] of any Character with a cost of 5 or less during this battle.",
     "keywordIds": [
       "blocker",
@@ -2487,7 +2474,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [When Attacking] Se houver um Personagem com a custo de 0, este Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [Quando atacar] se houver a Personagem com custo de 0, este Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "This Character cannot be K.O.'d by effects. [When Attacking] If there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
     "keywordIds": [
       "when-attacking"
@@ -2511,7 +2498,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -2561,7 +2548,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −3 de custo durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -2703,7 +2690,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Se você tiver [Jango], esta carta ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Quando atacar] Se você tiver [Jango], esta carta ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[When Attacking] If you have [Jango], this card gains +3000 power during this battle.",
     "keywordIds": [
       "when-attacking"
@@ -2729,9 +2716,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. Em seguida, Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −1 cost during this turn. Then, up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-02",
     "setName": "PARAMOUNT WAR"
   },
@@ -2751,7 +2736,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno. Em seguida, Se houver um Personagem com a custo de 0, este Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectPt": "[Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno. Em seguida, se houver a Personagem com custo de 0, este Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[When Attacking] Give up to 1 of your opponent's Characters −2 cost during this turn. Then, if there is a Character with a cost of 0, this Character gains +2000 power during this battle.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -2802,7 +2787,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectPt": "[DON!! x2] [Quando atacar] Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
     "effectEn": "[DON!! x2] [When Attacking] K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "when-attacking"
@@ -2924,7 +2909,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu Líder e todos os dos seus Personagens ganha +1000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): seu Líder e todos os seus Personagens ganha +1000 de Poder até o início do seu próximo turno.",
     "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Your Leader and all of your Characters gain +1000 power until the start of your next turn.",
     "keywordIds": [
       "on-play"

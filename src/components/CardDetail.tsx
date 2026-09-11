@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, KeywordRule } from '../types';
 import { Zap, Sparkles, ArrowLeft, BookOpen } from 'lucide-react';
@@ -34,7 +35,9 @@ export const CardDetail: React.FC<CardDetailProps> = ({
             k.rawTagEn?.toLowerCase() === part.toLowerCase() ||
             k.rawTag.toLowerCase() === part.toLowerCase() ||
             k.namePt.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
-            k.nameEn.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase()
+            k.nameEn.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
+            (k.id === 'don-x' && /^\[DON!!\s*x\d+\]$/i.test(part)) ||
+            (k.id === 'don-minus' && /^\[DON!!\s*[−-]\d+\]$/i.test(part))
         );
 
         if (matchedKeyword) {
@@ -136,7 +139,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
   return (
     <div className="w-full bg-slate-950 px-5 sm:px-8 py-5 pb-32 flex flex-col items-center animate-fadeIn">
       <div className="w-full max-w-lg flex flex-col gap-4">
-        
+
         {/* Top Action Bar */}
         <div className="flex items-center justify-between">
           <button
@@ -154,7 +157,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
 
         {/* Ficha Principal da Carta - Anatomia One Piece Card Game */}
         <div className={`glass-card p-0 rounded-xl border-2 ${colorStyle.border} ${colorStyle.glow} bg-gradient-to-b ${colorStyle.bg} flex flex-col relative overflow-hidden shadow-2xl`}>
-          
+
           {/* Fundo sutil com padrão de textura da carta */}
           <div className="absolute inset-0 bg-radial-gradient opacity-20 pointer-events-none" />
 
@@ -162,7 +165,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
           {/* 1. CABEÇALHO / CANTO SUPERIOR (Custo à esquerda, Poder e Atributo à direita) */}
           {/* ========================================================================= */}
           <div className="p-4 sm:p-5 pb-3 flex items-start justify-between relative z-10">
-            
+
             {/* Canto Superior Esquerdo: Selo Circular DON!! de Custo (apenas para Personagem/Evento/Palco; Vazio para Líderes) */}
             <div className="flex items-center gap-2">
               {card.cardType !== 'LEADER' && card.cost !== null ? (
@@ -229,7 +232,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
           {/* 3. RODAPÉ INFERIOR (Identidade do Líder / Carta - Barra Preta Sólida) */}
           {/* ========================================================================= */}
           <div className="mt-4 w-full bg-slate-950 border-t-2 border-slate-700/80 p-5 pt-4 pb-4 relative z-10 flex flex-col items-center">
-            
+
             {/* Color Wheel Oficial (Canto Inferior Esquerdo da barra - Idêntico à carta física) */}
             <div className="absolute left-4 sm:left-6 bottom-3.5 sm:bottom-4 flex items-center">
               <ColorWheelHexagon colors={card.colors} size={44} />
@@ -287,7 +290,7 @@ export const CardDetail: React.FC<CardDetailProps> = ({
           {/* ========================================================================= */}
           <div className="w-full bg-slate-950 px-4 sm:px-6 py-2.5 border-t border-slate-900 flex items-center justify-between text-xs text-slate-400 font-semibold relative z-10">
             {/* Atalho Dicionário */}
-            <button 
+            <button
               onClick={onOpenGlossary}
               className="text-cyan-400 hover:text-cyan-300 flex items-center gap-1.5 font-bold text-xs active:scale-95 transition-all"
             >

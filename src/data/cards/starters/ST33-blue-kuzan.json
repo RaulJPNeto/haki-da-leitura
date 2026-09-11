@@ -40,10 +40,11 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Você pode descartar 1 carta(s) da sua mão: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 1 carta de a mão dele(a). [On K.O.] Jogue Até 1 {Marinha} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 carta(s) da sua mão: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 1 carta de a mão dele(a). [On K.O.] Jogue Até 1 {Marinha} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[When Attacking] You may trash 1 card from your hand: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand. [On K.O.] Play up to 1 {Navy} type Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "on-ko"
     ],
     "setId": "ST-33",
     "setName": "BLUE Kuzan"

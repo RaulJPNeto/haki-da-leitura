@@ -15,10 +15,12 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione Até 2 cartas de DON!! do seu Deck de DON!! e descanse elas. [On K.O.] Jogue até 1 carta(s) de Personagem com 8000 ou menos de Poder da sua mão.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione Até 2 cartas de DON!! do seu Deck de DON!! e descanse elas. [On K.O.] Jogue até 1 carta(s) de Personagem com 8000 ou menos de Poder da sua mão.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, if your Leader has the {Big Mom Pirates} type, add up to 2 DON!! cards from your DON!! deck and rest them. [On K.O.] Play up to 1 Character card with 8000 power or less from your hand.",
     "keywordIds": [
-      "your-turn"
+      "once-per-turn",
+      "your-turn",
+      "on-ko"
     ],
     "setId": "ST-34",
     "setName": "PURPLE Charlotte Katakuri"
@@ -113,7 +115,7 @@
       "Minks",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[When Attacking] DON!! −1: Dê K.O. em até 1 Personagem(ns) do seu oponente com 2000 ou menos de Poder base.",
+    "effectPt": "[Quando atacar] DON!! −1: Dê K.O. em até 1 Personagem(ns) do seu oponente com 2000 ou menos de Poder base.",
     "effectEn": "[When Attacking] DON!! −1: K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
     "keywordIds": [
       "when-attacking"

@@ -15,7 +15,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "Quando este Líder atacar ou for atacado, Você pode descartar qualquer número de cartas de Evento ou Palco da sua mão. este Líder ganha +1000 de Poder durante esta batalha for every carta descartada.",
+    "effectPt": "Quando este Líder atacar ou for atacado, Você pode descartar qualquer número de cartas de Evento ou Palco da sua mão. este Líder ganha +1000 de Poder durante esta batalha para cada carta descartada.",
     "effectEn": "When this Leader attacks or is attacked, you may trash any number of Event or Stage cards from your hand. This Leader gains +1000 power during this battle for every card trashed.",
     "keywordIds": [],
     "setId": "OP-03",
@@ -37,7 +37,7 @@
     "subtypes": [
       "ODYSSEY"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] seu oponente não pode ativar a [Blocker] Personagem que tiver 2000 ou menos Poder durante esta batalha.",
+    "effectPt": "[DON!! x1] [Quando atacar] seu oponente não pode ativar a [Blocker] Personagem que tiver 2000 ou menos Poder durante esta batalha.",
     "effectEn": "[DON!! x1] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 2000 or less power during this battle.",
     "keywordIds": [
       "blocker",
@@ -114,7 +114,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] este Personagem ganha +2000 de Poder durante este turno. Em seguida, descartar este Personagem no final deste turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] This Character gains +2000 power during this turn. Then, trash this Character at the end of this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -204,10 +204,10 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -252,7 +252,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -276,7 +276,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[When Attacking] Você pode descartar 1 dos seus vermelho(a) Personagens com 4000 ou mais de Poder: Compre 1 carta(s). Em seguida, este Personagem ganha +1000 de Poder durante esta batalha.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 dos seus vermelho(a) Personagens com 4000 ou mais de Poder: Compre 1 carta(s). Em seguida, este Personagem ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[When Attacking] You may trash 1 of your red Characters with 4000 power or more: Draw 1 card. Then, this Character gains +1000 power during this battle.",
     "keywordIds": [
       "when-attacking"
@@ -304,7 +304,8 @@
     "effectEn": "[Your Turn] [On Play] K.O. up to 1 of your opponent's Characters with 3000 power or less. [On K.O.] You may trash 1 Event from your hand: You may play this Character card from your trash rested.",
     "keywordIds": [
       "on-play",
-      "your-turn"
+      "your-turn",
+      "on-ko"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -325,7 +326,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Jogue Até 1 vermelho(a) carta(s) de Personagem com custo de 1 da sua mão.",
+    "effectPt": "[Quando atacar] Jogue Até 1 vermelho(a) carta(s) de Personagem com custo de 1 da sua mão.",
     "effectEn": "[When Attacking] Play up to 1 red Character card with a cost of 1 from your hand.",
     "keywordIds": [
       "when-attacking"
@@ -476,9 +477,7 @@
     ],
     "effectPt": "[Activate: Main] ② (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Palco: Se o seu Líder for [Portgas.D.Ace], Olhe as 5 cartas do topo do seu Deck; revele até 1 Evento e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ② (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader is [Portgas.D.Ace], look at 5 cards from the top of your deck; reveal up to 1 Event and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -501,9 +500,7 @@
     ],
     "effectPt": "[Activate: Main] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descanse 2 dos seus {East azul} tipo Personagens: coloque este Líder as ativo(a), e Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Activate: Main] ③ (You may rest the specified number of DON!! cards in your cost area.) You may rest 2 of your {East Blue} type Characters: Set this Leader as active, and rest up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -526,7 +523,7 @@
       "East Blue",
       "Piratas do Arlong"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Jogue Até 1 carta(s) de Personagem com custo de 4 ou menos e um(a) [Trigger] da sua mão.",
+    "effectPt": "[DON!! x2] [Quando atacar] ① (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Jogue Até 1 carta(s) de Personagem com custo de 4 ou menos e um(a) [Trigger] da sua mão.",
     "effectEn": "[DON!! x2] [When Attacking] ① (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 Character card with a cost of 4 or less and a [Trigger] from your hand.",
     "keywordIds": [
       "when-attacking",
@@ -990,7 +987,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "Quando seu Deck for reduced para 0, você win o game em vez disso de losing, de acordo com as regras. [DON!! x1] Quando este Líder's attack causa dano à Vida do seu oponente, Você pode descarte 1 carta(s) do topo do seu Deck.",
+    "effectPt": "Quando seu Deck for reduzido a 0, você vence o jogo em vez de perder, de acordo com as regras. [DON!! x1] Quando o ataque deste Líder causa dano à Vida do seu oponente, Você pode descarte 1 carta(s) do topo do seu Deck.",
     "effectEn": "When your deck is reduced to 0, you win the game instead of losing, according to the rules. [DON!! x1] When this Leader's attack deals damage to your opponent's Life, you may trash 1 card from the top of your deck.",
     "keywordIds": [],
     "setId": "OP-03",
@@ -1012,7 +1009,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x1] Quando este ataque deste Personagem causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck.",
     "keywordIds": [
       "rush"
@@ -1152,7 +1149,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [On Play] retorne Até 1 Personagem com custo de 3 ou menos para a mão do dono, e Você pode descarte 2 carta(s) do topo do seu Deck.",
+    "effectPt": "[DON!! x1] Quando este ataque deste Personagem causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [On Play] retorne Até 1 Personagem com custo de 3 ou menos para a mão do dono, e Você pode descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand, and you may trash 2 cards from the top of your deck.",
     "keywordIds": [
       "on-play"
@@ -1227,7 +1224,8 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Você pode descarte 1 carta(s) do topo do seu Deck.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] You may trash 1 card from the top of your deck.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -1249,9 +1247,11 @@
       "East Blue",
       "Ex-Marinha"
     ],
-    "effectPt": "[DON!! x1] Quando este Personagem's attack causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [On K.O.] Você pode descarte 3 carta(s) do topo do seu Deck.",
+    "effectPt": "[DON!! x1] Quando este ataque deste Personagem causa dano à Vida do seu oponente, Você pode descarte 7 carta(s) do topo do seu Deck. [On K.O.] Você pode descarte 3 carta(s) do topo do seu Deck.",
     "effectEn": "[DON!! x1] When this Character's attack deals damage to your opponent's Life, you may trash 7 cards from the top of your deck. [On K.O.] You may trash 3 cards from the top of your deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -1423,9 +1423,7 @@
     ],
     "effectPt": "este Líder não pode atacar. [Activate: Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descansar este Líder: Jogue Até 1 {Galley-La Company} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
     "effectEn": "This Leader cannot attack. [Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may rest this Leader: Play up to 1 {Galley-La Company} type Character card with a cost of 5 or less from your hand.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -1446,11 +1444,10 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[When Attacking] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Banish] durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectPt": "[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha [Banish] durante esta batalha. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains [Banish] during this battle. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
       "when-attacking",
-      "trigger",
       "banish"
     ],
     "setId": "OP-03",
@@ -1473,7 +1470,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[When Attacking] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "when-attacking"
@@ -1574,7 +1571,9 @@
     ],
     "effectPt": "[On K.O.] Se o seu Líder tiver o tipo {Galley-La Company}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On K.O.] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -1620,7 +1619,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[On Play] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. Em seguida, Se você tiver 8 ou mais cartas de DON!! no seu campo, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[On Play] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. Em seguida, se você tiver 8 ou mais cartas de DON!! no seu campo, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active. Then, if you have 8 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "on-play"
@@ -1645,7 +1644,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Se o seu Líder tiver o tipo {Galley-La Company}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se o seu Líder tiver o tipo {Galley-La Company}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[DON!! x1] [When Attacking] If your Leader has the {Galley-La Company} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "when-attacking"
@@ -1673,8 +1672,8 @@
     "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.) [On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.) [On K.O.] If your Leader has the {Impel Down} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
-      "trigger",
-      "banish"
+      "banish",
+      "on-ko"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -1698,7 +1697,9 @@
     ],
     "effectPt": "[On K.O.] Se o seu Líder tiver o tipo {Impel Down}, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[On K.O.] If your Leader has the {Impel Down} type, draw 2 cards and trash 1 card from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -1745,7 +1746,7 @@
       "Water Seven",
       "Galley-La Company"
     ],
-    "effectPt": "[When Attacking] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 1 Personagem(ns) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
       "when-attacking"
@@ -1850,9 +1851,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Se o seu Líder for [Iceburg], Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader is [Iceburg], add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
   },
@@ -1875,6 +1874,7 @@
     "effectPt": "[Your Turn] [Once Per Turn] Você pode descartar 2 carta(s) da sua mão: Quando um Personagem do seu oponente for nocauteado, coloque este Líder como ativo.",
     "effectEn": "[Your Turn] [Once Per Turn] You may trash 2 cards from your hand: When your opponent's Character is K.O.'d, set this Leader as active.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-03",
@@ -1898,7 +1898,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] ② (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[DON!! x2] [Quando atacar] ② (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[DON!! x2] [When Attacking] ② (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "when-attacking"
@@ -2205,7 +2205,8 @@
     "effectPt": "[DON!! x1] este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 4 ou menos da sua lixeira descansado(a).",
     "effectEn": "[DON!! x1] This Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 Character card with a type including \"CP\" and a cost of 4 or less from your trash rested.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -2404,7 +2405,6 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "activate-main",
       "trigger"
     ],
     "setId": "OP-03",
@@ -2426,7 +2426,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, este Líder ganha +1000 de Poder durante esta batalha.",
+    "effectPt": "[DON!! x1] [Quando atacar] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, este Líder ganha +1000 de Poder durante esta batalha.",
     "effectEn": "[DON!! x1] [When Attacking] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, this Leader gains +1000 power during this battle.",
     "keywordIds": [
       "when-attacking"
@@ -2499,7 +2499,7 @@
     "subtypes": [
       "The Vinsmoke Family"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[DON!! x2] [Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[DON!! x2] [When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "when-attacking"
@@ -2570,7 +2570,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Você pode descartar 1 carta(s) com [Trigger] da sua mão: este Personagem ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[DON!! x1] [Quando atacar] Você pode descartar 1 carta(s) com [Trigger] da sua mão: este Personagem ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[DON!! x1] [When Attacking] You may trash 1 card with a [Trigger] from your hand: This Character gains +3000 power during this battle.",
     "keywordIds": [
       "when-attacking",
@@ -2692,7 +2692,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder durante esta batalha.",
+    "effectPt": "[Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: este Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: This Character gains +2000 power during this battle.",
     "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
@@ -2771,7 +2771,8 @@
     "triggerPt": "[Trigger] Você pode descartar 1 carta(s) da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-03",
     "setName": "PILLARS OF STRENGTH"
@@ -2793,7 +2794,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas da Big Mom}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas da Big Mom}, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, descarte até 1 carta de o topo do cartas de Vida do seu oponente.",
     "effectEn": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
     "keywordIds": [
       "on-play"
@@ -2875,7 +2876,6 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "activate-main",
       "trigger"
     ],
     "setId": "OP-03",
@@ -2948,7 +2948,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Main] Se seu oponente tiver 4 ou mais cartas de Vida, descartar Até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectPt": "[Main] Se seu oponente tiver 4 ou mais cartas de Vida, descarte até 1 carta de o topo do cartas de Vida do seu oponente.",
     "effectEn": "[Main] If your opponent has 4 or more Life cards, trash up to 1 card from the top of your opponent's Life cards.",
     "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",

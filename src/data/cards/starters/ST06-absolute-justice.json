@@ -18,7 +18,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 0.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-06",
     "setName": "Absolute Justice"
@@ -85,7 +85,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [DON!! x1] Se houver um Personagem com a custo de 0, este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.)",
+    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [DON!! x1] se houver a Personagem com custo de 0, este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.)",
     "effectEn": "This Character cannot be K.O.'d by effects. [DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack]. (This card deals 2 damage.)",
     "keywordIds": [
       "double-attack"
@@ -109,7 +109,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[When Attacking] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −4 de custo durante este turno.",
     "effectEn": "[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -135,9 +135,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-06",
     "setName": "Absolute Justice"
   },
@@ -275,9 +273,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-06",
     "setName": "Absolute Justice"
   },
@@ -346,7 +342,7 @@
     ],
     "effectPt": "[Main] Compre 1 carta(s). Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "triggerPt": "[Trigger] seu oponente chooses 1 carta de a mão dele(a) e descarta ela.",
+    "triggerPt": "[Trigger] seu oponente escolhe 1 carta de a mão dele(a) e descarta ela.",
     "triggerEn": "[Trigger] Your opponent chooses 1 card from their hand and trashes it.",
     "keywordIds": [
       "trigger"
@@ -371,7 +367,7 @@
     ],
     "effectPt": "[Counter] Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "triggerPt": "[Trigger] Compre 1 carta(s) e none dos seus Personagens pode ser K.O.'d durante este turno.",
+    "triggerPt": "[Trigger] Compre 1 carta(s) e Nenhum dos seus Personagens pode ser K.O.'d durante este turno.",
     "triggerEn": "[Trigger] Draw 1 card and none of your Characters can be K.O.'d during this turn.",
     "keywordIds": [
       "trigger",
@@ -398,8 +394,7 @@
     "effectPt": "[On Play] Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno. [Activate: Main] Você pode descansar este Palco: Se o seu Líder tiver o tipo {Marinha}, Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn. [Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",
     "keywordIds": [
-      "on-play",
-      "activate-main"
+      "on-play"
     ],
     "setId": "ST-06",
     "setName": "Absolute Justice"

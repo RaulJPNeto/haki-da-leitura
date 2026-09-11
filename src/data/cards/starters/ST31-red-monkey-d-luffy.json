@@ -91,7 +91,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver um total de 3 ou mais cartas de DON!! anexadas, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] For every {Bando do Chapéu de Palha} carta do tipo no seu campo, Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "Se você tiver um total de 3 ou mais cartas de DON!! anexadas, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] para cada {Bando do Chapéu de Palha} carta do tipo no seu campo, Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "If you have a total of 3 or more given DON!! cards, this Character gains [Rush]. (This card can attack on the turn in which it is played.) [On Play] For every {Straw Hat Crew} type card on your field, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -115,11 +115,10 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descansar este Palco: Dê Até 1 descansado(a) DON!! carta para 1 dos seus [Monkey.D.Luffy] cartas.",
+    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descansar este Palco: Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Monkey.D.Luffy] cartas.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] You may rest this Stage: Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards.",
     "keywordIds": [
-      "on-play",
-      "activate-main"
+      "on-play"
     ],
     "setId": "ST-31",
     "setName": "RED Monkey.D.Luffy"

@@ -19,9 +19,7 @@
     ],
     "effectPt": "[fim dos seus turno] Você pode descansar este Personagem: coloque Até 1 dos seus {FILM} tipo Personagens diferente de [Bartolomeo] as ativo(a).",
     "effectEn": "[End of Your Turn] You may rest this Character: Set up to 1 of your {FILM} type Characters other than [Bartolomeo] as active.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "P",
     "setName": "Green Uta"
   },
@@ -45,7 +43,9 @@
     ],
     "effectPt": "[On K.O.] coloque Até 1 Personagem com custo de 3 ou menos no fundo do Deck do dono.",
     "effectEn": "[On K.O.] Place up to 1 Character with a cost of 3 or less at the bottom of the owner's deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "P",
     "setName": "Blue Donquixote Doflamingo"
   },
@@ -114,9 +114,9 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Main] Se o seu Líder for [Uta], coloque todos os dos seus {FILM} tipo Personagens as ativo(a) no final deste turno.",
+    "effectPt": "[Main] Se o seu Líder for [Uta], coloque todos os seus {FILM} tipo Personagens as ativo(a) no final deste turno.",
     "effectEn": "[Main] If your Leader is [Uta], set all of your {FILM} type Characters as active at the end of this turn.",
-    "triggerPt": "[Trigger] coloque todos os dos seus {FILM} tipo Personagens as ativo(a).",
+    "triggerPt": "[Trigger] coloque todos os seus {FILM} tipo Personagens as ativo(a).",
     "triggerEn": "[Trigger] Set all of your {FILM} type Characters as active.",
     "keywordIds": [
       "trigger"
@@ -140,7 +140,7 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Counter] Se o seu Líder for [Uta], Você pode retorne qualquer número de Personagens no seu campo para a mão do dono. Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante esta batalha for every retornado(a) Personagem.",
+    "effectPt": "[Counter] Se o seu Líder for [Uta], Você pode retorne qualquer número de Personagens no seu campo para a mão do dono. Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 de Poder durante esta batalha para cada retornado(a) Personagem.",
     "effectEn": "[Counter] If your Leader is [Uta], you may return any number of Characters on your field to the owner's hand. Up to 1 of your Leader or Character cards gains +2000 power during this battle for every returned Character.",
     "keywordIds": [
       "counter"
@@ -286,9 +286,11 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1: Jogue Até 1 {Piratas da Big Mom} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! on do seu oponente campo diferente de [Charlotte Smoothie] da sua mão.",
+    "effectPt": "[Opponent's Turn] [On K.O.] DON!! −1: Jogue Até 1 {Piratas da Big Mom} tipo carta(s) de Personagem com a custo igual a ou menos do que o número de cartas de DON!! no campo do seu oponente diferente de [Charlotte Smoothie] da sua mão.",
     "effectEn": "[Opponent's Turn] [On K.O.] DON!! −1: Play up to 1 {Big Mom Pirates} type Character card with a cost equal to or less than the number of DON!! cards on your opponent's field other than [Charlotte Smoothie] from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "P",
     "setName": "PURPLE Charlotte Katakuri"
   },
@@ -334,7 +336,7 @@
     "subtypes": [
       "Exército Revolucionário"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha [Blocker] e +4 custo. [On Play] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "Se o seu Líder tiver o tipo {Exército Revolucionário}, este Personagem ganha [Blocker] e +4 custo. [On Play] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "If your Leader has the {Revolutionary Army} type, this Character gains [Blocker] and +4 cost. [On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",

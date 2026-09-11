@@ -17,10 +17,10 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Selecione 2 dos seus {Supernovas} ou {Piratas do Coração} tipo Personagens. Swap o base Poder do Personagem selecionados com cada outro(a) durante este turno.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Selecione 2 dos seus {Supernovas} ou {Piratas do Coração} tipo Personagens. troque o poder base do Personagem selecionados com cada outro(a) durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] Select 2 of your {Supernovas} or {Heart Pirates} type Characters. Swap the base power of the selected Characters with each other during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -42,7 +42,7 @@
       "Supernovas",
       "Fallen Monk Pirates"
     ],
-    "effectPt": "[When Attacking] Se este Personagem tiver 5000 Poder ou mais, Compre 1 carta(s) e Dê K.O. em até 1 Personagem(ns) do seu oponente com 3000 ou menos de Poder base.",
+    "effectPt": "[Quando atacar] Se este Personagem tiver 5000 Poder ou mais, Compre 1 carta(s) e Dê K.O. em até 1 Personagem(ns) do seu oponente com 3000 ou menos de Poder base.",
     "effectEn": "[When Attacking] If this Character has 5000 power or more, draw 1 card and K.O. up to 1 of your opponent's Characters with 3000 base power or less.",
     "keywordIds": [
       "when-attacking"
@@ -116,10 +116,10 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -140,7 +140,7 @@
     "subtypes": [
       "Piratas do Coração"
     ],
-    "effectPt": "[When Attacking] Se este Personagem tiver 5000 Poder ou mais, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[Quando atacar] Se este Personagem tiver 5000 Poder ou mais, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[When Attacking] If this Character has 5000 power or more, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -212,10 +212,11 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Rush] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 2 carta(s) da sua mão: Selecione seu Líder e 1 Personagem. Swap o base Poder do selected cartas com cada outro(a) durante esta batalha.",
+    "effectPt": "[Rush] [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 2 carta(s) da sua mão: Selecione seu Líder e 1 Personagem. troque o poder base do selecionado(a) cartas com cada outro(a) durante esta batalha.",
     "effectEn": "[Rush] [On Your Opponent's Attack] [Once Per Turn] You may trash 2 cards from your hand: Select your Leader and 1 Character. Swap the base power of the selected cards with each other during this battle.",
     "keywordIds": [
-      "rush"
+      "rush",
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -239,7 +240,9 @@
     ],
     "effectPt": "[On K.O.] Olhe as 5 cartas do topo do seu Deck; jogue Até 1 {Supernovas} tipo carta(s) de Personagem com 2000 ou menos de Poder diferente de [Basil Hawkins]. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On K.O.] Look at 5 cards from the top of your deck; play up to 1 {Supernovas} type Character card with 2000 power or less other than [Basil Hawkins]. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -286,7 +289,7 @@
       "Minks",
       "Piratas do Coração"
     ],
-    "effectPt": "[When Attacking] Se este Personagem tiver 5000 Poder ou mais, Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Quando atacar] Se este Personagem tiver 5000 Poder ou mais, dê Até 2 descansado(a) cartas de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[When Attacking] If this Character has 5000 power or more, give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
       "when-attacking"
@@ -311,7 +314,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} carta do tipo diferente de [Monkey.D.Luffy] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[On Play] Olhe as 5 cartas do topo do seu Deck; revele até 1 {Supernovas} carta do tipo diferente de [Monkey.D.Luffy] e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card other than [Monkey.D.Luffy] and add it to your hand. Then, place the rest at the bottom of your deck in any order. [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "on-play",
@@ -363,7 +366,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [When Attacking] Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -390,10 +393,11 @@
       "Marinha",
       "Drake Pirates"
     ],
-    "effectPt": "[Opponent's Turn] [Once Per Turn] Se seu {Supernovas} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode dê seu Líder −2000 Poder durante este turno em vez disso. [DON!! x1] [When Attacking] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[Opponent's Turn] [Once Per Turn] Se seu {Supernovas} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode dê seu Líder −2000 Poder durante este turno em vez disso. [DON!! x1] [Quando atacar] Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] If your {Supernovas} type Character would be removed from the field by your opponent's effect, you may give your Leader −2000 power during this turn instead. [DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -415,7 +419,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Main] Selecione 2 dos Personagens do seu oponente com 9000 base Poder ou menos. Swap o base Poder do Personagem selecionados com cada outro(a) durante este turno.",
+    "effectPt": "[Main] Selecione 2 dos Personagens do seu oponente com 9000 base Poder ou menos. troque o poder base do Personagem selecionados com cada outro(a) durante este turno.",
     "effectEn": "[Main] Select 2 of your opponent's Characters with 9000 base power or less. Swap the base power of the selected Characters with each other during this turn.",
     "keywordIds": [],
     "setId": "OP-14",
@@ -438,7 +442,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Counter] Se houver um Personagem com 8000 Poder ou mais, Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
+    "effectPt": "[Counter] se houver a Personagem com 8000 ou mais de Poder, Até 1 carta(s) de Líder ou Personagem ganha +4000 de Poder durante esta batalha.",
     "effectEn": "[Counter] If there is a Character with 8000 power or more, up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "triggerPt": "[Trigger] Jogue Até 1 vermelho(a) carta(s) de Personagem com 2000 ou menos de Poder da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 red Character card with 2000 power or less from your hand.",
@@ -492,10 +496,10 @@
     "subtypes": [
       "Sete Corsários"
     ],
-    "effectPt": "Se do seu oponente Líder tem o <Slash> atributo, este Líder ganha +1000 de Poder. [Activate: Main] [Once Per Turn] Você pode descanse 1 dos seus cartas: Se houver um Personagem com custo de 5 ou mais, coloque até 3 das suas cartas de DON!! como ativas. Em seguida, você não pode jogar cartas de Personagem durante este turno.",
+    "effectPt": "Se do seu oponente Líder tem o <Slash> atributo, este Líder ganha +1000 de Poder. [Activate: Main] [Once Per Turn] Você pode descanse 1 dos seus cartas: se houver a Personagem com custo de 5 ou mais, coloque até 3 das suas cartas de DON!! como ativas. Em seguida, você não pode jogar cartas de Personagem durante este turno.",
     "effectEn": "If your opponent's Leader has the <Slash> attribute, this Leader gains +1000 power. [Activate: Main] [Once Per Turn] You may rest 1 of your cards: If there is a Character with a cost of 5 or more, set up to 3 of your DON!! cards as active. Then, you cannot play Character cards during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -544,9 +548,7 @@
     ],
     "effectPt": "[fim dos seus turno] Se o seu Líder tiver o tipo {FILM} ou {Bando do Chapéu de Palha}, coloque até 2 das suas cartas de DON!! como ativas.",
     "effectEn": "[End of Your Turn] If your Leader has the {FILM} or {Straw Hat Crew} type, set up to 2 of your DON!! cards as active.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -569,9 +571,7 @@
     ],
     "effectPt": "[fim dos seus turno] coloque este Personagem como ativo.",
     "effectEn": "[End of Your Turn] Set this Character as active.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -595,7 +595,8 @@
     "effectPt": "[On Play] coloque até 3 das suas cartas de DON!! como ativas. Em seguida, você não pode jogar cartas de Personagem durante este turno. [On K.O.] descanse Até 1 do seu oponente cartas.",
     "effectEn": "[On Play] Set up to 3 of your DON!! cards as active. Then, you cannot play Character cards during this turn. [On K.O.] Rest up to 1 of your opponent's cards.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -717,7 +718,7 @@
     "effectPt": "[Opponent's Turn] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descanse 1 dos seus cartas em vez disso. [Activate: Main] [Once Per Turn] Você pode descanse 2 dos seus cartas: este Personagem ganha +2000 de Poder até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[Opponent's Turn] If this Character would be removed from the field by your opponent's effect, you may rest 1 of your cards instead. [Activate: Main] [Once Per Turn] You may rest 2 of your cards: This Character gains +2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -815,7 +816,8 @@
     "effectPt": "[On Play] Até 2 dos Personagens do seu oponente com custo de 5 ou menos não pode ser descansado até o fim da próxima Fase Final do seu oponente. [On K.O.] Você pode descanse 1 dos seus cartas: Jogue Até 1 verde carta(s) de Personagem com custo de 5 ou menos da sua mão.",
     "effectEn": "[On Play] Up to 2 of your opponent's Characters with a cost of 5 or less cannot be rested until the end of your opponent's next End Phase. [On K.O.] You may rest 1 of your cards: Play up to 1 green Character card with a cost of 5 or less from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -838,9 +840,10 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Your Turn] todos os dos seus verde {Bando do Chapéu de Palha} tipo Personagens com a base custo de 4 ou mais ganha +1000 de Poder. [Once Per Turn] Se seu {Bando do Chapéu de Palha} tipo Personagem for ser nocauteado por um efeito do seu oponente, Você pode descanse 1 dos seus Personagens em vez disso.",
+    "effectPt": "[Your Turn] todos os seus verde {Bando do Chapéu de Palha} tipo Personagens com a base custo de 4 ou mais ganha +1000 de Poder. [Once Per Turn] Se seu {Bando do Chapéu de Palha} tipo Personagem for ser nocauteado por um efeito do seu oponente, Você pode descanse 1 dos seus Personagens em vez disso.",
     "effectEn": "[Your Turn] All of your green {Straw Hat Crew} type Characters with a base cost of 4 or more gain +1000 power. [Once Per Turn] If your {Straw Hat Crew} type Character would be K.O.'d by your opponent's effect, you may rest 1 of your Characters instead.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-14",
@@ -963,8 +966,7 @@
     "effectPt": "[On Play] Se o seu Líder for [Dracule Mihawk], Compre 1 carta(s). [fim dos seus turno] Se o seu Líder for [Dracule Mihawk], coloque até 1 das suas cartas de DON!! como ativas.",
     "effectEn": "[On Play] If your Leader is [Dracule Mihawk], draw 1 card. [End of Your Turn] If your Leader is [Dracule Mihawk], set up to 1 of your DON!! cards as active.",
     "keywordIds": [
-      "on-play",
-      "your-turn"
+      "on-play"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -989,9 +991,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão: Dê Até 2 descansado(a) cartas de DON!! para 1 dos seus {Homem-Peixe} ou {Tritão} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand: Give up to 2 rested DON!! cards to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1015,7 +1015,9 @@
     ],
     "effectPt": "[Opponent's Turn] Quando você jogue a Personagem, Compre 1 carta(s). [DON!! x1] [Once Per Turn] Quando um dos seus {Amazon Lily} ou {Piratas Kuja} tipo Personagens com 5000 base Poder ou mais for nocauteado, adicione Até 1 carta de o topo do cartas de Vida do seu oponente para a mão do dono.",
     "effectEn": "[Opponent's Turn] When you play a Character, draw 1 card. [DON!! x1] [Once Per Turn] When one of your {Amazon Lily} or {Kuja Pirates} type Characters with 5000 base power or more is K.O.'d, add up to 1 card from the top of your opponent's Life cards to the owner's hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1064,7 +1066,8 @@
     "effectPt": "[On Play] Jogue Até 1 {Homem-Peixe} ou {Tritão} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão. [On K.O.] Compre 1 carta(s).",
     "effectEn": "[On Play] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand. [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1115,7 +1118,8 @@
     "effectPt": "Quando a carta for descartada da sua mão por um efeito, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.) [On K.O.] Compre 1 carta(s).",
     "effectEn": "When a card is trashed from your hand by an effect, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.) [On K.O.] Draw 1 card.",
     "keywordIds": [
-      "rush"
+      "rush",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1138,9 +1142,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Até 1 dos seus {Homem-Peixe} ou {Tritão} tipo Líder ou carta(s) de Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Up to 1 of your {Fish-Man} or {Merfolk} type Leader or Character cards gains +2000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1265,7 +1267,9 @@
     ],
     "effectPt": "[DON!! x2] [On K.O.] Compre 1 carta(s).",
     "effectEn": "[DON!! x2] [On K.O.] Draw 1 card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1310,7 +1314,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Blocker] [Opponent's Turn] Se você tiver 7 ou menos cartas na sua mão, este Personagem's base Poder torna-se o same as seu Poder base do seu Líder.",
+    "effectPt": "[Blocker] [Opponent's Turn] Se você tiver 7 ou menos cartas na sua mão, este Poder base deste Personagem torna-se o mesmo as seu Poder base do seu Líder.",
     "effectEn": "[Blocker] [Opponent's Turn] If you have 7 or less cards in your hand, this Character's base power becomes the same as your Leader's base power.",
     "keywordIds": [
       "blocker"
@@ -1338,8 +1342,7 @@
     "effectPt": "[On Play] Se o seu Líder tiver o tipo {Homem-Peixe}, Compre 3 carta(s). [fim dos seus turno] descartar cartas da sua mão até você tiver 5 cartas na sua mão.",
     "effectEn": "[On Play] If your Leader has the {Fish-Man} type, draw 3 cards. [End of Your Turn] Trash cards from your hand until you have 5 cards in your hand.",
     "keywordIds": [
-      "on-play",
-      "your-turn"
+      "on-play"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1384,7 +1387,7 @@
       "Homem-Peixe",
       "The Sun Pirates"
     ],
-    "effectPt": "este Personagem não pode atacar. Quando a carta for descartada da sua mão por um efeito, este Personagem's efeito for negated durante este turno.",
+    "effectPt": "este Personagem não pode atacar. Quando a carta for descartada da sua mão por um efeito, este Personagem's efeito for anulados durante este turno.",
     "effectEn": "This Character cannot attack. When a card is trashed from your hand by an effect, this Character's effect is negated during this turn.",
     "keywordIds": [],
     "setId": "OP-14",
@@ -1407,7 +1410,7 @@
       "Sete Corsários",
       "The Sun Pirates"
     ],
-    "effectPt": "[Main] todos os dos seus {Homem-Peixe} ou {Tritão} tipo Líder e carta(s) de Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "[Main] todos os seus {Homem-Peixe} ou {Tritão} tipo Líder e carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[Main] All of your {Fish-Man} or {Merfolk} type Leader and Character cards gain +1000 power during this turn.",
     "triggerPt": "[Trigger] Compre 2 carta(s).",
     "triggerEn": "[Trigger] Draw 2 cards.",
@@ -1486,9 +1489,11 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Selecione seu Líder ou 1 dos seus {Piratas Donquixote} tipo Personagens. Mude o alvo do ataque para o selected carta.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Selecione seu Líder ou 1 dos seus {Piratas Donquixote} tipo Personagens. Mude o alvo do ataque para o selecionado(a) carta.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] DON!! −1: Select your Leader or 1 of your {Donquixote Pirates} type Characters. Change the attack target to the selected card.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1510,10 +1515,11 @@
       "Marinha",
       "Piratas Donquixote"
     ],
-    "effectPt": "[Once Per Turn] Se seu {Piratas Donquixote} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode retorne 1 DON!! carta do seu campo para o seu Deck de DON!! em vez disso. [When Attacking] DON!! −1: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
+    "effectPt": "[Once Per Turn] Se seu {Piratas Donquixote} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode retorne 1 carta de DON!! do seu campo para o seu Deck de DON!! em vez disso. [Quando atacar] DON!! −1: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[Once Per Turn] If your {Donquixote Pirates} type Character would be removed from the field by your opponent's effect, you may return 1 DON!! card from your field to your DON!! deck instead. [When Attacking] DON!! −1: Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1536,7 +1542,9 @@
     ],
     "effectPt": "[On K.O.] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. ou descanse até 1 Personagem(ns) do seu oponente com a base Poder de 6000 ou menos.",
     "effectEn": "[On K.O.] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. or rest up to 1 of your opponent's Characters with a base power of 6000 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1559,7 +1567,8 @@
     "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On K.O.] Se o seu oponente tiver 6 ou mais cartas de DON!! no campo dele(a), jogue Até 1 {Piratas Donquixote} tipo carta(s) de Personagem com custo de 5 ou menos da sua mão.",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [On K.O.] If your opponent has 6 or more DON!! cards on their field, play up to 1 {Donquixote Pirates} type Character card with a cost of 5 or less from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1582,7 +1591,9 @@
     ],
     "effectPt": "[On K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, K.O. Até 1 dos Personagens do seu oponente com a base Poder de 0.",
     "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a base power of 0.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1602,9 +1613,11 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[On K.O.] seu oponente retorna 1 DON!! carta de o campo dele(a) para dele(a) Deck de DON!!.",
+    "effectPt": "[On K.O.] seu oponente retorna 1 carta de DON!! de o campo dele(a) para dele(a) Deck de DON!!.",
     "effectEn": "[On K.O.] Your opponent returns 1 DON!! card from their field to their DON!! deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1646,9 +1659,11 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[On K.O.] adicione Até 1 DON!! carta do seu Deck de DON!! e descanse ela, Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On K.O.] adicione Até 1 carta de DON!! do seu Deck de DON!! e descanse ela, Olhe as 5 cartas do topo do seu Deck; revele até 1 {Piratas Donquixote} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it, look at 5 cards from the top of your deck; reveal up to 1 {Donquixote Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1668,9 +1683,11 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "[Opponent's Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Se o seu Líder tiver o tipo {Piratas Donquixote}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Opponent's Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Se o seu Líder tiver o tipo {Piratas Donquixote}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, if your Leader has the {Donquixote Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1715,7 +1732,7 @@
     "subtypes": [
       "Piratas Donquixote"
     ],
-    "effectPt": "Quando este Personagem torna-se descansado(a) por do seu oponente Personagem's efeito, Você pode retorne 1 DON!! carta do seu campo para o seu Deck de DON!!. Se fizer isso, coloque este Personagem como ativo. [Blocker]",
+    "effectPt": "Quando este Personagem torna-se descansado(a) por do seu oponente Personagem's efeito, Você pode retorne 1 carta de DON!! do seu campo para o seu Deck de DON!!. Se fizer isso, coloque este Personagem como ativo. [Blocker]",
     "effectEn": "When this Character becomes rested by your opponent's Character's effect, you may return 1 DON!! card from your field to your DON!! deck. If you do, set this Character as active. [Blocker]",
     "keywordIds": [
       "blocker"
@@ -1741,9 +1758,7 @@
     ],
     "effectPt": "[fim dos seus turno] Se o seu Líder tiver o tipo {Piratas Donquixote}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[End of Your Turn] If your Leader has the {Donquixote Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "keywordIds": [
-      "your-turn"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1766,7 +1781,8 @@
     "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On K.O.] DON!! −1: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [On K.O.] DON!! −1: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1813,7 +1829,8 @@
     "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas Donquixote}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On K.O.] Compre 2 carta(s) e descarte 1 carta(s) da sua mão. Em seguida, adicione Até 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
     "effectEn": "[On Play] If your Leader has the {Donquixote Pirates} type, add up to 1 DON!! card from your DON!! deck and set it as active. [On K.O.] Draw 2 cards and trash 1 card from your hand. Then, add up to 2 DON!! cards from your DON!! deck and rest them.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1836,7 +1853,9 @@
     ],
     "effectPt": "[On K.O.] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno.",
     "effectEn": "[On K.O.] Add up to 1 DON!! card from your DON!! deck and rest it. Then, give up to 1 of your opponent's Characters −2000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -1932,7 +1951,7 @@
     "effectPt": "todos os dos Personagens do seu oponente não pode ser removido(a) de campo por seu efeitos. [Activate: Main] [Once Per Turn] Você pode K.O. 1 dos seus Personagens com um tipo que inclua \"Baroque Works\": Dê a até 1 Personagem(ns) do seu oponente −10 de custo durante este turno. Em seguida, Você pode descarte 2 carta(s) do topo do seu Deck.",
     "effectEn": "All of your opponent's Characters cannot be removed from the field by your effects. [Activate: Main] [Once Per Turn] You may K.O. 1 of your Characters with a type including \"Baroque Works\": Give up to 1 of your opponent's Characters −10 cost during this turn. Then, you may trash 2 cards from the top of your deck.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1955,11 +1974,11 @@
       "Sete Corsários",
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode K.O. 1 dos seus {Piratas de Thriller Bark} tipo Personagens: seu Líder e todos os dos seus Personagens ganha +1000 de Poder durante este turno. [When Attacking] Você pode descartar 3 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode K.O. 1 dos seus {Piratas de Thriller Bark} tipo Personagens: seu Líder e todos os seus Personagens ganha +1000 de Poder durante este turno. [Quando atacar] Você pode descartar 3 carta(s) da sua mão: Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: Your Leader and all of your Characters gain +1000 power during this turn. [When Attacking] You may trash 3 cards from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "when-attacking",
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -1983,7 +2002,8 @@
     "effectPt": "[On Play] descarte 3 carta(s) do topo do seu Deck. [On K.O.] K.O. Até 1 dos Personagens do seu oponente com a base custo de 1.",
     "effectEn": "[On Play] Trash 3 cards from the top of your deck. [On K.O.] K.O. up to 1 of your opponent's Characters with a base cost of 1.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2004,12 +2024,13 @@
     "subtypes": [
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "[On K.O.] todos os dos seus {Piratas de Thriller Bark} tipo Personagens ganha +4 de custo até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "[On K.O.] todos os seus {Piratas de Thriller Bark} tipo Personagens ganha +4 de custo até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "[On K.O.] All of your {Thriller Bark Pirates} type Characters gain +4 cost until the end of your opponent's next End Phase.",
     "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 2 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2032,9 +2053,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar este Personagem: Dê Até 1 do seu oponente 0 custo Personagens −3000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: Give up to 1 of your opponent's 0 cost Characters −3000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -2080,7 +2099,9 @@
     ],
     "effectPt": "[On K.O.] Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
     "effectEn": "[On K.O.] Draw 2 cards and trash 2 cards from your hand.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -2100,7 +2121,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem ganha +1000 de Poder, e todos os dos seus Personagens com um tipo que inclua \"Baroque Works\" ganha +2 de custo.",
+    "effectPt": "Se você tiver 7 ou mais cartas na sua lixeira, este Personagem ganha +1000 de Poder, e todos os seus Personagens com um tipo que inclua \"Baroque Works\" ganha +2 de custo.",
     "effectEn": "If you have 7 or more cards in your trash, this Character gains +1000 power, and all of your Characters with a type including \"Baroque Works\" gain +2 cost.",
     "keywordIds": [],
     "setId": "OP-14",
@@ -2148,7 +2169,9 @@
     ],
     "effectPt": "[On K.O.] Se o tipo do seu Líder incluir \"Baroque Works\", Compre 1 carta(s) e K.O. Até 1 do seu oponente Palcos com custo de 1.",
     "effectEn": "[On K.O.] If your Leader's type includes \"Baroque Works\", draw 1 card and K.O. up to 1 of your opponent's Stages with a cost of 1.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -2174,7 +2197,8 @@
     "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2195,7 +2219,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "Se houver um Personagem com a custo de 0 ou com custo de 8 ou mais, este Personagem pode atacar Personagens no turno em que é jogada. [On Play] descanse até 1 Personagem(ns) do seu oponente com custo de 0.",
+    "effectPt": "se houver a Personagem com custo de 0 ou com custo de 8 ou mais, este Personagem pode atacar Personagens no turno em que é jogada. [On Play] descanse até 1 Personagem(ns) do seu oponente com custo de 0.",
     "effectEn": "If there is a Character with a cost of 0 or with a cost of 8 or more, this Character can attack Characters on the turn in which it is played. [On Play] Rest up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "on-play"
@@ -2221,7 +2245,9 @@
     ],
     "effectPt": "[On K.O.] Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"Baroque Works\" e um(a) custo de 5 ou menos diferente de [Mr.2.Bon.Kurei(Bentham)] da sua mão ou lixeira.",
     "effectEn": "[On K.O.] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less other than [Mr.2.Bon.Kurei(Bentham)] from your hand or trash.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -2243,7 +2269,9 @@
     ],
     "effectPt": "[Opponent's Turn] [Once Per Turn] Se este Personagem for ser nocauteado, Você pode colocar 3 carta(s) da sua lixeira no fundo do seu Deck em qualquer ordem em vez disso.",
     "effectEn": "[Opponent's Turn] [Once Per Turn] If this Character would be K.O.'d, you may place 3 cards from your trash at the bottom of your deck in any order instead.",
-    "keywordIds": [],
+    "keywordIds": [
+      "once-per-turn"
+    ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
   },
@@ -2266,7 +2294,8 @@
     "effectPt": "[Blocker] [On K.O.] adicione Até 1 carta(s) de Personagem com um tipo que inclua \"Baroque Works\" e um(a) custo de 8 ou menos da sua lixeira para a sua mão.",
     "effectEn": "[Blocker] [On K.O.] Add up to 1 Character card with a type including \"Baroque Works\" and a cost of 8 or less from your trash to your hand.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2287,7 +2316,7 @@
     "subtypes": [
       "Baroque Works"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se houver um Personagem com a custo de 0 ou com custo de 8 ou mais, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] se houver a Personagem com custo de 0 ou com custo de 8 ou mais, Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If there is a Character with a cost of 0 or with a cost of 8 or more, draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
@@ -2384,7 +2413,7 @@
       "Impel Down",
       "Former Baroque Works"
     ],
-    "effectPt": "[Main] Se houver um Personagem com a custo de 0 ou com custo de 8 ou mais, todos os dos seus Personagens com um tipo que inclua \"Baroque Works\" ganha +3 de custo até o fim da próxima Fase Final do seu oponente. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
+    "effectPt": "[Main] se houver a Personagem com custo de 0 ou com custo de 8 ou mais, todos os seus Personagens com um tipo que inclua \"Baroque Works\" ganha +3 de custo até o fim da próxima Fase Final do seu oponente. [Counter] seu Líder ganha +3000 de Poder durante esta batalha.",
     "effectEn": "[Main] If there is a Character with a cost of 0 or with a cost of 8 or more, all of your Characters with a type including \"Baroque Works\" gain +3 cost until the end of your opponent's next End Phase. [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter"
@@ -2439,7 +2468,8 @@
     "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2565,13 +2595,13 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 3 {Amazon Lily} ou {Piratas Kuja} tipo cartas da sua mão: Dê seu Líder e todos os dos seus Personagens Até 1 descansado(a) DON!! carta cada.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 3 {Amazon Lily} ou {Piratas Kuja} tipo cartas da sua mão: Dê seu Líder e todos os seus Personagens Até 1 descansado(a) carta de DON!! cada.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 3 {Amazon Lily} or {Kuja Pirates} type cards from your hand: Give your Leader and all of your Characters up to 1 rested DON!! card each.",
     "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Piratas Kuja}, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
     "keywordIds": [
-      "activate-main",
-      "trigger"
+      "trigger",
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2706,7 +2736,8 @@
     "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2733,7 +2764,8 @@
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
       "on-play",
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2809,13 +2841,13 @@
     "subtypes": [
       "Piratas Kuja"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) DON!! carta para 1 dos seus {Piratas Kuja} tipo Líder ou carta(s) de Personagem.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus {Piratas Kuja} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Kuja Pirates} type Leader or Character cards.",
     "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Piratas Kuja}, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
     "keywordIds": [
-      "activate-main",
-      "trigger"
+      "trigger",
+      "once-per-turn"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2836,12 +2868,13 @@
     "subtypes": [
       "Piratas Kuja"
     ],
-    "effectPt": "[Opponent's Turn] [On K.O.] Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, você take 1 damage.",
+    "effectPt": "[Opponent's Turn] [On K.O.] Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, você pegue 1 dano.",
     "effectEn": "[Opponent's Turn] [On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards. Then, you take 1 damage.",
     "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Piratas Kuja}, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Kuja Pirates} type, play this card.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"
@@ -2944,6 +2977,7 @@
     "effectPt": "[Your Turn] Quando este Personagem torna-se descansado(a), Até 1 dos Personagens do seu oponente com custo de 9 ou menos não pode ser descansado até o fim da próxima Fase Final do seu oponente. [On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta(s) da sua mão: Até 1 carta(s) de Líder ou Personagem ganha +2000 de Poder durante esta batalha.",
     "effectEn": "[Your Turn] When this Character becomes rested, up to 1 of your opponent's Characters with a cost of 9 or less cannot be rested until the end of your opponent's next End Phase. [On Your Opponent's Attack] [Once Per Turn] You may trash 1 card from your hand: Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-14",
@@ -2969,7 +3003,8 @@
     "effectPt": "[On Play] Até 1 dos Personagens do seu oponente com custo de 9 ou menos não pode atacar até o fim da próxima Fase Final do seu oponente. Em seguida, Se o seu oponente tiver um Personagem com a custo de 0 ou com custo de 8 ou mais, Compre 1 carta(s). [On K.O.] Você pode descartar 1 carta(s) da sua mão: Jogue este Personagem carta da sua lixeira.",
     "effectEn": "[On Play] Up to 1 of your opponent's Characters with a cost of 9 or less cannot attack until the end of your opponent's next End Phase. Then, if your opponent has a Character with a cost of 0 or with a cost of 8 or more, draw 1 card. [On K.O.] You may trash 1 card from your hand: Play this Character card from your trash.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-14",
     "setName": "THE AZURE SEA’S SEVEN"

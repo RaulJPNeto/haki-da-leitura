@@ -41,9 +41,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus {Exército Revolucionário} tipo Personagens diferente de [Sabo] ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your {Revolutionary Army} type Characters other than [Sabo] gains +2000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
   },
@@ -65,7 +63,7 @@
       "Drum Kingdom",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Opponent's Turn] este Personagem ganha +2000 de Poder. [On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[DON!! x2] [Opponent's Turn] este Personagem ganha +2000 de Poder. [On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[DON!! x2] [Opponent's Turn] This Character gains +2000 power. [On Play] If your Leader has the {Straw Hat Crew} type, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "on-play"
@@ -139,7 +137,7 @@
     "effectEn": "[Activate: Main] [Once Per Turn] If your Leader has the {Land of Wano} type or is [Portgas.D.Ace], give up to 1 rested DON!! card to 1 of your Leader. Then, this Character gains [Rush] during this turn.",
     "keywordIds": [
       "rush",
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -213,9 +211,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Dê até 1 das suas cartas de DON!! atualmente anexadas a 1 dos seus {Bando do Chapéu de Palha} tipo Personagens.",
     "effectEn": "[Activate: Main] You may rest this Stage: Give up to 1 of your currently given DON!! cards to 1 of your {Straw Hat Crew} type Characters.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
   },
@@ -239,7 +235,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −2: Se os únicos Personagens no seu campo forem {Bando do Chapéu de Palha} tipo Personagens, coloque até 2 das suas cartas de DON!! como ativas. Em seguida, este Líder ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −2: If the only Characters on your field are {Straw Hat Crew} type Characters, set up to 2 of your DON!! cards as active. Then, this Leader gains +1000 power until the end of your opponent's next turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -567,6 +563,7 @@
     "effectPt": "[Your Turn] [Once Per Turn] Quando um Personagem do seu oponente for retornado para a mão do dono por um efeito seu, Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem.",
     "effectEn": "[Your Turn] [Once Per Turn] When your opponent's Character is returned to the owner's hand by your effect, look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "EB-02",
@@ -615,9 +612,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Se o seu Líder for [Donquixote Rosinante], Olhe as 5 cartas do topo do seu Deck; jogue Até 1 carta(s) de Personagem com custo de 2 ou menos descansado(a). Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: If your Leader is [Donquixote Rosinante], look at 5 cards from the top of your deck; play up to 1 Character card with a cost of 2 or less rested. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
   },
@@ -858,10 +853,11 @@
       "Piratas da Big Mom",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando 2 ou mais cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Compre 1 carta(s).",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando 2 ou mais cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, Compre 1 carta(s).",
     "effectEn": "[Your Turn] [Once Per Turn] When 2 or more DON!! cards on your field are returned to your DON!! deck, add up to 1 DON!! card from your DON!! deck and set it as active. [On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, draw 1 card.",
     "keywordIds": [
       "on-play",
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "EB-02",
@@ -886,7 +882,8 @@
     "effectPt": "[Blocker] [On K.O.] DON!! −1: Olhe as 3 cartas do topo do seu Deck; revele até 1 {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Blocker] [On K.O.] DON!! −1: Look at 3 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
-      "blocker"
+      "blocker",
+      "on-ko"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -908,7 +905,7 @@
       "Water Seven",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[When Attacking] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha} e o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[On Play]/[Quando atacar] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha} e o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On Play]/[When Attacking] If your Leader has the {Straw Hat Crew} type and the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play",
@@ -957,7 +954,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[Main] Você pode descartar 1 {Germa 66} tipo carta(s) de Personagem com 4000 ou menos de Poder da sua mão: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, jogue Até 1 carta(s) de Personagem com 5000 para 7000 Poder e o same carta nome as o descartada carta da sua lixeira.",
+    "effectPt": "[Main] Você pode descartar 1 {Germa 66} tipo carta(s) de Personagem com 4000 ou menos de Poder da sua mão: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, jogue Até 1 carta(s) de Personagem com 5000 para 7000 Poder e o mesmo carta nome as o descartada carta da sua lixeira.",
     "effectEn": "[Main] You may trash 1 {GERMA 66} type Character card with 4000 power or less from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, play up to 1 Character card with 5000 to 7000 power and the same card name as the trashed card from your trash.",
     "keywordIds": [],
     "setId": "EB-02",
@@ -1003,11 +1000,10 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, Compre 1 carta(s). [Activate: Main] Você pode descansar este Palco: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, Compre 1 carta(s). [Activate: Main] Você pode descansar este Palco: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha +2 de custo até o fim do próximo turno do seu oponente.",
     "effectEn": "[On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card. [Activate: Main] You may rest this Stage: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, up to 1 of your {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
     "keywordIds": [
-      "on-play",
-      "activate-main"
+      "on-play"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -1150,9 +1146,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descartar este Personagem: Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"CP\" e um(a) custo de 5 ou menos diferente de [Blueno] da sua lixeira.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and trash this Character: Play up to 1 Character card with a type including \"CP\" and a cost of 5 or less other than [Blueno] from your trash.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
   },
@@ -1175,7 +1169,8 @@
     "effectPt": "[On Play] adicione Até 1 [Laboon] da sua lixeira para a sua mão. [On K.O.] Jogue Até 1 [Laboon] com custo de 4 ou menos da sua mão.",
     "effectEn": "[On Play] Add up to 1 [Laboon] from your trash to your hand. [On K.O.] Play up to 1 [Laboon] with a cost of 4 or less from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -1199,8 +1194,7 @@
     "effectPt": "[On Play] Dê até 2 carta(s) de DON!! descansada(s) a 1 do seu Líder. [Activate: Main] Você pode descansar este Personagem: Se o seu Líder for [Monkey.D.Garp], Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 1 ou menos.",
     "effectEn": "[On Play] Give up to 2 rested DON!! cards to 1 of your Leader. [Activate: Main] You may rest this Character: If your Leader is [Monkey.D.Garp], K.O. up to 1 of your opponent's Characters with a cost of 1 or less.",
     "keywordIds": [
-      "on-play",
-      "activate-main"
+      "on-play"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -1267,7 +1261,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Sky Island}, este Personagem ganha [Rush]. [When Attacking] Você pode descartar 1 carta(s) da sua mão: Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, este Personagem ganha +1000 de Poder durante este turno.",
+    "effectPt": "Se o seu Líder tiver o tipo {Sky Island}, este Personagem ganha [Rush]. [Quando atacar] Você pode descartar 1 carta(s) da sua mão: Se você tiver 1 ou menos cartas de Vida, Adicione até 1 carta(s) do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, este Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "If your Leader has the {Sky Island} type, this Character gains [Rush]. [When Attacking] You may trash 1 card from your hand: If you have 1 or less Life cards, add up to 1 card from the top of your deck to the top of your Life cards. Then, this Character gains +1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -1295,7 +1289,8 @@
     "effectPt": "[On Play]/[On K.O.] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente e coloque ela no topo ou fundo do cartas de Vida.",
     "effectEn": "[On Play]/[On K.O.] Look at up to 1 card from the top of your or your opponent's Life cards and place it at the top or bottom of the Life cards.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
@@ -1398,7 +1393,7 @@
     "subtypes": [
       "Treasure Pirates"
     ],
-    "effectPt": "[When Attacking] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectPt": "[Quando atacar] Você pode adicione 1 carta do topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 dos Personagens do seu oponente com custo de 3 ou menos para o topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
     "effectEn": "[When Attacking] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 of your opponent's Characters with a cost of 3 or less to the top or bottom of your opponent's Life cards face-up.",
     "keywordIds": [
       "when-attacking"
@@ -1471,9 +1466,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse este Palco e vire 1 carta do topo das suas cartas de Vida viradas para cima: Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] You may rest this Stage and turn 1 card from the top of your Life cards face-up: Up to 1 of your {Straw Hat Crew} type Characters gains +1000 power until the end of your opponent's next turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"
   },
@@ -1494,11 +1487,12 @@
       "Water Seven",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! no campo dele(a), este Personagem ganha [Rush]. [When Attacking] [Once Per Turn] Você pode retorne 2 dos seus ativo(a) cartas de DON!! para o seu Deck de DON!!: coloque este Personagem como ativo. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectPt": "Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! no campo dele(a), este Personagem ganha [Rush]. [Quando atacar] [Once Per Turn] Você pode retorne 2 dos seus ativo(a) cartas de DON!! para o seu Deck de DON!!: coloque este Personagem como ativo. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, this Character gains [Rush]. [When Attacking] [Once Per Turn] You may return 2 of your active DON!! cards to your DON!! deck: Set this Character as active. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
       "rush",
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "EB-02",
     "setName": "Anime 25th Collection"

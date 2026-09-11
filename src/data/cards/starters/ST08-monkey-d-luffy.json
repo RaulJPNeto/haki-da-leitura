@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Your Turn] Quando um Personagem for nocauteado, dê Até 1 descansado(a) DON!! carta para este Líder.",
+    "effectPt": "[Your Turn] Quando um Personagem for nocauteado, dê Até 1 descansado(a) carta de DON!! para este Líder.",
     "effectEn": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
     "keywordIds": [
       "your-turn"
@@ -39,11 +39,9 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado em batalha por Leaders. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por Líderes. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 Personagem(ns) do seu oponente −2 de custo durante este turno.",
     "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -87,9 +85,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-08",
     "setName": "Monkey D. Luffy"
   },
@@ -209,7 +205,7 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[On Play] Se houver um Personagem com a custo de 0, Compre 1 carta(s).",
+    "effectPt": "[On Play] se houver a Personagem com custo de 0, Compre 1 carta(s).",
     "effectEn": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -299,7 +295,7 @@
     "subtypes": [
       "Former Baroque Works"
     ],
-    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem battles do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você battled com. Se fizer isso, K.O. este Personagem.",
+    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem batalhar com o do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você batalhou com. Se fizer isso, K.O. este Personagem.",
     "effectEn": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
     "keywordIds": [],
     "setId": "ST-08",

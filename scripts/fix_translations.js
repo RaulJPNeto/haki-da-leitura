@@ -40,7 +40,112 @@ export function translateText(en) {
   t = t.replace(/\[Ao Bloquear\]/gi, '[On Block]');
   t = t.replace(/\[Inbloqueável\]/gi, '[Unblockable]');
 
-  // 2. Parênteses explicativos e regras de DON!! -X
+  // 1.1 Atributos de Batalha (Mantidos em inglês para alinhamento com a carta física: Slash, Strike, Special, Ranged, Wisdom)
+  t = t.replace(/[<＜]Slash[>＞]/gi, '<Slash>');
+  t = t.replace(/[<＜]Strike[>＞]/gi, '<Strike>');
+  t = t.replace(/[<＜]Special[>＞]/gi, '<Special>');
+  t = t.replace(/[<＜]Ranged[>＞]/gi, '<Ranged>');
+  t = t.replace(/[<＜]Wisdom[>＞]/gi, '<Wisdom>');
+  t = t.replace(/"Red-Haired Pirates"/gi, '"Piratas do Ruivo"');
+  t = t.replace(/Red-Haired Pirates/gi, 'Piratas do Ruivo');
+
+  // 2. Parênteses explicativos, Regras Especiais e Cláusulas Completas
+  t = t.replace(/When your deck is reduced to 0, you win the game instead of losing, according to the rules\./gi, 'Quando seu Deck for reduzido a 0, você vence o jogo em vez de perder, de acordo com as regras.');
+  t = t.replace(/When your deck is reduced to 0, you win the game instead of losing/gi, 'Quando seu Deck for reduzido a 0, você vence o jogo em vez de perder');
+  t = t.replace(/when your deck is reduced to 0, you win the game instead of losing/gi, 'quando seu Deck for reduzido a 0, você vence o jogo em vez de perder');
+  t = t.replace(/select all of your opponent's Characters\. They cannot attack during this turn\./gi, 'selecione todos os Personagens do seu oponente. Eles não podem atacar durante este turno.');
+  t = t.replace(/select all of your opponent's Characters/gi, 'selecione todos os Personagens do seu oponente');
+  t = t.replace(/They cannot attack during this turn\./gi, 'Eles não podem atacar durante este turno.');
+  t = t.replace(/They cannot attack during this turn/gi, 'Eles não podem atacar durante este turno');
+  t = t.replace(/They cannot attack/gi, 'Eles não podem atacar');
+  t = t.replace(/Apply each of the following effects based on the number of cards in your trash:/gi, 'Aplique cada um dos seguintes efeitos com base no número de cartas na sua lixeira:');
+  t = t.replace(/based on the number of cards in your trash:/gi, 'com base no número de cartas na sua lixeira:');
+  t = t.replace(/If you did, trash up to (\d+) cards from your hand\./gi, 'Se o fez, descarte até $1 cartas da sua mão.');
+  t = t.replace(/If you did,/gi, 'Se o fez,');
+  t = t.replace(/If you did/gi, 'Se o fez');
+  t = t.replace(/in a way that/gi, 'de modo que');
+  t = t.replace(/that do not have a type including/gi, 'que não tiverem um tipo que inclua');
+  t = t.replace(/do not have a type/gi, 'não tiverem um tipo');
+  t = t.replace(/do not have/gi, 'não tiverem');
+  t = t.replace(/Change the target of the attack to/gi, 'Mude o alvo do ataque para');
+  t = t.replace(/your monocolored Leader's base power/gi, 'o Poder base do seu Líder monocolorido');
+  t = t.replace(/monocolored Leader's base power/gi, 'Poder base do seu Líder monocolorido');
+  t = t.replace(/monocolored/gi, 'monocolorido');
+  t = t.replace(/or for attacked/gi, 'ou for atacado');
+  t = t.replace(/or is attacked/gi, 'ou for atacado');
+  t = t.replace(/by choosing (\d+) of your opponent's Characters/gi, 'escolhendo $1 dos Personagens do seu oponente');
+  t = t.replace(/by choosing/gi, 'escolhendo');
+  t = t.replace(/Charactes/gi, 'Personagens');
+  t = t.replace(/has a \+(\d+) Counter/gi, 'tem Contra-Ataque +$1');
+  t = t.replace(/has a Counter/gi, 'tem Contra-Ataque');
+  t = t.replace(/type Leaders and Characters/gi, 'Líderes e Personagens do tipo');
+  t = t.replace(/type Leaders/gi, 'Líderes do tipo');
+  t = t.replace(/with a different card name/gi, 'com um nome de carta diferente');
+  t = t.replace(/different card name/gi, 'nome de carta diferente');
+  t = t.replace(/Apply each of the following effects based on/gi, 'Aplique cada um dos seguintes efeitos com base em');
+  t = t.replace(/the counter of all of your/gi, 'o contra-ataque de todas as suas');
+  t = t.replace(/your DON!! deck consists of 6 cards/gi, 'seu Deck de DON!! consiste de 6 cartas');
+  t = t.replace(/second turn or later/gi, 'segundo turno ou posterior');
+  t = t.replace(/at the start of the game/gi, 'no início do jogo');
+  t = t.replace(/has been K\.O\.'d/gi, 'tiver sido nocauteado');
+  t = t.replace(/reorganize them in any order/gi, 'reorganize-as em qualquer ordem');
+  t = t.replace(/outside of your Draw Phase/gi, 'fora da sua Fase de Compra');
+  t = t.replace(/Draw Phase/gi, 'Fase de Compra');
+  t = t.replace(/on your opponent's field/gi, 'no campo do seu oponente');
+  t = t.replace(/on your field/gi, 'no seu campo');
+  t = t.replace(/when a DON!! card is given/gi, 'quando esta carta receber uma carta de DON!!');
+  t = t.replace(/given these DON!! cards/gi, 'receber estas cartas de DON!!');
+  t = t.replace(/when the card given/gi, 'quando a carta receber');
+  t = t.replace(/with the same name/gi, 'com o mesmo nome');
+  t = t.replace(/for every/gi, 'para cada');
+
+  t = t.replace(/if they do not/gi, 'se ele não o fizer');
+  t = t.replace(/they do not/gi, 'eles não o fizerem');
+  t = t.replace(/the chosen cost/gi, 'o custo escolhido');
+  t = t.replace(/chosen cost/gi, 'custo escolhido');
+  t = t.replace(/None of your/gi, 'Nenhum dos seus');
+  t = t.replace(/none of your/gi, 'nenhum dos seus');
+  t = t.replace(/with different card names/gi, 'com nomes de carta diferentes');
+  t = t.replace(/different card names/gi, 'nomes de carta diferentes');
+
+  t = t.replace(/when this Character battles/gi, 'quando este Personagem batalhar');
+  t = t.replace(/battles your opponent's/gi, 'batalhar com o do seu oponente');
+  t = t.replace(/when your opponent plays a Character/gi, 'quando o seu oponente jogar um Personagem');
+  t = t.replace(/plays a Character/gi, 'jogar um Personagem');
+  t = t.replace(/are played rested/gi, 'forem jogados descansados');
+
+  t = t.replace(/no least (\d+) less/gi, 'pelo menos $1 a menos');
+  t = t.replace(/at least (\d+) less/gi, 'pelo menos $1 a menos');
+  t = t.replace(/at least/gi, 'pelo menos');
+  t = t.replace(/unless your opponent/gi, 'a menos que seu oponente');
+  t = t.replace(/back to your hand/gi, 'de volta para a sua mão');
+  t = t.replace(/back to the bottom of the deck/gi, 'de volta ao fundo do Deck');
+  t = t.replace(/back to the bottom/gi, 'de volta ao fundo');
+
+  // Bloco 5: Cláusulas Finais Aprovadas
+  t = t.replace(/is given to 1 of your/gi, 'for concedida a 1 dos seus');
+  t = t.replace(/is given to your Leader/gi, 'for concedida ao seu Líder');
+  t = t.replace(/is given to/gi, 'for concedido(a) a');
+  t = t.replace(/the only Characters on your field/gi, 'os únicos Personagens no seu campo');
+  t = t.replace(/the only Characters/gi, 'os únicos Personagens');
+  t = t.replace(/only if/gi, 'somente se');
+  t = t.replace(/this Leader's attack/gi, 'o ataque deste Líder');
+  t = t.replace(/Leader's attack/gi, 'ataque do Líder');
+  t = t.replace(/if there are (\d+) or more/gi, 'se houverem $1 ou mais');
+  t = t.replace(/if there are/gi, 'se houverem');
+  t = t.replace(/if there is/gi, 'se houver');
+  t = t.replace(/there are/gi, 'houverem');
+  t = t.replace(/there is/gi, 'houver');
+  t = t.replace(/take up to (\d+) Life cards?/gi, 'pegue até $1 carta(s) de Vida');
+  t = t.replace(/by Leaders/gi, 'por Líderes');
+  t = t.replace(/if your Leader's colors include/gi, 'se as cores do seu Líder incluírem');
+  t = t.replace(/swap the base power/gi, 'troque o poder base');
+  t = t.replace(/during your DON!! Phase/gi, 'durante a sua Fase de DON!!');
+  t = t.replace(/during your DON!! phase/gi, 'durante a sua Fase de DON!!');
+  t = t.replace(/draws (\d+) cards?/gi, 'compra $1 carta(s)');
+  t = t.replace(/haven't drawn a card/gi, 'não tiver comprado uma carta');
+  t = t.replace(/you do not lose when/gi, 'você não perde quando');
+
   t = t.replace(/\(You may return the specified number of DON!! cards from your field to your DON!! deck\.\)/gi, '(Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.)');
   t = t.replace(/\(You may return the specified number of DON!! cards from your field to your DON!! deck\)/gi, '(Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!)');
   t = t.replace(/\(This card can attack on the turn in which it is played\.\)/gi, '(Esta carta pode atacar no turno em que é jogada.)');
@@ -102,13 +207,27 @@ export function translateText(en) {
   t = t.replace(/according to the rules/gi, 'de acordo com as regras');
 
   // 4. DON!! Deck, Retorno e Transferência
+  t = t.replace(/When a DON!! card on your field is returned to your DON!! deck,/gi, 'Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!,');
+  t = t.replace(/When a DON!! card on your field is returned to your DON!! deck/gi, 'Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!');
+  t = t.replace(/When a DON!! card on the field is returned to your DON!! deck,/gi, 'Quando uma carta de DON!! em campo for retornada para o seu Deck de DON!!,');
+  t = t.replace(/When a DON!! card on the field is returned to your DON!! deck/gi, 'Quando uma carta de DON!! em campo for retornada para o seu Deck de DON!!');
+  t = t.replace(/When DON!! cards on your field are returned to your DON!! deck,/gi, 'Quando cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!,');
+  t = t.replace(/When DON!! cards on your field are returned to your DON!! deck/gi, 'Quando cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!');
+  t = t.replace(/When a DON!! card is returned to your DON!! deck,/gi, 'Quando uma carta de DON!! for retornada para o seu Deck de DON!!,');
+  t = t.replace(/When a DON!! card is returned to your DON!! deck/gi, 'Quando uma carta de DON!! for retornada para o seu Deck de DON!!');
   t = t.replace(/When (\d+) or more DON!! cards on your field are returned to your DON!! deck/gi, 'Quando $1 ou mais cartas de DON!! no seu campo forem retornadas para o seu Deck de DON!!');
+  t = t.replace(/is returned to your DON!! deck/gi, 'for retornada para o seu Deck de DON!!');
   t = t.replace(/are returned to your DON!! deck/gi, 'forem retornadas para o seu Deck de DON!!');
   t = t.replace(/are returned to your hand/gi, 'forem retornadas para a sua mão');
   t = t.replace(/Add up to (\d+) DON!! cards? from your DON!! deck and set it as active\./gi, 'Adicione até $1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.');
   t = t.replace(/Add up to (\d+) DON!! cards? from your DON!! deck and rest it\./gi, 'Adicione até $1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.');
   t = t.replace(/Give up to (\d+) of your currently given DON!! cards to (\d+) of your/gi, 'Dê até $1 das suas cartas de DON!! atualmente anexadas a $2 dos seus');
-  t = t.replace(/Give up to (\d+) rested DON!! cards? to your Leader or (\d+) of your Characters\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) ao seu Líder ou a $2 dos seus Personagens.');
+  t = t.replace(/by [<＜]Strike[>＞] attribute Characters/gi, 'por Personagens com o atributo <Strike>');
+  t = t.replace(/by [<＜]([^>＞]+)[>＞] attribute Characters/gi, 'por Personagens com o atributo <$1>');
+  t = t.replace(/by ([^ ]+) attribute Characters/gi, 'por Personagens com o atributo $1');
+  t = t.replace(/Give this Character up to (\d+) rested DON!! cards?\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) a este Personagem.');
+  t = t.replace(/Give this Character up to (\d+) rested DON!! cards?/gi, 'Dê até $1 carta(s) de DON!! descansada(s) a este Personagem');
+  t = t.replace(/Give this Leader up to (\d+) rested DON!! cards?\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) a este Líder.');
   t = t.replace(/Give up to (\d+) rested DON!! cards? to your Leader or up to (\d+) of your Characters\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) ao seu Líder ou a até $2 dos seus Personagens.');
   t = t.replace(/Give up to (\d+) rested DON!! cards? to your Leader\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) ao seu Líder.');
   t = t.replace(/Give up to (\d+) rested DON!! cards? to up to (\d+) of your Characters\./gi, 'Dê até $1 carta(s) de DON!! descansada(s) a até $2 dos seus Personagens.');
@@ -748,12 +867,12 @@ export function translateText(en) {
   t = t.replace(/\bblack\b/gi, 'preto(a)');
   t = t.replace(/\byellow\b/gi, 'amarelo(a)');
 
-  // Atributos (Mantidos oficialmente em inglês)
-  t = t.replace(/<Corte>/gi, '<Slash>');
-  t = t.replace(/<Impacto>/gi, '<Strike>');
-  t = t.replace(/<Distância>/gi, '<Ranged>');
-  t = t.replace(/<Especial>/gi, '<Special>');
-  t = t.replace(/<Sabedoria>/gi, '<Wisdom>');
+  // Atributos (Mantidos oficialmente em inglês para bater com as cartas físicas)
+  t = t.replace(/[<＜]Slash[>＞]/gi, '<Slash>');
+  t = t.replace(/[<＜]Strike[>＞]/gi, '<Strike>');
+  t = t.replace(/[<＜]Ranged[>＞]/gi, '<Ranged>');
+  t = t.replace(/[<＜]Special[>＞]/gi, '<Special>');
+  t = t.replace(/[<＜]Wisdom[>＞]/gi, '<Wisdom>');
   t = t.replace(/\battribute\b/gi, 'atributo');
 
   // Dano, Embaralhar e Vitória
@@ -775,6 +894,54 @@ export function translateText(en) {
   t = t.replace(/reveal a total of up to (\d+)/gi, 'revele um total de até $1');
   t = t.replace(/a total of up to (\d+)/gi, 'um total de até $1');
   t = t.replace(/a total of (\d+)/gi, 'um total de $1');
+
+  // Blocos 1, 2, 3, 4: Conectivos, Condicionais, Batalha e Posições aprovados
+  // Bloco 1: Conectivos de Campo e DON!!
+  t = t.replace(/on your opponent's field/gi, 'no campo do seu oponente');
+  t = t.replace(/on your field/gi, 'no seu campo');
+  t = t.replace(/number on do seu oponente campo/gi, 'número no campo do seu oponente');
+  t = t.replace(/number on do seu oponente/gi, 'número no campo do seu oponente');
+  t = t.replace(/when a DON!! card is given/gi, 'quando esta carta receber uma carta de DON!!');
+  t = t.replace(/given these DON!! cards/gi, 'receber estas cartas de DON!!');
+  t = t.replace(/when the card given/gi, 'quando a carta receber');
+  t = t.replace(/with the same name/gi, 'com o mesmo nome');
+  t = t.replace(/for every/gi, 'para cada');
+
+  // Bloco 2: Condicionais e Escolhas
+  t = t.replace(/if they do not/gi, 'se ele não o fizer');
+  t = t.replace(/they do not/gi, 'eles não o fizerem');
+  t = t.replace(/\bmay\b/gi, 'pode');
+  t = t.replace(/the chosen cost/gi, 'o custo escolhido');
+  t = t.replace(/chosen cost/gi, 'custo escolhido');
+  t = t.replace(/\bchosen\b/gi, 'escolhido(a)');
+  t = t.replace(/\bselected\b/gi, 'selecionado(a)');
+  t = t.replace(/None of your/gi, 'Nenhum dos seus');
+  t = t.replace(/none of your/gi, 'nenhum dos seus');
+  t = t.replace(/with different card names/gi, 'com nomes de carta diferentes');
+  t = t.replace(/different card names/gi, 'nomes de carta diferentes');
+
+  // Bloco 3: Ataque, Batalha e Regras de Vitória
+  t = t.replace(/when this Character battles/gi, 'quando este Personagem batalhar');
+  t = t.replace(/battles your opponent's/gi, 'batalhar com o do seu oponente');
+  t = t.replace(/\bbattles\b/gi, 'batalhar');
+  t = t.replace(/\bbattled\b/gi, 'batalhou');
+  t = t.replace(/when your opponent plays a Character/gi, 'quando o seu oponente jogar um Personagem');
+  t = t.replace(/plays a Character/gi, 'jogar um Personagem');
+  t = t.replace(/plays a/gi, 'joga um(a)');
+  t = t.replace(/are played rested/gi, 'forem jogados descansados');
+  t = t.replace(/when your Deck is reduced to 0, you win the game instead of losing/gi, 'quando seu Deck for reduzido a 0, você vence o jogo em vez de perder');
+  t = t.replace(/reduced to 0/gi, 'reduzido a 0');
+  t = t.replace(/instead of losing/gi, 'em vez de perder');
+
+  // Bloco 4: Quantidades e Posição
+  t = t.replace(/no least (\d+) less/gi, 'pelo menos $1 a menos');
+  t = t.replace(/at least (\d+) less/gi, 'pelo menos $1 a menos');
+  t = t.replace(/at least/gi, 'pelo menos');
+  t = t.replace(/unless your opponent/gi, 'a menos que seu oponente');
+  t = t.replace(/\bunless\b/gi, 'a menos que');
+  t = t.replace(/back to your hand/gi, 'de volta para a sua mão');
+  t = t.replace(/back to the bottom of the deck/gi, 'de volta ao fundo do Deck');
+  t = t.replace(/back to the bottom/gi, 'de volta ao fundo');
 
   // Limpeza de pontuações duplicadas e conectivos colados
   t = t.replace(/\s+/g, ' ').trim();
@@ -899,10 +1066,25 @@ export function translateText(en) {
   t = t.replace(/DON!!\s+cartas\s+as\s+ativo\(a\)/gi, 'cartas de DON!! como ativas');
   t = t.replace(/DON!!\s+cartas/gi, 'cartas de DON!!');
 
-  // Limpeza de resíduos específicos apontados no audit_words
+  // Limpeza de resíduos específicos apontados no audit_words e polimento gramatical
   t = t.replace(/\bon este turno\b/gi, 'neste turno');
   t = t.replace(/\bon o turno\b/gi, 'no turno');
   t = t.replace(/\bon your field\b/gi, 'no seu campo');
+  t = t.replace(/se\s+fizer\s+isso\s+not\s+tiver/gi, 'se ao fazê-lo não tiver');
+  t = t.replace(/Se\s+fizer\s+isso\s+not\s+tiver/gi, 'Se ao fazê-lo não tiver');
+  t = t.replace(/todos\s+os\s+dos\s+seus/gi, 'todos os seus');
+  t = t.replace(/todas\s+as\s+das\s+suas/gi, 'todas as suas');
+  t = t.replace(/1\s+DON!!\s+carta/gi, '1 carta de DON!!');
+  t = t.replace(/a\s+DON!!\s+carta/gi, 'uma carta de DON!!');
+  t = t.replace(/uma\s+DON!!\s+carta/gi, 'uma carta de DON!!');
+  t = t.replace(/DON!!\s+carta/gi, 'carta de DON!!');
+  t = t.replace(/qualquer\s+cartas\s+de\s+DON!!/gi, 'qualquer carta de DON!!');
+  t = t.replace(/descartar\s+Até\s+1/gi, 'descarte até 1');
+  t = t.replace(/Once\s+[Pp]er\s+turno/gi, '[Once Per Turn]');
+  t = t.replace(/Personagem's\s+base\s+Poder/gi, 'Poder base deste Personagem');
+  t = t.replace(/Personagem's\s+attack/gi, 'ataque deste Personagem');
+  t = t.replace(/Líder's\s+attack/gi, 'ataque deste Líder');
+  t = t.replace(/Líder's\s+colors/gi, 'cores do seu Líder');
   t = t.replace(/\bdo not become\b/gi, 'não ficam');
   t = t.replace(/\bwill not become\b/gi, 'não ficará');
   t = t.replace(/\bbattles e K\.O\.'s\b/gi, 'batalha e nocauteia');
@@ -911,6 +1093,45 @@ export function translateText(en) {
   t = t.replace(/\bcannot be blocked\b/gi, 'não pode ser bloqueado');
   t = t.replace(/\bcan't be blocked\b/gi, 'não pode ser bloqueado');
   t = t.replace(/\bstages\b/gi, 'Palcos');
+  t = t.replace(/\bgiven\b/gi, 'anexada(s)');
+  t = t.replace(/\bsame\b/gi, 'mesmo');
+  t = t.replace(/\battacks\b/gi, 'atacar');
+  t = t.replace(/\bblocked\b/gi, 'bloqueado');
+  t = t.replace(/\bback\b/gi, 'de volta');
+  t = t.replace(/\bnegated\b/gi, 'anulados');
+  t = t.replace(/\bits\b/gi, 'seu(s)');
+  t = t.replace(/\bonly\b/gi, 'apenas');
+  t = t.replace(/\bown\b/gi, 'próprio(a)');
+  t = t.replace(/\bwill\b/gi, 'irá');
+  t = t.replace(/\breduced\b/gi, 'reduzido(a)');
+  t = t.replace(/\btake\b/gi, 'pegue');
+  t = t.replace(/\bplaced\b/gi, 'colocado(a)');
+  t = t.replace(/\bplayed\b/gi, 'jogado(a)');
+  t = t.replace(/\bincluding\b/gi, 'incluindo');
+  t = t.replace(/\bchooses\b/gi, 'escolhe');
+  t = t.replace(/\btime\b/gi, 'vez');
+  t = t.replace(/\bso\b/gi, 'de modo');
+  t = t.replace(/\bhands\b/gi, 'mãos');
+  t = t.replace(/\badded\b/gi, 'adicionado(a)');
+  t = t.replace(/\bwhenever\b/gi, 'sempre que');
+  t = t.replace(/\bthey\b/gi, 'eles');
+  t = t.replace(/\beither\b/gi, 'qualquer um de');
+  t = t.replace(/\bgame\b/gi, 'jogo');
+  t = t.replace(/\binclude\b/gi, 'incluir');
+  t = t.replace(/\badds\b/gi, 'adiciona');
+  t = t.replace(/\bdamage\b/gi, 'dano');
+  t = t.replace(/\bbecome\b/gi, 'ficar');
+  t = t.replace(/\bthose\b/gi, 'essas');
+  t = t.replace(/\bdrawing\b/gi, 'comprar');
+  t = t.replace(/\battacking\b/gi, 'atacar');
+  t = t.replace(/\bbeing\b/gi, 'sendo');
+  t = t.replace(/\boutside\b/gi, 'fora');
+  t = t.replace(/\bplaying\b/gi, 'jogar');
+  t = t.replace(/\bleave\b/gi, 'sair do');
+  t = t.replace(/\bafter\b/gi, 'após');
+  t = t.replace(/\bmust\b/gi, 'deve');
+  t = t.replace(/\bshuffles\b/gi, 'embaralha');
+  t = t.replace(/\bnone\b/gi, 'nenhum');
 
   // 25. Padronização Canônica Final das Tags Oficiais em Inglês (Anti-Resíduo)
   t = t.replace(/\[(?:On Play|On Jogue|Ao Jogar)\]/gi, '[On Play]');
@@ -933,6 +1154,7 @@ export function translateText(en) {
   t = t.replace(/\[(?:On K\.O\.|Ao Ser K\.O\.)\]/gi, '[On K.O.]');
   t = t.replace(/\[(?:On Block|Ao Bloquear)\]/gi, '[On Block]');
   t = t.replace(/\[(?:Unblockable|Inbloqueável)\]/gi, '[Unblockable]');
+  t = t.replace(/\[\[([^\]]+)\]\]/g, '[$1]');
 
   return t;
 }
@@ -996,6 +1218,28 @@ function processDirectory(dir) {
 if (process.argv[1] && fileURLToPath(import.meta.url) === path.resolve(process.argv[1])) {
   console.log('🔄 Executando varredura ultra-exaustiva de traduções...');
   processDirectory(cardsBaseDir);
+
+  const rootCardsPath = path.resolve(__dirname, '..', 'src', 'data', 'cards.json');
+  if (fs.existsSync(rootCardsPath)) {
+    const rootCards = JSON.parse(fs.readFileSync(rootCardsPath, 'utf8'));
+    let rootModified = false;
+    for (const card of rootCards) {
+      if (card.effectEn) {
+        card.effectPt = translateText(card.effectEn);
+        rootModified = true;
+      }
+      if (card.triggerEn) {
+        card.triggerPt = translateText(card.triggerEn);
+        rootModified = true;
+      }
+      card.keywordIds = detectKeywordIds((card.effectEn || '') + ' ' + (card.triggerEn || ''));
+    }
+    if (rootModified) {
+      fs.writeFileSync(rootCardsPath, JSON.stringify(rootCards, null, 2), 'utf8');
+      console.log(`✨ Arquivo mestre src/data/cards.json atualizado (${rootCards.length} cartas).`);
+    }
+  }
+
   console.log(`✨ Sucesso! ${totalUpdated} cartas atualizadas em ${fileCount} arquivos.`);
 }
 

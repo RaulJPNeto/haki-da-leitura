@@ -91,7 +91,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do seu Deck em qualquer ordem. Em seguida, dê Até 1 descansado(a) DON!! carta para 1 dos seus {Sete Corsários} tipo Líder ou carta(s) de Personagem.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do seu Deck em qualquer ordem. Em seguida, dê Até 1 descansado(a) carta de DON!! para 1 dos seus {Sete Corsários} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards.",
     "keywordIds": [
       "blocker",
@@ -117,10 +117,10 @@
       "Sete Corsários",
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua mão no topo do seu Deck: Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua mão no topo do seu Deck: Dê Até 2 descansado(a) cartas de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-17",
     "setName": "Blue Donquixote Doflamingo"
