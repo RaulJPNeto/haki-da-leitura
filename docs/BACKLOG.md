@@ -40,7 +40,8 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
 - [x] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda via dynamic import (reduzindo consumo de memória e tempo inicial de carga).
 - [x] **TASK-17:** Refinamento léxico exaustivo, regras de concordância sintática PT-BR (Nami OP03-040, Reiju OP06-042, Luffy OP01-024) e atualização de pílulas de regras interativas (`[DON!! xN]`, `[Activate: Main]`, `[On Block]`).
-- [ ] **TASK-18:** Pipeline de tradução automática semântica via Google Gemini Flash API (Free Tier) integrado ao GitHub Actions (`.github/workflows/sync-cards.yml`) com sanitização determinística.
+- [ ] **TASK-18:** Ingestão Automática de Coleções Inéditas (Bandai API) & Tradução via Google Gemini Flash API (Free Tier) integrada ao GitHub Actions (`.github/workflows/sync-cards.yml`) com sanitização determinística.
+- [ ] **TASK-19:** Refatoração SOLID da pasta `scripts/` (`scripts/lib/card_parser.js`, `card_loader.js`, `translation_rules.js`), unificando `ingest_cards.js` e `ingest_promos.js` em um único motor de ingestão e eliminando duplicações.
 
 ---
 
