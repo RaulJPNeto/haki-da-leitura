@@ -16,10 +16,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para a mão do dono: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -45,7 +46,6 @@
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
     "keywordIds": [
-      "activate-main",
       "trigger"
     ],
     "setId": "ST-12",
@@ -138,7 +138,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Escolha um: • Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Escolha um: • Descanse até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 2 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
     "keywordIds": [
       "when-attacking"
@@ -186,7 +186,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Descanse até 1 Personagem(ns) do seu oponente com custo de 6 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "keywordIds": [
       "when-attacking"
@@ -233,11 +233,12 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2. Em seguida, coloque o restante no topo ou fundo do seu Deck. [When Attacking] [Once Per Turn] Compre 1 carta se você tiver 6 ou menos cartas na sua mão.",
+    "effectPt": "[On Play] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2. Em seguida, coloque o restante no topo ou fundo do seu Deck. [Quando atacar] [Once Per Turn] Compre 1 carta se você tiver 6 ou menos cartas na sua mão.",
     "effectEn": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck. [When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.",
     "keywordIds": [
       "on-play",
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
@@ -258,7 +259,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 de Poder até o início do seu próximo turno.",
     "effectEn": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "when-attacking"
@@ -284,9 +285,7 @@
     ],
     "effectPt": "[Activate: Main] retorne este Personagem para a mão do dono.",
     "effectEn": "[Activate: Main] Return this Character to the owner's hand.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-12",
     "setName": "Zoro and Sanji"
   },
@@ -306,7 +305,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [When Attacking] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectPt": "[On Play] Olhe as 3 cartas do topo do seu Deck e coloque elas no topo ou fundo do Deck em qualquer ordem. [Quando atacar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
     "keywordIds": [
       "on-play",

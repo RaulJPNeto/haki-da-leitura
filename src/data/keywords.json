@@ -40,6 +40,60 @@
     ]
   },
   {
+    "id": "main",
+    "rawTag": "[Main]",
+    "rawTagPt": "[Principal]",
+    "rawTagEn": "[Main]",
+    "namePt": "Principal (Main)",
+    "nameEn": "Main",
+    "category": "TIMING",
+    "summaryPt": "Habilidade ou efeito que pode ser ativado durante a sua Fase Principal (Main Phase).",
+    "fullDescriptionPt": "Indica que esta habilidade pode ser acionada voluntariamente a qualquer momento durante a sua Fase Principal (Main Phase), mediante o pagamento dos custos e pré-requisitos indicados.",
+    "activationTimingPt": "Fase Principal (Main Phase) do seu turno",
+    "faqs": [
+      {
+        "question": "Posso ativar um efeito [Main] no turno do oponente?",
+        "answer": "Não. Efeitos [Main] só podem ser ativados voluntariamente durante a sua própria Fase Principal."
+      }
+    ]
+  },
+  {
+    "id": "on-opponents-attack",
+    "rawTag": "[On Your Opponent's Attack]",
+    "rawTagPt": "[No Ataque do Oponente]",
+    "rawTagEn": "[On Your Opponent's Attack]",
+    "namePt": "No Ataque do Oponente (On Your Opponent's Attack)",
+    "nameEn": "On Your Opponent's Attack",
+    "category": "TIMING",
+    "summaryPt": "Efeito reativo disparado imediatamente quando o oponente declara um ataque.",
+    "fullDescriptionPt": "Dispara no exato momento em que o oponente vira uma carta para declarar um ataque contra o seu Líder ou Personagem, antes do Passo de Bloqueio (Block Step).",
+    "activationTimingPt": "Passo de Declaração de Ataque do Oponente",
+    "faqs": [
+      {
+        "question": "O efeito [On Your Opponent's Attack] ativa se o oponente me atacar com um [Rush]?",
+        "answer": "Sim! Sempre que o oponente declarar um ataque no turno dele, a janela [On Your Opponent's Attack] é acionada."
+      }
+    ]
+  },
+  {
+    "id": "on-block",
+    "rawTag": "[On Block]",
+    "rawTagPt": "[Ao Bloquear]",
+    "rawTagEn": "[On Block]",
+    "namePt": "Ao Bloquear (On Block)",
+    "nameEn": "On Block",
+    "category": "TIMING",
+    "summaryPt": "Efeito ativado quando você vira este Personagem para bloquear um ataque com a habilidade [Blocker].",
+    "fullDescriptionPt": "Dispara no instante em que este Personagem com [Blocker] é virado (Rest) para redirecionar o ataque oponente para si mesmo.",
+    "activationTimingPt": "Passo de Bloqueio (Block Step)",
+    "faqs": [
+      {
+        "question": "Se meu Bloqueador for nocauteado durante o combate, o efeito [Ao Bloquear] ainda resolve?",
+        "answer": "Sim! O efeito [Ao Bloquear] ativa e resolve imediatamente no Passo de Bloqueio, antes da comparação de poder e do dano do combate."
+      }
+    ]
+  },
+  {
     "id": "rush",
     "rawTag": "[Investida]",
     "rawTagPt": "[Investida]",
@@ -236,6 +290,90 @@
       {
         "question": "Se o meu Personagem com [Unblockable] atacar o Líder com 0 cartas de Vida, eu ganho o jogo se o oponente não tiver Counter suficiente?",
         "answer": "Sim! Como o oponente não pode virar um [Blocker] para salvar o Líder, caso ele não alcance o poder necessário com Counters, o ataque é bem-sucedido e você vence a partida."
+      }
+    ]
+  },
+  {
+    "id": "don-x",
+    "rawTag": "[DON!! x1]",
+    "rawTagPt": "[DON!! x1]",
+    "rawTagEn": "[DON!! x1]",
+    "namePt": "DON!! Anexado (DON!! xN)",
+    "nameEn": "Attached DON!! (DON!! xN)",
+    "category": "COST",
+    "summaryPt": "Indica a quantidade mínima de cartas de DON!! que precisam estar fisicamente anexadas a este Líder ou Personagem para ativar o efeito.",
+    "fullDescriptionPt": "Para que uma habilidade com o pré-requisito [DON!! x1], [DON!! x2] etc. fique ativa, você deve equipar (anexar) a quantidade indicada de cartas de DON!! da sua Área de Custo ao seu Líder ou Personagem. O DON!! anexado não é consumido nem descartado — ele permanece anexado concedendo +1000 de Poder cada um até o fim do seu turno.",
+    "activationTimingPt": "Fase Principal / Fase de Combate (enquanto o DON!! estiver anexado no seu turno)",
+    "faqs": [
+      {
+        "question": "Se eu anexar 1 DON!! para cumprir [DON!! x1], eu gasto ou perco esse DON!!?",
+        "answer": "Não! Anexar DON!! não gasta a carta. Ele fica fisicamente embaixo do personagem concedendo +1000 de Poder e mantendo o efeito ativo."
+      },
+      {
+        "question": "O efeito [DON!! x1] funciona no turno do oponente?",
+        "answer": "Salvo indicação em contrário na carta (como [Turno do Oponente]), as cartas de DON!! anexadas retornam ativas para a Área de Custo no início do seu turno e o bônus de +1000 de Poder expira no fim do seu turno."
+      }
+    ]
+  },
+  {
+    "id": "don-minus",
+    "rawTag": "[DON!! -1]",
+    "rawTagPt": "[DON!! -1]",
+    "rawTagEn": "[DON!! -1]",
+    "namePt": "Devolver DON!! (DON!! -N)",
+    "nameEn": "Return DON!! (DON!! -N)",
+    "category": "COST",
+    "summaryPt": "Custo de efeito que exige devolver a quantidade especificada de cartas de DON!! do seu campo para o seu Deck de DON!!.",
+    "fullDescriptionPt": "Ao resolver um efeito [DON!! -1], [DON!! -2] etc., você deve selecionar a quantidade indicada de cartas de DON!! no seu campo (sejam elas ativas, descansadas ou anexadas) e devolvê-las para o seu Deck de DON!!. Esta é uma redução permanente da sua rampa de DON!! naquele momento como pagamento por um efeito poderoso.",
+    "activationTimingPt": "Momento do pagamento do custo do efeito",
+    "faqs": [
+      {
+        "question": "Posso devolver cartas de DON!! que estão descansadas (Rest) ou anexadas a personagens para pagar [DON!! -1]?",
+        "answer": "Sim! Você pode escolher qualquer carta de DON!! presente no seu campo (seja ativa na área de custo, descansada ou anexada a um personagem) para retornar ao Deck de DON!!."
+      },
+      {
+        "question": "Se eu devolver um DON!! que estava anexado a um Personagem dando +1000 de Poder, o personagem perde esse poder?",
+        "answer": "Sim. Ao remover o DON!! anexado do campo, o bônus de +1000 de poder que ele concedia é removido imediatamente."
+      }
+    ]
+  },
+  {
+    "id": "on-ko",
+    "rawTag": "[On K.O.]",
+    "rawTagPt": "[Ao Ser K.O.]",
+    "rawTagEn": "[On K.O.]",
+    "namePt": "Ao Ser Nocauteado (On K.O.)",
+    "nameEn": "On K.O.",
+    "category": "TIMING",
+    "summaryPt": "Efeito ativado no exato instante em que este Personagem é nocauteado e enviado para a lixeira.",
+    "fullDescriptionPt": "Habilidade de gatilho que dispara no momento em que o Personagem é nocauteado (seja por perder uma batalha ou por um efeito que dê K.O.) e enviado do campo para a lixeira.",
+    "activationTimingPt": "Momento do Nocaute (Batalha ou Efeito)",
+    "faqs": [
+      {
+        "question": "Se o personagem for retornado para a mão ou pro fundo do deck em vez de ir pro lixo, o [On K.O.] ativa?",
+        "answer": "Não! [On K.O.] exige especificamente que o personagem tenha sido nocauteado (K.O.). Efeitos de remoção que retornam para a mão ou deck sem nocautear não ativam o [On K.O.]."
+      },
+      {
+        "question": "Se meu personagem for nocauteado no turno do oponente, o [On K.O.] ativa?",
+        "answer": "Sim! [On K.O.] dispara em qualquer turno no instante em que o nocaute acontece."
+      }
+    ]
+  },
+  {
+    "id": "once-per-turn",
+    "rawTag": "[Once Per Turn]",
+    "rawTagPt": "[1 Vez por Turno]",
+    "rawTagEn": "[Once Per Turn]",
+    "namePt": "1 Vez por Turno (Once Per Turn)",
+    "nameEn": "Once Per Turn",
+    "category": "TIMING",
+    "summaryPt": "Restringe o uso desta habilidade a no máximo uma única vez durante cada turno.",
+    "fullDescriptionPt": "Indica que esta carta específica só pode usar este efeito 1 vez por turno. Se você tiver outra cópia da mesma carta em campo, a segunda cópia pode ativar seu próprio [1 Vez por Turno] separadamente.",
+    "activationTimingPt": "Restrição de Frequência de Efeito",
+    "faqs": [
+      {
+        "question": "Se o efeito [1 Vez por Turno] for ativado e anulado, posso tentar usar de novo no mesmo turno?",
+        "answer": "Não. Uma vez ativado ou disparado a condição no turno, a utilização [1 Vez por Turno] dessa cópia é consumida para aquele turno."
       }
     ]
   }

@@ -17,10 +17,10 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): todos os dos seus {FILM} tipo Personagens ganha +2000 de Poder durante este turno.",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): todos os seus {FILM} tipo Personagens ganha +2000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): All of your {FILM} type Characters gain +2000 power during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -119,7 +119,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse este Personagem e descartar 1 {FILM} carta do tipo da sua mão: Se seu oponente tiver mais cartas de DON!! no campo dele(a) do que você, adicione 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest this Character and trash 1 {FILM} type card from your hand: If your opponent has more DON!! cards on their field than you, add 2 DON!! cards from your DON!! deck and rest them.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -141,7 +141,7 @@
       "FILM",
       "Grantesoro"
     ],
-    "effectPt": "[When Attacking] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s).",
+    "effectPt": "[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 carta(s).",
     "effectEn": "[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards.",
     "keywordIds": [
       "when-attacking"
@@ -239,10 +239,10 @@
       "FILM",
       "Neo Marinha"
     ],
-    "effectPt": "Quando este Personagem battles ＜Strike＞ atributo Personagens, este Personagem ganha +3000 de Poder durante este turno. [Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +2000 de Poder durante este turno.",
+    "effectPt": "quando este Personagem batalhar <Strike> atributo Personagens, este Personagem ganha +3000 de Poder durante este turno. [Activate: Main] [Once Per Turn] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Personagem ganha +2000 de Poder durante este turno.",
     "effectEn": "When this Character battles ＜Strike＞ attribute Characters, this Character gains +3000 power during this turn. [Activate: Main] [Once Per Turn] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Character gains +2000 power during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"
@@ -267,8 +267,8 @@
     "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Descanse até 2 Personagem(ns) do seu oponente com custo de 6 ou menos. Em seguida, este Personagem ganha [Double Attack] durante este turno. (esta carta causa 2 de dano.)",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 2 of your opponent's Characters with a cost of 6 or less. Then, this Character gains [Double Attack] during this turn. (This card deals 2 damage.)",
     "keywordIds": [
-      "activate-main",
-      "double-attack"
+      "double-attack",
+      "once-per-turn"
     ],
     "setId": "ST-05",
     "setName": "ONE PIECE FILM edition"

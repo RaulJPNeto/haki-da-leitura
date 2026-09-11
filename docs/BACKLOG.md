@@ -36,9 +36,11 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
 - [ ] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção.
 
-### Épico 4: Refinamento de OCR & Tradução Contínua (Concluído)
+### Épico 4: Refinamento de OCR & Tradução Contínua
 - [x] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
 - [x] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda via dynamic import (reduzindo consumo de memória e tempo inicial de carga).
+- [x] **TASK-17:** Refinamento léxico exaustivo, regras de concordância sintática PT-BR (Nami OP03-040, Reiju OP06-042, Luffy OP01-024) e atualização de pílulas de regras interativas (`[DON!! xN]`, `[Activate: Main]`, `[On Block]`).
+- [ ] **TASK-18:** Pipeline de tradução automática semântica via Google Gemini Flash API (Free Tier) integrado ao GitHub Actions (`.github/workflows/sync-cards.yml`) com sanitização determinística.
 
 ---
 

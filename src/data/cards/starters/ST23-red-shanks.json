@@ -92,9 +92,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Dê a até 1 Personagem(ns) do seu oponente −1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-23",
     "setName": "RED Shanks"
   },
@@ -114,10 +112,10 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-23",
     "setName": "RED Shanks"

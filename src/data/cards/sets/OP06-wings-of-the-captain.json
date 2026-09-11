@@ -16,7 +16,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[When Attacking] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê a até 1 Personagem(ns) do seu oponente −2000 de Poder durante este turno. Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[When Attacking] You may trash 1 {FILM} type card from your hand: Give up to 1 of your opponent's Characters −2000 power during this turn. Then, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "when-attacking"
@@ -43,7 +43,6 @@
     "effectPt": "Se este Personagem tiver 7000 Poder ou mais, este Personagem ganha [Banish]. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
     "effectEn": "If this Character has 7000 power or more, this Character gains [Banish]. (When this card deals damage, the target card is trashed without activating its Trigger.)",
     "keywordIds": [
-      "trigger",
       "banish"
     ],
     "setId": "OP-06",
@@ -139,7 +138,7 @@
       "FILM",
       "Asuka Island"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] este Personagem ganha +1000 de Poder até o início do seu próximo turno. Em seguida, descartar 1 dos seus {FILM} tipo Personagens no final deste turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] este Personagem ganha +1000 de Poder até o início do seu próximo turno. Em seguida, descartar 1 dos seus {FILM} tipo Personagens no final deste turno.",
     "effectEn": "[DON!! x1] [When Attacking] This Character gains +1000 power until the start of your next turn. Then, trash 1 of your {FILM} type Characters at the end of this turn.",
     "keywordIds": [
       "when-attacking"
@@ -213,11 +212,12 @@
       "FILM",
       "Shipbuilding Town"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [When Attacking]/[On Block] [Once Per Turn] este Personagem's base Poder torna-se o same as do seu oponente Líder até o início do seu próximo turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Quando atacar]/[On Block] [Once Per Turn] este Poder base deste Personagem torna-se o mesmo as do seu oponente Líder até o início do seu próximo turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [When Attacking]/[On Block] [Once Per Turn] This Character's base power becomes the same as your opponent's Leader until the start of your next turn.",
     "keywordIds": [
       "blocker",
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -266,7 +266,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse 1 dos seus [Uta] cartas: este Personagem ganha +5000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Uta] cards: This Character gains +5000 power during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -339,7 +339,7 @@
       "FILM",
       "Mecha Island"
     ],
-    "effectPt": "[On Your Opponent's Attack] Você pode descartar qualquer número de {FILM} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha for every carta descartada.",
+    "effectPt": "[On Your Opponent's Attack] Você pode descartar qualquer número de {FILM} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 de Poder durante esta batalha para cada carta descartada.",
     "effectEn": "[On Your Opponent's Attack] You may trash any number of {FILM} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
     "keywordIds": [],
     "setId": "OP-06",
@@ -365,7 +365,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descartar 1 dos seus Personagens com 6000 ou mais de Poder: Jogue Até 1 {FILM} tipo carta(s) de Personagem com 2000 para 5000 Poder da sua lixeira descansado(a).",
     "effectEn": "[Activate: Main] [Once Per Turn] You may trash 1 of your Characters with 6000 power or more: Play up to 1 {FILM} type Character card with 2000 to 5000 power from your trash rested.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -389,9 +389,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode colocar este Personagem no fundo do Deck do dono: Dê a até 1 Personagem(ns) do seu oponente −3000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may place this Character at the bottom of the owner's deck: Give up to 1 of your opponent's Characters −3000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -488,11 +486,9 @@
       "Homem-Peixe",
       "New Fish-Man Pirates"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Líder: descanse Até 1 do seu oponente cartas de DON!! ou Personagens com custo de 3 ou menos. Em seguida, você não pode adicione cartas de Vida para a sua mão usando seu own efeitos durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descansar este Líder: descanse Até 1 do seu oponente cartas de DON!! ou Personagens com custo de 3 ou menos. Em seguida, você não pode adicione cartas de Vida para a sua mão usando seu próprio(a) efeitos durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Leader: Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 3 or less. Then, you cannot add Life cards to your hand using your own effects during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -516,7 +512,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Escolha um: • Descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos. • Dê a até 1 Personagem(ns) do seu oponente −1 de custo durante este turno.",
     "effectEn": "[Activate: Main] [Once Per Turn] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 4 or less. • Give up to 1 of your opponent's Characters −1 cost during this turn.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -541,8 +537,8 @@
     "effectPt": "[Double Attack] (esta carta causa 2 de dano.) [Activate: Main] [Once Per Turn] Se o seu oponente tiver 3 ou menos cartas de Vida, dê Até 2 descansado(a) cartas de DON!! para 1 dos seus Personagens.",
     "effectEn": "[Double Attack] (This card deals 2 damage.) [Activate: Main] [Once Per Turn] If your opponent has 3 or less Life cards, give up to 2 rested DON!! cards to 1 of your Characters.",
     "keywordIds": [
-      "activate-main",
-      "double-attack"
+      "double-attack",
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -667,7 +663,9 @@
     ],
     "effectPt": "[On K.O.] Descanse até 1 Personagem(ns) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[On K.O.] Rest up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -688,7 +686,7 @@
       "Homem-Peixe",
       "New Fish-Man Pirates"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, coloque Até 1 das suas cartas de DON!! as ativo(a) e este Personagem ganha +1000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, coloque Até 1 das suas cartas de DON!! as ativo(a) e este Personagem ganha +1000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[DON!! x1] [When Attacking] If your Leader has the {New Fish-Man Pirates} type, set up to 1 of your DON!! cards as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
       "when-attacking"
@@ -713,10 +711,11 @@
       "Homem-Peixe",
       "New Fish-Man Pirates"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, coloque este Personagem as ativo(a) e este Personagem ganha +1000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, coloque este Personagem as ativo(a) e este Personagem ganha +1000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] If your Leader has the {New Fish-Man Pirates} type, set this Character as active and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -738,7 +737,7 @@
       "Homem-Peixe",
       "New Fish-Man Pirates"
     ],
-    "effectPt": "[When Attacking] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, este Personagem não pode ser nocauteado em batalha e ganha +2000 de Poder até o início do seu próximo turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
+    "effectPt": "[Quando atacar] Se o seu Líder tiver o tipo {New Fish-Man Pirates}, este Personagem não pode ser nocauteado em batalha e ganha +2000 de Poder até o início do seu próximo turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[When Attacking] If your Leader has the {New Fish-Man Pirates} type, this Character cannot be K.O.'d in battle and gains +2000 power until the start of your next turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
       "when-attacking"
@@ -842,7 +841,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] descanse até 1 Personagem(ns) do seu oponente com custo de 4 ou menos e este Personagem ganha +1000 de Poder durante este turno. Em seguida, adicione 1 carta do topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] Rest up to 1 of your opponent's Characters with a cost of 4 or less and this Character gains +1000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -893,7 +892,8 @@
     "effectPt": "[On Play]/[On K.O.] Dê K.O. em até 1 Personagem(ns) descansado(s) do seu oponente com custo de 4 ou menos.",
     "effectEn": "[On Play]/[On K.O.] K.O. up to 1 of your opponent's rested Characters with a cost of 4 or less.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -1043,9 +1043,10 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Compre 1 carta(s).",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Compre 1 carta(s).",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-06",
@@ -1071,7 +1072,7 @@
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may trash 1 card from your hand and place 1 Character with a cost of 2 or less at the bottom of the owner's deck: This Character gains +3000 power during this turn.",
     "keywordIds": [
       "blocker",
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -1092,9 +1093,10 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando seu oponente ativar um(a) Evento, seu oponente must coloque 1 carta de a mão dele(a) no fundo do Deck dele(a).",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando seu oponente ativar um(a) Evento, seu oponente deve coloque 1 carta de a mão dele(a) no fundo do Deck dele(a).",
     "effectEn": "[Your Turn] [Once Per Turn] When your opponent activates an Event, your opponent must place 1 card from their hand at the bottom of their deck.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-06",
@@ -1164,7 +1166,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] seu oponente retorna todos os cartas na mão dele(a) para dele(a) Deck e shuffles dele(a) Deck. Em seguida, seu oponente draws 5 cartas.",
+    "effectPt": "[On Play] seu oponente retorna todos os cartas na mão dele(a) para dele(a) Deck e embaralha dele(a) Deck. Em seguida, seu oponente compra 5 carta(s).",
     "effectEn": "[On Play] Your opponent returns all cards in their hand to their deck and shuffles their deck. Then, your opponent draws 5 cards.",
     "keywordIds": [
       "on-play"
@@ -1308,7 +1310,9 @@
     ],
     "effectPt": "[On K.O.] coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono.",
     "effectEn": "[On K.O.] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1352,7 +1356,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] Se você tiver 4 ou menos cartas na sua mão, seu oponente não pode ativar [Blocker] durante esta batalha.",
+    "effectPt": "[DON!! x2] [Quando atacar] Se você tiver 4 ou menos cartas na sua mão, seu oponente não pode ativar [Blocker] durante esta batalha.",
     "effectEn": "[DON!! x2] [When Attacking] If you have 4 or less cards in your hand, your opponent cannot activate [Blocker] during this battle.",
     "keywordIds": [
       "blocker",
@@ -1482,9 +1486,7 @@
     ],
     "effectPt": "[Activate: Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Germa 66}, jogue Até 1 [Vinsmoke Ichiji] com custo de 7 da sua mão ou lixeira.",
     "effectEn": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Ichiji] with a cost of 7 from your hand or trash.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1505,7 +1507,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno e este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno e este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, give up to 1 of your opponent's Characters −2000 power during this turn and this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -1531,11 +1533,11 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar 2 carta(s) da sua mão: Jogue Até 4 {Germa 66} tipo carta(s) de Personagem com different carta names e 4000 Poder ou menos da sua lixeira. [Activate: Main] [Once Per Turn] DON!! −1: descanse Até 1 do seu oponente cartas de DON!!.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar 2 carta(s) da sua mão: Jogue Até 4 {Germa 66} tipo carta(s) de Personagem com nome de carta diferentes e 4000 Poder ou menos da sua lixeira. [Activate: Main] [Once Per Turn] DON!! −1: descanse Até 1 do seu oponente cartas de DON!!.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash 2 cards from your hand: Play up to 4 {GERMA 66} type Character cards with different card names and 4000 power or less from your trash. [Activate: Main] [Once Per Turn] DON!! −1: Rest up to 1 of your opponent's DON!! cards.",
     "keywordIds": [
       "on-play",
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -1557,7 +1559,7 @@
       "The Vinsmoke Family",
       "Kingdom of GERMA"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, adicione Até 1 {o Vinsmoke Family} tipo carta(s) de Personagem com 4000 ou menos de Poder da sua lixeira para a sua mão.",
+    "effectPt": "[On Play] Você pode descartar 1 carta(s) da sua mão: Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, adicione Até 1 {o Vinsmoke Family} tipo carta(s) de Personagem com 4000 ou menos de Poder da sua lixeira para a sua mão.",
     "effectEn": "[On Play] You may trash 1 card from your hand: If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, add up to 1 {The Vinsmoke Family} type Character card with 4000 power or less from your trash to your hand.",
     "keywordIds": [
       "on-play"
@@ -1584,9 +1586,7 @@
     ],
     "effectPt": "[Activate: Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Germa 66}, jogue Até 1 [Vinsmoke Niji] com custo de 5 da sua mão ou lixeira.",
     "effectEn": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Niji] with a cost of 5 from your hand or trash.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1607,7 +1607,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, Escolha um: • Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono.",
+    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, Escolha um: • Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos. • retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono.",
     "effectEn": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, choose one: • K.O. up to 1 of your opponent's Characters with a cost of 2 or less. • Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -1634,9 +1634,7 @@
     ],
     "effectPt": "[Activate: Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Germa 66}, jogue Até 1 [Vinsmoke Yonji] com custo de 4 da sua mão ou lixeira.",
     "effectEn": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Yonji] with a cost of 4 from your hand or trash.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1657,7 +1655,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, este Personagem ganha +1000 de Poder. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, este Personagem ganha +1000 de Poder. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, this Character gains +1000 power. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1684,9 +1682,7 @@
     ],
     "effectPt": "[Activate: Main] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.) Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Germa 66}, jogue Até 1 [Vinsmoke Reiju] com custo de 4 da sua mão ou lixeira.",
     "effectEn": "[Activate: Main] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.) You may trash this Character: If your Leader has the {GERMA 66} type, play up to 1 [Vinsmoke Reiju] with a cost of 4 from your hand or trash.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1707,7 +1703,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo e você tiver 5 ou menos cartas na sua mão, Compre 2 carta(s).",
+    "effectPt": "[On Play] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente e você tiver 5 ou menos cartas na sua mão, Compre 2 carta(s).",
     "effectEn": "[On Play] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field and you have 5 or less cards in your hand, draw 2 cards.",
     "keywordIds": [
       "on-play"
@@ -1779,7 +1775,7 @@
     "subtypes": [
       "Kingdom of GERMA"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Germa 66} e o número de cartas de DON!! no seu campo for no least 2 menos do que o número on do seu oponente campo, este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Se o seu Líder tiver o tipo {Germa 66} e o número de cartas de DON!! no seu campo for pelo menos 2 a menos do que o número no campo do seu oponente, este Personagem ganha [Blocker]. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "If your Leader has the {GERMA 66} type and the number of DON!! cards on your field is at least 2 less than the number on your opponent's field, this Character gains [Blocker]. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1881,9 +1877,10 @@
       "Piratas do Kid",
       "SMILE"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando a DON!! carta no seu campo for retornado(a) para o seu Deck de DON!!, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Dê K.O. em até 1 Personagem(ns) do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
+      "once-per-turn",
       "your-turn"
     ],
     "setId": "OP-06",
@@ -1905,7 +1902,7 @@
       "The Vinsmoke Family",
       "GERMA 66"
     ],
-    "effectPt": "[Main] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número on do seu oponente campo, coloque Até 1 dos Personagens do seu oponente com custo de 5 ou menos no fundo do Deck do dono.",
+    "effectPt": "[Main] Se o número de cartas de DON!! no seu campo for igual a ou menos do que o número no campo do seu oponente, coloque Até 1 dos Personagens do seu oponente com custo de 5 ou menos no fundo do Deck do dono.",
     "effectEn": "[Main] If the number of DON!! cards on your field is equal to or less than the number on your opponent's field, place up to 1 of your opponent's Characters with a cost of 5 or less at the bottom of the owner's deck.",
     "triggerPt": "[Trigger] coloque Até 1 dos Personagens do seu oponente com custo de 4 ou menos no fundo do Deck do dono.",
     "triggerEn": "[Trigger] Place up to 1 of your opponent's Characters with a cost of 4 or less at the bottom of the owner's deck.",
@@ -1958,9 +1955,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descartar 1 carta(s) da sua mão e descanse este Palco: Olhe as 3 cartas do topo do seu Deck; revele até 1 carta com um tipo que inclua \"GERMA\" e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Stage: Look at 3 cards from the top of your deck; reveal up to 1 card with a type including \"GERMA\" and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -1981,7 +1976,7 @@
       "Sete Corsários",
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: descarte 2 carta(s) do topo do seu Deck e jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira.",
+    "effectPt": "[DON!! x1] [Quando atacar] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta(s) da sua mão: descarte 2 carta(s) do topo do seu Deck e jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira.",
     "effectEn": "[DON!! x1] [When Attacking] ➁ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Trash 2 cards from the top of your deck and play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash.",
     "keywordIds": [
       "when-attacking"
@@ -2032,7 +2027,8 @@
     "effectPt": "[On Play]/[On K.O.] Se o seu Líder tiver o tipo {Piratas de Thriller Bark}, Compre 2 carta(s) e descarte 2 carta(s) da sua mão.",
     "effectEn": "[On Play]/[On K.O.] If your Leader has the {Thriller Bark Pirates} type, draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2054,11 +2050,9 @@
       "Gigante",
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "este Personagem não pode atacar. [Activate: Main] Você pode K.O. 1 dos seus {Piratas de Thriller Bark} tipo Personagens: este Personagem's efeito for negated durante este turno.",
+    "effectPt": "este Personagem não pode atacar. [Activate: Main] Você pode K.O. 1 dos seus {Piratas de Thriller Bark} tipo Personagens: este Personagem's efeito for anulados durante este turno.",
     "effectEn": "This Character cannot attack. [Activate: Main] You may K.O. 1 of your {Thriller Bark Pirates} type Characters: This Character's effect is negated during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -2080,7 +2074,9 @@
     ],
     "effectPt": "[On K.O.] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 de Poder durante este turno.",
     "effectEn": "[On K.O.] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
-    "keywordIds": [],
+    "keywordIds": [
+      "on-ko"
+    ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -2199,7 +2195,8 @@
     "effectPt": "[On Play]/[On K.O.] descarte 3 carta(s) do topo do seu Deck.",
     "effectEn": "[On Play]/[On K.O.] Trash 3 cards from the top of your deck.",
     "keywordIds": [
-      "on-play"
+      "on-play",
+      "on-ko"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2268,7 +2265,7 @@
     "subtypes": [
       "Former Rumbar Pirates"
     ],
-    "effectPt": "[On Play] Escolha um: • descartar Até 1 dos Personagens do seu oponente com custo de 4 ou menos. • seu oponente coloca 3 cartas de dele(a) descartar no fundo do Deck dele(a) em qualquer ordem.",
+    "effectPt": "[On Play] Escolha um: • descarte até 1 dos Personagens do seu oponente com custo de 4 ou menos. • seu oponente coloca 3 cartas de dele(a) descartar no fundo do Deck dele(a) em qualquer ordem.",
     "effectEn": "[On Play] Choose one: • Trash up to 1 of your opponent's Characters with a cost of 4 or less. • Your opponent places 3 cards from their trash at the bottom of their deck in any order.",
     "keywordIds": [
       "on-play"
@@ -2338,7 +2335,7 @@
       "Sete Corsários",
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "[Main]/[Counter] seu Líder ganha +1000 de Poder durante este turno. Em seguida, Você pode K.O. qualquer número dos seus {Piratas de Thriller Bark} tipo Personagens com custo de 2 ou menos. seu Líder ganha um(a) adicional +1000 Poder durante este turno for every Personagem K.O.'d.",
+    "effectPt": "[Main]/[Counter] seu Líder ganha +1000 de Poder durante este turno. Em seguida, Você pode K.O. qualquer número dos seus {Piratas de Thriller Bark} tipo Personagens com custo de 2 ou menos. seu Líder ganha um(a) adicional +1000 Poder durante este turno para cada Personagem K.O.'d.",
     "effectEn": "[Main]/[Counter] Your Leader gains +1000 power during this turn. Then, you may K.O. any number of your {Thriller Bark Pirates} type Characters with a cost of 2 or less. Your Leader gains an additional +1000 power during this turn for every Character K.O.'d.",
     "triggerPt": "[Trigger] Compre 2 carta(s) e descarte 1 carta(s) da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
@@ -2417,9 +2414,7 @@
     ],
     "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Palco: Se o seu Líder tiver o tipo {Piratas de Thriller Bark}, jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 2 ou menos da sua lixeira descansado(a).",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Stage: If your Leader has the {Thriller Bark Pirates} type, play up to 1 {Thriller Bark Pirates} type Character card with a cost of 2 or less from your trash rested.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
   },
@@ -2465,7 +2460,7 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] Você pode descartar 1 carta(s) da sua mão: K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o número do cartas de Vida do seu oponente.",
+    "effectPt": "[DON!! x2] [Quando atacar] Você pode descartar 1 carta(s) da sua mão: K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o número do cartas de Vida do seu oponente.",
     "effectEn": "[DON!! x2] [When Attacking] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "triggerPt": "[Trigger] Se o seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
@@ -2526,8 +2521,8 @@
     "triggerPt": "[Trigger] Se você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If you have 2 or less Life cards, play this card.",
     "keywordIds": [
-      "activate-main",
-      "trigger"
+      "trigger",
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2550,7 +2545,7 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[When Attacking] Você pode descartar 2 carta(s) da sua mão: adicione Até 1 dos seus Personagens com 0 Poder para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
+    "effectPt": "[Quando atacar] Você pode descartar 2 carta(s) da sua mão: adicione Até 1 dos seus Personagens com 0 Poder para o topo ou fundo do cartas de Vida do dono virada(s) para cima.",
     "effectEn": "[When Attacking] You may trash 2 cards from your hand: Add up to 1 of your Characters with 0 power to the top or bottom of the owner's Life cards face-up.",
     "triggerPt": "[Trigger] Se o seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
@@ -2583,7 +2578,8 @@
     "triggerPt": "[Trigger] Se o seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
-      "trigger"
+      "trigger",
+      "on-ko"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2766,8 +2762,8 @@
     "triggerPt": "[Trigger] Se você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If you have 2 or less Life cards, play this card.",
     "keywordIds": [
-      "activate-main",
-      "trigger"
+      "trigger",
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2789,7 +2785,7 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[When Attacking] Você pode descartar 1 carta(s) da sua mão: descanse Até 1 do seu oponente cartas de DON!!.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 carta(s) da sua mão: descanse Até 1 do seu oponente cartas de DON!!.",
     "effectEn": "[When Attacking] You may trash 1 card from your hand: Rest up to 1 of your opponent's DON!! cards.",
     "triggerPt": "[Trigger] Se o seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
@@ -2920,7 +2916,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode descansar esta carta e 1 dos seus [Enel] cartas: K.O. todos os dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest this card and 1 of your [Enel] cards: K.O. all of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"
@@ -2941,11 +2937,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[When Attacking] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo. [Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo.",
+    "effectPt": "[Quando atacar] [Once Per Turn] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo. [Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): coloque este Personagem como ativo.",
     "effectEn": "[When Attacking] [Once Per Turn] ➀ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active. [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Set this Character as active.",
     "keywordIds": [
       "when-attacking",
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "OP-06",
     "setName": "WINGS OF THE CAPTAIN"

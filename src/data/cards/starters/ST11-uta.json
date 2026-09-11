@@ -15,10 +15,11 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] [Once Per Turn] Revele 1 carta de o topo do seu Deck e adicione Até 1 {FILM} carta do tipo para a sua mão. Em seguida, coloque o restante no fundo do seu Deck.",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Revele 1 carta de o topo do seu Deck e adicione Até 1 {FILM} carta do tipo para a sua mão. Em seguida, coloque o restante no fundo do seu Deck.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 {FILM} type card to your hand. Then, place the rest at the bottom of your deck.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "ST-11",
     "setName": "Uta"
@@ -43,8 +44,7 @@
     "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar 1 Evento da sua mão: coloque Até 1 dos seus {FILM} tipo Personagens as ativo(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash 1 Event from your hand: Set up to 1 of your {FILM} type Characters as active.",
     "keywordIds": [
-      "blocker",
-      "your-turn"
+      "blocker"
     ],
     "setId": "ST-11",
     "setName": "Uta"

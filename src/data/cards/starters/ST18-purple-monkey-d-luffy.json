@@ -64,10 +64,11 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[When Attacking] [Once Per Turn] Se você tiver 8 ou mais cartas de DON!! no seu campo, Compre 1 carta(s).",
+    "effectPt": "[Quando atacar] [Once Per Turn] Se você tiver 8 ou mais cartas de DON!! no seu campo, Compre 1 carta(s).",
     "effectEn": "[When Attacking] [Once Per Turn] If you have 8 or more DON!! cards on your field, draw 1 card.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "ST-18",
     "setName": "Purple Monkey.D.Luffy"

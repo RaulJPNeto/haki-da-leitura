@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Você pode revele 1 carta com um tipo que inclua \"Whitebeard Pirates\" da sua mão: Compre 1 carta(s) e coloque o revelada carta no topo do seu Deck.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may reveal 1 card with a type including \"Whitebeard Pirates\" from your hand: Draw 1 card and place the revealed card at the top of your deck.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-22",
     "setName": "Ace &amp; Newgate"
@@ -118,7 +118,7 @@
     "effectPt": "Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode descarte 2 carta(s) da sua mão em vez disso. [Activate: Main] [Once Per Turn] Você pode descanse 3 das suas cartas de DON!! e retorne 1 dos seus Personagens diferente de este Personagem para a mão do dono: coloque este Personagem como ativo.",
     "effectEn": "If this Character would be removed from the field by your opponent's effect, you may trash 2 cards from your hand instead. [Activate: Main] [Once Per Turn] You may rest 3 of your DON!! cards and return 1 of your Characters other than this Character to the owner's hand: Set this Character as active.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-22",
     "setName": "Ace &amp; Newgate"
@@ -163,10 +163,10 @@
     "subtypes": [
       "Whitebeard Pirates Allies"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-22",
     "setName": "Ace &amp; Newgate"
@@ -280,10 +280,11 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso. [When Attacking] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado por um efeito do seu oponente, Você pode descartar 1 carta(s) da sua mão em vez disso. [Quando atacar] Revele 1 carta do topo do seu Deck. Se que tipo da carta incluir \"Whitebeard Pirates\", este Personagem ganha +1000 de Poder até o fim do próximo turno do seu oponente.",
     "effectEn": "[Once Per Turn] If this Character would be K.O.'d by your opponent's effect, you may trash 1 card from your hand instead. [When Attacking] Reveal 1 card from the top of your deck. If that card's type includes \"Whitebeard Pirates\", this Character gains +1000 power until the end of your opponent's next turn.",
     "keywordIds": [
-      "when-attacking"
+      "when-attacking",
+      "once-per-turn"
     ],
     "setId": "ST-22",
     "setName": "Ace &amp; Newgate"

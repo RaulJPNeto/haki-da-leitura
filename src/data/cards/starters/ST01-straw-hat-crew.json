@@ -19,7 +19,7 @@
     "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a até 1 dos seus Personagens até 1 carta(s) de DON!! descansada(s).",
     "effectEn": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
@@ -40,7 +40,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [When Attacking] seu oponente não pode ativar a [Blocker] Personagem que tiver 5000 ou mais Poder durante esta batalha.",
+    "effectPt": "[DON!! x2] [Quando atacar] seu oponente não pode ativar a [Blocker] Personagem que tiver 5000 ou mais Poder durante esta batalha.",
     "effectEn": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -116,7 +116,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [When Attacking] Até 1 do seu Líder ou carta(s) de Personagem diferente de esta carta ganha +1000 de Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Até 1 do seu Líder ou carta(s) de Personagem diferente de esta carta ganha +1000 de Poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -165,10 +165,10 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
-      "activate-main"
+      "once-per-turn"
     ],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
@@ -255,7 +255,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Dê até 2 carta(s) de DON!! descansada(s) ao seu Líder ou a 1 dos seus Personagens.",
+    "effectPt": "[On Play] Dê Até 2 descansado(a) cartas de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
       "on-play"
@@ -280,7 +280,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x2] [When Attacking] seu oponente não pode ativar [Blocker] durante esta batalha.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x2] [Quando atacar] seu oponente não pode ativar [Blocker] durante esta batalha.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
     "keywordIds": [
       "blocker",
@@ -381,7 +381,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem. seu oponente não pode ativar [Blocker] se que Líder ou Personagem attacks durante este turno.",
+    "effectPt": "[Main] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem. seu oponente não pode ativar [Blocker] se que Líder ou Personagem atacar durante este turno.",
     "effectEn": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
     "triggerPt": "[Trigger] K.O. Até 1 do seu oponente [Blocker] Personagens com custo de 3 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
@@ -409,9 +409,7 @@
     ],
     "effectPt": "[Activate: Main] Você pode descansar este Palco: Até 1 {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem no seu campo ganha +1000 de Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
-    "keywordIds": [
-      "activate-main"
-    ],
+    "keywordIds": [],
     "setId": "ST-01",
     "setName": "Straw Hat Crew"
   }
