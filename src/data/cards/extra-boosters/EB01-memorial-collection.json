@@ -1254,7 +1254,7 @@
   {
     "id": "EB01-051",
     "code": "EB01-051",
-    "namePt": "Finger Pistol",
+    "namePt": "Pistola de Dedo",
     "nameEn": "Finger Pistol",
     "cardType": "EVENT",
     "colors": [
@@ -1266,9 +1266,9 @@
     "subtypes": [
       "CP9"
     ],
-    "effectPt": "[Main] Você pode descartar 2 cartas de o topo do seu Deck: K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[Main] Você pode descartar 2 cartas do topo do seu Deck: Dê K.O. a até 1 Personagem do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Main] You may trash 2 cards from the top of your deck: K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
-    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Main] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -1292,7 +1292,7 @@
     "subtypes": [
       "Dressrosa"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Escolha um: • Olhe em todos os do cartas de Vida do seu oponente e coloque elas de volta na Vida dele(a) área em qualquer ordem. • turno todos os das suas cartas de Vida viradas para baixo.",
+    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Escolha um: • Olhe todas as cartas de Vida do seu oponente e coloque-as de volta na área de Vida dele em qualquer ordem. • Vire todas as suas cartas de Vida para baixo.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Choose one: • Look at all of your opponent's Life cards and place them back in their Life area in any order. • Turn all of your Life cards face-down.",
     "keywordIds": [
       "blocker",
@@ -1317,9 +1317,9 @@
     "subtypes": [
       "Cientista"
     ],
-    "effectPt": "[On Play] coloque Até 1 dos Personagens do seu oponente com custo de 3 ou menos no topo ou fundo do cartas de Vida do seu oponente virada(s) para cima.",
+    "effectPt": "[On Play] Coloque até 1 Personagem do seu oponente com custo de 3 ou menos no topo ou no fundo das cartas de Vida do seu oponente virado para cima.",
     "effectEn": "[On Play] Place up to 1 of your opponent's Characters with a cost of 3 or less at the top or bottom of your opponent's Life cards face-up.",
-    "triggerPt": "[Trigger] Dê até um total de 2 do Líder do seu oponente ou carta(s) de Personagem −3000 Poder durante este turno.",
+    "triggerPt": "[Trigger] Dê a até um total de 2 cartas de Líder ou Personagem do seu oponente −3000 de poder durante este turno.",
     "triggerEn": "[Trigger] Give up to a total of 2 of your opponent's Leader or Character cards −3000 power during this turn.",
     "keywordIds": [
       "on-play",
@@ -1344,7 +1344,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se seu oponente tiver 1 ou menos cartas de Vida, K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se o seu oponente tiver 1 ou menos cartas de Vida, dê K.O. a até 1 Personagem do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If your opponent has 1 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "blocker",
@@ -1391,7 +1391,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: Compre 1 carta.",
+    "effectPt": "[On Play] Você pode adicionar 1 carta do topo ou do fundo das suas cartas de Vida à sua mão: Compre 1 carta.",
     "effectEn": "[On Play] You may add 1 card from the top or bottom of your Life cards to your hand: Draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -1415,7 +1415,7 @@
     "subtypes": [
       "Tritão"
     ],
-    "effectPt": "Quando este Personagem for nocauteado por um efeito do seu oponente, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Quando este Personagem sofrer K.O. por um efeito do seu oponente, adicione até 1 carta do topo do seu Deck ao topo das suas cartas de Vida. [Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "When this Character is K.O.'d by your opponent's effect, add up to 1 card from the top of your deck to the top of your Life cards. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -1439,7 +1439,7 @@
     "subtypes": [
       "Monkey Mountain Alliance"
     ],
-    "effectPt": "[DON!! x1] [Your Turn] Se você tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 Poder.",
+    "effectPt": "[DON!! x1] [Your Turn] Se você tiver 2 ou menos cartas de Vida, este Personagem ganha +2000 de poder.",
     "effectEn": "[DON!! x1] [Your Turn] If you have 2 or less Life cards, this Character gains +2000 power.",
     "keywordIds": [
       "your-turn",
@@ -1463,9 +1463,9 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente. Em seguida, descartar cartas de o topo das suas cartas de Vida até você tiver 1 carta de Vida.",
+    "effectPt": "[Main] Dê K.O. a até 1 Personagem do seu oponente. Em seguida, descarte cartas do topo das suas cartas de Vida até você ter 1 carta de Vida.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters. Then, trash cards from the top of your Life cards until you have 1 Life card.",
-    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o total dos seus e do cartas de Vida do seu oponente.",
+    "triggerPt": "[Trigger] Dê K.O. a até 1 Personagem do seu oponente com custo igual ou inferior ao total de cartas de Vida suas e do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "keywordIds": [
       "trigger"
@@ -1476,7 +1476,7 @@
   {
     "id": "EB01-060",
     "code": "EB01-060",
-    "namePt": "Did Someone Say   Kami?",
+    "namePt": "Alguém Disse   Kami?",
     "nameEn": "Did Someone Say   Kami?",
     "cardType": "EVENT",
     "colors": [
@@ -1488,9 +1488,9 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Main] Jogue Até 1 [Enel] com custo de 7 ou menos da sua mão ou lixeira. Em seguida, descartar cartas de o topo das suas cartas de Vida até você tiver 1 carta de Vida.",
+    "effectPt": "[Main] Jogue até 1 [Enel] com custo de 7 ou menos da sua mão ou Lixeira. Em seguida, descarte cartas do topo das suas cartas de Vida até você ter 1 carta de Vida.",
     "effectEn": "[Main] Play up to 1 [Enel] with a cost of 7 or less from your hand or trash. Then, trash cards from the top of your Life cards until you have 1 Life card.",
-    "triggerPt": "[Trigger] Compre 2 cartas e descartar 1 carta da sua mão.",
+    "triggerPt": "[Trigger] Compre 2 cartas e descarte 1 carta da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "trigger"
@@ -1501,7 +1501,7 @@
   {
     "id": "EB01-061",
     "code": "EB01-061",
-    "namePt": "Mr 2 Bon Kurei(Bentham)",
+    "namePt": "Mr.2 Bon Kurei (Bentham)",
     "nameEn": "Mr 2 Bon Kurei(Bentham)",
     "cardType": "CHARACTER",
     "colors": [
@@ -1514,7 +1514,7 @@
     "subtypes": [
       "Former Baroque Works"
     ],
-    "effectPt": "[On Play] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] Selecione Até 1 dos Personagens do seu oponente. este Poder base deste Personagem torna-se o mesmo as o selected Personagem's Poder durante este turno.",
+    "effectPt": "[On Play] Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa. [Quando atacar] Selecione até 1 Personagem do seu oponente. O poder base deste Personagem torna-se igual ao poder do Personagem selecionado durante este turno.",
     "effectEn": "[On Play] Add up to 1 DON!! card from your DON!! deck and set it as active. [When Attacking] Select up to 1 of your opponent's Characters. This Character's base power becomes the same as the selected Character's power during this turn.",
     "keywordIds": [
       "on-play",
