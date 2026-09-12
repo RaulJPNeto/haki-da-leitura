@@ -15,7 +15,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta da sua mão: K.O. Até 1 dos Personagens do seu oponente com custo de 0.",
+    "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta da sua mão: Dê K.O. em até 1 dos Personagens do seu oponente com custo 0.",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "activate-main",
@@ -40,7 +40,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: K.O. Até 1 dos Personagens do seu oponente com custo de 0.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Dê K.O. em até 1 dos Personagens do seu oponente com custo 0.",
     "effectEn": "[On Play] You may trash 1 card from your hand: K.O. up to 1 of your opponent's Characters with a cost of 0.",
     "keywordIds": [
       "on-play"
@@ -86,7 +86,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "este Personagem não pode ser nocauteado por efeitos. [DON!! x1] se houver a Personagem com custo de 0, este Personagem ganha [Double Attack]. (esta carta causa 2 de dano.)",
+    "effectPt": "Este Personagem não pode receber K.O. por efeitos. [DON!! x1] Se houver um Personagem com custo 0, este Personagem ganha [Double Attack]. (Esta carta causa 2 danos.)",
     "effectEn": "This Character cannot be K.O.'d by effects. [DON!! x1] If there is a Character with a cost of 0, this Character gains [Double Attack]. (This card deals 2 damage.)",
     "keywordIds": [
       "double-attack",
@@ -111,7 +111,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Quando atacar] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
+    "effectPt": "[Quando atacar] Dê até -4 de custo para até 1 dos Personagens do seu oponente durante este turno.",
     "effectEn": "[When Attacking] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -135,7 +135,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê até -2 de custo para até 1 dos Personagens do seu oponente durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "activate-main"
@@ -159,7 +159,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -183,7 +183,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
+    "effectPt": "[On Play] Dê até -4 de custo para até 1 dos Personagens do seu oponente durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "on-play"
@@ -229,7 +229,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −3 custo durante este turno.",
+    "effectPt": "[On Play] Dê a até 1 dos Personagens do seu oponente −3 de custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −3 cost during this turn.",
     "keywordIds": [
       "on-play"
@@ -262,7 +262,7 @@
   {
     "id": "ST06-012",
     "code": "ST06-012",
-    "namePt": "Monkey D Garp",
+    "namePt": "Monkey D. Garp",
     "nameEn": "Monkey D Garp",
     "cardType": "CHARACTER",
     "colors": [
@@ -275,7 +275,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar 1 carta da sua mão e descanse este Personagem: K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descartar 1 carta da sua mão e descanse este Personagem: Dê K.O. em até 1 dos Personagens do seu oponente com um custo de 4 ou menos.",
     "effectEn": "[Activate: Main] You may trash 1 card from your hand and rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "activate-main"
@@ -320,9 +320,9 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, K.O. Até 1 do seu oponente ativo(a) Personagens com custo de 3 ou menos.",
+    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +4000 de poder durante esta batalha. Em seguida, dê K.O. em até 1 dos Personagens ativos do seu oponente com um custo de 3 ou menos.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, K.O. up to 1 of your opponent's active Characters with a cost of 3 or less.",
-    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com um custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger",
@@ -346,9 +346,9 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Main] Compre 1 carta. Em seguida, dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
+    "effectPt": "[Main] Compre 1 carta. Em seguida, dê a até 1 dos Personagens do seu oponente −2 de custo durante este turno.",
     "effectEn": "[Main] Draw 1 card. Then, give up to 1 of your opponent's Characters −2 cost during this turn.",
-    "triggerPt": "[Trigger] seu oponente escolhe 1 carta de a mão dele(a) e descarta ela.",
+    "triggerPt": "[Trigger] Seu oponente escolhe 1 carta da mão dele e a descarta.",
     "triggerEn": "[Trigger] Your opponent chooses 1 card from their hand and trashes it.",
     "keywordIds": [
       "trigger"
@@ -371,9 +371,9 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha.",
+    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +2000 de poder durante esta batalha.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle.",
-    "triggerPt": "[Trigger] Compre 1 carta e Nenhum dos seus Personagens pode ser K.O.'d durante este turno.",
+    "triggerPt": "[Trigger] Compre 1 carta e nenhum dos seus Personagens pode receber K.O. durante este turno.",
     "triggerEn": "[Trigger] Draw 1 card and none of your Characters can be K.O.'d during this turn.",
     "keywordIds": [
       "trigger",
@@ -397,7 +397,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −1 custo durante este turno. [Activate: Main] Você pode descanse este Palco: Se o seu Líder tiver o tipo {Marinha}, dê Até 1 dos Personagens do seu oponente −1 custo durante este turno.",
+    "effectPt": "[On Play] Dê a até 1 dos Personagens do seu oponente −1 de custo durante este turno. [Activate: Main] Você pode descansar este Estágio: Se o seu Líder tiver o tipo {Marinha}, dê a até 1 dos Personagens do seu oponente −1 de custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −1 cost during this turn. [Activate: Main] You may rest this Stage: If your Leader has the {Navy} type, give up to 1 of your opponent's Characters −1 cost during this turn.",
     "keywordIds": [
       "on-play",

@@ -16,7 +16,7 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): retorne Até 1 Personagem com custo de 5 ou menos para o dono's mão.",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −4 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Retorne até 1 Personagem com custo 5 ou menos para a mão do dono.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −4 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Return up to 1 Character with a cost of 5 or less to the owner's hand.",
     "keywordIds": [
       "activate-main",
@@ -65,7 +65,7 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [On Block] coloque Até 1 Personagem com custo de 2 ou menos no fundo do Deck do dono.",
+    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [On Block] Coloque até 1 Personagem com custo 2 ou menos no fundo do Deck do dono.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [On Block] Place up to 1 Character with a cost of 2 or less at the bottom of the owner's deck.",
     "keywordIds": [
       "blocker",
@@ -92,7 +92,7 @@
       "Sete Corsários",
       "Piratas de Thriller Bark"
     ],
-    "effectPt": "[On Play] adicione Até 1 {Sete Corsários} ou {Piratas de Thriller Bark} tipo Personagem com custo de 4 ou menos diferente de [Gecko Moria] da sua lixeira para a sua mão.",
+    "effectPt": "[On Play] Adicione até 1 Personagem do tipo {Os Sete Warlords do Mar} ou {Piratas de Thriller Bark} com custo 4 ou menos que não seja [Gecko Moria] da sua lixeira para a sua mão.",
     "effectEn": "[On Play] Add up to 1 {The Seven Warlords of the Sea} or {Thriller Bark Pirates} type Character with a cost of 4 or less other than [Gecko Moria] from your trash to your hand.",
     "keywordIds": [
       "on-play"
@@ -116,7 +116,7 @@
     "subtypes": [
       "Sete Corsários"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Compre 2 cartas e descartar 2 cartas da sua mão.",
+    "effectPt": "[DON!! x1] [Quando atacar] Compre 2 cartas e descarte 2 cartas da sua mão.",
     "effectEn": "[DON!! x1] [When Attacking] Draw 2 cards and trash 2 cards from your hand.",
     "keywordIds": [
       "when-attacking",
@@ -165,7 +165,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Jogue Até 1 [Pacifista] com custo de 4 ou menos do seu Deck, Em seguida, embaralhe seu Deck.",
+    "effectPt": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.): Jogue até 1 [Pacifista] com custo 4 ou menos do seu Deck, e depois embaralhe o seu Deck.",
     "effectEn": "[DON!! x1] [Activate: Main] [Once Per Turn] ➁ (You may rest the specified number of DON!! cards in your cost area.): Play up to 1 [Pacifista] with a cost of 4 or less from your deck, then shuffle your deck.",
     "keywordIds": [
       "activate-main",
@@ -192,7 +192,7 @@
       "Sete Corsários",
       "Piratas do Coração"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -217,7 +217,7 @@
       "Sete Corsários",
       "Piratas Donquixote"
     ],
-    "effectPt": "[On Play] retorne Até 1 Personagem com custo de 7 ou menos para o dono's mão.",
+    "effectPt": "[On Play] Retorne até 1 Personagem com custo 7 ou menos para a mão do dono.",
     "effectEn": "[On Play] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -242,7 +242,7 @@
       "Sete Corsários",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck e retorne elas para o topo ou fundo do deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe 3 cartas do topo do seu Deck e coloque-as de volta no topo ou no fundo do Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and return them to the top or bottom of the deck in any order.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -316,7 +316,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode desansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -330,7 +330,7 @@
   {
     "id": "ST03-014",
     "code": "ST03-014",
-    "namePt": "Marshall D Teach",
+    "namePt": "Marshall D. Teach",
     "nameEn": "Marshall D Teach",
     "cardType": "CHARACTER",
     "colors": [
@@ -344,7 +344,7 @@
       "Sete Corsários",
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[On Play] retorne Até 1 Personagem com custo de 3 ou menos para o dono's mão.",
+    "effectPt": "[On Play] Retorne até 1 Personagem com custo 3 ou menos para a mão do dono.",
     "effectEn": "[On Play] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -368,9 +368,9 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[Main] retorne Até 1 Personagem com custo de 7 ou menos para o dono's mão.",
+    "effectPt": "[Main] Retorne até 1 Personagem com custo 7 ou menos para a mão do dono.",
     "effectEn": "[Main] Return up to 1 Character with a cost of 7 or less to the owner's hand.",
-    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Main] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -394,9 +394,9 @@
       "Sete Corsários",
       "Exército Revolucionário"
     ],
-    "effectPt": "[Counter] retorne Até 1 Personagem com custo de 3 ou menos para o dono's mão.",
+    "effectPt": "[Counter] Retorne até 1 Personagem com custo 3 ou menos para a mão do dono.",
     "effectEn": "[Counter] Return up to 1 Character with a cost of 3 or less to the owner's hand.",
-    "triggerPt": "[Trigger] ative esta carta's [Counter] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Counter] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Counter] effect.",
     "keywordIds": [
       "trigger",
@@ -421,7 +421,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, compre 1 carta se você tiver 3 ou menos cartas na sua mão.",
+    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +4000 de poder durante esta batalha. Em seguida, compre 1 carta se você tiver 3 ou menos cartas na sua mão.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, draw 1 card if you have 3 or less cards in your hand.",
     "keywordIds": [
       "counter"

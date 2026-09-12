@@ -2,7 +2,7 @@
   {
     "id": "ST01-001",
     "code": "ST01-001",
-    "namePt": "Monkey D Luffy",
+    "namePt": "Monkey D. Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "LEADER",
     "colors": [
@@ -16,7 +16,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a até 1 dos seus Personagens até 1 carta(s) de DON!! descansada(s).",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê a este Líder ou a 1 dos seus Personagens até 1 carta de DON!! descansada.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give this Leader or 1 of your Characters up to 1 rested DON!! card.",
     "keywordIds": [
       "activate-main",
@@ -41,7 +41,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] [Quando atacar] seu oponente não pode ativar a [Blocker] Personagem que tiver 5000 ou mais Poder durante esta batalha.",
+    "effectPt": "[DON!! x2] [Quando atacar] O seu oponente não pode ativar um Personagem [Blocker] que tenha 5000 ou mais de poder durante esta batalha.",
     "effectEn": "[DON!! x2] [When Attacking] Your opponent cannot activate a [Blocker] Character that has 5000 or more power during this battle.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -93,7 +93,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[DON!! x2] Este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -119,7 +119,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Até 1 do seu Líder ou carta(s) de Personagem diferente de esta carta ganha +1000 Poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Até 1 das suas cartas de Líder ou Personagem que não seja esta carta ganha +1000 de poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Up to 1 of your Leader or Character cards other than this card gains +1000 power during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -145,7 +145,7 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -169,7 +169,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta de DON!! descansada para o seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "activate-main",
@@ -260,7 +260,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Dê Até 2 descansado(a) cartas de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[On Play] Dê até 2 cartas de DON!! descansadas para o seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[On Play] Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
       "on-play"
@@ -271,7 +271,7 @@
   {
     "id": "ST01-012",
     "code": "ST01-012",
-    "namePt": "Monkey D Luffy",
+    "namePt": "Monkey D. Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -285,7 +285,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x2] [Quando atacar] seu oponente não pode ativar [Blocker] durante esta batalha.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [DON!! x2] [Quando atacar] Seu oponente não pode ativar [Blocker] durante esta batalha.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [DON!! x2] [When Attacking] Your opponent cannot activate [Blocker] during this battle.",
     "keywordIds": [
       "blocker",
@@ -313,7 +313,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder.",
+    "effectPt": "[DON!! x1] Este Personagem ganha +1000 de poder.",
     "effectEn": "[DON!! x1] This Character gains +1000 power.",
     "keywordIds": [
       "don-x"
@@ -337,9 +337,9 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante esta batalha.",
+    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +3000 de poder durante esta batalha.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "triggerPt": "[Trigger] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem ganha +1000 de poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "keywordIds": [
       "trigger",
@@ -364,9 +364,9 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com 6000 ou menos de Poder.",
+    "effectPt": "[Main] Dê K.O. em até 1 dos Personagens do seu oponente com 6000 de poder ou menos.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with 6000 power or less.",
-    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Main] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -389,9 +389,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Selecione Até 1 dos seus {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem. seu oponente não pode ativar [Blocker] se que Líder ou Personagem atacar durante este turno.",
+    "effectPt": "[Main] Selecione até 1 das suas cartas de Líder ou Personagem do tipo {Bando do Chapéu de Palha}. Seu oponente não pode ativar [Blocker] se esse Líder ou Personagem atacar durante este turno.",
     "effectEn": "[Main] Select up to 1 of your {Straw Hat Crew} type Leader or Character cards. Your opponent cannot activate [Blocker] if that Leader or Character attacks during this turn.",
-    "triggerPt": "[Trigger] K.O. Até 1 do seu oponente [Blocker] Personagens com custo de 3 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem [Blocker] do seu oponente com custo 3 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's [Blocker] Characters with a cost of 3 or less.",
     "keywordIds": [
       "blocker",
@@ -415,7 +415,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Palco: Até 1 {Bando do Chapéu de Palha} tipo Líder ou carta(s) de Personagem no seu campo ganha +1000 Poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descansar este Estágio: Até 1 carta de Líder ou Personagem do tipo {Bando do Chapéu de Palha} no seu campo ganha +1000 de poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest this Stage: Up to 1 {Straw Hat Crew} type Leader or Character card on your field gains +1000 power during this turn.",
     "keywordIds": [
       "activate-main"

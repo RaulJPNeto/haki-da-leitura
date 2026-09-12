@@ -16,7 +16,7 @@
       "País de Wano",
       "The Akazaya Nine"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {País de Wano} e seu oponente tiver 3 ou mais cartas de Vida, K.O. Até 1 dos Personagens do seu oponente com a base custo de 5 ou menos.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {País de Wano} e seu oponente tiver 3 ou mais Cartas de Vida, dê K.O. em até 1 Personagem do seu oponente com custo base de 5 ou menos.",
     "effectEn": "[On Play] If your Leader has the {Land of Wano} type and your opponent has 3 or more Life cards, K.O. up to 1 of your opponent's Characters with a base cost of 5 or less.",
     "keywordIds": [
       "on-play"
@@ -41,7 +41,7 @@
       "País de Wano",
       "Former Whitebeard Pirates"
     ],
-    "effectPt": "[DON!! x2] este Personagem ganha [Blocker]. [On Play] seu {País de Wano} tipo Líder ganha [Banish] durante este turno.",
+    "effectPt": "[DON!! x2] Este Personagem ganha [Blocker]. [On Play] Seu Líder do tipo {Terra de Wano} ganha [Banish] durante este turno.",
     "effectEn": "[DON!! x2] This Character gains [Blocker]. [On Play] Your {Land of Wano} type Leader gains [Banish] during this turn.",
     "keywordIds": [
       "blocker",
@@ -71,7 +71,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {País de Wano} e seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Terra de Wano} e seu oponente tiver 3 ou menos Cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Land of Wano} type and your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -96,7 +96,7 @@
       "País de Wano",
       "Clã Kouzuki"
     ],
-    "effectPt": "[Your Turn] Se você tiver 2 ou menos cartas de Vida, seu Líder ganha +1000 Poder. [Activate: Main] [Once Per Turn] Você pode retorne 2 total dos seus cartas de DON!! atualmente anexadas para seu custo área descansado(a): este Personagem ganha [Rush] e +1000 Poder durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[Your Turn] Se você tiver 2 ou menos Cartas de Vida, seu Líder ganha +1000 de poder. [Activate: Main] [Once Per Turn] Você pode retornar um total de 2 cartas de DON!! atualmente atribuídas suas para a sua área de custo como descansadas: Este Personagem ganha [Rush] e +1000 de poder durante este turno. (Esta carta pode atacar no turno em que for jogada.)",
     "effectEn": "[Your Turn] If you have 2 or less Life cards, your Leader gains +1000 power. [Activate: Main] [Once Per Turn] You may return 2 total of your currently given DON!! cards to your cost area rested: This Character gains [Rush] and +1000 power during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -123,7 +123,7 @@
     "subtypes": [
       "País de Wano"
     ],
-    "effectPt": "[DON!! x2] [Your Turn] este Personagem ganha +3000 Poder. [On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {País de Wano} carta do tipo com custo de 2 ou mais e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[DON!! x2] [Your Turn] Este Personagem ganha +3000 de poder. [On Play] Olhe até 5 cartas do topo do seu Deck; revele até 1 carta do tipo {Terra de Wano} com custo de 2 ou mais e adicione-a à sua mão. Em seguida, coloque o resto no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[DON!! x2] [Your Turn] This Character gains +3000 power. [On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Land of Wano} type card with a cost of 2 or more and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play",

@@ -15,7 +15,7 @@
     "subtypes": [
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descanse 1 dos seus [Fullalead] cartas: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha +4000 Poder durante este turno. [On K.O.] Compre 1 carta.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode descansar 1 das suas cartas [Fullalead]: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha +4000 de poder durante este turno. [On K.O.] Compre 1 carta.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may rest 1 of your [Fullalead] cards: If your Leader has the {Blackbeard Pirates} type, this Character gains +4000 power during this turn. [On K.O.] Draw 1 card.",
     "keywordIds": [
       "activate-main",
@@ -41,7 +41,7 @@
     "subtypes": [
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, dê Até 1 dos Personagens do seu oponente −1 custo durante este turno. [On K.O.] Compre 1 carta.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem para a sua lixeira: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, dê a até 1 Personagem do seu oponente −1 de custo durante este turno. [On K.O.] Compre 1 carta.",
     "effectEn": "[Activate: Main] You may trash this Character: If your Leader has the {Blackbeard Pirates} type, give up to 1 of your opponent's Characters −1 cost during this turn. [On K.O.] Draw 1 card.",
     "keywordIds": [
       "activate-main",
@@ -67,7 +67,7 @@
       "Piratas do Barba Negra",
       "Ex-Marinha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue Até 1 {Piratas do Barba Negra} tipo carta(s) de Personagem com custo de 5 ou menos da sua lixeira descansado(a).",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] Jogue no campo até 1 carta de Personagem do tipo {Piratas do Barba Negra} com custo 5 ou menos da sua lixeira como descansada.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Play up to 1 {Blackbeard Pirates} type Character card with a cost of 5 or less from your trash rested.",
     "keywordIds": [
       "blocker",
@@ -93,7 +93,7 @@
       "Gigante",
       "Piratas do Barba Negra"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha [Blocker] e +1 custo para cada 4 cartas na sua lixeira. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] descartar 1 carta da sua mão.",
+    "effectPt": "Se o seu Líder tiver o tipo {Piratas do Barba Negra}, este Personagem ganha [Blocker] e +1 de custo para cada 4 cartas na sua lixeira. (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Descarte 1 carta da sua mão.",
     "effectEn": "If your Leader has the {Blackbeard Pirates} type, this Character gains [Blocker] and +1 cost for every 4 cards in your trash. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
@@ -119,7 +119,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Personagem: K.O. Até 1 Personagem com custo de 3 ou menos. [On K.O.] adicione Até 1 preto(a) carta da sua lixeira para a sua mão.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 Personagem com custo 3 ou menos. [On K.O.] Adicione até 1 carta preta da sua lixeira à sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 Character with a cost of 3 or less. [On K.O.] Add up to 1 black card from your trash to your hand.",
     "keywordIds": [
       "activate-main",

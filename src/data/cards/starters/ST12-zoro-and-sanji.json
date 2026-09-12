@@ -2,7 +2,7 @@
   {
     "id": "ST12-001",
     "code": "ST12-001",
-    "namePt": "Roronoa Zoro &amp; Sanji",
+    "namePt": "Roronoa Zoro & Sanji",
     "nameEn": "Roronoa Zoro &amp; Sanji",
     "cardType": "LEADER",
     "colors": [
@@ -16,7 +16,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Você pode retorne 1 dos seus Personagens com custo de 2 ou mais para o dono's mão: coloque Até 1 dos seus Personagens com 7000 ou menos de Poder as ativo(a).",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Você pode retornar 1 dos seus Personagens com custo 2 ou mais para a mão do dono: Coloque até 1 dos seus Personagens com 7000 de poder ou menos como ativo.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] You may return 1 of your Characters with a cost of 2 or more to the owner's hand: Set up to 1 of your Characters with 7000 power or less as active.",
     "keywordIds": [
       "when-attacking",
@@ -42,7 +42,7 @@
     "subtypes": [
       "Frost Moon Village"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Personagem: descanse Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Descanse até 1 dos Personagens do seu oponente com custo 4 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: Rest up to 1 of your opponent's Characters with a cost of 4 or less.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -70,7 +70,7 @@
       "Sete Corsários",
       "Muggy Kingdom"
     ],
-    "effectPt": "[On Play] Se você tiver 2 ou menos Personagens, jogue Até 1 {Muggy Kingdom} tipo ou <Slash> atributo carta(s) de Personagem com custo de 4 ou menos diferente de [Dracule Mihawk] da sua mão descansado(a).",
+    "effectPt": "[On Play] Se você tiver 2 ou menos Personagens, jogue da sua mão até 1 carta de Personagem do tipo {Muggy Kingdom} ou com atributo <Slash> com custo 4 ou menos que não seja [Dracule Mihawk] descansada.",
     "effectEn": "[On Play] If you have 2 or less Characters, play up to 1 {Muggy Kingdom} type or <Slash> attribute Character card with a cost of 4 or less other than [Dracule Mihawk] from your hand rested.",
     "keywordIds": [
       "on-play"
@@ -127,7 +127,7 @@
   {
     "id": "ST12-006",
     "code": "ST12-006",
-    "namePt": "Yosaku &amp; Johnny",
+    "namePt": "Yosaku & Johnny",
     "nameEn": "Yosaku &amp; Johnny",
     "cardType": "CHARACTER",
     "colors": [
@@ -140,7 +140,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Escolha um: • descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos. • K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Escolha um: • Descanse até 1 dos Personagens do seu oponente com custo 2 ou menos. • Dê K.O. em até 1 dos Personagens descansados do seu oponente com custo 2 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Choose one: • Rest up to 1 of your opponent's Characters with a cost of 2 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 2 or less.",
     "keywordIds": [
       "when-attacking",
@@ -165,7 +165,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[On Play] ➁ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Se seu oponente tiver 3 ou mais cartas de Vida, coloque Até 1 dos seus <Slash> atributo Personagens com custo de 4 ou menos as ativo(a).",
+    "effectPt": "[On Play] ➁ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.): Se o seu oponente tiver 3 ou mais Cartas de Vida, coloque até 1 dos seus Personagens com atributo <Slash> com custo 4 ou menos como ativo.",
     "effectEn": "[On Play] ➁ (You may rest the specified number of DON!! cards in your cost area.): If your opponent has 3 or more Life cards, set up to 1 of your <Slash> attribute Characters with a cost of 4 or less as active.",
     "keywordIds": [
       "on-play"
@@ -189,7 +189,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] descanse Até 1 dos Personagens do seu oponente com custo de 6 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Descanse até 1 dos Personagens do seu oponente com custo 6 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "keywordIds": [
       "when-attacking",
@@ -237,7 +237,7 @@
       "Impel Down",
       "Exército Revolucionário"
     ],
-    "effectPt": "[On Play] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2. Em seguida, coloque o restante no topo ou fundo do seu Deck. [Quando atacar] [Once Per Turn] Compre 1 carta se você tiver 6 ou menos cartas na sua mão.",
+    "effectPt": "[On Play] Revele 1 carta do topo do seu Deck e jogue até 1 carta de Personagem com custo 2. Em seguida, coloque o resto no topo ou no fundo do seu Deck. [Quando atacar] [Once Per Turn] Compre 1 carta se você tiver 6 ou menos cartas na sua mão.",
     "effectEn": "[On Play] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2. Then, place the rest at the top or bottom of your deck. [When Attacking] [Once Per Turn] Draw 1 card if you have 6 or less cards in your hand.",
     "keywordIds": [
       "on-play",
@@ -263,7 +263,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 Poder até o início do seu próximo turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver 5 ou menos cartas na sua mão, este Personagem ganha +2000 de poder até o início do seu próximo turno.",
     "effectEn": "[DON!! x1] [When Attacking] If you have 5 or less cards in your hand, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "when-attacking",
@@ -288,7 +288,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Activate: Main] retorne este Personagem para o dono's mão.",
+    "effectPt": "[Activate: Main] Retorne este Personagem para a mão do dono.",
     "effectEn": "[Activate: Main] Return this Character to the owner's hand.",
     "keywordIds": [
       "activate-main"
@@ -312,7 +312,7 @@
     "subtypes": [
       "East Blue"
     ],
-    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem. [Quando atacar] Revele 1 carta de o topo do seu Deck e jogue Até 1 carta(s) de Personagem com custo de 2 descansado(a). Em seguida, coloque o restante no topo ou fundo do seu Deck.",
+    "effectPt": "[On Play] Olhe 3 cartas do topo do seu Deck e coloque-as no topo ou no fundo do Deck em qualquer ordem. [Quando atacar] Revele 1 carta do topo do seu Deck e jogue até 1 carta de Personagem com custo 2 como descansada. Em seguida, coloque o restante no topo ou no fundo do seu Deck.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order. [When Attacking] Reveal 1 card from the top of your deck and play up to 1 Character card with a cost of 2 rested. Then, place the rest at the top or bottom of your deck.",
     "keywordIds": [
       "on-play",
@@ -337,7 +337,7 @@
     "subtypes": [
       "The Flying Fish Riders"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo ou fundo do deck em qualquer ordem.",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe 3 cartas do topo do seu Deck e coloque-as no topo ou no fundo do Deck em qualquer ordem.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of the deck in any order.",
     "keywordIds": [
       "blocker",
@@ -383,9 +383,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main]/[Counter] descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem com custo de 4 ou menos.",
+    "effectPt": "[Main]/[Counter] Descanse até 1 carta de Líder ou de Personagem do seu oponente com custo 4 ou menos.",
     "effectEn": "[Main]/[Counter] Rest up to 1 of your opponent's Leader or Character cards with a cost of 4 or less.",
-    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Main] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger",
@@ -409,7 +409,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha. Em seguida, revele 1 carta de o topo do seu Deck, jogue Até 1 carta(s) de Personagem com custo de 2, e coloque o restante no topo ou fundo do seu Deck.",
+    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou de Personagem ganha +2000 de poder durante esta batalha. Em seguida, revele 1 carta do topo do seu Deck, jogue até 1 carta de Personagem com custo 2 e coloque o restante no topo ou no fundo do seu Deck.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, reveal 1 card from the top of your deck, play up to 1 Character card with a cost of 2, and place the rest at the top or bottom of your deck.",
     "keywordIds": [
       "counter"

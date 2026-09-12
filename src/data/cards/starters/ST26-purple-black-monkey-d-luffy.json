@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver a [San-Gorou] ou [Sanji] Personagem com 7000 base Poder ou mais, dê esta carta na sua mão −5 custo. [On Play] retorne todos os seus [San-Gorou] e [Sanji] Personagens para o dono's mão.",
+    "effectPt": "Se você tiver um Personagem [San-Gorou] ou [Sanji] com 7000 de poder base ou mais, dê a esta carta na sua mão −5 de custo. [On Play] Retorne todos os seus Personagens [San-Gorou] e [Sanji] para a mão do dono.",
     "effectEn": "If you have a [San-Gorou] or [Sanji] Character with 7000 base power or more, give this card in your hand −5 cost. [On Play] Return all of your [San-Gorou] and [Sanji] Characters to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -40,7 +40,7 @@
       "Animal",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): descanse Até 1 do seu oponente cartas de DON!! ou Personagens com custo de 1 ou menos.",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Descanse até 1 carta de DON!! ou Personagem do seu oponente com custo 1 ou menor.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Rest up to 1 of your opponent's DON!! cards or Characters with a cost of 1 or less.",
     "keywordIds": [
       "blocker",
@@ -66,7 +66,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "on-play",
@@ -91,7 +91,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Dê Até 2 dos Personagens do seu oponente −2000 Poder durante este turno.",
+    "effectPt": "[On Play] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Dê a até 2 Personagens do seu oponente −2000 de poder durante este turno.",
     "effectEn": "[On Play] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Give up to 2 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "on-play",
@@ -116,7 +116,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! on o campo dele(a), seu {Bando do Chapéu de Palha} tipo Poder base do seu Líder torna-se 7000 até o fim da próxima Fase Final do seu oponente.",
+    "effectPt": "[On Play]/[Quando atacar] DON!! −2 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Se o seu Líder for multicolorido e seu oponente tiver 5 ou mais cartas de DON!! no campo dele, o poder base do seu Líder do tipo {Bando do Chapéu de Palha} passa a ser 7000 até o final da próxima Fase Final do seu oponente.",
     "effectEn": "[On Play]/[When Attacking] DON!! −2 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your Leader is multicolored and your opponent has 5 or more DON!! cards on their field, your {Straw Hat Crew} type Leader's base power becomes 7000 until the end of your opponent's next End Phase.",
     "keywordIds": [
       "on-play",

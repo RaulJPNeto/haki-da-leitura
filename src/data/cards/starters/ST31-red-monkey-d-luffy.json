@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x2] este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] Compre 1 carta e jogue Até 1 {Bando do Chapéu de Palha} tipo carta(s) de Personagem com custo de 5 ou menos diferente de [Sanji] da sua mão.",
+    "effectPt": "[DON!! x2] Este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] Compre 1 carta e jogue da sua mão até 1 carta de Personagem do tipo {Bando do Chapéu de Palha} com custo de 5 ou menos que não seja [Sanji].",
     "effectEn": "[DON!! x2] This Character gains [Rush]. (This card can attack on the turn in which it is played.) [On Play] Draw 1 card and play up to 1 {Straw Hat Crew} type Character card with a cost of 5 or less other than [Sanji] from your hand.",
     "keywordIds": [
       "rush",
@@ -42,7 +42,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Compre 1 carta e jogue Até 1 {Bando do Chapéu de Palha} carta do tipo com custo de 1 da sua mão.",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Compre 1 carta e jogue da sua mão até 1 carta do tipo {Bando do Chapéu de Palha} com custo de 1.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Draw 1 card and play up to 1 {Straw Hat Crew} type card with a cost of 1 from your hand.",
     "keywordIds": [
       "blocker",
@@ -67,7 +67,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Opponent's Turn] Se você tiver um total de 3 ou mais cartas de DON!! anexadas, este Personagem ganha [Blocker] e +3000 Poder. (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Opponent's Turn] Se você tiver um total de 3 ou mais cartas de DON!! atribuídas, este Personagem ganha [Blocker] e +3000 de poder. (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Opponent's Turn] If you have a total of 3 or more given DON!! cards, this Character gains [Blocker] and +3000 power. (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker",
@@ -79,7 +79,7 @@
   {
     "id": "ST31-004",
     "code": "ST31-004",
-    "namePt": "Monkey D Luffy",
+    "namePt": "Monkey D. Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -93,7 +93,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver um total de 3 ou mais cartas de DON!! anexadas, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] para cada {Bando do Chapéu de Palha} carta do tipo no seu campo, dê Até 1 dos Personagens do seu oponente −1000 Poder durante este turno.",
+    "effectPt": "Se você tiver um total de 3 ou mais cartas de DON!! atribuídas, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [On Play] Para cada carta do tipo {Bando do Chapéu de Palha} no seu campo, dê para até 1 dos Personagens do seu oponente −1000 de poder durante este turno.",
     "effectEn": "If you have a total of 3 or more given DON!! cards, this Character gains [Rush]. (This card can attack on the turn in which it is played.) [On Play] For every {Straw Hat Crew} type card on your field, give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "rush",
@@ -117,7 +117,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Bando do Chapéu de Palha} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descanse este Palco: Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Monkey.D.Luffy] cartas.",
+    "effectPt": "[On Play] Olhe 5 cartas do topo do seu Deck; revele até 1 carta do tipo {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o resto no fundo do seu Deck em qualquer ordem. [Activate: Main] Você pode descansar este Palco: Dê até 1 carta de DON!! descansada para 1 das suas cartas [Monkey.D.Luffy].",
     "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order. [Activate: Main] You may rest this Stage: Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards.",
     "keywordIds": [
       "on-play",

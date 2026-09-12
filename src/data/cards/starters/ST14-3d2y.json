@@ -2,7 +2,7 @@
   {
     "id": "ST14-001",
     "code": "ST14-001",
-    "namePt": "Monkey D Luffy",
+    "namePt": "Monkey D. Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "LEADER",
     "colors": [
@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] todos os seus Personagens ganha +1 custo. Se você tiver a Personagem com custo de 8 ou mais, este Líder ganha +1000 Poder.",
+    "effectPt": "[DON!! x1] Todos os seus Personagens ganham +1 de custo. Se você tiver um Personagem com custo de 8 ou mais, este Líder ganha +1000 de poder.",
     "effectEn": "[DON!! x1] All of your Characters gain +1 cost. If you have a Character with a cost of 8 or more, this Leader gains +1000 power.",
     "keywordIds": [
       "don-x"
@@ -39,7 +39,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver a Personagem com custo de 8 ou mais, K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[DON!! x1] [Quando atacar] Se você tiver um Personagem com custo de 8 ou mais, dê K.O. em até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "effectEn": "[DON!! x1] [When Attacking] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "when-attacking",
@@ -64,7 +64,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Se você tiver a Personagem com custo de 6 ou mais, K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
+    "effectPt": "[On Play] Se você tiver um Personagem com custo de 6 ou mais, dê K.O. em até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "effectEn": "[On Play] If you have a Character with a cost of 6 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
       "on-play"
@@ -89,7 +89,7 @@
       "Homem-Peixe",
       "The Sun Pirates"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 custo até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Até 1 dos seus Personagens pretos do tipo {Bando do Chapéu de Palha} ganha +2 de custo até o final do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
     "keywordIds": [
       "activate-main",
@@ -137,7 +137,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se você tiver 6 ou menos cartas na sua mão e um(a) Personagem com custo de 8 ou mais, compre 1 carta.",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Se você tiver 6 ou menos cartas na sua mão e um Personagem com custo de 8 ou mais, compre 1 carta.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] If you have 6 or less cards in your hand and a Character with a cost of 8 or more, draw 1 card.",
     "keywordIds": [
       "blocker",
@@ -162,7 +162,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Se você tiver a Personagem com custo de 8 ou mais, dê Até 1 dos Personagens do seu oponente −5 custo durante este turno.",
+    "effectPt": "[On Play]/[Quando atacar] Se você tiver um Personagem com custo de 8 ou mais, dê a até 1 dos Personagens do seu oponente −5 de custo durante este turno.",
     "effectEn": "[On Play]/[When Attacking] If you have a Character with a cost of 8 or more, give up to 1 of your opponent's Characters −5 cost during this turn.",
     "keywordIds": [
       "on-play",
@@ -187,7 +187,7 @@
     "subtypes": [
       "Sky Island"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 custo até o fim do próximo turno do seu oponente. Em seguida, se você tiver a Personagem com custo de 8 ou mais, compre 1 carta e descartar 1 carta da sua mão.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus Personagens pretos do tipo {Bando do Chapéu de Palha} recebe +2 de custo até o final do próximo turno do seu oponente. Em seguida, se você tiver um Personagem com custo de 8 ou mais, compre 1 carta e descarte 1 carta da sua mão.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn. Then, if you have a Character with a cost of 8 or more, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "activate-main"
@@ -211,7 +211,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Opponent's Turn] Se você tiver a Personagem com custo de 6 ou mais, este Personagem não pode ser nocauteado por efeitos do seu oponente e ganha +2000 Poder.",
+    "effectPt": "[DON!! x1] [Opponent's Turn] Se você tiver um Personagem com custo de 6 ou mais, este Personagem não pode sofrer K.O. pelos efeitos do seu oponente e recebe +2000 de poder.",
     "effectEn": "[DON!! x1] [Opponent's Turn] If you have a Character with a cost of 6 or more, this Character cannot be K.O.'d by your opponent's effects and gains +2000 power.",
     "keywordIds": [
       "opponents-turn",
@@ -258,7 +258,7 @@
     "subtypes": [
       "Bowin Island"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Personagem: Até 1 dos seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +2 custo até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Até 1 dos seus Personagens pretos do tipo {Bando do Chapéu de Palha} recebe +2 de custo até o final do próximo turno do seu oponente.",
     "effectEn": "[Activate: Main] You may rest this Character: Up to 1 of your black {Straw Hat Crew} type Characters gains +2 cost until the end of your opponent's next turn.",
     "keywordIds": [
       "activate-main"
@@ -269,7 +269,7 @@
   {
     "id": "ST14-012",
     "code": "ST14-012",
-    "namePt": "Monkey D Luffy",
+    "namePt": "Monkey D. Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -282,7 +282,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver a Personagem com custo de 10 ou mais, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "Se você tiver um Personagem com custo de 10 ou mais, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "If you have a Character with a cost of 10 or more, this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush"
@@ -327,9 +327,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Se você tiver a Personagem com custo de 8 ou mais, Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante esta batalha.",
+    "effectPt": "[Counter] Se você tiver um Personagem com custo de 8 ou mais, até 1 das suas cartas de Líder ou Personagem recebe +3000 de poder durante esta batalha.",
     "effectEn": "[Counter] If you have a Character with a cost of 8 or more, up to 1 of your Leader or Character cards gains +3000 power during this battle.",
-    "triggerPt": "[Trigger] adicione Até 1 do seu Personagem cartas com custo de 2 ou menos da sua lixeira para a sua mão.",
+    "triggerPt": "[Trigger] Adicione até 1 das suas cartas de Personagem com custo de 2 ou menos da sua lixeira à sua mão.",
     "triggerEn": "[Trigger] Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
     "keywordIds": [
       "trigger",
@@ -353,9 +353,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Até 1 do seu Líder ou carta(s) de Personagem ganha +3000 Poder durante este turno. Em seguida, se você tiver a Personagem com custo de 8 ou mais, K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Main] Até 1 das suas cartas de Líder ou Personagem recebe +3000 de poder durante este turno. Em seguida, se você tiver um Personagem com custo de 8 ou mais, dê K.O. em até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Main] Up to 1 of your Leader or Character cards gains +3000 power during this turn. Then, if you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
-    "triggerPt": "[Trigger] Se você tiver a Personagem com custo de 8 ou mais, K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
+    "triggerPt": "[Trigger] Se você tiver um Personagem com custo de 8 ou mais, dê K.O. em até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
     "triggerEn": "[Trigger] If you have a Character with a cost of 8 or more, K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
     "keywordIds": [
       "trigger"
@@ -378,9 +378,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Compre 1 carta. Em seguida, Até 1 dos seus Personagens ganha +3 custo até o fim do próximo turno do seu oponente.",
+    "effectPt": "[Main] Compre 1 carta. Em seguida, até 1 dos seus Personagens recebe +3 de custo até o final do próximo turno do seu oponente.",
     "effectEn": "[Main] Draw 1 card. Then, up to 1 of your Characters gains +3 cost until the end of your opponent's next turn.",
-    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "trigger"
@@ -403,7 +403,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "todos os seus preto(a) {Bando do Chapéu de Palha} tipo Personagens ganha +1 custo. [On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, compre 1 carta.",
+    "effectPt": "Todos os seus Personagens pretos do tipo {Bando do Chapéu de Palha} recebem +1 de custo. [On Play] Se o seu Líder tiver o tipo {Bando do Chapéu de Palha}, compre 1 carta.",
     "effectEn": "All of your black {Straw Hat Crew} type Characters gain +1 cost. [On Play] If your Leader has the {Straw Hat Crew} type, draw 1 card.",
     "keywordIds": [
       "on-play"

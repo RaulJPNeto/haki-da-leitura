@@ -16,7 +16,7 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −7 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): descarte até 1 do cartas de Vida do seu oponente.",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −7 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Envie para a lixeira até 1 carta de Vida do seu oponente.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −7 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Trash up to 1 of your opponent's Life cards.",
     "keywordIds": [
       "activate-main",
@@ -42,7 +42,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue Até 1 [Page um] carta com custo de 4 ou menos da sua mão.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Jogue até 1 carta [Page um] com custo 4 ou menos da sua mão.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play up to 1 [Page One] card with a cost of 4 or less from your hand.",
     "keywordIds": [
       "on-play",
@@ -68,7 +68,7 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] DON!! −5 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 6 ou menos. este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[On Play] DON!! −5 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Dê K.O. em até 1 Personagem do seu oponente com custo 6 ou menos. Este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[On Play] DON!! −5 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 6 or less. This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -94,7 +94,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Dê K.O. em até 1 dos Personagens do seu oponente com custo 4 ou menos.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "on-play",
@@ -119,7 +119,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 2 cartas e descartar 1 carta da sua mão.",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Compre 2 cartas e descarte 1 carta da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
@@ -145,7 +145,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Compre 1 carta.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Compre 1 carta.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Draw 1 card.",
     "keywordIds": [
       "on-play",
@@ -193,7 +193,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[On Play] You may trash 1 card from your hand: Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "on-play"
@@ -240,7 +240,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Dê K.O. em até 1 dos Personagens do seu oponente com custo 3 ou menos.",
     "effectEn": "[On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -268,7 +268,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -337,9 +337,9 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Main] Compre 1 carta, Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[Main] Compre 1 carta, então adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Main] Draw 1 card, then add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerPt": "[Trigger] Ative o efeito [Main] desta carta.",
     "triggerEn": "[Trigger] Activate this card's [Main] effect.",
     "keywordIds": [
       "trigger"
@@ -362,9 +362,9 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com custo de 6 ou menos, Em seguida, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[Main] Dê K.O. em até 1 dos Personagens do seu oponente com custo 6 ou menos, então adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 6 or less, then add up to 1 DON!! card from your DON!! deck and set it as active.",
-    "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerPt": "[Trigger] Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "trigger"
@@ -388,7 +388,7 @@
       "Quatro Imperadores",
       "Piratas das Feras"
     ],
-    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha.",
+    "effectPt": "[Counter] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Até 1 das suas cartas de Líder ou Personagem ganha +4000 de poder durante esta batalha.",
     "effectEn": "[Counter] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader or Character cards gains +4000 power during this battle.",
     "keywordIds": [
       "counter",
@@ -412,7 +412,7 @@
     "subtypes": [
       "Piratas das Feras"
     ],
-    "effectPt": "[Activate: Main] Você pode descanse este Palco: Se o seu Líder tiver o tipo {Piratas das Feras}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
+    "effectPt": "[Activate: Main] Você pode descansar este Estágio: Se o seu Líder tiver o tipo {Piratas das Feras}, adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a descansada.",
     "effectEn": "[Activate: Main] You may rest this Stage: If your Leader has the {Animal Kingdom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "activate-main"
