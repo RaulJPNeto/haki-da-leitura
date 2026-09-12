@@ -7,7 +7,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { loadMasterCards, partitionCards, rootDir } from './lib/card_loader.js';
-import { translateBatchWithGemini } from './lib/gemini_translator.js';
+import { translateBatchWithGemini, getActiveModelName } from './lib/gemini_translator.js';
 import { translateText } from './lib/translation_rules.js';
 
 const BATCH_SIZE = 10;
@@ -178,7 +178,7 @@ export async function runTranslationPipeline() {
   let totalProcessed = 0;
   for (let i = 0; i < batches.length; i++) {
     const currentBatch = batches[i];
-    console.log(`\n📡 Enviando lote ${i + 1}/${batches.length} (${currentBatch.length} cartas) para o Gemini...`);
+    console.log(`\n📡 Enviando lote ${i + 1}/${batches.length} (${currentBatch.length} cartas) para o Gemini [modelo: ${getActiveModelName()}]...`);
 
     const formattedPayload = currentBatch.map((c) => ({
       code: c.code,
@@ -230,7 +230,7 @@ export async function runTranslationPipeline() {
         totalProcessed++;
       }
 
-      console.log(`  ✓ Lote ${i + 1} traduzido e sanitizado com sucesso.`);
+      console.log(`  ✓ Lote ${i + 1} traduzido via ${getActiveModelName()} e sanitizado com sucesso.`);
 
       // Pacing para respeitar limite de 15 RPM
       if (i < batches.length - 1) {

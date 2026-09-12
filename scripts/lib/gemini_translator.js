@@ -73,8 +73,26 @@ function extractRetryDelay(errorText, defaultDelayMs = 15000) {
   return defaultDelayMs;
 }
 
+let activeModelIndex = 0;
+
+/**
+ * Retorna o nome do modelo atualmente ativo no ciclo de tradução.
+ * @returns {string}
+ */
+export function getActiveModelName() {
+  return CANDIDATE_MODELS[activeModelIndex] || CANDIDATE_MODELS[CANDIDATE_MODELS.length - 1];
+}
+
+/**
+ * Reinicia o índice do modelo ativo para o primeiro candidato (útil para testes ou novos ciclos).
+ */
+export function resetActiveModelIndex() {
+  activeModelIndex = 0;
+}
+
 /**
  * Traduz um lote de cartas utilizando a API do Google Gemini Flash com fallback automático e retentativas em 503/429.
+ * Mantém em memória o último modelo que respondeu com sucesso, reutilizando-o nos lotes seguintes até que falhe.
  * @param {Array<{code: string, nameEn: string, effectEn: string, triggerEn?: string}>} batch
  * @param {string} apiKey
  * @returns {Promise<Array<{code: string, namePt: string, effectPt: string, triggerPt?: string}>>}
@@ -108,7 +126,8 @@ export async function translateBatchWithGemini(batch, apiKey) {
 
   let lastError = null;
 
-  for (const modelName of CANDIDATE_MODELS) {
+  for (let i = activeModelIndex; i < CANDIDATE_MODELS.length; i++) {
+    const modelName = CANDIDATE_MODELS[i];
     const endpoint = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${encodeURIComponent(apiKey)}`;
 
     const maxRetries = 6;
@@ -127,7 +146,9 @@ export async function translateBatchWithGemini(batch, apiKey) {
         if (!response.ok) {
           const errorText = await response.text();
           if (response.status === 404) {
+            console.warn(`  ⚠️ Modelo ${modelName} não encontrado (HTTP 404). Alternando para o próximo modelo candidato...`);
             lastError = new Error(`HTTP 404: Modelo ${modelName} não encontrado.`);
+            activeModelIndex = i + 1;
             break;
           }
 
@@ -136,6 +157,7 @@ export async function translateBatchWithGemini(batch, apiKey) {
             if (errorText.includes('PerDay') || errorText.includes('Quota exceeded for metric')) {
               console.warn(`  ⚠️ Cota diária do modelo ${modelName} esgotada no Free Tier. Alternando imediatamente para o próximo modelo candidato...`);
               lastError = new Error(`Cota diária do modelo ${modelName} esgotada.`);
+              activeModelIndex = i + 1;
               break; // passa para o próximo modelo da lista CANDIDATE_MODELS
             }
 
@@ -145,7 +167,10 @@ export async function translateBatchWithGemini(batch, apiKey) {
             continue;
           }
 
-          throw new Error(`HTTP ${response.status}: ${errorText}`);
+          console.warn(`  ⚠️ Modelo ${modelName} falhou com HTTP ${response.status}. Alternando para o próximo modelo candidato...`);
+          lastError = new Error(`HTTP ${response.status}: ${errorText}`);
+          activeModelIndex = i + 1;
+          break;
         }
 
         const data = await response.json();
@@ -155,16 +180,21 @@ export async function translateBatchWithGemini(batch, apiKey) {
           throw new Error('Resposta vazia recebida do Gemini.');
         }
 
+        let parsed;
         try {
-          const parsed = JSON.parse(rawText);
-          return Array.isArray(parsed) ? parsed : [parsed];
+          parsed = JSON.parse(rawText);
         } catch (err) {
           const cleanJson = rawText.replace(/```json\s*/gi, '').replace(/```\s*$/gi, '').trim();
-          return JSON.parse(cleanJson);
+          parsed = JSON.parse(cleanJson);
         }
+
+        // Fixa o modelo atual que respondeu com sucesso para os próximos lotes
+        activeModelIndex = i;
+        return Array.isArray(parsed) ? parsed : [parsed];
       } catch (err) {
         lastError = err;
         if (err.message.includes('HTTP 404')) {
+          activeModelIndex = i + 1;
           break;
         }
         if (attempt < maxRetries && (err.message.includes('503') || err.message.includes('429'))) {
@@ -173,9 +203,15 @@ export async function translateBatchWithGemini(batch, apiKey) {
           await sleep(calculatedDelay);
           continue;
         }
+
+        if (attempt === maxRetries) {
+          console.warn(`  ⚠️ Esgotadas todas as ${maxRetries} tentativas para o modelo ${modelName}. Alternando para o próximo modelo candidato...`);
+          activeModelIndex = i + 1;
+          break;
+        }
       }
     }
   }
 
-  throw lastError || new Error('Nenhum modelo Gemini Flash respondeu com sucesso.');
+  throw lastError || new Error('Nenhum modelo Gemini Flash respondeu com sucesso (todos os modelos candidatos foram esgotados).');
 }
