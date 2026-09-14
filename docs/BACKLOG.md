@@ -17,12 +17,14 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 ## 📌 Tarefas Detalhadas
 
 ### Épico 1: Automação de Ingestão & Painel de Sincronização (ADM) (Concluído)
+
 - [x] **TASK-01:** Criar workflow do GitHub Actions (`.github/workflows/sync-cards.yml`) com cron semanal para buscar novas coleções no *Punk Records*.
 - [x] **TASK-02:** Adicionar passo de validação léxica (`audit_words.js`) e build no workflow antes de commitar dados automaticamente.
 - [x] **TASK-03:** Criar tela/modal administrativo simples protegido por PIN/Chave no PWA para acionar a sincronização sob demanda via GitHub Repository Dispatch API.
 - [x] **TASK-04:** Configurar alerta/notificação quando novas cartas forem detectadas e traduzidas.
 
 ### Épico 2: Revisão & Polimento de Telas e UX Mobile (Concluído)
+
 - [x] **TASK-05:** Revisão da tela principal e visor de escaneamento ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)): foco de câmera, feedback tátil, controles rápidos e badges de HUD.
 - [x] **TASK-06:** Revisão da tela intermediária de desempate ([`CandidateModal.tsx`](../src/components/CandidateModal.tsx)): ergonomia de toque, visualização comparativa e clareza de atributos.
 - [x] **TASK-07:** Revisão da ficha de detalhes ([`CardDetail.tsx`](../src/components/CardDetail.tsx)): legibilidade de fontes, cores temáticas por atributo/cor da carta e badges de tags interativas.
@@ -31,12 +33,14 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-10:** Revisão de navegação e controles globais: remoção de arquivos legados não utilizados (`Navigation.tsx`, `PieMenu.tsx`) e consolidação em [`Header.tsx`](../src/components/Header.tsx) + [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx).
 
 ### Épico 3: Deploy & Infraestrutura de Produção (Concluído)
+
 - [x] **TASK-11:** Inicializar repositório Git local (`git init`, `.gitignore` e primeiro commit semântico).
 - [x] **TASK-12:** Configurar projeto na Cloudflare Pages com build `npm run build` e diretório de saída `dist`.
 - [x] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
 - [x] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção da Cloudflare.
 
 ### Épico 4: Refinamento de OCR & Tradução Contínua
+
 - [x] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
 - [x] **TASK-16:** Otimização de Web Worker do Tesseract.js para carregamento assíncrono sob demanda via dynamic import (reduzindo consumo de memória e tempo inicial de carga).
 - [x] **TASK-17:** Refinamento léxico exaustivo, regras de concordância sintática PT-BR (Nami OP03-040, Reiju OP06-042, Luffy OP01-024) e atualização de pílulas de regras interativas (`[DON!! xN]`, `[Activate: Main]`, `[On Block]`).
@@ -48,6 +52,7 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
   - Avaliar a viabilidade de integrar um modelo leve de Machine Learning no cliente (ex: ONNX Runtime Web / MobileNet / embeddings visuais) para classificação e ordenação de candidatos a cartas sem exigir grandes refatorações na arquitetura offline-first.
 
 ### Épico 5: Recursos de Comunidade & Ferramentas de Jogador
+
 - [ ] **TASK-20:** Filtros Específicos por Atributos (9 Menus Suspensos) na Busca Manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)):
   - **Descrição:** Implementação de grade/linha de 9 seletores suspensos (dropdowns) com design dark glassmorphism e iluminação temática para filtragem refinada de cartas no modal de busca manual.
   - **Especificação Técnica dos 9 Seletores:**
@@ -79,6 +84,7 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 ---
 
 ## 🏷️ Critérios de Aceite para Deploy do MVP
+
 1. Zero erros de TypeScript (`npm run build`).
 2. Interface responsiva em resoluções mobile (360px a 430px de largura).
 3. Todas as rotas/modais abrindo e fechando suavemente sem quebras.
