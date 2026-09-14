@@ -15,7 +15,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Quando atacar] Se o seu Líder for [Edward.Newgate], você não pode adicionar cartas de Vida à sua mão usando seus próprios efeitos durante este turno.",
+    "effectPt": "[Quando atacar] Se o seu Líder for [Edward.Newgate], você não pode adicione cartas de Vida para a sua mão usando seu próprio(a) efeitos durante este turno.",
     "effectEn": "[When Attacking] If your Leader is [Edward.Newgate], you cannot add Life cards to your hand using your own effects during this turn.",
     "keywordIds": [
       "when-attacking"
@@ -40,7 +40,7 @@
       "Quatro Imperadores",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Dê até 1 carta de DON!! descansada para o seu Líder ou 1 dos seus Personagens. [Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 dos Personagens do seu oponente com 5000 de poder ou menos.",
+    "effectPt": "[On Play] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens. [Activate: Main] Você pode descanse este Personagem: K.O. Até 1 dos Personagens do seu oponente com 5000 ou menos de Poder.",
     "effectEn": "[On Play] Give up to 1 rested DON!! card to your Leader or 1 of your Characters. [Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with 5000 power or less.",
     "keywordIds": [
       "on-play",
@@ -65,7 +65,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Blocker] (Após seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Opponent's Turn] Quando este Personagem receber K.O. por um efeito, até 1 dos seus Líderes ganha +2000 de poder durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Opponent's Turn] Quando este Personagem for nocauteado por um efeito, Até 1 do seu Líder ganha +2000 Poder durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Opponent's Turn] When this Character is K.O.'d by an effect, up to 1 of your Leader gains +2000 power during this turn.",
     "keywordIds": [
       "blocker",
@@ -90,7 +90,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Piratas do Barba Branca\", dê a até 1 dos Personagens do seu oponente −2000 de poder durante este turno. Em seguida, adicione 1 carta do topo das suas Cartas de Vida à sua mão.",
+    "effectPt": "[On Play] Se o tipo do seu Líder incluir \"Whitebeard Pirates\", dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno. Em seguida, adicione 1 carta de o topo das suas cartas de Vida para a sua mão.",
     "effectEn": "[On Play] If your Leader's type includes \"Whitebeard Pirates\", give up to 1 of your opponent's Characters −2000 power during this turn. Then, add 1 card from the top of your Life cards to your hand.",
     "keywordIds": [
       "on-play"
@@ -101,7 +101,7 @@
   {
     "id": "ST15-005",
     "code": "ST15-005",
-    "namePt": "Portgas D. Ace",
+    "namePt": "Portgas D Ace",
     "nameEn": "Portgas D Ace",
     "cardType": "CHARACTER",
     "colors": [
@@ -114,7 +114,7 @@
     "subtypes": [
       "Piratas do Barba Branca"
     ],
-    "effectPt": "Se o tipo do seu Líder incluir \"Piratas do Barba Branca\", este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [Once Per Turn] Se este Personagem for sair de campo por um efeito do seu oponente, você pode dar −2000 de poder a este Personagem durante este turno em vez disso.",
+    "effectPt": "Se o tipo do seu Líder incluir \"Whitebeard Pirates\", este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.) [Once Per Turn] Se este Personagem for ser removido de campo por um efeito do seu oponente, você pode dê este Personagem −2000 Poder durante este turno em vez disso.",
     "effectEn": "If your Leader's type includes \"Whitebeard Pirates\", this Character gains [Rush]. (This card can attack on the turn in which it is played.) [Once Per Turn] If this Character would be removed from the field by your opponent's effect, you may give this Character −2000 power during this turn instead.",
     "keywordIds": [
       "rush",

@@ -15,7 +15,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Revele 1 carta do topo do seu Deck e adicione até 1 carta do tipo {FILM} à sua mão. Em seguida, coloque o restante no fundo do seu Deck.",
+    "effectPt": "[DON!! x1] [Quando atacar] [Once Per Turn] Revele 1 carta de o topo do seu Deck e adicione Até 1 {FILM} carta do tipo para a sua mão. Em seguida, coloque o restante no fundo do seu Deck.",
     "effectEn": "[DON!! x1] [When Attacking] [Once Per Turn] Reveal 1 card from the top of your deck and add up to 1 {FILM} type card to your hand. Then, place the rest at the bottom of your deck.",
     "keywordIds": [
       "when-attacking",
@@ -42,7 +42,7 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar 1 carta de Evento da sua mão: Coloque até 1 dos seus Personagens do tipo {FILM} como ativo.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar 1 Evento da sua mão: coloque Até 1 dos seus {FILM} tipo Personagens as ativo(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash 1 Event from your hand: Set up to 1 of your {FILM} type Characters as active.",
     "keywordIds": [
       "blocker",
@@ -67,7 +67,7 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Main] Se o seu Líder for [Uta], escolha um: • Descanse até 1 dos Personagens do seu oponente com custo 5 ou menos. • Dê K.O. em até 1 dos Personagens descansados do seu oponente com custo 5 ou menos.",
+    "effectPt": "[Main] Se o seu Líder for [Uta], escolha um: • descanse Até 1 dos Personagens do seu oponente com custo de 5 ou menos. • K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 5 ou menos.",
     "effectEn": "[Main] If your Leader is [Uta], choose one: • Rest up to 1 of your opponent's Characters with a cost of 5 or less. • K.O. up to 1 of your opponent's rested Characters with a cost of 5 or less.",
     "keywordIds": [],
     "setId": "ST-11",
@@ -89,7 +89,7 @@
       "Music",
       "FILM"
     ],
-    "effectPt": "[Main] Se o seu Líder for [Uta], olhe até 3 cartas do topo do seu Deck; revele até 1 carta do tipo {FILM} diferente de [New Genesis] e adicione-a à sua mão. Em seguida, coloque o resto no fundo do seu Deck em qualquer ordem e coloque até 1 das suas cartas de DON!! como ativa.",
+    "effectPt": "[Main] Se o seu Líder for [Uta], olhe no 3 cartas de o topo do seu Deck; revele Até 1 {FILM} carta do tipo diferente de [New Genesis] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem e coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[Main] If your Leader is [Uta], look at 3 cards from the top of your deck; reveal up to 1 {FILM} type card other than [New Genesis] and add it to your hand. Then, place the rest at the bottom of your deck in any order and set up to 1 of your DON!! cards as active.",
     "keywordIds": [],
     "setId": "ST-11",
@@ -111,9 +111,9 @@
       "音楽",
       "FILM"
     ],
-    "effectPt": "[Main] Coloque até 1 dos seus Líderes [Uta] como ativo.",
+    "effectPt": "[Main] coloque Até 1 dos seus [Uta] Líder as ativo(a).",
     "effectEn": "[Main] Set up to 1 of your [Uta] Leader as active.",
-    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem ganha +1000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ou carta(s) de Personagem ganha +1000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader or Character cards gains +1000 power during this turn.",
     "keywordIds": [
       "trigger"

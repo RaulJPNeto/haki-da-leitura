@@ -15,7 +15,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Você pode descartar 1 carta da sua mão: Compre 1 carta.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Você pode descartar 1 carta da sua mão: Compre 1 carta.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] You may trash 1 card from your hand: Draw 1 card.",
     "keywordIds": [
       "blocker",
@@ -40,7 +40,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Quando atacar] Você pode descartar 1 carta da sua mão: Se o seu oponente tiver 6 ou mais cartas na mão dele, o seu oponente descarta 1 carta da mão dele. [On K.O.] Jogue até 1 carta de Personagem do tipo {Marinha} com custo de 4 ou menos da sua mão.",
+    "effectPt": "[Quando atacar] Você pode descartar 1 carta da sua mão: Se seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 1 carta de a mão dele(a). [On K.O.] Jogue Até 1 {Marinha} tipo carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[When Attacking] You may trash 1 card from your hand: If your opponent has 6 or more cards in their hand, your opponent trashes 1 card from their hand. [On K.O.] Play up to 1 {Navy} type Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
       "when-attacking",
@@ -65,7 +65,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Coloque até 2 Personagens do seu oponente com custo de 2 ou menos no fundo do Deck do dono.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: coloque Até 2 dos Personagens do seu oponente com custo de 2 ou menos no fundo do Deck do dono.",
     "effectEn": "[On Play] You may trash 1 card from your hand: Place up to 2 of your opponent's Characters with a cost of 2 or less at the bottom of the owner's deck.",
     "keywordIds": [
       "on-play"
@@ -89,7 +89,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "Durante o turno em que uma carta na sua mão for descartada por um efeito, dê a esta carta na mão −3 de custo. [Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "During o turno no qual a carta na sua mão for descartada por um efeito, dê esta carta na sua mão −3 custo. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "During the turn in which a card in your hand is trashed by an effect, give this card in your hand −3 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -113,7 +113,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Marinha}, jogue até 1 carta de Personagem azul do tipo {Marinha} com 8000 de poder ou menos, diferente de [Monkey.D.Garp], da sua mão.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Marinha}, jogue Até 1 azul {Marinha} tipo carta(s) de Personagem com 8000 ou menos de Poder diferente de [Monkey.D.Garp] da sua mão.",
     "effectEn": "[On Play] If your Leader has the {Navy} type, play up to 1 blue {Navy} type Character card with 8000 power or less other than [Monkey.D.Garp] from your hand.",
     "keywordIds": [
       "on-play"

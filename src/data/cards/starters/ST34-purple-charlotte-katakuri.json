@@ -15,7 +15,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione até 2 cartas de DON!! do seu Deck de DON!! e descanse-as. [On K.O.] Jogue até 1 carta de Personagem com 8000 de poder ou menos da sua mão.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione Até 2 cartas de DON!! do seu Deck de DON!! e descanse elas. [On K.O.] Jogue Até 1 carta(s) de Personagem com 8000 ou menos de Poder da sua mão.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, if your Leader has the {Big Mom Pirates} type, add up to 2 DON!! cards from your DON!! deck and rest them. [On K.O.] Play up to 1 Character card with 8000 power or less from your hand.",
     "keywordIds": [
       "your-turn",
@@ -41,7 +41,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas da Big Mom}, adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como descansada. Em seguida, dê K.O. em até 1 Personagem do seu oponente com custo 2 ou menor.",
+    "effectPt": "[On Play] Se o seu Líder tiver o tipo {Piratas da Big Mom}, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a. Em seguida, K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[On Play] If your Leader has the {Big Mom Pirates} type, add up to 1 DON!! card from your DON!! deck and rest it. Then, K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "on-play"
@@ -65,7 +65,7 @@
     "subtypes": [
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] Olhe 3 cartas do topo do seu Deck; revele até 1 carta do tipo {Piratas da Big Mom} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck; revele Até 1 {Piratas da Big Mom} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck; reveal up to 1 {Big Mom Pirates} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -90,7 +90,7 @@
       "Quatro Imperadores",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[On Play] DON!! −4, você pode descartar 1 carta da sua mão: Adicione até 1 carta do topo do seu Deck para o topo das suas Cartas de Vida. Em seguida, o poder base de até 1 dos Personagens do seu oponente se torna 0 durante este turno.",
+    "effectPt": "[On Play] DON!! −4, Você pode descartar 1 carta da sua mão: adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, Até 1 dos Personagens do seu oponente' base Poder torna-se 0 durante este turno.",
     "effectEn": "[On Play] DON!! −4, you may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards. Then, up to 1 of your opponent's Characters' base power becomes 0 during this turn.",
     "keywordIds": [
       "on-play",
@@ -102,7 +102,7 @@
   {
     "id": "ST34-005",
     "code": "ST34-005",
-    "namePt": "Baron Tamago & Pekoms",
+    "namePt": "Baron Tamago &amp; Pekoms",
     "nameEn": "Baron Tamago &amp; Pekoms",
     "cardType": "CHARACTER",
     "colors": [
@@ -116,7 +116,7 @@
       "Minks",
       "Piratas da Big Mom"
     ],
-    "effectPt": "[Quando atacar] DON!! −1: Dê K.O. em até 1 Personagem do seu oponente com 2000 de poder base ou menos.",
+    "effectPt": "[Quando atacar] DON!! −1: K.O. Até 1 dos Personagens do seu oponente com 2000 base Poder ou menos.",
     "effectEn": "[When Attacking] DON!! −1: K.O. up to 1 of your opponent's Characters with 2000 base power or less.",
     "keywordIds": [
       "when-attacking",

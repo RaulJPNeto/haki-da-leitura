@@ -15,7 +15,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "Se você tiver um Personagem com 10000 de poder ou mais, dê a esta carta na sua mão −4 de custo. [Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "Se você tiver a Personagem com 10000 ou mais de Poder, dê esta carta na sua mão −4 custo. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "If you have a Character with 10000 power or more, give this card in your hand −4 cost. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -40,7 +40,7 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "Se o seu oponente tiver um Personagem com 8000 de poder base ou mais, dê a esta carta na sua mão −3 de custo. [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo} ou for [Uta], seu Líder ganha +2000 de poder até o final da próxima Fase Final do seu oponente.",
+    "effectPt": "Se seu oponente tiver a Personagem com 8000 base Poder ou mais, dê esta carta na sua mão −3 custo. [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo} ou for [Uta], seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente.",
     "effectEn": "If your opponent has a Character with 8000 base power or more, give this card in your hand −3 cost. [On Play] If your Leader has the {Red-Haired Pirates} type or is [Uta], your Leader gains +2000 power until the end of your opponent's next End Phase.",
     "keywordIds": [
       "on-play"
@@ -64,7 +64,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Se o seu Líder tiver o tipo {Piratas do Ruivo}, dê K.O. em até 1 dos Personagens do seu oponente com 4000 de poder base ou menos.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Se o seu Líder tiver o tipo {Piratas do Ruivo}, K.O. Até 1 dos Personagens do seu oponente com 4000 base Poder ou menos.",
     "effectEn": "[On Play] You may trash 1 card from your hand: If your Leader has the {Red-Haired Pirates} type, K.O. up to 1 of your opponent's Characters with 4000 base power or less.",
     "keywordIds": [
       "on-play"
@@ -90,7 +90,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar 1 das suas cartas de DON!! e este Personagem: Dê a até 1 dos Personagens do seu oponente −1000 de poder durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descanse 1 das suas cartas de DON!! e este Personagem: Dê Até 1 dos Personagens do seu oponente −1000 Poder durante este turno.",
     "effectEn": "[Activate: Main] You may rest 1 of your DON!! cards and this Character: Give up to 1 of your opponent's Characters −1000 power during this turn.",
     "keywordIds": [
       "activate-main"
@@ -114,7 +114,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta de DON!! descansada para o seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "activate-main",

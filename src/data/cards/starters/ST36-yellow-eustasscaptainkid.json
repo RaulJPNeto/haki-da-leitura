@@ -17,7 +17,7 @@
       "Supernovas",
       "Beautiful Pirates"
     ],
-    "effectPt": "[On K.O.] Você pode descartar 1 carta da sua mão: Adicione até 1 carta do topo do seu Deck para o topo das suas Cartas de Vida.",
+    "effectPt": "[On K.O.] Você pode descartar 1 carta da sua mão: adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[On K.O.] You may trash 1 card from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
     "keywordIds": [
       "on-ko"
@@ -42,9 +42,9 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] [On Play] Se o seu Líder tiver o tipo {Piratas do Kid}, adicione até 1 carta do topo do seu Deck para o topo das suas Cartas de Vida.",
+    "effectPt": "[Your Turn] [On Play] Se o seu Líder tiver o tipo {Piratas do Kid}, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
     "effectEn": "[Your Turn] [On Play] If your Leader has the {Kid Pirates} type, add up to 1 card from the top of your deck to the top of your Life cards.",
-    "triggerPt": "[Trigger] Se o seu oponente tiver 3 ou menos Cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
       "on-play",
@@ -99,7 +99,7 @@
       "Supernovas",
       "Barto Club"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta do tipo {Supernovas} da sua mão: Compre 2 cartas.",
+    "effectPt": "[On Play] Você pode descartar 1 {Supernovas} carta do tipo da sua mão: Compre 2 cartas.",
     "effectEn": "[On Play] You may trash 1 {Supernovas} type card from your hand: Draw 2 cards.",
     "keywordIds": [
       "on-play"
@@ -110,7 +110,7 @@
   {
     "id": "ST36-005",
     "code": "ST36-005",
-    "namePt": "Eustass \"Captain\" Kid",
+    "namePt": "Eustass\"Captain\"Kid",
     "nameEn": "Eustass\"Captain\"Kid",
     "cardType": "CHARACTER",
     "colors": [
@@ -124,7 +124,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode virar 1 carta do topo ou do fundo das suas Cartas de Vida com a face para baixo: Mude o alvo do ataque para o seu [Eustass \"Captain\" Kid] com 5000 de poder base ou mais. [Activate: Main] [Once Per Turn] Você pode virar 1 carta do topo ou do fundo das suas Cartas de Vida com a face para cima: Dê até 1 carta de DON!! descansada para o seu Líder.",
+    "effectPt": "[On Your Opponent's Attack] [Once Per Turn] Você pode vire 1 carta de o topo ou fundo das suas cartas de Vida viradas para baixo: Mude o alvo do ataque para seu [Eustass\"Captain\"Kid] com 5000 base Poder ou mais. [Activate: Main] [Once Per Turn] Você pode vire 1 carta de o topo ou fundo das suas cartas de Vida viradas para cima: Dê até 1 carta(s) de DON!! descansada(s) ao seu Líder.",
     "effectEn": "[On Your Opponent's Attack] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-down: Change the target of the attack to your [Eustass\"Captain\"Kid] with 5000 base power or more. [Activate: Main] [Once Per Turn] You may turn 1 card from the top or bottom of your Life cards face-up: Give up to 1 rested DON!! card to your Leader.",
     "keywordIds": [
       "activate-main",

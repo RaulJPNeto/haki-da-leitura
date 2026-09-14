@@ -16,7 +16,7 @@
       "Sete Corsários",
       "Baroque Works"
     ],
-    "effectPt": "[On Play] Revele 1 carta do topo do seu Deck. Se essa carta for uma carta do tipo {Os Sete Warlords do Mar}, compre 2 cartas e coloque 1 carta da sua mão no topo do seu Deck.",
+    "effectPt": "[On Play] Revele 1 carta de o topo do seu Deck. Se que carta for a {Sete Corsários} carta do tipo, compre 2 cartas e coloque 1 carta da sua mão no topo do seu Deck.",
     "effectEn": "[On Play] Reveal 1 card from the top of your deck. If that card is a {The Seven Warlords of the Sea} type card, draw 2 cards and place 1 card from your hand at the top of your deck.",
     "keywordIds": [
       "on-play"
@@ -41,7 +41,7 @@
       "Sete Corsários",
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play] Você pode retornar 1 dos seus Personagens para a mão do dono: Se o seu Líder tiver o tipo {Os Sete Worsas do Mar}, retorne até 1 Personagem com custo 4 ou menos para a mão do dono.",
+    "effectPt": "[On Play] Você pode retorne 1 dos seus Personagens para o dono's mão: Se o seu Líder tiver o tipo {Sete Corsários}, retorne Até 1 Personagem com custo de 4 ou menos para o dono's mão.",
     "effectEn": "[On Play] You may return 1 of your Characters to the owner's hand: If your Leader has the {The Seven Warlords of the Sea} type, return up to 1 Character with a cost of 4 or less to the owner's hand.",
     "keywordIds": [
       "on-play"
@@ -66,7 +66,7 @@
       "Sete Corsários",
       "Buggy's Delivery"
     ],
-    "effectPt": "[On Play] Olhe 3 cartas do topo do seu Deck e coloque-as no topo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 3 cards from the top of your deck and place them at the top of your deck in any order.",
     "keywordIds": [
       "on-play"
@@ -91,7 +91,7 @@
       "Sete Corsários",
       "Piratas Kuja"
     ],
-    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe 3 cartas do topo do seu Deck e coloque-as no topo ou no fundo do seu Deck em qualquer ordem. Em seguida, dê até 1 carta de DON!! descansada para 1 das suas cartas de Líder ou Personagem do tipo {Os Sete Worsas do Mar}.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Olhe no 3 cartas de o topo do seu Deck e coloque elas no topo ou fundo do seu Deck em qualquer ordem. Em seguida, dê Até 1 descansado(a) carta de DON!! para 1 dos seus {Sete Corsários} tipo Líder ou carta(s) de Personagem.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Look at 3 cards from the top of your deck and place them at the top or bottom of your deck in any order. Then, give up to 1 rested DON!! card to 1 of your {The Seven Warlords of the Sea} type Leader or Character cards.",
     "keywordIds": [
       "blocker",
@@ -103,7 +103,7 @@
   {
     "id": "ST17-005",
     "code": "ST17-005",
-    "namePt": "Marshall D. Teach",
+    "namePt": "Marshall D Teach",
     "nameEn": "Marshall D Teach",
     "cardType": "CHARACTER",
     "colors": [
@@ -117,7 +117,7 @@
       "Sete Corsários",
       "Piratas do Barba Negra"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua mão no topo do seu Deck: Dê até 2 cartas de DON!! descansadas para o seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Você pode colocar 1 carta da sua mão no topo do seu Deck: Dê Até 2 descansado(a) cartas de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Activate: Main] [Once Per Turn] You may place 1 card from your hand at the top of your deck: Give up to 2 rested DON!! cards to your Leader or 1 of your Characters.",
     "keywordIds": [
       "activate-main",

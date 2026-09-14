@@ -2,7 +2,7 @@
   {
     "id": "ST08-001",
     "code": "ST08-001",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "LEADER",
     "colors": [
@@ -15,7 +15,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Your Turn] Quando um Personagem receber K.O., dê até 1 carta de DON!! descansada para este Líder.",
+    "effectPt": "[Your Turn] Quando um Personagem for nocauteado, dê Até 1 descansado(a) carta de DON!! para este Líder.",
     "effectEn": "[Your Turn] When a Character is K.O.'d, give up to 1 rested DON!! card to this Leader.",
     "keywordIds": [
       "your-turn"
@@ -39,7 +39,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "Este Personagem não pode sofrer K.O. em batalha por Líderes. [Activate: Main] Você pode descansar este Personagem: Dê a até 1 dos Personagens do seu oponente −2 de custo durante este turno.",
+    "effectPt": "este Personagem não pode ser nocauteado em batalha por Líderes. [Activate: Main] Você pode descanse este Personagem: Dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
     "effectEn": "This Character cannot be K.O.'d in battle by Leaders. [Activate: Main] You may rest this Character: Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "activate-main"
@@ -85,7 +85,7 @@
     "subtypes": [
       "Marinha"
     ],
-    "effectPt": "[Activate: Main] Você pode descansar este Personagem: Dê K.O. em até 1 dos Personagens do seu oponente com um custo de 2 ou menos.",
+    "effectPt": "[Activate: Main] Você pode descanse este Personagem: K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Activate: Main] You may rest this Character: K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "activate-main"
@@ -109,7 +109,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Dê K.O. em todos os Personagens com um custo de 1 ou menos.",
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: K.O. todos os Personagens com custo de 1 ou menos.",
     "effectEn": "[On Play] You may trash 1 card from your hand: K.O. all Characters with a cost of 1 or less.",
     "keywordIds": [
       "on-play"
@@ -133,7 +133,7 @@
     "subtypes": [
       "Tritão"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Dê a até 1 dos Personagens do seu oponente −4 de custo durante este turno.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] Dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] Give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "blocker",
@@ -158,7 +158,7 @@
     "subtypes": [
       "Alabasta"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -185,7 +185,7 @@
     "subtypes": [
       "Bandidos da Montanha"
     ],
-    "effectPt": "[On Play] Dê a até 1 dos Personagens do seu oponente −2 de custo durante este turno.",
+    "effectPt": "[On Play] Dê Até 1 dos Personagens do seu oponente −2 custo durante este turno.",
     "effectEn": "[On Play] Give up to 1 of your opponent's Characters −2 cost during this turn.",
     "keywordIds": [
       "on-play"
@@ -209,7 +209,7 @@
     "subtypes": [
       "Vila Moinho de Vento"
     ],
-    "effectPt": "[On Play] Se houver um Personagem com custo 0, compre 1 carta.",
+    "effectPt": "[On Play] se houver a Personagem com custo de 0, compre 1 carta.",
     "effectEn": "[On Play] If there is a Character with a cost of 0, draw 1 card.",
     "keywordIds": [
       "on-play"
@@ -286,7 +286,7 @@
   {
     "id": "ST08-013",
     "code": "ST08-013",
-    "namePt": "Mr. 2 Bon Kurei (Bentham)",
+    "namePt": "Mr 2 Bon Kurei(Bentham)",
     "nameEn": "Mr 2 Bon Kurei(Bentham)",
     "cardType": "CHARACTER",
     "colors": [
@@ -299,7 +299,7 @@
     "subtypes": [
       "Former Baroque Works"
     ],
-    "effectPt": "[DON!! x1] No final de uma batalha em que este Personagem batalhe com o Personagem do seu oponente, você pode dar K.O. no Personagem do oponente com o qual você batalhou. Se fizer isso, dê K.O. neste Personagem.",
+    "effectPt": "[DON!! x1] no fim da batalha no qual este Personagem batalhar com o do seu oponente Personagem, Você pode K.O. o oponente’s Personagem você battled com. Se fizer isso, K.O. este Personagem.",
     "effectEn": "[DON!! x1] At the end of a battle in which this Character battles your opponent's Character, you may K.O. the opponent’s Character you battled with. If you do, K.O. this Character.",
     "keywordIds": [
       "don-x"
@@ -310,7 +310,7 @@
   {
     "id": "ST08-014",
     "code": "ST08-014",
-    "namePt": "Sino do Goma-Goma",
+    "namePt": "Gum-Gum Bell",
     "nameEn": "Gum-Gum Bell",
     "cardType": "EVENT",
     "colors": [
@@ -322,9 +322,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Você pode adicionar 1 carta do topo das suas Cartas de Vida à sua mão: Dê a até 1 dos Personagens do seu oponente −7 de custo durante este turno.",
+    "effectPt": "[Main] Você pode adicione 1 carta de o topo das suas cartas de Vida para a sua mão: Dê Até 1 dos Personagens do seu oponente −7 custo durante este turno.",
     "effectEn": "[Main] You may add 1 card from the top of your Life cards to your hand: Give up to 1 of your opponent's Characters −7 cost during this turn.",
-    "triggerPt": "[Trigger] Adicione até 1 carta de Personagem preta com um custo de 2 ou menos da sua lixeira à sua mão.",
+    "triggerPt": "[Trigger] adicione Até 1 preto(a) carta(s) de Personagem com custo de 2 ou menos da sua lixeira para a sua mão.",
     "triggerEn": "[Trigger] Add up to 1 black Character card with a cost of 2 or less from your trash to your hand.",
     "keywordIds": [
       "trigger"
@@ -335,7 +335,7 @@
   {
     "id": "ST08-015",
     "code": "ST08-015",
-    "namePt": "Pistola Goma-Goma",
+    "namePt": "Gum-Gum Pistol",
     "nameEn": "Gum-Gum Pistol",
     "cardType": "EVENT",
     "colors": [
@@ -347,7 +347,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Dê K.O. em até 1 dos Personagens do seu oponente com um custo de 2 ou menos.",
+    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
     "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",

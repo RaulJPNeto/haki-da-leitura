@@ -16,7 +16,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta da sua mão: Coloque este Líder como ativo.",
+    "effectPt": "[Activate: Main] [Once Per Turn] ③ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descartar 1 carta da sua mão: coloque este Líder as ativo(a).",
     "effectEn": "[Activate: Main] [Once Per Turn] ③ (You may rest the specified number of DON!! cards in your cost area.) You may trash 1 card from your hand: Set this Leader as active.",
     "keywordIds": [
       "activate-main",
@@ -64,7 +64,7 @@
       "Supernovas",
       "Fallen Monk Pirates"
     ],
-    "effectPt": "[DON!! x1] Se você tiver 3 ou mais Personagens, esta carta ganha +2000 de poder.",
+    "effectPt": "[DON!! x1] Se você tiver 3 ou mais Personagens, esta carta ganha +2000 Poder.",
     "effectEn": "[DON!! x1] If you have 3 or more Characters, this card gains +2000 power.",
     "keywordIds": [
       "don-x"
@@ -89,7 +89,7 @@
       "Supernovas",
       "Piratas Firetank"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -114,7 +114,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[On Play] Dê K.O. em até 1 dos Personagens descansados do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[On Play] K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -164,7 +164,7 @@
       "Supernovas",
       "Bonney Pirates"
     ],
-    "effectPt": "[Activate: Main] ➀ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.) Você pode descansar este Personagem: Olhe até 5 cartas do topo do seu Deck; revele até 1 carta do tipo {Supernovas} e adicione-a à sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[Activate: Main] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.) Você pode descanse este Personagem: Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Supernovas} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[Activate: Main] ➀ (You may rest the specified number of DON!! cards in your cost area.) You may rest this Character: Look at 5 cards from the top of your deck; reveal up to 1 {Supernovas} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "keywordIds": [
       "activate-main"
@@ -189,7 +189,7 @@
       "Supernovas",
       "On-Air Pirates"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Descanse até 1 carta de DON!! do seu oponente.",
+    "effectPt": "[DON!! x1] [Quando atacar] descanse Até 1 do seu oponente cartas de DON!!.",
     "effectEn": "[DON!! x1] [When Attacking] Rest up to 1 of your opponent's DON!! cards.",
     "keywordIds": [
       "when-attacking",
@@ -215,7 +215,7 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play] Coloque até 1 dos seus Personagens descansados do tipo {Supernovas} ou {Piratas Heart} com custo de 5 ou menos como ativo.",
+    "effectPt": "[On Play] coloque Até 1 dos seus {Supernovas} ou {Piratas do Coração} tipo descansado(a) Personagens com custo de 5 ou menos as ativo(a).",
     "effectEn": "[On Play] Set up to 1 of your {Supernovas} or {Heart Pirates} type rested Characters with a cost of 5 or less as active.",
     "keywordIds": [
       "on-play"
@@ -240,7 +240,7 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effectPt": "[DON!! x1] [Once Per Turn] [Your Turn] Se este Personagem batalhar com o Personagem do seu oponente, coloque esta carta como ativa.",
+    "effectPt": "[DON!! x1] [Once Per Turn] [Your Turn] Se este Personagem batalhar com o do seu oponente Personagem, coloque esta carta as ativo(a).",
     "effectEn": "[DON!! x1] [Once Per Turn] [Your Turn] If this Character battles your opponent's Character, set this card as active.",
     "keywordIds": [
       "your-turn",
@@ -312,7 +312,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] Coloque este Personagem como ativo.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [DON!! x1] [fim dos seus turno] coloque este Personagem as ativo(a).",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [DON!! x1] [End of Your Turn] Set this Character as active.",
     "keywordIds": [
       "blocker",
@@ -340,7 +340,7 @@
       "Supernovas",
       "Drake Pirates"
     ],
-    "effectPt": "[DON!! x1] [Your Turn] Se este Personagem estiver descansado, seus Líderes e Personagens do tipo {Supernovas} ou {Marinha} ganham +1000 de poder.",
+    "effectPt": "[DON!! x1] [Your Turn] Se este Personagem for descansado(a), seu {Supernovas} ou {Marinha} Líderes e Personagens do tipo ganha +1000 Poder.",
     "effectEn": "[DON!! x1] [Your Turn] If this Character is rested, your {Supernovas} or {Navy} type Leaders and Characters gain +1000 power.",
     "keywordIds": [
       "your-turn",
@@ -365,9 +365,9 @@
       "Supernovas",
       "Piratas do Coração"
     ],
-    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +2000 de poder durante esta batalha. Em seguida, coloque até 1 carta de DON!! como ativa.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
-    "triggerPt": "[Trigger] Coloque até 2 cartas de DON!! como ativas.",
+    "triggerPt": "[Trigger] coloque Até 2 das suas cartas de DON!! as ativo(a).",
     "triggerEn": "[Trigger] Set up to 2 of your DON!! cards as active.",
     "keywordIds": [
       "trigger",
@@ -392,7 +392,7 @@
       "Supernovas",
       "Piratas do Kid"
     ],
-    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +4000 de poder durante esta batalha. Em seguida, coloque até 1 carta de DON!! como ativa.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, coloque Até 1 das suas cartas de DON!! as ativo(a).",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, set up to 1 of your DON!! cards as active.",
     "keywordIds": [
       "counter"
@@ -416,9 +416,9 @@
       "Supernovas",
       "Hawkins Pirates"
     ],
-    "effectPt": "[Main] Descanse até 1 Personagem do seu oponente.",
+    "effectPt": "[Main] descanse Até 1 dos Personagens do seu oponente.",
     "effectEn": "[Main] Rest up to 1 of your opponent's Characters.",
-    "triggerPt": "[Trigger] Jogue até 1 carta do tipo {Supernovas} com custo 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Supernovas} carta do tipo com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 {Supernovas} type card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"

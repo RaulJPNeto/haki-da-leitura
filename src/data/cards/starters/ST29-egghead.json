@@ -2,7 +2,7 @@
   {
     "id": "ST29-001",
     "code": "ST29-001",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "LEADER",
     "colors": [
@@ -17,7 +17,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Quando atacar] Se você tiver 2 ou menos Cartas de Vida, compre 1 carta e descarte 1 carta da sua mão.",
+    "effectPt": "[Quando atacar] Se você tiver 2 ou menos cartas de Vida, compre 1 carta e descartar 1 carta da sua mão.",
     "effectEn": "[When Attacking] If you have 2 or less Life cards, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "when-attacking"
@@ -42,7 +42,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Descanse até 1 dos Personagens do seu oponente com um custo igual ou menor que o número de Cartas de Vida do seu oponente.",
+    "effectPt": "[On Play]/[Quando atacar] descanse Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o número do cartas de Vida do seu oponente.",
     "effectEn": "[On Play]/[When Attacking] Rest up to 1 of your opponent's Characters with a cost equal to or less than the number of your opponent's Life cards.",
     "keywordIds": [
       "on-play",
@@ -68,9 +68,9 @@
       "Egghead",
       "CP0"
     ],
-    "effectPt": "Se o número das suas Cartas de Vida for igual ou menor que o número de Cartas de Vida do seu oponente, este Personagem ganha +1000 de poder.",
+    "effectPt": "Se o número das suas cartas de Vida for igual a ou menos do que o número do cartas de Vida do seu oponente, este Personagem ganha +1000 Poder.",
     "effectEn": "If the number of your Life cards is equal to or less than the number of your opponent's Life cards, this Character gains +1000 power.",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com um custo de 3 ou menos.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "trigger"
@@ -95,7 +95,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Olhe até 4 cartas do topo do seu Deck; revele até 1 carta do tipo {Bando do Chapéu de Palha} e adicione-a à sua mão. Em seguida, coloque o resto no fundo do seu Deck em qualquer ordem.",
+    "effectPt": "[On Play] Olhe no 4 cartas de o topo do seu Deck; revele Até 1 {Bando do Chapéu de Palha} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
     "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
     "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: Play this card.",
@@ -174,9 +174,9 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On K.O.] Você pode adicionar 1 carta do topo ou do fundo das suas Cartas de Vida à sua mão: Adicione até 1 carta da sua mão ao topo das suas Cartas de Vida.",
+    "effectPt": "[On K.O.] Você pode adicione 1 carta de o topo ou fundo das suas cartas de Vida para a sua mão: adicione Até 1 carta da sua mão para o topo das suas cartas de Vida.",
     "effectEn": "[On K.O.] You may add 1 card from the top or bottom of your Life cards to your hand: Add up to 1 card from your hand to the top of your Life cards.",
-    "triggerPt": "[Trigger] Até 1 das suas cartas [Monkey.D.Luffy] ganha +2000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus [Monkey.D.Luffy] cartas ganha +2000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Monkey.D.Luffy] cards gains +2000 power during this turn.",
     "keywordIds": [
       "trigger",
@@ -202,7 +202,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se um Personagem do tipo {Egghead} seu for sofrer K.O. por um efeito do oponente, você pode virar 1 carta do topo das suas Cartas de Vida com a face para cima em vez disso.",
+    "effectPt": "Se seu {Egghead} tipo Personagem for ser nocauteado por um efeito do seu oponente, Você pode vire 1 carta de o topo das suas cartas de Vida viradas para cima em vez disso.",
     "effectEn": "If your {Egghead} type Character would be K.O.'d by your opponent's effect, you may turn 1 card from the top of your Life cards face-up instead.",
     "triggerPt": "[Trigger] Se o seu Líder for [Monkey.D.Luffy], jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
@@ -229,7 +229,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "triggerPt": "[Trigger] Se o seu Líder for [Monkey.D.Luffy], jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
@@ -280,7 +280,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Blocker] (Após o seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
     "keywordIds": [
       "blocker"
@@ -291,7 +291,7 @@
   {
     "id": "ST29-012",
     "code": "ST29-012",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -306,7 +306,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Dê até 1 carta de DON!! descansada para 1 das suas cartas [Monkey.D.Luffy].",
+    "effectPt": "[Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus [Monkey.D.Luffy] cartas.",
     "effectEn": "[Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your [Monkey.D.Luffy] cards.",
     "triggerPt": "[Trigger] Jogue esta carta.",
     "triggerEn": "[Trigger] Play this card.",
@@ -337,7 +337,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com um custo igual ou menor que o total de Cartas de Vida suas e do seu oponente.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo igual ou inferior ao total de cartas de Vida suas e do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "keywordIds": [
       "trigger"
@@ -362,7 +362,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta com um [Trigger] da sua mão: Compre 1 carta e dê até 1 carta de DON!! descansada para o seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta com a [Trigger] da sua mão: Compre 1 carta e dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Draw 1 card and give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "rush-character",
@@ -389,7 +389,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 dos seus Líderes ou cartas de Personagem ganha +2000 de poder durante esta batalha. Então, se você tiver 1 ou menos Cartas de Vida, dê até 1 dos Líderes ou cartas de Personagem do seu oponente −2000 de poder durante este turno.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha. Em seguida, se você tiver 1 ou menos cartas de Vida, dê Até 1 do Líder do seu oponente ou carta(s) de Personagem −2000 Poder durante este turno.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle. Then, if you have 1 or less Life cards, give up to 1 of your opponent's Leader or Character cards −2000 power during this turn.",
     "triggerPt": "[Trigger] Compre 1 carta.",
     "triggerEn": "[Trigger] Draw 1 card.",
@@ -417,7 +417,7 @@
       "Quatro Imperadores",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] O seu Líder [Monkey.D.Luffy] ganha [Unblockable] durante este turno. (Esta carta não pode ser bloqueada.) [Counter] O seu Líder ganha +3000 de poder durante esta batalha.",
+    "effectPt": "[Main] seu [Monkey.D.Luffy] Líder ganha [Unblockable] durante este turno. (esta carta não pode ser bloqueado.) [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
     "effectEn": "[Main] Your [Monkey.D.Luffy] Leader gains [Unblockable] during this turn. (This card cannot be blocked.) [Counter] Your Leader gains +3000 power during this battle.",
     "keywordIds": [
       "counter",
@@ -442,9 +442,9 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 dos seus Líderes ou cartas de Personagem ganha +4000 de poder durante esta batalha. Então, se você tiver 2 ou menos Cartas de Vida, dê K.O. em até 1 dos Personagens do seu oponente com um custo de 3 ou menos.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +4000 Poder durante esta batalha. Em seguida, se você tiver 2 ou menos cartas de Vida, K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +4000 power during this battle. Then, if you have 2 or less Life cards, K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
-    "triggerPt": "[Trigger] Compre 2 cartas e descarte 1 carta da sua mão.",
+    "triggerPt": "[Trigger] Compre 2 cartas e descartar 1 carta da sua mão.",
     "triggerEn": "[Trigger] Draw 2 cards and trash 1 card from your hand.",
     "keywordIds": [
       "trigger",

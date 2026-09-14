@@ -16,7 +16,7 @@
     "subtypes": [
       "Piratas do Coração"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Coloque até 1 dos Personagens do seu oponente com 3000 de poder ou menos no fundo do Deck do dono, e jogue até 1 carta de Personagem com custo de 4 ou menos da sua mão.",
+    "effectPt": "[Activate: Main] [Once Per Turn] DON!! −3 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): coloque Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder no fundo do Deck do dono, e jogue Até 1 carta(s) de Personagem com custo de 4 ou menos da sua mão.",
     "effectEn": "[Activate: Main] [Once Per Turn] DON!! −3 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Place up to 1 of your opponent's Characters with 3000 power or less at the bottom of the owner's deck, and play up to 1 Character card with a cost of 4 or less from your hand.",
     "keywordIds": [
       "activate-main",
@@ -29,7 +29,7 @@
   {
     "id": "ST10-002",
     "code": "ST10-002",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "LEADER",
     "colors": [
@@ -43,7 +43,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 0 cartas de DON!! no seu campo ou 8 ou mais cartas de DON!! no seu campo, adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[Activate: Main] [Once Per Turn] Se você tiver 0 cartas de DON!! no seu campo ou 8 ou mais cartas de DON!! no seu campo, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[Activate: Main] [Once Per Turn] If you have 0 DON!! cards on your field or 8 or more DON!! cards on your field, add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "activate-main",
@@ -55,7 +55,7 @@
   {
     "id": "ST10-003",
     "code": "ST10-003",
-    "namePt": "Eustass \"Captain\" Kid",
+    "namePt": "Eustass\"Captain\"Kid",
     "nameEn": "Eustass\"Captain\"Kid",
     "cardType": "LEADER",
     "colors": [
@@ -69,7 +69,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] Se você tiver 4 ou mais cartas de Vida, dê a este Líder −1000 de poder. [Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Este Líder ganha +2000 de poder durante este turno.",
+    "effectPt": "[Your Turn] Se você tiver 4 ou mais cartas de Vida, dê este Líder −1000 Poder. [Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): este Líder ganha +2000 Poder durante este turno.",
     "effectEn": "[Your Turn] If you have 4 or more Life cards, give this Leader −1000 power. [When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): This Leader gains +2000 power during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -95,7 +95,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] Se o seu oponente tiver um Personagem com 5000 de poder ou mais, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectPt": "[On Play] Se seu oponente tiver a Personagem com 5000 ou mais Poder, este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
     "effectEn": "[On Play] If your opponent has a Character with 5000 or more power, this Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
     "keywordIds": [
       "rush",
@@ -121,7 +121,7 @@
       "Homem-Peixe",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[DON!! x1] [Quando atacar] Dê a até 1 dos Personagens do seu oponente −2000 de poder durante este turno.",
+    "effectPt": "[DON!! x1] [Quando atacar] Dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "[DON!! x1] [When Attacking] Give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "when-attacking",
@@ -133,7 +133,7 @@
   {
     "id": "ST10-006",
     "code": "ST10-006",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -146,7 +146,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [Once Per Turn] Quando seu oponente ativar um [Blocker], dê K.O. em até 1 dos Personagens do seu oponente com 8000 de poder ou menos.",
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [Once Per Turn] Quando seu oponente ativar a [Blocker], K.O. Até 1 dos Personagens do seu oponente com 8000 ou menos de Poder.",
     "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [Once Per Turn] When your opponent activates a [Blocker], K.O. up to 1 of your opponent's Characters with 8000 power or less.",
     "keywordIds": [
       "blocker",
@@ -172,7 +172,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, dê K.O. em até 1 dos Personagens descansados do seu oponente com custo de 3 ou menos.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 3 ou menos.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, K.O. up to 1 of your opponent's rested Characters with a cost of 3 or less.",
     "keywordIds": [
       "your-turn",
@@ -184,7 +184,7 @@
   {
     "id": "ST10-008",
     "code": "ST10-008",
-    "namePt": "Shachi & Penguin",
+    "namePt": "Shachi &amp; Penguin",
     "nameEn": "Shachi &amp; Penguin",
     "cardType": "CHARACTER",
     "colors": [
@@ -197,7 +197,7 @@
     "subtypes": [
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de DON!! no seu campo, adicione até 2 cartas de DON!! do seu Deck de DON!! e descanse-as.",
+    "effectPt": "[On Play] Se você tiver 3 ou menos cartas de DON!! no seu campo, adicione Até 2 cartas de DON!! do seu Deck de DON!! e descanse elas.",
     "effectEn": "[On Play] If you have 3 or less DON!! cards on your field, add up to 2 DON!! cards from your DON!! deck and rest them.",
     "keywordIds": [
       "on-play"
@@ -221,7 +221,7 @@
     "subtypes": [
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play] ➀ (Você pode descansar o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "effectPt": "[On Play] ➀ (Você pode descanse o número especificado de cartas de DON!! na sua área de custo.): Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "effectEn": "[On Play] ➀ (You may rest the specified number of DON!! cards in your cost area.): Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "on-play"
@@ -245,7 +245,7 @@
     "subtypes": [
       "Piratas do Coração"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Se o seu oponente tiver 7 ou mais cartas na mão dele, descarte 2 cartas da mão do seu oponente.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Play] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Se seu oponente tiver 7 ou mais cartas na mão dele(a), descartar 2 cartas da sua mão do seu oponente.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Play] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): If your opponent has 7 or more cards in their hand, trash 2 cards from your opponent's hand.",
     "keywordIds": [
       "blocker",
@@ -271,7 +271,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, este Personagem ganha +2000 de poder até o início do seu próximo turno.",
+    "effectPt": "[Your Turn] [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, este Personagem ganha +2000 Poder até o início do seu próximo turno.",
     "effectEn": "[Your Turn] [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, this Character gains +2000 power until the start of your next turn.",
     "keywordIds": [
       "your-turn",
@@ -297,7 +297,7 @@
       "Minks",
       "Piratas do Coração"
     ],
-    "effectPt": "[On Play]/[Quando atacar] Se o seu oponente tiver mais cartas de DON!! no campo dele do que você, adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a descansada.",
+    "effectPt": "[On Play]/[Quando atacar] Se seu oponente tiver mais cartas de DON!! on o campo dele(a) do que você, Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[On Play]/[When Attacking] If your opponent has more DON!! cards on their field than you, add up to 1 DON!! card from your DON!! deck and rest it.",
     "keywordIds": [
       "on-play",
@@ -322,7 +322,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[On Play]/[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Até 1 dos seus Líderes ganha +1000 de poder até o início do seu próximo turno.",
+    "effectPt": "[On Play]/[Quando atacar] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Até 1 do seu Líder ganha +1000 Poder até o início do seu próximo turno.",
     "effectEn": "[On Play]/[When Attacking] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Up to 1 of your Leader gains +1000 power until the start of your next turn.",
     "keywordIds": [
       "on-play",
@@ -348,7 +348,7 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Blocker] (Depois que seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, compre 1 carta e descarte 1 carta da sua mão.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Once Per Turn] Quando uma carta de DON!! no seu campo for retornada para o seu Deck de DON!!, compre 1 carta e descartar 1 carta da sua mão.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Once Per Turn] When a DON!! card on your field is returned to your DON!! deck, draw 1 card and trash 1 card from your hand.",
     "keywordIds": [
       "blocker",
@@ -372,7 +372,7 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Counter] Até 1 das suas cartas de Líder ou Personagem ganha +2000 de poder durante esta batalha, e dê K.O. em até 1 dos Personagens do seu oponente com 2000 de poder ou menos.",
+    "effectPt": "[Counter] Até 1 do seu Líder ou carta(s) de Personagem ganha +2000 Poder durante esta batalha, e K.O. Até 1 dos Personagens do seu oponente com 2000 ou menos de Poder.",
     "effectEn": "[Counter] Up to 1 of your Leader or Character cards gains +2000 power during this battle, and K.O. up to 1 of your opponent's Characters with 2000 power or less.",
     "keywordIds": [
       "counter"
@@ -395,9 +395,9 @@
     "subtypes": [
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Main] Dê K.O. em até 1 dos Personagens do seu oponente com 7000 de poder ou menos.",
+    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com 7000 ou menos de Poder.",
     "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with 7000 power or less.",
-    "triggerPt": "[Trigger] Até 1 dos seus Líderes ganha +1000 de poder até o final do seu próximo turno.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ganha +1000 Poder até o fim dos seus próximo turno.",
     "triggerEn": "[Trigger] Up to 1 of your Leader gains +1000 power until the end of your next turn.",
     "keywordIds": [
       "trigger"
@@ -420,9 +420,9 @@
     "subtypes": [
       "Piratas do Kid"
     ],
-    "effectPt": "[Main] Descanse até 1 dos Personagens do seu oponente com custo 2 ou menos, e adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a descansada.",
+    "effectPt": "[Main] descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos, e Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e descanse-a.",
     "effectEn": "[Main] Rest up to 1 of your opponent's Characters with a cost of 2 or less, and add up to 1 DON!! card from your DON!! deck and rest it.",
-    "triggerPt": "[Trigger] Adicione até 1 carta de DON!! do seu Deck de DON!! e coloque-a como ativa.",
+    "triggerPt": "[Trigger] Adicione até 1 carta(s) de DON!! do seu Deck de DON!! e coloque-a como ativa.",
     "triggerEn": "[Trigger] Add up to 1 DON!! card from your DON!! deck and set it as active.",
     "keywordIds": [
       "trigger"

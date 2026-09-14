@@ -15,7 +15,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Blocker] (Após seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta do tipo {FILM} da sua mão: Dê até 1 carta de DON!! descansada para o seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [Activate: Main] [Once Per Turn] Você pode descartar 1 {FILM} carta do tipo da sua mão: Dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [Activate: Main] [Once Per Turn] You may trash 1 {FILM} type card from your hand: Give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "blocker",
@@ -41,7 +41,7 @@
     "subtypes": [
       "FILM"
     ],
-    "effectPt": "[Blocker] (Após seu oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] Você pode descartar qualquer quantidade de cartas do tipo {Music} da sua mão. Seu Líder ou 1 dos seus Personagens ganha +1000 de poder durante esta batalha para cada carta descartada.",
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On Your Opponent's Attack] Você pode descartar qualquer número de {Music} tipo cartas da sua mão. seu Líder ou 1 dos seus Personagens ganha +1000 Poder durante esta batalha para cada carta descartada.",
     "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On Your Opponent's Attack] You may trash any number of {Music} type cards from your hand. Your Leader or 1 of your Characters gains +1000 power during this battle for every card trashed.",
     "keywordIds": [
       "blocker",
@@ -67,7 +67,7 @@
       "FILM",
       "Piratas da Big Mom"
     ],
-    "effectPt": "Se o seu Líder tiver o tipo {FILM} e você tiver 6 ou mais cartas descansadas, este Personagem ganha +2000 de poder.",
+    "effectPt": "Se o seu Líder tiver o tipo {FILM} e você tiver 6 ou mais descansado(a) cartas, este Personagem ganha +2000 Poder.",
     "effectEn": "If your Leader has the {FILM} type and you have 6 or more rested cards, this Character gains +2000 power.",
     "keywordIds": [],
     "setId": "ST-16",
@@ -91,7 +91,7 @@
       "Quatro Imperadores",
       "Piratas do Ruivo"
     ],
-    "effectPt": "[On Play] Dê K.O. em até 1 dos Personagens descansados do seu oponente.",
+    "effectPt": "[On Play] K.O. Até 1 Personagem(ns) descansado(s) do seu oponente.",
     "effectEn": "[On Play] K.O. up to 1 of your opponent's rested Characters.",
     "keywordIds": [
       "on-play"
@@ -102,7 +102,7 @@
   {
     "id": "ST16-005",
     "code": "ST16-005",
-    "namePt": "Monkey D. Luffy",
+    "namePt": "Monkey D Luffy",
     "nameEn": "Monkey D Luffy",
     "cardType": "CHARACTER",
     "colors": [
@@ -117,7 +117,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "Se você tiver uma [Uta] descansada, este Personagem ganha +1000 de poder.",
+    "effectPt": "Se você tiver a descansado(a) [Uta], este Personagem ganha +1000 Poder.",
     "effectEn": "If you have a rested [Uta], this Character gains +1000 power.",
     "keywordIds": [],
     "setId": "ST-16",
