@@ -8,15 +8,15 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 
 - [x] **Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)**
 - [x] **Épico 2: Revisão & Polimento de Telas e UX Mobile**
-- [ ] **Épico 3: Deploy Contínuo (Vercel / Cloudflare Pages) & Produção**
-- [x] **Épico 4: Melhorias de OCR & Motor de Matching**
+- [x] **Épico 3: Deploy Contínuo (Cloudflare Pages) & Produção**
+- [ ] **Épico 4: Refinamento de OCR & Tradução Contínua**
 - [ ] **Épico 5: Recursos de Comunidade & Ferramentas de Jogador**
 
 ---
 
 ## 📌 Tarefas Detalhadas
 
-### Épico 1: Automação de Ingestão & Painel de Sincronização (ADM)
+### Épico 1: Automação de Ingestão & Painel de Sincronização (ADM) (Concluído)
 - [x] **TASK-01:** Criar workflow do GitHub Actions (`.github/workflows/sync-cards.yml`) com cron semanal para buscar novas coleções no *Punk Records*.
 - [x] **TASK-02:** Adicionar passo de validação léxica (`audit_words.js`) e build no workflow antes de commitar dados automaticamente.
 - [x] **TASK-03:** Criar tela/modal administrativo simples protegido por PIN/Chave no PWA para acionar a sincronização sob demanda via GitHub Repository Dispatch API.
@@ -30,11 +30,11 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-09:** Revisão da busca manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)): debounce, performance da lista virtualizada, fechamento suave e feedback de resultado vazio.
 - [x] **TASK-10:** Revisão de navegação e controles globais: remoção de arquivos legados não utilizados (`Navigation.tsx`, `PieMenu.tsx`) e consolidação em [`Header.tsx`](../src/components/Header.tsx) + [`NavigationDrawer.tsx`](../src/components/NavigationDrawer.tsx).
 
-### Épico 3: Deploy & Infraestrutura de Produção
+### Épico 3: Deploy & Infraestrutura de Produção (Concluído)
 - [x] **TASK-11:** Inicializar repositório Git local (`git init`, `.gitignore` e primeiro commit semântico).
-- [ ] **TASK-12:** Configurar projeto na Vercel ou Cloudflare Pages com build `npm run build` e diretório de saída `dist`.
+- [x] **TASK-12:** Configurar projeto na Cloudflare Pages com build `npm run build` e diretório de saída `dist`.
 - [x] **TASK-13:** Configurar headers de cache agressivo para assets estáticos e service worker PWA no arquivo de configuração da hospedagem (`vercel.json` ou `_headers`).
-- [ ] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção.
+- [x] **TASK-14:** Validar instalação do PWA ("Adicionar à Tela Inicial") e funcionamento offline em dispositivo móvel real via URL de produção da Cloudflare.
 
 ### Épico 4: Refinamento de OCR & Tradução Contínua
 - [x] **TASK-15:** Ampliar regras em [`scripts/fix_translations.js`](../scripts/fix_translations.js) para zerar os resíduos em inglês mapeados no `audit_words.js`.
@@ -42,6 +42,18 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
 - [x] **TASK-17:** Refinamento léxico exaustivo, regras de concordância sintática PT-BR (Nami OP03-040, Reiju OP06-042, Luffy OP01-024) e atualização de pílulas de regras interativas (`[DON!! xN]`, `[Activate: Main]`, `[On Block]`).
 - [x] **TASK-18:** Ingestão Automática de Coleções Inéditas (Bandai API) & Tradução via Google Gemini Flash API (Free Tier) integrada ao GitHub Actions (`.github/workflows/sync-cards.yml`) com sanitização determinística.
 - [x] **TASK-19:** Refatoração SOLID da pasta `scripts/` (`scripts/lib/card_parser.js`, `card_loader.js`, `translation_rules.js`), unificando `ingest_cards.js` e `ingest_promos.js` em um único motor de ingestão e eliminando duplicações.
+- [ ] **TASK-23:** Otimização Avançada do Motor de OCR & Filtro Anti-Reflexo/Glare ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)):
+  - Implementar pipeline de pré-processamento de imagem no Canvas (equalização de histograma, atenuação de reflexos de luz/glare em sleeves transparentes, ajuste adaptativo de contraste e binarização de ROI) para maximizar a taxa de acerto do Tesseract.js sob iluminação adversa.
+- [ ] **TASK-24:** Avaliação de Aprendizado de Máquina (Machine Learning / WebML) para Seleção e Classificação de Cartas ([`ScannerOverlay.tsx`](../src/components/ScannerOverlay.tsx)):
+  - Avaliar a viabilidade de integrar um modelo leve de Machine Learning no cliente (ex: ONNX Runtime Web / MobileNet / embeddings visuais) para classificação e ordenação de candidatos a cartas sem exigir grandes refatorações na arquitetura offline-first.
+
+### Épico 5: Recursos de Comunidade & Ferramentas de Jogador
+- [ ] **TASK-20:** Filtros Específicos por Atributos (Menus Suspensos) na Busca Manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)):
+  - Implementar linha com 9 seletores suspensos (dropdowns) para busca refinada por propriedades de jogo: Set, Type, Color, Attribute, Cost, Power, Counter, Rarity e Block.
+- [ ] **TASK-21:** Empacotamento do PWA para Aplicativo Móvel Nativo (Capacitor / TWA / Stores):
+  - Converter/empacotar a aplicação Web PWA para aplicativo móvel distribuível (Android/iOS via Capacitor ou Trusted Web Activity) pronto para publicação nas lojas de aplicativos.
+- [ ] **TASK-22:** Abstração da Engine para Suporte Genérico Multi-TCG (Qualquer Card Game):
+  - Desacoplar os esquemas de dados, regras gramaticais e motor de OCR de One Piece Card Game em uma arquitetura modular baseada em adaptadores/plugins, permitindo reaproveitar o scanner e tradutor para outros jogos de cartas (ex: Lorcana, Pokémon, Magic, Yu-Gi-Oh!).
 
 ---
 
