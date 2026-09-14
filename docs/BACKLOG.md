@@ -48,8 +48,29 @@ Este documento registra as tarefas de melhoria, automação e novas funcionalida
   - Avaliar a viabilidade de integrar um modelo leve de Machine Learning no cliente (ex: ONNX Runtime Web / MobileNet / embeddings visuais) para classificação e ordenação de candidatos a cartas sem exigir grandes refatorações na arquitetura offline-first.
 
 ### Épico 5: Recursos de Comunidade & Ferramentas de Jogador
-- [ ] **TASK-20:** Filtros Específicos por Atributos (Menus Suspensos) na Busca Manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)):
-  - Implementar linha com 9 seletores suspensos (dropdowns) para busca refinada por propriedades de jogo: Set, Type, Color, Attribute, Cost, Power, Counter, Rarity e Block.
+- [ ] **TASK-20:** Filtros Específicos por Atributos (9 Menus Suspensos) na Busca Manual ([`ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx)):
+  - **Descrição:** Implementação de grade/linha de 9 seletores suspensos (dropdowns) com design dark glassmorphism e iluminação temática para filtragem refinada de cartas no modal de busca manual.
+  - **Especificação Técnica dos 9 Seletores:**
+    1. **Set (Coleção):** Filtrar por `setId` (ex: OP-01, OP-02, ..., EB-01, ST-01, PROMO).
+    2. **Type (Tipo):** Leader, Character, Event, Stage.
+    3. **Color (Cor):** Red, Green, Blue, Purple, Black, Yellow, Multi.
+    4. **Attribute (Atributo):** Strike, Slash, Special, Wisdom, Ranged.
+    5. **Cost (Custo):** 0 a 10+.
+    6. **Power (Poder):** Faixas de poder (0-2000, 3000-5000, 6000-8000, 9000-11000, 12000+).
+    7. **Counter (Contra-Ataque):** Sem Counter, +1000, +2000.
+    8. **Rarity (Raridade):** C, UC, R, SR, SEC, L, SP, P (inferido de `cardType` / `code` se não preenchido no JSON).
+    9. **Block (Bloco de Rotação de Formato):** Número do bloco impresso nas cartas físicas OPTCG para controle de rotação no formato Standard (Bloco 1, Bloco 2, Bloco 3, Bloco 4, Bloco 5+).
+  - **Mapeamento do Bloco de Rotação (*Block Number*):**
+    - **Bloco 1 (`[1]`):** `OP01` a `OP04`, `ST01` a `ST10`, `EB01`, Promos 2022-2023.
+    - **Bloco 2 (`[2]`):** `OP05` a `OP08`, `ST11` a `ST14`, `EB02` a `EB03`, Promos 2024.
+    - **Bloco 3 (`[3]`):** `OP09` a `OP12`, `ST15` a `ST21`, `EB04` a `EB05`, Promos 2025.
+    - **Bloco 4 (`[4]`):** `OP13` a `OP15`, `ST22` a `ST28`.
+    - **Bloco 5 (`[5]`):** `OP16` e `OP17`, `ST29+`, `EB06+`.
+  - **Subtarefas de Desenvolvimento:**
+    - *Subtarefa 20.1:* Estender a interface `Card` em [`src/types/index.ts`](../src/types/index.ts) adicionando `rarity?: string;` e `block?: number;`.
+    - *Subtarefa 20.2:* Criar função utilitária `getCardBlockNumber(card: Card): number` em [`src/utils/formatters.ts`](../src/utils/formatters.ts) para inferência determinística do número do bloco por prefixo da coleção.
+    - *Subtarefa 20.3:* Atualizar a função de busca composta `searchCards` em [`src/utils/cardSearch.ts`](../src/utils/cardSearch.ts) com avaliação booleana composta de performance para os 9 filtros simultâneos.
+    - *Subtarefa 20.4:* Construir a interface responsiva dos 9 dropdowns em [`src/components/ManualSearchModal.tsx`](../src/components/ManualSearchModal.tsx) com botão "Limpar Filtros" e contador de resultados.
 - [ ] **TASK-21:** Empacotamento do PWA para Aplicativo Móvel Nativo (Capacitor / TWA / Stores):
   - Converter/empacotar a aplicação Web PWA para aplicativo móvel distribuível (Android/iOS via Capacitor ou Trusted Web Activity) pronto para publicação nas lojas de aplicativos.
 - [ ] **TASK-22:** Abstração da Engine para Suporte Genérico Multi-TCG (Qualquer Card Game):
