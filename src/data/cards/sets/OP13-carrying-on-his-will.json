@@ -332,7 +332,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas [Portgas.D.Ace] ganha +3000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus [Portgas.D.Ace] cartas ganha +3000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
     "keywordIds": [
       "trigger"

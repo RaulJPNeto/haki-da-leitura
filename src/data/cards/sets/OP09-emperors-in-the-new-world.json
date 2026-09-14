@@ -2600,7 +2600,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, adicione até 1 carta do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, descarte 2 cartas da sua mão.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, descartar 2 cartas da sua mão.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
     "keywordIds": [
       "trigger"
@@ -2681,7 +2681,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Exército Revolucionário} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Exército Revolucionário} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -2765,7 +2765,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão dele, seu oponente descarta 2 cartas da mão dele.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 2 cartas de a mão dele(a).",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
     "keywordIds": [
       "trigger"

@@ -2556,7 +2556,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Piratas de Thriller Bark} com custo 4 ou menos da sua Lixeira descansada.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
       "trigger"
@@ -2748,7 +2748,7 @@
     ],
     "effectPt": "[Blocker]",
     "effectEn": "[Blocker]",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Piratas de Thriller Bark} com custo 4 ou menos da sua Lixeira descansada.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
       "blocker",

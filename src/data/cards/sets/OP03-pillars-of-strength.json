@@ -2495,7 +2495,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta do topo ou do fundo das suas cartas de Vida: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta de o topo ou fundo das suas cartas de Vida: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
     "keywordIds": [
       "trigger"

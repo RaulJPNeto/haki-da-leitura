@@ -2822,7 +2822,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta e dê K.O. em até 1 Personagem do seu oponente com custo 3 ou menos.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta e K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "trigger"

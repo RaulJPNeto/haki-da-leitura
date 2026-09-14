@@ -41,7 +41,7 @@ export function extractKeywords(effectText = '', triggerText = '') {
   const kwSet = new Set();
 
   if (full.includes('blocker') || full.includes('bloqueador')) kwSet.add('blocker');
-  if (full.includes('rush: character') || full.includes('investida: personagem')) kwSet.add('rush-character');
+  if (full.includes('rush: character') || full.includes('rush: personagem') || full.includes('investida: personagem') || full.includes('investida contra personagens')) kwSet.add('rush-character');
   else if (full.includes('rush') || full.includes('investida')) kwSet.add('rush');
   if (full.includes('on play') || full.includes('ao jogar')) kwSet.add('on-play');
   if (full.includes('when attacking') || full.includes('ao atacar')) kwSet.add('when-attacking');

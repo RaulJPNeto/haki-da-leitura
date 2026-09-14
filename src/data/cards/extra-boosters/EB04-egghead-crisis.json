@@ -167,7 +167,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente. [Activate: Main] [Once Per Turn] Se seu oponente tiver a Personagem com 8000 ou mais de Poder, este Personagem ganha [Rush: Personagem] durante este turno.",
+    "effectPt": "[On Play] seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente. [Activate: Main] [Once Per Turn] Se seu oponente tiver a Personagem com 8000 ou mais de Poder, este Personagem ganha [Rush: Character] durante este turno.",
     "effectEn": "[On Play] Your Leader gains +2000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] If your opponent has a Character with 8000 power or more, this Character gains [Rush: Character] during this turn.",
     "keywordIds": [
       "rush-character",
@@ -265,7 +265,7 @@
     "subtypes": [
       "Neptunian"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre a carta para cada dos seus {Neptunian} tipo Personagens. Em seguida, descartar o mesmo número de cartas da sua mão.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre a carta para cada dos seus {Neptunian} tipo Personagens. Em seguida, descartar o mesmo número de cartas da sua mão.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw a card for each of your {Neptunian} type Characters. Then, trash the same number of cards from your hand.",
     "keywordIds": [
       "rush-character",

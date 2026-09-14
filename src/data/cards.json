@@ -2881,7 +2881,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão} e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o {Homem-Peixe} ou {Tritão} tipo e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -4767,7 +4767,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[On Play] seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente. [Activate: Main] [Once Per Turn] Se seu oponente tiver a Personagem com 8000 ou mais de Poder, este Personagem ganha [Rush: Personagem] durante este turno.",
+    "effectPt": "[On Play] seu Líder ganha +2000 Poder até o fim da próxima Fase Final do seu oponente. [Activate: Main] [Once Per Turn] Se seu oponente tiver a Personagem com 8000 ou mais de Poder, este Personagem ganha [Rush: Character] durante este turno.",
     "effectEn": "[On Play] Your Leader gains +2000 power until the end of your opponent's next End Phase. [Activate: Main] [Once Per Turn] If your opponent has a Character with 8000 power or more, this Character gains [Rush: Character] during this turn.",
     "keywordIds": [
       "rush-character",
@@ -4865,7 +4865,7 @@
     "subtypes": [
       "Neptunian"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre a carta para cada dos seus {Neptunian} tipo Personagens. Em seguida, descartar o mesmo número de cartas da sua mão.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre a carta para cada dos seus {Neptunian} tipo Personagens. Em seguida, descartar o mesmo número de cartas da sua mão.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw a card for each of your {Neptunian} type Characters. Then, trash the same number of cards from your hand.",
     "keywordIds": [
       "rush-character",
@@ -11063,7 +11063,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "trigger",
@@ -14699,7 +14699,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta do topo ou do fundo das suas cartas de Vida: Jogue esta carta.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta de o topo ou fundo das suas cartas de Vida: Jogue esta carta.",
     "triggerEn": "[Trigger] You may trash 1 card from the top or bottom of your Life cards: Play this card.",
     "keywordIds": [
       "trigger"
@@ -17805,7 +17805,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das cartas de Líder ou Personagem do seu oponente não pode atacar durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do Líder do seu oponente ou carta(s) de Personagem não pode atacar durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
     "keywordIds": [
       "trigger"
@@ -22046,7 +22046,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Homem-Peixe} ou {Sereiano} com custo de 3 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Homem-Peixe} ou {Tritão} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
     "keywordIds": [
       "trigger"
@@ -23991,7 +23991,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem do tipo {País de Wano} ganha +2000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +2000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
     "keywordIds": [
       "trigger"
@@ -26759,7 +26759,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem do tipo {Egghead} ganha +2000 de poder até o final do seu próximo turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus {Egghead} tipo Líder ou carta(s) de Personagem ganha +2000 Poder até o fim dos seus próximo turno.",
     "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
     "keywordIds": [
       "trigger"
@@ -26843,7 +26843,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Retorne até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para o dono's mão e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -26871,7 +26871,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 dos seus Personagens do tipo {Egghead} ganha [Blocker] durante este turno. Em seguida, adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Até 1 dos seus {Egghead} tipo Personagens ganha [Blocker] durante este turno. Em seguida, adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
     "keywordIds": [
       "blocker",
@@ -26899,7 +26899,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, compre 2 cartas.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, compre 2 cartas.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
     "keywordIds": [
       "trigger"
@@ -27140,7 +27140,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 carta de Líder ou Personagem do seu oponente.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "keywordIds": [
       "trigger"
@@ -30126,7 +30126,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta e dê K.O. em até 1 Personagem do seu oponente com custo 3 ou menos.",
+    "triggerPt": "[Trigger] Você pode descartar 1 carta da sua mão: Se você tiver 2 ou menos cartas de Vida, jogue esta carta e K.O. Até 1 dos Personagens do seu oponente com custo de 3 ou menos.",
     "triggerEn": "[Trigger] You may trash 1 card from your hand: If you have 2 or less Life cards, play this card and K.O. up to 1 of your opponent's Characters with a cost of 3 or less.",
     "keywordIds": [
       "trigger"
@@ -32891,7 +32891,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, adicione até 1 carta do topo do seu Deck ao topo das suas cartas de Vida. Em seguida, descarte 2 cartas da sua mão.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, descartar 2 cartas da sua mão.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, add up to 1 card from the top of your deck to the top of your Life cards. Then, trash 2 cards from your hand.",
     "keywordIds": [
       "trigger"
@@ -32972,7 +32972,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Exército Revolucionário} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Exército Revolucionário} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Revolutionary Army} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -33056,7 +33056,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão dele, seu oponente descarta 2 cartas da mão dele.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão dele(a), seu oponente descarta 2 cartas de a mão dele(a).",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
     "keywordIds": [
       "trigger"
@@ -41796,7 +41796,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo 4 ou menos.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -41927,7 +41927,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo 1 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 1 ou menos e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -42517,7 +42517,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas [Portgas.D.Ace] ganha +3000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus [Portgas.D.Ace] cartas ganha +3000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
     "keywordIds": [
       "trigger"
@@ -47720,7 +47720,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Piratas de Thriller Bark} com custo 4 ou menos da sua Lixeira descansada.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
       "trigger"
@@ -47912,7 +47912,7 @@
     ],
     "effectPt": "[Blocker]",
     "effectEn": "[Blocker]",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Piratas de Thriller Bark} com custo 4 ou menos da sua Lixeira descansada.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
     "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
     "keywordIds": [
       "blocker",
@@ -50541,7 +50541,7 @@
     "subtypes": [
       "Rolling Pirates"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, Até 1 dos seus [Monkey.D.Luffy] Personagens ganha [Rush: Personagem] e o <Slash> atributo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, Até 1 dos seus [Monkey.D.Luffy] Personagens ganha [Rush: Character] e o <Slash> atributo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: If you have 15 or more cards in your trash, up to 1 of your [Monkey.D.Luffy] Characters gains [Rush: Character] and the <Slash> attribute during this turn.",
     "keywordIds": [
       "rush-character",
@@ -50867,7 +50867,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Palco amarela com custo de 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue Até 1 amarelo(a) Personagem ou carta(s) de Palco com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"
@@ -53412,7 +53412,7 @@
     "subtypes": [
       "Sete Corsários"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre 2 cartas e descartar 2 cartas da sua mão. Em seguida, dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre 2 cartas e descartar 2 cartas da sua mão. Em seguida, dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "rush-character",
@@ -53823,7 +53823,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue até 1 [Absalom], até 1 [Dr. Hogback] e até 1 [Perona] com custo de 4 ou menos da sua lixeira.",
+    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue Até 1 [Absalom], Até 1 [Dr. Hogback], e Até 1 [Perona], com custo de 4 ou menos da sua lixeira.",
     "triggerEn": "[Trigger] If you have 1 or less Life cards, play up to 1 [Absalom], up to 1 [Dr. Hogback], and up to 1 [Perona], with a cost of 4 or less from your trash.",
     "keywordIds": [
       "trigger"
@@ -54272,7 +54272,7 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Rush: Personagem] [On Play] Se o seu Líder for [Edward.Newgate] ou tem o {País de Wano} tipo, dê Até 1 Personagem(ns) descansado(s) do seu oponente −6000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] [On Play] Se o seu Líder for [Edward.Newgate] ou tem o {País de Wano} tipo, dê Até 1 Personagem(ns) descansado(s) do seu oponente −6000 Poder durante este turno.",
     "effectEn": "[Rush: Character] [On Play] If your Leader is [Edward.Newgate] or has the {Land of Wano} type, give up to 1 of your opponent's rested Characters −6000 power during this turn.",
     "keywordIds": [
       "rush-character",
@@ -54867,7 +54867,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo}, compre 1 carta e descanse Até 2 dos Personagens do seu oponente.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo}, compre 1 carta e descanse Até 2 dos Personagens do seu oponente.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the {Red-Haired Pirates} type, draw 1 card and rest up to 2 of your opponent's Characters.",
     "keywordIds": [
       "rush-character",
@@ -55387,7 +55387,7 @@
     "subtypes": [
       "Rocks Pirates"
     ],
-    "effectPt": "[Rush: Personagem] [Quando atacar]/[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta com um tipo que inclua \"Rocks Pirates\" da sua mão: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] [Quando atacar]/[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta com um tipo que inclua \"Rocks Pirates\" da sua mão: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
     "effectEn": "[Rush: Character] [When Attacking]/[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card with a type including \"Rocks Pirates\" from your hand: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "keywordIds": [
       "rush-character",
@@ -55925,7 +55925,7 @@
       "Homem-Peixe",
       "Piratas das Feras"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] DON!! −1: If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "rush-character",
@@ -58223,7 +58223,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -59163,7 +59163,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Supernovas} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -63256,7 +63256,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Descanse até 1 Personagem do seu oponente com custo de 2 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -63429,7 +63429,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 1 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 1 ou menos e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -66146,7 +66146,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Olhe até 1 carta do topo das cartas de Vida suas ou do seu oponente e coloque-a no topo ou no fundo das cartas de Vida. Em seguida, adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -68147,7 +68147,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo igual ou inferior ao total de cartas de Vida suas e do seu oponente.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com a custo igual a ou menos do que o total dos seus e do cartas de Vida do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "keywordIds": [
       "trigger"
@@ -68172,7 +68172,7 @@
       "Egghead",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta com a [Trigger] da sua mão: Compre 1 carta e dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [Activate: Main] [Once Per Turn] Você pode descartar 1 carta com a [Trigger] da sua mão: Compre 1 carta e dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [Activate: Main] [Once Per Turn] You may trash 1 card with a [Trigger] from your hand: Draw 1 card and give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
     "keywordIds": [
       "rush-character",
@@ -68908,7 +68908,7 @@
     "subtypes": [
       "Former Roger Pirates"
     ],
-    "effectPt": "Se o seu Líder tiver o atributo, este Personagem ganha [Rush: Personagem]. (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] descanse Até 2 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "effectPt": "Se o seu Líder tiver o atributo, este Personagem ganha [Rush: Character]. (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] descanse Até 2 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "If your Leader has the attribute, this Character gains [Rush: Character]. (This card can attack Characters on the turn in which it is played.) [On Play] Rest up to 2 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "rush-character",
@@ -68934,7 +68934,7 @@
       "Supernovas",
       "Bando do Chapéu de Palha"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o atributo, descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o atributo, descanse Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the attribute, rest up to 1 of your opponent's Characters with a cost of 2 or less.",
     "keywordIds": [
       "rush-character",
@@ -69391,7 +69391,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta e o poder base do seu Líder do tipo {Supernovas} torna-se 7000 durante este turno.",
+    "triggerPt": "[Trigger] Compre 1 carta e seu {Supernovas} tipo Poder base do seu Líder torna-se 7000 durante este turno.",
     "triggerEn": "[Trigger] Draw 1 card and your {Supernovas} type Leader's base power becomes 7000 during this turn.",
     "keywordIds": [
       "trigger"

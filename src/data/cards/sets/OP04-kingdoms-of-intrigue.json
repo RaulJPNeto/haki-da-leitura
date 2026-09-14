@@ -2522,7 +2522,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das cartas de Líder ou Personagem do seu oponente não pode atacar durante este turno.",
+    "triggerPt": "[Trigger] Até 1 do Líder do seu oponente ou carta(s) de Personagem não pode atacar durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your opponent's Leader or Character cards cannot attack during this turn.",
     "keywordIds": [
       "trigger"

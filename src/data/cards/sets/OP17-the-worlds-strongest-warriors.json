@@ -66,7 +66,7 @@
       "País de Wano",
       "Piratas do Barba Branca"
     ],
-    "effectPt": "[Rush: Personagem] [On Play] Se o seu Líder for [Edward.Newgate] ou tem o {País de Wano} tipo, dê Até 1 Personagem(ns) descansado(s) do seu oponente −6000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] [On Play] Se o seu Líder for [Edward.Newgate] ou tem o {País de Wano} tipo, dê Até 1 Personagem(ns) descansado(s) do seu oponente −6000 Poder durante este turno.",
     "effectEn": "[Rush: Character] [On Play] If your Leader is [Edward.Newgate] or has the {Land of Wano} type, give up to 1 of your opponent's rested Characters −6000 power during this turn.",
     "keywordIds": [
       "rush-character",
@@ -661,7 +661,7 @@
     "subtypes": [
       "Piratas do Ruivo"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo}, compre 1 carta e descanse Até 2 dos Personagens do seu oponente.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Se o seu Líder tiver o tipo {Piratas do Ruivo}, compre 1 carta e descanse Até 2 dos Personagens do seu oponente.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] If your Leader has the {Red-Haired Pirates} type, draw 1 card and rest up to 2 of your opponent's Characters.",
     "keywordIds": [
       "rush-character",
@@ -1181,7 +1181,7 @@
     "subtypes": [
       "Rocks Pirates"
     ],
-    "effectPt": "[Rush: Personagem] [Quando atacar]/[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta com um tipo que inclua \"Rocks Pirates\" da sua mão: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] [Quando atacar]/[On Your Opponent's Attack] [Once Per Turn] Você pode descartar 1 carta com um tipo que inclua \"Rocks Pirates\" da sua mão: Dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
     "effectEn": "[Rush: Character] [When Attacking]/[On Your Opponent's Attack] [Once Per Turn] You may trash 1 card with a type including \"Rocks Pirates\" from your hand: Give up to 1 of your opponent's Characters −3000 power during this turn.",
     "keywordIds": [
       "rush-character",
@@ -1719,7 +1719,7 @@
       "Homem-Peixe",
       "Piratas das Feras"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] DON!! −1: Se o seu Líder tiver o tipo {Piratas das Feras}, dê Até 1 dos Personagens do seu oponente −2000 Poder durante este turno.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] DON!! −1: If your Leader has the {Animal Kingdom Pirates} type, give up to 1 of your opponent's Characters −2000 power during this turn.",
     "keywordIds": [
       "rush-character",

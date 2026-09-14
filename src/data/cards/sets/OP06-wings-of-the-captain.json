@@ -779,7 +779,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Homem-Peixe} ou {Sereiano} com custo de 3 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Jogue Até 1 {Homem-Peixe} ou {Tritão} tipo carta(s) de Personagem com custo de 3 ou menos da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
     "keywordIds": [
       "trigger"
@@ -2724,7 +2724,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem do tipo {País de Wano} ganha +2000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus {País de Wano} tipo Líder ou carta(s) de Personagem ganha +2000 Poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your {Land of Wano} type Leader or Character cards gains +2000 power during this turn.",
     "keywordIds": [
       "trigger"

@@ -2322,7 +2322,7 @@
     "subtypes": [
       "Rolling Pirates"
     ],
-    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, Até 1 dos seus [Monkey.D.Luffy] Personagens ganha [Rush: Personagem] e o <Slash> atributo durante este turno.",
+    "effectPt": "[Activate: Main] Você pode descartar este Personagem: Se você tiver 15 ou mais cartas na sua lixeira, Até 1 dos seus [Monkey.D.Luffy] Personagens ganha [Rush: Character] e o <Slash> atributo durante este turno.",
     "effectEn": "[Activate: Main] You may trash this Character: If you have 15 or more cards in your trash, up to 1 of your [Monkey.D.Luffy] Characters gains [Rush: Character] and the <Slash> attribute during this turn.",
     "keywordIds": [
       "rush-character",
@@ -2648,7 +2648,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Palco amarela com custo de 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue Até 1 amarelo(a) Personagem ou carta(s) de Palco com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"

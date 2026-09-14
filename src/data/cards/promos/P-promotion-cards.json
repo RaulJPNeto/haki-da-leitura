@@ -990,7 +990,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -1930,7 +1930,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiver um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Supernovas} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"

@@ -2545,7 +2545,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo 4 ou menos.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -2676,7 +2676,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo 1 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] K.O. Até 1 dos Personagens do seu oponente com custo de 1 ou menos e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"

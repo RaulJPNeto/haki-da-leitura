@@ -37,7 +37,8 @@ export const CardDetail: React.FC<CardDetailProps> = ({
             k.namePt.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
             k.nameEn.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
             (k.id === 'don-x' && /^\[DON!!\s*x\d+\]$/i.test(part)) ||
-            (k.id === 'don-minus' && /^\[DON!!\s*[−-]\d+\]$/i.test(part))
+            (k.id === 'don-minus' && /^\[DON!!\s*[−-]\d+\]$/i.test(part)) ||
+            (k.id === 'rush-character' && /^\[(Rush:\s*(Character|Personagem)|Investida:\s*Personagem|Investida contra Personagens)\]$/i.test(part))
         );
 
         if (matchedKeyword) {

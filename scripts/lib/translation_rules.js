@@ -23,7 +23,7 @@ export function translateText(en) {
   t = t.replace(/\[Gatilho\]/gi, '[Trigger]');
   t = t.replace(/\[Bloqueador\]/gi, '[Blocker]');
   t = t.replace(/\[Investida\]/gi, '[Rush]');
-  t = t.replace(/\[Investida: Personagem\]/gi, '[Rush: Character]');
+  t = t.replace(/\[(?:Rush:\s*Personagem|Investida:\s*Personagem|Investida contra Personagens)\]/gi, '[Rush: Character]');
   t = t.replace(/\[Ataque Duplo\]/gi, '[Double Attack]');
   t = t.replace(/\[Banimento\]/gi, '[Banish]');
   t = t.replace(/\[1 Vez por Turno\]/gi, '[Once Per Turn]');
@@ -848,7 +848,7 @@ export function translateText(en) {
   t = t.replace(/\[(?:Trigger|Gatilho)\]/gi, '[Trigger]');
   t = t.replace(/\[(?:Blocker|Bloqueador)\]/gi, '[Blocker]');
   t = t.replace(/\[(?:Rush|Investida)\]/gi, '[Rush]');
-  t = t.replace(/\[(?:Rush:\s*Character|Investida:\s*Personagem)\]/gi, '[Rush: Character]');
+  t = t.replace(/\[(?:Rush:\s*Character|Rush:\s*Personagem|Investida:\s*Personagem|Investida contra Personagens)\]/gi, '[Rush: Character]');
   t = t.replace(/\[(?:Double Attack|Ataque Duplo)\]/gi, '[Double Attack]');
   t = t.replace(/\[(?:Banish|Banimento)\]/gi, '[Banish]');
   t = t.replace(/\[(?:Once Per Turn|Once Per Turno|Once Per turno|1 Vez por Turno)\]/gi, '[Once Per Turn]');

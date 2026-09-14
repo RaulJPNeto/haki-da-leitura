@@ -1357,7 +1357,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão} e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o {Homem-Peixe} ou {Tritão} tipo e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"

@@ -113,19 +113,19 @@
   },
   {
     "id": "rush-character",
-    "rawTag": "[Investida contra Personagens]",
-    "rawTagPt": "[Investida contra Personagens]",
+    "rawTag": "[Investida: Personagem]",
+    "rawTagPt": "[Investida: Personagem]",
     "rawTagEn": "[Rush: Character]",
-    "namePt": "Investida contra Personagens",
+    "namePt": "Investida: Personagem",
     "nameEn": "Rush: Character",
     "category": "KEYWORD_EFFECT",
-    "summaryPt": "Permite atacar no turno em que é jogado, mas APENAS Personagens descansados do oponente.",
-    "fullDescriptionPt": "Esta é uma variação restrita da habilidade Investida. No turno em que entra em campo, este Personagem pode declarar ataque APENAS contra Personagens do oponente que estejam descansados (Rest). Ele NÃO pode atacar o Líder oponente no primeiro turno.",
+    "summaryPt": "Permite que a carta ataque no mesmo turno em que é jogada (habilidade Rush/Investida), mas APENAS Personagens descansados do oponente.",
+    "fullDescriptionPt": "Esta é uma variação restrita da habilidade Rush (Investida). No turno em que entra em campo, este Personagem pode declarar ataque APENAS contra Personagens do oponente que estejam descansados (Rest). Ele NÃO pode atacar o Líder oponente no primeiro turno.",
     "activationTimingPt": "Fase Principal (Main Phase) do seu turno",
     "faqs": [
       {
-        "question": "Posso atacar o Líder do oponente no turno em que baixei um [Investida contra Personagens]?",
-        "answer": "NÃO! Esta é a pegadinha clássica de regras. [Investida contra Personagens] limita a investida inicial estritamente a Personagens alvo que estejam descansados. A partir do seu PRÓXIMO turno, ele poderá atacar o Líder normalmente."
+        "question": "Posso atacar o Líder do oponente no turno em que baixei um [Rush: Character]?",
+        "answer": "NÃO! Esta é a pegadinha clássica de regras. [Rush: Character] limita o ataque no turno de entrada estritamente a Personagens que estejam descansados. A partir do seu PRÓXIMO turno, ele poderá atacar o Líder normalmente."
       }
     ]
   },

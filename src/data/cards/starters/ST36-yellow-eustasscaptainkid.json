@@ -73,7 +73,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta e o poder base do seu Líder do tipo {Supernovas} torna-se 7000 durante este turno.",
+    "triggerPt": "[Trigger] Compre 1 carta e seu {Supernovas} tipo Poder base do seu Líder torna-se 7000 durante este turno.",
     "triggerEn": "[Trigger] Draw 1 card and your {Supernovas} type Leader's base power becomes 7000 during this turn.",
     "keywordIds": [
       "trigger"

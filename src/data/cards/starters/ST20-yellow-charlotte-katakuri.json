@@ -70,7 +70,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Olhe até 1 carta do topo das cartas de Vida suas ou do seu oponente e coloque-a no topo ou no fundo das cartas de Vida. Em seguida, adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Olhe no Até 1 carta de o topo dos seus ou do cartas de Vida do seu oponente, e coloque ela no topo ou fundo do cartas de Vida. Em seguida, adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Look at up to 1 card from the top of your or your opponent's Life cards, and place it at the top or bottom of the Life cards. Then, add this card to your hand.",
     "keywordIds": [
       "trigger"

@@ -2206,7 +2206,7 @@
     "subtypes": [
       "Sete Corsários"
     ],
-    "effectPt": "[Rush: Personagem] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre 2 cartas e descartar 2 cartas da sua mão. Em seguida, dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
+    "effectPt": "[Rush: Character] (Esta carta pode atacar Personagens no turno em que é jogada.) [On Play] Compre 2 cartas e descartar 2 cartas da sua mão. Em seguida, dê Até 1 dos Personagens do seu oponente −4 custo durante este turno.",
     "effectEn": "[Rush: Character] (This card can attack Characters on the turn in which it is played.) [On Play] Draw 2 cards and trash 2 cards from your hand. Then, give up to 1 of your opponent's Characters −4 cost during this turn.",
     "keywordIds": [
       "rush-character",
@@ -2617,7 +2617,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue até 1 [Absalom], até 1 [Dr. Hogback] e até 1 [Perona] com custo de 4 ou menos da sua lixeira.",
+    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue Até 1 [Absalom], Até 1 [Dr. Hogback], e Até 1 [Perona], com custo de 4 ou menos da sua lixeira.",
     "triggerEn": "[Trigger] If you have 1 or less Life cards, play up to 1 [Absalom], up to 1 [Dr. Hogback], and up to 1 [Perona], with a cost of 4 or less from your trash.",
     "keywordIds": [
       "trigger"

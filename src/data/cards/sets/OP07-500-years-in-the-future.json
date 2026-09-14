@@ -2469,7 +2469,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas de Líder ou Personagem do tipo {Egghead} ganha +2000 de poder até o final do seu próximo turno.",
+    "triggerPt": "[Trigger] Até 1 dos seus {Egghead} tipo Líder ou carta(s) de Personagem ganha +2000 Poder até o fim dos seus próximo turno.",
     "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Leader or Character cards gains +2000 power until the end of your next turn.",
     "keywordIds": [
       "trigger"
@@ -2553,7 +2553,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Retorne até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] retorne Até 1 dos Personagens do seu oponente com custo de 4 ou menos para o dono's mão e adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -2581,7 +2581,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 dos seus Personagens do tipo {Egghead} ganha [Blocker] durante este turno. Em seguida, adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Até 1 dos seus {Egghead} tipo Personagens ganha [Blocker] durante este turno. Em seguida, adicione esta carta para a sua mão.",
     "triggerEn": "[Trigger] Up to 1 of your {Egghead} type Characters gains [Blocker] during this turn. Then, add this card to your hand.",
     "keywordIds": [
       "blocker",
@@ -2609,7 +2609,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, compre 2 cartas.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, compre 2 cartas.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, draw 2 cards.",
     "keywordIds": [
       "trigger"
@@ -2850,7 +2850,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 carta de Líder ou Personagem do seu oponente.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead}, descanse Até 1 do Líder do seu oponente ou carta(s) de Personagem.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "keywordIds": [
       "trigger"
