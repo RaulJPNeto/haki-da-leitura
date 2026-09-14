@@ -37,17 +37,20 @@ export const CardDetail: React.FC<CardDetailProps> = ({
             k.namePt.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
             k.nameEn.toLowerCase() === part.replace(/[\[\]]/g, '').toLowerCase() ||
             (k.id === 'don-x' && /^\[DON!!\s*x\d+\]$/i.test(part)) ||
-            (k.id === 'don-minus' && /^\[DON!!\s*[−-]\d+\]$/i.test(part))
+            (k.id === 'don-minus' && /^\[DON!!\s*[−-]\d+\]$/i.test(part)) ||
+            (k.id === 'rush-character' && /^\[(Rush:\s*(Character|Personagem)|Investida:\s*Personagem|Investida contra Personagens)\]$/i.test(part))
         );
 
         if (matchedKeyword) {
+          const displayLabel = matchedKeyword.id === 'rush-character' ? '[Rush: Character]' : part;
+
           return (
             <button
               key={index}
               onClick={() => onSelectKeyword(matchedKeyword.id)}
               className="keyword-tag inline-flex items-center font-heading"
             >
-              <span>{part}</span>
+              <span>{displayLabel}</span>
               <Sparkles className="w-3.5 h-3.5 text-amber-300 ml-1.5" />
             </button>
           );
