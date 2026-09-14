@@ -490,7 +490,8 @@ export const ScannerOverlay: React.FC<ScannerOverlayProps> = ({
     // SINAL 9: Palavras-chave / Tags de Ação
     const detectedKeywords: string[] = [];
     if (textClean.includes('BLOCKER') || textClean.includes('BLOQUEADOR')) detectedKeywords.push('blocker');
-    if (textClean.includes('RUSH') || textClean.includes('INVESTIDA')) detectedKeywords.push('rush');
+    if (textClean.includes('RUSH: CHARACTER') || textClean.includes('RUSH: PERSONAGEM') || textClean.includes('INVESTIDA CONTRA PERSONAGENS')) detectedKeywords.push('rush-character');
+    else if (textClean.includes('RUSH') || textClean.includes('INVESTIDA')) detectedKeywords.push('rush');
     if (textClean.includes('ON PLAY') || textClean.includes('AO JOGAR') || textClean.includes('ON PL') || textClean.includes('ON PY')) detectedKeywords.push('on-play');
     if (textClean.includes('ON K.O.') || textClean.includes('ON KO') || textClean.includes('AO SER K.O.')) detectedKeywords.push('on-ko');
     if (textClean.includes('UNBLOCKABLE') || textClean.includes('NOT BE BLOCKED') || textClean.includes('CANNOT BE BLOCKED') || textClean.includes('NÃO PODE SER BLOQUEADA')) detectedKeywords.push('unblockable');
