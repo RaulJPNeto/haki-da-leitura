@@ -1856,7 +1856,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!): Jogue esta carta.",
+    "triggerPt": "[Trigger] DON!! −1 (Você pode retornar o número especificado de cartas de DON!! do seu campo para o seu Deck de DON!!.): Jogue esta carta.",
     "triggerEn": "[Trigger] DON!! −1 (You may return the specified number of DON!! cards from your field to your DON!! deck.): Play this card.",
     "keywordIds": [
       "trigger",

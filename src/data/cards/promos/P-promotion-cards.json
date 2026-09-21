@@ -990,7 +990,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
