@@ -2850,7 +2850,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 das cartas de Líder ou Personagem do seu oponente.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 carta de Líder ou Personagem do seu oponente.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "keywordIds": [
       "trigger"

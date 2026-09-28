@@ -2648,7 +2648,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 Personagem ou carta de Estágio amarela com custo de 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Palco amarela com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"

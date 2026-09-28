@@ -2617,7 +2617,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue até 1 [Absalom], até 1 [Dr. Hogback] e até 1 [Perona], com custo de 4 ou menos da sua lixeira.",
+    "triggerPt": "[Trigger] Se você tiver 1 ou menos cartas de Vida, jogue até 1 [Absalom], até 1 [Dr. Hogback] e até 1 [Perona] com custo de 4 ou menos da sua lixeira.",
     "triggerEn": "[Trigger] If you have 1 or less Life cards, play up to 1 [Absalom], up to 1 [Dr. Hogback], and up to 1 [Perona], with a cost of 4 or less from your trash.",
     "keywordIds": [
       "trigger"
