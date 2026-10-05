@@ -822,7 +822,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {East azul}, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {East azul}, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {East Blue} type, play this card.",
     "keywordIds": [
       "trigger"

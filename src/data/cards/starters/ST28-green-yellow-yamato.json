@@ -71,7 +71,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {País de Wano} e seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se seu Líder for do tipo {País de Wano} e seu oponente tiver 3 ou menos cartas de Vida, baixe esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Land of Wano} type and your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"

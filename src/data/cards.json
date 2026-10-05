@@ -2881,7 +2881,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Homem-Peixe} ou {Tritão} e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Homem-Peixe} ou {Tritão} e você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Fish-Man} or {Merfolk} type and you have 2 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -13026,7 +13026,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {East azul}, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {East azul}, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {East Blue} type, play this card.",
     "keywordIds": [
       "trigger"
@@ -22046,7 +22046,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Homem-Peixe} ou {Tritão} com custo 3 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Jogue até 1 carta de Personagem do tipo {Homem-Peixe} ou {Sereia} com custo de 3 ou menos da sua mão.",
     "triggerEn": "[Trigger] Play up to 1 {Fish-Man} or {Merfolk} type Character card with a cost of 3 or less from your hand.",
     "keywordIds": [
       "trigger"
@@ -26843,7 +26843,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Retorne até 1 dos Personagens do seu oponente com custo 4 ou menos para a mão do dono e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Retorne até 1 dos Personagens do seu oponente com custo de 4 ou menos para a mão do dono e adicione esta carta à sua mão.",
     "triggerEn": "[Trigger] Return up to 1 of your opponent's Characters with a cost of 4 or less to the owner's hand and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -27140,7 +27140,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 carta de Líder ou Personagem do seu oponente.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Egghead}, descanse até 1 das cartas de Líder ou Personagem do seu oponente.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type, rest up to 1 of your opponent's Leader or Character cards.",
     "keywordIds": [
       "trigger"
@@ -42517,7 +42517,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Até 1 das suas cartas [Portgas.D.Ace] ganha +3000 de poder durante este turno.",
+    "triggerPt": "[Trigger] Até 1 das suas cartas [Portgas.D.Ace] recebe +3000 de poder durante este turno.",
     "triggerEn": "[Trigger] Up to 1 of your [Portgas.D.Ace] cards gains +3000 power during this turn.",
     "keywordIds": [
       "trigger"
@@ -50867,7 +50867,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Palco amarela com custo de 2 ou menos da sua mão.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Arena amarela com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"
@@ -58223,7 +58223,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -59163,7 +59163,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder for do tipo {Supernovas} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Supernovas} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -63256,7 +63256,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Descanse até 1 Personagem do seu oponente com custo de 2 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Descanse até 1 dos Personagens do seu oponente com custo de 2 ou menos e adicione esta carta à sua mão.",
     "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 2 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -63429,7 +63429,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 1 ou menos e adicione esta carta à sua mão.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo de 1 ou menos e adicione esta carta à sua mão.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 1 or less and add this card to your hand.",
     "keywordIds": [
       "trigger"
@@ -67747,7 +67747,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {País de Wano} e seu oponente tiver 3 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se seu Líder for do tipo {País de Wano} e seu oponente tiver 3 ou menos cartas de Vida, baixe esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Land of Wano} type and your opponent has 3 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -67936,7 +67936,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for [Monkey.D.Luffy], jogue esta carta.",
+    "triggerPt": "[Trigger] Se seu Líder for [Monkey.D.Luffy], baixe esta carta.",
     "triggerEn": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
     "keywordIds": [
       "trigger"
@@ -68147,7 +68147,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo igual ou inferior ao total de cartas de Vida suas e do seu oponente.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com um custo igual ou menor que o total de cartas de Vida suas e do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "keywordIds": [
       "trigger"

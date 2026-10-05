@@ -126,7 +126,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder for [Monkey.D.Luffy], jogue esta carta.",
+    "triggerPt": "[Trigger] Se seu Líder for [Monkey.D.Luffy], baixe esta carta.",
     "triggerEn": "[Trigger] If your Leader is [Monkey.D.Luffy], play this card.",
     "keywordIds": [
       "trigger"
@@ -337,7 +337,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo igual ou inferior ao total de cartas de Vida suas e do seu oponente.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com um custo igual ou menor que o total de cartas de Vida suas e do seu oponente.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost equal to or less than the total of your and your opponent's Life cards.",
     "keywordIds": [
       "trigger"
