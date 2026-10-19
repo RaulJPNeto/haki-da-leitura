@@ -2571,7 +2571,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, se você tiver 2 ou menos Cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, se você tiver 2 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] Draw 1 card. Then, if you have 2 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -2648,7 +2648,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue da sua mão até 1 carta de Personagem ou de Palco amarela com custo 2 ou menos.",
+    "triggerPt": "[Trigger] Compre 1 carta. Em seguida, jogue até 1 carta de Personagem ou de Palco amarela com custo de 2 ou menos da sua mão.",
     "triggerEn": "[Trigger] Draw 1 card. Then, play up to 1 yellow Character or Stage card with a cost of 2 or less from your hand.",
     "keywordIds": [
       "trigger"
