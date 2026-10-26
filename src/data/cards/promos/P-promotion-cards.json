@@ -990,7 +990,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Dê K.O. em até 1 Personagem do seu oponente com custo de 4 ou menos.",
+    "triggerPt": "[Trigger] Dê K.O. em até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
     "triggerEn": "[Trigger] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
     "keywordIds": [
       "trigger"
@@ -1930,7 +1930,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Supernovas} e você e o seu oponente tiverem um total de 5 ou menos cartas de Vida, jogue esta carta.",
     "triggerEn": "[Trigger] If your Leader has the {Supernovas} type and you and your opponent have a total of 5 or less Life cards, play this card.",
     "keywordIds": [
       "trigger"
@@ -2573,6 +2573,79 @@
     "setName": "PROMOTION CARDS"
   },
   {
+    "id": "P-152",
+    "code": "P-152",
+    "namePt": "Edward Newgate",
+    "nameEn": "Edward Newgate",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 10,
+    "power": 12000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Quatro Imperadores",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[On Play] seu Líder e todos os seus Personagens ganha +2000 Poder durante este turno. Em seguida, K.O. Até 1 dos Personagens do seu oponente com 3000 ou menos de Poder.",
+    "effectEn": "[On Play] Your Leader and all of your Characters gain +2000 power during this turn. Then, K.O. up to 1 of your opponent's Characters with 3000 power or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-153",
+    "code": "P-153",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[On Play] Dê Até 2 dos Personagens do seu oponente −3000 Poder durante este turno.",
+    "effectEn": "[On Play] Give up to 2 of your opponent's Characters −3000 power during this turn.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-154",
+    "code": "P-154",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Você pode descanse 3 das suas cartas de DON!!: Se o seu Líder for [Portgas.D.Ace], jogue Até 1 [Portgas.D.Ace] com 8000 ou menos de Poder da sua mão.",
+    "effectEn": "[On Play] You may rest 3 of your DON!! cards: If your Leader is [Portgas.D.Ace], play up to 1 [Portgas.D.Ace] with 8000 power or less from your hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
     "id": "P-155",
     "code": "P-155",
     "namePt": "Trafalgar Law",
@@ -2596,6 +2669,32 @@
     "keywordIds": [
       "when-attacking",
       "trigger"
+    ],
+    "setId": "P",
+    "setName": "PROMOTION CARDS"
+  },
+  {
+    "id": "P-157",
+    "code": "P-157",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Elbaf",
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Você pode descartar 1 carta da sua mão: Jogue Até 1 {Elbaf} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira.",
+    "effectEn": "[On Play] You may trash 1 card from your hand: Play up to 1 {Elbaph} type Character card with a cost of 4 or less from your trash.",
+    "keywordIds": [
+      "on-play"
     ],
     "setId": "P",
     "setName": "PROMOTION CARDS"
