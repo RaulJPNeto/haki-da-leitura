@@ -1,0 +1,3036 @@
+[
+  {
+    "id": "OP18-001",
+    "code": "OP18-001",
+    "namePt": "Karoo",
+    "nameEn": "Karoo",
+    "cardType": "LEADER",
+    "colors": [
+      "RED",
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "todos os seus Personagens com both o {Animal} e {Alabasta} types ganha [Rush] e +1000 Poder. [Once Per Turn] Quando seu {Alabasta} tipo Personagem for nocauteado, compre 1 carta.",
+    "effectEn": "All of your Characters with both the {Animal} and {Alabasta} types gain [Rush] and +1000 power. [Once Per Turn] When your {Alabasta} type Character is K.O.'d, draw 1 card.",
+    "keywordIds": [
+      "rush",
+      "once-per-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-002",
+    "code": "OP18-002",
+    "namePt": "Igaram",
+    "nameEn": "Igaram",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "[On Play] Você pode descartar 1 {Alabasta} carta do tipo da sua mão: Compre 2 cartas.",
+    "effectEn": "[On Play] You may trash 1 {Alabasta} type card from your hand: Draw 2 cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-003",
+    "code": "OP18-003",
+    "namePt": "Sea Cat",
+    "nameEn": "Sea Cat",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-004",
+    "code": "OP18-004",
+    "namePt": "Karoo",
+    "nameEn": "Karoo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "Aplique cada um dos seguintes efeitos com base em este Personagem's Poder: • Se ela tiver 5000 Poder ou mais, este Personagem ganha [Rush]. • Se ela tiver 6000 Poder ou mais, este Personagem ganha [Banish]. • Se ela tiver 7000 Poder ou mais, este Personagem ganha [Unblockable].",
+    "effectEn": "Apply each of the following effects based on this Character's power: • If it has 5000 power or more, this Character gains [Rush]. • If it has 6000 power or more, this Character gains [Banish]. • If it has 7000 power or more, this Character gains [Unblockable].",
+    "keywordIds": [
+      "rush",
+      "banish",
+      "unblockable"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-005",
+    "code": "OP18-005",
+    "namePt": "Kung Fu Jugon",
+    "nameEn": "Kung Fu Jugon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "[Your Turn] este Personagem ganha +1000 Poder para cada [Kung Fu Jugon].",
+    "effectEn": "[Your Turn] This Character gains +1000 power for every [Kung Fu Jugon].",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-006",
+    "code": "OP18-006",
+    "namePt": "Koza",
+    "nameEn": "Koza",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "Se você tiver [Nefeltari Vivi], este Personagem ganha [Rush] e +1000 Poder. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "If you have [Nefeltari Vivi], this Character gains [Rush] and +1000 power. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-007",
+    "code": "OP18-007",
+    "namePt": "Smoker",
+    "nameEn": "Smoker",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Alabasta",
+      "Marinha"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Marinha}, este Personagem ganha [Banish] e +1000 Poder. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "If your Leader has the {Navy} type, this Character gains [Banish] and +1000 power. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "trigger",
+      "banish"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-008",
+    "code": "OP18-008",
+    "namePt": "Chaka",
+    "nameEn": "Chaka",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Alabasta}, este Personagem ganha [Rush]. [On Play] Você pode descartar 1 carta(s) de Personagem com 5000 ou menos de Poder da sua mão: Compre 2 cartas e este Personagem ganha [Banish] durante este turno.",
+    "effectEn": "If your Leader has the {Alabasta} type, this Character gains [Rush]. [On Play] You may trash 1 Character card with 5000 power or less from your hand: Draw 2 cards and this Character gains [Banish] during this turn.",
+    "keywordIds": [
+      "rush",
+      "on-play",
+      "banish"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-009",
+    "code": "OP18-009",
+    "namePt": "Super Spot-Billed Duck Troops",
+    "nameEn": "Super Spot-Billed Duck Troops",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [Activate: Main] Você pode descartar este Personagem: Se você tiver 9 ou mais cartas de DON!! no seu campo, jogue Até 1 [Karoo] da sua mão.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [Activate: Main] You may trash this Character: If you have 9 or more DON!! cards on your field, play up to 1 [Karoo] from your hand.",
+    "keywordIds": [
+      "rush",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-010",
+    "code": "OP18-010",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On K.O.] adicione Até 1 carta(s) de Personagem com 4000 ou menos de Poder da sua lixeira para a sua mão.",
+    "effectEn": "[On K.O.] Add up to 1 Character card with 4000 power or less from your trash to your hand.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-011",
+    "code": "OP18-011",
+    "namePt": "Nefeltari Vivi",
+    "nameEn": "Nefeltari Vivi",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "todos os seus Personagens com both o {Animal} e {Alabasta} types ganha +1000 Poder. [Opponent's Turn] este Personagem ganha [Blocker] e +6000 Poder.",
+    "effectEn": "All of your Characters with both the {Animal} and {Alabasta} types gain +1000 power. [Opponent's Turn] This Character gains [Blocker] and +6000 power.",
+    "keywordIds": [
+      "blocker",
+      "opponents-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-012",
+    "code": "OP18-012",
+    "namePt": "Pincers",
+    "nameEn": "Pincers",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "[Quando atacar] Até 1 dos seus Personagens com both o {Animal} e {Alabasta} types ganha +1000 Poder durante este turno.",
+    "effectEn": "[When Attacking] Up to 1 of your Characters with both the {Animal} and {Alabasta} types gains +1000 power during this turn.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-013",
+    "code": "OP18-013",
+    "namePt": "Pell",
+    "nameEn": "Pell",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Alabasta}, este Personagem ganha [Rush]. [On Play] Você pode descartar 1 carta(s) de Personagem com 5000 ou menos de Poder da sua mão: Compre 2 cartas e descarte até 1 dos Personagens do seu oponente com 3000 base Poder ou menos.",
+    "effectEn": "If your Leader has the {Alabasta} type, this Character gains [Rush]. [On Play] You may trash 1 Character card with 5000 power or less from your hand: Draw 2 cards and trash up to 1 of your opponent's Characters with 3000 base power or less.",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-014",
+    "code": "OP18-014",
+    "namePt": "Portgas D Ace",
+    "nameEn": "Portgas D Ace",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Alabasta",
+      "Piratas do Barba Branca"
+    ],
+    "effectPt": "[Quando atacar] Até 1 dos seus {Alabasta} tipo Personagens ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[When Attacking] Up to 1 of your {Alabasta} type Characters gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "when-attacking"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-015",
+    "code": "OP18-015",
+    "namePt": "Eyelashes",
+    "nameEn": "Eyelashes",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "[On Your Opponent's Attack] Você pode descartar este Personagem: Se o seu Líder tiver o tipo {Alabasta}, dê Até 1 do Líder do seu oponente ou Personagens −3000 Poder durante este turno.",
+    "effectEn": "[On Your Opponent's Attack] You may trash this Character: If your Leader has the {Alabasta} type, give up to 1 of your opponent's Leader or Characters −3000 power during this turn.",
+    "keywordIds": [
+      "on-opponents-attack"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-016",
+    "code": "OP18-016",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Alabasta",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Banish] [On K.O.] Jogue Até 1 {Alabasta} tipo carta(s) de Personagem com 6000 ou menos de Poder da sua mão.",
+    "effectEn": "[Banish] [On K.O.] Play up to 1 {Alabasta} type Character card with 6000 power or less from your hand.",
+    "keywordIds": [
+      "banish",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-017",
+    "code": "OP18-017",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "RED"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Alabasta",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Once Per Turn] Se seu {Alabasta} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode dê seu Líder −2000 Poder durante este turno em vez disso. [Quando atacar] Até 1 dos seus {Alabasta} tipo Personagens ganha [Rush] durante este turno.",
+    "effectEn": "[Once Per Turn] If your {Alabasta} type Character would be removed from the field by your opponent's effect, you may give your Leader −2000 power during this turn instead. [When Attacking] Up to 1 of your {Alabasta} type Characters gains [Rush] during this turn.",
+    "keywordIds": [
+      "rush",
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-018",
+    "code": "OP18-018",
+    "namePt": "Let's Go, Karoo!!",
+    "nameEn": "Let's Go, Karoo!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "[Main] todos os seus {Alabasta} tipo Personagens ganha +1000 Poder durante este turno.",
+    "effectEn": "[Main] All of your {Alabasta} type Characters gain +1000 power during this turn.",
+    "triggerPt": "[Trigger] Até 1 do seu Líder ou Personagens ganha +2000 Poder durante este turno.",
+    "triggerEn": "[Trigger] Up to 1 of your Leader or Characters gains +2000 power during this turn.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-019",
+    "code": "OP18-019",
+    "namePt": "Quack!!!",
+    "nameEn": "Quack!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Animal",
+      "Alabasta"
+    ],
+    "effectPt": "[Main] Se você tiver no Personagens com 7000 base Poder ou mais, dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
+    "effectEn": "[Main] If you have no Characters with 7000 base power or more, give up to 1 of your opponent's Characters −3000 power during this turn. [Counter] Your Leader gains +3000 power during this battle.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-020",
+    "code": "OP18-020",
+    "namePt": "Stop Fighting!!!",
+    "nameEn": "Stop Fighting!!!",
+    "cardType": "EVENT",
+    "colors": [
+      "RED"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Alabasta"
+    ],
+    "effectPt": "[Counter] Você pode adicione todos os das suas cartas de Vida para a sua mão: Se o seu Líder for [Nefeltari Vivi], dê do seu oponente Líder e todos os de dele(a) Personagens −5000 Poder durante este turno.",
+    "effectEn": "[Counter] You may add all of your Life cards to your hand: If your Leader is [Nefeltari Vivi], give your opponent's Leader and all of their Characters −5000 power during this turn.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-021",
+    "code": "OP18-021",
+    "namePt": "Franky",
+    "nameEn": "Franky",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN",
+      "PURPLE"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "todos os carta(s) de Palco na sua mão têm Contra-Ataque +3000. [Activate: Main] [Once Per Turn] DON!! −1: Jogue Até 1 carta(s) de Palco com custo de 5 ou menos da sua mão.",
+    "effectEn": "All Stage cards in your hand have a +3000 Counter. [Activate: Main] [Once Per Turn] DON!! −1: Play up to 1 Stage card with a cost of 5 or less from your hand.",
+    "keywordIds": [
+      "activate-main",
+      "counter",
+      "once-per-turn",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-022",
+    "code": "OP18-022",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "LEADER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[DON!! x3] [Quando atacar] [Once Per Turn] Você pode coloque este Líder as ativo(a). Se fizer isso, este Líder não ficará ativo no seu próxima Fase de Restauração.",
+    "effectEn": "[DON!! x3] [When Attacking] [Once Per Turn] You may set this Leader as active. If you do, this Leader will not become active in your next Refresh Phase.",
+    "keywordIds": [
+      "when-attacking",
+      "once-per-turn",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-023",
+    "code": "OP18-023",
+    "namePt": "Gaimon",
+    "nameEn": "Gaimon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "East Blue"
+    ],
+    "effectPt": "[On Play] Até 1 dos seus {East azul} tipo Líder ou Personagens ganha [Banish] durante este turno. (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[On Play] Up to 1 of your {East Blue} type Leader or Characters gains [Banish] during this turn. (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "on-play",
+      "trigger",
+      "banish"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-024",
+    "code": "OP18-024",
+    "namePt": "Kokoro",
+    "nameEn": "Kokoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Tritão",
+      "Water Seven"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar este Personagem: coloque seu Líder as ativo(a).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash this Character: Set your Leader as active.",
+    "keywordIds": [
+      "blocker",
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-025",
+    "code": "OP18-025",
+    "namePt": "Gonbe",
+    "nameEn": "Gonbe",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Water Seven"
+    ],
+    "effectPt": "[fim dos seus turno] Se este Personagem for descansado(a), coloque seu Líder as ativo(a).",
+    "effectEn": "[End of Your Turn] If this Character is rested, set your Leader as active.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-026",
+    "code": "OP18-026",
+    "namePt": "Sanji",
+    "nameEn": "Sanji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "Se seu {Bando do Chapéu de Palha} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode descartar este Personagem em vez disso.",
+    "effectEn": "If your {Straw Hat Crew} type Character would be removed from the field by your opponent's effect, you may trash this Character instead.",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-027",
+    "code": "OP18-027",
+    "namePt": "Zoro &amp; Sogeking",
+    "nameEn": "Zoro &amp; Sogeking",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Sniper Island",
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Opponent's Turn] o base Poder dos seus ativo(a) [Monkey.D.Luffy] Líder com 3 ou mais cartas de DON!! anexada(s) torna-se 7000. [On Play] coloque Até 2 das suas cartas de DON!! as ativo(a). Em seguida, Até 1 dos Personagens do seu oponente com custo de 6 ou menos não pode ser descansado até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "[Opponent's Turn] The base power of your active [Monkey.D.Luffy] Leader with 3 or more DON!! cards given becomes 7000. [On Play] Set up to 2 of your DON!! cards as active. Then, up to 1 of your opponent's Characters with a cost of 6 or less cannot be rested until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "on-play",
+      "opponents-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-028",
+    "code": "OP18-028",
+    "namePt": "Chimney",
+    "nameEn": "Chimney",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven"
+    ],
+    "effectPt": "[Activate: Main] Você pode descanse 1 dos seus [Gonbe] e este Personagem: coloque seu [Monkey.D.Luffy] Líder as ativo(a).",
+    "effectEn": "[Activate: Main] You may rest 1 of your [Gonbe] and this Character: Set your [Monkey.D.Luffy] Leader as active.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-029",
+    "code": "OP18-029",
+    "namePt": "Tony Tony Chopper",
+    "nameEn": "Tony Tony Chopper",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 9,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Rush] [Quando atacar] [Once Per Turn] Dê Até 3 descansado(a) cartas de DON!! ao seu Líder e coloque este Personagem as ativo(a). Em seguida, este Personagem não ficará ativo no seu próxima Fase de Restauração.",
+    "effectEn": "[Rush] [When Attacking] [Once Per Turn] Give up to 3 rested DON!! cards to your Leader and set this Character as active. Then, this Character will not become active in your next Refresh Phase.",
+    "keywordIds": [
+      "rush",
+      "when-attacking",
+      "once-per-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-030",
+    "code": "OP18-030",
+    "namePt": "Nami",
+    "nameEn": "Nami",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Opponent's Turn] Se este Personagem for descansado(a), dê este Personagem −2000 Poder.",
+    "effectEn": "[Opponent's Turn] If this Character is rested, give this Character −2000 power.",
+    "keywordIds": [
+      "opponents-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-031",
+    "code": "OP18-031",
+    "namePt": "Nico Robin",
+    "nameEn": "Nico Robin",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Opponent's Turn] Se seu Personagem for ser removido de campo por um efeito do seu oponente, Você pode descanse este Personagem em vez disso. [fim dos seus turno] coloque Até 1 dos seus {Water Seven} tipo cartas e Até 1 das suas cartas de DON!! as ativo(a).",
+    "effectEn": "[Opponent's Turn] If your Character would be removed from the field by your opponent's effect, you may rest this Character instead. [End of Your Turn] Set up to 1 of your {Water Seven} type cards and up to 1 of your DON!! cards as active.",
+    "keywordIds": [
+      "your-turn",
+      "opponents-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-032",
+    "code": "OP18-032",
+    "namePt": "Buggy",
+    "nameEn": "Buggy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "East Blue",
+      "Piratas do Buggy"
+    ],
+    "effectPt": "[On Play]/[On K.O.] Até 1 Personagem(ns) descansado(s) do seu oponente com 8000 ou menos de Poder não ficará ativo na próxima Fase de Restauração do seu oponente.",
+    "effectEn": "[On Play]/[On K.O.] Up to 1 of your opponent's rested Characters with 8000 power or less will not become active in your opponent's next Refresh Phase.",
+    "keywordIds": [
+      "on-play",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-033",
+    "code": "OP18-033",
+    "namePt": "Banban",
+    "nameEn": "Banban",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [fim dos seus turno] Você pode descartar este Personagem: coloque Até 1 dos seus Personagens as ativo(a).",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [End of Your Turn] You may trash this Character: Set up to 1 of your Characters as active.",
+    "keywordIds": [
+      "blocker",
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-034",
+    "code": "OP18-034",
+    "namePt": "Franky",
+    "nameEn": "Franky",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Jogue Até 1 {o Franky Family} ou {Bando do Chapéu de Palha} carta do tipo com custo de 5 ou menos da sua mão. Em seguida, se você tiver a Palco com custo de 5 ou mais, descanse Até 1 dos Personagens do seu oponente com custo de 6 ou menos.",
+    "effectEn": "[On Play] Play up to 1 {The Franky Family} or {Straw Hat Crew} type card with a cost of 5 or less from your hand. Then, if you have a Stage with a cost of 5 or more, rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-035",
+    "code": "OP18-035",
+    "namePt": "Michael &amp; Hoichael",
+    "nameEn": "Michael &amp; Hoichael",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 3,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-036",
+    "code": "OP18-036",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[fim dos seus turno] Você pode descartar este Personagem: Compre 1 carta e coloque seu Líder as ativo(a).",
+    "effectEn": "[End of Your Turn] You may trash this Character: Draw 1 card and set your Leader as active.",
+    "keywordIds": [
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-037",
+    "code": "OP18-037",
+    "namePt": "Yokozuna",
+    "nameEn": "Yokozuna",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Water Seven"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.) [On K.O.] descanse Até 1 do seu oponente cartas.",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.) [On K.O.] Rest up to 1 of your opponent's cards.",
+    "keywordIds": [
+      "blocker",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-038",
+    "code": "OP18-038",
+    "namePt": "Shoot Down That Flag ",
+    "nameEn": "Shoot Down That Flag ",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Main] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 [Sogeking] ou {Bando do Chapéu de Palha} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 [Sogeking] or {Straw Hat Crew} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Trigger] Compre 1 carta.",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-039",
+    "code": "OP18-039",
+    "namePt": "Gum-Gum Giant Axe",
+    "nameEn": "Gum-Gum Giant Axe",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Counter] Até 1 dos seus [Monkey.D.Luffy] ganha +2000 Poder durante esta batalha. Em seguida, Se o seu Líder for ativo(a), compre 1 carta.",
+    "effectEn": "[Counter] Up to 1 of your [Monkey.D.Luffy] gains +2000 power during this battle. Then, if your Leader is active, draw 1 card.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-040",
+    "code": "OP18-040",
+    "namePt": "Diable Jambe Flambé Shot",
+    "nameEn": "Diable Jambe Flambé Shot",
+    "cardType": "EVENT",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Main] K.O. Até 1 Personagem(ns) descansado(s) do seu oponente com custo de 7 ou menos.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's rested Characters with a cost of 7 or less.",
+    "triggerPt": "[Trigger] descanse Até 1 dos Personagens do seu oponente com custo de 7 ou menos.",
+    "triggerEn": "[Trigger] Rest up to 1 of your opponent's Characters with a cost of 7 or less.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-041",
+    "code": "OP18-041",
+    "namePt": "Ms  All Sunday",
+    "nameEn": "Ms  All Sunday",
+    "cardType": "LEADER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 5000,
+    "counter": null,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "Quando seu Personagem com um tipo que inclua \"Baroque Works\" e 3000 base Poder ou mais for nocauteado, compre 1 carta, e seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "When your Character with a type including \"Baroque Works\" and 3000 base power or more is K.O.'d, draw 1 card, and your opponent trashes 1 card from their hand.",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-042",
+    "code": "OP18-042",
+    "namePt": "Hack",
+    "nameEn": "Hack",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Homem-Peixe",
+      "Dressrosa",
+      "Exército Revolucionário"
+    ],
+    "effectPt": "[On K.O.] Compre 1 carta. [Activate: Main] [Once Per Turn] Dê Até 1 descansado(a) carta de DON!! para 1 dos seus {Dressrosa} tipo Líder ou Personagens.",
+    "effectEn": "[On K.O.] Draw 1 card. [Activate: Main] [Once Per Turn] Give up to 1 rested DON!! card to 1 of your {Dressrosa} type Leader or Characters.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-043",
+    "code": "OP18-043",
+    "namePt": "Accelegator",
+    "nameEn": "Accelegator",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Alabasta",
+      "Baroque Works"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-044",
+    "code": "OP18-044",
+    "namePt": "Mr Beans &amp; Miss Katherina",
+    "nameEn": "Mr Beans &amp; Miss Katherina",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] Compre 1 carta e descartar 1 carta da sua mão.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] Draw 1 card and trash 1 card from your hand.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-045",
+    "code": "OP18-045",
+    "namePt": "Mr Prince",
+    "nameEn": "Mr Prince",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Alabasta",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "o nome desta carta também é considerado [Sanji] de acordo com as regras. este Personagem ganha +1000 Poder para cada 5 Eventos na sua lixeira.",
+    "effectEn": "Also treat this card's name as [Sanji] according to the rules. This Character gains +1000 power for every 5 Events in your trash.",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-046",
+    "code": "OP18-046",
+    "namePt": "Mr 0 &amp; Ms  All Sunday",
+    "nameEn": "Mr 0 &amp; Ms  All Sunday",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[On Play] Compre 2 cartas e dê seu Líder e todos os seus Personagens Até 2 descansado(a) cartas de DON!! cada. [On Your Opponent's Attack] Você pode descartar 1 carta da sua mão: o base Poder do seu Líder com um tipo que inclua \"Baroque Works\" torna-se 7000 durante este turno.",
+    "effectEn": "[On Play] Draw 2 cards and give your Leader and all of your Characters up to 2 rested DON!! cards each. [On Your Opponent's Attack] You may trash 1 card from your hand: The base power of your Leader with a type including \"Baroque Works\" becomes 7000 during this turn.",
+    "keywordIds": [
+      "on-play",
+      "on-opponents-attack"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-047",
+    "code": "OP18-047",
+    "namePt": "Mr 1(Daz Bonez)",
+    "nameEn": "Mr 1(Daz Bonez)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Cross Guild",
+      "Former Baroque Works"
+    ],
+    "effectPt": "[On Play] seu Líder com o {Cross Guild} tipo ou a tipo incluindo \"Baroque Works\" ganha [Unblockable] durante este turno. (esta carta não pode ser bloqueado.)",
+    "effectEn": "[On Play] Your Leader with the {Cross Guild} type or a type including \"Baroque Works\" gains [Unblockable] during this turn. (This card cannot be blocked.)",
+    "keywordIds": [
+      "on-play",
+      "unblockable"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-048",
+    "code": "OP18-048",
+    "namePt": "Mr 1 &amp; Miss Doublefinger",
+    "nameEn": "Mr 1 &amp; Miss Doublefinger",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.) [On Play] Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"Baroque Works\" e um(a) custo de 5 ou menos da sua mão.",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.) [On Play] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 5 or less from your hand.",
+    "keywordIds": [
+      "rush",
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-049",
+    "code": "OP18-049",
+    "namePt": "Mr 2 Bon Kurei(Bentham)",
+    "nameEn": "Mr 2 Bon Kurei(Bentham)",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 carta com um tipo que inclua \"Baroque Works\", adicione ela para a sua mão e coloque o restante no fundo do seu Deck em qualquer ordem. Em seguida, dê Até 1 descansado(a) carta de DON!! ao seu Líder ou 1 dos seus Personagens.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to 1 card with a type including \"Baroque Works\", add it to your hand and place the rest at the bottom of your deck in any order. Then, give up to 1 rested DON!! card to your Leader or 1 of your Characters.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-050",
+    "code": "OP18-050",
+    "namePt": "Mr 3 &amp; Miss Goldenweek",
+    "nameEn": "Mr 3 &amp; Miss Goldenweek",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Blocker] [On Play] Se o tipo do seu Líder incluir \"Baroque Works\", Até 1 dos Personagens do seu oponente com custo de 7 ou menos não pode atacar até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "[Blocker] [On Play] If your Leader's type includes \"Baroque Works\", up to 1 of your opponent's Characters with a cost of 7 or less cannot attack until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "blocker",
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-051",
+    "code": "OP18-051",
+    "namePt": "Mr 4 &amp; Miss MerryChristmas",
+    "nameEn": "Mr 4 &amp; Miss MerryChristmas",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] Você pode descanse 5 das suas cartas de DON!!: coloque Até 1 Personagem com custo de 6 ou menos e Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono em qualquer ordem do dono's choosing.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] You may rest 5 of your DON!! cards: Place up to 1 Character with a cost of 6 or less and up to 1 Character with a cost of 5 or less at the bottom of the owner's deck in any order of the owner's choosing.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-052",
+    "code": "OP18-052",
+    "namePt": "Mr 5 &amp; Miss Valentine",
+    "nameEn": "Mr 5 &amp; Miss Valentine",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 5,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] Jogue Até 1 carta(s) de Personagem com um tipo que inclua \"Baroque Works\" e um(a) custo de 3 ou menos da sua mão.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] Play up to 1 Character card with a type including \"Baroque Works\" and a cost of 3 or less from your hand.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-053",
+    "code": "OP18-053",
+    "namePt": "Mr 7 &amp; Miss Father'sDay",
+    "nameEn": "Mr 7 &amp; Miss Father'sDay",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] Olhe no 3 cartas de o topo do seu Deck, reorganize-as em qualquer ordem e coloque elas no topo ou fundo do seu Deck.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] Look at 3 cards from the top of your deck, reorganize them in any order and place them at the top or bottom of your deck.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-054",
+    "code": "OP18-054",
+    "namePt": "Mr 8 &amp; Ms  Monday",
+    "nameEn": "Mr 8 &amp; Ms  Monday",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [Opponent's Turn] [Once Per Turn] Se seu Personagem com um tipo que inclua \"Baroque Works\" for ser removido de campo por um efeito do seu oponente, Você pode descartar 1 carta da sua mão em vez disso.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [Opponent's Turn] [Once Per Turn] If your Character with a type including \"Baroque Works\" would be removed from the field by your opponent's effect, you may trash 1 card from your hand instead.",
+    "keywordIds": [
+      "opponents-turn",
+      "once-per-turn",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-055",
+    "code": "OP18-055",
+    "namePt": "Mr 9 &amp; Ms  Wednesday",
+    "nameEn": "Mr 9 &amp; Ms  Wednesday",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] retorne Até 1 dos Personagens do seu oponente com custo de 2 ou menos para o dono's mão.",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] Return up to 1 of your opponent's Characters with a cost of 2 or less to the owner's hand.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-056",
+    "code": "OP18-056",
+    "namePt": "Mr 13 &amp; Ms Friday",
+    "nameEn": "Mr 13 &amp; Ms Friday",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 2,
+    "power": 3000,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Animal",
+      "Baroque Works"
+    ],
+    "effectPt": "[DON!! x1] este Personagem ganha +1000 Poder. [On Play] Você pode colocar 1 dos seus Personagens com um tipo que inclua \"Baroque Works\" diferente de este Personagem no fundo do seu Deck: seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "[DON!! x1] This Character gains +1000 power. [On Play] You may place 1 of your Characters with a type including \"Baroque Works\" other than this Character at the bottom of your deck: Your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "on-play",
+      "don-x"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-057",
+    "code": "OP18-057",
+    "namePt": "Atomic Dicer",
+    "nameEn": "Atomic Dicer",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Baroque Works"
+    ],
+    "effectPt": "[Main] Você pode descanse 3 das suas cartas de DON!!: retorne Até 1 Personagem com custo de 5 ou menos para o dono's mão. [Counter] seu Líder ganha +3000 Poder durante esta batalha.",
+    "effectEn": "[Main] You may rest 3 of your DON!! cards: Return up to 1 Character with a cost of 5 or less to the owner's hand. [Counter] Your Leader gains +3000 power during this battle.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-058",
+    "code": "OP18-058",
+    "namePt": "This Kingdom is Doomed  You Can't Save It!",
+    "nameEn": "This Kingdom is Doomed  You Can't Save It!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": 3,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Main] Você pode retorne 1 dos seus Personagens para o dono's mão: coloque Até 1 Personagem com custo de 4 ou menos no fundo do Deck do dono.",
+    "effectEn": "[Main] You may return 1 of your Characters to the owner's hand: Place up to 1 Character with a cost of 4 or less at the bottom of the owner's deck.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-059",
+    "code": "OP18-059",
+    "namePt": "I Pray For Your Success ",
+    "nameEn": "I Pray For Your Success ",
+    "cardType": "EVENT",
+    "colors": [
+      "BLUE"
+    ],
+    "cost": null,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Sete Corsários",
+      "Baroque Works"
+    ],
+    "effectPt": "[Main] Você pode descanse 1 das suas cartas de DON!! e descartar 1 carta com um tipo que inclua \"Baroque Works\" da sua mão: Compre 2 cartas. [Counter] Você pode descartar 1 carta da sua mão: Até 1 do seu Líder ou Personagens ganha +3000 Poder durante esta batalha.",
+    "effectEn": "[Main] You may rest 1 of your DON!! cards and trash 1 card with a type including \"Baroque Works\" from your hand: Draw 2 cards. [Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +3000 power during this battle.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-060",
+    "code": "OP18-060",
+    "namePt": "Saint Gunko",
+    "nameEn": "Saint Gunko",
+    "cardType": "LEADER",
+    "colors": [
+      "PURPLE",
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Once Per Turn] Quando a Personagem for jogada da sua lixeira, compre 2 cartas e descartar 1 carta da sua mão. [Activate: Main] [Once Per Turn] Você pode descartar 1 carta da sua mão: Se você tiver a Personagem com 8000 base Poder ou mais, adicione Até 1 carta de DON!! as ativo(a) do seu Deck de DON!!.",
+    "effectEn": "[Once Per Turn] When a Character is played from your trash, draw 2 cards and trash 1 card from your hand. [Activate: Main] [Once Per Turn] You may trash 1 card from your hand: If you have a Character with 8000 base power or more, add up to 1 DON!! card as active from your DON!! deck.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-061",
+    "code": "OP18-061",
+    "namePt": "Iceburg",
+    "nameEn": "Iceburg",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 2,
+    "power": null,
+    "counter": 1000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Water Seven",
+      "Galley-La Company"
+    ],
+    "effectPt": "[On Play] Olhe no 5 cartas de o topo do seu Deck; revele até um total de 2 carta(s) de Palco ou {Water Seven} tipo cartas e adicione elas para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 5 cards from the top of your deck; reveal up to a total of 2 Stage cards or {Water Seven} type cards and add them to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-062",
+    "code": "OP18-062",
+    "namePt": "Oimo &amp; Kashii",
+    "nameEn": "Oimo &amp; Kashii",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Governo Mundial"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-063",
+    "code": "OP18-063",
+    "namePt": "Kiwi &amp; Mozu",
+    "nameEn": "Kiwi &amp; Mozu",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 3,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[On Play] Você pode K.O. 1 dos seus Palcos com custo de 5 ou menos: adicione Até 1 carta de DON!! as descansado(a) do seu Deck de DON!!.",
+    "effectEn": "[On Play] You may K.O. 1 of your Stages with a cost of 5 or less: Add up to 1 DON!! card as rested from your DON!! deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-064",
+    "code": "OP18-064",
+    "namePt": "Saint Killingham",
+    "nameEn": "Saint Killingham",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Your Turn] [On Play] DON!! −1: Até 1 dos Personagens do seu oponente com 7000 base Poder ou menos e Até 1 dos Personagens do seu oponente com 5000 base Poder ou menos não pode atacar até o fim da próxima Fase Final do seu oponente. [On K.O.] DON!! −1: Jogue este Personagem carta da sua lixeira.",
+    "effectEn": "[Your Turn] [On Play] DON!! −1: Up to 1 of your opponent's Characters with 7000 base power or less and up to 1 of your opponent's Characters with 5000 base power or less cannot attack until the end of your opponent's next End Phase. [On K.O.] DON!! −1: Play this Character card from your trash.",
+    "keywordIds": [
+      "on-play",
+      "your-turn",
+      "on-ko",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-065",
+    "code": "OP18-065",
+    "namePt": "Saint Gunko",
+    "nameEn": "Saint Gunko",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 10,
+    "power": 11000,
+    "counter": null,
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Blocker] [On Play] DON!! −1: Jogue Até 1 {Celestial Dragons} tipo carta(s) de Personagem com 6000 ou menos de Poder da sua lixeira.",
+    "effectEn": "[Blocker] [On Play] DON!! −1: Play up to 1 {Celestial Dragons} type Character card with 6000 power or less from your trash.",
+    "keywordIds": [
+      "blocker",
+      "on-play",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-066",
+    "code": "OP18-066",
+    "namePt": "Zambai",
+    "nameEn": "Zambai",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[Activate: Main] Você pode K.O. 1 dos seus Palcos com custo de 5 ou menos: este Personagem ganha [Rush] durante este turno. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[Activate: Main] You may K.O. 1 of your Stages with a cost of 5 or less: This Character gains [Rush] during this turn. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-067",
+    "code": "OP18-067",
+    "namePt": "Charlotte Smoothie",
+    "nameEn": "Charlotte Smoothie",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Piratas da Big Mom"
+    ],
+    "effectPt": "[On Play] Você pode descartar 1 {Piratas da Big Mom} carta do tipo da sua mão: Compre 2 cartas.",
+    "effectEn": "[On Play] You may trash 1 {Big Mom Pirates} type card from your hand: Draw 2 cards.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-068",
+    "code": "OP18-068",
+    "namePt": "Senor Pink",
+    "nameEn": "Senor Pink",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[Once Per Turn] Se este Personagem for ser nocauteado, Você pode DON!! −1 em vez disso. [On Play] DON!! −1: Até 1 dos Personagens do seu oponente com custo de 7 ou menos não pode ser descansado até o fim da próxima Fase Final do seu oponente.",
+    "effectEn": "[Once Per Turn] If this Character would be K.O.'d, you may DON!! −1 instead. [On Play] DON!! −1: Up to 1 of your opponent's Characters with a cost of 7 or less cannot be rested until the end of your opponent's next End Phase.",
+    "keywordIds": [
+      "on-play",
+      "once-per-turn",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-069",
+    "code": "OP18-069",
+    "namePt": "Sodomu &amp; Gomora",
+    "nameEn": "Sodomu &amp; Gomora",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Animal",
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "Se seu {o Franky Family} tipo Personagem for ser nocauteado, Você pode DON!! −1 e descanse este Personagem em vez disso.",
+    "effectEn": "If your {The Franky Family} type Character would be K.O.'d, you may DON!! −1 and rest this Character instead.",
+    "keywordIds": [
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-070",
+    "code": "OP18-070",
+    "namePt": "Tom",
+    "nameEn": "Tom",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 2000,
+    "attribute": "WISDOM",
+    "subtypes": [
+      "Homem-Peixe",
+      "Water Seven"
+    ],
+    "effectPt": "[On Play] DON!! −1, Você pode descartar 1 carta da sua mão: adicione Até 2 carta(s) de Palco da sua lixeira para a sua mão.",
+    "effectEn": "[On Play] DON!! −1, you may trash 1 card from your hand: Add up to 2 Stage cards from your trash to your hand.",
+    "keywordIds": [
+      "on-play",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-071",
+    "code": "OP18-071",
+    "namePt": "Trebol",
+    "nameEn": "Trebol",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Piratas Donquixote"
+    ],
+    "effectPt": "[Once Per Turn] Se seu {Piratas Donquixote} tipo Personagem for ser removido de campo por um efeito do seu oponente, Você pode DON!! −1 em vez disso. [Opponent's Turn] Se o seu Líder for {Sugar}, este Personagens ganha [Blocker] e +2000 Poder.",
+    "effectEn": "[Once Per Turn] If your {Donquixote Pirates} type Character would be removed from the field by your opponent's effect, you may DON!! −1 instead. [Opponent's Turn] If your Leader is {Sugar}, this Characters gains [Blocker] and +2000 power.",
+    "keywordIds": [
+      "blocker",
+      "opponents-turn",
+      "once-per-turn",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-072",
+    "code": "OP18-072",
+    "namePt": "The Franky Family",
+    "nameEn": "The Franky Family",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[Blocker] [Activate: Main] [Once Per Turn] Você pode K.O. 1 dos seus Palcos com custo de 5 ou menos: Se este Personagem foi jogado neste turno, dê Até 1 dos Personagens do seu oponente −3000 Poder durante este turno.",
+    "effectEn": "[Blocker] [Activate: Main] [Once Per Turn] You may K.O. 1 of your Stages with a cost of 5 or less: If this Character was played on this turn, give up to 1 of your opponent's Characters −3000 power during this turn.",
+    "keywordIds": [
+      "blocker",
+      "activate-main",
+      "once-per-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-073",
+    "code": "OP18-073",
+    "namePt": "T-Bone",
+    "nameEn": "T-Bone",
+    "cardType": "CHARACTER",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Water Seven",
+      "Marinha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-074",
+    "code": "OP18-074",
+    "namePt": "Can You Please Sail on the Ship I Made?!",
+    "nameEn": "Can You Please Sail on the Ship I Made?!",
+    "cardType": "EVENT",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Water Seven",
+      "The Franky Family"
+    ],
+    "effectPt": "[Counter] Se você tiver a Palco com custo de 5 ou mais, Até 1 do seu Líder ou Personagens ganha +4000 Poder durante esta batalha.",
+    "effectEn": "[Counter] If you have a Stage with a cost of 5 or more, up to 1 of your Leader or Characters gains +4000 power during this battle.",
+    "triggerPt": "[Trigger] DON!! −1: adicione Até 2 carta(s) de Palco da sua lixeira para a sua mão.",
+    "triggerEn": "[Trigger] DON!! −1: Add up to 2 Stage cards from your trash to your hand.",
+    "keywordIds": [
+      "trigger",
+      "counter",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-075",
+    "code": "OP18-075",
+    "namePt": "Thousand Sunny",
+    "nameEn": "Thousand Sunny",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Compre 1 carta, Em seguida, adicione Até 1 carta de DON!! as descansado(a) do seu Deck de DON!!. [Activate: Main] DON!! −2, Você pode descanse este Palco: coloque Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens com 7000 ou menos de Poder as ativo(a).",
+    "effectEn": "[On Play] Draw 1 card, then add up to 1 DON!! card as rested from your DON!! deck. [Activate: Main] DON!! −2, you may rest this Stage: Set up to 1 of your {Straw Hat Crew} type Characters with 7000 power or less as active.",
+    "keywordIds": [
+      "on-play",
+      "activate-main",
+      "don-minus"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-076",
+    "code": "OP18-076",
+    "namePt": "Shark Submerge 3",
+    "nameEn": "Shark Submerge 3",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Compre 1 carta, Em seguida, adicione Até 1 carta de DON!! as descansado(a) do seu Deck de DON!!. [On Your Opponent's Attack] Você pode descanse este Palco: seu Líder com 5000 ou menos de Poder e Até 2 dos seus Personagens ganha +1000 Poder durante este turno.",
+    "effectEn": "[On Play] Draw 1 card, then add up to 1 DON!! card as rested from your DON!! deck. [On Your Opponent's Attack] You may rest this Stage: Your Leader with 5000 power or less and up to 2 of your Characters gain +1000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "on-opponents-attack"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-077",
+    "code": "OP18-077",
+    "namePt": "White Hobby Horse 1",
+    "nameEn": "White Hobby Horse 1",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Compre 1 carta, Em seguida, adicione Até 1 carta de DON!! as descansado(a) do seu Deck de DON!!. [Activate: Main] Você pode descanse este Palco: Até 1 dos seus {Bando do Chapéu de Palha} tipo Personagens ganha [Rush: Personagem] durante este turno.",
+    "effectEn": "[On Play] Draw 1 card, then add up to 1 DON!! card as rested from your DON!! deck. [Activate: Main] You may rest this Stage: Up to 1 of your {Straw Hat Crew} type Characters gains [Rush: Character] during this turn.",
+    "keywordIds": [
+      "rush-character",
+      "on-play",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-078",
+    "code": "OP18-078",
+    "namePt": "Mini-Merry",
+    "nameEn": "Mini-Merry",
+    "cardType": "STAGE",
+    "colors": [
+      "PURPLE"
+    ],
+    "cost": 5,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] Compre 1 carta, Em seguida, adicione Até 1 carta de DON!! as descansado(a) do seu Deck de DON!!. [Activate: Main] Você pode descanse este Palco: Dê até um total de 4 do seu Líder ou Personagens 1 descansado(a) carta de DON!! cada.",
+    "effectEn": "[On Play] Draw 1 card, then add up to 1 DON!! card as rested from your DON!! deck. [Activate: Main] You may rest this Stage: Give up to a total of 4 of your Leader or Characters 1 rested DON!! Card each.",
+    "keywordIds": [
+      "on-play",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-079",
+    "code": "OP18-079",
+    "namePt": "Spandam",
+    "nameEn": "Spandam",
+    "cardType": "LEADER",
+    "colors": [
+      "BLACK",
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Activate: Main] Você pode descanse 2 das suas cartas de DON!! e este Líder e descartar 1 carta com um tipo que inclua \"CP\" da sua mão: adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida.",
+    "effectEn": "[Activate: Main] You may rest 2 of your DON!! cards and this Leader and trash 1 card with a type including \"CP\" from your hand: Add up to 1 card from the top of your deck to the top of your Life cards.",
+    "keywordIds": [
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-080",
+    "code": "OP18-080",
+    "namePt": "Van Augur",
+    "nameEn": "Van Augur",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "Egghead",
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Your Turn] [Once Per Turn] Quando a carta for descartada da sua mão por seu [Marshall.D.Teach] Líder's efeito, se você não tiver outros [Van Augur], compre 1 carta. [On K.O.] Compre 1 carta.",
+    "effectEn": "[Your Turn] [Once Per Turn] When a card is trashed from your hand by your [Marshall.D.Teach] Leader's effect, if you have no other [Van Augur], draw 1 card. [On K.O.] Draw 1 Card.",
+    "keywordIds": [
+      "your-turn",
+      "once-per-turn",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-081",
+    "code": "OP18-081",
+    "namePt": "Oars",
+    "nameEn": "Oars",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 10,
+    "power": 11000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Piratas de Thriller Bark"
+    ],
+    "effectPt": "Se você tiver a [Gecko Moria] Personagem, este Personagem ganha [Double Attack] e [Blocker].",
+    "effectEn": "If you have a [Gecko Moria] Character, this Character gains [Double Attack] and [Blocker].",
+    "triggerPt": "[Trigger] Jogue Até 1 {Piratas de Thriller Bark} tipo carta(s) de Personagem com custo de 4 ou menos da sua lixeira descansado(a).",
+    "triggerEn": "[Trigger] Play up to 1 {Thriller Bark Pirates} type Character card with a cost of 4 or less from your trash rested.",
+    "keywordIds": [
+      "blocker",
+      "trigger",
+      "double-attack"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-082",
+    "code": "OP18-082",
+    "namePt": "Catarina Devon",
+    "nameEn": "Catarina Devon",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Egghead",
+      "Piratas do Barba Negra"
+    ],
+    "effectPt": "[Quando atacar] este Poder base deste Personagem torna-se o mesmo as do seu oponente Líder's Poder durante este turno. [On K.O.] Você pode descartar 1 carta da sua mão: Se o seu Líder tiver o tipo {Piratas do Barba Negra}, jogue este Personagem carta da sua lixeira descansado(a).",
+    "effectEn": "[When Attacking] This Character's base power becomes the same as your opponent's Leader's power during this turn. [On K.O.] You may trash 1 card from your hand: If your Leader has the {Blackbeard Pirates} type, play this Character card from your trash rested.",
+    "keywordIds": [
+      "when-attacking",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-083",
+    "code": "OP18-083",
+    "namePt": "Saint Killingham",
+    "nameEn": "Saint Killingham",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 5,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Your Turn] [On Play] Jogue Até 1 [Sleeptids] da sua lixeira. [On K.O.] Você pode descartar 2 cartas da sua mão: Jogue este Personagem carta da sua lixeira.",
+    "effectEn": "[Your Turn] [On Play] Play up to 1 [Sleeptids] from your trash. [On K.O.] You may trash 2 cards from your hand: Play this Character card from your trash.",
+    "keywordIds": [
+      "on-play",
+      "your-turn",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-084",
+    "code": "OP18-084",
+    "namePt": "Saint Gunko",
+    "nameEn": "Saint Gunko",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": null,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[On Play] Olhe no 4 cartas de o topo do seu Deck; revele Até 1 {Holy Knights de God} carta do tipo e adicione ela para a sua mão. Em seguida, descartar o descanse. [Activate: Main] Você pode descanse 4 das suas cartas de DON!!: Jogue Até 1 {Holy Knights de God} tipo carta(s) de Personagem com custo de 6 ou menos da sua lixeira.",
+    "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 {Holy Knights of God} type card and add it to your hand. Then, trash the rest. [Activate: Main] You may rest 4 of your DON!! cards: Play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.",
+    "keywordIds": [
+      "on-play",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-085",
+    "code": "OP18-085",
+    "namePt": "Cerberus",
+    "nameEn": "Cerberus",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Activate: Main] Você pode retorne este Personagem para o dono's mão: Até 1 dos seus [Saint Shamrock] Personagens ganha [Rush], [Banish] ou [Unblockable] durante este turno.",
+    "effectEn": "[Activate: Main] You may return this Character to the owner's hand: Up to 1 of your [Saint Shamrock] Characters gains [Rush], [Banish] or [Unblockable] during this turn.",
+    "keywordIds": [
+      "rush",
+      "activate-main",
+      "banish",
+      "unblockable"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-086",
+    "code": "OP18-086",
+    "namePt": "Goldberg",
+    "nameEn": "Goldberg",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Elbaf",
+      "Novos Piratas Gigantes"
+    ],
+    "effectPt": "este Personagem ganha +12 custo. [On K.O.] K.O. Até 1 dos Personagens do seu oponente com custo de 4 ou menos.",
+    "effectEn": "This Character gains +12 cost. [On K.O.] K.O. up to 1 of your opponent's Characters with a cost of 4 or less.",
+    "keywordIds": [
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-087",
+    "code": "OP18-087",
+    "namePt": "Stansen",
+    "nameEn": "Stansen",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Gigante",
+      "Elbaf",
+      "Novos Piratas Gigantes"
+    ],
+    "effectPt": "este Personagem ganha +12 custo. Se você apenas tiver Personagens com custo de 12 ou mais, este Personagem ganha +2000 Poder.",
+    "effectEn": "This Character gains +12 cost. If you only have Characters with a cost of 12 or more, this Character gains +2000 power.",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-088",
+    "code": "OP18-088",
+    "namePt": "Saint Sommers",
+    "nameEn": "Saint Sommers",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 6,
+    "power": 6000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Your Turn] [On Play] Se você tiver 6 ou mais cartas de DON!! no seu campo, K.O. Até 1 dos Personagens do seu oponente com a base custo de 4 ou menos. [On K.O.] Você pode descartar 2 cartas da sua mão: Jogue este Personagem carta da sua lixeira.",
+    "effectEn": "[Your Turn] [On Play] If you have 6 or more DON!! cards on your field, K.O. up to 1 of your opponent's Characters with a base cost of 4 or less. [On K.O.] You may trash 2 cards from your hand: Play this Character card from your trash.",
+    "keywordIds": [
+      "on-play",
+      "your-turn",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-089",
+    "code": "OP18-089",
+    "namePt": "Dorry",
+    "nameEn": "Dorry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Gigante",
+      "Elbaf",
+      "Giant Pirates"
+    ],
+    "effectPt": "este Personagem ganha +12 custo. [On Play] Você pode descartar 1 carta da sua mão: seu oponente descarta 1 carta de a mão dele(a).",
+    "effectEn": "This Character gains +12 cost. [On Play] You may trash 1 card from your hand: Your opponent trashes 1 card from their hand.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-090",
+    "code": "OP18-090",
+    "namePt": "Brook",
+    "nameEn": "Brook",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-091",
+    "code": "OP18-091",
+    "namePt": "Brogy",
+    "nameEn": "Brogy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 4,
+    "power": 5000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Gigante",
+      "Elbaf",
+      "Giant Pirates"
+    ],
+    "effectPt": "este Personagem ganha +12 custo. [Quando atacar] Você pode descartar 1 carta da sua mão: adicione Até 1 do seu Personagem cartas com custo de 2 ou menos da sua lixeira para a sua mão.",
+    "effectEn": "This Character gains +12 cost. [When Attacking] You may trash 1 card from your hand: Add up to 1 of your Character cards with a cost of 2 or less from your trash to your hand.",
+    "keywordIds": [
+      "when-attacking"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-092",
+    "code": "OP18-092",
+    "namePt": "Roronoa Zoro",
+    "nameEn": "Roronoa Zoro",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 2,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Elbaf",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "se houver a Personagem com custo de 12 ou mais, este Personagem ganha +3000 Poder. Se você tiver 10 ou mais cartas na sua lixeira, este Personagem ganha [Rush]. (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "If there is a Character with a cost of 12 or more, this Character gains +3000 power. If you have 10 or more cards in your trash, this Character gains [Rush]. (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-093",
+    "code": "OP18-093",
+    "namePt": "Sleeptids",
+    "nameEn": "Sleeptids",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 9,
+    "power": 3000,
+    "counter": 2000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "Elbaf"
+    ],
+    "effectPt": "De acordo com as regras deste jogo, Você pode tiver qualquer número de esta carta no seu Deck. [Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "Under the rules of this game, you may have any number of this card in your deck. [Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-094",
+    "code": "OP18-094",
+    "namePt": "Hee Hee Hee!! I Smell Adventure!!",
+    "nameEn": "Hee Hee Hee!! I Smell Adventure!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Elbaf",
+      "Quatro Imperadores",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[Main] Olhe no 5 cartas de o topo do seu Deck; revele Até 1 {Elbaf} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] Look at 5 cards from the top of your deck; reveal up to 1 {Elbaph} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Trigger] Compre 1 carta.",
+    "triggerEn": "[Trigger] Draw 1 card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-095",
+    "code": "OP18-095",
+    "namePt": "I'm Late, I'm Very Late!!",
+    "nameEn": "I'm Late, I'm Very Late!!",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Main] Se o seu Líder tiver o tipo {Celestial Dragons}, olhe no 5 cartas de o topo do seu Deck; revele Até 1 [Sleeptids] ou {Holy Knights de God} carta do tipo e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[Main] If your Leader has the {Celestial Dragons} type, look at 5 cards from the top of your deck; reveal up to 1 [Sleeptids] or {Holy Knights of God} type card and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Trigger] ative esta carta's [Main] efeito.",
+    "triggerEn": "[Trigger] Activate this card's [Main] effect.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-096",
+    "code": "OP18-096",
+    "namePt": "I'll Make the Call",
+    "nameEn": "I'll Make the Call",
+    "cardType": "EVENT",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[Main] Você pode descanse 3 das suas cartas de DON!!: Jogue Até 1 {Holy Knights de God} tipo carta(s) de Personagem com custo de 6 ou menos da sua lixeira. [Counter] Se você tiver 10 ou mais cartas na sua lixeira, Até 1 do seu Líder ou Personagens ganha +4000 Poder durante esta batalha.",
+    "effectEn": "[Main] You may rest 3 of your DON!! cards: Play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash. [Counter] If you have 10 or more cards in your trash, up to 1 of your Leader or Characters gains +4000 power during this battle.",
+    "keywordIds": [
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-097",
+    "code": "OP18-097",
+    "namePt": "Abyss Pentagram",
+    "nameEn": "Abyss Pentagram",
+    "cardType": "STAGE",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God",
+      "Five Elders"
+    ],
+    "effectPt": "Se o seu Líder tiver o tipo {Celestial Dragons}, o custo de jogar {Holy Knights de God} ou {Five Elders} tipo carta(s) de Personagem com custo de 2 ou mais da sua mão irá ser reduzido(a) por 1. [On Play] Compre 1 carta e descartar 2 cartas de o topo do seu Deck.",
+    "effectEn": "If your Leader has the {Celestial Dragons} type, the cost of playing {Holy Knights of God} or {Five Elders} type Character cards with a cost of 2 or more from your hand will be reduced by 1. [On Play] Draw 1 card and trash 2 cards from the top of your deck.",
+    "keywordIds": [
+      "on-play"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-098",
+    "code": "OP18-098",
+    "namePt": "Onigumo",
+    "nameEn": "Onigumo",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Vice Admiral",
+      "Marinha"
+    ],
+    "effectPt": "[Unblockable] (esta carta não pode ser bloqueado.)",
+    "effectEn": "[Unblockable] (This card cannot be blocked.)",
+    "keywordIds": [
+      "unblockable"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-099",
+    "code": "OP18-099",
+    "namePt": "Kaku",
+    "nameEn": "Kaku",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On Play] adicione Até 1 carta com um tipo que inclua \"CP\" da sua mão para o topo ou fundo das suas cartas de Vida viradas para cima.",
+    "effectEn": "[On Play] Add up to 1 card with a type including \"CP\" from your hand to the top or bottom of your Life cards face-up.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", compre 1 carta e coloque Até 1 Personagem com custo de 8 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", draw 1 card and place up to 1 Character with a cost of 8 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-100",
+    "code": "OP18-100",
+    "namePt": "Kalifa",
+    "nameEn": "Kalifa",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 7000,
+    "counter": 1000,
+    "attribute": "SPECIAL",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On Play] Compre 1 carta, Em seguida, adicione Até 1 carta com um tipo que inclua \"CP\" da sua mão para o topo ou fundo das suas cartas de Vida viradas para cima.",
+    "effectEn": "[On Play] Draw 1 card, then add up to 1 card with a type including \"CP\" from your hand to the top or bottom of your Life cards face-up.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", compre 1 carta e descanse Até 1 do Líder do seu oponente ou Personagens.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", draw 1 card and rest up to 1 of your opponent's Leader or Characters.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-101",
+    "code": "OP18-101",
+    "namePt": "Kumadori",
+    "nameEn": "Kumadori",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On K.O.] adicione Até 1 carta com um tipo que inclua \"CP\" da sua mão para o topo ou fundo das suas cartas de Vida viradas para cima.",
+    "effectEn": "[On K.O.] Add up to 1 card with a type including \"CP\" from your hand to the top or bottom of your Life cards face-up.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", K.O. ou descanse Até 1 dos Personagens do seu oponente com custo de 6 ou menos.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", K.O. or rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-102",
+    "code": "OP18-102",
+    "namePt": "Jerry",
+    "nameEn": "Jerry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 6000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP6"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-103",
+    "code": "OP18-103",
+    "namePt": "Jabra",
+    "nameEn": "Jabra",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 6,
+    "power": 8000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On K.O.] adicione Até 1 carta de o topo do seu Deck para o topo das suas cartas de Vida. Em seguida, descarte até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[On K.O.] Add up to 1 card from the top of your deck to the top of your Life cards. Then, trash up to 1 card from the top of your opponent's Life cards.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", compre 1 carta e coloque Até 1 Personagem com custo de 8 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", draw 1 card and place up to 1 Character with a cost of 8 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-104",
+    "code": "OP18-104",
+    "namePt": "Strawberry",
+    "nameEn": "Strawberry",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Vice Admiral",
+      "Marinha"
+    ],
+    "effectPt": "[Banish] (Quando esta carta causa dano, a carta alvo é descartada sem ativar seu Gatilho.)",
+    "effectEn": "[Banish] (When this card deals damage, the target card is trashed without activating its Trigger.)",
+    "keywordIds": [
+      "trigger",
+      "banish"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-105",
+    "code": "OP18-105",
+    "namePt": "Spandam",
+    "nameEn": "Spandam",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 1000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "-",
+    "effectEn": "-",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", revele até 1 carta com tipo incluindo \"CP\" diferente de [Spandam] da sua mão. Ative o efeito de [Trigger] da carta revelada.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", reveal up to 1 card with a type including \"CP\" other than [Spandam] from your hand. Activate the [Trigger] effect of the revealed card.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-106",
+    "code": "OP18-106",
+    "namePt": "Doberman",
+    "nameEn": "Doberman",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Vice Admiral",
+      "Marinha"
+    ],
+    "effectPt": "[Double Attack] (esta carta causa 2 de dano.)",
+    "effectEn": "[Double Attack] (This card deals 2 damage.)",
+    "keywordIds": [
+      "double-attack"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-107",
+    "code": "OP18-107",
+    "namePt": "Nero",
+    "nameEn": "Nero",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": 4000,
+    "counter": 1000,
+    "attribute": "RANGED",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Blocker]",
+    "effectEn": "[Blocker]",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", coloque até 1 Personagem com custo 5 ou menor no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-108",
+    "code": "OP18-108",
+    "namePt": "Funkfreed",
+    "nameEn": "Funkfreed",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": null,
+    "counter": 1000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On Play] Você pode descartar 1 carta com um tipo que inclua \"CP\" da sua mão: Compre 2 cartas. [Activate: Main] Você pode descanse este Personagem: Até 1 dos seus [Spandam] ganha +1000 Poder durante este turno.",
+    "effectEn": "[On Play] You may trash 1 card with a type including \"CP\" from your hand: Draw 2 cards. [Activate: Main] You may rest this Character: Up to 1 of your [Spandam] gains +1000 power during this turn.",
+    "keywordIds": [
+      "on-play",
+      "activate-main"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-109",
+    "code": "OP18-109",
+    "namePt": "Fukurou",
+    "nameEn": "Fukurou",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 5,
+    "power": 4000,
+    "counter": 2000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Blocker]",
+    "effectEn": "[Blocker]",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", dê K.O. ou descanse até 1 dos Personagens do seu oponente com custo 6 ou menor.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", K.O. or rest up to 1 of your opponent's Characters with a cost of 6 or less.",
+    "keywordIds": [
+      "blocker",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-110",
+    "code": "OP18-110",
+    "namePt": "Blueno",
+    "nameEn": "Blueno",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 1,
+    "power": 2000,
+    "counter": 1000,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On Play] Olhe no 4 cartas de o topo do seu Deck; revele Até 1 carta com um tipo que inclua \"CP\" diferente de [Blueno] e adicione ela para a sua mão. Em seguida, coloque o restante no fundo do seu Deck em qualquer ordem.",
+    "effectEn": "[On Play] Look at 4 cards from the top of your deck; reveal up to 1 card with a type including \"CP\" other than [Blueno] and add it to your hand. Then, place the rest at the bottom of your deck in any order.",
+    "triggerPt": "[Trigger] Compre 1 carta e K.O. Até 1 dos Personagens do seu oponente com custo de 2 ou menos.",
+    "triggerEn": "[Trigger] Draw 1 card and K.O. up to 1 of your opponent's Characters with a cost of 2 or less.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-111",
+    "code": "OP18-111",
+    "namePt": "Momonga",
+    "nameEn": "Momonga",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Vice Admiral",
+      "Marinha"
+    ],
+    "effectPt": "[Rush] (Esta carta pode atacar no turno em que é jogada.)",
+    "effectEn": "[Rush] (This card can attack on the turn in which it is played.)",
+    "keywordIds": [
+      "rush"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-112",
+    "code": "OP18-112",
+    "namePt": "Yamakaji",
+    "nameEn": "Yamakaji",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 7,
+    "power": 7000,
+    "counter": 2000,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Vice Admiral",
+      "Marinha"
+    ],
+    "effectPt": "[Blocker] (Após o oponente declarar um ataque, você pode descansar esta carta para torná-la o novo alvo do ataque.)",
+    "effectEn": "[Blocker] (After your opponent declares an attack, you may rest this card to make it the new target of the attack.)",
+    "keywordIds": [
+      "blocker"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-113",
+    "code": "OP18-113",
+    "namePt": "Rob Lucci",
+    "nameEn": "Rob Lucci",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 8,
+    "power": 10000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[On Play]/[On K.O.] descarte até 1 carta de o topo do cartas de Vida do seu oponente.",
+    "effectEn": "[On Play]/[On K.O.] Trash up to 1 card from the top of your opponent's Life cards.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", compre 1 carta e coloque Até 1 Personagem com custo de 8 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", draw 1 card and place up to 1 Character with a cost of 8 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play",
+      "trigger",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-114",
+    "code": "OP18-114",
+    "namePt": "Wanze",
+    "nameEn": "Wanze",
+    "cardType": "CHARACTER",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 3,
+    "power": 4000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "CP7"
+    ],
+    "effectPt": "[On Play] Olhe em todos os das suas cartas de Vida e coloque elas de volta na sua Vida área em qualquer ordem.",
+    "effectEn": "[On Play] Look at all of your Life cards and place them back in your Life area in any order.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", coloque Até 1 Personagem com custo de 5 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "on-play",
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-115",
+    "code": "OP18-115",
+    "namePt": "Ten Finger Pistol",
+    "nameEn": "Ten Finger Pistol",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 4,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Main] K.O. Até 1 dos Personagens do seu oponente com custo de 5 ou menos.",
+    "effectEn": "[Main] K.O. up to 1 of your opponent's Characters with a cost of 5 or less.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", compre 1 carta e coloque Até 1 Personagem com custo de 7 ou menos no fundo do Deck do dono.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", draw 1 card and place up to 1 Character with a cost of 7 or less at the bottom of the owner's deck.",
+    "keywordIds": [
+      "trigger"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-116",
+    "code": "OP18-116",
+    "namePt": "Iron Body Empty Tree",
+    "nameEn": "Iron Body Empty Tree",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": null,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "CP9"
+    ],
+    "effectPt": "[Counter] Você pode descartar 1 carta da sua mão: Até 1 do seu Líder ou Personagens ganha +3000 Poder durante esta batalha.",
+    "effectEn": "[Counter] You may trash 1 card from your hand: Up to 1 of your Leader or Characters gains +3000 power during this battle.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", descanse Até 1 dos Personagens do seu oponente.",
+    "triggerEn": "[Trigger] If your Leader's type includes \"CP\", rest up to 1 of your opponent's Characters.",
+    "keywordIds": [
+      "trigger",
+      "counter"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-117",
+    "code": "OP18-117",
+    "namePt": "Buster Call",
+    "nameEn": "Buster Call",
+    "cardType": "EVENT",
+    "colors": [
+      "YELLOW"
+    ],
+    "cost": 10,
+    "power": null,
+    "counter": null,
+    "subtypes": [
+      "Marinha",
+      "CP9"
+    ],
+    "effectPt": "[Main] Você pode descartar todos os das suas cartas de Vida: Se o seu Líder for [Spandam], descartar todos os Personagens e jogue até um total de 5 {Vice Admiral} tipo carta(s) de Personagem com nome de carta diferentes do seu Deck ou descartar. Em seguida, embaralhe seu Deck.",
+    "effectEn": "[Main] You may trash all of your Life cards: If your Leader is [Spandam], trash all Characters and play up to a total of 5 {Vice Admiral} type Character cards with different card names from your deck or trash. Then, shuffle your deck.",
+    "keywordIds": [],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-118",
+    "code": "OP18-118",
+    "namePt": "Monkey D Luffy",
+    "nameEn": "Monkey D Luffy",
+    "cardType": "CHARACTER",
+    "colors": [
+      "GREEN"
+    ],
+    "cost": 9,
+    "power": 10000,
+    "counter": null,
+    "attribute": "STRIKE",
+    "subtypes": [
+      "Water Seven",
+      "Bando do Chapéu de Palha"
+    ],
+    "effectPt": "[On Play] coloque Até 3 das suas cartas de DON!! as ativo(a). Em seguida, Até 1 dos Personagens do seu oponente não pode ser descansado até o fim da próxima Fase Final do seu oponente. [fim dos seus turno] coloque Até 1 dos seus {Water Seven} tipo cartas as ativo(a).",
+    "effectEn": "[On Play] Set up to 3 of your DON!! cards as active. Then, up to 1 of your opponent's Characters cannot be rested until the end of your opponent's next End Phase. [End of Your Turn] Set up to 1 of your {Water Seven} type cards as active.",
+    "keywordIds": [
+      "on-play",
+      "your-turn"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  },
+  {
+    "id": "OP18-119",
+    "code": "OP18-119",
+    "namePt": "Saint Shamrock",
+    "nameEn": "Saint Shamrock",
+    "cardType": "CHARACTER",
+    "colors": [
+      "BLACK"
+    ],
+    "cost": 8,
+    "power": 9000,
+    "counter": null,
+    "attribute": "SLASH",
+    "subtypes": [
+      "Celestial Dragons",
+      "Holy Knights of God"
+    ],
+    "effectPt": "[On K.O.] Você pode descartar 1 carta da sua mão: Jogue este Personagem carta da sua lixeira. [Activate: Main] [Once Per Turn] Se este Personagem foi jogado neste turno, jogue Até 1 {Holy Knights de God} tipo carta(s) de Personagem com custo de 6 ou menos da sua lixeira.",
+    "effectEn": "[On K.O.] You may trash 1 card from your hand: Play this Character card from your trash. [Activate: Main] [Once Per Turn] If this Character was played on this turn, play up to 1 {Holy Knights of God} type Character card with a cost of 6 or less from your trash.",
+    "keywordIds": [
+      "activate-main",
+      "once-per-turn",
+      "on-ko"
+    ],
+    "setId": "OP-18",
+    "setName": "THE DOMINANCE OF GOD"
+  }
+]

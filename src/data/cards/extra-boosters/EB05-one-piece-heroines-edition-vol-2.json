@@ -1339,7 +1339,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Jogue da sua mão até 2 cartas de Personagem do tipo {Piratas da Big Mom} com 4000 de poder.",
+    "triggerPt": "[Trigger] Jogue até 2 cartas de Personagem do tipo {Piratas da Big Mom} com 4000 de poder da sua mão.",
     "triggerEn": "[Trigger] Play up to 2 {Big Mom Pirates} type Character cards with 4000 power from your hand.",
     "keywordIds": [
       "trigger"
