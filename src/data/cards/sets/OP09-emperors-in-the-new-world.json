@@ -2765,7 +2765,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão, seu oponente descarta 2 cartas da mão dele.",
+    "triggerPt": "[Trigger] Se o seu Líder tiver o tipo {Egghead} e seu oponente tiver 6 ou mais cartas na mão dele, seu oponente descarta 2 cartas da mão dele.",
     "triggerEn": "[Trigger] If your Leader has the {Egghead} type and your opponent has 6 or more cards in their hand, your opponent trashes 2 cards from their hand.",
     "keywordIds": [
       "trigger"

@@ -2663,7 +2663,7 @@
     ],
     "effectPt": "-",
     "effectEn": "-",
-    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", revele até 1 carta com tipo incluindo \"CP\" diferente de [Spandam] da sua mão. Ative o efeito de [Trigger] da carta revelada.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", revele até 1 carta com um tipo que inclua \"CP\" diferente de [Spandam] da sua mão. Ative o efeito [Trigger] da carta revelada.",
     "triggerEn": "[Trigger] If your Leader's type includes \"CP\", reveal up to 1 card with a type including \"CP\" other than [Spandam] from your hand. Activate the [Trigger] effect of the revealed card.",
     "keywordIds": [
       "trigger"
@@ -2714,7 +2714,7 @@
     ],
     "effectPt": "[Blocker]",
     "effectEn": "[Blocker]",
-    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", coloque até 1 Personagem com custo 5 ou menor no fundo do Deck do dono.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", coloque até 1 Personagem com custo 5 ou menos no fundo do Deck do dono.",
     "triggerEn": "[Trigger] If your Leader's type includes \"CP\", place up to 1 Character with a cost of 5 or less at the bottom of the owner's deck.",
     "keywordIds": [
       "blocker",
@@ -2766,7 +2766,7 @@
     ],
     "effectPt": "[Blocker]",
     "effectEn": "[Blocker]",
-    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", dê K.O. ou descanse até 1 dos Personagens do seu oponente com custo 6 ou menor.",
+    "triggerPt": "[Trigger] Se o tipo do seu Líder incluir \"CP\", dê K.O. ou descanse até 1 dos Personagens do seu oponente com custo 6 ou menos.",
     "triggerEn": "[Trigger] If your Leader's type includes \"CP\", K.O. or rest up to 1 of your opponent's Characters with a cost of 6 or less.",
     "keywordIds": [
       "blocker",
